@@ -12,9 +12,22 @@ import rawData from "../../../src/generated/data.json";
 const data = rawData as unknown as Dataset;
 const app = createApp(data);
 
-export const API_URL = (
-  import.meta.env.PUBLIC_API_URL ?? "https://genshin-api.REPLACE_ME.workers.dev"
-).replace(/\/+$/, "");
+const { MODE, DEV, PUBLIC_API_URL } = import.meta.env;
+
+if (!PUBLIC_API_URL) {
+  throw new Error(
+    `PUBLIC_API_URL is not set for mode "${MODE}". Add it to docs/.env.${MODE}`,
+  );
+}
+
+if (!DEV && PUBLIC_API_URL.includes("REPLACE_ME")) {
+  console.warn(
+    `⚠ PUBLIC_API_URL is still a placeholder (${PUBLIC_API_URL}). Update docs/.env.production before deploying.`,
+  );
+}
+
+export const IS_LOCAL = DEV;
+export const API_URL = PUBLIC_API_URL.replace(/\/+$/, "");
 
 export const API_BASE = `${API_URL}${API_PREFIX}`;
 

@@ -112,9 +112,20 @@ npm run build          # rebuilds data and generates docs/dist
 npm run deploy         # build + wrangler deploy (Worker "genshin-api-docs")
 ```
 
-Set `PUBLIC_API_URL` in `docs/.env` (see `docs/.env.example`) to the deployed API URL. It is used in
-examples and by the "Try it" boxes. To try them against a local API, run `npm run dev` in the root
-and set `PUBLIC_API_URL=http://localhost:8787`.
+### Environments
+
+The API URL used in examples and "Try it" boxes is `PUBLIC_API_URL`, picked by mode:
+
+| Command | Mode | File | API URL |
+|---|---|---|---|
+| `npm run dev` | development | `docs/.env.development` | `http://localhost:8787` |
+| `npm run build` / `deploy` | production | `docs/.env.production` | public API URL |
+
+In development a "Local" badge in the header shows which API the docs are using. To test locally,
+run `npm run dev` in the project root (API) and in `docs/` (docs) at the same time.
+
+Update `docs/.env.production` with the real API URL before deploying; the build warns while it is a
+placeholder. For personal overrides use `docs/.env.development.local` (ignored by git).
 
 ## Legacy migration
 

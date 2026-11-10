@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import Logo from "../components/Logo.astro";
-import { API_BASE } from "../lib/api";
+import { API_BASE, API_URL, IS_LOCAL } from "../lib/api";
 
 interface Props {
   title: string;
@@ -35,6 +35,14 @@ const path = Astro.url.pathname;
           <Logo />
           <span>Genshin <em>API</em></span>
         </a>
+        {
+          IS_LOCAL && (
+            <span class="env-badge" title={`Docs are using ${API_URL}`}>
+              <span class="pulse" />
+              Local · {API_URL.replace(/^https?:\/\//, "")}
+            </span>
+          )
+        }
         <nav>
           <a href="/docs/" class:list={{ active: path.startsWith("/docs") && !path.includes("/resources") }}>Docs</a>
           <a href="/docs/resources/characters/" class:list={{ active: path.includes("/resources") }}>Resources</a>
@@ -101,6 +109,34 @@ const path = Astro.url.pathname;
   nav {
     display: flex;
     gap: 0.4rem;
+    margin-left: auto;
+  }
+  .env-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-left: 1.25rem;
+    padding: 0.3em 0.85em;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--dendro) 45%, transparent);
+    background: color-mix(in srgb, var(--dendro) 10%, transparent);
+    color: var(--dendro);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  .pulse {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--dendro);
+    box-shadow: 0 0 8px var(--dendro);
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    50% {
+      opacity: 0.35;
+    }
   }
   nav a {
     font-family: var(--font-display);
@@ -153,6 +189,12 @@ const path = Astro.url.pathname;
     }
     .api-link {
       display: none;
+    }
+    .env-badge {
+      margin-left: 0.6rem;
+      font-size: 0;
+      gap: 0;
+      padding: 0.45em;
     }
     nav a {
       padding: 0.4em 0.7em;

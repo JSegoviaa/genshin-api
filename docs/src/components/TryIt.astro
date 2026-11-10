@@ -1,5 +1,5 @@
 ---
-import { API_URL } from "../lib/api";
+import { API_URL, IS_LOCAL } from "../lib/api";
 
 interface Props {
   path: string;
@@ -7,7 +7,7 @@ interface Props {
 const { path } = Astro.props;
 ---
 
-<form class="try frame" data-api={API_URL}>
+<form class="try frame" data-api={API_URL} data-local={String(IS_LOCAL)}>
   <div class="bar">
     <span class="method">GET</span>
     <span class="host">{API_URL.replace(/^https?:\/\//, "")}</span>
@@ -65,7 +65,10 @@ const { path } = Astro.props;
       } catch {
         status.textContent = "Network error";
         status.classList.add("err");
-        code.textContent = "Could not reach the API. Check that it is deployed and PUBLIC_API_URL is set.";
+        code.textContent =
+          form.dataset.local === "true"
+            ? `Could not reach the local API at ${form.dataset.api}. Start it with "npm run dev" in the project root.`
+            : `Could not reach the API at ${form.dataset.api}. Please try again later.`;
       }
       time.textContent = `${Math.round(performance.now() - started)} ms`;
     });

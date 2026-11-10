@@ -6,3 +6,4 @@ assets/
 .env
 dist/
 .astro/
+*.local
