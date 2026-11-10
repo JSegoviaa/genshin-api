@@ -1,4 +1,5 @@
-import { RESOURCE_NAMES, type BaseItem, type ResourceName } from "./resources";
+import type { BaseItem } from "./resource";
+import { RESOURCE_NAMES, type ResourceName } from "./resource-names";
 
 export type Dataset = Record<ResourceName, BaseItem[]>;
 

@@ -1,57 +1,15 @@
 import { z } from "zod";
-
-const id = z.number().int().positive();
-const slug = z
-  .string()
-  .regex(
-    /^[a-z0-9]+(-[a-z0-9]+)*$/,
-    "Invalid slug (only a-z, 0-9 and hyphens)",
-  );
-const name = z.string().min(1);
-const ref = slug;
-const label = z.string().min(1);
-const image = z
-  .string()
-  .regex(/^[a-z0-9][a-z0-9/_.-]*\.(webp|png|svg|jpg)$/, "Invalid image path");
-const rarity = z.number().int().min(1).max(5);
-const date = z
-  .string()
-  .regex(/^\d{4}-\d{2}-\d{2}$/, "Expected format YYYY-MM-DD");
-const monthDay = z
-  .string()
-  .regex(/^(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/, "Expected format MM-DD");
-
-const base = {
-  $schema: z.string().optional(),
-  id,
-  slug,
+import {
+  base,
+  date,
+  iconOnly,
+  image,
+  label,
+  monthDay,
   name,
-};
-
-const iconOnly = z.object({ icon: image.optional() }).strict();
-
-export const elementSchema = z.object({ ...base, images: iconOnly }).strict();
-export const regionSchema = z.object({ ...base, images: iconOnly }).strict();
-export const weaponTypeSchema = z
-  .object({ ...base, images: iconOnly })
-  .strict();
-
-export const weaponSchema = z
-  .object({
-    ...base,
-    rarity,
-    weaponType: ref,
-    secondaryStat: label.nullable(),
-    series: z.array(label),
-    ascensionMaterial: label.nullable(),
-    images: z
-      .object({
-        icon: image.optional(),
-        awakenedIcon: image.optional(),
-      })
-      .strict(),
-  })
-  .strict();
+  ref,
+  slug,
+} from "../../core/schema";
 
 const constellationLevelSchema = z
   .object({
@@ -119,8 +77,4 @@ export const characterSchema = z
   })
   .strict();
 
-export type Element = z.infer<typeof elementSchema>;
-export type Region = z.infer<typeof regionSchema>;
-export type WeaponType = z.infer<typeof weaponTypeSchema>;
-export type Weapon = z.infer<typeof weaponSchema>;
 export type Character = z.infer<typeof characterSchema>;

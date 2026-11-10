@@ -1,0 +1,61 @@
+import { defineResource, head } from "../../core/resource";
+import { characterSchema } from "./character.schema";
+
+export const characterResource = defineResource({
+  name: "characters",
+  schema: characterSchema,
+  refs: { element: "elements", weaponType: "weapon-types", region: "regions" },
+  filters: {
+    rarity: { description: "Rarity (4-5)", get: (c) => c.rarity },
+    element: { description: "Element slug", get: (c) => c.element },
+    weaponType: { description: "Weapon type slug", get: (c) => c.weaponType },
+    region: { description: "Region slug", get: (c) => c.region },
+    gender: { description: "male | female", get: (c) => c.gender },
+    bodyType: { description: "short | medium | tall", get: (c) => c.bodyType },
+    releaseVersion: {
+      description: "Release version, e.g. 4.2",
+      get: (c) => c.releaseVersion,
+    },
+  },
+  sorts: {
+    rarity: (c) => c.rarity,
+    releaseDate: (c) => c.releaseDate,
+  },
+  summary: (c, ctx) => ({
+    ...head("characters", c, ctx),
+    rarity: c.rarity,
+    element: ctx.ref("elements", c.element),
+    weaponType: ctx.ref("weapon-types", c.weaponType),
+    region: ctx.ref("regions", c.region),
+    gender: c.gender,
+    icon: ctx.image(c.images.icon),
+  }),
+  detail: (c, ctx) => ({
+    ...head("characters", c, ctx),
+    rarity: c.rarity,
+    element: ctx.ref("elements", c.element),
+    weaponType: ctx.ref("weapon-types", c.weaponType),
+    region: ctx.ref("regions", c.region),
+    gender: c.gender,
+    bodyType: c.bodyType,
+    birthday: c.birthday,
+    releaseDate: c.releaseDate,
+    releaseVersion: c.releaseVersion,
+    ascensionStat: c.ascensionStat,
+    localSpecialty: c.localSpecialty,
+    materials: c.materials,
+    constellations: c.constellations.map((k) => ({
+      slug: k.slug,
+      name: k.name,
+      meaning: k.meaning,
+      image: ctx.image(k.images.image),
+      levels: k.levels.map((l) => ({
+        level: l.level,
+        name: l.name,
+        description: l.description,
+        icon: ctx.image(l.images.icon),
+      })),
+    })),
+    images: ctx.images(c.images),
+  }),
+});

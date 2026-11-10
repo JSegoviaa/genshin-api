@@ -1,7 +1,8 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { z } from "zod";
-import { RESOURCE_NAMES, resources } from "../src/resources";
+import { RESOURCE_NAMES } from "../src/core/resource-names";
+import { resources } from "../src/modules";
 
 const outDir = join(import.meta.dirname, "..", "schemas");
 mkdirSync(outDir, { recursive: true });

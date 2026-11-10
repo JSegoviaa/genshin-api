@@ -6,13 +6,10 @@ import {
   writeFileSync,
 } from "node:fs";
 import { basename, join, relative } from "node:path";
-import {
-  RESOURCE_NAMES,
-  resources,
-  type BaseItem,
-  type ResourceName,
-} from "../src/resources";
-import { slugify } from "../src/lib/slug";
+import type { BaseItem } from "../src/core/resource";
+import { RESOURCE_NAMES, type ResourceName } from "../src/core/resource-names";
+import { slugify } from "../src/core/slug";
+import { resources } from "../src/modules";
 
 const root = join(import.meta.dirname, "..");
 const dataDir = join(root, "data");

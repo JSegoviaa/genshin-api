@@ -1,17 +1,11 @@
 import { Hono, type Context } from "hono";
 import { cors } from "hono/cors";
 import { HTTPException } from "hono/http-exception";
-import { slugify } from "./lib/slug";
-import {
-  RESOURCE_NAMES,
-  resources,
-  type BaseItem,
-  type Ctx,
-  type Ref,
-  type ResourceDef,
-  type ResourceName,
-} from "./resources";
-import { Store, type Dataset } from "./store";
+import type { BaseItem, Ctx, Ref, ResourceDef } from "./core/resource";
+import { RESOURCE_NAMES, type ResourceName } from "./core/resource-names";
+import { slugify } from "./core/slug";
+import { Store, type Dataset } from "./core/store";
+import { resources } from "./modules";
 
 export interface Env {
   IMAGES_BASE_URL: string;

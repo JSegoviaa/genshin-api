@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { createApp } from "../src/app";
-import type { Dataset } from "../src/store";
+import type { Dataset } from "../src/core/store";
 
 const data = JSON.parse(
   readFileSync(

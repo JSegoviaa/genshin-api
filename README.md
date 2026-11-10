@@ -11,9 +11,12 @@ Cost: $0 within the free tiers (Workers: 100k requests/day; R2: 10 GB, no egress
 data/<resource>/<slug>.json   ← the data (the only thing you usually edit)
 assets/                       ← local images, same paths as in R2 (not in git)
 schemas/                      ← generated JSON Schema (VS Code autocomplete)
-src/schemas.ts                ← Zod schemas: shape of each resource
-src/resources.ts              ← filters, sorting and response shape of each resource
-src/app.ts                    ← routes (Hono)
+src/core/                     ← shared code: resource types, Zod primitives, store, slugify
+src/modules/<resource>/
+  <name>.schema.ts            ← Zod schema: shape of the JSON files
+  <name>.resource.ts          ← filters, sorting and response shape
+src/modules/index.ts          ← module registry
+src/app.ts                    ← generic routes (Hono)
 scripts/                      ← data build, images and v1 migration
 ```
 
@@ -74,10 +77,11 @@ without touching the data.
 
 ### Adding a new resource (e.g. enemies)
 
-1. Zod schema in `src/schemas.ts`.
-2. Name in `RESOURCE_NAMES` and definition (filters, sorts, `summary`/`detail`) in `src/resources.ts`.
-3. Files in `data/enemies/`. The 3 endpoints are generated automatically.
-4. `npm run schemas` to regenerate the JSON Schema.
+1. Create `src/modules/enemies/enemy.schema.ts` (Zod schema, using the primitives in `src/core/schema.ts`).
+2. Create `src/modules/enemies/enemy.resource.ts` with `defineResource` (filters, sorts, `summary`/`detail`).
+3. Add `"enemies"` to `src/core/resource-names.ts` and register the module in `src/modules/index.ts`.
+4. Add files in `data/enemies/`. The 3 endpoints are generated automatically.
+5. `npm run schemas` to regenerate the JSON Schema.
 
 ## Deployment (one time)
 
