@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 7,
+  "slug": "crit-dmg",
+  "name": "CRIT DMG",
+  "category": "advanced",
+  "element": null,
+  "description": "Critical Damage is abbreviated in-game as CRIT DMG. This attribute, expressed as a percentage, determines how much bonus damage the character does when an attack hits critically.",
+  "images": {}
+}

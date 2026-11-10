@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 27,
+  "slug": "pyro-res",
+  "name": "Pyro RES",
+  "category": "advanced",
+  "element": "pyro",
+  "description": "Reduces incoming Pyro DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

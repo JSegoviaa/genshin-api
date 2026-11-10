@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 23,
+  "slug": "geo-res",
+  "name": "Geo RES",
+  "category": "advanced",
+  "element": "geo",
+  "description": "Reduces incoming Geo DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

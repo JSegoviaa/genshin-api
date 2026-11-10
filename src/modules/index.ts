@@ -7,6 +7,7 @@ import { elementResource } from "./elements/element.resource";
 import { localSpecialtyResource } from "./local-specialties/local-specialty.resource";
 import { rarityResource } from "./rarities/rarity.resource";
 import { regionResource } from "./regions/region.resource";
+import { statResource } from "./stats/stat.resource";
 import { versionResource } from "./versions/version.resource";
 import { weaponTypeResource } from "./weapon-types/weapon-type.resource";
 import { weaponResource } from "./weapons/weapon.resource";
@@ -22,4 +23,5 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   characters: characterResource,
   "artifact-types": artifactTypeResource,
   "artifact-sets": artifactSetResource,
+  stats: statResource,
 };

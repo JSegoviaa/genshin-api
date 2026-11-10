@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 5,
+  "slug": "stamina",
+  "name": "Stamina",
+  "category": "basic",
+  "element": null,
+  "description": "Stamina is a measure of how much physical exertion the character can expend before needing to rest. It is consumed by performing Charged Attacks, dodging, swimming, sprinting, climbing, and gliding. Stamina is restored automatically and gradually when the character stops consuming it for a short time. Maximum Stamina can be increased by collecting Oculi and offering them to the Statue of The Seven or Statue of the New Moon with the specific Oculi. A maximum of 240 stamina can be gained through this method.",
+  "images": {}
+}

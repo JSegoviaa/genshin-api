@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 4,
+  "slug": "elemental-mastery",
+  "name": "Elemental Mastery",
+  "category": "basic",
+  "element": null,
+  "description": "Elemental Mastery, enhances Elemental Reactions. Depending on the type of Elemental Reaction, Elemental Mastery will provide different effects.",
+  "images": {}
+}

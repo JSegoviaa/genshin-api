@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 11,
+  "slug": "cooldown-reduction",
+  "name": "Cooldown Reduction",
+  "category": "advanced",
+  "element": null,
+  "description": "Reduce CD, commonly known as cooldown reduction, is a percentage decrease on the cooldowns after using the character's Elemental Skill or Elemental Burst before they can be used again.",
+  "images": {}
+}

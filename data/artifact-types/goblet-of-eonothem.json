@@ -3,5 +3,97 @@
   "id": 4,
   "slug": "goblet-of-eonothem",
   "name": "Goblet of Eonothem",
+  "mainStats": [
+    {
+      "stat": "hp",
+      "percent": true
+    },
+    {
+      "stat": "atk",
+      "percent": true
+    },
+    {
+      "stat": "def",
+      "percent": true
+    },
+    {
+      "stat": "elemental-mastery",
+      "percent": false
+    },
+    {
+      "stat": "anemo-dmg-bonus",
+      "percent": true
+    },
+    {
+      "stat": "geo-dmg-bonus",
+      "percent": true
+    },
+    {
+      "stat": "electro-dmg-bonus",
+      "percent": true
+    },
+    {
+      "stat": "dendro-dmg-bonus",
+      "percent": true
+    },
+    {
+      "stat": "hydro-dmg-bonus",
+      "percent": true
+    },
+    {
+      "stat": "pyro-dmg-bonus",
+      "percent": true
+    },
+    {
+      "stat": "cryo-dmg-bonus",
+      "percent": true
+    },
+    {
+      "stat": "physical-dmg-bonus",
+      "percent": true
+    }
+  ],
+  "subStats": [
+    {
+      "stat": "hp",
+      "percent": false
+    },
+    {
+      "stat": "atk",
+      "percent": false
+    },
+    {
+      "stat": "def",
+      "percent": false
+    },
+    {
+      "stat": "hp",
+      "percent": true
+    },
+    {
+      "stat": "atk",
+      "percent": true
+    },
+    {
+      "stat": "def",
+      "percent": true
+    },
+    {
+      "stat": "elemental-mastery",
+      "percent": false
+    },
+    {
+      "stat": "energy-recharge",
+      "percent": true
+    },
+    {
+      "stat": "crit-rate",
+      "percent": true
+    },
+    {
+      "stat": "crit-dmg",
+      "percent": true
+    }
+  ],
   "images": {}
 }

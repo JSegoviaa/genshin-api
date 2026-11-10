@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 33,
+  "slug": "damage-reduction",
+  "name": "Damage Reduction",
+  "category": "hidden",
+  "element": null,
+  "description": "Damage Reduction reduces the Percentage Damage Bonus of incoming attacks.",
+  "images": {}
+}

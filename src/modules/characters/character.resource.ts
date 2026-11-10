@@ -15,6 +15,7 @@ export const characterResource = defineResource({
     rarity: { resource: "rarities", key: "id" },
     releaseVersion: { resource: "versions", key: "name" },
     localSpecialty: { resource: "local-specialties", key: "name" },
+    ascensionStat: { resource: "stats", key: "name" },
   },
   filters: {
     rarity: {
@@ -33,6 +34,10 @@ export const characterResource = defineResource({
     localSpecialty: {
       description: "Local specialty slug, e.g. silk-flower",
       get: (c) => c.localSpecialty,
+    },
+    ascensionStat: {
+      description: "Ascension stat slug, e.g. crit-dmg",
+      get: (c) => c.ascensionStat,
     },
   },
   sorts: {
@@ -59,7 +64,7 @@ export const characterResource = defineResource({
     birthday: c.birthday,
     releaseDate: c.releaseDate,
     releaseVersion: ctx.refByName("versions", c.releaseVersion),
-    ascensionStat: c.ascensionStat,
+    ascensionStat: ctx.refByName("stats", c.ascensionStat),
     localSpecialty: ctx.refByName("local-specialties", c.localSpecialty),
     materials: c.materials,
     constellations: c.constellations.map((k) => ({

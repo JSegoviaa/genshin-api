@@ -11,6 +11,7 @@ export const weaponResource = defineResource({
   refs: {
     weaponType: "weapon-types",
     rarity: { resource: "rarities", key: "id" },
+    secondaryStat: { resource: "stats", key: "name" },
   },
   filters: {
     rarity: {
@@ -19,7 +20,7 @@ export const weaponResource = defineResource({
     },
     weaponType: { description: "Weapon type slug", get: (w) => w.weaponType },
     secondaryStat: {
-      description: "Secondary stat, e.g. crit-rate",
+      description: "Secondary stat slug, e.g. crit-rate",
       get: (w) => w.secondaryStat,
     },
     series: {
@@ -38,7 +39,7 @@ export const weaponResource = defineResource({
     ...head("weapons", w, ctx),
     rarity: ctx.refById("rarities", w.rarity),
     weaponType: ctx.ref("weapon-types", w.weaponType),
-    secondaryStat: w.secondaryStat,
+    secondaryStat: ctx.refByName("stats", w.secondaryStat),
     series: w.series,
     ascensionMaterial: w.ascensionMaterial,
     images: ctx.images(w.images),

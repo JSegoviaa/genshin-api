@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 8,
+  "slug": "healing-bonus",
+  "name": "Healing Bonus",
+  "category": "advanced",
+  "element": null,
+  "description": "Healing Bonus, expressed as a percentage, determines the bonus to outgoing healing by characters that can heal themselves or other party members.",
+  "images": {}
+}

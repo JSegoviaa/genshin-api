@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 32,
+  "slug": "interruption-resistance",
+  "name": "Interruption Resistance",
+  "category": "hidden",
+  "element": null,
+  "description": "Interruption Resistance, or poise, affects how difficult it is for a character or an enemy to being staggered. Interruption Resistance functions by reducing incoming Poise Damage.",
+  "images": {}
+}

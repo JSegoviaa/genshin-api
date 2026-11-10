@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 2,
+  "slug": "atk",
+  "name": "ATK",
+  "category": "basic",
+  "element": null,
+  "description": "Attack, abbreviated in-game as ATK, is used to calculate how much damage the character does. All forms of damage calculation except specific Elemental Reactions scale linearly with ATK.",
+  "images": {}
+}

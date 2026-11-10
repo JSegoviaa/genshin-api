@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 13,
+  "slug": "physical-dmg-bonus",
+  "name": "Physical DMG Bonus",
+  "category": "advanced",
+  "element": "physical",
+  "description": "Increases Physical DMG dealt by a percentage.",
+  "images": {}
+}

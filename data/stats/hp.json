@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 1,
+  "slug": "hp",
+  "name": "HP",
+  "category": "basic",
+  "element": null,
+  "description": "Health, abbreviated in-game as HP, is the amount of damage a character is able to take before being KO'd.",
+  "images": {}
+}

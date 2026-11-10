@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 9,
+  "slug": "incoming-healing-bonus",
+  "name": "Incoming Healing Bonus",
+  "category": "advanced",
+  "element": null,
+  "description": "Incoming Healing Bonus, expressed as a percentage, determines the bonus to incoming healing directed at the character.",
+  "images": {}
+}

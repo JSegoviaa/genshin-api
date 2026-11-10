@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 26,
+  "slug": "hydro-res",
+  "name": "Hydro RES",
+  "category": "advanced",
+  "element": "hydro",
+  "description": "Reduces incoming Hydro DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

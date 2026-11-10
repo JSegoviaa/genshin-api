@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 31,
+  "slug": "stamina-consumption",
+  "name": "Stamina Consumption",
+  "category": "hidden",
+  "element": null,
+  "description": "Stamina Consumption describes the percentage increase of stamina used by actions that require stamina.",
+  "images": {}
+}

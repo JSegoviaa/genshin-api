@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 30,
+  "slug": "atk-spd",
+  "name": "ATK SPD",
+  "category": "hidden",
+  "element": null,
+  "description": "Attack Speed, abbreviated as ATK SPD in-game, determines how much faster characters can attack compared to normal. Attack Speed only affects Normal Attacks unless otherwise noted. Note that Attack Speed does not decrease the amount of hitlag characters receive when hitting enemies, so a percentage increase in attack speed will result in a lesser percentage increase in damage-per-second (for attacks that have hitlag, i.e., most melee attacks).",
+  "images": {}
+}

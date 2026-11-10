@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 21,
+  "slug": "physical-res",
+  "name": "Physical RES",
+  "category": "advanced",
+  "element": "physical",
+  "description": "Reduces incoming Physical DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

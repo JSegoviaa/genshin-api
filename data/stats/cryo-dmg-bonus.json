@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 20,
+  "slug": "cryo-dmg-bonus",
+  "name": "Cryo DMG Bonus",
+  "category": "advanced",
+  "element": "cryo",
+  "description": "Increases Cryo DMG dealt by a percentage.",
+  "images": {}
+}

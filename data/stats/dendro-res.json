@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 25,
+  "slug": "dendro-res",
+  "name": "Dendro RES",
+  "category": "advanced",
+  "element": "dendro",
+  "description": "Reduces incoming Dendro DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

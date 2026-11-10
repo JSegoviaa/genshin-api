@@ -22,7 +22,7 @@ scripts/                      ← data build, JSON schemas and images
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `stats`.
 
 | Endpoint | Description |
 |---|---|
@@ -36,10 +36,12 @@ List parameters:
 - `sort`: `id`, `name` and resource-specific fields; prefix with `-` for descending (`sort=-releaseDate`)
 - `name`: partial search (`name=hu`)
 - Resource filters, accepting comma-separated values:
-  - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`
+  - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`, `ascensionStat`
   - `local-specialties`: `region`
   - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`
+  - `artifact-types`: `mainStat` (e.g. `crit-rate`)
+  - `stats`: `category` (`basic`, `advanced`, `hidden`), `element`
   - `rarity` accepts the number of stars or the rarity slug (`rarity=5` or `rarity=5-star`)
 
 Examples:
@@ -74,10 +76,11 @@ npm run typecheck
 5. `npm run images:sync` uploads new images to R2 and `npm run deploy` publishes the API.
 
 References to exposed resources are stored by slug (`"element": "pyro"`), except `rarity`, which is
-stored as the number of stars (`"rarity": 5`) and returned as a reference to `rarities`. Fields pointing to resources not yet
-exposed by the API (stats, materials, local specialties, weapon series) are stored by name
-(`"ascensionStat": "CRIT DMG"`). Once those resources exist, they will be resolved with `slugify(name)`
-without touching the data.
+stored as the number of stars (`"rarity": 5`) and returned as a reference to `rarities`. Some fields
+are stored by name and resolved with `slugify(name)`: `releaseVersion`, `localSpecialty`,
+`ascensionStat` and `secondaryStat` (`"ascensionStat": "CRIT DMG"` → `stats/crit-dmg`). Fields
+pointing to resources not yet exposed by the API (materials, weapon series) are also stored by name
+and will be resolved the same way once those resources exist, without touching the data.
 
 ### Adding a new resource (e.g. enemies)
 

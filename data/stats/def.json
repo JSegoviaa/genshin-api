@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 3,
+  "slug": "def",
+  "name": "DEF",
+  "category": "basic",
+  "element": null,
+  "description": "Defense, abbreviated in-game as DEF, is a means of reducing incoming DMG. The higher one's defense, the less damage the character takes from attacks.",
+  "images": {}
+}

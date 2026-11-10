@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 29,
+  "slug": "movement-spd",
+  "name": "Movement SPD",
+  "category": "hidden",
+  "element": null,
+  "description": "Movement speed, abbreviated as Movement SPD in-game, determines how much faster characters move in relation to their normal movement speed.",
+  "images": {}
+}

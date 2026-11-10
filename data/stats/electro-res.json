@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 24,
+  "slug": "electro-res",
+  "name": "Electro RES",
+  "category": "advanced",
+  "element": "electro",
+  "description": "Reduces incoming Electro DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

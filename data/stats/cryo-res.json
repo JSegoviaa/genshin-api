@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 28,
+  "slug": "cryo-res",
+  "name": "Cryo RES",
+  "category": "advanced",
+  "element": "cryo",
+  "description": "Reduces incoming Cryo DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

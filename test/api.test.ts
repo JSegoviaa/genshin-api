@@ -208,6 +208,63 @@ describe("detail", () => {
     expect(type.body.artifactSets.length).toBe(circlets.body.count);
   });
 
+  it("returns stats with their characters and weapons", async () => {
+    const { status, body } = await get("/api/v1/stats/crit-rate");
+    expect(status).toBe(200);
+    expect(body).toMatchObject({ name: "CRIT Rate", category: "advanced" });
+    expect(body.description.length).toBeGreaterThan(0);
+    expect(body.characters.length).toBeGreaterThan(0);
+    expect(body.weapons.length).toBeGreaterThan(0);
+    const pyro = await get("/api/v1/stats?element=pyro");
+    expect(pyro.body.results.map((s: any) => s.slug).sort()).toEqual([
+      "pyro-dmg-bonus",
+      "pyro-res",
+    ]);
+    const hidden = await get("/api/v1/stats?category=hidden&limit=100");
+    expect(hidden.body.results.every((s: any) => s.category === "hidden")).toBe(
+      true,
+    );
+  });
+
+  it("links characters and weapons to their stats", async () => {
+    const hu = await get("/api/v1/characters/hu-tao");
+    expect(hu.body.ascensionStat).toMatchObject({
+      slug: "crit-dmg",
+      url: "http://api.test/api/v1/stats/crit-dmg",
+    });
+    const homa = await get("/api/v1/weapons/staff-of-homa");
+    expect(homa.body.secondaryStat).toMatchObject({ slug: "crit-dmg" });
+    const filtered = await get(
+      "/api/v1/characters?ascensionStat=crit-dmg&limit=100",
+    );
+    expect(filtered.body.results.map((c: any) => c.slug)).toContain("hu-tao");
+  });
+
+  it("returns artifact main stats and sub stats", async () => {
+    const flower = await get("/api/v1/artifact-types/flower-of-life");
+    expect(flower.body.mainStats).toEqual([
+      {
+        stat: expect.objectContaining({ slug: "hp" }),
+        percent: false,
+      },
+    ]);
+    expect(flower.body.subStats).toHaveLength(10);
+    const crit = await get("/api/v1/artifact-types?mainStat=crit-rate");
+    expect(crit.body.results.map((t: any) => t.slug)).toEqual([
+      "circlet-of-logos",
+    ]);
+    const stat = await get("/api/v1/stats/crit-rate");
+    expect(stat.body.artifacts.mainStat.map((t: any) => t.slug)).toEqual([
+      "circlet-of-logos",
+    ]);
+    expect(stat.body.artifacts.subStat).toHaveLength(5);
+    const pyro = await get("/api/v1/stats/pyro-dmg-bonus");
+    expect(pyro.body.artifacts.mainStat.map((t: any) => t.slug)).toEqual([
+      "goblet-of-eonothem",
+    ]);
+    expect(pyro.body.artifacts.subStat).toEqual([]);
+  });
+
   it("returns rarity as a reference", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.rarity).toMatchObject({
@@ -254,6 +311,7 @@ describe("random", () => {
       "characters",
       "artifact-types",
       "artifact-sets",
+      "stats",
     ]) {
       expect((await get(`/api/v1/${r}/random`)).status).toBe(200);
     }

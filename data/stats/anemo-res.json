@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 22,
+  "slug": "anemo-res",
+  "name": "Anemo RES",
+  "category": "advanced",
+  "element": "anemo",
+  "description": "Reduces incoming Anemo DMG by a percentage. Resistances have soft caps below 0% and above 75%.",
+  "images": {}
+}

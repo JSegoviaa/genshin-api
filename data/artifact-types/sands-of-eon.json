@@ -3,5 +3,69 @@
   "id": 3,
   "slug": "sands-of-eon",
   "name": "Sands of Eon",
+  "mainStats": [
+    {
+      "stat": "hp",
+      "percent": true
+    },
+    {
+      "stat": "atk",
+      "percent": true
+    },
+    {
+      "stat": "def",
+      "percent": true
+    },
+    {
+      "stat": "elemental-mastery",
+      "percent": false
+    },
+    {
+      "stat": "energy-recharge",
+      "percent": true
+    }
+  ],
+  "subStats": [
+    {
+      "stat": "hp",
+      "percent": false
+    },
+    {
+      "stat": "atk",
+      "percent": false
+    },
+    {
+      "stat": "def",
+      "percent": false
+    },
+    {
+      "stat": "hp",
+      "percent": true
+    },
+    {
+      "stat": "atk",
+      "percent": true
+    },
+    {
+      "stat": "def",
+      "percent": true
+    },
+    {
+      "stat": "elemental-mastery",
+      "percent": false
+    },
+    {
+      "stat": "energy-recharge",
+      "percent": true
+    },
+    {
+      "stat": "crit-rate",
+      "percent": true
+    },
+    {
+      "stat": "crit-dmg",
+      "percent": true
+    }
+  ],
   "images": {}
 }

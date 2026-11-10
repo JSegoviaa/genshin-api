@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 18,
+  "slug": "hydro-dmg-bonus",
+  "name": "Hydro DMG Bonus",
+  "category": "advanced",
+  "element": "hydro",
+  "description": "Increases Hydro DMG dealt by a percentage.",
+  "images": {}
+}

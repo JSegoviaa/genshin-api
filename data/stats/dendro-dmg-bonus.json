@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 17,
+  "slug": "dendro-dmg-bonus",
+  "name": "Dendro DMG Bonus",
+  "category": "advanced",
+  "element": "dendro",
+  "description": "Increases Dendro DMG dealt by a percentage.",
+  "images": {}
+}

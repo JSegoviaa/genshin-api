@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 12,
+  "slug": "shield-strength",
+  "name": "Shield Strength",
+  "category": "advanced",
+  "element": null,
+  "description": "The Shield Strength attribute reduces damage taken by any shield protecting the character, effectively increasing the shield's durability by the given percentage. Note that when taking shield damage, the Shield Strength of the active character is used instead of the shield's creator.",
+  "images": {}
+}

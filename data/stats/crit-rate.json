@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/stats.json",
+  "id": 6,
+  "slug": "crit-rate",
+  "name": "CRIT Rate",
+  "category": "advanced",
+  "element": null,
+  "description": "Critical Rate is abbreviated in-game as CRIT Rate. This attribute, expressed as a percentage, determines how likely it is that an attack will hit critically and deal bonus critical damage.",
+  "images": {}
+}
