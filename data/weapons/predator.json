@@ -10,6 +10,7 @@
     "Outlander Series"
   ],
   "ascensionMaterial": "Altar of Sands",
+  "releaseVersion": "2.1",
   "images": {
     "icon": "weapons/predator/icon.webp",
     "awakenedIcon": "weapons/predator/awakened-icon.webp"

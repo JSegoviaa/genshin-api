@@ -4,6 +4,7 @@
   "slug": "clearwater-jade",
   "name": "Clearwater Jade",
   "region": "liyue",
+  "releaseVersion": "4.4",
   "images": {
     "icon": "local-specialties/clearwater-jade.webp"
   }

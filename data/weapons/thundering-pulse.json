@@ -10,6 +10,7 @@
     "Inazuma Series"
   ],
   "ascensionMaterial": "Altar of Sands",
+  "releaseVersion": "2.0",
   "images": {
     "icon": "weapons/thundering-pulse/icon.webp",
     "awakenedIcon": "weapons/thundering-pulse/awakened-icon.webp"

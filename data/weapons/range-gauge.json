@@ -10,6 +10,7 @@
     "Construction Series"
   ],
   "ascensionMaterial": "Robotic Ruse",
+  "releaseVersion": "4.1",
   "images": {
     "icon": "weapons/range-gauge/icon.webp",
     "awakenedIcon": "weapons/range-gauge/awakened-icon.webp"

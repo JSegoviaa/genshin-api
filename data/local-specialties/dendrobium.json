@@ -4,6 +4,7 @@
   "slug": "dendrobium",
   "name": "Dendrobium",
   "region": "inazuma",
+  "releaseVersion": "2.0",
   "images": {
     "icon": "local-specialties/dendrobium.webp"
   }

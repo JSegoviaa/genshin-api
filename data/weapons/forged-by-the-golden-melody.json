@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Artisanship",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/forged-by-the-golden-melody/icon.webp",
     "awakenedIcon": "weapons/forged-by-the-golden-melody/awakened-icon.webp"

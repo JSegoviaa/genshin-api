@@ -4,6 +4,7 @@
   "slug": "qingxin",
   "name": "Qingxin",
   "region": "liyue",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/qingxin.webp"
   }

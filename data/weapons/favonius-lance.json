@@ -10,6 +10,7 @@
     "Favonius Series"
   ],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/favonius-lance/icon.webp",
     "awakenedIcon": "weapons/favonius-lance/awakened-icon.webp"

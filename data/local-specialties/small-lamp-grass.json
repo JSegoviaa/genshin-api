@@ -4,6 +4,7 @@
   "slug": "small-lamp-grass",
   "name": "Small Lamp Grass",
   "region": "mondstadt",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/small-lamp-grass.webp"
   }

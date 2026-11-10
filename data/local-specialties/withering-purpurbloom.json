@@ -4,6 +4,7 @@
   "slug": "withering-purpurbloom",
   "name": "Withering Purpurbloom",
   "region": "natlan",
+  "releaseVersion": "5.2",
   "images": {
     "icon": "local-specialties/withering-purpurbloom.webp"
   }

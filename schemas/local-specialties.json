@@ -29,6 +29,17 @@
         }
       ]
     },
+    "releaseVersion": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "images": {
       "type": "object",
       "properties": {
@@ -45,6 +56,7 @@
     "slug",
     "name",
     "region",
+    "releaseVersion",
     "images"
   ],
   "additionalProperties": false

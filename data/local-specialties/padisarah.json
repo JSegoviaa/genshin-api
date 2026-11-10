@@ -4,6 +4,7 @@
   "slug": "padisarah",
   "name": "Padisarah",
   "region": "sumeru",
+  "releaseVersion": "3.0",
   "images": {
     "icon": "local-specialties/padisarah.webp"
   }

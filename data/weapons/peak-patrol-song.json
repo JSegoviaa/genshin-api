@@ -8,6 +8,7 @@
   "secondaryStat": "DEF",
   "series": [],
   "ascensionMaterial": "Estimation",
+  "releaseVersion": "5.1",
   "images": {
     "icon": "weapons/peak-patrol-song/icon.webp",
     "awakenedIcon": "weapons/peak-patrol-song/awakened-icon.webp"

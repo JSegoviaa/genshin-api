@@ -4,6 +4,7 @@
   "slug": "calla-lily",
   "name": "Calla Lily",
   "region": "mondstadt",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/calla-lily.webp"
   }

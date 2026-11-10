@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Thundering Ruins",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/eye-of-perception/icon.webp",
     "awakenedIcon": "weapons/eye-of-perception/awakened-icon.webp"

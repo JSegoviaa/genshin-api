@@ -4,6 +4,7 @@
   "slug": "pine-amber",
   "name": "Pine Amber",
   "region": "nod-krai",
+  "releaseVersion": "Luna IV",
   "images": {
     "icon": "local-specialties/pine-amber.webp"
   }

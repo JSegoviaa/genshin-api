@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/surfs-up/icon.webp",
     "awakenedIcon": "weapons/surfs-up/awakened-icon.webp"

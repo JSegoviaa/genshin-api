@@ -10,6 +10,7 @@
     "Gnostic Hymn 1 Series"
   ],
   "ascensionMaterial": "Submerged Valley",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/deathmatch/icon.webp",
     "awakenedIcon": "weapons/deathmatch/awakened-icon.webp"

@@ -4,6 +4,7 @@
   "slug": "noctilucous-jade",
   "name": "Noctilucous Jade",
   "region": "liyue",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/noctilucous-jade.webp"
   }

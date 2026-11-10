@@ -11,6 +11,7 @@
     "Gnostic Hymn 1 Series"
   ],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/solar-pearl/icon.webp",
     "awakenedIcon": "weapons/solar-pearl/awakened-icon.webp"

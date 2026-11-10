@@ -10,6 +10,7 @@
     "Alley Series"
   ],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.4",
   "images": {
     "icon": "weapons/alley-hunter/icon.webp",
     "awakenedIcon": "weapons/alley-hunter/awakened-icon.webp"

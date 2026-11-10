@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": null,
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/exaiphanes-blade/icon.webp",
     "awakenedIcon": "weapons/exaiphanes-blade/awakened-icon.webp"

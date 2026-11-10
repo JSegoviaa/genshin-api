@@ -409,6 +409,28 @@ describe("detail", () => {
     );
   });
 
+  it("returns weapons and local specialties with their release version", async () => {
+    const homa = await get("/api/v1/weapons/staff-of-homa");
+    expect(homa.body.releaseVersion).toMatchObject({
+      slug: "1-3",
+      name: "1.3",
+    });
+    const silk = await get("/api/v1/local-specialties/silk-flower");
+    expect(silk.body.releaseVersion).toMatchObject({ name: "1.0" });
+    const weapons = await get("/api/v1/weapons?releaseVersion=1.3&limit=100");
+    expect(weapons.body.results.map((w: any) => w.slug)).toContain(
+      "staff-of-homa",
+    );
+    const version = await get("/api/v1/versions/1.3");
+    expect(version.body.weapons.map((w: any) => w.slug)).toContain(
+      "staff-of-homa",
+    );
+    const first = await get("/api/v1/versions/1.0");
+    expect(first.body.localSpecialties.map((l: any) => l.slug)).toContain(
+      "silk-flower",
+    );
+  });
+
   it("returns rarity as a reference", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.rarity).toMatchObject({

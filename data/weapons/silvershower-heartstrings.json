@@ -8,6 +8,7 @@
   "secondaryStat": "HP",
   "series": [],
   "ascensionMaterial": "Artisanship",
+  "releaseVersion": "4.7",
   "images": {
     "icon": "weapons/silvershower-heartstrings/icon.webp",
     "awakenedIcon": "weapons/silvershower-heartstrings/awakened-icon.webp"

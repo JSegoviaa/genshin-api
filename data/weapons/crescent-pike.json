@@ -10,6 +10,7 @@
     "Infusion Series"
   ],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/crescent-pike/icon.webp",
     "awakenedIcon": "weapons/crescent-pike/awakened-icon.webp"

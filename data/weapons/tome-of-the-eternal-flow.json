@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Artisanship",
+  "releaseVersion": "4.1",
   "images": {
     "icon": "weapons/tome-of-the-eternal-flow/icon.webp",
     "awakenedIcon": "weapons/tome-of-the-eternal-flow/awakened-icon.webp"

@@ -5,13 +5,14 @@ export const weaponResource = defineResource({
   name: "weapons",
   title: "Weapons",
   description:
-    "Every weapon with its rarity, type, secondary stat, series and ascension material.",
+    "Every weapon with its rarity, type, secondary stat, series, ascension material and release version.",
   example: "staff-of-homa",
   schema: weaponSchema,
   refs: {
     weaponType: "weapon-types",
     rarity: { resource: "rarities", key: "id" },
     secondaryStat: { resource: "stats", key: "name" },
+    releaseVersion: { resource: "versions", key: "name" },
   },
   filters: {
     rarity: {
@@ -26,6 +27,10 @@ export const weaponResource = defineResource({
     series: {
       description: "Weapon series, e.g. favonius-series",
       get: (w) => w.series,
+    },
+    releaseVersion: {
+      description: "Release version, e.g. 1.3 or luna-i",
+      get: (w) => w.releaseVersion,
     },
   },
   sorts: { rarity: (w) => w.rarity },
@@ -42,6 +47,7 @@ export const weaponResource = defineResource({
     secondaryStat: ctx.refByName("stats", w.secondaryStat),
     series: w.series,
     ascensionMaterial: w.ascensionMaterial,
+    releaseVersion: ctx.refByName("versions", w.releaseVersion),
     images: ctx.images(w.images),
   }),
 });

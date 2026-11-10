@@ -8,6 +8,7 @@
   "secondaryStat": "HP",
   "series": [],
   "ascensionMaterial": "Estimation",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/ash-graven-drinking-horn/icon.webp",
     "awakenedIcon": "weapons/ash-graven-drinking-horn/awakened-icon.webp"

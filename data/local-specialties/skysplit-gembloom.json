@@ -4,6 +4,7 @@
   "slug": "skysplit-gembloom",
   "name": "Skysplit Gembloom",
   "region": "natlan",
+  "releaseVersion": "5.5",
   "images": {
     "icon": "local-specialties/skysplit-gembloom.webp"
   }

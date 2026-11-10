@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Lunar Oblation",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/etherlight-spindlelute/icon.webp",
     "awakenedIcon": "weapons/etherlight-spindlelute/awakened-icon.webp"

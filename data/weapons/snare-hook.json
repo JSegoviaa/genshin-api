@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Prayers Sung",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/snare-hook/icon.webp",
     "awakenedIcon": "weapons/snare-hook/awakened-icon.webp"

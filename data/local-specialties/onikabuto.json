@@ -4,6 +4,7 @@
   "slug": "onikabuto",
   "name": "Onikabuto",
   "region": "inazuma",
+  "releaseVersion": "2.0",
   "images": {
     "icon": "local-specialties/onikabuto.webp"
   }

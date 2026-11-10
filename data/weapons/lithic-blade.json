@@ -10,6 +10,7 @@
     "Lithic Series"
   ],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.3",
   "images": {
     "icon": "weapons/lithic-blade/icon.webp",
     "awakenedIcon": "weapons/lithic-blade/awakened-icon.webp"

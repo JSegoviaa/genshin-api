@@ -8,6 +8,7 @@
   "secondaryStat": "HP",
   "series": [],
   "ascensionMaterial": "Tainted Clouds",
+  "releaseVersion": "4.5",
   "images": {
     "icon": "weapons/dialogues-of-the-desert-sages/icon.webp",
     "awakenedIcon": "weapons/dialogues-of-the-desert-sages/awakened-icon.webp"

@@ -4,6 +4,7 @@
   "slug": "portable-bearing",
   "name": "Portable Bearing",
   "region": "nod-krai",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "local-specialties/portable-bearing.webp"
   }

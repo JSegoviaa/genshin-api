@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Severed Steel",
+  "releaseVersion": "7.2",
   "images": {
     "icon": "weapons/starsealed-edict/icon.webp",
     "awakenedIcon": "weapons/starsealed-edict/awakened-icon.webp"

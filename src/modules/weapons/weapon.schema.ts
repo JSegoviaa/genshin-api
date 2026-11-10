@@ -9,6 +9,7 @@ export const weaponSchema = z
     secondaryStat: label.nullable(),
     series: z.array(label),
     ascensionMaterial: label.nullable(),
+    releaseVersion: label.nullable(),
     images: z
       .object({
         icon: image.optional(),

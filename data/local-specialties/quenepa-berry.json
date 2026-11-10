@@ -4,6 +4,7 @@
   "slug": "quenepa-berry",
   "name": "Quenepa Berry",
   "region": "natlan",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "local-specialties/quenepa-berry.webp"
   }

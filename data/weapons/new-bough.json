@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Chain Track",
+  "releaseVersion": "7.1",
   "images": {
     "icon": "weapons/new-bough/icon.webp",
     "awakenedIcon": "weapons/new-bough/awakened-icon.webp"

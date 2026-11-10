@@ -4,6 +4,7 @@
   "slug": "philanemo-mushroom",
   "name": "Philanemo Mushroom",
   "region": "mondstadt",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/philanemo-mushroom.webp"
   }

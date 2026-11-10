@@ -4,6 +4,7 @@
   "slug": "glowing-hornshroom",
   "name": "Glowing Hornshroom",
   "region": "natlan",
+  "releaseVersion": "5.2",
   "images": {
     "icon": "local-specialties/glowing-hornshroom.webp"
   }

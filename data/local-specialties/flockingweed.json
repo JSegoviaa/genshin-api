@@ -4,6 +4,7 @@
   "slug": "flockingweed",
   "name": "Flockingweed",
   "region": "snezhnaya",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "local-specialties/flockingweed.webp"
   }

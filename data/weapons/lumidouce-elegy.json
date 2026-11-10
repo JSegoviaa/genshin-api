@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Curious Contraptions",
+  "releaseVersion": "4.8",
   "images": {
     "icon": "weapons/lumidouce-elegy/icon.webp",
     "awakenedIcon": "weapons/lumidouce-elegy/awakened-icon.webp"

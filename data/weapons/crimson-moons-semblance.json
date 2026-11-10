@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Curious Contraptions",
+  "releaseVersion": "4.6",
   "images": {
     "icon": "weapons/crimson-moons-semblance/icon.webp",
     "awakenedIcon": "weapons/crimson-moons-semblance/awakened-icon.webp"

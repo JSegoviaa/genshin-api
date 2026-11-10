@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Severed Steel",
+  "releaseVersion": "7.1",
   "images": {
     "icon": "weapons/winters-heavy-heart/icon.webp",
     "awakenedIcon": "weapons/winters-heavy-heart/awakened-icon.webp"

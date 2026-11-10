@@ -10,6 +10,7 @@
     "Blackcliff Series"
   ],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/blackcliff-longsword/icon.webp",
     "awakenedIcon": "weapons/blackcliff-longsword/awakened-icon.webp"

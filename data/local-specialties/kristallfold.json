@@ -4,6 +4,7 @@
   "slug": "kristallfold",
   "name": "Kristallfold",
   "region": "snezhnaya",
+  "releaseVersion": "7.2",
   "images": {
     "icon": "local-specialties/kristallfold.webp"
   }

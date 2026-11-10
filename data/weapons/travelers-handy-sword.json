@@ -8,6 +8,7 @@
   "secondaryStat": "DEF",
   "series": [],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/travelers-handy-sword/icon.webp",
     "awakenedIcon": "weapons/travelers-handy-sword/awakened-icon.webp"

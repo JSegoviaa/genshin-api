@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Trial Grounds of Thunder",
+  "releaseVersion": "2.7",
   "images": {
     "icon": "weapons/fading-twilight/icon.webp",
     "awakenedIcon": "weapons/fading-twilight/awakened-icon.webp"

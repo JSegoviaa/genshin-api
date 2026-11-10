@@ -4,6 +4,7 @@
   "slug": "rainbow-rose",
   "name": "Rainbow Rose",
   "region": "fontaine",
+  "releaseVersion": "4.0",
   "images": {
     "icon": "local-specialties/rainbow-rose.webp"
   }

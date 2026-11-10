@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Lunar Oblation",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/bloodsoaked-ruins/icon.webp",
     "awakenedIcon": "weapons/bloodsoaked-ruins/awakened-icon.webp"

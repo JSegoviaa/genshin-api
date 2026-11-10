@@ -4,6 +4,7 @@
   "slug": "kalpalata-lotus",
   "name": "Kalpalata Lotus",
   "region": "sumeru",
+  "releaseVersion": "3.0",
   "images": {
     "icon": "local-specialties/kalpalata-lotus.webp"
   }

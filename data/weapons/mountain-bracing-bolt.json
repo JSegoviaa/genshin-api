@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Attentive Observation",
+  "releaseVersion": "5.1",
   "images": {
     "icon": "weapons/mountain-bracing-bolt/icon.webp",
     "awakenedIcon": "weapons/mountain-bracing-bolt/awakened-icon.webp"

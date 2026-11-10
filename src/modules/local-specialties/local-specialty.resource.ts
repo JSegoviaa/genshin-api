@@ -9,9 +9,16 @@ export const localSpecialtyResource = defineResource({
     "Regional plants and materials used for character ascension. Each specialty lists the characters that need it.",
   example: "silk-flower",
   schema: localSpecialtySchema,
-  refs: { region: "regions" },
+  refs: {
+    region: "regions",
+    releaseVersion: { resource: "versions", key: "name" },
+  },
   filters: {
     region: { description: "Region slug", get: (l) => l.region },
+    releaseVersion: {
+      description: "Release version, e.g. 1.0 or luna-i",
+      get: (l) => l.releaseVersion,
+    },
   },
   sorts: {},
   summary: (l, ctx) => ({
@@ -22,6 +29,7 @@ export const localSpecialtyResource = defineResource({
   detail: (l, ctx) => ({
     ...head("local-specialties", l, ctx),
     region: ctx.ref("regions", l.region),
+    releaseVersion: ctx.refByName("versions", l.releaseVersion),
     images: ctx.images(l.images),
     characters: ctx.related<{ localSpecialty: string | null }>(
       "characters",

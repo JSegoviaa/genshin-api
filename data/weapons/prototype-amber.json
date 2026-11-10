@@ -10,6 +10,7 @@
     "Prototype Series"
   ],
   "ascensionMaterial": "Thundering Ruins",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/prototype-amber/icon.webp",
     "awakenedIcon": "weapons/prototype-amber/awakened-icon.webp"

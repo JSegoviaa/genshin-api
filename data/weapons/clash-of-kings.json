@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Tainted Clouds",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/clash-of-kings/icon.webp",
     "awakenedIcon": "weapons/clash-of-kings/awakened-icon.webp"

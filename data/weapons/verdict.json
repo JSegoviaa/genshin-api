@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Robotic Ruse",
+  "releaseVersion": "4.3",
   "images": {
     "icon": "weapons/verdict/icon.webp",
     "awakenedIcon": "weapons/verdict/awakened-icon.webp"

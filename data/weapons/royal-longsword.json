@@ -10,6 +10,7 @@
     "Royal Series"
   ],
   "ascensionMaterial": "City of Reflections",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/royal-longsword/icon.webp",
     "awakenedIcon": "weapons/royal-longsword/awakened-icon.webp"

@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Robotic Ruse",
+  "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/the-first-great-magic/icon.webp",
     "awakenedIcon": "weapons/the-first-great-magic/awakened-icon.webp"

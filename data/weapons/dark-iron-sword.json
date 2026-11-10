@@ -8,6 +8,7 @@
   "secondaryStat": "Elemental Mastery",
   "series": [],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/dark-iron-sword/icon.webp",
     "awakenedIcon": "weapons/dark-iron-sword/awakened-icon.webp"

@@ -4,6 +4,7 @@
   "slug": "crystal-marrow",
   "name": "Crystal Marrow",
   "region": "inazuma",
+  "releaseVersion": "2.0",
   "images": {
     "icon": "local-specialties/crystal-marrow.webp"
   }

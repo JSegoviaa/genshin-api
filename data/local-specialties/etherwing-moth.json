@@ -4,6 +4,7 @@
   "slug": "etherwing-moth",
   "name": "Etherwing Moth",
   "region": "mondstadt",
+  "releaseVersion": "Luna VI",
   "images": {
     "icon": "local-specialties/etherwing-moth.webp"
   }

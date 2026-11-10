@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Submerged Valley",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/harbinger-of-dawn/icon.webp",
     "awakenedIcon": "weapons/harbinger-of-dawn/awakened-icon.webp"

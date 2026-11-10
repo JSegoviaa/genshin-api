@@ -8,6 +8,7 @@
   "secondaryStat": "HP",
   "series": [],
   "ascensionMaterial": "Chain Track",
+  "releaseVersion": "7.1",
   "images": {
     "icon": "weapons/hymn-of-the-maelstrom/icon.webp",
     "awakenedIcon": "weapons/hymn-of-the-maelstrom/awakened-icon.webp"

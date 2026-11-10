@@ -4,6 +4,7 @@
   "slug": "lumidouce-bell",
   "name": "Lumidouce Bell",
   "region": "fontaine",
+  "releaseVersion": "4.0",
   "images": {
     "icon": "local-specialties/lumidouce-bell.webp"
   }

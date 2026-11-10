@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "5.1",
   "images": {
     "icon": "weapons/sturdy-bone/icon.webp",
     "awakenedIcon": "weapons/sturdy-bone/awakened-icon.webp"

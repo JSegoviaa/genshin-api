@@ -4,6 +4,7 @@
   "slug": "lakelight-lily",
   "name": "Lakelight Lily",
   "region": "fontaine",
+  "releaseVersion": "4.2",
   "images": {
     "icon": "local-specialties/lakelight-lily.webp"
   }

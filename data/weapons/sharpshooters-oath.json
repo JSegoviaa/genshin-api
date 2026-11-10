@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Submerged Valley",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/sharpshooters-oath/icon.webp",
     "awakenedIcon": "weapons/sharpshooters-oath/awakened-icon.webp"

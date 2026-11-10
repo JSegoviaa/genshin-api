@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Tainted Clouds",
+  "releaseVersion": "3.7",
   "images": {
     "icon": "weapons/ibis-piercer/icon.webp",
     "awakenedIcon": "weapons/ibis-piercer/awakened-icon.webp"

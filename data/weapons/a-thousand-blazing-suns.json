@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "5.3",
   "images": {
     "icon": "weapons/a-thousand-blazing-suns/icon.webp",
     "awakenedIcon": "weapons/a-thousand-blazing-suns/awakened-icon.webp"

@@ -12,11 +12,9 @@ const resistanceSchema = z
     message: "Immune resistances must have a null value",
   });
 
-const uniqueRefs = z
-  .array(ref)
-  .refine((v) => new Set(v).size === v.length, {
-    message: "Values must be unique",
-  });
+const uniqueRefs = z.array(ref).refine((v) => new Set(v).size === v.length, {
+  message: "Values must be unique",
+});
 
 export const enemySchema = z
   .object({

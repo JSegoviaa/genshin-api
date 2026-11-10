@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.2",
   "images": {
     "icon": "weapons/festering-desire/icon.webp",
     "awakenedIcon": "weapons/festering-desire/awakened-icon.webp"

@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Cast Iron",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/echoes-of-the-heart/icon.webp",
     "awakenedIcon": "weapons/echoes-of-the-heart/awakened-icon.webp"

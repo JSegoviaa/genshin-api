@@ -4,6 +4,7 @@
   "slug": "moonfall-silver",
   "name": "Moonfall Silver",
   "region": "nod-krai",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "local-specialties/moonfall-silver.webp"
   }

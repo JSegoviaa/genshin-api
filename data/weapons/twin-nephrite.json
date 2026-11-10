@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Thundering Ruins",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/twin-nephrite/icon.webp",
     "awakenedIcon": "weapons/twin-nephrite/awakened-icon.webp"

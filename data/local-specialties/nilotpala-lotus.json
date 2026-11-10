@@ -4,6 +4,7 @@
   "slug": "nilotpala-lotus",
   "name": "Nilotpala Lotus",
   "region": "sumeru",
+  "releaseVersion": "3.0",
   "images": {
     "icon": "local-specialties/nilotpala-lotus.webp"
   }

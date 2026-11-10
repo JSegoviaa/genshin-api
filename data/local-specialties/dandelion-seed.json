@@ -4,6 +4,7 @@
   "slug": "dandelion-seed",
   "name": "Dandelion Seed",
   "region": "mondstadt",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/dandelion-seed.webp"
   }

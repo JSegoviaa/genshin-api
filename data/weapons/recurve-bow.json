@@ -8,6 +8,7 @@
   "secondaryStat": "HP",
   "series": [],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/recurve-bow/icon.webp",
     "awakenedIcon": "weapons/recurve-bow/awakened-icon.webp"

@@ -2,8 +2,9 @@
   "$schema": "../../schemas/local-specialties.json",
   "id": 44,
   "slug": "brilliant-chrysanthemum",
-  "name": "Brilliant Chrysanthemum\t",
+  "name": "Brilliant Chrysanthemum",
   "region": "natlan",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "local-specialties/brilliant-chrysanthemum.webp"
   }

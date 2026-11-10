@@ -6,7 +6,7 @@ export const versionResource = defineResource({
   name: "versions",
   title: "Versions",
   description:
-    "Game versions with their update title and release date. Each version lists the characters, artifact sets, enemies and items released in it.",
+    "Game versions with their update title and release date. Each version lists the characters, weapons, artifact sets, enemies, items and local specialties released in it.",
   example: "1-3",
   schema: versionSchema,
   refs: {},
@@ -25,6 +25,10 @@ export const versionResource = defineResource({
       "characters",
       (c) => slugify(c.releaseVersion) === v.slug,
     ),
+    weapons: ctx.related<{ releaseVersion: string | null }>(
+      "weapons",
+      (w) => !!w.releaseVersion && slugify(w.releaseVersion) === v.slug,
+    ),
     artifactSets: ctx.related<{ releaseVersion: string }>(
       "artifact-sets",
       (s) => slugify(s.releaseVersion) === v.slug,
@@ -36,6 +40,10 @@ export const versionResource = defineResource({
     items: ctx.related<{ releaseVersion: string | null }>(
       "items",
       (i) => !!i.releaseVersion && slugify(i.releaseVersion) === v.slug,
+    ),
+    localSpecialties: ctx.related<{ releaseVersion: string | null }>(
+      "local-specialties",
+      (l) => !!l.releaseVersion && slugify(l.releaseVersion) === v.slug,
     ),
   }),
 });

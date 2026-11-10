@@ -4,6 +4,7 @@
   "slug": "cecilia",
   "name": "Cecilia",
   "region": "mondstadt",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/cecilia.webp"
   }

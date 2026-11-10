@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Thundering Ruins",
+  "releaseVersion": "2.4",
   "images": {
     "icon": "weapons/calamity-queller/icon.webp",
     "awakenedIcon": "weapons/calamity-queller/awakened-icon.webp"

@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Chain Track",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/whitelake-frostfeather/icon.webp",
     "awakenedIcon": "weapons/whitelake-frostfeather/awakened-icon.webp"

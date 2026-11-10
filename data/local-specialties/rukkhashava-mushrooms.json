@@ -4,6 +4,7 @@
   "slug": "rukkhashava-mushrooms",
   "name": "Rukkhashava Mushrooms",
   "region": "sumeru",
+  "releaseVersion": "3.0",
   "images": {
     "icon": "local-specialties/rukkhashava-mushrooms.webp"
   }

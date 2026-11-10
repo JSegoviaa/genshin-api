@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Prayers Sung",
+  "releaseVersion": "Luna II",
   "images": {
     "icon": "weapons/sacrificers-staff/icon.webp",
     "awakenedIcon": "weapons/sacrificers-staff/awakened-icon.webp"

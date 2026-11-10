@@ -4,6 +4,7 @@
   "slug": "beryl-conch",
   "name": "Beryl Conch",
   "region": "fontaine",
+  "releaseVersion": "4.0",
   "images": {
     "icon": "local-specialties/beryl-conch.webp"
   }

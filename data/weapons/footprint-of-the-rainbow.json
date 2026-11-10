@@ -8,6 +8,7 @@
   "secondaryStat": "DEF",
   "series": [],
   "ascensionMaterial": "Attentive Observation",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/footprint-of-the-rainbow/icon.webp",
     "awakenedIcon": "weapons/footprint-of-the-rainbow/awakened-icon.webp"

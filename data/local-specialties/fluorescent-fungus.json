@@ -4,6 +4,7 @@
   "slug": "fluorescent-fungus",
   "name": "Fluorescent Fungus",
   "region": "inazuma",
+  "releaseVersion": "2.2",
   "images": {
     "icon": "local-specialties/fluorescent-fungus.webp"
   }

@@ -10,6 +10,7 @@
     "Favonius Series"
   ],
   "ascensionMaterial": "City of Reflections",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/favonius-sword/icon.webp",
     "awakenedIcon": "weapons/favonius-sword/awakened-icon.webp"

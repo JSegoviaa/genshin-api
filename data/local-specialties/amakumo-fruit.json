@@ -4,6 +4,7 @@
   "slug": "amakumo-fruit",
   "name": "Amakumo Fruit",
   "region": "inazuma",
+  "releaseVersion": "2.1",
   "images": {
     "icon": "local-specialties/amakumo-fruit.webp"
   }

@@ -4,6 +4,7 @@
   "slug": "naku-weed",
   "name": "Naku Weed",
   "region": "inazuma",
+  "releaseVersion": "2.0",
   "images": {
     "icon": "local-specialties/naku-weed.webp"
   }

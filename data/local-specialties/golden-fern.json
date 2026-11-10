@@ -4,6 +4,7 @@
   "slug": "golden-fern",
   "name": "Golden Fern",
   "region": "snezhnaya",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "local-specialties/golden-fern.webp"
   }

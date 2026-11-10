@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Lunar Oblation",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/master-key/icon.webp",
     "awakenedIcon": "weapons/master-key/awakened-icon.webp"

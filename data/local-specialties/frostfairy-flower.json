@@ -4,6 +4,7 @@
   "slug": "frostfairy-flower",
   "name": "Frostfairy Flower",
   "region": "snezhnaya",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "local-specialties/frostfairy-flower.webp"
   }

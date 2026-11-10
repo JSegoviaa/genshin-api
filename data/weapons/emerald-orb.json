@@ -8,6 +8,7 @@
   "secondaryStat": "Elemental Mastery",
   "series": [],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/emerald-orb/icon.webp",
     "awakenedIcon": "weapons/emerald-orb/awakened-icon.webp"

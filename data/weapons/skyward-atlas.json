@@ -10,6 +10,7 @@
     "Mondstadt Series"
   ],
   "ascensionMaterial": "Submerged Valley",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/skyward-atlas/icon.webp",
     "awakenedIcon": "weapons/skyward-atlas/awakened-icon.webp"

@@ -10,6 +10,7 @@
     "Beaumont Series"
   ],
   "ascensionMaterial": "Curious Contraptions",
+  "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/tidal-shadow/icon.webp",
     "awakenedIcon": "weapons/tidal-shadow/awakened-icon.webp"

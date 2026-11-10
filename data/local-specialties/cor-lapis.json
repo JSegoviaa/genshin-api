@@ -4,6 +4,7 @@
   "slug": "cor-lapis",
   "name": "Cor Lapis",
   "region": "liyue",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/cor-lapis.webp"
   }

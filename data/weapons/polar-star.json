@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Sand Burial",
+  "releaseVersion": "2.2",
   "images": {
     "icon": "weapons/polar-star/icon.webp",
     "awakenedIcon": "weapons/polar-star/awakened-icon.webp"

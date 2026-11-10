@@ -37,9 +37,9 @@ List parameters:
 - `name`: partial search (`name=hu`)
 - Resource filters, accepting comma-separated values:
   - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`, `ascensionStat`
-  - `local-specialties`: `region`
+  - `local-specialties`: `region`, `releaseVersion`
   - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
-  - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`
+  - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`, `releaseVersion`
   - `artifacts`: `set`, `type`, `rarity` (from the set)
   - `artifact-types`: `mainStat` (e.g. `crit-rate`)
   - `enemies`: `type`, `family`, `group`, `region` (bosses only), `element`, `drop` (item or artifact set slug), `releaseVersion`
@@ -82,7 +82,7 @@ npm run typecheck
 
 References to exposed resources are stored by slug (`"element": "pyro"`), except `rarity`, which is
 stored as the number of stars (`"rarity": 5`) and returned as a reference to `rarities`. Some fields
-are stored by name and resolved with `slugify(name)`: `releaseVersion`, `localSpecialty`,
+are stored by name and resolved with `slugify(name)`: `releaseVersion` (in every released resource), `localSpecialty`,
 `ascensionStat` and `secondaryStat` (`"ascensionStat": "CRIT DMG"` → `stats/crit-dmg`). Character
 `materials` are also stored by name and resolved against `items`. Fields
 pointing to resources not yet exposed by the API (weapon ascension materials, weapon series) are also stored by name

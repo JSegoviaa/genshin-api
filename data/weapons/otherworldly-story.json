@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/otherworldly-story/icon.webp",
     "awakenedIcon": "weapons/otherworldly-story/awakened-icon.webp"

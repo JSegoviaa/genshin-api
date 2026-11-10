@@ -10,6 +10,7 @@
     "Amethyst Series"
   ],
   "ascensionMaterial": "Altar of Sands",
+  "releaseVersion": "2.0",
   "images": {
     "icon": "weapons/hamayumi/icon.webp",
     "awakenedIcon": "weapons/hamayumi/awakened-icon.webp"

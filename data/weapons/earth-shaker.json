@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/earth-shaker/icon.webp",
     "awakenedIcon": "weapons/earth-shaker/awakened-icon.webp"

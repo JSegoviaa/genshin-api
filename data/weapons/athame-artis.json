@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "City of Reflections",
+  "releaseVersion": "Luna III",
   "images": {
     "icon": "weapons/athame-artis/icon.webp",
     "awakenedIcon": "weapons/athame-artis/awakened-icon.webp"

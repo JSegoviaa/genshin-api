@@ -10,6 +10,7 @@
     "Beaumont Series"
   ],
   "ascensionMaterial": "Artisanship",
+  "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/flowing-purity/icon.webp",
     "awakenedIcon": "weapons/flowing-purity/awakened-icon.webp"

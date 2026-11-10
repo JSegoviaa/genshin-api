@@ -4,6 +4,7 @@
   "slug": "sakura-bloom",
   "name": "Sakura Bloom",
   "region": "inazuma",
+  "releaseVersion": "2.0",
   "images": {
     "icon": "local-specialties/sakura-bloom.webp"
   }

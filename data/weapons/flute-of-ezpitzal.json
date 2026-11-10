@@ -8,6 +8,7 @@
   "secondaryStat": "DEF",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/flute-of-ezpitzal/icon.webp",
     "awakenedIcon": "weapons/flute-of-ezpitzal/awakened-icon.webp"

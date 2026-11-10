@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Trial Grounds of Thunder",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/jade-vista/icon.webp",
     "awakenedIcon": "weapons/jade-vista/awakened-icon.webp"

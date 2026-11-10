@@ -10,6 +10,7 @@
     "Infusion Series"
   ],
   "ascensionMaterial": "Trial Grounds of Thunder",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/compound-bow/icon.webp",
     "awakenedIcon": "weapons/compound-bow/awakened-icon.webp"

@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "5.8",
   "images": {
     "icon": "weapons/fractured-halo/icon.webp",
     "awakenedIcon": "weapons/fractured-halo/awakened-icon.webp"

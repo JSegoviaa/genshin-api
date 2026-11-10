@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Lunar Oblation",
+  "releaseVersion": "Luna IV",
   "images": {
     "icon": "weapons/nocturnes-curtain-call/icon.webp",
     "awakenedIcon": "weapons/nocturnes-curtain-call/awakened-icon.webp"

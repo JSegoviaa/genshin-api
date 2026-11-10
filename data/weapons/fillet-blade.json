@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Thundering Ruins",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/fillet-blade/icon.webp",
     "awakenedIcon": "weapons/fillet-blade/awakened-icon.webp"

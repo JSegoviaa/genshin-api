@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Curious Contraptions",
+  "releaseVersion": "4.1",
   "images": {
     "icon": "weapons/cashflow-supervision/icon.webp",
     "awakenedIcon": "weapons/cashflow-supervision/awakened-icon.webp"

@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Leading Karma",
+  "releaseVersion": "3.3",
   "images": {
     "icon": "weapons/tulaytullahs-remembrance/icon.webp",
     "awakenedIcon": "weapons/tulaytullahs-remembrance/awakened-icon.webp"

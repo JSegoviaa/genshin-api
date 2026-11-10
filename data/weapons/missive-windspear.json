@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Submerged Valley",
+  "releaseVersion": "3.1",
   "images": {
     "icon": "weapons/missive-windspear/icon.webp",
     "awakenedIcon": "weapons/missive-windspear/awakened-icon.webp"

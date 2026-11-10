@@ -4,6 +4,7 @@
   "slug": "dracolite",
   "name": "Dracolite",
   "region": "natlan",
+  "releaseVersion": "5.5",
   "images": {
     "icon": "local-specialties/dracolite.webp"
   }

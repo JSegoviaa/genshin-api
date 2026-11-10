@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Cast Iron",
+  "releaseVersion": "7.1",
   "images": {
     "icon": "weapons/beyond-the-chrysalis/icon.webp",
     "awakenedIcon": "weapons/beyond-the-chrysalis/awakened-icon.webp"

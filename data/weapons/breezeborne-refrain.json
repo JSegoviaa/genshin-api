@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Severed Steel",
+  "releaseVersion": "7.1",
   "images": {
     "icon": "weapons/breezeborne-refrain/icon.webp",
     "awakenedIcon": "weapons/breezeborne-refrain/awakened-icon.webp"

@@ -4,6 +4,7 @@
   "slug": "sango-pearl",
   "name": "Sango Pearl",
   "region": "inazuma",
+  "releaseVersion": "2.1",
   "images": {
     "icon": "local-specialties/sango-pearl.webp"
   }

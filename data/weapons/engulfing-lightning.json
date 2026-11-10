@@ -10,6 +10,7 @@
     "Inazuma Series"
   ],
   "ascensionMaterial": "Sand Burial",
+  "releaseVersion": "2.1",
   "images": {
     "icon": "weapons/engulfing-lightning/icon.webp",
     "awakenedIcon": "weapons/engulfing-lightning/awakened-icon.webp"

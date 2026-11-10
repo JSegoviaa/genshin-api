@@ -10,6 +10,7 @@
     "Liyue Series"
   ],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.2",
   "images": {
     "icon": "weapons/summit-shaper/icon.webp",
     "awakenedIcon": "weapons/summit-shaper/awakened-icon.webp"

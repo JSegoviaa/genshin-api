@@ -4,6 +4,7 @@
   "slug": "frostlamp-flower",
   "name": "Frostlamp Flower",
   "region": "nod-krai",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "local-specialties/frostlamp-flower.webp"
   }

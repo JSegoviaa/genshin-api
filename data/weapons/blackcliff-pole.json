@@ -10,6 +10,7 @@
     "Blackcliff Series"
   ],
   "ascensionMaterial": "Thundering Ruins",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/blackcliff-pole/icon.webp",
     "awakenedIcon": "weapons/blackcliff-pole/awakened-icon.webp"

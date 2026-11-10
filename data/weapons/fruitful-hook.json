@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Estimation",
+  "releaseVersion": "5.1",
   "images": {
     "icon": "weapons/fruitful-hook/icon.webp",
     "awakenedIcon": "weapons/fruitful-hook/awakened-icon.webp"

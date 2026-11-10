@@ -4,6 +4,7 @@
   "slug": "starconch",
   "name": "Starconch",
   "region": "liyue",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/starconch.webp"
   }

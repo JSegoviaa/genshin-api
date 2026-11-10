@@ -4,6 +4,7 @@
   "slug": "wolfhook",
   "name": "Wolfhook",
   "region": "mondstadt",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/wolfhook.webp"
   }

@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/heretics-molten-blade/icon.webp",
     "awakenedIcon": "weapons/heretics-molten-blade/awakened-icon.webp"

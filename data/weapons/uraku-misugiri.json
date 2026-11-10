@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Sunken Sands",
+  "releaseVersion": "4.5",
   "images": {
     "icon": "weapons/uraku-misugiri/icon.webp",
     "awakenedIcon": "weapons/uraku-misugiri/awakened-icon.webp"

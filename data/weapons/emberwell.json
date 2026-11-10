@@ -1,13 +1,14 @@
 {
   "$schema": "../../schemas/weapons.json",
   "id": 234,
-  "slug": "eberwell",
-  "name": "Eberwell",
+  "slug": "emberwell",
+  "name": "Emberwell",
   "rarity": 4,
   "weaponType": "sword",
   "secondaryStat": "Elemental Mastery",
   "series": [],
   "ascensionMaterial": "Cast Iron",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/eberwell/icon.webp",
     "awakenedIcon": "weapons/eberwell/awakened-icon.webp"

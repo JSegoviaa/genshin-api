@@ -10,6 +10,7 @@
     "Infusion Series"
   ],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/whiteblind/icon.webp",
     "awakenedIcon": "weapons/whiteblind/awakened-icon.webp"

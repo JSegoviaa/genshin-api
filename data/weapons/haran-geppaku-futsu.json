@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Altar of Sands",
+  "releaseVersion": "2.6",
   "images": {
     "icon": "weapons/haran-geppaku-futsu/icon.webp",
     "awakenedIcon": "weapons/haran-geppaku-futsu/awakened-icon.webp"

@@ -10,6 +10,7 @@
     "Skyrider Series"
   ],
   "ascensionMaterial": "Trial Grounds of Thunder",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/skyrider-sword/icon.webp",
     "awakenedIcon": "weapons/skyrider-sword/awakened-icon.webp"

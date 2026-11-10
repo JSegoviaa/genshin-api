@@ -4,6 +4,7 @@
   "slug": "lumitoile",
   "name": "Lumitoile",
   "region": "fontaine",
+  "releaseVersion": "4.1",
   "images": {
     "icon": "local-specialties/lumitoile.webp"
   }

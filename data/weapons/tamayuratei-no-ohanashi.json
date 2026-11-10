@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Sand Burial",
+  "releaseVersion": "5.4",
   "images": {
     "icon": "weapons/tamayuratei-no-ohanashi/icon.webp",
     "awakenedIcon": "weapons/tamayuratei-no-ohanashi/awakened-icon.webp"

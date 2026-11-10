@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Estimation",
+  "releaseVersion": "5.2",
   "images": {
     "icon": "weapons/astral-vultures-crimson-plumage/icon.webp",
     "awakenedIcon": "weapons/astral-vultures-crimson-plumage/awakened-icon.webp"

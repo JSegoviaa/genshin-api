@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Estimation",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/chain-breaker/icon.webp",
     "awakenedIcon": "weapons/chain-breaker/awakened-icon.webp"

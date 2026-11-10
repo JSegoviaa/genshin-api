@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Scrying Shadows",
+  "releaseVersion": "5.2",
   "images": {
     "icon": "weapons/waveriding-whirl/icon.webp",
     "awakenedIcon": "weapons/waveriding-whirl/awakened-icon.webp"

@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/white-tassel/icon.webp",
     "awakenedIcon": "weapons/white-tassel/awakened-icon.webp"

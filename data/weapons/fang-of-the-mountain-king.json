@@ -1,13 +1,14 @@
 {
   "$schema": "../../schemas/weapons.json",
   "id": 194,
-  "slug": "fang-of-the-mountaing-king",
-  "name": "Fang of the Mountaing King",
+  "slug": "fang-of-the-mountain-king",
+  "name": "Fang of the Mountain King",
   "rarity": 5,
   "weaponType": "claymore",
   "secondaryStat": "CRIT Rate",
   "series": [],
   "ascensionMaterial": "Attentive Observation",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/fang-of-the-mountaing-king/icon.webp",
     "awakenedIcon": "weapons/fang-of-the-mountaing-king/awakened-icon.webp"

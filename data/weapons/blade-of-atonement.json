@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Cast Iron",
+  "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/blade-of-atonement/icon.webp",
     "awakenedIcon": "weapons/blade-of-atonement/awakened-icon.webp"

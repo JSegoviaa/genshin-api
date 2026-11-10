@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Artisanship",
+  "releaseVersion": "4.2",
   "images": {
     "icon": "weapons/splendor-of-tranquil-waters/icon.webp",
     "awakenedIcon": "weapons/splendor-of-tranquil-waters/awakened-icon.webp"

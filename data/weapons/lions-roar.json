@@ -11,6 +11,7 @@
     "Kunwu Series"
   ],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/lions-roar/icon.webp",
     "awakenedIcon": "weapons/lions-roar/awakened-icon.webp"

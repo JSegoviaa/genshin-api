@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/wolfs-gravestone/icon.webp",
     "awakenedIcon": "weapons/wolfs-gravestone/awakened-icon.webp"

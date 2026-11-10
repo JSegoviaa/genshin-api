@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Attentive Observation",
+  "releaseVersion": "5.5",
   "images": {
     "icon": "weapons/vivid-notions/icon.webp",
     "awakenedIcon": "weapons/vivid-notions/awakened-icon.webp"

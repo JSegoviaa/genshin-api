@@ -8,6 +8,7 @@
   "secondaryStat": "Energy Recharge",
   "series": [],
   "ascensionMaterial": "Radiant Splendor",
+  "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/serenitys-call/icon.webp",
     "awakenedIcon": "weapons/serenitys-call/awakened-icon.webp"

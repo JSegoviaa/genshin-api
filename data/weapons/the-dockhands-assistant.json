@@ -2,7 +2,7 @@
   "$schema": "../../schemas/weapons.json",
   "id": 168,
   "slug": "the-dockhands-assistant",
-  "name": "The dockhand's Assistant",
+  "name": "The Dockhand's Assistant",
   "rarity": 4,
   "weaponType": "sword",
   "secondaryStat": "HP",
@@ -10,6 +10,7 @@
     "Construction Series"
   ],
   "ascensionMaterial": "Artisanship",
+  "releaseVersion": "4.1",
   "images": {
     "icon": "weapons/the-dockhands-assistant/icon.webp",
     "awakenedIcon": "weapons/the-dockhands-assistant/awakened-icon.webp"

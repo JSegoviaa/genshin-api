@@ -8,6 +8,7 @@
   "secondaryStat": "HP",
   "series": [],
   "ascensionMaterial": "Sunken Sands",
+  "releaseVersion": "2.1",
   "images": {
     "icon": "weapons/everlasting-moonglow/icon.webp",
     "awakenedIcon": "weapons/everlasting-moonglow/awakened-icon.webp"

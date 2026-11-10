@@ -4,6 +4,7 @@
   "slug": "mourning-flower",
   "name": "Mourning Flower",
   "region": "sumeru",
+  "releaseVersion": "3.6",
   "images": {
     "icon": "local-specialties/mourning-flower.webp"
   }

@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Sunken Sands",
+  "releaseVersion": "2.5",
   "images": {
     "icon": "weapons/oathsworn-eye/icon.webp",
     "awakenedIcon": "weapons/oathsworn-eye/awakened-icon.webp"

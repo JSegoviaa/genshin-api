@@ -4,6 +4,7 @@
   "slug": "jueyun-chili",
   "name": "Jueyun Chili",
   "region": "liyue",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/jueyun-chili.webp"
   }

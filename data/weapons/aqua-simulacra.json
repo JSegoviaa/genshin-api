@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Thundercloud",
+  "releaseVersion": "2.7",
   "images": {
     "icon": "weapons/aqua-simulacra/icon.webp",
     "awakenedIcon": "weapons/aqua-simulacra/awakened-icon.webp"

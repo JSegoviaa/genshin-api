@@ -4,6 +4,7 @@
   "slug": "sprayfeather-gill",
   "name": "Sprayfeather Gill",
   "region": "natlan",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "local-specialties/sprayfeather-gill.webp"
   }

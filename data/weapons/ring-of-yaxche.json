@@ -8,6 +8,7 @@
   "secondaryStat": "HP",
   "series": [],
   "ascensionMaterial": "Attentive Observation",
+  "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/ring-of-yaxche/icon.webp",
     "awakenedIcon": "weapons/ring-of-yaxche/awakened-icon.webp"

@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Sand Burial",
+  "releaseVersion": "2.8",
   "images": {
     "icon": "weapons/kagotsurube-isshin/icon.webp",
     "awakenedIcon": "weapons/kagotsurube-isshin/awakened-icon.webp"

@@ -4,6 +4,7 @@
   "slug": "valberry",
   "name": "Valberry",
   "region": "mondstadt",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "local-specialties/valberry.webp"
   }

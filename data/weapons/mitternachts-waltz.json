@@ -8,6 +8,7 @@
   "secondaryStat": "Physical DMG Bonus",
   "series": [],
   "ascensionMaterial": "City of Reflections",
+  "releaseVersion": "1.6",
   "images": {
     "icon": "weapons/mitternachts-waltz/icon.webp",
     "awakenedIcon": "weapons/mitternachts-waltz/awakened-icon.webp"

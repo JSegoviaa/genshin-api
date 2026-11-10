@@ -8,6 +8,7 @@
   "secondaryStat": "CRIT DMG",
   "series": [],
   "ascensionMaterial": "Robotic Ruse",
+  "releaseVersion": "4.7",
   "images": {
     "icon": "weapons/absolution/icon.webp",
     "awakenedIcon": "weapons/absolution/awakened-icon.webp"

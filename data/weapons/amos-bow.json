@@ -8,6 +8,7 @@
   "secondaryStat": "ATK",
   "series": [],
   "ascensionMaterial": "Ruins of Thirsting Capital",
+  "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/amos-bow/icon.webp",
     "awakenedIcon": "weapons/amos-bow/awakened-icon.webp"
