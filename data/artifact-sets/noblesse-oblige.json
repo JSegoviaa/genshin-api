@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 21,
+  "slug": "noblesse-oblige",
+  "name": "Noblesse Oblige",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Royal Flora",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Royal Plume",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Royal Pocket Watch",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Royal Silver Urn",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Royal Masque",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

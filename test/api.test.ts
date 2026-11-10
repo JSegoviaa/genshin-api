@@ -164,6 +164,50 @@ describe("detail", () => {
     expect(filtered.body.results.map((c: any) => c.slug)).toContain("hu-tao");
   });
 
+  it("returns artifact sets with rarities and typed pieces", async () => {
+    const { status, body } = await get(
+      "/api/v1/artifact-sets/crimson-witch-of-flames",
+    );
+    expect(status).toBe(200);
+    expect(body.rarities.map((r: any) => r.slug)).toEqual(["4-star", "5-star"]);
+    expect(body.pieces).toHaveLength(5);
+    expect(body.pieces[0]).toMatchObject({
+      type: { slug: "flower-of-life" },
+      name: "Witch's Flower of Blaze",
+    });
+  });
+
+  it("links artifact sets to their release version", async () => {
+    const { body } = await get("/api/v1/artifact-sets/obsidian-codex");
+    expect(body.releaseVersion).toMatchObject({ slug: "5-0", name: "5.0" });
+    const filtered = await get(
+      "/api/v1/artifact-sets?releaseVersion=5.0&limit=100",
+    );
+    expect(filtered.body.results.map((s: any) => s.slug)).toContain(
+      "obsidian-codex",
+    );
+    const version = await get("/api/v1/versions/5.0");
+    expect(version.body.artifactSets.map((s: any) => s.slug).sort()).toEqual(
+      filtered.body.results.map((s: any) => s.slug).sort(),
+    );
+  });
+
+  it("filters artifact sets by rarity and piece type", async () => {
+    const circlets = await get(
+      "/api/v1/artifact-sets?type=circlet-of-logos&limit=100",
+    );
+    const flowers = await get(
+      "/api/v1/artifact-sets?type=flower-of-life&limit=100",
+    );
+    expect(circlets.body.count).toBeGreaterThan(flowers.body.count);
+    const fiveStar = await get("/api/v1/artifact-sets?rarity=5-star&limit=100");
+    for (const s of fiveStar.body.results) {
+      expect(s.rarities.some((r: any) => r.id === 5)).toBe(true);
+    }
+    const type = await get("/api/v1/artifact-types/circlet-of-logos");
+    expect(type.body.artifactSets.length).toBe(circlets.body.count);
+  });
+
   it("returns rarity as a reference", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.rarity).toMatchObject({
@@ -208,6 +252,8 @@ describe("random", () => {
       "local-specialties",
       "weapons",
       "characters",
+      "artifact-types",
+      "artifact-sets",
     ]) {
       expect((await get(`/api/v1/${r}/random`)).status).toBe(200);
     }

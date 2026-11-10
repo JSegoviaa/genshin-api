@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 49,
+  "slug": "nighttime-whispers-in-the-echoing-woods",
+  "name": "Nighttime Whispers in the Echoing Woods",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "4.3",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Selfless Floral Accessory",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Honest Quill",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Faithful Hourglass",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Magnanimous Ink Bottle",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Compassionate Ladies' Hat",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

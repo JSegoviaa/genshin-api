@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 3,
+  "slug": "lucky-dog",
+  "name": "Lucky Dog",
+  "rarities": [
+    1,
+    2,
+    3
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Lucky Dog's Clover",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Lucky Dog's Eagle Feather",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Lucky Dog's Hourglass",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Lucky Dog's Goblet",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Lucky Dog's Silver Circlet",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

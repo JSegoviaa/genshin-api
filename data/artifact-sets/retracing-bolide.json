@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 26,
+  "slug": "retracing-bolide",
+  "name": "Retracing Bolide",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Summer Night's Bloom",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Summer Night's Finale",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Summer Night's Moment",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Summer Night's Waterballoon",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Summer Night's Mask",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

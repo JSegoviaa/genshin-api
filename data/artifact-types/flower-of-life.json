@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/artifact-types.json",
+  "id": 1,
+  "slug": "flower-of-life",
+  "name": "Flower of Life",
+  "images": {}
+}

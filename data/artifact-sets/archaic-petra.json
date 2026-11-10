@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 25,
+  "slug": "archaic-petra",
+  "name": "Archaic Petra",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Flower of Creviced Cliff",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Feather of Jagged Peaks",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Sundial of Enduring Jade",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Goblet of Chiseled Crag",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Mask of Solitude Basalt",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

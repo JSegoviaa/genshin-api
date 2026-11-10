@@ -78,6 +78,14 @@ const keysOf = (name: ResourceName, key: "id" | "slug") =>
 const normalize = (value: unknown, key: RefTarget["key"]) =>
   key === "name" && typeof value === "string" ? slugify(value) : value;
 
+function valuesAt(node: unknown, path: string[]): unknown[] {
+  if (node == null) return [];
+  if (Array.isArray(node)) return node.flatMap((n) => valuesAt(n, path));
+  if (!path.length) return [node];
+  const [head, ...rest] = path;
+  return valuesAt((node as Record<string, unknown>)[head], rest);
+}
+
 for (const name of RESOURCE_NAMES) {
   const refs = Object.entries(resources[name].refs) as [
     string,
@@ -88,13 +96,7 @@ for (const name of RESOURCE_NAMES) {
       typeof ref === "string" ? { resource: ref, key: "slug" as const } : ref;
     const valid = keysOf(target, key === "id" ? "id" : "slug");
     for (const { item, file } of loaded[name]) {
-      const value = (item as unknown as Record<string, unknown>)[field];
-      const values = Array.isArray(value)
-        ? value
-        : value == null
-          ? []
-          : [value];
-      for (const v of values) {
+      for (const v of valuesAt(item, field.split("."))) {
         if (!valid.has(normalize(v, key)))
           fail(file, `${field}: "${v}" does not exist in ${target}`);
       }

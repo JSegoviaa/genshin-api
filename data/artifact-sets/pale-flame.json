@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 34,
+  "slug": "pale-flame",
+  "name": "Pale Flame",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "1.5",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Stainless Bloom",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Wise Doctor's Pinion",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Moment of Cessation",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Surpassing Cup",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Mocking Mask",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

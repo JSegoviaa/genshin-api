@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 64,
+  "slug": "scarlet-proof",
+  "name": "Scarlet Proof",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "7.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Honor to Your Devotion",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Glory to Your Legacy",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Time Gifted Unto You",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Chalice of Your Blood and Sorrow",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Testament to Your Faith",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

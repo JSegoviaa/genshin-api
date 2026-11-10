@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 54,
+  "slug": "scroll-of-the-hero-of-cinder-city",
+  "name": "Scroll of the Hero of Cinder City",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "5.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Beast Tamer's Talisman",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Mountain Ranger's Marker",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Mystic's Gold Dial",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Wandering Scholar's Claw Cup",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Demon-Warrior's Feather Mask",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

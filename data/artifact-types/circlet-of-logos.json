@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/artifact-types.json",
+  "id": 5,
+  "slug": "circlet-of-logos",
+  "name": "Circlet of Logos",
+  "images": {}
+}

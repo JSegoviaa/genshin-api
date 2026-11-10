@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 56,
+  "slug": "long-nights-oath",
+  "name": "Long Night's Oath",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "5.5",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Lightkeeper's Pledge",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Nightingale's Tail Feather",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Undying One's Mourning Bell",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "A Horn Unwinded",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Dyed Tassel",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

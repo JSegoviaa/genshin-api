@@ -1,5 +1,7 @@
 import type { ResourceDef } from "../core/resource";
 import type { ResourceName } from "../core/resource-names";
+import { artifactSetResource } from "./artifact-sets/artifact-set.resource";
+import { artifactTypeResource } from "./artifact-types/artifact-type.resource";
 import { characterResource } from "./characters/character.resource";
 import { elementResource } from "./elements/element.resource";
 import { localSpecialtyResource } from "./local-specialties/local-specialty.resource";
@@ -18,4 +20,6 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   "local-specialties": localSpecialtyResource,
   weapons: weaponResource,
   characters: characterResource,
+  "artifact-types": artifactTypeResource,
+  "artifact-sets": artifactSetResource,
 };

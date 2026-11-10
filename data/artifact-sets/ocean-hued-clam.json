@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 38,
+  "slug": "ocean-hued-clam",
+  "name": "Ocean-Hued Clam",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "2.3",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Sea-Dyed Blossom",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Deep Palace's Plume",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Cowry of Parting",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Pearl Cage",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Crown of Watatsumi",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

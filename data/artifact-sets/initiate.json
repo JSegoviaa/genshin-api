@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 1,
+  "slug": "initiate",
+  "name": "Initiate",
+  "rarities": [
+    1
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Initiate's Flower",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Initiate's Feather",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

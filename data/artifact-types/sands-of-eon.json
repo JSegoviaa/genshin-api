@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/artifact-types.json",
+  "id": 3,
+  "slug": "sands-of-eon",
+  "name": "Sands of Eon",
+  "images": {}
+}

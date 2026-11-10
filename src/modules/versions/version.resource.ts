@@ -6,7 +6,7 @@ export const versionResource = defineResource({
   name: "versions",
   title: "Versions",
   description:
-    "Game versions with their update title and release date. Each version lists the characters released in it.",
+    "Game versions with their update title and release date. Each version lists the characters and artifact sets released in it.",
   example: "1-3",
   schema: versionSchema,
   refs: {},
@@ -24,6 +24,10 @@ export const versionResource = defineResource({
     characters: ctx.related<{ releaseVersion: string }>(
       "characters",
       (c) => slugify(c.releaseVersion) === v.slug,
+    ),
+    artifactSets: ctx.related<{ releaseVersion: string }>(
+      "artifact-sets",
+      (s) => slugify(s.releaseVersion) === v.slug,
     ),
   }),
 });

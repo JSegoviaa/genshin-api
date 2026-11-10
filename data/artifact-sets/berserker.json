@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 7,
+  "slug": "berserker",
+  "name": "Berserker",
+  "rarities": [
+    3,
+    4
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Berserker's Rose",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Berserker's Indigo Feather",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Berserker's Timepiece",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Berserker's Bone Goblet",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Berserker's Battle Mask",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

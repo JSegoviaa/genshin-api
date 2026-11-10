@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 11,
+  "slug": "brave-heart",
+  "name": "Brave Heart",
+  "rarities": [
+    3,
+    4
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Medal of the Brave",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Prospect of the Brave",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Fortitude of the Brave",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Outset of the Brave",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Crown of the Brave",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

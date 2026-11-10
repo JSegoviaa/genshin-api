@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 44,
+  "slug": "flower-of-paradise-lost",
+  "name": "Flower of Paradise Lost",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "3.3",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Ay-Khanoum's Myriad",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Wilting Feast",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "A Moment Congealed",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Secret-Keeper's Magic Bottle",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Amethyst Crown",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

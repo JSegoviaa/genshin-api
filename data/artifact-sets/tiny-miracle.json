@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 6,
+  "slug": "tiny-miracle",
+  "name": "Tiny Miracle",
+  "rarities": [
+    3,
+    4
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Tiny Miracle's Flower",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Tiny Miracle's Feather",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Tiny Miracle's Hourglass",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Tiny Miracle's Goblet",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Tiny Miracle's Earrings",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

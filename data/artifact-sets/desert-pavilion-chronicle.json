@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 43,
+  "slug": "desert-pavilion-chronicle",
+  "name": "Desert Pavilion Chronicle",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "3.3",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "The First Days of the City of Kings",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "End of the Golden Realm",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Timepiece of the Lost Path",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Defender of the Enchanting Dream",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Legacy of the Desert High-Born",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

@@ -47,7 +47,12 @@ export interface ResourceDef<T extends BaseItem = BaseItem> {
   description: string;
   example: string;
   schema: z.ZodType<T>;
-  refs: Partial<Record<keyof T & string, ResourceName | RefTarget>>;
+  refs: Partial<
+    Record<
+      (keyof T & string) | `${keyof T & string}.${string}`,
+      ResourceName | RefTarget
+    >
+  >;
   filters: Record<string, FilterDef<T>>;
   sorts: Record<string, (item: T) => string | number>;
   summary(item: T, ctx: Ctx): Record<string, unknown>;

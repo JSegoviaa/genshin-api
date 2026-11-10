@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 16,
+  "slug": "prayers-for-destiny",
+  "name": "Prayers for Destiny",
+  "rarities": [
+    3,
+    4
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "circlet-of-logos",
+      "name": "Tiara of Torrents",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

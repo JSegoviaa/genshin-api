@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/artifact-types.json",
+  "id": 2,
+  "slug": "plume-of-death",
+  "name": "Plume of Death",
+  "images": {}
+}

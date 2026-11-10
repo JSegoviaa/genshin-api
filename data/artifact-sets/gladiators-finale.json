@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 19,
+  "slug": "gladiators-finale",
+  "name": "Gladiator's Finale",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Gladiator's Nostalgia",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Gladiator's Destiny",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Gladiator's Longing",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Gladiator's Intoxication",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Gladiator's Triumphus",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

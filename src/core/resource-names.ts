@@ -7,6 +7,8 @@ export const RESOURCE_NAMES = [
   "local-specialties",
   "weapons",
   "characters",
+  "artifact-types",
+  "artifact-sets",
 ] as const;
 
 export type ResourceName = (typeof RESOURCE_NAMES)[number];

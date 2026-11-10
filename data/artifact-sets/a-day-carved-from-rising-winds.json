@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 59,
+  "slug": "a-day-carved-from-rising-winds",
+  "name": "A Day Carved From Rising Winds",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "Luna IV",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Windborne Flower's Spruchdichtung",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Dawn's Brilliant Oath",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "A Note in Spring's Leich",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Heldenepos's Unspoken Tale",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Minnesang of Love and Lament",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

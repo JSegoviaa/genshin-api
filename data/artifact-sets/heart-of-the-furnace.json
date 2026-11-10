@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 63,
+  "slug": "heart-of-the-furnace",
+  "name": "Heart of the Furnace",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "7.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Foundryman's Conjecture",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Foundryman's Observation",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Foundryman's Calculus",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Foundryman's Magnanimity",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Foundryman's Legacy",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

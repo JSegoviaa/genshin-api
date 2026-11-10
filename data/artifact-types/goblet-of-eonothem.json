@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/artifact-types.json",
+  "id": 4,
+  "slug": "goblet-of-eonothem",
+  "name": "Goblet of Eonothem",
+  "images": {}
+}

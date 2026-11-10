@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/artifact-sets.json",
+  "id": 27,
+  "slug": "thundersoother",
+  "name": "Thundersoother",
+  "rarities": [
+    4,
+    5
+  ],
+  "releaseVersion": "1.0",
+  "pieces": [
+    {
+      "type": "flower-of-life",
+      "name": "Thundersoother's Heart",
+      "images": {}
+    },
+    {
+      "type": "plume-of-death",
+      "name": "Thundersoother's Plume",
+      "images": {}
+    },
+    {
+      "type": "sands-of-eon",
+      "name": "Hour of Soothing Thunder",
+      "images": {}
+    },
+    {
+      "type": "goblet-of-eonothem",
+      "name": "Thundersoother's Goblet",
+      "images": {}
+    },
+    {
+      "type": "circlet-of-logos",
+      "name": "Thundersoother's Diadem",
+      "images": {}
+    }
+  ],
+  "images": {}
+}

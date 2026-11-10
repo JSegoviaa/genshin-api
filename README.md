@@ -22,7 +22,7 @@ scripts/                      ← data build, JSON schemas and images
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`.
 
 | Endpoint | Description |
 |---|---|
@@ -38,6 +38,7 @@ List parameters:
 - Resource filters, accepting comma-separated values:
   - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`
   - `local-specialties`: `region`
+  - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`
   - `rarity` accepts the number of stars or the rarity slug (`rarity=5` or `rarity=5-star`)
 
@@ -129,3 +130,9 @@ run `npm run dev` in the project root (API) and in `docs/` (docs) at the same ti
 
 Update `docs/.env.production` with the real API URL before deploying; the build warns while it is a
 placeholder. For personal overrides use `docs/.env.development.local` (ignored by git).
+
+## Data sources
+
+Part of the data comes from the [Genshin Impact Wiki](https://genshin-impact.fandom.com/) on Fandom,
+available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The docs footer
+includes the attribution.
