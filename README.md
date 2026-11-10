@@ -1,4 +1,4 @@
-# Genshin API v2
+# Genshin API
 
 Read-only (GET) Genshin Impact API. No database: data lives as JSON files in `data/`, validated at build
 time and bundled into a Cloudflare Worker. Images are served from Cloudflare R2.
@@ -17,18 +17,18 @@ src/modules/<resource>/
   <name>.resource.ts          ← filters, sorting and response shape
 src/modules/index.ts          ← module registry
 src/app.ts                    ← generic routes (Hono)
-scripts/                      ← data build, images and v1 migration
+scripts/                      ← data build, images and legacy migration
 ```
 
 ## Endpoints
 
-Base: `/api/v2`. Resources: `elements`, `regions`, `weapon-types`, `weapons`, `characters`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `weapons`, `characters`.
 
 | Endpoint | Description |
 |---|---|
-| `GET /api/v2/<resource>` | Paginated list |
-| `GET /api/v2/<resource>/random` | Random item (accepts the same filters) |
-| `GET /api/v2/<resource>/<id or name>` | Detail by id (`31`) or name (`hu-tao`, `Hu Tao`) |
+| `GET /api/v1/<resource>` | Paginated list |
+| `GET /api/v1/<resource>/random` | Random item (accepts the same filters) |
+| `GET /api/v1/<resource>/<id or name>` | Detail by id (`31`) or name (`hu-tao`, `Hu Tao`) |
 
 List parameters:
 
@@ -42,10 +42,10 @@ List parameters:
 Examples:
 
 ```
-/api/v2/characters?element=pyro,hydro&rarity=5&sort=-releaseDate
-/api/v2/characters/random?region=liyue
-/api/v2/weapons?weaponType=bow&rarity=5
-/api/v2/elements/pyro
+/api/v1/characters?element=pyro,hydro&rarity=5&sort=-releaseDate
+/api/v1/characters/random?region=liyue
+/api/v1/weapons?weaponType=bow&rarity=5
+/api/v1/elements/pyro
 ```
 
 List format: `{ count, next, previous, results }`. Errors: `{ error: { status, message } }`.
@@ -97,7 +97,26 @@ without touching the data.
 > Once you have a domain, connect it to the bucket (R2 → Settings → Custom domains) and update `IMAGES_BASE_URL`.
 > Image URLs are built from that variable, so the data does not change.
 
-## v1 migration
+## Documentation site
 
-`npm run migrate:v1 -- --force` regenerates `data/` and `assets/` from `../genshin-api` and `../gi-api`
-(read only). It has already been run once; **do not run it again** after editing data by hand, since `--force` overwrites it.
+`docs/` is a static Astro site deployed as its own Cloudflare Worker (static assets only, free and
+unlimited). Resource pages, filter tables, field types and response examples are generated at build
+time from `src/modules` and the real data, so they never drift from the API. Each module's `title`,
+`description` and `example` (a slug that must exist in `data/`) feed the docs.
+
+```bash
+cd docs
+npm install
+npm run dev            # http://localhost:4321
+npm run build          # rebuilds data and generates docs/dist
+npm run deploy         # build + wrangler deploy (Worker "genshin-api-docs")
+```
+
+Set `PUBLIC_API_URL` in `docs/.env` (see `docs/.env.example`) to the deployed API URL. It is used in
+examples and by the "Try it" boxes. To try them against a local API, run `npm run dev` in the root
+and set `PUBLIC_API_URL=http://localhost:8787`.
+
+## Legacy migration
+
+`npm run migrate:legacy -- --force` regenerates `data/` and `assets/` from the legacy local API
+(`../genshin-api`) and `../gi-api` (read only). It has already been run once; **do not run it again** after editing data by hand, since `--force` overwrites it.

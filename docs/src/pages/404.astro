@@ -1,0 +1,26 @@
+---
+import Base from "../layouts/Base.astro";
+import Ornament from "../components/Ornament.astro";
+---
+
+<Base title="Page not found">
+  <section class="lost">
+    <span class="eyebrow">404</span>
+    <h1>Lost in the wilds of Teyvat</h1>
+    <p class="muted">The page you are looking for has drifted away on the wind.</p>
+    <Ornament />
+    <a href="/" class="btn btn-primary">Return to camp</a>
+  </section>
+</Base>
+
+<style>
+  .lost {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 8rem 1.5rem 2rem;
+    text-align: center;
+  }
+  h1 {
+    margin: 0.6rem 0 1rem;
+  }
+</style>

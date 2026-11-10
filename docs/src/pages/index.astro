@@ -1,0 +1,268 @@
+---
+import Base from "../layouts/Base.astro";
+import CodeBlock from "../components/CodeBlock.astro";
+import ElementOrbs from "../components/ElementOrbs.astro";
+import Ornament from "../components/Ornament.astro";
+import { API_BASE, API_PREFIX, allResources, request } from "../lib/api";
+
+const resources = allResources();
+const total = resources.reduce((sum, r) => sum + r.count, 0);
+const { body } = await request(`${API_PREFIX}/characters?name=hu-tao&limit=1`);
+const sample = JSON.stringify((body as { results: unknown[] }).results[0], null, 2);
+
+const features = [
+  {
+    title: "Free & Open",
+    text: "No API keys, no sign-up, no rate-limit dance. Just send a GET request.",
+    color: "anemo",
+  },
+  {
+    title: "Filter Everything",
+    text: "Combine filters like element, rarity or region on every list endpoint.",
+    color: "hydro",
+  },
+  {
+    title: "Random Draws",
+    text: "Every resource has a /random endpoint that respects your filters.",
+    color: "electro",
+  },
+  {
+    title: "Id or Name",
+    text: "Look up any item by its numeric id or its name, in any casing.",
+    color: "geo",
+  },
+];
+---
+
+<Base title="Genshin API">
+  <section class="hero">
+    <div class="hero-text">
+      <span class="eyebrow">Read-only REST API</span>
+      <h1>
+        The archives of Teyvat,<br /><span class="shine">one request away</span>
+      </h1>
+      <p class="lead">
+        A free API with {total.toLocaleString("en-US")} entries of Genshin Impact
+        data: characters, weapons, elements, regions and more. JSON in, adventure
+        out.
+      </p>
+      <div class="cta">
+        <a href="/docs/" class="btn btn-primary">Begin the Journey</a>
+        <a href="/docs/resources/characters/" class="btn btn-ghost">Explore Resources</a>
+      </div>
+    </div>
+    <div class="hero-code">
+      <CodeBlock title={`GET ${API_BASE}/characters?name=hu-tao`} code={sample} />
+    </div>
+  </section>
+
+  <section class="elements">
+    <ElementOrbs />
+  </section>
+
+  <Ornament />
+
+  <section class="section">
+    <div class="section-head">
+      <span class="eyebrow">Why this API</span>
+      <h2>Built for travelers</h2>
+    </div>
+    <div class="features">
+      {
+        features.map((f) => (
+          <article class="feature frame" style={`--c: var(--${f.color})`}>
+            <span class="dot" />
+            <h3>{f.title}</h3>
+            <p>{f.text}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <span class="eyebrow">Resources</span>
+      <h2>What lies within</h2>
+    </div>
+    <div class="resources">
+      {
+        resources.map((r) => (
+          <a href={`/docs/resources/${r.name}/`} class="resource frame">
+            <div class="resource-head">
+              <h3>{r.title}</h3>
+              <span class="count">{r.count}</span>
+            </div>
+            <p>{r.description}</p>
+            <code>{`${API_PREFIX}/${r.name}`}</code>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section final frame">
+    <h2>Ready to set out?</h2>
+    <p class="muted">Start with the introduction and make your first request in seconds.</p>
+    <a href="/docs/" class="btn btn-primary">Read the Docs</a>
+  </section>
+</Base>
+
+<style>
+  .hero,
+  .section,
+  .elements {
+    max-width: var(--content-w);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 3rem;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+  }
+  .hero h1 {
+    margin: 0.6rem 0 1.2rem;
+    font-size: clamp(2.2rem, 4.6vw, 3.4rem);
+  }
+  .shine {
+    background: linear-gradient(90deg, #f6e7bd, #d3bc8e, #fff3d1, #d3bc8e);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 6s linear infinite;
+  }
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 520px;
+  }
+  .cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .hero-code :global(.code) {
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45), var(--glow);
+  }
+  .hero-code :global(pre) {
+    max-height: 380px;
+  }
+  .elements {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .section {
+    margin-top: 5rem;
+  }
+  .section-head {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  .section-head h2 {
+    margin: 0.4rem 0 0;
+    font-size: 2rem;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+  .feature {
+    padding: 1.6rem 1.4rem;
+  }
+  .feature .dot {
+    display: block;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background: var(--c);
+    box-shadow: 0 0 14px var(--c);
+  }
+  .feature h3 {
+    margin: 1rem 0 0.5rem;
+    color: var(--gold-bright);
+  }
+  .feature p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.93rem;
+  }
+  .resources {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+  }
+  .resource {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+  }
+  .resource:hover {
+    color: var(--text);
+    border-color: var(--border-strong);
+    transform: translateY(-3px);
+    background: rgba(28, 37, 64, 0.85);
+  }
+  .resource-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .resource h3 {
+    margin: 0;
+  }
+  .count {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--gold-bright);
+  }
+  .resource p {
+    flex: 1;
+    margin: 0.7rem 0 1.1rem;
+    color: var(--muted);
+    font-size: 0.93rem;
+  }
+  .resource code {
+    align-self: flex-start;
+  }
+  .final {
+    text-align: center;
+    padding: 3.5rem 1.5rem;
+    max-width: 760px;
+  }
+  .final h2 {
+    margin-top: 0;
+  }
+  .final .btn {
+    margin-top: 0.8rem;
+  }
+  @media (max-width: 960px) {
+    .hero {
+      grid-template-columns: minmax(0, 1fr);
+      padding-top: 3rem;
+    }
+    .features {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 560px) {
+    .features {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

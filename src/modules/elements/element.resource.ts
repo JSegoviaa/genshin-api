@@ -3,6 +3,10 @@ import { elementSchema } from "./element.schema";
 
 export const elementResource = defineResource({
   name: "elements",
+  title: "Elements",
+  description:
+    "The elemental types of Teyvat. Each element lists the characters that wield it.",
+  example: "pyro",
   schema: elementSchema,
   refs: {},
   filters: {},

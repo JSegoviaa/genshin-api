@@ -1,0 +1,81 @@
+---
+const elements = [
+  "anemo",
+  "geo",
+  "electro",
+  "dendro",
+  "hydro",
+  "pyro",
+  "cryo",
+] as const;
+---
+
+<ul class="orbs" aria-label="Elements">
+  {
+    elements.map((el, i) => (
+      <li style={`--c: var(--${el}); --d: ${i * 0.35}s`}>
+        <a href={`/docs/resources/elements/`} class="orb" aria-label={el} />
+        <span>{el}</span>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .orbs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(1rem, 4vw, 2.75rem);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .orb {
+    display: block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle at 35% 30%,
+      #fff 0%,
+      color-mix(in srgb, var(--c) 70%, #fff) 18%,
+      var(--c) 50%,
+      color-mix(in srgb, var(--c) 45%, #000) 100%
+    );
+    box-shadow:
+      0 0 18px color-mix(in srgb, var(--c) 60%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--c) 50%, transparent),
+      0 0 0 5px rgba(10, 14, 25, 0.9),
+      0 0 0 6px color-mix(in srgb, var(--c) 35%, transparent);
+    animation: float 4s ease-in-out infinite;
+    animation-delay: var(--d);
+    transition: transform 0.2s;
+  }
+  .orb:hover {
+    transform: scale(1.12);
+  }
+  span {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--c);
+  }
+  @keyframes float {
+    0%,
+    100% {
+      translate: 0 0;
+    }
+    50% {
+      translate: 0 -6px;
+    }
+  }
+</style>

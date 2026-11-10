@@ -3,6 +3,10 @@ import { weaponTypeSchema } from "./weapon-type.schema";
 
 export const weaponTypeResource = defineResource({
   name: "weapon-types",
+  title: "Weapon Types",
+  description:
+    "The weapon classes available to characters. Each type lists its characters and weapons.",
+  example: "polearm",
   schema: weaponTypeSchema,
   refs: {},
   filters: {},

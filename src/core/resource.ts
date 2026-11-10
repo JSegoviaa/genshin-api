@@ -36,6 +36,9 @@ export interface FilterDef<T> {
 
 export interface ResourceDef<T extends BaseItem = BaseItem> {
   name: ResourceName;
+  title: string;
+  description: string;
+  example: string;
   schema: z.ZodType<T>;
   refs: Partial<Record<keyof T & string, ResourceName>>;
   filters: Record<string, FilterDef<T>>;

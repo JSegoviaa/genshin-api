@@ -1,0 +1,57 @@
+---
+import Docs from "../../layouts/Docs.astro";
+import CodeBlock from "../../components/CodeBlock.astro";
+import { API_PREFIX, request } from "../../lib/api";
+
+const cases = [
+  { path: `${API_PREFIX}/characters?elemnt=pyro`, label: "Unknown parameter" },
+  { path: `${API_PREFIX}/characters?limit=500`, label: "Invalid value" },
+  { path: `${API_PREFIX}/characters/paimon`, label: "Item not found" },
+];
+const examples = await Promise.all(
+  cases.map(async (c) => {
+    const { status, body } = await request(c.path);
+    return { ...c, status, json: JSON.stringify(body, null, 2) };
+  }),
+);
+---
+
+<Docs
+  title="Errors"
+  description="Errors use standard HTTP status codes and always share the same JSON shape."
+>
+  <h2 id="format">Error format</h2>
+  <p>
+    Every error response has an <code>error</code> object with the HTTP
+    <code>status</code> and a human readable <code>message</code>.
+  </p>
+
+  <h2 id="status-codes">Status codes</h2>
+  <table class="frame">
+    <thead>
+      <tr><th>Status</th><th>Meaning</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>200</code></td><td class="muted">Success.</td></tr>
+      <tr>
+        <td><code>400</code></td>
+        <td class="muted">Invalid request: unknown parameter, or a value out of range.</td>
+      </tr>
+      <tr>
+        <td><code>404</code></td>
+        <td class="muted">The item or route does not exist, or no item matches the filters of <code>/random</code>.</td>
+      </tr>
+      <tr><td><code>500</code></td><td class="muted">Unexpected server error.</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="examples">Examples</h2>
+  {
+    examples.map((e) => (
+      <>
+        <h3>{e.label} <span class="muted">· {e.status}</span></h3>
+        <CodeBlock title={`GET ${e.path}`} code={e.json} />
+      </>
+    ))
+  }
+</Docs>

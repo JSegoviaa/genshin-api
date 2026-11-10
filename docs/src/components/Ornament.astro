@@ -1,0 +1,44 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+<div class:list={["ornament", className]} aria-hidden="true">
+  <span class="line"></span>
+  <span class="gem"></span>
+  <span class="gem main"></span>
+  <span class="gem"></span>
+  <span class="line"></span>
+</div>
+
+<style>
+  .ornament {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 2.5rem auto;
+    max-width: 420px;
+  }
+  .line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-deep));
+  }
+  .line:last-child {
+    background: linear-gradient(90deg, var(--gold-deep), transparent);
+  }
+  .gem {
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    border: 1px solid var(--gold);
+  }
+  .gem.main {
+    width: 10px;
+    height: 10px;
+    background: var(--gold);
+    box-shadow: 0 0 12px rgba(243, 226, 179, 0.6);
+  }
+</style>

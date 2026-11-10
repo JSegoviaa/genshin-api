@@ -1,0 +1,88 @@
+---
+import Docs from "../../layouts/Docs.astro";
+import CodeBlock from "../../components/CodeBlock.astro";
+import Callout from "../../components/Callout.astro";
+import Endpoint from "../../components/Endpoint.astro";
+import TryIt from "../../components/TryIt.astro";
+import { API_BASE, API_PREFIX, allResources, example } from "../../lib/api";
+
+const resources = allResources();
+const indexExample = await example(API_PREFIX, 10);
+const fetchExample = `const res = await fetch("${API_BASE}/characters/hu-tao");
+const character = await res.json();
+
+console.log(character.name, character.element.name);`;
+---
+
+<Docs
+  title="Introduction"
+  description="Everything you need to make your first request to the Genshin API."
+>
+  <p>
+    The Genshin API is a free, read-only REST API that serves Genshin Impact data
+    as JSON. There are no API keys and no authentication: every endpoint is a
+    plain <code>GET</code> request you can call from a browser, a server or a
+    terminal.
+  </p>
+
+  <h2 id="base-url">Base URL</h2>
+  <p>All endpoints live under a single versioned base URL:</p>
+  <CodeBlock lang="text" title="Base URL" code={API_BASE} />
+
+  <p>Calling the base URL returns the list of available resources:</p>
+  <CodeBlock title={`GET ${API_PREFIX}`} code={indexExample} />
+
+  <h2 id="endpoints">Three endpoints per resource</h2>
+  <p>Every resource exposes the same three endpoints:</p>
+  <Endpoint path={`${API_PREFIX}/{resource}`} description="Paginated list" />
+  <Endpoint path={`${API_PREFIX}/{resource}/random`} description="One random item" />
+  <Endpoint path={`${API_PREFIX}/{resource}/{id or name}`} description="A single item" />
+
+  <p>
+    A single item can be requested by its numeric <code>id</code> or by its name.
+    Names are case and space insensitive, so <code>hu-tao</code>,
+    <code>Hu Tao</code> and <code>HU-TAO</code> all return the same character.
+  </p>
+
+  <h2 id="first-request">Your first request</h2>
+  <p>Try it right here, or change the path to explore other resources:</p>
+  <TryIt path={`${API_PREFIX}/characters/hu-tao`} />
+
+  <p>Or from your own code:</p>
+  <CodeBlock lang="js" title="JavaScript" code={fetchExample} />
+  <CodeBlock lang="bash" title="cURL" code={`curl ${API_BASE}/characters/hu-tao`} />
+
+  <h2 id="resources">Available resources</h2>
+  <table class="frame">
+    <thead>
+      <tr><th>Resource</th><th>Items</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      {
+        resources.map((r) => (
+          <tr>
+            <td><a href={`/docs/resources/${r.name}/`}><code>{r.name}</code></a></td>
+            <td>{r.count}</td>
+            <td class="muted">{r.description}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+
+  <h2 id="references">References and images</h2>
+  <p>
+    Related resources are returned as <strong>references</strong>: small objects
+    with the <code>id</code>, <code>slug</code>, <code>name</code> and full
+    <code>url</code> of the related item (plus its <code>icon</code> when it has
+    one), so you can follow links without building URLs yourself.
+  </p>
+  <p>Image fields always contain absolute URLs, ready to use in an <code>&lt;img&gt;</code> tag.</p>
+
+  <Callout title="Caching" tone="tip">
+    <p>
+      Responses are cacheable for one hour (<code>Cache-Control: public, max-age=3600</code>),
+      except <code>/random</code>, which is never cached. CORS is enabled for every origin.
+    </p>
+  </Callout>
+</Docs>

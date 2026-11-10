@@ -1,0 +1,74 @@
+---
+import Docs from "../../layouts/Docs.astro";
+import CodeBlock from "../../components/CodeBlock.astro";
+import TryIt from "../../components/TryIt.astro";
+import { API_PREFIX, example } from "../../lib/api";
+
+const path = `${API_PREFIX}/weapons?limit=2&offset=4`;
+const listExample = await example(path);
+---
+
+<Docs
+  title="Pagination"
+  description="List endpoints return results in pages. Use limit and offset to move through them."
+>
+  <h2 id="parameters">Parameters</h2>
+  <table class="frame">
+    <thead>
+      <tr><th>Parameter</th><th>Default</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>limit</code></td>
+        <td>20</td>
+        <td class="muted">Number of items per page, between 1 and 100.</td>
+      </tr>
+      <tr>
+        <td><code>offset</code></td>
+        <td>0</td>
+        <td class="muted">Number of items to skip from the start of the list.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="response">Response format</h2>
+  <p>Every list endpoint returns the same envelope:</p>
+  <table class="frame">
+    <thead>
+      <tr><th>Field</th><th>Type</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>count</code></td>
+        <td>number</td>
+        <td class="muted">Total number of items matching the filters, across all pages.</td>
+      </tr>
+      <tr>
+        <td><code>next</code></td>
+        <td>string | null</td>
+        <td class="muted">URL of the next page, or <code>null</code> on the last page.</td>
+      </tr>
+      <tr>
+        <td><code>previous</code></td>
+        <td>string | null</td>
+        <td class="muted">URL of the previous page, or <code>null</code> on the first page.</td>
+      </tr>
+      <tr>
+        <td><code>results</code></td>
+        <td>object[]</td>
+        <td class="muted">The items of the current page, in summary form.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <CodeBlock title={`GET ${path}`} code={listExample} />
+
+  <p>
+    The <code>next</code> and <code>previous</code> links keep any filters and
+    sorting you used, so you can follow them until <code>next</code> is
+    <code>null</code>.
+  </p>
+
+  <h2 id="try">Try it</h2>
+  <TryIt path={path} />
+</Docs>

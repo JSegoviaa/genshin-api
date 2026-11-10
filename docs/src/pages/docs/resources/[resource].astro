@@ -1,0 +1,141 @@
+---
+import Docs from "../../../layouts/Docs.astro";
+import CodeBlock from "../../../components/CodeBlock.astro";
+import Endpoint from "../../../components/Endpoint.astro";
+import TryIt from "../../../components/TryIt.astro";
+import {
+  API_PREFIX,
+  RESOURCE_NAMES,
+  example,
+  fieldTypes,
+  getResource,
+  type ResourceName,
+} from "../../../lib/api";
+
+export function getStaticPaths() {
+  return RESOURCE_NAMES.map((resource) => ({ params: { resource } }));
+}
+
+const name = Astro.params.resource as ResourceName;
+const r = getResource(name);
+const base = `${API_PREFIX}/${name}`;
+const listPath = `${base}?limit=2`;
+const detailPath = `${base}/${r.example}`;
+const [listExample, detailExample, fields] = await Promise.all([
+  example(listPath),
+  example(detailPath),
+  fieldTypes(name),
+]);
+---
+
+<Docs title={r.title} description={r.description} eyebrow="Resource">
+  <div class="stats">
+    <div class="stat frame"><strong>{r.count}</strong><span>items</span></div>
+    <div class="stat frame"><strong>{r.filters.length + 1}</strong><span>filters</span></div>
+    <div class="stat frame"><strong>{r.sorts.length}</strong><span>sort fields</span></div>
+  </div>
+
+  <h2 id="endpoints">Endpoints</h2>
+  <Endpoint path={base} description="Paginated list" />
+  <Endpoint path={`${base}/random`} description="Random item" />
+  <Endpoint path={`${base}/{id or name}`} description="Single item" />
+
+  <h2 id="list">List</h2>
+  <p>
+    Returns a <a href="/docs/pagination/">paginated</a> list of{" "}
+    {r.title.toLowerCase()} in summary form.
+  </p>
+
+  <h3 id="query-parameters">Query parameters</h3>
+  <table class="frame">
+    <thead>
+      <tr><th>Parameter</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>limit</code></td><td class="muted">Items per page (1-100, default 20)</td></tr>
+      <tr><td><code>offset</code></td><td class="muted">Items to skip (default 0)</td></tr>
+      <tr>
+        <td><code>sort</code></td>
+        <td class="muted">
+          One of {r.sorts.map((s, i) => <>{i > 0 && ", "}<code>{s}</code></>)}. Prefix with <code>-</code> for descending.
+        </td>
+      </tr>
+      <tr><td><code>name</code></td><td class="muted">Partial match on the name</td></tr>
+      {
+        r.filters.map((f) => (
+          <tr>
+            <td><code>{f.name}</code></td>
+            <td class="muted">{f.description}. Comma-separated values allowed.</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+
+  <CodeBlock title={`GET ${listPath}`} code={listExample} />
+
+  <h2 id="detail">Single item</h2>
+  <p>
+    Returns the full details of one item, by numeric id or by name. Arrays in
+    the example below are shortened.
+  </p>
+
+  <h3 id="fields">Fields</h3>
+  <table class="frame">
+    <thead>
+      <tr><th>Field</th><th>Type</th></tr>
+    </thead>
+    <tbody>
+      {
+        fields.map((f) => (
+          <tr>
+            <td><code>{f.field}</code></td>
+            <td class="type">{f.type}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+
+  <CodeBlock title={`GET ${detailPath}`} code={detailExample} />
+
+  <h2 id="random">Random</h2>
+  <p>
+    Returns one random item with the same shape as the single item endpoint.
+    Accepts <code>name</code>{r.filters.length > 0 && " and every list filter"}.
+  </p>
+
+  <h2 id="try">Try it</h2>
+  <TryIt path={detailPath} />
+</Docs>
+
+<style>
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.1rem;
+  }
+  .stat strong {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    color: var(--gold-bright);
+    line-height: 1.2;
+  }
+  .stat span {
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .type {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--hydro);
+  }
+</style>

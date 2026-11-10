@@ -3,6 +3,10 @@ import { weaponSchema } from "./weapon.schema";
 
 export const weaponResource = defineResource({
   name: "weapons",
+  title: "Weapons",
+  description:
+    "Every weapon with its rarity, type, secondary stat, series and ascension material.",
+  example: "staff-of-homa",
   schema: weaponSchema,
   refs: { weaponType: "weapon-types" },
   filters: {

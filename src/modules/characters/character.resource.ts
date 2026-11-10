@@ -3,6 +3,10 @@ import { characterSchema } from "./character.schema";
 
 export const characterResource = defineResource({
   name: "characters",
+  title: "Characters",
+  description:
+    "Playable characters with their element, weapon, region, birthday, materials and constellations.",
+  example: "hu-tao",
   schema: characterSchema,
   refs: { element: "elements", weaponType: "weapon-types", region: "regions" },
   filters: {

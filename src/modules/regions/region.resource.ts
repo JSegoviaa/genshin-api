@@ -3,6 +3,10 @@ import { regionSchema } from "./region.schema";
 
 export const regionResource = defineResource({
   name: "regions",
+  title: "Regions",
+  description:
+    "The nations and lands of Teyvat. Each region lists the characters that come from it.",
+  example: "liyue",
   schema: regionSchema,
   refs: {},
   filters: {},

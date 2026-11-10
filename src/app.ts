@@ -11,7 +11,7 @@ export interface Env {
   IMAGES_BASE_URL: string;
 }
 
-export const API_PREFIX = "/api/v2";
+export const API_PREFIX = "/api/v1";
 const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 100;
 const CACHE = "public, max-age=3600";

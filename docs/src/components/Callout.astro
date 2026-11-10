@@ -1,0 +1,39 @@
+---
+interface Props {
+  title?: string;
+  tone?: "info" | "tip" | "warning";
+}
+const { title, tone = "info" } = Astro.props;
+---
+
+<aside class:list={["callout", tone]}>
+  {title && <strong class="title">{title}</strong>}
+  <div class="body"><slot /></div>
+</aside>
+
+<style>
+  .callout {
+    --accent: var(--hydro);
+    margin: 1.5rem 0;
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+  }
+  .tip {
+    --accent: var(--dendro);
+  }
+  .warning {
+    --accent: var(--pyro);
+  }
+  .title {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-family: var(--font-display);
+    letter-spacing: 0.06em;
+    color: var(--accent);
+  }
+  .body :global(p:last-child) {
+    margin-bottom: 0;
+  }
+</style>

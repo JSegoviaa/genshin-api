@@ -1,0 +1,162 @@
+---
+import "../styles/global.css";
+import Logo from "../components/Logo.astro";
+import { API_BASE } from "../lib/api";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "A free, read-only REST API for Genshin Impact data: characters, weapons, elements, regions and more.",
+} = Astro.props;
+const fullTitle = title === "Genshin API" ? title : `${title} · Genshin API`;
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta name="theme-color" content="#0a0e19" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <a href="/" class="brand">
+          <Logo />
+          <span>Genshin <em>API</em></span>
+        </a>
+        <nav>
+          <a href="/docs/" class:list={{ active: path.startsWith("/docs") && !path.includes("/resources") }}>Docs</a>
+          <a href="/docs/resources/characters/" class:list={{ active: path.includes("/resources") }}>Resources</a>
+          <a href={API_BASE} class="api-link" target="_blank" rel="noopener">API ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <slot />
+
+    <footer class="site-footer">
+      <div class="inner">
+        <div class="brand small">
+          <Logo size={24} />
+          <span>Genshin <em>API</em></span>
+        </div>
+        <p>
+          Unofficial fan project. Genshin Impact, its characters, names and
+          images are trademarks and copyright of HoYoverse. This project is not
+          affiliated with or endorsed by HoYoverse.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: var(--header-h);
+    border-bottom: 1px solid var(--border);
+    background: rgba(10, 14, 25, 0.72);
+    backdrop-filter: blur(14px);
+  }
+  .inner {
+    max-width: var(--content-w);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .site-header .inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: 0.08em;
+    color: var(--gold-bright);
+  }
+  .brand em {
+    font-style: normal;
+    color: var(--gold);
+    font-weight: 500;
+  }
+  nav {
+    display: flex;
+    gap: 0.4rem;
+  }
+  nav a {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: var(--muted);
+    padding: 0.45em 0.9em;
+    border-radius: 999px;
+    border: 1px solid transparent;
+  }
+  nav a:hover {
+    color: var(--gold-bright);
+  }
+  nav a.active {
+    color: var(--gold-bright);
+    border-color: var(--border);
+    background: rgba(211, 188, 142, 0.08);
+  }
+  .site-footer {
+    margin-top: 6rem;
+    border-top: 1px solid var(--border);
+    background: rgba(10, 14, 25, 0.6);
+  }
+  .site-footer .inner {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .brand.small {
+    font-size: 0.95rem;
+  }
+  .site-footer p {
+    max-width: 620px;
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--faint);
+  }
+  @media (max-width: 640px) {
+    .inner {
+      padding: 0 1rem;
+    }
+    .brand span {
+      display: none;
+    }
+    .api-link {
+      display: none;
+    }
+    nav a {
+      padding: 0.4em 0.7em;
+      font-size: 0.78rem;
+    }
+  }
+</style>

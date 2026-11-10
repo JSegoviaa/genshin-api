@@ -89,6 +89,12 @@ for (const name of RESOURCE_NAMES) {
       }
     }
   }
+  const { example } = resources[name];
+  if (!slugsOf(name).has(example)) {
+    errors.push(
+      `src/modules (${name}): example "${example}" does not exist in data/${name}`,
+    );
+  }
 }
 
 if (errors.length) {

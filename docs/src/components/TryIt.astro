@@ -1,0 +1,169 @@
+---
+import { API_URL } from "../lib/api";
+
+interface Props {
+  path: string;
+}
+const { path } = Astro.props;
+---
+
+<form class="try frame" data-api={API_URL}>
+  <div class="bar">
+    <span class="method">GET</span>
+    <span class="host">{API_URL.replace(/^https?:\/\//, "")}</span>
+    <input
+      name="path"
+      value={path}
+      spellcheck="false"
+      autocomplete="off"
+      aria-label="Request path"
+    />
+    <button type="submit" class="btn btn-primary">Send</button>
+  </div>
+  <div class="result" hidden>
+    <div class="meta"><span class="status"></span><span class="time"></span></div>
+    <pre><code></code></pre>
+  </div>
+</form>
+
+<script>
+  const escape = (s: string) =>
+    s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+  const highlight = (json: string) =>
+    escape(json).replace(
+      /("(?:\\.|[^"\\])*")(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d+)?/g,
+      (match, str, colon, lit) => {
+        if (str) return `<span class="${colon ? "k" : "s"}">${str}</span>${colon ?? ""}`;
+        if (lit) return `<span class="l">${match}</span>`;
+        return `<span class="n">${match}</span>`;
+      },
+    );
+
+  document.querySelectorAll<HTMLFormElement>("form.try").forEach((form) => {
+    const input = form.querySelector("input")!;
+    const result = form.querySelector<HTMLElement>(".result")!;
+    const status = form.querySelector<HTMLElement>(".status")!;
+    const time = form.querySelector<HTMLElement>(".time")!;
+    const code = form.querySelector("code")!;
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const path = input.value.startsWith("/") ? input.value : `/${input.value}`;
+      result.hidden = false;
+      status.className = "status";
+      status.textContent = "Loading…";
+      time.textContent = "";
+      code.textContent = "";
+      const started = performance.now();
+      try {
+        const res = await fetch(`${form.dataset.api}${path}`);
+        const body = await res.json();
+        status.textContent = `${res.status} ${res.ok ? "OK" : res.statusText || "Error"}`;
+        status.classList.add(res.ok ? "ok" : "err");
+        code.innerHTML = highlight(JSON.stringify(body, null, 2));
+      } catch {
+        status.textContent = "Network error";
+        status.classList.add("err");
+        code.textContent = "Could not reach the API. Check that it is deployed and PUBLIC_API_URL is set.";
+      }
+      time.textContent = `${Math.round(performance.now() - started)} ms`;
+    });
+  });
+</script>
+
+<style>
+  .try {
+    margin: 1.4rem 0;
+    padding: 0.9rem;
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    position: relative;
+    z-index: 1;
+  }
+  .method {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #0c1a15;
+    background: var(--anemo);
+    border-radius: 4px;
+    padding: 0.2em 0.55em;
+  }
+  .host {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--faint);
+    white-space: nowrap;
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  input {
+    flex: 1;
+    min-width: 0;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--text);
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.55em 0.8em;
+    outline: none;
+  }
+  input:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(211, 188, 142, 0.15);
+  }
+  .btn {
+    padding: 0.5em 1.3em;
+  }
+  .result {
+    margin-top: 0.9rem;
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+  }
+  .meta {
+    display: flex;
+    gap: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .status.ok {
+    color: var(--dendro);
+  }
+  .status.err {
+    color: var(--pyro);
+  }
+  .time {
+    color: var(--faint);
+  }
+  pre {
+    margin: 0;
+    max-height: 420px;
+    overflow: auto;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--text);
+  }
+  pre :global(.k) {
+    color: #d3bc8e;
+  }
+  pre :global(.s) {
+    color: #9fd6a8;
+  }
+  pre :global(.n),
+  pre :global(.l) {
+    color: #f0a35e;
+  }
+  @media (max-width: 640px) {
+    .host {
+      display: none;
+    }
+  }
+</style>

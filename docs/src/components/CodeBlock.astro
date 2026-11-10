@@ -1,0 +1,89 @@
+---
+import { Code } from "astro:components";
+import { codeTheme } from "../lib/code-theme";
+
+interface Props {
+  code: string;
+  lang?: "json" | "bash" | "js" | "ts" | "http" | "text";
+  title?: string;
+}
+
+const { code, lang = "json", title } = Astro.props;
+---
+
+<figure class="code frame">
+  <figcaption>
+    <span class="title">{title ?? lang.toUpperCase()}</span>
+    <button type="button" class="copy" data-code={code} aria-label="Copy code">
+      Copy
+    </button>
+  </figcaption>
+  <Code code={code} lang={lang} theme={codeTheme} />
+</figure>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".code .copy").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(btn.dataset.code ?? "");
+      btn.textContent = "Copied";
+      btn.classList.add("done");
+      setTimeout(() => {
+        btn.textContent = "Copy";
+        btn.classList.remove("done");
+      }, 1600);
+    });
+  });
+</script>
+
+<style>
+  .code {
+    margin: 1.4rem 0;
+    overflow: hidden;
+    background: #0e1322;
+  }
+  figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.55rem 1rem 0.55rem 1.1rem;
+    border-bottom: 1px solid var(--border);
+    background: rgba(211, 188, 142, 0.05);
+  }
+  .title {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .copy {
+    position: relative;
+    z-index: 1;
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.25em 0.9em;
+    cursor: pointer;
+  }
+  .copy:hover,
+  .copy.done {
+    color: #2a2116;
+    background: var(--gold);
+  }
+  .code :global(pre) {
+    margin: 0;
+    padding: 1.1rem 1.25rem;
+    max-height: 520px;
+    overflow: auto;
+    font-size: 0.84rem;
+    line-height: 1.65;
+    background: transparent !important;
+  }
+</style>

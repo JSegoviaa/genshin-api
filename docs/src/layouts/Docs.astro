@@ -1,0 +1,212 @@
+---
+import Base from "./Base.astro";
+import { navigation } from "../lib/nav";
+
+interface Props {
+  title: string;
+  description?: string;
+  eyebrow?: string;
+}
+
+const { title, description, eyebrow } = Astro.props;
+const path = Astro.url.pathname.replace(/\/?$/, "/");
+const flat = navigation.flatMap((g) => g.items);
+const index = flat.findIndex((i) => i.href === path);
+const prev = index > 0 ? flat[index - 1] : undefined;
+const next = index >= 0 && index < flat.length - 1 ? flat[index + 1] : undefined;
+const currentGroup = navigation.find((g) => g.items.some((i) => i.href === path));
+---
+
+<Base title={title} description={description}>
+  <div class="layout">
+    <aside class="sidebar">
+      <details open>
+        <summary>Menu</summary>
+        <nav>
+          {
+            navigation.map((group) => (
+              <div class="group">
+                <p class="group-title">{group.title}</p>
+                <ul>
+                  {group.items.map((item) => (
+                    <li>
+                      <a
+                        href={item.href}
+                        class:list={{ active: item.href === path }}
+                        aria-current={item.href === path ? "page" : undefined}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
+        </nav>
+      </details>
+      <script is:inline>
+        if (matchMedia("(max-width: 900px)").matches)
+          document.querySelector(".sidebar details")?.removeAttribute("open");
+      </script>
+    </aside>
+
+    <main class="content">
+      <span class="eyebrow">{eyebrow ?? currentGroup?.title}</span>
+      <h1>{title}</h1>
+      {description && <p class="lead">{description}</p>}
+      <div class="divider" aria-hidden="true"></div>
+      <slot />
+
+      <nav class="pager">
+        {
+          prev ? (
+            <a href={prev.href} class="frame prev">
+              <span>Previous</span>
+              {prev.label}
+            </a>
+          ) : (
+            <span />
+          )
+        }
+        {
+          next && (
+            <a href={next.href} class="frame next">
+              <span>Next</span>
+              {next.label}
+            </a>
+          )
+        }
+      </nav>
+    </main>
+  </div>
+</Base>
+
+<style>
+  .layout {
+    max-width: var(--content-w);
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 0;
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 3.5rem;
+  }
+  .sidebar details {
+    position: sticky;
+    top: calc(var(--header-h) + 2rem);
+  }
+  .sidebar summary {
+    display: none;
+  }
+  .group + .group {
+    margin-top: 1.8rem;
+  }
+  .group-title {
+    margin: 0 0 0.6rem;
+    font-family: var(--font-display);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid var(--border);
+  }
+  li a {
+    position: relative;
+    display: block;
+    padding: 0.32rem 0 0.32rem 1rem;
+    font-size: 0.93rem;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  li a:hover {
+    color: var(--text);
+  }
+  li a.active {
+    color: var(--gold-bright);
+  }
+  li a.active::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    background: var(--gold);
+    transform: translateY(-50%) rotate(45deg);
+    box-shadow: 0 0 10px rgba(243, 226, 179, 0.7);
+  }
+  .content {
+    min-width: 0;
+    max-width: 820px;
+  }
+  .lead {
+    font-size: 1.12rem;
+    color: var(--muted);
+  }
+  .divider {
+    height: 1px;
+    margin: 1.8rem 0 2.2rem;
+    background: linear-gradient(90deg, var(--gold-deep), transparent 70%);
+  }
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+  .pager a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem 1.3rem;
+    min-width: 200px;
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--gold-bright);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .pager a:hover {
+    border-color: var(--border-strong);
+    background: rgba(211, 188, 142, 0.08);
+  }
+  .pager span {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .pager .next {
+    text-align: right;
+    margin-left: auto;
+  }
+  @media (max-width: 900px) {
+    .layout {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      padding-top: 1.5rem;
+    }
+    .sidebar details {
+      position: static;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.8rem 1rem;
+      background: var(--panel);
+    }
+    .sidebar summary {
+      display: block;
+      cursor: pointer;
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--gold);
+    }
+    .sidebar nav {
+      margin-top: 1rem;
+    }
+  }
+</style>
