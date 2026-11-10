@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 27,
+  "slug": "tiny-miracles-earrings",
+  "name": "Tiny Miracle's Earrings",
+  "set": "tiny-miracle",
+  "type": "circlet-of-logos",
+  "description": "A cheap accessory that is actually made from ancient meteoric ore.",
+  "lore": "An inexpensive pair of earrings made from metal that shines like the stars.\nWhat the sellers don't know is that the shine of these earrings comes from the fallen stars of ancient times.",
+  "images": {}
+}

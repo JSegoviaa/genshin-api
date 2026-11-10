@@ -8,32 +8,5 @@
     4
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Guardian's Flower",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Guardian's Sigil",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Guardian's Clock",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Guardian's Vessel",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Guardian's Band",
-      "images": {}
-    }
-  ],
   "images": {}
 }

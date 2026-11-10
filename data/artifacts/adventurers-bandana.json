@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 7,
+  "slug": "adventurers-bandana",
+  "name": "Adventurer's Bandana",
+  "set": "adventurer",
+  "type": "circlet-of-logos",
+  "description": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride.",
+  "lore": "There is nothing special about this green bandana, save that the fabric is rather robust and highly absorbent.\nJust like the bandana, its wearer was an unexceptional, ordinary person.\nBut countless secrets lie hidden in the stars high up above and the abyss deep down below.\nAll of these things are awaiting discovery by mere mortals.",
+  "images": {}
+}

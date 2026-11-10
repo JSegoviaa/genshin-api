@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 20,
+  "slug": "sundial-of-the-sojourner",
+  "name": "Sundial of the Sojourner",
+  "set": "resolution-of-sojourner",
+  "type": "sands-of-eon",
+  "description": "A sundial that has survived the ages, always silently recording the cycles of the sun and moon as they pass through the sky.",
+  "lore": "The traveler pursued both fate and the inexorable passage of time.\nThe troupe that resisted the aristocracy — and their end — could be seen in the eternal flow of time.\n\nIn the course of a long journey, even the most well-made watch might cease to work.\nThe only unfailing marker of time was the passage of the sun and moon.\nSo to chase formless time, the traveler could only pursue light itself.\n\nThe great halls of the nobility, and the rebellious troupe with no room to lay their heads.\nBoth were churned just the same by the flow of time, and both like fleeting dreams raced towards the same destruction.\n\nUnder the moonless night sky, the dark shadows drew upon the outlander's tired face.\n\"The songs are spent like arrows few, to the choir the curtain calls.\"\n\"Shall I ever see you smile anew, when the tower in the city square falls?\"",
+  "images": {}
+}

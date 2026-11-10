@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 218,
+  "slug": "masterpieces-overture",
+  "name": "Masterpiece's Overture",
+  "set": "marechaussee-hunter",
+  "type": "plume-of-death",
+  "description": "A portable tool used to adjust the torque on some old-school clockwork machine. It has since lost its practical value.",
+  "lore": "A small tool used to adjust clockwork torque. Can be used on all manner of clockwork motors.\n\nThese would become outmoded with the arrival of Alain Guillotin's \"new model\" clockwork meka,\n\nWhich have themselves ceased to be \"new\" following several hundred years of further testing.\n\nNow, regarding Alain Guillotin,\n\nBefore he joined, then left the Marechaussee Phantom, before finally setting up the Research Institute of Kinetic Energy Engineering,\n\nGuillotin organized research into energy at the now-ruined Institute of Natural Philosophy.\n\nIt is said that he, throughout his life, was close to no one but his younger sister, who also served in the Marechaussee.\n\nThere are many legends concerning him. One of them is as follows—\n\nIt is said that he was able to create a thinking machine during his time at the Institute,\n\nAnd used this machine to aid his sister in her work at the Marechaussee.\n\nThese statements largely come from previous colleagues of his (most of whom died fighting Elynas),\n\nAnd since there was no physical evidence of it, it has never entered official record.\n\nOnce, when asked about this, he commented: \"It's a great shame. There's nothing to be said.\"\n\nHe never again responded to any questions or inquiries relating to the matter.\n\nAnother goes as such—\n\nIn his old age, he retired from the Fontaine Research Institute to his workshop, and he would see no one.\n\nThe research he undertook in his final years was never published,\n\nAnd after the matter, the only things that could be found in his personal workshop were signs that something had been built.\n\nIn latter years, these legends would function similarly to that work of Coppelius's that could not be performed to completion,\n\nStoking imaginations, granting inspiration, and driving ever greater efforts.",
+  "images": {}
+}

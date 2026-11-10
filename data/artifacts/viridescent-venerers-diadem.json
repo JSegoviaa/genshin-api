@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 101,
+  "slug": "viridescent-venerers-diadem",
+  "name": "Viridescent Venerer's Diadem",
+  "set": "viridescent-venerer",
+  "type": "circlet-of-logos",
+  "description": "A proud crown that once belonged to the Viridescent Venerer. It is as lush and green as the breezes of the wild.",
+  "lore": "A hunter's hat without any blood stains.\nIn folklore, it belonged to the uncrowned queen of hunters — the Viridescent Venerer.\n\n\"Never become the foe of the earth and the forest.\" This was the hunters' rule.\nInstead, a hunter should become a silent part of nature.\nIt is said that a bird once built its nest in this hat.\n\nNone could ever bestow a crown upon the queen of hunters,\nsince the only one superior to her was nature itself.\n\nIn the crisis that soon followed, her hunter's hat became\na frightful sight for monsters to behold.",
+  "images": {}
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 116,
+  "slug": "thundersoothers-diadem",
+  "name": "Thundersoother's Diadem",
+  "set": "thundersoother",
+  "type": "circlet-of-logos",
+  "description": "The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land.",
+  "lore": "A very ancient diadem.\nIt shines with the light of the pacified lightning.\n\nThe ferocious Beast of Thunder\nonce enslaved people with its mighty lightning.\nBut its lightning existed only in a flash,\nand like the lightning, its mightiness soon disappeared.\n\nThe Thundersoother defeated the beast in a lightning storm.\nHe claimed this diadem as his trophy.\nBut the past can never be fully pacified.",
+  "images": {}
+}

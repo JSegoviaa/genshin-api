@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "3.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Dreaming Steelbloom",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Feather of Judgment",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "The Sunken Years",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Honeyed Final Feast",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Shadow of the Sand King",
-      "images": {}
-    }
-  ],
   "images": {}
 }

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 74,
+  "slug": "gladiators-longing",
+  "name": "Gladiator's Longing",
+  "set": "gladiators-finale",
+  "type": "sands-of-eon",
+  "description": "A timepiece that recorded the gladiator's days in the bloodstained Colosseum. To him, it counted down the days on his long road to freedom.",
+  "lore": "The gladiator crafted this hourglass himself. He would flip the hourglass before each battle.\nWhen the hourglass stopped flipping, the gladiator had long since died in a pool of his own blood.\n\nThe gladiator would put this hourglass aside before entering the arena.\nWhen the fight has ended and the crowd started to cheer for him, the sand in the hourglass was still flowing.\n\nIn the gladiator's final fight, he faced a young girl.\nIn her eyes, he saw both the timidity of a young girl and the ferocity of a young lioness.\nFrom his steps, the girl saw the unbreakable shackles of age that the gladiator wore.\nIt was a fight like the old gladiator has not had in years. Fierce, yet satisfying.\nBut the fight ended in a flash. The sword plunged into the gladiator's heart and the sand in his hourglass crawled to a stop.",
+  "images": {}
+}

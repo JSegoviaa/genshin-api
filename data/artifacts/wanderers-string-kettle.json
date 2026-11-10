@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 80,
+  "slug": "wanderers-string-kettle",
+  "name": "Wanderer's String-Kettle",
+  "set": "wanderers-troupe",
+  "type": "goblet-of-eonothem",
+  "description": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which plays a wondrous tune as the water flows out.",
+  "lore": "A strangely-shaped kettle that plays a wondrous tune as the water flows out.\nThere was always music in the life of a Troupe member, even when drinking water.\n\nAn ancient tale tells of a wandering troupe that roamed the land.\nFor flutes they had swords, and for harps they had bows.\nThey performed not only for friends, but also for foes.\nThey traveled through the desert and set foot in the blazing Mare Jivari.\n\nThe tune of the harp echoing in the kettle was a reminder for them.\n\"Along with the boundless tunes we walk.\"\n\"Wherever there is music, there is us.\"",
+  "images": {}
+}

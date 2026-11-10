@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "4.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Hunter's Brooch",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Masterpiece's Overture",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Moment of Judgment",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Forgotten Vessel",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Veteran's Visage",
-      "images": {}
-    }
-  ],
   "images": {}
 }

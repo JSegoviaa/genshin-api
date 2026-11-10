@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 128,
+  "slug": "witchs-ever-burning-plume",
+  "name": "Witch's Ever-Burning Plume",
+  "set": "crimson-witch-of-flames",
+  "type": "plume-of-death",
+  "description": "A bird feather touched by the witch who once dreamt of burning away all the demons in the world. Its eternal flame burns hot.",
+  "lore": "A forever-burning bird feather.\nThe fire shall burn for all eternity.\n\nScorched earth followed in her wake, for she chose a path of hellfire.\nThough her fires only touched monsters and demons,\nPeople still cowered behind closed windows and tried to drive her away. But none of that mattered to her.\n\nNew hopes were birthed from the fires of old pains.\nShe needed not comforting nor sympathy.\nChirping by her side, the birds gave her all the understanding she needed.",
+  "images": {}
+}

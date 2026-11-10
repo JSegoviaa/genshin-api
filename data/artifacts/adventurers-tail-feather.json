@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 4,
+  "slug": "adventurers-tail-feather",
+  "name": "Adventurer's Tail Feather",
+  "set": "adventurer",
+  "type": "plume-of-death",
+  "description": "The feather of an exotic bird rarely seen on this continent.",
+  "lore": "An adventurer once traveled through a forest in search of rare beasts never seen before.\nAs he tore his way recklessly through the foliage, the adventurer tripped on a tree root.\nWhen he regained consciousness, he saw a girl so beautiful that he was willing to give up the adventurer's life to be with her.\nHer appearance was surreal, with a cluster of feathers adorning her hair.",
+  "images": {}
+}

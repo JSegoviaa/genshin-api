@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 132,
+  "slug": "snowswept-memory",
+  "name": "Snowswept Memory",
+  "set": "blizzard-strayer",
+  "type": "flower-of-life",
+  "description": "A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it.",
+  "lore": "This is a flower of ever-frost, plucked by a pair of gentle hands.\nIt must have given a certain someone the strength to see winter as a warm embrace.\n\n\"This fourth fresco is prepared for you. Your likeness will forever remain on this wall.\"\n\"For the sake of that fresco, and for everyone's sake, I will pray for you, and wait for your return...\"\n\nThe maiden stood before a blank wall, and smiling, she pinned a small flower to the hero's breast.\nThat was an elegant and unruffled fellow, who would never bat an eyelid, not even in the face of death itself.\n\nThe heroism of the Icebreaker was forgotten, buried in the storms of the North.\nSince then, the snow has melted — but this flower has not withered.",
+  "images": {}
+}

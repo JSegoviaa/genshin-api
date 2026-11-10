@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "3.6",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Stamen of Khvarena's Origin",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Vibrant Pinion",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Ancient Abscission",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Feast of Boundless Joy",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Heart of Khvarena's Brilliance",
-      "images": {}
-    }
-  ],
   "images": {}
 }

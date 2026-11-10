@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 104,
+  "slug": "sundial-of-enduring-jade",
+  "name": "Sundial of Enduring Jade",
+  "set": "archaic-petra",
+  "type": "sands-of-eon",
+  "description": "A sundial carved from a single, large piece of jade. It's lined with a pattern that silently records the passage of time.",
+  "lore": "A sundial made using regal jade.\nIt silently pursues both time and tide.\n\nEven rocks that have stood firm for time immemorial will eventually disintegrate over time, crumbling into dust and gravel.\n\nLegend has it that the Lord of Geo once made the glittering stars of the earth into devices for telling time, all the better to teach the ancient humans about the value of every moment.\nOver the passage of time, this sundial came to be the prized possession of Kunwu, who was then still a scholar in training.\n\n\"When I was young, I dreamed of studying the classics and going to Sumeru to attain the greatest wisdom.\"\n\"Yet when gaining this dial, I played with and examined it for many long days, and could not find in it a single flaw.\"\n\"Thus I changed tacks and sought a master craftsman to learn a new trade, and thereby challenge the creator of this divine tool.\"",
+  "images": {}
+}

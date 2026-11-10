@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "3.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Labyrinth Wayfarer",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Scholar of Vines",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "A Time of Insight",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Lamp of the Lost",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Laurel Coronet",
-      "images": {}
-    }
-  ],
   "images": {}
 }

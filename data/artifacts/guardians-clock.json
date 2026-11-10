@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 45,
+  "slug": "guardians-clock",
+  "name": "Guardian's Clock",
+  "set": "defenders-will",
+  "type": "sands-of-eon",
+  "description": "A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time.",
+  "lore": "The ticking of the clock's hands, the candlelight, and the reams of case notes,\nThe shadows by moonlight, the blade and black mantle,\nThese were the constant companions of the lonesome guardian.\nBut no matter how far he went, there was never enough time.\nHis superior, carefree and proud, often laughed at his curtness, his unsmiling face, his aversion to fun.\n\nBut the guardian was not one to look back on the past — only to the present and future.\nOnly by reaving every last trace of evil, no matter the means,\nCould he ensure that this land that his friend and loved superior could have a future without fear.\n\nOnly when he gazed on that maiden in the square,\nCould he think upon things he had no time for.\n\nOnly then could he think about his own future...",
+  "images": {}
+}

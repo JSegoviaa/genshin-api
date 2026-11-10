@@ -9,32 +9,5 @@
     3
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Traveling Doctor's Silver Lotus",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Traveling Doctor's Owl Feather",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Traveling Doctor's Pocket Watch",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Traveling Doctor's Medicine Pot",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Traveling Doctor's Handkerchief",
-      "images": {}
-    }
-  ],
   "images": {}
 }

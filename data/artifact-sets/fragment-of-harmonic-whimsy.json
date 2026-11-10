@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "4.6",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Harmonious Symphony Prelude",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Ancient Sea's Nocturnal Musing",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "The Grand Jape of the Turning of Fate",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Ichor Shower Rhapsody",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Whimsical Dance of the Withered",
-      "images": {}
-    }
-  ],
   "images": {}
 }

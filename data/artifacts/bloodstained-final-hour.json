@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 89,
+  "slug": "bloodstained-final-hour",
+  "name": "Bloodstained Final Hour",
+  "set": "bloodstained-chivalry",
+  "type": "sands-of-eon",
+  "description": "A timepiece once used by a knight. The liquid inside has dried up, rendering it useless.",
+  "lore": "Deep in the abyss, where celestial bodies cast no light,\nthe Bloodstained Knight kept this timepiece, though time had lost all meaning.\n\nAt an end was the Bloodstained Knight's story,\nfor he realized there was no place for him on this earth.\nHe ventured into the fallen ancient kingdom, and died in battle in the monsters' lair.The first three lines are missing phrases from the original Chinese text, so a retranslation has been provided:\n\nAt the bottom of the world, he learned the origin of the monsters that destroyed the ancient kingdom.\n\n\"The ancient kingdom was wrongfully cursed,\"\n\"Turning its inhabitants into monsters.\"\n\"The code of chivalry tolerates not such injustice.\"\n\"If Abyss be thy name, I pledge to you my loyalty.\"In the original Chinese text, he says .",
+  "images": {}
+}

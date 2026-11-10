@@ -8,32 +8,5 @@
     4
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Scholar's Bookmark",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Scholar's Quill Pen",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Scholar's Clock",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Scholar's Ink Cup",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Scholar's Lens",
-      "images": {}
-    }
-  ],
   "images": {}
 }

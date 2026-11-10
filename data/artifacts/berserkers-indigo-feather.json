@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 29,
+  "slug": "berserkers-indigo-feather",
+  "name": "Berserker's Indigo Feather",
+  "set": "berserker",
+  "type": "plume-of-death",
+  "description": "An indigo feather from a legendary raven, part of which has been dyed crimson red.",
+  "lore": "The once-sane berserker's homeland fell victim to the raging war between gods and mortals.\nThe rose garden burst into flames and birds of omen fed on the flesh of his countrymen.\nReborn in flames, vengeance and bloodlust took over the warrior's mind, turning him into a berserker.\nBlack feathers, scattered on the battlefield, were painted red by his rage as he took his revenge.",
+  "images": {}
+}

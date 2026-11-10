@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 130,
+  "slug": "witchs-heart-flames",
+  "name": "Witch's Heart Flames",
+  "set": "crimson-witch-of-flames",
+  "type": "goblet-of-eonothem",
+  "description": "A flame-spitting urn left behind by the Crimson Witch of Flames, who once dreamt of burning away all the demons in the world. The fire in the urn burns eternally, as did its former master.",
+  "lore": "A clear bottle containing liquid fire.\nThe techniques involved in making liquid fire have since been lost.\n\nThe Crimson Witch of Flame walked upon the earth, burning monsters into cinders.\nRumor told of how she sacrificed her mortal body to become the embodiment of liquid fire herself.\n\nStill, love and longing once dwelt in her maiden heart.\nUntil fires burned away that beautiful and fragile part.\nThus, she became the witch that historians were loath to remember.",
+  "images": {}
+}

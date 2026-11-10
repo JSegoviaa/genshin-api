@@ -1,13 +1,5 @@
 import { z } from "zod";
-import { base, iconOnly, label, name, rarity, ref } from "../../core/schema";
-
-const pieceSchema = z
-  .object({
-    type: ref,
-    name,
-    images: iconOnly,
-  })
-  .strict();
+import { base, iconOnly, label, rarity } from "../../core/schema";
 
 export const artifactSetSchema = z
   .object({
@@ -19,23 +11,6 @@ export const artifactSetSchema = z
         message: "Rarities must be unique and sorted ascending",
       }),
     releaseVersion: label,
-    pieces: z
-      .array(pieceSchema)
-      .min(1)
-      .max(5)
-      .superRefine((pieces, ctx) => {
-        const seen = new Set<string>();
-        for (const [i, p] of pieces.entries()) {
-          if (seen.has(p.type)) {
-            ctx.addIssue({
-              code: "custom",
-              path: [i, "type"],
-              message: `Duplicated piece type ${p.type}`,
-            });
-          }
-          seen.add(p.type);
-        }
-      }),
     images: iconOnly,
   })
   .strict();

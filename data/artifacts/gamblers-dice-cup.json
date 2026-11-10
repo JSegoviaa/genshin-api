@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 61,
+  "slug": "gamblers-dice-cup",
+  "name": "Gambler's Dice Cup",
+  "set": "gambler",
+  "type": "goblet-of-eonothem",
+  "description": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it.",
+  "lore": "Every gambler is superstitious to some degree. Many are very fond of custom-made dice cups, for instance.\nThis was her custom-made dice cup. Despite what one might expect, there was nothing dishonest about it. It had no hidden mechanisms.\nFate only decides half of one's dice rolls. The other half are decided by oneself.\nAnd yet, she never rolled the dice away from the gambling table.",
+  "images": {}
+}

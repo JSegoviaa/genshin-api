@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 38,
+  "slug": "exiles-flower",
+  "name": "Exile's Flower",
+  "set": "the-exile",
+  "type": "flower-of-life",
+  "description": "A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something.",
+  "lore": "It all happened before the exiled aristocrat was involved in the family feud.\nThis flower bloomed before the first blood was shed.\nHaving witnessed the cruelty of humanity, the exile left his kindness and gentleness in the past.\nBut this faded flower and the innocent smile he once had will always be his treasure.",
+  "images": {}
+}

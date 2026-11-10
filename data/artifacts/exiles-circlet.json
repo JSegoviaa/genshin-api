@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 42,
+  "slug": "exiles-circlet",
+  "name": "Exile's Circlet",
+  "set": "the-exile",
+  "type": "circlet-of-logos",
+  "description": "A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was.",
+  "lore": "As a child, the exile lived in a noble house. His childhood was carefree, and his playground was a palace built with silver.\nIn times of old, the circlet of his father was a symbol of gentility and nobility.\nHowever, years later, a family feud painted the collapsing palace blood-red.\nThe circlet became the evidence of the exile's crime and has been with the exile ever since.",
+  "images": {}
+}

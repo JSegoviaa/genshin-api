@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 36,
+  "slug": "instructors-tea-cup",
+  "name": "Instructor's Tea Cup",
+  "set": "instructor",
+  "type": "goblet-of-eonothem",
+  "description": "It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority.",
+  "lore": "Every military school student knows that the so-called \"free training time\" could not have anything less to do with freedom.\nThe instructor sits back and watches while the students train rigorously in the field.\nA cup of black tea with a little too much sugar in it marks a typical afternoon for the instructor.\nThis peaceful time is a privilege of the instructor, and the embodiment of his authority.",
+  "images": {}
+}

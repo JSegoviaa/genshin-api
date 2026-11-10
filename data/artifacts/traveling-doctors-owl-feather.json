@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 14,
+  "slug": "traveling-doctors-owl-feather",
+  "name": "Traveling Doctor's Owl Feather",
+  "set": "traveling-doctor",
+  "type": "plume-of-death",
+  "description": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night.",
+  "lore": "Even the pitch-black night could not stand between the traveling doctor and her patients.\nDanger lurks in every corner at night. Those who venture out must be as vigilant as the owl.\nBut unlike the owl, the endless nights without rest eventually took their toll on the traveling doctor, and she fell ill.",
+  "images": {}
+}

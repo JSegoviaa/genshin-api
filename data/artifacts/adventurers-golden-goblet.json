@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 6,
+  "slug": "adventurers-golden-goblet",
+  "name": "Adventurer's Golden Goblet",
+  "set": "adventurer",
+  "type": "goblet-of-eonothem",
+  "description": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find.",
+  "lore": "An old golden goblet that the adventurer used to drink water. It is said that he found it in an old ruin.\nThe exterior is engraved with ancient symbols and inlaid with a faded gemstone.\nEventually, the adventurer bid farewell to the nomadic lifestyle.\nThis old golden goblet was traded in for new, shiny Mora.",
+  "images": {}
+}

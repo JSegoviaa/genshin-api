@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 81,
+  "slug": "conductors-top-hat",
+  "name": "Conductor's Top Hat",
+  "set": "wanderers-troupe",
+  "type": "circlet-of-logos",
+  "description": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within.",
+  "lore": "A beautiful top hat untouched by time.\nListening closely, one can almost hear an ancient tune echoing inside the hat.\n\nThousands of years ago, a troupe wandered through the lands.\nThe troupe owned not a single shred of sheet music. What they saw was what they sung, and what they heard was what they played.\nAs time passed, the troupe gradually realized the vastness of the world.\n\n\"There are so many things in the world for us to sing of.\"\n\nThe members then turned the notes into words and recorded their journey in a book.\nThis book, The Widsith as they called it, was still held tightly in the conductor's hands even after his death.",
+  "images": {}
+}

@@ -22,7 +22,7 @@ scripts/                      ← data build, JSON schemas and images
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `stats`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `artifacts`, `stats`.
 
 | Endpoint | Description |
 |---|---|
@@ -40,6 +40,7 @@ List parameters:
   - `local-specialties`: `region`
   - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`
+  - `artifacts`: `set`, `type`, `rarity` (from the set)
   - `artifact-types`: `mainStat` (e.g. `crit-rate`)
   - `stats`: `category` (`basic`, `advanced`, `hidden`), `element`
   - `rarity` accepts the number of stars or the rarity slug (`rarity=5` or `rarity=5-star`)

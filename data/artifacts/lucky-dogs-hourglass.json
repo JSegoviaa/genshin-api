@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 10,
+  "slug": "lucky-dogs-hourglass",
+  "name": "Lucky Dog's Hourglass",
+  "set": "lucky-dog",
+  "type": "sands-of-eon",
+  "description": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world.",
+  "lore": "Even time itself could not leave a wrinkle on the face of the happy-go-lucky boy known as Lucky Dog.\nLucky Dog had no family, let alone children of his own.\nBut in the course of his life of good fortune, he considered all he met as his friends and family.\nAs his life was nearing its end, he saw an hourglass with sand flowing down, as if counting down his remaining time.\nHe simply chuckled, took a slingshot, and shattered the hourglass.",
+  "images": {}
+}

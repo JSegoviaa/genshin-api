@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.5",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Flower of Accolades",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Ceremonial War-Plume",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Orichalceous Time-Dial",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Noble's Pledging Vessel",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "General's Ancient Helm",
-      "images": {}
-    }
-  ],
   "images": {}
 }

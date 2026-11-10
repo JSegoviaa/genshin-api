@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 55,
+  "slug": "martial-artists-water-hourglass",
+  "name": "Martial Artist's Water Hourglass",
+  "set": "martial-artist",
+  "type": "sands-of-eon",
+  "description": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass.",
+  "lore": "An hourglass that uses the flow of water to measure the passage of time. The martial artist would have it with him at all times.\nWhen he was training under the waterfall or practicing a single leg stance on the stake,\nhe endured all the pain and suffering alone.\nThis time piece recorded every second of it in silence.",
+  "images": {}
+}

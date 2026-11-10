@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "5.5",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Deep Gallery's Echoing Song",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Deep Gallery's Distant Pact",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Deep Gallery's Moment of Oblivion",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Deep Gallery's Bestowed Banquet",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Deep Gallery's Lost Crown",
-      "images": {}
-    }
-  ],
   "images": {}
 }

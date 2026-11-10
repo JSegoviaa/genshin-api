@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 100,
+  "slug": "viridescent-venerers-vessel",
+  "name": "Viridescent Venerer's Vessel",
+  "set": "viridescent-venerer",
+  "type": "goblet-of-eonothem",
+  "description": "A water pouch used by the Viridescent Venerer. Its capacity is much greater than one would expect.",
+  "lore": "A very robust and leakproof vessel.\nA legendary hunter known as the Viridescent Venerer once used it to collect whispers by the campfire.\n\nOne night, the Viridescent Venerer picked up the scent of other human beings.\nAs a hunter, she feared neither wolf packs nor monsters.\nWhat she feared far more than this was joining the chatter by the campfire.\nFor she had long forgotten how to speak human language.\n\nEven after rejoining the humans and accepting her place as Viridescent Venerer, no one ever heard her say a single word.\nSimilarly, no one ever saw her leave a single trace behind.\n\nThe Viridescent Venerer collected the laughter she heard that night and stored it in her vessel.\nFor many years, she would listen back to the voices in the vessel whenever she felt lonely.",
+  "images": {}
+}

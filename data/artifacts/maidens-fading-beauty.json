@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 96,
+  "slug": "maidens-fading-beauty",
+  "name": "Maiden's Fading Beauty",
+  "set": "maiden-beloved",
+  "type": "circlet-of-logos",
+  "description": "A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight.",
+  "lore": "Even when surrounded by flowers from her courters,\nThe maiden never removed her hat to get a better look at them.\nTheir names and faces were not worth remembering.\n\nFor years, at the end of every day,\nthe maiden would brush off the dust on her hat.\nBut the passage of time showed in her face, too — and unlike the dust, it could never be brushed off.\n\nAs time passed, fewer and fewer courters visited her with flowers.\nWhat did it matter? For her, time had already stopped long ago on that fateful day.",
+  "images": {}
+}

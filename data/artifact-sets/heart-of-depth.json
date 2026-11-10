@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.2",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Gilded Corsage",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Gust of Nostalgia",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Copper Compass",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Goblet of Thundering Deep",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Wine-Stained Tricorne",
-      "images": {}
-    }
-  ],
   "images": {}
 }

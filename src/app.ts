@@ -1,7 +1,7 @@
 import { Hono, type Context } from "hono";
 import { cors } from "hono/cors";
 import { HTTPException } from "hono/http-exception";
-import type { BaseItem, Ctx, Ref, ResourceDef } from "./core/resource";
+import type { BaseItem, Ctx, Lookup, Ref, ResourceDef } from "./core/resource";
 import { RESOURCE_NAMES, type ResourceName } from "./core/resource-names";
 import { slugify } from "./core/slug";
 import { Store, type Dataset } from "./core/store";
@@ -22,6 +22,7 @@ const notFound = (message: string) => new HTTPException(404, { message });
 export function createApp(data: Dataset) {
   const store = new Store(data);
   const app = new Hono<{ Bindings: Env }>();
+  const lookup: Lookup = { all: (resource) => store.all(resource) as never };
 
   function makeCtx(c: Context<{ Bindings: Env }>): Ctx {
     const origin = new URL(c.req.url).origin;
@@ -42,6 +43,7 @@ export function createApp(data: Dataset) {
       return ref;
     };
     return {
+      ...lookup,
       url,
       image,
       images: (imgs) =>
@@ -102,7 +104,7 @@ export function createApp(data: Dataset) {
           .filter(Boolean),
       );
       items = items.filter((item) => {
-        const raw = filter.get(item);
+        const raw = filter.get(item, lookup);
         const values = Array.isArray(raw) ? raw : [raw];
         return values.some((v) => v !== null && wanted.has(slugify(String(v))));
       });

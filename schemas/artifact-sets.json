@@ -31,40 +31,6 @@
       "type": "string",
       "minLength": 1
     },
-    "pieces": {
-      "minItems": 1,
-      "maxItems": 5,
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "type": {
-            "type": "string",
-            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-          },
-          "name": {
-            "type": "string",
-            "minLength": 1
-          },
-          "images": {
-            "type": "object",
-            "properties": {
-              "icon": {
-                "type": "string",
-                "pattern": "^[a-z0-9][a-z0-9/_.-]*\\.(webp|png|svg|jpg)$"
-              }
-            },
-            "additionalProperties": false
-          }
-        },
-        "required": [
-          "type",
-          "name",
-          "images"
-        ],
-        "additionalProperties": false
-      }
-    },
     "images": {
       "type": "object",
       "properties": {
@@ -82,7 +48,6 @@
     "name",
     "rarities",
     "releaseVersion",
-    "pieces",
     "images"
   ],
   "additionalProperties": false

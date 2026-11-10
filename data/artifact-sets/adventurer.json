@@ -9,32 +9,5 @@
     3
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Adventurer's Flower",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Adventurer's Tail Feather",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Adventurer's Pocket Watch",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Adventurer's Golden Goblet",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Adventurer's Bandana",
-      "images": {}
-    }
-  ],
   "images": {}
 }

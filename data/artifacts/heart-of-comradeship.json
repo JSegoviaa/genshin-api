@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 18,
+  "slug": "heart-of-comradeship",
+  "name": "Heart of Comradeship",
+  "set": "resolution-of-sojourner",
+  "type": "flower-of-life",
+  "description": "A small cerulean flower with somebody's ribbon pinned to the stem.",
+  "lore": "The traveler from a distant land pinned this flower close to his chest.\n\nThe traveler left a life of great privilege to pursue a wandering, unburdened life.\nIn a foreign land, by a clear lake of sweet waters, he met a frowning maiden.\n\n\"A traveler from afar? ...Huh. Not like it matters.\"\n\"You're a musician? Well then, pray do not insult me with empty praises or song.\"\n\"Just remember me as I am.\"\n\"As one about to be offered up as a sacrifice for the 'festival.'\"\n\nThe traveler who had abandoned his homeland pinned this flower close to his chest.\nHe wished to remind himself to love no one, and become attached to nothing.\nYet he would remember that maiden as he had promised, and walk into the fire for her sake...",
+  "images": {}
+}

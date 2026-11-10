@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "Luna I",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Crystal Tear of the Wanderer",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Pristine Plume of the Blessed",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Frost Devotee's Delirium",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Joyous Glory of the Pure",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Holy Crown of the Believer",
-      "images": {}
-    }
-  ],
   "images": {}
 }

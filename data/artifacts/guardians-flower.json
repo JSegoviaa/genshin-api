@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 43,
+  "slug": "guardians-flower",
+  "name": "Guardian's Flower",
+  "set": "defenders-will",
+  "type": "flower-of-life",
+  "description": "An iris that was cherished by the Guardian. Unfortunately, the chance never came for it to be given to whom the Guardian loved.",
+  "lore": "Only that maiden's clear voice,\nCould cause the guardian's brow to come unbound.\n\nTheir time together was short.\nAt last, the knight's blood would run dry,\nAs would her tears and her songs.",
+  "images": {}
+}

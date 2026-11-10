@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 95,
+  "slug": "maidens-fleeting-leisure",
+  "name": "Maiden's Fleeting Leisure",
+  "set": "maiden-beloved",
+  "type": "goblet-of-eonothem",
+  "description": "A vessel made with sweet black tea in mind rather than bitter liquor.",
+  "lore": "The maiden's most cherished teaware.\nIt was once filled with elegant black tea.\n\nIndulging herself in pastries and tea,\nShe cared not one bit about the mundane world. This was her privilege as a maiden.\n\n\"This flower shall be my medal. That is all I need.\"\nThe knight said to her on the day they met.\n\"But my heart is already—\"\nNot finishing her confession was her privilege,\nbut also the chains of courtliness the maiden had to bear.",
+  "images": {}
+}

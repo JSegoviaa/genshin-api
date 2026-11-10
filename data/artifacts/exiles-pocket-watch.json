@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 40,
+  "slug": "exiles-pocket-watch",
+  "name": "Exile's Pocket Watch",
+  "set": "the-exile",
+  "type": "sands-of-eon",
+  "description": "Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end.",
+  "lore": "The aristocrat acquired this pocket watch back in his youth.\nThis delicate timepiece recorded every moment of his childhood.\nBut tragedy brought his carefree days to an abrupt end.\nThe aristocrat was forced into a long and lonesome exile.",
+  "images": {}
+}

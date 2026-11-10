@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 15,
+  "slug": "traveling-doctors-pocket-watch",
+  "name": "Traveling Doctor's Pocket Watch",
+  "set": "traveling-doctor",
+  "type": "sands-of-eon",
+  "description": "A precise instrument used for keeping time. For a doctor, every second counts.",
+  "lore": "When treating a dying patient, every second counts.\nThe accuracy of this watch had helped the traveling doctor turn the tide numerous times.\nBut as she lay alone on the sickbed in her final days, all she could do was savor its sound, each tick standing for one of the precious moments of life she had left.\nWhat used to be a tool to save lives now sang a final elegy for its owner.",
+  "images": {}
+}

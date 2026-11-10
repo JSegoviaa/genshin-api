@@ -8,32 +8,5 @@
     4
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Instructor's Brooch",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Instructor's Feather Accessory",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Instructor's Pocket Watch",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Instructor's Tea Cup",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Instructor's Cap",
-      "images": {}
-    }
-  ],
   "images": {}
 }

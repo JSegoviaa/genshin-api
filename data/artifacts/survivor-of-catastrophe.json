@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 118,
+  "slug": "survivor-of-catastrophe",
+  "name": "Survivor of Catastrophe",
+  "set": "thundering-fury",
+  "type": "plume-of-death",
+  "description": "A lightning-charged feather that still flickers with the wrath of the Thunderbird's cruel retribution.",
+  "lore": "The lost feather of the Thunderbird enchanted in purple lightning.\nIt serves as the last witness of the destruction of the tribe.\n\nThe ancient tribe held the Thunderbird as its protector.\nBut it rained down thunder upon the tribe.\nOn one gloomy night, it shared a pure friendship with the lad.\nOnce it departed, the lad picked up the feather it dropped.\n\n\"I shall sing you another tune,\nWhen you come again with thunder and rain.\"\n\nDriven to madness by the remorse of a promise unkept,\nThe Thunderbird left the mountain in cinders.\nIt was hunted down years after, slain as a monster.\n\nYears passed, the burned land revitalized.\nThe lightning-feather was left buried in the vegetation.\nThe story of the Thunderbird and the young lad had all but perished with the tribe.",
+  "images": {}
+}

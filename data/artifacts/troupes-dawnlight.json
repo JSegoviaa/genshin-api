@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 77,
+  "slug": "troupes-dawnlight",
+  "name": "Troupe's Dawnlight",
+  "set": "wanderers-troupe",
+  "type": "flower-of-life",
+  "description": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing.",
+  "lore": "A small flower-shaped insignia. There seems to be music coming from it.\n\nAmong the members of the troupe was a charismatic swordswoman.\nBeautiful as the light on water, elegant as the chirping lark.\nHer every slash hummed a tune of the wind.\n\nThe end of each song and dance was like the sun after the rain.\nDust has since settled, and both the stage and life itself feel emptier for the absence of her music.\n\nBoth her music and her sword were as lethal as they were beautiful.\nThis was in keeping with the troupe's performances, which were intended for two very different audiences.\nFor the audience of foes, the music drifted far beyond the stage.",
+  "images": {}
+}

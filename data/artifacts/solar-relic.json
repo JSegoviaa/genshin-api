@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 174,
+  "slug": "solar-relic",
+  "name": "Solar Relic",
+  "set": "vermillion-hereafter",
+  "type": "sands-of-eon",
+  "description": "An ancient timepiece with a mighty solid look. Its luster is produced by sand crystal.",
+  "lore": "It is said that Rex Lapis was still young, the sun was a chariot that raced across the earth.\nWhen the three sisters of the night sky were martyred in a calamity, the solar chariot fell into a deep gorge.\n\nThe mountain people, taking it for a sign, repaired the device, allowing it to shine through the darkness again.\n\nAnd though it was returned to its constant westward cycle, a single piece would forever remain behind.\nWhen they moved to the city, they would grind that fragment into crystals and sell it to someone who knew its value...\n\n\"Hey, hey, that's a joke, right? I mean, you can't trust these baseless folktales, can you?\"\n\n\"The merchants of Shenglu Hall have long left their obscurity and forgotten their past.\"\n\n\"Glittering Sand Crystal cannot easily be made into lacquerware, after all, nor is it suited to making luxury paints.\"\n\n\"According to the miners at The Chasm — and mind you don't believe this story too readily either—\"\n\n\"This timepiece and sand crystal came from the Millelith five hundred years ago.\"\n\nIn the lightless abyss where light wrestled against darkness, even one with a Yaksha's might could not hold out for long.\n\nAnd all the more did mere mortals need light to prevent them from getting lost in the steel curtain of devouring night.\n\nThe Millelith thus collected glowing sand to light the way, and it just so happened to resemble the pale moonlight.\n\nThe timepiece for its part told of the time they spent there in the abyss, and serves as proof that where they fell, others have come after to take up their duty.",
+  "images": {}
+}

@@ -21,7 +21,11 @@ export interface RefTarget {
   key: "id" | "slug" | "name";
 }
 
-export interface Ctx {
+export interface Lookup {
+  all<T>(resource: ResourceName): T[];
+}
+
+export interface Ctx extends Lookup {
   ref(resource: ResourceName, slug: string | null): Ref | null;
   refById(resource: ResourceName, id: number | null): Ref | null;
   refByName(resource: ResourceName, name: string | null): Ref | null;
@@ -38,7 +42,7 @@ type Primitive = string | number | null;
 
 export interface FilterDef<T> {
   description: string;
-  get: (item: T) => Primitive | Primitive[];
+  get: (item: T, lookup: Lookup) => Primitive | Primitive[];
 }
 
 export interface ResourceDef<T extends BaseItem = BaseItem> {

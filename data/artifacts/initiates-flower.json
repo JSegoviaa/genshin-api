@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 1,
+  "slug": "initiates-flower",
+  "name": "Initiate's Flower",
+  "set": "initiate",
+  "type": "flower-of-life",
+  "description": "A small flower. Cute and adorable, just like the early spring of North Teyvat.",
+  "lore": null,
+  "images": {}
+}

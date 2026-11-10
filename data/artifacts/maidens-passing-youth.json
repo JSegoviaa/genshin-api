@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 94,
+  "slug": "maidens-passing-youth",
+  "name": "Maiden's Passing Youth",
+  "set": "maiden-beloved",
+  "type": "sands-of-eon",
+  "description": "The hands of time will never come to an end, but the same cannot be said for those cherished years of the young maiden's life when she was doted upon.",
+  "lore": "A delicate timepiece.\nIt stood as a testament to the inevitable passage of time, indifferent to its owner's feeling.\n\nThe maiden's time would one day come to an end.\nBut her waiting would not.\nThe short hand seemed to be constantly chasing after the long hand.\nMuch like the incessant longing that filled the maiden's heart and mind.\n\nYears after the event, she still remembered the knight she met that day.\nThe white knight that came for her. The white knight she had been waiting for ever since.",
+  "images": {}
+}

@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Troupe's Dawnlight",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Bard's Arrow Feather",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Concert's Final Hour",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Wanderer's String-Kettle",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Conductor's Top Hat",
-      "images": {}
-    }
-  ],
   "images": {}
 }

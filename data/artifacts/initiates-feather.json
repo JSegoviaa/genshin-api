@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 2,
+  "slug": "initiates-feather",
+  "name": "Initiate's Feather",
+  "set": "initiate",
+  "type": "plume-of-death",
+  "description": "An item attached to the grip of a traveler's first sword, bearing the modest dreams of its wielder.",
+  "lore": null,
+  "images": {}
+}

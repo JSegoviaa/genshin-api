@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 35,
+  "slug": "instructors-pocket-watch",
+  "name": "Instructor's Pocket Watch",
+  "set": "instructor",
+  "type": "sands-of-eon",
+  "description": "A stopwatch used not for general timekeeping but to measure the duration of a training session.",
+  "lore": "A pocket watch treasured by the instructor. It is not, however, military-issue gear from the instructor's school.\nBack when the instructor was still a soldier, this pocket watch was used to coordinate charges against the enemy.\nIt marked victories and defeats, and counted the final hours of the soldiers.\nFor the students, it represented the hardships they endured on the long path towards becoming a real soldier.",
+  "images": {}
+}

@@ -8,32 +8,5 @@
     4
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Martial Artist's Red Flower",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Martial Artist's Feather Accessory",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Martial Artist's Water Hourglass",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Martial Artist's Wine Cup",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Martial Artist's Bandana",
-      "images": {}
-    }
-  ],
   "images": {}
 }

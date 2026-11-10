@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 134,
+  "slug": "frozen-homelands-demise",
+  "name": "Frozen Homeland's Demise",
+  "set": "blizzard-strayer",
+  "type": "sands-of-eon",
+  "description": "A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt.",
+  "lore": "An ancient hourglass with fine powdered snow flowing in it.\n\nEven the coldest winter cannot freeze the flow of time.\n\n\"The cold that descends from the sky can freeze time itself.\"\n\nThis myth was widely believed throughout the entombed mountain city.\n\nAs the hero reached the top of the wall of wind and ice, the night was descending and the snowstorm was howling.\n\nNeither sun- nor moon-light could pierce this white wind easily.\n\nEven the bleakest storm cannot freeze the river of time.\n\nThat will not wilt even if buried deep below the snow.\n\nAnd even the most formidable hero will one day be forgotten.",
+  "images": {}
+}

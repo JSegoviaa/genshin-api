@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 119,
+  "slug": "hourglass-of-thunder",
+  "name": "Hourglass of Thunder",
+  "set": "thundering-fury",
+  "type": "sands-of-eon",
+  "description": "The hourglass used to foretell the coming of the Thunderbird by the tribe that worshiped it. It has fallen into eternal silence now that the tribe is no more.",
+  "lore": "A luxurious hourglass belonging to the ancient tribe that worshiped the Thunderbird.\nAs the tribe faded away, so did the hourglass.\n\nA luxurious hourglass, made with amethyst and amber gold, that belonged to a shaman.\nThe hourglass would serve its purpose for the festival held in the Thunderbird's honor.\n\nIn the last festival the tribe held, the frenzied Thunderbird blew away the bloodstained altar.\nThe countdown to the arrival of the protector became the countdown to the tribe's destruction.\nThe Thunderbird decimated the tribe to avenge the one who sang to it.\n\nUnbeknownst the Thunderbird, the lad himself considered his sacrifice as an offering.\nAll for the good of the tribe, for the blessing of the Thunderbird.",
+  "images": {}
+}

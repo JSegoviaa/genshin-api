@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Maiden's Distant Love",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Maiden's Heart-Stricken Infatuation",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Maiden's Passing Youth",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Maiden's Fleeting Leisure",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Maiden's Fading Beauty",
-      "images": {}
-    }
-  ],
   "images": {}
 }

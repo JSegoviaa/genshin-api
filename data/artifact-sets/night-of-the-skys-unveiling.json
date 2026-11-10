@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "Luna I",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Bloom of the Mind's Desire",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Feather of Indelible Sin",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Revelation's Toll",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Vessel of Plenty",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Crown of the Befallen",
-      "images": {}
-    }
-  ],
   "images": {}
 }

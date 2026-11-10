@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 47,
+  "slug": "guardians-band",
+  "name": "Guardian's Band",
+  "set": "defenders-will",
+  "type": "circlet-of-logos",
+  "description": "A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency.",
+  "lore": "Always have a backup plan—\nHe wore this headband to remind himself of that axiom.\nIn an emergency, it could also serve as a tourniquet.\n\nBy this creed he taught his swordsmanship to the knights under his friend's command.\nBy this credo he also mentored a white knight who loved justice above all else.\nIn its name he nipped many seedling that might have blossomed into evil in the bud.\n\nAs long as he was sufficiently prepared,\nEven if one day, he should be unable to defend this land,\nOr protect his friend, or that maiden who loved to sing...",
+  "images": {}
+}

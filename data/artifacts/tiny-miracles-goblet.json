@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 26,
+  "slug": "tiny-miracles-goblet",
+  "name": "Tiny Miracle's Goblet",
+  "set": "tiny-miracle",
+  "type": "goblet-of-eonothem",
+  "description": "A cup commonly used for fortunetelling. It can also hold water, of course.",
+  "lore": "A clear goblet glittering with starlight.\nIn the past it was used to tell fortunes,\nFor the water it held was believed to reflect the Starry Sea.",
+  "images": {}
+}

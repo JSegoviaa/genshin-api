@@ -8,32 +8,5 @@
     4
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Exile's Flower",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Exile's Feather",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Exile's Pocket Watch",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Exile's Goblet",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Exile's Circlet",
-      "images": {}
-    }
-  ],
   "images": {}
 }

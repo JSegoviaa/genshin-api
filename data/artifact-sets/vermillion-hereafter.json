@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "2.6",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Flowering Life",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Feather of Nascent Light",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Solar Relic",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Moment of the Pact",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Thundering Poise",
-      "images": {}
-    }
-  ],
   "images": {}
 }

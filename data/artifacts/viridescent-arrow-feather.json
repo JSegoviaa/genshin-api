@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 98,
+  "slug": "viridescent-arrow-feather",
+  "name": "Viridescent Arrow Feather",
+  "set": "viridescent-venerer",
+  "type": "plume-of-death",
+  "description": "The fletching of an arrow that once pierced right through its prey, but somehow still remains spotless.",
+  "lore": "A glossy and shining feather of a falcon. It once served as a fine fletching on one of the Viridescent Venerer's arrows.\n\nIn the past, when the Viridescent Venerer's arrow hit its target,\nshe would come down and stroke the fur of her prey gently until its life force returned to nature in peace.\nFor she knew that one day, she too would embark on a journey to the place where the souls of her prey rested.\n\nThe Viridescent Venerer believed that at the end of her life, she would wake up from reality,\nand be reunited with the departed at an endless hunting ground.\n\nBut she also believed that the moment her arrow pierced through the monster that had killed the boy,\nthat endless hunting ground at the end of her life was gone from her grasp.\nFor she killed that mutated monster not for the sake of survival,\nbut out of vengeance and suffering.The original Chinese description elaborates that she believes she will never reach the fenceless range because she listened to the boy's request and took his place in hunting down monsters to avenge those who suffered because of them. It isn't the act of saving him that determined her fate, but her decision to enact revenge on his behalf.",
+  "images": {}
+}

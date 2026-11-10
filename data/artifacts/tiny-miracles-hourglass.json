@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 25,
+  "slug": "tiny-miracles-hourglass",
+  "name": "Tiny Miracle's Hourglass",
+  "set": "tiny-miracle",
+  "type": "sands-of-eon",
+  "description": "Just an ordinary everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water.",
+  "lore": "It is often said that one may achieve victory by striving, but receive a miracle only by waiting.\nBut is it not a miracle that fine sand was once a hard rock?\nIs it not too a miracle that we met each other?",
+  "images": {}
+}

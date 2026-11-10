@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 48,
+  "slug": "medal-of-the-brave",
+  "name": "Medal of the Brave",
+  "set": "brave-heart",
+  "type": "flower-of-life",
+  "description": "A simple flower brooch that is a keepsake from someone's first adventure.",
+  "lore": "The little hero slipped out of doors by night, and with his friend rushed headlong into wolves' forest.\nWith his slingshot he chased boars, and with sturdy branches he would battle imaginary monsters.\nFollowing the shining Seelie deep into the woods, he discovered a treasure that had laid buried for a thousand years.\n\nThe treasure was a small yellow flower.\n\nWhen the tired hero returned to his childhood bedroom, and flipped through the proof of his first adventures,\nHe discovered to his surprise that the long-hidden flower had yet to wilt.\nYet in this it was alone, for everything else had changed with the passing of years.",
+  "images": {}
+}

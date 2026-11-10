@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 107,
+  "slug": "summer-nights-bloom",
+  "name": "Summer Night's Bloom",
+  "set": "retracing-bolide",
+  "type": "flower-of-life",
+  "description": "A man-made flower in eternal bloom. Who knows if there truly is life in there?",
+  "lore": "A summer festival flower that blooms forever,\nThat will not wilt even if buried deep below the snow.\n\nSome may label it an imitation, a false life,\nFor life lies in change, pain and growth,\nIn meetings, and also in partings.\n\nBut the memories of meeting her,\nOf watching the fireworks bloom in the sky like fresh flowers together,\nThe memories of that foxy-eyed woman who eventually disappeared without a trace...\nThat unwithering flower is the final thing to remember her by.\n\nIn the end, the difference comes down to the fact that for some,\nLife is as eternal as this undying summer bloom,\nBut for most, it is as transient as smoke.",
+  "images": {}
+}

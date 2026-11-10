@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 37,
+  "slug": "instructors-cap",
+  "name": "Instructor's Cap",
+  "set": "instructor",
+  "type": "circlet-of-logos",
+  "description": "A standard-issue honorary instructor's cap, only granted to those who turn down a promotion.",
+  "lore": "\"I don't have the talent to command an army as its general,\nNor am I qualified for anything beyond being a soldier.\nAll I can do is to be a strict instructor to these children,\nSo that they might survive on the battlefield a bit longer.\"",
+  "images": {}
+}

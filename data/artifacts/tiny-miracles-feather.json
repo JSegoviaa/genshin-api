@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 24,
+  "slug": "tiny-miracles-feather",
+  "name": "Tiny Miracle's Feather",
+  "set": "tiny-miracle",
+  "type": "plume-of-death",
+  "description": "A feather from a bird of prey that flies almost too fast for the human eye to detect.",
+  "lore": "Plucked from a falcon that was as fast as the wind. The mere existence of such a bird is a miracle.\nIt was gifted with clear vision and sharp claws.\nWith its broad wings, its gliding speed was unparalleled.",
+  "images": {}
+}

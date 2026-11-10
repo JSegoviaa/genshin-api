@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 9,
+  "slug": "lucky-dogs-eagle-feather",
+  "name": "Lucky Dog's Eagle Feather",
+  "set": "lucky-dog",
+  "type": "plume-of-death",
+  "description": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck.",
+  "lore": "When fortune has your back, even the most ferocious monster has to yield.\nStrolling in the forest, the boy known as Lucky Dog had no idea that a monster was lurking nearby, having singled him out as its prey.\nThe boy became distracted by some colorful mushrooms, and the monster pounced. He leaped out and landed on the poisonous mushrooms, stomping them flat.\nThis was going to be an easy hunt, the monster thought — until a feather from the eagle circling above fell quietly onto its back.",
+  "images": {}
+}

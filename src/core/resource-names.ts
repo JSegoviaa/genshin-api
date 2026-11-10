@@ -9,6 +9,7 @@ export const RESOURCE_NAMES = [
   "characters",
   "artifact-types",
   "artifact-sets",
+  "artifacts",
   "stats",
 ] as const;
 

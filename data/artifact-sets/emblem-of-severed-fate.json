@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "2.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Magnificent Tsuba",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Sundered Feather",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Storm Cage",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Scarlet Vessel",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Ornate Kabuto",
-      "images": {}
-    }
-  ],
   "images": {}
 }

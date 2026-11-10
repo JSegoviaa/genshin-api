@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 13,
+  "slug": "traveling-doctors-silver-lotus",
+  "name": "Traveling Doctor's Silver Lotus",
+  "set": "traveling-doctor",
+  "type": "flower-of-life",
+  "description": "A precious medicinal ingredient that has lost all medicinal value after years in storage.",
+  "lore": "The doctor traveled across the land in search of rare herbs, with the zeal of an adventurer.\nOn a steep cliff between slippery rocks, she found this silver lotus.\nThe lotus was never made into medicine, but its scent gave her the strength to go on from that day forward.",
+  "images": {}
+}

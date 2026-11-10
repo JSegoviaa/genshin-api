@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 82,
+  "slug": "royal-flora",
+  "name": "Royal Flora",
+  "set": "noblesse-oblige",
+  "type": "flower-of-life",
+  "description": "A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside.",
+  "lore": "A blue lily made of silky satin\nthat once served as a noblewoman's headdress.\n\nA noble who once ruled over Mondstadt left it behind.\nIn that legendary age, the nobles were examples for the people.\nThey guided their subjects with their conduct and wisdom.\nThey were the true representation of the people of Mondstadt.\nThey were noble not only in lineage,\nbut also in their commitment to virtues and principles.\n\nThe longevity of the nobles was cut short by their endless self-indulgence.\nOstentation gave way to devolution.",
+  "images": {}
+}

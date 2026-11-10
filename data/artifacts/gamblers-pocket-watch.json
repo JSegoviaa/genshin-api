@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 60,
+  "slug": "gamblers-pocket-watch",
+  "name": "Gambler's Pocket Watch",
+  "set": "gambler",
+  "type": "sands-of-eon",
+  "description": "A shattered pocket watch that once took a lethal hit for its owner.",
+  "lore": "Perfect timing is necessary for the gambler's trick to work.\nThat's why she always had this golden pocket watch in her breast pocket.\nIn countless games, there was always that crucial moment when her sensitive perception of time saved her.",
+  "images": {}
+}

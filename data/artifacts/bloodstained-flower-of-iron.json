@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 87,
+  "slug": "bloodstained-flower-of-iron",
+  "name": "Bloodstained Flower of Iron",
+  "set": "bloodstained-chivalry",
+  "type": "flower-of-life",
+  "description": "A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master.",
+  "lore": "A common white flower given to the knight by a rescued damsel.\nIt is dried and hardened by the blood from all his bloodshed.\n\nThanking him for his valor, the damsel offered a reward.\nHe turned down all she gave, save for a pure white flower.\n\n\"For a knight, chivalry is its own reward.\"\n\"This flower shall be my medal. That is all I need.\"\n\nHe wore the flower upon his heart.\nLike his armor, it was stained as black as a winter's night.\nLike his heart, it was hardened like a tempered blade.",
+  "images": {}
+}

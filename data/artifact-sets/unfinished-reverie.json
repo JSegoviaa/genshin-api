@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "4.6",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Dark Fruit of Bright Flowers",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Faded Emerald Tail",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Moment of Attainment",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "The Wine-Flask Over Which the Plan Was Hatched",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Crownless Crown",
-      "images": {}
-    }
-  ],
   "images": {}
 }

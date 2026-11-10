@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 56,
+  "slug": "martial-artists-wine-cup",
+  "name": "Martial Artist's Wine Cup",
+  "set": "martial-artist",
+  "type": "goblet-of-eonothem",
+  "description": "A rather exquisite wine cup used in pre-combat rituals.",
+  "lore": "Before proudly stepping into the arena, a parting ritual with a glass of fine wine is essential for martial artists.\nEach of them faced with a worthy opponent, two martial artists will raise their glasses to one another.\nThey then step into the arena with a calm and collected composure to face their opponent with the utmost respect.\nThis is the true meaning of the toast, which comes before the fight takes place. It does not serve to glorify victory or cast shame on defeat.",
+  "images": {}
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 39,
+  "slug": "exiles-feather",
+  "name": "Exile's Feather",
+  "set": "the-exile",
+  "type": "plume-of-death",
+  "description": "Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile.",
+  "lore": "Through plains and forests, the exile traveled alone in the wild.\nThrough thick layers of dark clouds, an azure feather fell on his shoulder.\nThe feather came from a panicked bird escaping from the falcon, just like the exile.\nThe feather represents the spirit of a nestless, free bird, just like the exile.",
+  "images": {}
+}

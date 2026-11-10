@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 3,
+  "slug": "adventurers-flower",
+  "name": "Adventurer's Flower",
+  "set": "adventurer",
+  "type": "flower-of-life",
+  "description": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal.",
+  "lore": "The ambitious adventurer came across this resilient flower in the depths of a gloomy ruin.\nMoved by the sight of life sprouting in defiance of a lifeless land, he almost forgot about the treasures buried deep in the ruin.\nAfter pausing to ponder it for a while, the adventurer plucked the flower, wore it as a brooch, and ventured forth into the darkness.",
+  "images": {}
+}

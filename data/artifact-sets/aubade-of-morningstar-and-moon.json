@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "Luna IV",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Moonlit Offering's Opulent Dream",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Moonlit Offering's Parting Light",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Moonlit Offering's Final Hour",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Moonlit Offering's Libation",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Moonlit Offering's Silver Crown",
-      "images": {}
-    }
-  ],
   "images": {}
 }

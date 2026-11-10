@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.2",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Snowswept Memory",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Icebreaker's Resolve",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Frozen Homeland's Demise",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Frost-Weaved Dignity",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Broken Rime's Echo",
-      "images": {}
-    }
-  ],
   "images": {}
 }

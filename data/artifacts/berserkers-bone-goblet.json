@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 31,
+  "slug": "berserkers-bone-goblet",
+  "name": "Berserker's Bone Goblet",
+  "set": "berserker",
+  "type": "goblet-of-eonothem",
+  "description": "A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter.",
+  "lore": "The bloodthirsty berserker ravaged the lands, fighting humans and monsters alike, and even challenged the gods.\nIn a barren and lifeless land, he encountered a giant monster.\nHis iron mask could not conceal his rage, and so an endless fight ensued.\nHours, days, and years passed. The monster was finally defeated.\nThe berserker sucked out the marrow of the monster's broken horn. This was how the victor drank to his success.",
+  "images": {}
+}

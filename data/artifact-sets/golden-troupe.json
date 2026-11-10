@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "4.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Golden Song's Variation",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Golden Bird's Shedding",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Golden Era's Prelude",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Golden Night's Bustle",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Golden Troupe's Reward",
-      "images": {}
-    }
-  ],
   "images": {}
 }

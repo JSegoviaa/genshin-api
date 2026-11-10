@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 257,
+  "slug": "lightkeepers-pledge",
+  "name": "Lightkeeper's Pledge",
+  "set": "long-nights-oath",
+  "type": "flower-of-life",
+  "description": "A metal flower that was worn by the . It symbolizes the oath of eternal vigilance taken by its original owner.",
+  "lore": "...In those days, the land was leveled by the northern Hunting Winds, cutting down the unruly frontier folk at the behest of the despotic Knyazes.\n\nAnd in a bid to seize the power left behind by the heavenly moons, a mad monk who spoke in strange tongues presented a treacherous plot to the Tsar of all fae.\n\nThus were the Moonchildren, hidden in their mountain forests, scattered, sisters driven by fate down divergent paths.\n\nIn the end, even that pretentious lunatic could not break free of the celestial shell, and was consumed by the bedeviled sky at the edge of delusion.\n\nBut all this took place before the \"paradise\" had even come into being,\n\nFor at the time, it was no more than a daydream, a fantasy shared by two children beneath the moon's glow.\n\nIt was not until many years later, when one of them was executed as a notorious bandit, infamous throughout the nations,\n\nThat the other finally realized the true meaning of those words that had been left behind as if by accident.\n\nWhat followed, we all know.\n\nWhen the long night fell, the royal court of the north could no longer mind the remote borderlands beyond the snowy plains,\n\nAnd so the horde of pitch-black beasts tore across the barren land, destroying all traces of past civilization.\n\nIt was not until, borrowing power from the priestess of the Moonchildren, the original Torchforger raised that first beam of light,\n\nAnd in the name of the moon, banished the darkness to those lightless ruins, burying it deep down alongside the nightmare-torn souls.\n\nWhen all was over, the survivors raised a lighthouse atop the mountains, gazing far out towards the new ruler of Snezhnaya.\n\nTo preserve his dear friend's pure, childlike dream, the Torchforger did not shy away from defending it before the Tsaritsa's court.\n\nAnd though he received the royal edict he sought, he also took upon himself an oath of vigilance and sacrifice;\n\nAnd thus began the history of the \"paradise\" known as \"Nod-Krai.\"",
+  "images": {}
+}

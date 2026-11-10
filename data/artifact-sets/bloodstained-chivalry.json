@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Bloodstained Flower of Iron",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Bloodstained Black Plume",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Bloodstained Final Hour",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Bloodstained Chevalier's Goblet",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Bloodstained Iron Mask",
-      "images": {}
-    }
-  ],
   "images": {}
 }

@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "Luna VII",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Iridescence That Ceased Amidst Glory",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Sharpness That Ceased Upon Wondrous Creation",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Moment That Ceased Upon Waking From Grand Dreams",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Ovations That Ceased Upon Festivity",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Pendulum That Ceased Amidst a Great Fall",
-      "images": {}
-    }
-  ],
   "images": {}
 }

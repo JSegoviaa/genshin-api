@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 110,
+  "slug": "summer-nights-waterballoon",
+  "name": "Summer Night's Waterballoon",
+  "set": "retracing-bolide",
+  "type": "goblet-of-eonothem",
+  "description": "Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one.",
+  "lore": "A beautiful water balloon filled with water.\nIn the ghost stories of Inazuma,\nThis is a memento of a chance meeting with something inhuman...\n\nDuring the summer festival, I was separated from my parents.\nIt was but a moment, but I had wanted to look at the water balloons,\nAnd let go of my hand that had gripped on to my father's sleeve.\nBefore we knew it, the tide of people escorting the divine palanquin had washed us apart.\n\nI cried by the torii gates along the road to the shrine,\nAnd I counted the feet of the people ascending the mountain.\nI do not know when it happened.\nBut a beautiful lady with fox-like eyes had come to my side, and taken my hand.\n\n\"How preposterous, to leave such an adorable child here.\"\n\"So, how about it? Would you like to see the fireworks, throw some darts, and play fusen with me?\"",
+  "images": {}
+}

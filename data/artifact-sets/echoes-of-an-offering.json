@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "2.6",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Soulscent Bloom",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Jade Leaf",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Symbol of Felicitation",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Chalice of the Font",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Flowing Rings",
-      "images": {}
-    }
-  ],
   "images": {}
 }

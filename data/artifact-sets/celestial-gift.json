@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "Luna VII",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Heavensent Fragrance",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Heavensent Demise",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Heavensent Decree",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Heavensent Reward",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Heavensent Crown",
-      "images": {}
-    }
-  ],
   "images": {}
 }

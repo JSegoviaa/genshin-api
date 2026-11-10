@@ -8,32 +8,5 @@
     4
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Heart of Comradeship",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Feather of Homecoming",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Sundial of the Sojourner",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Goblet of the Sojourner",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Crown of Parting",
-      "images": {}
-    }
-  ],
   "images": {}
 }

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 23,
+  "slug": "tiny-miracles-flower",
+  "name": "Tiny Miracle's Flower",
+  "set": "tiny-miracle",
+  "type": "flower-of-life",
+  "description": "A flower that grew from a rock, breaking through the stone as it strove to reach the light.",
+  "lore": "A little blue flower that sprouted between the cracks of an old tombstone.\nThe carvings on the tombstone are a legacy of death, yet what sprouted from its cracks was the miracle of life.",
+  "images": {}
+}

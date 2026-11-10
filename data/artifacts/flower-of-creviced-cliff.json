@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 102,
+  "slug": "flower-of-creviced-cliff",
+  "name": "Flower of Creviced Cliff",
+  "set": "archaic-petra",
+  "type": "flower-of-life",
+  "description": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive.",
+  "lore": "A flower bloomed in a cliff's impregnable cleft.\nIt is an exquisite life shaped by the essence of Geo.\n\nThere is a folk saying that goes thus:\nIn times of yore, someone told the Lord of Geo that there was no life to be found in barren stone.\nThus did the Lord of Geo command flowers of purest gold to burst forth from the face of an uneven rock.\n\nPerhaps the Geo Archon did once work such a great wonder.\nOr perhaps this is but one of the many tales that shroud this ancient world.\nBut the prosperous harbor that grew out of the lifeless mountains,\nAnd that braves the raging waters of the Sea of Clouds—\nPerhaps that was the brilliant flower, after all.",
+  "images": {}
+}

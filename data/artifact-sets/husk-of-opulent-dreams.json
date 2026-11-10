@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "2.3",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Bloom Times",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Plume of Luxury",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Song of Life",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Calabash of Awakening",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Skeletal Hat",
-      "images": {}
-    }
-  ],
   "images": {}
 }

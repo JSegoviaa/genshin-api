@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 65,
+  "slug": "scholars-clock",
+  "name": "Scholar's Clock",
+  "set": "scholar",
+  "type": "sands-of-eon",
+  "description": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day.",
+  "lore": "A delicate clock placed carefully on the scholar's desk.\nSpending days and nights in her study, the scholar lost all sense of time.\nThis exquisite clock served as a beacon guiding the scholar in her relentless pursuit of knowledge.\nThe time the scholar spent would prove to be fruitful.\nKnowledge would find its way to her.",
+  "images": {}
+}

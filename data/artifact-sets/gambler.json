@@ -8,32 +8,5 @@
     4
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Gambler's Brooch",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Gambler's Feather Accessory",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Gambler's Pocket Watch",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Gambler's Dice Cup",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Gambler's Earrings",
-      "images": {}
-    }
-  ],
   "images": {}
 }

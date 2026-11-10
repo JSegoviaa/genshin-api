@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 57,
+  "slug": "martial-artists-bandana",
+  "name": "Martial Artist's Bandana",
+  "set": "martial-artist",
+  "type": "circlet-of-logos",
+  "description": "The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you'll never forget them.",
+  "lore": "A bright-red bandana that belonged to a martial artist. The color has now faded.\nIt serves as proof that the bearer practiced martial arts at a young age. It also represents the high ambition the young martial artist once had.\nBefore the first crack of dawn, the young martial artist was already training in the forest.\nMany years later, the martial artist is now an instructor. Though youth may be a thing of his past, he remains just as alert and diligent as when he was young.",
+  "images": {}
+}

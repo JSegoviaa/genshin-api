@@ -177,6 +177,47 @@ describe("detail", () => {
     });
   });
 
+  it("returns artifacts with their set, type, rarities and lore", async () => {
+    const { status, body } = await get(
+      "/api/v1/artifacts/witchs-flower-of-blaze",
+    );
+    expect(status).toBe(200);
+    expect(body.set).toMatchObject({ slug: "crimson-witch-of-flames" });
+    expect(body.type).toMatchObject({ slug: "flower-of-life" });
+    expect(body.rarities.map((r: any) => r.id)).toEqual([4, 5]);
+    expect(body.description.length).toBeGreaterThan(0);
+    expect(body.lore).toContain("\n");
+    const set = await get("/api/v1/artifact-sets/crimson-witch-of-flames");
+    expect(set.body.pieces[0]).toMatchObject({
+      slug: "witchs-flower-of-blaze",
+      url: "http://api.test/api/v1/artifacts/witchs-flower-of-blaze",
+    });
+    const filtered = await get(
+      "/api/v1/artifacts?set=crimson-witch-of-flames&type=circlet-of-logos",
+    );
+    expect(filtered.body.results.map((a: any) => a.slug)).toEqual([
+      "witchs-scorching-hat",
+    ]);
+    const oneStar = await get("/api/v1/artifacts?rarity=1&limit=100");
+    const oneStarSets = new Set(
+      (data as any)["artifact-sets"]
+        .filter((x: any) => x.rarities.includes(1))
+        .map((x: any) => x.slug),
+    );
+    expect(oneStar.body.count).toBeGreaterThan(0);
+    for (const a of oneStar.body.results)
+      expect(oneStarSets.has(a.set.slug)).toBe(true);
+  });
+
+  it("has at most one artifact per type in each set", () => {
+    const seen = new Set<string>();
+    for (const a of (data as any).artifacts) {
+      const key = `${a.set}/${a.type}`;
+      expect(seen.has(key)).toBe(false);
+      seen.add(key);
+    }
+  });
+
   it("links artifact sets to their release version", async () => {
     const { body } = await get("/api/v1/artifact-sets/obsidian-codex");
     expect(body.releaseVersion).toMatchObject({ slug: "5-0", name: "5.0" });
@@ -311,6 +352,7 @@ describe("random", () => {
       "characters",
       "artifact-types",
       "artifact-sets",
+      "artifacts",
       "stats",
     ]) {
       expect((await get(`/api/v1/${r}/random`)).status).toBe(200);

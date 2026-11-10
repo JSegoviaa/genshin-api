@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 41,
+  "slug": "exiles-goblet",
+  "name": "Exile's Goblet",
+  "set": "the-exile",
+  "type": "goblet-of-eonothem",
+  "description": "A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off.",
+  "lore": "This silver goblet is a family heirloom of an exiled aristocrat. The exterior was once inlaid with a gem engraved with his family crest.\nBut after the exile had brought shame to his family, he carved out the symbol of which he was once proud.\nAs a result, this cup is broken and can no longer hold liquid.\nBut the exile still carries it with him until the end of his journey.",
+  "images": {}
+}

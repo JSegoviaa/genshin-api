@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "In Remembrance of Viridescent Fields",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Viridescent Arrow Feather",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Viridescent Venerer's Determination",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Viridescent Venerer's Vessel",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Viridescent Venerer's Diadem",
-      "images": {}
-    }
-  ],
   "images": {}
 }

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 59,
+  "slug": "gamblers-feather-accessory",
+  "name": "Gambler's Feather Accessory",
+  "set": "gambler",
+  "type": "plume-of-death",
+  "description": "The tail feather of a large bird. Perfect for discretely concealing a trump card.",
+  "lore": "This colorful feather served to decorate a gambler's hat. Its flamboyance disgusts true aristocrats.\nBut what the aristocrats do not see is the delicate mechanism hidden beneath the surface.\nWhen the time comes, the gambler subtly swaps in a hidden, game-changing card.\nUpon seeing this card, the disdain and condescension on the aristocrats' faces would instantly give way to sheer shock.",
+  "images": {}
+}

@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "4.3",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Forgotten Oath of Days Past",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Recollection of Days Past",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Echoing Sound From Days Past",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Promised Dream of Days Past",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Poetry of Days Past",
-      "images": {}
-    }
-  ],
   "images": {}
 }

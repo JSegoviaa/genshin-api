@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "5.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Reckoning of the Xenogenic",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Root of the Spirit-Marrow",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Myths of the Night Realm",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Pre-Banquet of the Contenders",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Crown of the Saints",
-      "images": {}
-    }
-  ],
   "images": {}
 }

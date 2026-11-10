@@ -1,4 +1,5 @@
 import { defineResource, head, type Ctx } from "../../core/resource";
+import type { Artifact } from "../artifacts/artifact.schema";
 import { artifactTypeSchema, type ArtifactStat } from "./artifact-type.schema";
 
 const stats = (list: ArtifactStat[], ctx: Ctx) =>
@@ -28,9 +29,10 @@ export const artifactTypeResource = defineResource({
     mainStats: stats(t.mainStats, ctx),
     subStats: stats(t.subStats, ctx),
     images: ctx.images(t.images),
-    artifactSets: ctx.related<{ pieces: { type: string }[] }>(
-      "artifact-sets",
-      (s) => s.pieces.some((p) => p.type === t.slug),
+    artifactSets: ctx.related<{ slug: string }>("artifact-sets", (s) =>
+      ctx
+        .all<Artifact>("artifacts")
+        .some((a) => a.set === s.slug && a.type === t.slug),
     ),
   }),
 });

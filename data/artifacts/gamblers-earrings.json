@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 62,
+  "slug": "gamblers-earrings",
+  "name": "Gambler's Earrings",
+  "set": "gambler",
+  "type": "circlet-of-logos",
+  "description": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks.",
+  "lore": "These ostentatious earrings are the perfect representation of the gambler's transient wealth.\nThe glimmer of the gem is just as soothing as the sky and the lake.\nThe earrings would be coated with a mildly sedative substance to keep the gambler calm in the game.\nIn games where one gambles with life and death, remaining calm and composed is the key to winning.",
+  "images": {}
+}

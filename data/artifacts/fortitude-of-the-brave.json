@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 50,
+  "slug": "fortitude-of-the-brave",
+  "name": "Fortitude of the Brave",
+  "set": "brave-heart",
+  "type": "sands-of-eon",
+  "description": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself.",
+  "lore": "When the black curses poured forth, and the roots of disaster infested the earth,\nThe knights, on expedition in a foreign land, would face the horror head on, their formation steely as the northern glaciers.\n\nThe steel of their greatswords flashed brightly, and the dark ichor fell like poisoned rain.\n\nAt last the hero returned home, but this time, without his old friend.\nSo much had changed, save for the hourglass that childhood companion had gifted him.",
+  "images": {}
+}

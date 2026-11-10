@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 88,
+  "slug": "bloodstained-black-plume",
+  "name": "Bloodstained Black Plume",
+  "set": "bloodstained-chivalry",
+  "type": "plume-of-death",
+  "description": "A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black.",
+  "lore": "One of the countless raven feathers stuck to the Bloodstained Knight.\nFor where there is blood, ravens shall follow.\n\nIn the end the Bloodstained Knight could no longer tell whether the blood that stained him was his own or that of his enemies.\n\nEventually, on his long journey filled with bloodshed, he came to a realization:\nHis path of so-called chivalry had turned him from the white knight he used to be into the monster he had now become.\nHis only followers were the ravens drawn to the bloodshed he left in his wake.",
+  "images": {}
+}

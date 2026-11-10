@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 30,
+  "slug": "berserkers-timepiece",
+  "name": "Berserker's Timepiece",
+  "set": "berserker",
+  "type": "sands-of-eon",
+  "description": "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left — both on the battlefield as well as in the world.",
+  "lore": "The end inevitably comes for all, even the seemingly invincible berserker.\nAs the blood on his hands finally dried up, the berserker's footsteps began to falter.\nHis life was destined to end the moment he met his last challenge in the battlefield.\nOn the battlefield where blood flowed like rivers, his hourglass was painted red by the setting sun.",
+  "images": {}
+}

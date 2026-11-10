@@ -8,32 +8,5 @@
     5
   ],
   "releaseVersion": "1.0",
-  "pieces": [
-    {
-      "type": "flower-of-life",
-      "name": "Witch's Flower of Blaze",
-      "images": {}
-    },
-    {
-      "type": "plume-of-death",
-      "name": "Witch's Ever-Burning Plume",
-      "images": {}
-    },
-    {
-      "type": "sands-of-eon",
-      "name": "Witch's End Time",
-      "images": {}
-    },
-    {
-      "type": "goblet-of-eonothem",
-      "name": "Witch's Heart Flames",
-      "images": {}
-    },
-    {
-      "type": "circlet-of-logos",
-      "name": "Witch's Scorching Hat",
-      "images": {}
-    }
-  ],
   "images": {}
 }

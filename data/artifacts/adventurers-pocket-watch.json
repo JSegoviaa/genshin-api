@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/artifacts.json",
+  "id": 5,
+  "slug": "adventurers-pocket-watch",
+  "name": "Adventurer's Pocket Watch",
+  "set": "adventurer",
+  "type": "sands-of-eon",
+  "description": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city.",
+  "lore": "A pocket watch that once belonged to an adventurer. It was crafted by a master watchmaker with simplicity and practicality in mind, aligning with the philosophy of the Adventurers' Guild.\nThe adventurer spent most of his days in darkness. The rhythmic sound of its moving hands was the only proof he had of the passage of time.\nLong after he had grown accustomed to a normal life, having given up the adventurer lifestyle he once loved so dearly,\nthis forgotten pocket watch still sat quietly in the cabinet, waiting for its next adventure.",
+  "images": {}
+}
