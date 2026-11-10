@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 128,
+  "slug": "ferocious-warrior-wrestler",
+  "name": "Ferocious Warrior: Wrestler",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "5.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A warrior from the plains and a tribal guardian who watches over the golden fields.\nThey have trained their strength relentlessly since the moment they set their sights on becoming a warrior. When they bring their two-handed weapon down in a mighty strike, the sheer force is something no ordinary person can withstand.",
+  "images": {}
+}

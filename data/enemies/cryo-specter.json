@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 19,
+  "slug": "cryo-specter",
+  "name": "Cryo Specter",
+  "type": "common-enemies",
+  "family": "elemental-lifeforms",
+  "group": "specters",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "2.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A monster born from highly-concentrated Cryo elements that can float in the air.\nA certain alchemist once studied these beings, speculating that they might be a kind of Slime or the Traveler, as none of the above needed a Vision to use the elements. He was reprimanded by his teacher.",
+  "images": {}
+}

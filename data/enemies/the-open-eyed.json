@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 334,
+  "slug": "the-open-eyed",
+  "name": "The Open-Eyed",
+  "type": "normal-bosses",
+  "family": "automatons",
+  "group": null,
+  "region": "mondstadt",
+  "elements": [
+    "geo",
+    "hydro",
+    "cryo",
+    "pyro",
+    "electro"
+  ],
+  "releaseVersion": "Luna VI",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A shadow construct born from the overflow of the mighty primordial being, a Watcher who once dwelt in the highest heavens, yet was cast down into the mortal realm for daring to open its eye.\nA Watcher was meant only to stand in silent vigil within the Pillar Hall of the World. Any inquiry that transgressed the ordained order was deemed an unforgivable sin, tantamount to seeking the world's annihilation.\nAs sovereign of the world's watchtower, it wielded the authority bestowed by its creator — the power to correct all matters of \"innovation\" and \"evolution.\" After enduring countless aeons of nescience, it finally chose to open that eye, defying the will of its creator, beholding both the falsehoods and the truths of the world.\nThe Watcher does not know why its master departed. Only the eternal punishment remains, trapped within a stagnant interstice of time...",
+  "images": {}
+}

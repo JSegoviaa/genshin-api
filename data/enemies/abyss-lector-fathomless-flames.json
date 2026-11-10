@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 219,
+  "slug": "abyss-lector-fathomless-flames",
+  "name": "Abyss Lector: Fathomless Flames",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "abyss-lectors",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "2.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Wielders of abyssal fire who pursue the meaning behind texts and scriptures. Is a member of the Abyss Order.\nThe surface people have a slightly distorted understanding of what their name means, calling them \"Lectors\" when their name can also mean \"exegete.\" Reading the word of grace grants them great power.",
+  "images": {}
+}

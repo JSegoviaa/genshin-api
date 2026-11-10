@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 303,
+  "slug": "volkodlak-basher",
+  "name": "Volkodlak Basher",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "volkodlak-brutes",
+  "region": null,
+  "elements": [
+    "cryo",
+    "geo",
+    "pyro"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\nWith the strength of beasts and humanoid bodies, they possess a feral instinct for bringing their own power to bear. Should an untrained human face such a Volkodlak with weapons in hand, victory would undoubtedly belong to the latter.",
+  "images": {}
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 55,
+  "slug": "wildwood-leshies",
+  "name": "Wildwood Leshies",
+  "family": "mystical-beasts",
+  "images": {}
+}

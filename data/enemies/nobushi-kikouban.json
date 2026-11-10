@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 93,
+  "slug": "nobushi-kikouban",
+  "name": "Nobushi: Kikouban",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "nobushi",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.\nThey possess highly-advanced sword skills and also use crossbows to ambush opponents, using any means to win. Those who have abandoned the title of a martial artist often abandon their dignity as well.\nSometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+  "images": {}
+}

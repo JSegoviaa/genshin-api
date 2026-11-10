@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 187,
+  "slug": "chimeric-skorp",
+  "name": "Chimeric Skorp",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "aberrant-chimeric-monsters",
+  "region": null,
+  "elements": [
+    "dendro"
+  ],
+  "releaseVersion": "7.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A product of bio-alchemy that has taken a particularly unique shape.\nLegend has it that this monster, possessing the body of a rooster and the tail of a scorpion, wields a terrifying power that turns anyone who meets its gaze to stone. Its creator could've sworn that he had not endowed it with such a horrific ability. Yet, after a moment's reflection on why such a rumor might persist, he reasoned... \"Perhaps it stems from the fact that its toxins cause muscle rigidity.\"",
+  "images": {}
+}

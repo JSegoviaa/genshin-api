@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 19,
+  "slug": "the-black-serpents",
+  "name": "The Black Serpents",
+  "family": "the-abyss",
+  "images": {}
+}

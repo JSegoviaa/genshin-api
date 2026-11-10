@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 139,
+  "slug": "pyro-whopperflower",
+  "name": "Pyro Whopperflower",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "whopperflowers",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 75,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 35,
+      "immune": false
+    }
+  ],
+  "description": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
+  "images": {}
+}

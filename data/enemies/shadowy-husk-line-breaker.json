@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 221,
+  "slug": "shadowy-husk-line-breaker",
+  "name": "Shadowy Husk: Line Breaker",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "the-black-serpents",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "2.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it no longer holds any \"intelliegence\" that it may still be called \"human.\" Yet the desire to destroy the foe and plunge into battle to defend others is etched into this empty suit of armor, even if no one remains to tell it where the enemy is or who or what exactly must be defended.",
+  "images": {}
+}

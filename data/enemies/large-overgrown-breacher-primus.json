@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 226,
+  "slug": "large-overgrown-breacher-primus",
+  "name": "Large Overgrown Breacher Primus",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "breacher-primuses",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A strange life form that mostly appears in Elynas.\nThe nature of a Breacher Primus defies known categories: they are not animals, plants, Shroom-Kin, nor Elementals. The debate among scholars of Sumeru never formally reached a consensus on just what it is, until it was finally banned as a research topic. The reason is that based on the current system of knowledge, this problem is like \"the definitions prescribed by language and the true nature of things,\" and it is impossible to have a meaningful, final answer.",
+  "images": {}
+}

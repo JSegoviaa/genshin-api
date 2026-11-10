@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 326,
+  "slug": "ruin-serpent",
+  "name": "Ruin Serpent",
+  "type": "normal-bosses",
+  "family": "automatons",
+  "group": "ruin-machines",
+  "region": "liyue",
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "2.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "From within the depths of The Chasm come faint bursts of machine motion...",
+  "images": {}
+}

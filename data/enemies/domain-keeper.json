@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 268,
+  "slug": "domain-keeper",
+  "name": "Domain Keeper",
+  "type": "elite-enemies",
+  "family": "automatons",
+  "group": null,
+  "region": null,
+  "elements": [
+    "geo",
+    "pyro",
+    "hydro",
+    "electro",
+    "cryo"
+  ],
+  "releaseVersion": "Luna VI",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A shadow construct born from the overflow of the mighty primordial being, it is a guardian who watches over the Pillar Hall of the heavens.\nThough entrusted with \"eyes\" as a guardian of the Pillar Hall of Space, these entities can do nothing but extol the \"Ideal Forms\" of the noumenal world. With no way to behold the complexities of the phenomenal world, they are thus not counted among the kindred of angels. Whether this inherent contradiction is a product of their creator's rational design, or if the master they serve ultimately failed to grasp the intent of that primordial being, is a truth that remains beyond our reach.",
+  "images": {}
+}

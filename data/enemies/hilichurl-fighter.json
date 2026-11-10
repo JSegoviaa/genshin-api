@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 30,
+  "slug": "hilichurl-fighter",
+  "name": "Hilichurl Fighter",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": null,
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nIll-tempered warriors for their tribes, they are simple-minded believers in the power of brute force. If their muscles grow strong enough and their strength great enough, then one day they too shall raise up a great shield and become a mitachurl... Or will they?",
+  "images": {}
+}

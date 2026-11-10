@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 62,
+  "slug": "oprichniki-medic",
+  "name": "Oprichniki Medic",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-oprichniki",
+  "region": null,
+  "elements": [
+    "physical",
+    "hydro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A soldier of the Fatui Oprichniki, equipped with a staff-like device and tasked with providing emergency medical support to their comrades in arms.\nIn truth, these medics have largely only taken crash-course training, and as such, their healing abilities are limited. In practice, they tend to adopt more efficient methods of supporting their allies — mixing in with the different units and charging at the enemy lines.",
+  "images": {}
+}

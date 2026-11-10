@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 177,
+  "slug": "tatankasaurus",
+  "name": "Tatankasaurus",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "natlan-saurians",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "5.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A saurian with a hard, bony crest and a powerful body suited to dashing around volcanic landscapes.\nAccording to legend, the Tatankasaurus's ancestors were so large they could use their horns to move mountains, but they lacked the agility of their smaller, modern relatives. Perhaps the great power that Tatankasaurs still possess is a gift passed down through their bloodline.",
+  "images": {}
+}

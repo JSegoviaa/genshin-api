@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 249,
+  "slug": "fatui-electro-cicin-mage",
+  "name": "Fatui Electro Cicin Mage",
+  "type": "elite-enemies",
+  "family": "fatui",
+  "group": "fatui-cicin-mages",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Fatui mage who can command Electro Cicins in battle. Their origins and what they look like under that mask are both mysteries.\nSimilarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.",
+  "images": {}
+}

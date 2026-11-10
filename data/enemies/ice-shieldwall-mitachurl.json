@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 204,
+  "slug": "ice-shieldwall-mitachurl",
+  "name": "Ice Shieldwall Mitachurl",
+  "type": "elite-enemies",
+  "family": "hilichurls",
+  "group": "mitachurls",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo"
+  ],
+  "releaseVersion": "1.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A muscular hilichurl that uses solid ice as a shield, wielding it in battle.\nReason normally dictates that large creatures that see a lot of action should burn through a great number of calories to sustain themselves. As such, the present-day El Musk has proposed the \"Mitachurl Index.\" This index correlates the percentage of mitachurls within the hilichurl population to the stability and success of hilichurl foraging activity.",
+  "images": {}
+}

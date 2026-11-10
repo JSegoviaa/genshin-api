@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 282,
+  "slug": "xuanwen-beast",
+  "name": "Xuanwen Beast",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": null,
+  "region": null,
+  "elements": [
+    "anemo",
+    "hydro"
+  ],
+  "releaseVersion": "4.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A fearsome beast that lurks in the mountains. It uses Anemo to pursue its prey.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 15,
+  "slug": "pyro-slime",
+  "name": "Pyro Slime",
+  "type": "common-enemies",
+  "family": "elemental-lifeforms",
+  "group": "slimes",
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A small monster created by the sedimentation of Pyro dispersed throughout nature.\nIts intelligence is very basic, but its uses are just as broad–well, for hilichurls, that is.",
+  "images": {}
+}

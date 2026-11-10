@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 18,
+  "slug": "tenebrous-mimesis",
+  "name": "Tenebrous Mimesis",
+  "family": "the-abyss",
+  "images": {}
+}

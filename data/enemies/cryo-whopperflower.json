@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 136,
+  "slug": "cryo-whopperflower",
+  "name": "Cryo Whopperflower",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "whopperflowers",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 75,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 35,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 35,
+      "immune": false
+    }
+  ],
+  "description": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.\nThese plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
+  "images": {}
+}

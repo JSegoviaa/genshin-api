@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 167,
+  "slug": "koholasaurus",
+  "name": "Koholasaurus",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "natlan-saurians",
+  "region": null,
+  "elements": [
+    "physical",
+    "hydro"
+  ],
+  "releaseVersion": "5.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Saurian with thick, strong flippers and a long tail that can swim in water and liquid phlogiston.\nAccording to legend, more ancient dragons were even more able to adapt to their environments, and when the largest dragon in the ocean of the age floated on the surface, it could even be mistaken for an island. It is said that today's Koholasaurus are the descendants of that great sea dragon, and in their broad backs the colossal forms of those ancient sea beasts may yet be glimpsed.",
+  "images": {}
+}

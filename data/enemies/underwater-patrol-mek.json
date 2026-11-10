@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 75,
+  "slug": "underwater-patrol-mek",
+  "name": "Underwater Patrol Mek",
+  "type": "common-enemies",
+  "family": "automatons",
+  "group": "clockwork-meka",
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "This type of clockwork meka was designed to search out, repel, and if need be exterminate aquatic life forms that pose a threat to underwater equipment.\nEver since the first diluvian period, the Fontaine Research Institute has been preoccupied with the thought that there might be a second one. Some had the idea of taking back the ruins lost to the waves and building an underwater city, whereas others looked up to the untouchable sky islands overhead with the intention of building a metropolis in the clouds.\nUnderwater Patrol Meks were conceived by the former, but judging from the results, it is the latter that have gained the upper hand in recent years.",
+  "images": {}
+}

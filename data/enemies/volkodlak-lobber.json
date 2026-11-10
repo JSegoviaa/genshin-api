@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 304,
+  "slug": "volkodlak-lobber",
+  "name": "Volkodlak Lobber",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "volkodlak-brutes",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro",
+    "pyro",
+    "geo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\nWith the strength of beasts and humanoid bodies, their powerful upper bodies allow them to throw with greater force and precision. Volkodlak may not excel at shaping Prime Ice or wielding elemental power, but among the many fae lineages, few can match their command over physical strength.",
+  "images": {}
+}

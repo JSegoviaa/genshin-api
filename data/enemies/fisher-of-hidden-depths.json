@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 248,
+  "slug": "fisher-of-hidden-depths",
+  "name": "Fisher of Hidden Depths",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": null,
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "Luna IV",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An Abyssal creature that slips through rifts in the hidden depths, crossing over from beyond this world.\nLong ago, an ancient philosopher described humans as \"featherless bipeds,\" using that simple phrase to distinguish mankind from animals and assert human superiority. In some sense, these deathless wanderers of the silent cosmic void, scaled instead of feathered, and using their hooked beaks to draw in biomass from world to world, might actually also match that same simplistic definition of \"human.\"",
+  "images": {}
+}

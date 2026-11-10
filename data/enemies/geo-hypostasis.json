@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 310,
+  "slug": "geo-hypostasis",
+  "name": "Geo Hypostasis",
+  "type": "normal-bosses",
+  "family": "elemental-lifeforms",
+  "group": "hypostases",
+  "region": "liyue",
+  "elements": [
+    "geo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": null,
+      "immune": true
+    }
+  ],
+  "description": "Code Name: Gimel. A high-purity Geo entity.\nElemental hypostases are ultra-compact structures with a high mass.\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to the elemental stimuli.",
+  "images": {}
+}

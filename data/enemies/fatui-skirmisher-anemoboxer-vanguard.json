@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 43,
+  "slug": "fatui-skirmisher-anemoboxer-vanguard",
+  "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-skirmishers",
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo",
+    "cryo",
+    "electro",
+    "hydro",
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.\nThey departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.\n—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
+  "images": {}
+}

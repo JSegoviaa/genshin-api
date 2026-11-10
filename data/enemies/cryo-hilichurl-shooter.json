@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 24,
+  "slug": "cryo-hilichurl-shooter",
+  "name": "Cryo Hilichurl Shooter",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-shooters",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and unmelting ice shrouds their arrowheads. It is said that wounds caused by these arrowheads heal very slowly, as the cold will slow the circulation of blood.",
+  "images": {}
+}

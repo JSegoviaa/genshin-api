@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 255,
+  "slug": "ruin-guard",
+  "name": "Ruin Guard",
+  "type": "elite-enemies",
+  "family": "automatons",
+  "group": "humanoid-ruin-machines",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An ancient humanoid war machine.\nLegend has it that these machines were combat automatons created by a long-destroyed nation. They now wander ruins and ancient detritus, attacking offending travelers. Research indicates that the Ruin Guards and the ruins they operate in do not originate from the same source, suggesting that there may be a difference of as much as several thousand years between them on the timeline. So why then do the Ruin Guards continue staying among these ruins, using their \"explosive firepower\" to protect the crumbling walls and broken tiles?",
+  "images": {}
+}

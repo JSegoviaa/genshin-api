@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 103,
+  "slug": "flowing-blade-skirmisher",
+  "name": "Flowing Blade Skirmisher",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "hydro"
+  ],
+  "releaseVersion": "5.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A warrior from the source of the springs, and a tribal guardian that patrols the waters and shores.\nIn lieu of weapons, these tribal warriors have mastered the techniques of raw, physical combat. Their seemingly ordinary fists and feet contain the power equal to the crashing waves.",
+  "images": {}
+}

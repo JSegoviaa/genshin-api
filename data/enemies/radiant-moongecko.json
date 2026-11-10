@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 351,
+  "slug": "radiant-moongecko",
+  "name": "Radiant Moongecko",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "radiant-beasts",
+  "region": "nod-krai",
+  "elements": [
+    "geo"
+  ],
+  "releaseVersion": "Luna V",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 70,
+      "immune": false
+    }
+  ],
+  "description": "An ancient monster drawn to moonlight, this gecko dwells deep within layers of rock.\nThough the memory of true moonlight has faded, instinct remains, compelling them, on nights of the full moon, to gnaw on rock and soil suffused with lunar radiance to preserve their bloodline.",
+  "images": {}
+}

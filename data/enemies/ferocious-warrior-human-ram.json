@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 127,
+  "slug": "ferocious-warrior-human-ram",
+  "name": "Ferocious Warrior: Human Ram",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "5.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A warrior from the plains and a tribal guardian who watches over the golden fields.\nThey are adept at using their horn-studded blades to strike at enemy weak spots — be careful not to let them detect any of yours.",
+  "images": {}
+}

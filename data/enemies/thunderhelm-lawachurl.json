@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 206,
+  "slug": "thunderhelm-lawachurl",
+  "name": "Thunderhelm Lawachurl",
+  "type": "elite-enemies",
+  "family": "hilichurls",
+  "group": "lawachurls",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A mysterious \"lord\" of hilichurls that strides through the thunderstorm.\nThis huge hilichurl is referred to as \"Lawa\" by its brethren. Its giant body is saturated with Electro energy, while the Elemental Energy seeps through the cracks in its body in the form of Electro Crystal growths.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 42,
+  "slug": "electro-samachurl",
+  "name": "Electro Samachurl",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "samachurls",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A wizened, mumbling Hilichurl, one that prays to Electro. Hilichurls especially gifted in commanding elements who often reach the zenith of their skill in their twilight years. Since they possess such advanced skill in creating electricity and summoning thunder, you may as well use the crackling sound to compose an elegy.",
+  "images": {}
+}

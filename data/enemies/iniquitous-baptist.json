@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 320,
+  "slug": "iniquitous-baptist",
+  "name": "Iniquitous Baptist",
+  "type": "normal-bosses",
+  "family": "the-abyss",
+  "group": null,
+  "region": "sumeru",
+  "elements": [
+    "cryo",
+    "electro",
+    "hydro",
+    "pyro"
+  ],
+  "releaseVersion": "3.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A monster from the Abyss that wields multiple types of Elemental Power and has gained extra limbs from its \"evolution.\"\n\n\"The nature of the 'Abyss' is essentially irreconcilable with the elements. However, even the elements of gods can be entrapped and distorted before they are subsumed to become tools of the abyssal will. Just judging from outcomes and practical use, \"Abyssal powers\" seem little different from elemental items, from ones as paltry as the Treasure Hoarders' elemental containers to those as powerful as Visions...\"\n—Notes left behind in Hangeh Afrasiyab by someone.",
+  "images": {}
+}

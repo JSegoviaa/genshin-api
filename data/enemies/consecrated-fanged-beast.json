@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 280,
+  "slug": "consecrated-fanged-beast",
+  "name": "Consecrated Fanged Beast",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "consecrated-beasts",
+  "region": null,
+  "elements": [
+    "dendro"
+  ],
+  "releaseVersion": "3.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A predator that has mutated after feeding from greater lifeforms.\nSurvival of the fittest is written in the law of nature. But pets and Consecrated Beasts are exceptions. Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.",
+  "images": {}
+}

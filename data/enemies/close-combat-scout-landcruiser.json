@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 49,
+  "slug": "close-combat-scout-landcruiser",
+  "name": "Close Combat Scout Landcruiser",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "landcruiser",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An autonomous machine that applies the principles of naval combat to land battles, a literal \"armed ship that cruises on land.\"\nThese walking Landcruisers with bipedal structures are often used as \"scouts,\" for they are able to quickly traverse rough terrain and reach key positions to seize the initiative for their allies. Their close-combat-oriented rotating blades allow them to deal fatal damage to their foes and shred shrubbery and obstacles to open the way, allowing units to operate with ease even amidst thick vegetation.",
+  "images": {}
+}

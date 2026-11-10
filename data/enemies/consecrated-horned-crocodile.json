@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 281,
+  "slug": "consecrated-horned-crocodile",
+  "name": "Consecrated Horned Crocodile",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "consecrated-beasts",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "3.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A reptile that has mutated after feeding from greater lifeforms.\nMajestic beasts are sometimes revered by human beings as the embodiment of a greater power, their visages turned to analogy to feed in reference to a person, feeding their ego. However, the majority of beasts that have absorbed the \"greater power\" were slain by the overwhelming nature of the power itself. Only a few among their number evolved new forms.",
+  "images": {}
+}

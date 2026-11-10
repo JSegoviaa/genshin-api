@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 271,
+  "slug": "the-great-snowboar-king",
+  "name": "The Great Snowboar King",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "boars",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo"
+  ],
+  "releaseVersion": "1.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Amidst the snow and ice dwells an ancient king waiting to be awakened by its ice-entombed brethren.\nIn the distant past beyond memory, a certain legend circulated among hunters out in the wild: when the land sealed by ice returns to life and when an uninvited guest disturbs the deep, frozen silence, the lord and leader of the snowboars unto greatness will awaken from slumber, shake off the ice that shackles it, and bring judgment upon those disrespectful interlopers.",
+  "images": {}
+}

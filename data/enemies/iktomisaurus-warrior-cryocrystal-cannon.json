@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 116,
+  "slug": "iktomisaurus-warrior-cryocrystal-cannon",
+  "name": "Iktomisaurus Warrior: Cryocrystal Cannon",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo",
+    "pyro"
+  ],
+  "releaseVersion": "5.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A powerful warrior from the Night-Wind, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nWithout exception, it is said that tribal warriors who win the acknowledgment of the Iktomisaurs must possess extraordinarily keen senses and formidable mental strength. They can even use their power to make slight alterations to the trajectory of the projectiles that they fire from their cannons.",
+  "images": {}
+}

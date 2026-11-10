@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 35,
+  "slug": "rock-shield-hilichurl-guard",
+  "name": "Rock Shield Hilichurl Guard",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-guards",
+  "region": null,
+  "elements": [
+    "physical",
+    "geo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHardy hilichurls who have congregated in a region where Geo energies are abundant. Their impregnable shields have layers of rocky growths on them.",
+  "images": {}
+}

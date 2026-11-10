@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 182,
+  "slug": "glacial-warden",
+  "name": "Glacial Warden",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fae-of-crystalline-flesh",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Snegovik born of love amid the snow and ice.\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end.",
+  "images": {}
+}

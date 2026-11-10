@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 45,
+  "slug": "fatui-skirmisher-electrohammer-vanguard",
+  "name": "Fatui Skirmisher - Electrohammer Vanguard",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-skirmishers",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A sturdily-build skirmisher armed with an Electro-powered war-hammer.\nAs a Fatui soldier, one has access to munificent resources: salaries, armaments, and supplies.\nBut at the same time, it also means much time away from home and family and putting one's life in the hands of comrades one has never met.",
+  "images": {}
+}

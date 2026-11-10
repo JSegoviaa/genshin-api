@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 94,
+  "slug": "eremite-daythunder",
+  "name": "Eremite Daythunder",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "the-eremites",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "3.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins.\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+  "images": {}
+}

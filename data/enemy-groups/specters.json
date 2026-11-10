@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 4,
+  "slug": "specters",
+  "name": "Specters",
+  "family": "elemental-lifeforms",
+  "images": {}
+}

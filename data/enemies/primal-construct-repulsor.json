@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 265,
+  "slug": "primal-construct-repulsor",
+  "name": "Primal Construct: Repulsor",
+  "type": "elite-enemies",
+  "family": "automatons",
+  "group": "primal-constructs",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro"
+  ],
+  "releaseVersion": "3.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\nThese machines were not first built to be temple guards or palace defenders, but instead to rebirth the paradise that the foolish desert ruler dreamed of.\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
+  "images": {}
+}

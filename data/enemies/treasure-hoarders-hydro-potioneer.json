@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 83,
+  "slug": "treasure-hoarders-hydro-potioneer",
+  "name": "Treasure Hoarders: Hydro Potioneer",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "treasure-hoarder-potioneers",
+  "region": null,
+  "elements": [
+    "physical",
+    "hydro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThey say that some Treasure Hoarder Potioneers used to be charlatans who would wander villages, towns, and cities, hawking their special blends of elixirs, holy waters, and the like. These cure-alls certainly seem to serve better in combat than they ever did in chicanery.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 330,
+  "slug": "prototype-cal-breguet",
+  "name": "Prototype Cal. Breguet",
+  "type": "normal-bosses",
+  "family": "automatons",
+  "group": "clockwork-meka",
+  "region": "fontaine",
+  "elements": [
+    "physical",
+    "geo"
+  ],
+  "releaseVersion": "4.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 70,
+      "immune": false
+    }
+  ],
+  "description": "A product of the Fontaine Research Institute of Kinetic Energy Engineering that has gone out of control due to an accident.",
+  "images": {}
+}

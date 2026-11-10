@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 180,
+  "slug": "chimeric-horned-bear",
+  "name": "Chimeric Horned Bear",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "aberrant-chimeric-monsters",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\nPerhaps no one knows the answer to that by now.",
+  "images": {}
+}

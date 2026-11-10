@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 366,
+  "slug": "lord-of-eroded-primal-fire",
+  "name": "Lord of Eroded Primal Fire",
+  "type": "weekly-bosses",
+  "family": "enemies-of-note",
+  "group": "tenebrous-mimesis",
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "5.3",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A fell dragon, congealed from the power of pitch-black darkness.",
+  "images": {}
+}

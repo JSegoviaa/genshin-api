@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 257,
+  "slug": "ruin-grader",
+  "name": "Ruin Grader",
+  "type": "elite-enemies",
+  "family": "automatons",
+  "group": "humanoid-ruin-machines",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "1.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An ancient humanoid war machine.\nTheir form is similar to that of Ruin Guards, but is more distorted and more powerful. Energy cores have been installed in both its legs, as though to power its overly heavy form.",
+  "images": {}
+}

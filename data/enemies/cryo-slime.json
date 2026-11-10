@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 2,
+  "slug": "cryo-slime",
+  "name": "Cryo Slime",
+  "type": "common-enemies",
+  "family": "elemental-lifeforms",
+  "group": "slimes",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A small monster created through the coagulation of Cryo in the natural environment.\nCompetitors once spread malicious rumors that the Dawn Winery used Cryo Slimes to control the temperature of their wine cellar and preserve the quality of their alcohol.",
+  "images": {}
+}

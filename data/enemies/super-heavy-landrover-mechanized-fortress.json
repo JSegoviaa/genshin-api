@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 323,
+  "slug": "super-heavy-landrover-mechanized-fortress",
+  "name": "Super-Heavy Landrover: Mechanized Fortress",
+  "type": "normal-bosses",
+  "family": "fatui",
+  "group": "landcruiser",
+  "region": "nod-krai",
+  "elements": [
+    "physical",
+    "cryo",
+    "pyro"
+  ],
+  "releaseVersion": "Luna III",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 70,
+      "immune": false
+    }
+  ],
+  "description": "Referred to internally as the \"Type Drzislav,\" this super heavy-class mechanism was jointly developed by the Armory Palace and the Kuuvahki Experimental Design Bureau.\nThis giant all-terrain vehicle was originally designed for civilian use, particularly heavy transport, as evidenced by its equipped drills and cutters. However, later production models were militarized with heavy weapons mounted on them.\nAfter all, in this mortal world beneath the moon, even the most perfect and divine designs may stray from their original intent, let alone machines born of mortal hands, crafted from humble intentions and flawed from the very beginning.",
+  "images": {}
+}

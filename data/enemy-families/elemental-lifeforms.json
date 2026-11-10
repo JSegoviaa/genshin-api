@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/enemy-families.json",
+  "id": 1,
+  "slug": "elemental-lifeforms",
+  "name": "Elemental Lifeforms",
+  "images": {}
+}

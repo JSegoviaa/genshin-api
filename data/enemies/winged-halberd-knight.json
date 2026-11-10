@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 184,
+  "slug": "winged-halberd-knight",
+  "name": "Winged Halberd-Knight",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fae-of-crystalline-flesh",
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A winged Vila capable of flight.\nRecords show that in the century after the Tsaritsa ascended the throne, the Vila went through many turbulent periods. Among them were fae who launched small-scale rebellions out of dissatisfaction with the Tsaritsa's policies toward the fae nobility.\nThe rebellions were soon suppressed, but the fact that their leaders were descendants of the old Vila nobility once led to a major split within the Vila people.",
+  "images": {}
+}

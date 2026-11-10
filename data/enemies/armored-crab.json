@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 157,
+  "slug": "armored-crab",
+  "name": "Armored Crab",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fontemer-aberrants",
+  "region": null,
+  "elements": [],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A crab that makes its home in borrowed shells.\nIt seems not to have any of the aggressiveness possessed by many wild animals. Perhaps it is because animals who attack for purposes other than obtaining food possess some degree of territoriality, yet the territory of the Armored Crab is naught but the small home upon its back.",
+  "images": {}
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 327,
+  "slug": "aeonblight-drake",
+  "name": "Aeonblight Drake",
+  "type": "normal-bosses",
+  "family": "automatons",
+  "group": "ruin-drakes",
+  "region": "sumeru",
+  "elements": [
+    "physical",
+    "anemo",
+    "cryo",
+    "dendro",
+    "electro",
+    "geo",
+    "hydro",
+    "pyro"
+  ],
+  "releaseVersion": "3.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "This dragon-shaped combat machine is a being that inspires fear, much like the lord who once ruled these vast lands.\nThis mysterious, tireless mechanical monstrosity seems to be proof that the now-destroyed realm had reached heights that mortals should never have.",
+  "images": {}
+}

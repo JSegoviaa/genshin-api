@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 353,
+  "slug": "immortal-construct",
+  "name": "Immortal Construct",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "aberrant-chimeric-monsters",
+  "region": "snezhnaya",
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A mere byproduct, manufactured solely to bring a certain selfish plan to fruition.\nWith its purpose as a biological vessel long since lost, the subject endures as a feral, mindless entity wandering the outer wilds.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 296,
+  "slug": "radiant-glacial-wolf",
+  "name": "Radiant Glacial Wolf",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "radiant-beasts",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "Luna IV",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\nLegend has it that when a dark calamity wiped out countless lives, the frontier forests fell completely silent. In that stillness, the only sound to break the dead quiet was the howl of the Glacial Wolves calling to the moon. Night after night, their mournful cries echoed across the empty wilderness in the cold moonlight.",
+  "images": {}
+}

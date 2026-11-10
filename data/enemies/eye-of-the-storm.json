@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 188,
+  "slug": "eye-of-the-storm",
+  "name": "Eye of the Storm",
+  "type": "elite-enemies",
+  "family": "elemental-lifeforms",
+  "group": null,
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The corporeal form of extremely high-quality Anemo energies. The formation of an Eye of the Storm indicates that the elemental ley lines of a region are blocked, which has led to siltation. Its reckless, heedless wielding of storms that all but sweeps people off their feet may be due to its nature as a symbol of the world stricken by malaise.",
+  "images": {}
+}

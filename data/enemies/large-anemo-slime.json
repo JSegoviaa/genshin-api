@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 7,
+  "slug": "large-anemo-slime",
+  "name": "Large Anemo Slime",
+  "type": "common-enemies",
+  "family": "elemental-lifeforms",
+  "group": "slimes",
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A monster created by the coalescing of Anemo dispersed throughout nature.\nOwing to being comprised of a greater concentration of Anemo, their flotation abilities are stronger than that of Anemo Slimes. The hilichurls living out in the wilds have made use of this special characteristic, creating special vehicles that use Large Anemo Slimes as a form of locomotion to transport goods from unknown sources.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 117,
+  "slug": "iktomisaurus-warrior-icy-tidebearer",
+  "name": "Iktomisaurus Warrior: Icy Tidebearer",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo"
+  ],
+  "releaseVersion": "5.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A powerful warrior from the Night-Wind, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nTribal warriors from the Masters of the Night-Wind do not typically excel when it comes to conventional strength. Their ability to manipulate weapons with ease comes instead from years of mental training. Thus, compared to combat prowess in itself, warriors from the Masters of the Night-Wind place greater value on the gift of \"Spiritspeaking.\" Drawing upon the power of special graffiti and willpower alone, it is said that the most exceptional of Spiritspeakers can lift boulders as tall as people.",
+  "images": {}
+}

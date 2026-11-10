@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 148,
+  "slug": "whirling-cryo-fungus",
+  "name": "Whirling Cryo Fungus",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fungi",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo"
+  ],
+  "releaseVersion": "3.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nPutting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat.",
+  "images": {}
+}

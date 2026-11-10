@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/enemy-types.json",
+  "id": 3,
+  "slug": "normal-bosses",
+  "name": "Normal Bosses",
+  "images": {}
+}

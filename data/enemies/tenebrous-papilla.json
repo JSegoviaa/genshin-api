@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 321,
+  "slug": "tenebrous-papilla",
+  "name": "Tenebrous Papilla",
+  "type": "normal-bosses",
+  "family": "the-abyss",
+  "group": "tenebrous-mimesis",
+  "region": "natlan",
+  "elements": [
+    "physical",
+    "anemo",
+    "cryo",
+    "dendro",
+    "electro",
+    "geo",
+    "hydro",
+    "pyro"
+  ],
+  "releaseVersion": "5.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 20,
+      "immune": false
+    }
+  ],
+  "description": "Abyssal creatures with plant-like forms that have descended from a deep, dark, unfathomable, contorted otherworld.\nThese twisted monstrosities are capable of infiltrating deep down into the bowels of the earth, extracting memories to imitate and manipulate. Through this process of distorting the past's memories into more abstruse and sordid forms, they gradually draw closer to Irminsul's core, threatening to undermine its very existence.\nSome say that these aberrations work constantly to corrupt the many colors of light, leaving only pitch-black information in their stead. Such a hypothesis seems to be confirmed by the branches they extend outward, as if to pierce the void itself...",
+  "images": {}
+}

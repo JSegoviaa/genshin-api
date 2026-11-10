@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 307,
+  "slug": "voywolf-hunter",
+  "name": "Voywolf Hunter",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "volkodlak-brutes",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\nTheir clan once prospered to the point that they could serve as an independent army under the King of Beasts. Yet after the Belyi Tsar, master of the Pale Star's royal court, unified the frozen lands, the clan's relatively small losses in the war caused them to fall under suspicion. They gradually declined, and by the time the Tsaritsa ascended the throne, they had withdrawn from the center of power in Snezhnaya. Today, most wolf-pack Volkodlak make their homes in the snowy plains and mountain forests.",
+  "images": {}
+}

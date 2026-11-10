@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 140,
+  "slug": "cryo-cicin",
+  "name": "Cryo Cicin",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "cicins",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "1.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -50,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Little creatures that can ever so slightly manipulate Cryo.\nThey and other such creatures are known collectively as Cicins. They are individually very weak, but it is precisely because they are weak that they have evolved unique methods of movement that allow them to avoid predators.",
+  "images": {}
+}

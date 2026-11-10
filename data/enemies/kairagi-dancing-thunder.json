@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 89,
+  "slug": "kairagi-dancing-thunder",
+  "name": "Kairagi: Dancing Thunder",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "kairagi",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Samurai who have fallen into banditry.\nThey possess highly advanced martial art skills but found no use for them for various reasons. Out of desperation, they have fallen onto the path of evil. They use paper seals, created from a Kamuna art that has been lost for centuries, to infuse their blades with the power of lightning.",
+  "images": {}
+}

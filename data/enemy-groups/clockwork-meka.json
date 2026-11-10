@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 26,
+  "slug": "clockwork-meka",
+  "name": "Clockwork Meka",
+  "family": "automatons",
+  "images": {}
+}

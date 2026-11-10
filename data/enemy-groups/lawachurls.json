@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 10,
+  "slug": "lawachurls",
+  "name": "Lawachurls",
+  "family": "hilichurls",
+  "images": {}
+}

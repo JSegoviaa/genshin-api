@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 346,
+  "slug": "statue-of-marble-and-brass",
+  "name": "\"Statue of Marble and Brass\"",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": null,
+  "region": "fontaine",
+  "elements": [
+    "physical",
+    "pyro",
+    "geo"
+  ],
+  "releaseVersion": "4.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A golem that once bore the weight of the ancients' dreams slumbers within the exhibition hall of the underwater castle...",
+  "images": {}
+}

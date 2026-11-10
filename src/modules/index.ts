@@ -5,6 +5,10 @@ import { artifactTypeResource } from "./artifact-types/artifact-type.resource";
 import { artifactResource } from "./artifacts/artifact.resource";
 import { characterResource } from "./characters/character.resource";
 import { elementResource } from "./elements/element.resource";
+import { enemyResource } from "./enemies/enemy.resource";
+import { enemyFamilyResource } from "./enemy-families/enemy-family.resource";
+import { enemyGroupResource } from "./enemy-groups/enemy-group.resource";
+import { enemyTypeResource } from "./enemy-types/enemy-type.resource";
 import { localSpecialtyResource } from "./local-specialties/local-specialty.resource";
 import { rarityResource } from "./rarities/rarity.resource";
 import { regionResource } from "./regions/region.resource";
@@ -26,4 +30,8 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   "artifact-sets": artifactSetResource,
   artifacts: artifactResource,
   stats: statResource,
+  "enemy-types": enemyTypeResource,
+  "enemy-families": enemyFamilyResource,
+  "enemy-groups": enemyGroupResource,
+  enemies: enemyResource,
 };

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 223,
+  "slug": "black-serpent-knight-windcutter",
+  "name": "Black Serpent Knight: Windcutter",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "the-black-serpents",
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "2.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\nThe Twilight Sword was once one of their number. That realm's glory has been extinguished, never again to be reclaimed.",
+  "images": {}
+}

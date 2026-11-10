@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 302,
+  "slug": "rugged-elder-leshy",
+  "name": "Rugged Elder Leshy",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "wildwood-leshies",
+  "region": null,
+  "elements": [
+    "physical",
+    "geo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 30,
+      "immune": false
+    }
+  ],
+  "description": "A Leshy that grows in forests and wilds.\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand.",
+  "images": {}
+}

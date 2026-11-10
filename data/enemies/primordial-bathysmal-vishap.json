@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 274,
+  "slug": "primordial-bathysmal-vishap",
+  "name": "Primordial Bathysmal Vishap",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "bathysmal-vishaps",
+  "region": null,
+  "elements": [
+    "physical",
+    "hydro"
+  ],
+  "releaseVersion": "2.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A vishap that dwells deep beneath the oceans.\nThey were once the dominant race in the depths — and indeed, dragons were the overlords of the whole world in an even earlier age. But their former Seven Sovereigns were defeated by a power from the heavens, withering one by one.",
+  "images": {}
+}

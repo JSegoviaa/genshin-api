@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 362,
+  "slug": "everlasting-lord-of-arcane-wisdom",
+  "name": "Everlasting Lord of Arcane Wisdom",
+  "type": "weekly-bosses",
+  "family": "enemies-of-note",
+  "group": null,
+  "region": null,
+  "elements": [
+    "anemo",
+    "cryo",
+    "electro",
+    "hydro",
+    "pyro"
+  ],
+  "releaseVersion": "3.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Shouki no Kami, as an artificial divinity created using all the might of Sumeru's Six Darshans, has power that rivals that of true gods.\nBut those of this world who call such a being a \"false deity\" misunderstand the true meaning of the word.\nShouki no Kami now understands countless things and shoulders unassailable might, and may be said to surpass mortals.\nIf gods must love mortals,\nThen Shouki no Kami, who grants failure in equal measure to humanity, loves them also.\nIf gods must watch over humanity,\n...\n...\nThen Shouki no Kami, who has borne witness to infinite love, hatred, partings, grudges, and maddening anger — thus does he watch over mortals.\n\n\"Too much happiness you have had!\"\n\"It has made you foolish. Arrogant. Horrifying in your greed.\"\n\"Let this era end!\"\n\"Let the new god announce the defeat of the old.\"\n\"Foolish mortal... There is yet time for you to kneel.\"",
+  "images": {}
+}

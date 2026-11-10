@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 322,
+  "slug": "lord-of-the-hidden-depths-whisperer-of-nightmares",
+  "name": "Lord of the Hidden Depths: Whisperer of Nightmares",
+  "type": "normal-bosses",
+  "family": "the-abyss",
+  "group": null,
+  "region": "nod-krai",
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "Luna IV",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An Abyssal creature that creeps through rifts in the hidden depths, quietly watching this world. Its eerie, faceless form is said to be nothing more than a projection, for its true body exists only as a formless mass of pure Abyssal energy.\nEven invaders who seek to claim this world must obey its rules to some extent. Unless the heavens split open and the earth's defenses collapse, these star-born outsiders can do little more than linger at the world's fringes, whispering their madness into this realm, their attempts to seep inside amounting to nothing... But how long can this stability and order truly last?",
+  "images": {}
+}

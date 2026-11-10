@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 113,
+  "slug": "tepetlisaurus-warrior-shard-striker",
+  "name": "Tepetlisaurus Warrior: Shard Striker",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "geo"
+  ],
+  "releaseVersion": "5.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A powerful warrior from the canyon, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can strike with the power of a rockfall. Even among the Children of Echoes, who live and breathe rock and crystal, Saurian-Crowned Warriors are masters who understand rock and stone better than any. It is said they can even divine the purity and grain of the interior of raw ore merely by looking at the rough exterior.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 77,
+  "slug": "deepwater-assault-mek",
+  "name": "Deepwater Assault Mek",
+  "type": "common-enemies",
+  "family": "automatons",
+  "group": "clockwork-meka",
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo"
+  ],
+  "releaseVersion": "4.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A clockwork meka designed to conducting underwater attacks. Unlike \"Underwater Patrol Mek\" models, it is expected to take on much larger and fiercer opponents. Of course, the price it pays for such capabilities and its cost of manufacture is that is unable to fully unleash its capabilities against smaller opponents.\nLong ago, Fontaine was once scarred by the tragic invasion of a massive monster. The revered White Armada that sailed upon the great terrestrial lake was completely destroyed in defense of the nation. The designer hoped that were such a thing to happen again, the clockwork meka would possess enough naval firepower to be the first line of defense, going before the soldiers and generals.",
+  "images": {}
+}

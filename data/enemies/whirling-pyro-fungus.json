@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 155,
+  "slug": "whirling-pyro-fungus",
+  "name": "Whirling Pyro Fungus",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fungi",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "3.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nDue to the abundant amount of Pyro these creatures contain, they have a tendency to cause forest fires during dry seasons, and thus are considered a dangerous invasive species to the forest.",
+  "images": {}
+}

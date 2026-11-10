@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 357,
+  "slug": "stormterror-dvalin",
+  "name": "Stormterror Dvalin",
+  "type": "weekly-bosses",
+  "family": "enemies-of-note",
+  "group": null,
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "One of The Four Winds of Mondstadt: Dvalin, the Dragon of the East.\nWith the passage of long years and amid boundless darkness, even the purest gem will become dulled by dust, and even the noble dragon might be corrupted and cankered by hatred.\nBut never forget that dust can be wiped away, and the power of doubt and poison can be shattered.\n\n\"Fly freely in the sky.\n\"Just like you did in those days when we met, when I walked upon this land and sang the songs of the wind,\n\"And you soared on high, looking down on the world from above.\n\"Today, the sky is no longer swept by wind and snow. The green grass grows all over the earth, and it is beautiful.\n\"If you too could walk the earth and listen to the songs of shepherds and the scattered sound of wind chimes in the distance, if you could have tasted wine as sweet as honey, you would understand.\n\"How wonderful it would have been if you were as I, witnessing your noble, beautiful form as you soared through the blue sky.\n\"Then you would know that this sky and this earth are both things worth fighting for.\"",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 290,
+  "slug": "burning-aflame-wayob-manifestation",
+  "name": "Burning-Aflame Wayob Manifestation",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "wayob-manifestations",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "5.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The Flower-Feather Clan believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nThey say that long ago, Wayob Manifestations looked very different from how they do today, taking on a rougher form that was more akin to that of an obsidian statue. But once their outline had been recorded in woven scrolls, there have been few changes in their appearance since.\nThe people of the Flower-Feather Clan believe their Wayob has the power to control fire and burning flames, and can also control the flow of heat and blazing winds.",
+  "images": {}
+}

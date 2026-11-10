@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 33,
+  "slug": "kairagi",
+  "name": "Kairagi",
+  "family": "other-human-factions",
+  "images": {}
+}

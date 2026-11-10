@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 279,
+  "slug": "consecrated-scorpion",
+  "name": "Consecrated Scorpion",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "consecrated-beasts",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "3.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An arthropod that has mutated after feeding from greater lifeforms.\nLifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did. Animals and humans often have far more in common than the latter is willing to acknowledge.",
+  "images": {}
+}

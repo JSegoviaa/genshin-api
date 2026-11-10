@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 40,
+  "slug": "avatars-of-lava",
+  "name": "Avatars of Lava",
+  "family": "mystical-beasts",
+  "images": {}
+}

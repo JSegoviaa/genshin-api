@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 201,
+  "slug": "stonehide-lawachurl",
+  "name": "Stonehide Lawachurl",
+  "type": "elite-enemies",
+  "family": "hilichurls",
+  "group": "lawachurls",
+  "region": null,
+  "elements": [
+    "physical",
+    "geo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 70,
+      "immune": false
+    }
+  ],
+  "description": "A mysterious \"lord\" of hilichurls that walks between a thousand peaks.\nThis huge hilichurl is referred to as a \"lawa\" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 57,
+  "slug": "oprichniki-bombardier",
+  "name": "Oprichniki Bombardier",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-oprichniki",
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A soldier of the Fatui Oprichniki, equipped with a specialized hover pack and explosive charges, and tasked with performing breaching operations.\nAs troops with immense breakthrough potential, bombardiers are often sent to the most dire of battlefields, making them the troops who gain meritorious promotions most quickly. It is said that Oprichniki officers overwhelmingly come from the ranks of the bombardiers.",
+  "images": {}
+}

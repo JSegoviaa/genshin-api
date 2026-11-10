@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 52,
+  "slug": "cutting-edge-all-purpose-storm-landcruiser",
+  "name": "Cutting Edge All-Purpose Storm Landcruiser",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "landcruiser",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Balancing cutting-edge tech, production costs, and sortie rates, these elite Landcruisers confer immense penetrative power upon any order of battle, and are the key fulcrum of the frontline.\nThe all-purpose storm combat package combines multi-barrel automatic guns with close-quarter rotating blades, allowing this Landcruiser to battle opponents at any range, while heavy howitzers on both arms allow it to obliterate cover and deny defenders the benefit of their fortifications. According to combat doctrine co-authored by the Fatui and the Royal Military Academy, these Landcruisers must be supported by all nearby units when they attack, speedily punching a hole in enemy lines, which will allow for follow-up attacks in depth that will then cause the enemy defenses to collapse completely.",
+  "images": {}
+}

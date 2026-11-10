@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 73,
+  "slug": "recon-log-mek",
+  "name": "Recon Log Mek",
+  "type": "common-enemies",
+  "family": "automatons",
+  "group": "clockwork-meka",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "One of the earliest new-type clockwork meka to be made.\nIt is said that during his time at the Institute of Natural Philosophy, the Lord-Artificer Guillotin created machines that could simulate genuine intelligence.\nThough he never openly admitted it, this rumor nonetheless spurred on subsequent generations of ambitious engineers. Decades ago, one of them announced that they had created a machine that not only possessed basic thinking abilities but could also read human emotions, but in the end the results went unacknowledged.",
+  "images": {}
+}

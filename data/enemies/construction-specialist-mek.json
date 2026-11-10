@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 70,
+  "slug": "construction-specialist-mek",
+  "name": "Construction Specialist Mek",
+  "type": "common-enemies",
+  "family": "automatons",
+  "group": "clockwork-meka",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo",
+    "pyro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A type of large clockwork meka which also has immeasurable value when utilized in building construction and archeological excavation. Its name comes from an engineer employed by Callas during the construction of the Clementine Line.\nWith Callas' financial backing, this engineer built the legendary \"Golden Vessel\" – a gigantic piece of construction machinery which was used to dig the Poisson Tunnel. Once the job was complete, this type of clockwork meka was designed with a similar structure but reduced to a smaller scale.",
+  "images": {}
+}

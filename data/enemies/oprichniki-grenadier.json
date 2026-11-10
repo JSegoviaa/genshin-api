@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 59,
+  "slug": "oprichniki-grenadier",
+  "name": "Oprichniki Grenadier",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-oprichniki",
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A soldier of the Fatui Oprichniki, equipped with a man-portable grenade launcher that can perform close-range bombardment.\nThough the Oprichniki has large-scale, fully-functional fire support attachments, the commanding staff still advocates for large numbers of grenadiers to be maintained. After all, no big gun can compare in surety at the very front lines of combat to a grenade launcher you can direct at will.",
+  "images": {}
+}

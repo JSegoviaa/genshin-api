@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 314,
+  "slug": "hydro-hypostasis",
+  "name": "Hydro Hypostasis",
+  "type": "normal-bosses",
+  "family": "elemental-lifeforms",
+  "group": "hypostases",
+  "region": "inazuma",
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "2.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Code Name: He. A high-purity Hydro entity.\nHypostases have strong rejection properties, and will mercilessly expel any that test them.\nThe logic behind such behavior remains a mystery.",
+  "images": {}
+}

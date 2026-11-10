@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 72,
+  "slug": "nimble-harvester-mek",
+  "name": "Nimble Harvester Mek",
+  "type": "common-enemies",
+  "family": "automatons",
+  "group": "clockwork-meka",
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo",
+    "geo"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A clockwork meka designed to dig up and transport soil.\nDue to the inherent ability of the local water and soil to store and transmit ousia and pneuma, clockwork meka powered by the annihilation of these energies are highly favored in Fontaine. This also explains why adventurers may come across Ousia and Pneuma Blocks from time to time.",
+  "images": {}
+}

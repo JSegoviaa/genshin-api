@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 145,
+  "slug": "stretchy-anemo-fungus",
+  "name": "Stretchy Anemo Fungus",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fungi",
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo"
+  ],
+  "releaseVersion": "3.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis mushroom quickly absorbs nutrients through its extended column, and its umbrella-shaped cap turns where the wind's flow carries it.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 44,
+  "slug": "fatui-skirmisher-cryogunner-legionnaire",
+  "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-skirmishers",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost. Though this may confer elemental power beyond the ken of ordinary humans, that power may yet to come at a price...",
+  "images": {}
+}

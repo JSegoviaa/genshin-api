@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 252,
+  "slug": "mirror-maiden",
+  "name": "Mirror Maiden",
+  "type": "elite-enemies",
+  "family": "fatui",
+  "group": null,
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of a special Fatui honor guard from Snezhnaya.\nWilling to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title \"Maiden\".",
+  "images": {}
+}

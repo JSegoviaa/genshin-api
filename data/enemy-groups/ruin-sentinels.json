@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 31,
+  "slug": "ruin-sentinels",
+  "name": "Ruin Sentinels",
+  "family": "automatons",
+  "images": {}
+}

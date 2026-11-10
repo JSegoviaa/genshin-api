@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 215,
+  "slug": "rockfond-rifthound",
+  "name": "Rockfond Rifthound",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "riftwolves",
+  "region": null,
+  "elements": [
+    "geo"
+  ],
+  "releaseVersion": "2.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 25,
+      "immune": false
+    }
+  ],
+  "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold\".\nThey do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their \"next of kin,\" and dream of replacing them someday.",
+  "images": {}
+}

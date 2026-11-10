@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 181,
+  "slug": "chimeric-winged-elephant",
+  "name": "Chimeric Winged Elephant",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "aberrant-chimeric-monsters",
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced.",
+  "images": {}
+}

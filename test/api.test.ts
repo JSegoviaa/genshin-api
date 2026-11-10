@@ -306,6 +306,62 @@ describe("detail", () => {
     expect(pyro.body.artifacts.subStat).toEqual([]);
   });
 
+  it("returns enemies with type, family, group and elements", async () => {
+    const { status, body } = await get("/api/v1/enemies/ruin-guard");
+    expect(status).toBe(200);
+    expect(body.type).toMatchObject({ slug: "elite-enemies" });
+    expect(body.family).toMatchObject({ slug: "automatons" });
+    expect(body.group).toMatchObject({ slug: "humanoid-ruin-machines" });
+    expect(body.elements.map((e: any) => e.slug)).toEqual(["physical"]);
+    expect(body.releaseVersion).toMatchObject({ name: "1.0" });
+    expect(body.description).toContain("humanoid war machine");
+    const elites = await get(
+      "/api/v1/enemies?family=hilichurls&type=elite-enemies&limit=100",
+    );
+    expect(elites.body.count).toBeGreaterThan(0);
+    for (const e of elites.body.results) {
+      expect(e.family.slug).toBe("hilichurls");
+      expect(e.type.slug).toBe("elite-enemies");
+    }
+    const cryo = await get("/api/v1/enemies?element=cryo&limit=100");
+    expect(cryo.body.count).toBeGreaterThan(0);
+  });
+
+  it("returns enemy resistances and boss regions", async () => {
+    const guard = await get("/api/v1/enemies/ruin-guard");
+    expect(guard.body.resistances).toHaveLength(8);
+    expect(guard.body.resistances[0]).toEqual({
+      stat: expect.objectContaining({ slug: "physical-res" }),
+      value: 70,
+      immune: false,
+    });
+    const slime = await get("/api/v1/enemies/anemo-slime");
+    expect(
+      slime.body.resistances.find((r: any) => r.stat.slug === "anemo-res"),
+    ).toMatchObject({ value: null, immune: true });
+    const andrius = await get("/api/v1/enemies/andrius");
+    expect(andrius.body.region).toMatchObject({ slug: "mondstadt" });
+    const bosses = await get("/api/v1/enemies?region=mondstadt&limit=100");
+    expect(bosses.body.results.map((e: any) => e.slug)).toContain("andrius");
+    const region = await get("/api/v1/regions/mondstadt");
+    expect(region.body.enemies.map((e: any) => e.slug)).toContain("andrius");
+  });
+
+  it("links enemy families, groups and types", async () => {
+    const family = await get("/api/v1/enemy-families/hilichurls");
+    expect(family.body.groups.map((g: any) => g.slug)).toContain("samachurls");
+    expect(family.body.enemies.map((e: any) => e.slug)).toContain("hilichurl");
+    const group = await get("/api/v1/enemy-groups/samachurls");
+    expect(group.body.family).toMatchObject({ slug: "hilichurls" });
+    expect(group.body.enemies.length).toBeGreaterThan(0);
+    const abyss = await get("/api/v1/enemy-groups?family=the-abyss&limit=100");
+    expect(abyss.body.results.map((g: any) => g.slug)).toContain("abyss-mages");
+    const weekly = await get("/api/v1/enemy-types/weekly-bosses");
+    expect(weekly.body.enemies).toHaveLength(14);
+    const version = await get("/api/v1/versions/1.0");
+    expect(version.body.enemies.map((e: any) => e.slug)).toContain("hilichurl");
+  });
+
   it("returns rarity as a reference", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.rarity).toMatchObject({
@@ -354,6 +410,10 @@ describe("random", () => {
       "artifact-sets",
       "artifacts",
       "stats",
+      "enemy-types",
+      "enemy-families",
+      "enemy-groups",
+      "enemies",
     ]) {
       expect((await get(`/api/v1/${r}/random`)).status).toBe(200);
     }

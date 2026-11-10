@@ -5,7 +5,7 @@ export const elementResource = defineResource({
   name: "elements",
   title: "Elements",
   description:
-    "The elemental types of Teyvat. Each element lists the characters that wield it.",
+    "The elemental types of Teyvat. Each element lists the characters that wield it and the enemies that deal its damage.",
   example: "pyro",
   schema: elementSchema,
   refs: {},
@@ -21,6 +21,9 @@ export const elementResource = defineResource({
     characters: ctx.related<{ element: string | null }>(
       "characters",
       (c) => c.element === e.slug,
+    ),
+    enemies: ctx.related<{ elements: string[] }>("enemies", (x) =>
+      x.elements.includes(e.slug),
     ),
   }),
 });

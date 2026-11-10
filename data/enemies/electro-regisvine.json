@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 340,
+  "slug": "electro-regisvine",
+  "name": "Electro Regisvine",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "regisvines",
+  "region": "sumeru",
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "3.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 330,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 310,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 310,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 370,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 310,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 310,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 310,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 310,
+      "immune": false
+    }
+  ],
+  "description": "A giant plant that violently releases electric charges stored within the Ley Lines.\nElectro awakens plants and boosts soil fertility. If the Regisvine was indeed created to harmonize the turbulent energies of the Ley Lines, then it might be the earth's wish to see the presence of lush forests in Sumeru.",
+  "images": {}
+}

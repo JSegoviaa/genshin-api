@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 247,
+  "slug": "wilderness-hunter",
+  "name": "Wilderness Hunter",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "wasteland-wild-hunt",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A ghoul that stalks the frozen wilderness when the pitch-dark mist rolls in. Their emergence presages worse calamities to come.\nMany great champions of a lost ancient kingdom lie buried beneath the frozen northlands. Though the remnants of the past have been long wiped clean, these noble spirits yet defend their golden homeland. Awakened by Abyssal taint, these warriors now see all who trespass as prey.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 350,
+  "slug": "radiant-moonfly",
+  "name": "Radiant Moonfly",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "radiant-beasts",
+  "region": "nod-krai",
+  "elements": [
+    "dendro",
+    "pyro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The moon's ancient power has seeped into these illusory wings, and the butterfly-shaped monster now dances lightly in the moonlight.\nThe principles of evolution state that after the wild yet primeval power was tamed by the heavenly ruler, such a monster should not be able to maintain its shape, becoming smaller and weaker over time. However, the moon's blessing has allowed it to glide through this world while remaining in its prime, displaying the remnants of an older world, when the ancient moon once illuminated the land.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 159,
+  "slug": "blubberbeast",
+  "name": "Blubberbeast",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fontemer-aberrants",
+  "region": null,
+  "elements": [
+    "physical",
+    "hydro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A type of mammal that resides in the watery regions of Fontaine. It communicates with its companions through melodious sounds.\nDue to its density, water is a much more efficient medium of sound than air. Drawing inspiration from the Blubberbeast, someone from the Research Institute invented a type of technology that converted images into data to facilitate instant transmission. But due to the technical limitations of the experiment, it never became widely adopted outside the Institute.\nIn reality, however, data transmission technology based on fluid and sound has existed since ancient times. As the saying goes, there's nothing new under the sun.",
+  "images": {}
+}

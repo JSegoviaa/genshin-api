@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 132,
+  "slug": "eremite-crossbow",
+  "name": "Eremite Crossbow",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "the-eremites",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro"
+  ],
+  "releaseVersion": null,
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThe Eremite tradition is to use bows to engage their foes, but ever since the Akademiya permitted them to buy crossbows at the bazaars, only the proudest shooters would still use bows, which take many years of practice to master.",
+  "images": {}
+}

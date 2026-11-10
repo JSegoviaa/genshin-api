@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 173,
+  "slug": "iktomisaurus-chick",
+  "name": "Iktomisaurus Chick",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "natlan-saurians",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "5.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A young Iktomisaur with a keen sense of perception.\nIt has yet to grow its full plumage and may even appear a little slow on the uptake. It is said that among the Saurians that now live, Iktomisaurs not only have the longest lifespans, but spend the longest time as juveniles too. They possess the capacity to communicate with the Night Kingdom or Wayob, though it may take many years before the young Saurians can fully comprehend this.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 261,
+  "slug": "ruin-scout",
+  "name": "Ruin Scout",
+  "type": "elite-enemies",
+  "family": "automatons",
+  "group": "ruin-sentinels",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. Exactly why the form and movements of certain deep-sea lifeforms are being imitated is not known. But either way, tangling with them is hardly the best idea.",
+  "images": {}
+}

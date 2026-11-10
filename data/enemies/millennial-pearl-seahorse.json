@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 344,
+  "slug": "millennial-pearl-seahorse",
+  "name": "Millennial Pearl Seahorse",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "fontemer-aberrants",
+  "region": "fontaine",
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "4.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 60,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An ancient suzerain of the Fontemer Aberrant that dwells in a cavern. Has a body possessed of phantasmal beauty and a temper fiercer than a raging thunderstorm.",
+  "images": {}
+}

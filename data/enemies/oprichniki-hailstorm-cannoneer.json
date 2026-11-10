@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 60,
+  "slug": "oprichniki-hailstorm-cannoneer",
+  "name": "Oprichniki Hailstorm Cannoneer",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-oprichniki",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An elite officer of the Fatui Oprichniki who uses a heavy cannon to tear enemy formations apart while using a mighty shield to defend their comrades.\nBitter battles have dyed the shield frost white, while coatings of blood have tinted its edges black. Oprichniki officers know that empty words will never bring back those who have fallen in sacrifice — only a bombardment akin to a hailstorm can shake this defiled Old World.",
+  "images": {}
+}

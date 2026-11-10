@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 306,
+  "slug": "volkodlak-sharpshooter",
+  "name": "Volkodlak Sharpshooter",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "volkodlak-brutes",
+  "region": null,
+  "elements": [
+    "physical",
+    "anemo",
+    "cryo",
+    "dendro"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\nThey possess senses keener than those of humans. Whether in their perception of wind speed or their vision under certain conditions, these traits give them unique advantages, allowing them to achieve far greater accuracy than ordinary people when firing bows, crossbows, or cannons from long range.",
+  "images": {}
+}

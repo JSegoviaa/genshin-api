@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 179,
+  "slug": "chimeric-burrowbeast",
+  "name": "Chimeric Burrowbeast",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "aberrant-chimeric-monsters",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\nThe experiment proved astonishingly successful. These Burrowbeasts move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\nAccording to a report in Vestnik, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor.",
+  "images": {}
+}

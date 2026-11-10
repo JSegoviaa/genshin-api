@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 118,
+  "slug": "qucusaurus-warrior-blazing-sky",
+  "name": "Qucusaurus Warrior: Blazing Sky",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "5.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A powerful warrior from the clifftops, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nAmong the many varieties of Saurians, the Qucusaurs stand particularly proud, and this is a trait that is shared by the Qucusaurus Warriors who are able to obtain their recognition. It is said that in the past, tribal warriors would watch these crimson Saurians amuse themselves by tossing flaming stones from great heights; and that it was this that first inspired them to set off projectiles to cause explosive chain reactions. This concept, gradually refined over time, is said to have been the origin of many of the Flower-Feather Clan's firearms.",
+  "images": {}
+}

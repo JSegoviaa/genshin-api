@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 284,
+  "slug": "eroding-avatar-of-lava",
+  "name": "Eroding Avatar of Lava",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "avatars-of-lava",
+  "region": null,
+  "elements": [
+    "geo"
+  ],
+  "releaseVersion": "5.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A strange monster that must continually absorb heat to stay in an active state.\nThe ancient civilization used many different types of golden designs to drive the flow of phlogiston, allowing massive constructs and magnificent cities to operate under the wisdom of the golden patterns. It is said that in addition to machines with fixed structures, the creatures known as Avatars of Lava are actually badly damaged lifeforms that were once created in the same way. However, after the flames of the sacred mountain were extinguished, most of them lost their sense of purpose and direction.",
+  "images": {}
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 49,
+  "slug": "radiant-beasts",
+  "name": "Radiant Beasts",
+  "family": "mystical-beasts",
+  "images": {}
+}

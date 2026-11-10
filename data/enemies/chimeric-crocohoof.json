@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 186,
+  "slug": "chimeric-crocohoof",
+  "name": "Chimeric Crocohoof",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "aberrant-chimeric-monsters",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "7.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "These Aberrant Chimeric Monsters are products of the bio-alchemy that once flourished across the frozen wastes.\nThese creatures, pawns of artifice, were engineered as \"terrestrial predatory beasts\" and designed from the outset for mass deployment on the battlefield. Their hooves were built to withstand collisions with high-speed stampeding monstrous herds, while their massive, gaping maws were meant to tear through the pitch-black battle lines. The only drawback is that these land-based crocodilian beasts cannot execute the \"death roll\" and tearing bite of their aquatic progenitors — equivalent exchange keeps the world turning, as they say.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 237,
+  "slug": "tenebrous-mimiflora",
+  "name": "Tenebrous Mimiflora",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "tenebrous-mimesis",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "5.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Abyssal monsters that have descended to this world from the deep, dark depths of a twisted and alien world, they possess a plant-like appearance.\nIt is said that where the corrosive waves of the dark tide lap, such plant-like dark monsters will grow. But they only bear a superficial resemblance to plants, for it is a form they only adopted to get closer to the tree-like world, that they might extract the necessary concepts from it, and analyze and imitate them.\nSome raving lunatics who have lost their minds say that those things that extend out like leaves are actually the beginnings of gates to other worlds.",
+  "images": {}
+}

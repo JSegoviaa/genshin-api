@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 45,
+  "slug": "fae-of-crystalline-flesh",
+  "name": "Fae of Crystalline Flesh",
+  "family": "mystical-beasts",
+  "images": {}
+}

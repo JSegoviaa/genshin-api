@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 253,
+  "slug": "frost-operative",
+  "name": "Frost Operative",
+  "type": "elite-enemies",
+  "family": "fatui",
+  "group": "fatui-operatives",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "4.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty.",
+  "images": {}
+}

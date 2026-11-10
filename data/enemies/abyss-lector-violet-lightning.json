@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 213,
+  "slug": "abyss-lector-violet-lightning",
+  "name": "Abyss Lector: Violet Lightning",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "abyss-lectors",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "1.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A monster who serves the Abyss Order and commands lightning while singing the praises of the darkness.\nThese are the evangelists and the scholars of the Abyss. Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.",
+  "images": {}
+}

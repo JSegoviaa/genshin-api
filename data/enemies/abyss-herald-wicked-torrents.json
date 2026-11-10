@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 212,
+  "slug": "abyss-herald-wicked-torrents",
+  "name": "Abyss Herald: Wicked Torrents",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "abyss-heralds",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "1.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Servants of the Abyss Order that use Hydro in combat. These silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses.",
+  "images": {}
+}

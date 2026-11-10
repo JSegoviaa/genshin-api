@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 74,
+  "slug": "suppression-specialist-mek",
+  "name": "Suppression Specialist Mek",
+  "type": "common-enemies",
+  "family": "automatons",
+  "group": "clockwork-meka",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro",
+    "pyro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A clockwork meka adapted from the Cal. Scherbius type. Unfortunately, aside from its ability to attack, it has no other capabilities.\nClockwork meka based on annihilation energy normally produce their energy by utilizing Repeaters composed of special crystals to refine ousia and pneuma from Fontaine's environment. But outside of Fontaine, they can use pre-prepared Energy Blocks to move over short distances for short periods of time. The difference can be observed from the shape of the crystal components on the meka.",
+  "images": {}
+}

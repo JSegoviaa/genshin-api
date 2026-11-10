@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 5,
+  "slug": "geo-slime",
+  "name": "Geo Slime",
+  "type": "common-enemies",
+  "family": "elemental-lifeforms",
+  "group": "slimes",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": null,
+      "immune": true
+    }
+  ],
+  "description": "Small monsters created through the buildup of Geo within the earth.\nGenerally speaking, the crust of the earth is filled with Geo energy. Geo Slimes that are formed this way have a similarly \"down-to-earth\" sort of feeling.",
+  "images": {}
+}

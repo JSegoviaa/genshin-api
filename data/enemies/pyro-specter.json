@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 21,
+  "slug": "pyro-specter",
+  "name": "Pyro Specter",
+  "type": "common-enemies",
+  "family": "elemental-lifeforms",
+  "group": "specters",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "2.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A monster born from highly-concentrated Pyro elements that can float in the air.\nThere was once an Akademiya student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.",
+  "images": {}
+}

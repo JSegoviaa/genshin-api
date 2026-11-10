@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 246,
+  "slug": "wilderness-exile",
+  "name": "Wilderness Exile",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "wasteland-wild-hunt",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A ghoul that stalks the frozen wilderness when the pitch-dark mist rolls in. Their emergence presages worse calamities to come.\nAll who dwell beneath the moon set out on journeys with their own goals and wishes in mind, but not all such wishes receive favor. Spirits that cannot rest due to engendered resentment, partings with loved ones, or desires that go unfulfilled, if corrupted by the Abyss, may transform into ghouls, forever lost in the thick mists of the Wild Hunt.",
+  "images": {}
+}

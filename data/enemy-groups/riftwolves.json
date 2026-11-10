@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 17,
+  "slug": "riftwolves",
+  "name": "Riftwolves",
+  "family": "the-abyss",
+  "images": {}
+}

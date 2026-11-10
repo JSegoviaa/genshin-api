@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/enemy-families.json",
+  "id": 6,
+  "slug": "other-human-factions",
+  "name": "Other Human Factions",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 178,
+  "slug": "chimeric-armored-beast",
+  "name": "Chimeric Armored Beast",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "aberrant-chimeric-monsters",
+  "region": null,
+  "elements": [
+    "geo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 20,
+      "immune": false
+    }
+  ],
+  "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 48,
+  "slug": "fatui-skirmisher-pyroslinger-bracer",
+  "name": "Fatui Skirmisher - Pyroslinger Bracer",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-skirmishers",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Fatui soldier who wields a flaming gun.\nSkirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.\nTheir ordnance and knowledge of squad-based combat thus constitute no small threat in battle.",
+  "images": {}
+}

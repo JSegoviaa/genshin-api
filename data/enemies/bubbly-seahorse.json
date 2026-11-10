@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 161,
+  "slug": "bubbly-seahorse",
+  "name": "Bubbly Seahorse",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fontemer-aberrants",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An aquatic creature that hunts by firing watery projectiles.\nAmong the (admittedly somewhat sparse) ranks of Fontemer Aberrant enthusiasts, Bubbly Seahorses have many fans. As with clockwork meka enthusiasts, a small minority of Fontemer Aberrant enthusiasts can be very standoffish when it comes to people whose opinions differ from their own.",
+  "images": {}
+}

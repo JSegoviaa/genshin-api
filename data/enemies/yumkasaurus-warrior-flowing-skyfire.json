@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 114,
+  "slug": "yumkasaurus-warrior-flowing-skyfire",
+  "name": "Yumkasaurus Warrior: Flowing Skyfire",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro"
+  ],
+  "releaseVersion": "5.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A powerful warrior from the Canopy, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can use a grappling hook to extend their attack range. Following intricate mechanical tinkering, the handcannon they wield can be fired using said grappling hook. For the Saurian-Crowned warriors of the Scions of the Canopy, refining one's skills and thought is more important than training the spirit and will.",
+  "images": {}
+}

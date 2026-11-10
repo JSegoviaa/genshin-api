@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 163,
+  "slug": "hat-jellyfish",
+  "name": "Hat Jellyfish",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fontemer-aberrants",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An aquatic creature that hunts by firing watery projectiles.\nAlthough it looks like a hat, it actually eats from its underside, so attempting to wear it is strongly disadvised. In the words of someone who once did this: \"That wasn't very clever, was it?\"",
+  "images": {}
+}

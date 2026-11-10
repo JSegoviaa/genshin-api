@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 14,
+  "slug": "abyss-lectors",
+  "name": "Abyss Lectors",
+  "family": "the-abyss",
+  "images": {}
+}

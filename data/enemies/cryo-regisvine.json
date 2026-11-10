@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 336,
+  "slug": "cryo-regisvine",
+  "name": "Cryo Regisvine",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "regisvines",
+  "region": "mondstadt",
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 130,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 170,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 110,
+      "immune": false
+    }
+  ],
+  "description": "A monster formed from a vine that was imbued with the essence of biting frost within the ley lines.\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the ley lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers, and the like, which brim over with elemental energy.\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — in the course of many years.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 34,
+  "slug": "pyro-hilichurl-shooter",
+  "name": "Pyro Hilichurl Shooter",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-shooters",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are coated with a thin layer of flammable material that can set their targets on fire. El Musk of the previous generation believed that this is an innovation by brighter hilichurls who wished to cook their game after hunting it.",
+  "images": {}
+}

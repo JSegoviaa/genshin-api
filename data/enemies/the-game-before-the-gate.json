@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 367,
+  "slug": "the-game-before-the-gate",
+  "name": "The Game Before the Gate",
+  "type": "weekly-bosses",
+  "family": "enemies-of-note",
+  "group": null,
+  "region": null,
+  "elements": [
+    "electro",
+    "hydro",
+    "pyro"
+  ],
+  "releaseVersion": "5.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A soldier-entity born into being through the skills of various members of the Hexenzirkel.\nAlthough their technological underpinnings are far from abstruse, and touch not upon the profound wisdom at the universe's core, yet as guards of the gate's final threshold, they are a metaphor in and of themselves.\nThis world may be governed by rules, but for those who manage to cross its verge, such constraints no longer apply.",
+  "images": {}
+}

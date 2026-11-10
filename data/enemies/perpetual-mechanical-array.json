@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 325,
+  "slug": "perpetual-mechanical-array",
+  "name": "Perpetual Mechanical Array",
+  "type": "normal-bosses",
+  "family": "automatons",
+  "group": "ruin-sentinels",
+  "region": "inazuma",
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A strange, alien machine.\nThey say that it is a war machine left behind by a nation that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks. This machine, comprised of cubic shapes, is on some level very much like the elemental hypostases.",
+  "images": {}
+}

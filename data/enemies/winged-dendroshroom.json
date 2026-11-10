@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 151,
+  "slug": "winged-dendroshroom",
+  "name": "Winged Dendroshroom",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fungi",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro"
+  ],
+  "releaseVersion": "3.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 40,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A mimetic life form made out of spores that has extreme adaptability.\nGoing well past mere appearances, this being even imitates the habits of birds. It can use its spore-built wings to fly in the sky, spreading yet more spores to yet more distant places.\nThis creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match.",
+  "images": {}
+}

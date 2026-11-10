@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 207,
+  "slug": "anemo-hilichurl-rogue",
+  "name": "Anemo Hilichurl Rogue",
+  "type": "elite-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-rogues",
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "3.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Hilichurl wanderers who do not belong to any hilichurl tribe. It almost seems as if they are searching for the fated genesis of their kind, seeking to uncover some bygone splendor that once belonged to their people.\nIf these monsters capable of only crude language and bereft of missing history could record their own epics and legends, the hilichurl wanderers would be the heroes in said tales.",
+  "images": {}
+}

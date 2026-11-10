@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 39,
+  "slug": "cryo-samachurl",
+  "name": "Cryo Samachurl",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "samachurls",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo"
+  ],
+  "releaseVersion": "1.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A wizened, mumbling hilichurl, one that calls upon the bite of Cryo.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes.",
+  "images": {}
+}

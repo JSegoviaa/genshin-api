@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 250,
+  "slug": "fatui-pyro-agent",
+  "name": "Fatui Pyro Agent",
+  "type": "elite-enemies",
+  "family": "fatui",
+  "group": null,
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Fatui secret agent.\nThe duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.\nThey also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 50,
+  "slug": "close-combat-storm-landcruiser",
+  "name": "Close Combat Storm Landcruiser",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "landcruiser",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An autonomous machine that applies the principles of naval combat to land battles, a literal \"armed ship that cruises on land.\"\nEquipped with Crawler Track Movement Mechanisms, these Landcruisers are normally used to storm enemy positions, where they can pass over rough terrain such as mud and melting snow despite heavy armor and armaments through their excellent load-bearing capabilities and off-road mobility. When close-combat Landcruisers approach enemy defensive lines in formation, rotating blades raised for battle, most foes will concentrate fire on them, allowing other units the opportunity to unleash their firepower...",
+  "images": {}
+}

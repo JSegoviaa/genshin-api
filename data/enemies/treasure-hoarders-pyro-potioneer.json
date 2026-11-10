@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 86,
+  "slug": "treasure-hoarders-pyro-potioneer",
+  "name": "Treasure Hoarders: Pyro Potioneer",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "treasure-hoarder-potioneers",
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nRisk-takers who utilize their knowledge of chemistry to mix volatile and flammable brews that aid in their comrades' dastardly deeds.",
+  "images": {}
+}

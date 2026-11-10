@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 205,
+  "slug": "crackling-axe-mitachurl",
+  "name": "Crackling Axe Mitachurl",
+  "type": "elite-enemies",
+  "family": "hilichurls",
+  "group": "mitachurls",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Muscular hilichurls who wield large, two-handled axes.\nAttacks with large strikes and uses Electro Slimes to infuse their axes with Electro. Their blows are very lethal.\nAxes forged from steel are highly conductive material. The image of those tall and strong Crackling Axe Mitachurls holding their axes up to summon lightning is quite majestic to the hilichurls.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 341,
+  "slug": "jadeplume-terrorshroom",
+  "name": "Jadeplume Terrorshroom",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "fungi",
+  "region": "sumeru",
+  "elements": [
+    "dendro"
+  ],
+  "releaseVersion": "3.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 80,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 25,
+      "immune": false
+    }
+  ],
+  "description": "The lord of fungal beasts that lives in the heart of the woods and in the company of its kin.\nFungi grow wherever it is damp and fertile. They can always adapt to adversity, and their spores can spread anywhere there is room. Given time, this proud-looking bird-like beast might evolve into something yet more magnificent.",
+  "images": {}
+}

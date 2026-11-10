@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 293,
+  "slug": "radiant-antelope",
+  "name": "Radiant Antelope",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "radiant-beasts",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\nStrange lightning once fell upon the land blessed by moonlight, causing once ordinary antelopes to gain the power to wield lightning. They say that some have seen a truly strange sight — antelopes standing on cliffs at the convergence of a storm, attracting bolts of lightning to temper their bodies.",
+  "images": {}
+}

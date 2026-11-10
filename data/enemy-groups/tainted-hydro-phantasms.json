@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 5,
+  "slug": "tainted-hydro-phantasms",
+  "name": "Tainted Hydro Phantasms",
+  "family": "elemental-lifeforms",
+  "images": {}
+}

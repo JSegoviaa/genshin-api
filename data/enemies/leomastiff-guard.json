@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 300,
+  "slug": "leomastiff-guard",
+  "name": "Leomastiff Guard",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "volkodlak-brutes",
+  "region": null,
+  "elements": [
+    "physical",
+    "hydro"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Volkodlak of the canine clans that usually appears somewhat lazy.\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor.",
+  "images": {}
+}

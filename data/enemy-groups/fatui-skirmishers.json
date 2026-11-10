@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 24,
+  "slug": "fatui-skirmishers",
+  "name": "Fatui Skirmishers",
+  "family": "fatui",
+  "images": {}
+}

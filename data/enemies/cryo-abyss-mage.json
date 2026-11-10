@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 209,
+  "slug": "cryo-abyss-mage",
+  "name": "Cryo Abyss Mage",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "abyss-mages",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Abyss creatures that call upon Cryo in battle.\nThough they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective barrier has been broken, they are at your mercy.",
+  "images": {}
+}

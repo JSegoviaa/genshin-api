@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 170,
+  "slug": "yumkasaur-whelp",
+  "name": "Yumkasaur Whelp",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "natlan-saurians",
+  "region": null,
+  "elements": [
+    "dendro"
+  ],
+  "releaseVersion": "5.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A young Yumkasaurus with the ability to spit Flamegranate pectin hidden in their cheek pouches out, wrapping around distant objects.\nTheir hold on pectin-coated objects isn't strong enough, nor is their sense of balance good enough to allow them to move freely through the air. Sometimes, they'll even fall over to one side just sitting on their tails. However, one day, they will grow into the form that can swing freely between the trees without a care.",
+  "images": {}
+}

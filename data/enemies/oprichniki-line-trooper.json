@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 61,
+  "slug": "oprichniki-line-trooper",
+  "name": "Oprichniki Line Trooper",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-oprichniki",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A soldier of the Fatui Oprichniki, equipped with a gunblade and tasked to hold the line as the resilient backbone of the Oprichniki forces.\nAccording to Snezhnayan infantry manuals, the primary duties of line troops are merely to aim, shoot, and charge. Even should the individual soldier's combat power not prove exceptional, soldiers of the line in tight formation remain a key foundation of the Snezhnayan military machine.",
+  "images": {}
+}

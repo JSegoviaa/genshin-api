@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 34,
+  "slug": "nobushi",
+  "name": "Nobushi",
+  "family": "other-human-factions",
+  "images": {}
+}

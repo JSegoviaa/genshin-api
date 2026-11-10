@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 38,
+  "slug": "cryo-hilichurl-grenadier",
+  "name": "Cryo Hilichurl Grenadier",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-grenadiers",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "1.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurls have discovered the use of Cryo Slimes in effectively keeping food fresh. Hilichurls have surprising amounts of wisdom in the practical use of Slimes, whether it be the use of Pyro and Cryo slimes to make Exploding Barrels, or the use of Anemo Slimes in vehicles... Perhaps this is their way of adapting to their hard lot in life.",
+  "images": {}
+}

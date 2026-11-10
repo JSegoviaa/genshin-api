@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 338,
+  "slug": "primo-geovishap",
+  "name": "Primo Geovishap",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "vishaps",
+  "region": "liyue",
+  "elements": [
+    "geo",
+    "cryo",
+    "pyro",
+    "electro",
+    "hydro"
+  ],
+  "releaseVersion": "1.3",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 50,
+      "immune": false
+    }
+  ],
+  "description": "After many years, the awesomely powerful Primo Geovishaps have grown accustomed to changes in their elemental environment.\nFolktales hold that after the great \"draconic calamity\" that led to the ruin of Tianqiu Valley, the Geovishaps and Primo Geovishaps burrowed deep into the earth, awaiting their chance to rise once more...",
+  "images": {}
+}

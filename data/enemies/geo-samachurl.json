@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 27,
+  "slug": "geo-samachurl",
+  "name": "Geo Samachurl",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "samachurls",
+  "region": null,
+  "elements": [
+    "physical",
+    "geo"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 50,
+      "immune": false
+    }
+  ],
+  "description": "A wizened, mumbling hilichurl, one that listens to the strength of Geo.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. To the persevering mountains, these old hilichurls are but children, but their memories and experiences have guided them towards gaining power over rock and stone.",
+  "images": {}
+}

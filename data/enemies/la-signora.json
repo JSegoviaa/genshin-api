@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 360,
+  "slug": "la-signora",
+  "name": "La Signora",
+  "type": "weekly-bosses",
+  "family": "enemies-of-note",
+  "group": null,
+  "region": null,
+  "elements": [
+    "cryo",
+    "pyro"
+  ],
+  "releaseVersion": "2.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Signora, the Eighth of the Fatui Harbingers.\nUnlike other Fatui who use the authority granted by Delusions, her Delusion is meant to shackle a flame that will devour everything. As opposed to a weapon used to kill, it might be more fitting to consider this a tool of imprisonment.\nAnd it was the embers of that flame, which had accumulated over many long years, that would break through the frosty seal of the Delusion and apply a warped rouge upon her.\n\nThe crimson dawn was reflected in her pupils, and at last, she unfolded her flaming wings and flew towards the light.\n\"But that light is not the dawn, dear Rosalyne. That is a sea of flame that will consume everything.\"\nA voice spoke to her amidst the light.\n\nYet it mattered not, for she knew in her heart that the flames had devoured her long ago.",
+  "images": {}
+}

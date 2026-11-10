@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 222,
+  "slug": "shadowy-husk-standard-bearer",
+  "name": "Shadowy Husk: Standard Bearer",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "the-black-serpents",
+  "region": null,
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "2.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it has now lost any awareness of memory. But even so, it holds the banner of the royal house aloft into battle. Though it has forgotten its comrades or any royal blessing they may have been given, it will never lay this banner down.",
+  "images": {}
+}

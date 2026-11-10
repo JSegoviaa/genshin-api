@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 369,
+  "slug": "exalted-master-of-the-heretical-path",
+  "name": "Exalted Master of the Heretical Path",
+  "type": "weekly-bosses",
+  "family": "enemies-of-note",
+  "group": null,
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro",
+    "electro",
+    "cryo"
+  ],
+  "releaseVersion": "Luna VII",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "To push his heretical experiments to their end, Dottore has severed the constraints of his corporeal form. Now, he has merged as one with the Irminsul that threads through all of Teyvat.\nThis world inherently predates any natural order.\nUntil it cast its gaze, the origin and terminus of all matter were indeterminate.\nYet the weak, seeking to escape the crushing weight of freedom, would rather bow before the throne of \"Certainty.\"\nOnly those with the resolve to pierce the veil of mundane perception may earn the right to forge a \"new world.\"\nThat is the domain of \"Possibility\" — a perpetual and magnificent experiment that shall never reach its end.\nIt's time to enliven this stagnant, unchanging reality...\n\"How can you be certain that I am not capable of perfecting it?\"",
+  "images": {}
+}

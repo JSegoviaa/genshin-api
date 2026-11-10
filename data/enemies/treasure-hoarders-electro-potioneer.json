@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 80,
+  "slug": "treasure-hoarders-electro-potioneer",
+  "name": "Treasure Hoarders: Electro Potioneer",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "treasure-hoarder-potioneers",
+  "region": null,
+  "elements": [
+    "physical",
+    "electro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n\"Potioneer\" is the nickname given to members of the Treasure Hoarder organization who know how to brew up dangerous chemicals.\n\"What? Did you think this treasure has 'Adventurers' Guild' written all over it or something?\"\n—A certain Treasure Hoarder Potioneer during a confrontation with adventurers",
+  "images": {}
+}

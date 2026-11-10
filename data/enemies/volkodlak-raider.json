@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 305,
+  "slug": "volkodlak-raider",
+  "name": "Volkodlak Raider",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "volkodlak-brutes",
+  "region": null,
+  "elements": [
+    "physical",
+    "dendro",
+    "electro",
+    "pyro"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\nWith their swift movements and senses keener than a human's, they can evade many attacks in battle by instinct alone, making them quite troublesome opponents in close-quarters combat.",
+  "images": {}
+}

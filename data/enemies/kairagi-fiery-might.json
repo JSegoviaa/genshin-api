@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 90,
+  "slug": "kairagi-fiery-might",
+  "name": "Kairagi: Fiery Might",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "kairagi",
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Samurai who have fallen into banditry.\nThey practiced martial arts since they were young, but lost the opportunity to serve the people due to certain reasons and turned from the righteous path. Their blade's edges are not cold like ordinary steel, but instead burn with a bitter flame. They seem to have used paper seals, created from a lost Kamuna art, to set the blades afire.",
+  "images": {}
+}

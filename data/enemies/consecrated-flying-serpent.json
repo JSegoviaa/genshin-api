@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 277,
+  "slug": "consecrated-flying-serpent",
+  "name": "Consecrated Flying Serpent",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "consecrated-beasts",
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "3.4",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A reptile that has mutated after feeding from greater lifeforms.\nThough now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from the immortal carcasses that they ate. Instead, the pieces slowly fused with the beasts themselves, weaving a bony shell over their body, one that shares a similar composition to a certain type of smelting material from Inazuma.",
+  "images": {}
+}

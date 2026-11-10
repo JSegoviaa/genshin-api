@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 135,
+  "slug": "eremite-sword-dancer",
+  "name": "Eremite Sword-Dancer",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "the-eremites",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": null,
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThis desert warrior wields a large curved blade in battle. The skills such fighters boast of have been passed down since the days when their now-lost civilization was still extant, and are not only techniques to be used in battle, but also serve well as a performing art popular in various lands.\nIt is said that this sword art was once practiced from horseback.",
+  "images": {}
+}

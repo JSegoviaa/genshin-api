@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 183,
+  "slug": "glaciomancer",
+  "name": "Glaciomancer",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fae-of-crystalline-flesh",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Snegovik born of love amid the snow and ice.\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\nMaybe this is why so many stories of love between Snegovik and human end in tragedy.",
+  "images": {}
+}

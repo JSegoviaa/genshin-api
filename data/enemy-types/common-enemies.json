@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schemas/enemy-types.json",
+  "id": 1,
+  "slug": "common-enemies",
+  "name": "Common Enemies",
+  "images": {}
+}

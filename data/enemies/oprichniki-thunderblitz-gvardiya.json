@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 64,
+  "slug": "oprichniki-thunderblitz-gvardiya",
+  "name": "Oprichniki Thunderblitz Gvardiya",
+  "type": "common-enemies",
+  "family": "fatui",
+  "group": "fatui-oprichniki",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "Luna I",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An elite officer of the Fatui Oprichniki who specializes in using twin guns in combat.\nUnlike their Skirmisher cousins, Oprichniki officers almost all hail from the Snezhnaya Royal Military Academy, whether due to the privilege of noble birth or the rare talent to escape a common background. After all, neither is truly different from the other within the Tsaritsa's beneficent, loving ideals. Traditionally, only fae could become elite Gvardiya, but today, this glorious role and title has been given to Oprichniki officers — a more equal division for the construction of a new world.",
+  "images": {}
+}

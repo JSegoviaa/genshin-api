@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 355,
+  "slug": "wavebinder",
+  "name": "Wavebinder",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "volkodlak-brutes",
+  "region": "snezhnaya",
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "7.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": -10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A Volkodlak of peerless strength, brought into being to fulfill an ancient civilization's grand ambition of exploring the waters unhindered.\nNow that their bloodline has been diluted, such creatures are finally able to move about on land — though they have, in turn, lost the ability to remain submerged for long periods of time.",
+  "images": {}
+}

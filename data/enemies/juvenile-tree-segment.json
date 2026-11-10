@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 299,
+  "slug": "juvenile-tree-segment",
+  "name": "Juvenile Tree Segment",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "wildwood-leshies",
+  "region": null,
+  "elements": [
+    "geo"
+  ],
+  "releaseVersion": "7.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 20,
+      "immune": false
+    }
+  ],
+  "description": "A Leshy that grows in forests and wilds.\nAmong the many fae of Snezhnaya, Leshies are a very unusual kind, rarely appearing in cities. They may well be the longest-lived among all fae, and few members of other long-lived races have ever witnessed a Leshy's life from beginning to end. Of course, most people would likely struggle even to distinguish one Leshy from another.",
+  "images": {}
+}

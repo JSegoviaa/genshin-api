@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 189,
+  "slug": "tainted-water-splitting-phantasm",
+  "name": "Tainted Water-Splitting Phantasm",
+  "type": "elite-enemies",
+  "family": "elemental-lifeforms",
+  "group": "tainted-hydro-phantasms",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\nThe elemental spirits that appeared after the calamity lack the elegance and beauty of the Oceanids, and thus have been called \"tainted.\" Though the toxins dissolved in the water have long since been diluted and cleansed, unless there are still containers of pure water somewhere, Fontaine's waters will never again naturally birth Oceanids.",
+  "images": {}
+}

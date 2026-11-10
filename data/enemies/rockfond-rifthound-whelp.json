@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 216,
+  "slug": "rockfond-rifthound-whelp",
+  "name": "Rockfond Rifthound Whelp",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "riftwolves",
+  "region": null,
+  "elements": [
+    "geo"
+  ],
+  "releaseVersion": "2.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 20,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 20,
+      "immune": false
+    }
+  ],
+  "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\nThey follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.",
+  "images": {}
+}

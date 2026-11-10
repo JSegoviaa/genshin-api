@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 208,
+  "slug": "hydro-hilichurl-rogue",
+  "name": "Hydro Hilichurl Rogue",
+  "type": "elite-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-rogues",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "3.6",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Hilichurl wanderers unaffiliated with any specific tribe. They can often be found roving the wilds as if in voluntary exile.\nThey may also lend their aid to other hilichurls or hilichurl tribes for various reasons and go their separate ways afterward. They seem to possess a higher level of intelligence than commonplace hilichurls.",
+  "images": {}
+}

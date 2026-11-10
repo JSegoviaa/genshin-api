@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 190,
+  "slug": "tainted-water-spouting-phantasm",
+  "name": "Tainted Water-Spouting Phantasm",
+  "type": "elite-enemies",
+  "family": "elemental-lifeforms",
+  "group": "tainted-hydro-phantasms",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\nIt is said that in Egeria's era, the Oceanids often lived alongside humans, and lived in the springs of clear waters dotted across the lands, and through this, they connected the waters of the world. But most died with their god, and for the survivors, the world no longer has any god they recognize.",
+  "images": {}
+}

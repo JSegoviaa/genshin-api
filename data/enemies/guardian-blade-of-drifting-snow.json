@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 354,
+  "slug": "guardian-blade-of-drifting-snow",
+  "name": "Guardian Blade of Drifting Snow",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "fae-of-crystalline-flesh",
+  "region": "snezhnaya",
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "7.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An ancient Snegovik held in high esteem among her kin.\nAfter the current Snegurochka princess ascended to power, she left the clan's manor in the mountains — perhaps because their ideals no longer aligned.",
+  "images": {}
+}

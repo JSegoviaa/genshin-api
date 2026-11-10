@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 198,
+  "slug": "icebound-reflection",
+  "name": "Icebound Reflection",
+  "type": "elite-enemies",
+  "family": "elemental-lifeforms",
+  "group": null,
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "7.2",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": null,
+      "immune": true
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A strange monster born from a peculiar kind of ice and snow.\nIts frozen form holds immense power, yet no clear will has awakened within it to command that strength.",
+  "images": {}
+}

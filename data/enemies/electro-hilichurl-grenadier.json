@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 41,
+  "slug": "electro-hilichurl-grenadier",
+  "name": "Electro Hilichurl Grenadier",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-grenadiers",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nElectro Slimes don't seem to have as many applications as Pyro Slimes or Anemo Slimes in the benighted lives of the Hilichurls.\nPerhaps one day they may discover the flow of Elements between Electro Slime and Mutant Electro Slime and make some great progress...?",
+  "images": {}
+}

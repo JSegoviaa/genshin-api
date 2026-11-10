@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 95,
+  "slug": "eremite-desert-clearwater",
+  "name": "Eremite Desert Clearwater",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "the-eremites",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "3.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA young lady lost in the ancient dream of the desert songs. To her, the thrill of bloody battle is her true reward. Legend has it that the women of this tribe are often afflicted by the wandering spirits of the desert, a condition that leads many of them to an early end. Perhaps this one can only be free of these apparitions when her blood is up in combat.\nAn ominous, fragmented spirit is sealed within the weapon she uses, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+  "images": {}
+}

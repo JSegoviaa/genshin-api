@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 254,
+  "slug": "wind-operative",
+  "name": "Wind Operative",
+  "type": "elite-enemies",
+  "family": "fatui",
+  "group": "fatui-operatives",
+  "region": null,
+  "elements": [
+    "anemo"
+  ],
+  "releaseVersion": "4.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "An elite agent among the Fatui.\n\"Operatives\" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the \"tacks\" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, \"Operatives\" also need to master all kinds of other skills and even various arts and talents.",
+  "images": {}
+}

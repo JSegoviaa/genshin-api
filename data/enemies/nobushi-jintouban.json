@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 92,
+  "slug": "nobushi-jintouban",
+  "name": "Nobushi: Jintouban",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "nobushi",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": "2.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.\nHaving pursued the path of a martial artist for a long time, they possess highly advanced sword skills but no longer use them for good.\nSometimes, they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+  "images": {}
+}

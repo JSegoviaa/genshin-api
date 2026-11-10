@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 311,
+  "slug": "rhodeia-of-loch",
+  "name": "Rhodeia of Loch",
+  "type": "normal-bosses",
+  "family": "elemental-lifeforms",
+  "group": null,
+  "region": "liyue",
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": null,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": null,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": null,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": null,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": null,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": null,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": null,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": null,
+      "immune": false
+    }
+  ],
+  "description": "A life-form created from condensed Hydro elements of incredible purity.\nOften attached to bodies of water. It is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful.\nIt is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...",
+  "images": {}
+}

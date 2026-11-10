@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 256,
+  "slug": "ruin-hunter",
+  "name": "Ruin Hunter",
+  "type": "elite-enemies",
+  "family": "automatons",
+  "group": "humanoid-ruin-machines",
+  "region": null,
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A giant alien war machine.\nThey are said to be remnants from a lost ancient nation. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.\nConsidering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.",
+  "images": {}
+}

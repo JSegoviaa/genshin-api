@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 319,
+  "slug": "golden-wolflord",
+  "name": "Golden Wolflord",
+  "type": "normal-bosses",
+  "family": "the-abyss",
+  "group": "riftwolves",
+  "region": "inazuma",
+  "elements": [
+    "physical",
+    "geo"
+  ],
+  "releaseVersion": "2.3",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 25,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 25,
+      "immune": false
+    }
+  ],
+  "description": "A twisted beast from another world.\nThis creature is the ruler of the Riftwolves, and wields the power to command them to dissolve space itself.",
+  "images": {}
+}

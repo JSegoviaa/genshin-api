@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 162,
+  "slug": "cherubic-sea-hare",
+  "name": "Cherubic Sea Hare",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fontemer-aberrants",
+  "region": null,
+  "elements": [
+    "physical",
+    "cryo",
+    "hydro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The adult form of an Angelic Sea Hare. The \"wings\" on its back are actually fat used for storing elemental energy.\nThis type of sea creature spends its whole life eating and conserving energy far beyond its actual requirements. Perhaps if the oceans dry out some day, they will be able to continue to survive – or simply become an important source of nutrition for other creatures...",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 134,
+  "slug": "eremite-ravenbeak-halberdier",
+  "name": "Eremite Ravenbeak Halberdier",
+  "type": "common-enemies",
+  "family": "other-human-factions",
+  "group": "the-eremites",
+  "region": null,
+  "elements": [
+    "physical"
+  ],
+  "releaseVersion": null,
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": -20,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThese warriors use Ravenbeak Halberds in battle. It is said that ascetics who served the deity of the desert would carry these halberds as symbols of their office. These weapons once had a true name, but it has long been lost to the desert sands.",
+  "images": {}
+}

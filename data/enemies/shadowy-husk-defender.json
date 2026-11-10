@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 220,
+  "slug": "shadowy-husk-defender",
+  "name": "Shadowy Husk: Defender",
+  "type": "elite-enemies",
+  "family": "the-abyss",
+  "group": "the-black-serpents",
+  "region": null,
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "2.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 30,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it is now nothing but a husk that only bears memories of battle. All shall decay in the end, and this is all that is left of the Black Serpent Knights amidst the merciless march of their sins, curses, and time itself.",
+  "images": {}
+}

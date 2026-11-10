@@ -5,7 +5,7 @@ export const regionResource = defineResource({
   name: "regions",
   title: "Regions",
   description:
-    "The nations and lands of Teyvat. Each region lists its characters and local specialties.",
+    "The nations and lands of Teyvat. Each region lists its characters, local specialties and bosses.",
   example: "liyue",
   schema: regionSchema,
   refs: {},
@@ -25,6 +25,10 @@ export const regionResource = defineResource({
     localSpecialties: ctx.related<{ region: string | null }>(
       "local-specialties",
       (l) => l.region === r.slug,
+    ),
+    enemies: ctx.related<{ region: string | null }>(
+      "enemies",
+      (e) => e.region === r.slug,
     ),
   }),
 });

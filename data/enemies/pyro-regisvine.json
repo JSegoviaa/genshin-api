@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 337,
+  "slug": "pyro-regisvine",
+  "name": "Pyro Regisvine",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "regisvines",
+  "region": "liyue",
+  "elements": [
+    "pyro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 130,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 170,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 110,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 110,
+      "immune": false
+    }
+  ],
+  "description": "A giant vine that has absorbed the ancient flame that rages within the ley lines.\nIt is restless as if filled with endless fury.\nPoets, bards, and even some academics believe that elements also contain emotions and hopes. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...",
+  "images": {}
+}

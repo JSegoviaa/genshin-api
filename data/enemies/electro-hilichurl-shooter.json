@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 26,
+  "slug": "electro-hilichurl-shooter",
+  "name": "Electro Hilichurl Shooter",
+  "type": "common-enemies",
+  "family": "hilichurls",
+  "group": "hilichurl-shooters",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "1.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once–a most impressive feat indeed.",
+  "images": {}
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 349,
+  "slug": "lava-dragon-statue",
+  "name": "Lava Dragon Statue",
+  "type": "normal-bosses",
+  "family": "mystical-beasts",
+  "group": "avatars-of-lava",
+  "region": "natlan",
+  "elements": [
+    "physical",
+    "pyro"
+  ],
+  "releaseVersion": "5.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 70,
+      "immune": false
+    }
+  ],
+  "description": "A monster that can continuously generate heat to sustain its activities.\nLegends say these monsters with lava at their cores are the products of a distinct line of research to the Source Mechanisms that followed them — research into whether the primal flame could be used to create a new race based on humans. This research undoubtedly failed, for once the reaver arrived with their throne from beyond the skies, all that the primal flame could birth were hollow shells whose nominal lifeforce granted them no more consciousness than a stone.",
+  "images": {}
+}

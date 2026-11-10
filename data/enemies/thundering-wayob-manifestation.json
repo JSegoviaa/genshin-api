@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 292,
+  "slug": "thundering-wayob-manifestation",
+  "name": "Thundering Wayob Manifestation",
+  "type": "elite-enemies",
+  "family": "mystical-beasts",
+  "group": "wayob-manifestations",
+  "region": null,
+  "elements": [
+    "electro"
+  ],
+  "releaseVersion": "5.5",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 50,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "The Collective of Plenty believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nAccording to tribal legend, the Wayob has taken on countless forms. In the dim, pre-dawn darkness, where faces were hidden in shadows, the Wayob would wrestle with the mightiest tribal warriors, with neither side prevailing. The Collective of Plenty believe their Wayob has the power to control thunder and speed, and can bestow abundant harvests upon the land.",
+  "images": {}
+}

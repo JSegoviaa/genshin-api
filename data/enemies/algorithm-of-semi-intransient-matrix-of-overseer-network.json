@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 328,
+  "slug": "algorithm-of-semi-intransient-matrix-of-overseer-network",
+  "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+  "type": "normal-bosses",
+  "family": "automatons",
+  "group": "primal-constructs",
+  "region": "sumeru",
+  "elements": [
+    "physical",
+    "dendro"
+  ],
+  "releaseVersion": "3.1",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A perpetual-motion device from an ancient civilization.\nIt governs the many ruin machines that are scattered throughout the desert and still seems to carry the will of its lonely ruler.",
+  "images": {}
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 335,
+  "slug": "wayward-hermetic-spiritspeaker",
+  "name": "Wayward Hermetic Spiritspeaker",
+  "type": "normal-bosses",
+  "family": "other-human-factions",
+  "group": "sauroform-tribal-warriors",
+  "region": "natlan",
+  "elements": [
+    "cryo"
+  ],
+  "releaseVersion": "5.3",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 70,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A priestess of the Masters of the Night-Wind who has lived apart from her tribe, honing her abilities in utter solitude. It is said that her Spiritspeaking powers surpass those of ordinary priests and shamans, a result of having had the protection of the Masters of the Night-Wind's Wayob bestowed upon her. Both a blessing and a curse, these powers were at first beyond her ability to control, which was why she set out to master them in isolation from her tribe. Though she has since done so, to this day she still lives in seclusion, a habit that has earned her a reputation as a loner and a recluse. Rumor has it, however, that she is more than willing to teach those who seek her guidance — though always on her own terms...",
+  "images": {}
+}

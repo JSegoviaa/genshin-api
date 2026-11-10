@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/enemies.json",
+  "id": 164,
+  "slug": "hunters-ray",
+  "name": "Hunter's Ray",
+  "type": "common-enemies",
+  "family": "mystical-beasts",
+  "group": "fontemer-aberrants",
+  "region": null,
+  "elements": [
+    "hydro"
+  ],
+  "releaseVersion": "4.0",
+  "resistances": [
+    {
+      "stat": "physical-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "pyro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "hydro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "electro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "cryo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "dendro-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "anemo-res",
+      "value": 10,
+      "immune": false
+    },
+    {
+      "stat": "geo-res",
+      "value": 10,
+      "immune": false
+    }
+  ],
+  "description": "A stingray that can release blades of water.\nAmong the Fontemer Aberrants, there are certain strange \"Xenochromatic\" lifeforms. It is said that these are not actually living creatures, but rather spirits from the ocean that have neither taken physical form nor swallowed bait. They are said to bestow blessings upon those accepted by the Fontemer as well as those that are able to control it. Of course, those that have a deeper understanding of natural philosophy would discount such groundless speculation.",
+  "images": {}
+}

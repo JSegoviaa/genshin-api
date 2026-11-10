@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/enemy-groups.json",
+  "id": 53,
+  "slug": "wayob-manifestations",
+  "name": "Wayob Manifestations",
+  "family": "mystical-beasts",
+  "images": {}
+}
