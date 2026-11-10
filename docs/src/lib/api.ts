@@ -64,7 +64,10 @@ export function getResource(name: ResourceName): ResourceInfo {
   };
 }
 
-export const allResources = () => RESOURCE_NAMES.map(getResource);
+export const allResources = () =>
+  RESOURCE_NAMES.map(getResource).sort((a, b) =>
+    a.title.localeCompare(b.title, "en"),
+  );
 
 export async function request(path: string) {
   const res = await app.request(`${API_URL}${path}`, {}, { IMAGES_BASE_URL });
