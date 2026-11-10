@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 36,
+  "slug": "beryl-conch",
+  "name": "Beryl Conch",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/beryl-conch.webp"
+  }
+}

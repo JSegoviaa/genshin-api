@@ -10,8 +10,7 @@
     "images:check": "tsx scripts/images.ts check",
     "images:sync": "tsx scripts/images.ts sync",
     "typecheck": "tsc --noEmit",
-    "deploy": "npm run build:data && npm run typecheck && wrangler deploy",
-    "migrate:legacy": "tsx scripts/migrate-legacy.ts"
+    "deploy": "npm run build:data && npm run typecheck && wrangler deploy"
   },
   "type": "module",
   "dependencies": {

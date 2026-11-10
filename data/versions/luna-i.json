@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 44,
+  "slug": "luna-i",
+  "name": "Luna I",
+  "title": "A Dance of Snowy Tides and Hoarfrost Groves",
+  "releaseDate": "2025-09-10"
+}

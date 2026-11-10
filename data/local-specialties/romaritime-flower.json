@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 41,
+  "slug": "romaritime-flower",
+  "name": "Romaritime Flower",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/romaritime-flower.webp"
+  }
+}

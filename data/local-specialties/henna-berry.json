@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 27,
+  "slug": "henna-berry",
+  "name": "Henna Berry",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/henna-berry.webp"
+  }
+}

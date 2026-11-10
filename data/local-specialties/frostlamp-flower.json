@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 52,
+  "slug": "frostlamp-flower",
+  "name": "Frostlamp Flower",
+  "region": "nod-krai",
+  "images": {
+    "icon": "local-specialties/frostlamp-flower.webp"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 29,
+  "slug": "4-3",
+  "name": "4.3",
+  "title": "Roses and Muskets",
+  "releaseDate": "2023-12-20"
+}

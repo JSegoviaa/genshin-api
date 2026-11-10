@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 31,
+  "slug": "padisarah",
+  "name": "Padisarah",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/padisarah.webp"
+  }
+}

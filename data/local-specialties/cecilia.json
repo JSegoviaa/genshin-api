@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 2,
+  "slug": "cecilia",
+  "name": "Cecilia",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/cecilia.webp"
+  }
+}

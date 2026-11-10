@@ -17,12 +17,12 @@ src/modules/<resource>/
   <name>.resource.ts          ← filters, sorting and response shape
 src/modules/index.ts          ← module registry
 src/app.ts                    ← generic routes (Hono)
-scripts/                      ← data build, images and legacy migration
+scripts/                      ← data build, JSON schemas and images
 ```
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `weapons`, `characters`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`.
 
 | Endpoint | Description |
 |---|---|
@@ -36,7 +36,8 @@ List parameters:
 - `sort`: `id`, `name` and resource-specific fields; prefix with `-` for descending (`sort=-releaseDate`)
 - `name`: partial search (`name=hu`)
 - Resource filters, accepting comma-separated values:
-  - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`
+  - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`
+  - `local-specialties`: `region`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`
   - `rarity` accepts the number of stars or the rarity slug (`rarity=5` or `rarity=5-star`)
 
@@ -128,8 +129,3 @@ run `npm run dev` in the project root (API) and in `docs/` (docs) at the same ti
 
 Update `docs/.env.production` with the real API URL before deploying; the build warns while it is a
 placeholder. For personal overrides use `docs/.env.development.local` (ignored by git).
-
-## Legacy migration
-
-`npm run migrate:legacy -- --force` regenerates `data/` and `assets/` from the legacy local API
-(`../genshin-api`) and `../gi-api` (read only). It has already been run once; **do not run it again** after editing data by hand, since `--force` overwrites it.

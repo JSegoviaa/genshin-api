@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 39,
+  "slug": "lumitoile",
+  "name": "Lumitoile",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/lumitoile.webp"
+  }
+}

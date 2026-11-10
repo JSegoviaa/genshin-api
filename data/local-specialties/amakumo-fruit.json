@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 18,
+  "slug": "amakumo-fruit",
+  "name": "Amakumo Fruit",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/amakumo-fruit.webp"
+  }
+}

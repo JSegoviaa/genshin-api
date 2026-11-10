@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 11,
+  "slug": "glaze-lily",
+  "name": "Glaze Lily",
+  "region": "liyue",
+  "images": {
+    "icon": "local-specialties/glaze-lily.webp"
+  }
+}

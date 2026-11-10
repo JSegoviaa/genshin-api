@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 8,
+  "slug": "wolfhook",
+  "name": "Wolfhook",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/wolfhook.webp"
+  }
+}

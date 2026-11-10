@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 50,
+  "slug": "dracolite",
+  "name": "Dracolite",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/dracolite.webp"
+  }
+}

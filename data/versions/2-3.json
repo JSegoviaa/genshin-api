@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 11,
+  "slug": "2-3",
+  "name": "2.3",
+  "title": "Shadows Amidst Snowstorms",
+  "releaseDate": "2021-11-24"
+}

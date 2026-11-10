@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 10,
+  "slug": "2-2",
+  "name": "2.2",
+  "title": "Into the Perilous Labyrinth of Fog",
+  "releaseDate": "2021-10-13"
+}

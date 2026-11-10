@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 29,
+  "slug": "mourning-flower",
+  "name": "Mourning Flower",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/mourning-flower.webp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 7,
+  "slug": "windwheel-aster",
+  "name": "Windwheel Aster",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/windwheel-aster.webp"
+  }
+}

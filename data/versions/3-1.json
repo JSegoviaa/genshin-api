@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 18,
+  "slug": "3-1",
+  "name": "3.1",
+  "title": "King Deshret and the Three Magi",
+  "releaseDate": "2022-09-28"
+}

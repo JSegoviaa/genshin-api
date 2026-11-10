@@ -13,6 +13,8 @@ export const characterResource = defineResource({
     weaponType: "weapon-types",
     region: "regions",
     rarity: { resource: "rarities", key: "id" },
+    releaseVersion: { resource: "versions", key: "name" },
+    localSpecialty: { resource: "local-specialties", key: "name" },
   },
   filters: {
     rarity: {
@@ -25,8 +27,12 @@ export const characterResource = defineResource({
     gender: { description: "male | female", get: (c) => c.gender },
     bodyType: { description: "short | medium | tall", get: (c) => c.bodyType },
     releaseVersion: {
-      description: "Release version, e.g. 4.2",
+      description: "Release version, e.g. 4.2 or luna-i",
       get: (c) => c.releaseVersion,
+    },
+    localSpecialty: {
+      description: "Local specialty slug, e.g. silk-flower",
+      get: (c) => c.localSpecialty,
     },
   },
   sorts: {
@@ -52,9 +58,9 @@ export const characterResource = defineResource({
     bodyType: c.bodyType,
     birthday: c.birthday,
     releaseDate: c.releaseDate,
-    releaseVersion: c.releaseVersion,
+    releaseVersion: ctx.refByName("versions", c.releaseVersion),
     ascensionStat: c.ascensionStat,
-    localSpecialty: c.localSpecialty,
+    localSpecialty: ctx.refByName("local-specialties", c.localSpecialty),
     materials: c.materials,
     constellations: c.constellations.map((k) => ({
       slug: k.slug,

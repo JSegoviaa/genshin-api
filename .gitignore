@@ -7,3 +7,4 @@ assets/
 dist/
 .astro/
 *.local
+local/

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 32,
+  "slug": "4-6",
+  "name": "4.6",
+  "title": "Two Worlds Aflame, the Crimson Night Fades",
+  "releaseDate": "2024-04-24"
+}

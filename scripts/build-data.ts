@@ -75,6 +75,9 @@ const slugsOf = (name: ResourceName) =>
 const keysOf = (name: ResourceName, key: "id" | "slug") =>
   new Set<unknown>(loaded[name].map(({ item }) => item[key]));
 
+const normalize = (value: unknown, key: RefTarget["key"]) =>
+  key === "name" && typeof value === "string" ? slugify(value) : value;
+
 for (const name of RESOURCE_NAMES) {
   const refs = Object.entries(resources[name].refs) as [
     string,
@@ -83,7 +86,7 @@ for (const name of RESOURCE_NAMES) {
   for (const [field, ref] of refs) {
     const { resource: target, key } =
       typeof ref === "string" ? { resource: ref, key: "slug" as const } : ref;
-    const valid = keysOf(target, key);
+    const valid = keysOf(target, key === "id" ? "id" : "slug");
     for (const { item, file } of loaded[name]) {
       const value = (item as unknown as Record<string, unknown>)[field];
       const values = Array.isArray(value)
@@ -92,7 +95,7 @@ for (const name of RESOURCE_NAMES) {
           ? []
           : [value];
       for (const v of values) {
-        if (!valid.has(v))
+        if (!valid.has(normalize(v, key)))
           fail(file, `${field}: "${v}" does not exist in ${target}`);
       }
     }

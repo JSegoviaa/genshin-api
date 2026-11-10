@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 6,
+  "slug": "valberry",
+  "name": "Valberry",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/valberry.webp"
+  }
+}

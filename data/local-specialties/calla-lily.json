@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 1,
+  "slug": "calla-lily",
+  "name": "Calla Lily",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/calla-lily.webp"
+  }
+}

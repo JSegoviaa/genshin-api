@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 16,
+  "slug": "2-8",
+  "name": "2.8",
+  "title": "Summer Fantasia",
+  "releaseDate": "2022-07-13"
+}

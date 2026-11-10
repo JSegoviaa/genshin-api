@@ -123,6 +123,47 @@ describe("detail", () => {
     expect(body.weapons.length).toBeGreaterThan(0);
   });
 
+  it("resolves versions by number or name and lists their characters", async () => {
+    for (const q of ["1.3", "1-3"]) {
+      const { status, body } = await get(`/api/v1/versions/${q}`);
+      expect(status).toBe(200);
+      expect(body.title).toBe("All That Glitters");
+      expect(body.characters.some((c: any) => c.slug === "hu-tao")).toBe(true);
+    }
+    expect((await get("/api/v1/versions/Luna%20I")).body.slug).toBe("luna-i");
+  });
+
+  it("lists local specialties by region and links them to characters", async () => {
+    const { body } = await get(
+      "/api/v1/local-specialties?region=liyue&limit=100",
+    );
+    expect(body.count).toBeGreaterThan(0);
+    expect(body.results.every((l: any) => l.region.slug === "liyue")).toBe(
+      true,
+    );
+    const silk = await get("/api/v1/local-specialties/silk-flower");
+    expect(silk.body.characters.some((c: any) => c.slug === "hu-tao")).toBe(
+      true,
+    );
+    const region = await get("/api/v1/regions/liyue");
+    expect(
+      region.body.localSpecialties.some((l: any) => l.slug === "silk-flower"),
+    ).toBe(true);
+  });
+
+  it("returns release version and local specialty as references", async () => {
+    const { body } = await get("/api/v1/characters/hu-tao");
+    expect(body.releaseVersion).toMatchObject({ slug: "1-3", name: "1.3" });
+    expect(body.localSpecialty).toMatchObject({
+      slug: "silk-flower",
+      url: "http://api.test/api/v1/local-specialties/silk-flower",
+    });
+    const filtered = await get(
+      "/api/v1/characters?localSpecialty=silk-flower&releaseVersion=1.3",
+    );
+    expect(filtered.body.results.map((c: any) => c.slug)).toContain("hu-tao");
+  });
+
   it("returns rarity as a reference", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.rarity).toMatchObject({
@@ -163,6 +204,8 @@ describe("random", () => {
       "regions",
       "weapon-types",
       "rarities",
+      "versions",
+      "local-specialties",
       "weapons",
       "characters",
     ]) {

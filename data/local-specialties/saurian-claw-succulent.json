@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 46,
+  "slug": "saurian-claw-succulent",
+  "name": "Saurian Claw Succulent",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/saurian-claw-succulent.webp"
+  }
+}

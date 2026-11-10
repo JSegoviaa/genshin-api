@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 44,
+  "slug": "brilliant-chrysanthemum",
+  "name": "Brilliant Chrysanthemum\t",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/brilliant-chrysanthemum.webp"
+  }
+}

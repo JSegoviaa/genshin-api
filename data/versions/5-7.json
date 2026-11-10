@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 42,
+  "slug": "5-7",
+  "name": "5.7",
+  "title": "A Space and Time for You",
+  "releaseDate": "2025-06-18"
+}

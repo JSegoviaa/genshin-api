@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 38,
+  "slug": "lumidouce-bell",
+  "name": "Lumidouce Bell",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/lumidouce-bell.webp"
+  }
+}

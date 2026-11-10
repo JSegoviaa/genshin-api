@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 51,
+  "slug": "skysplit-gembloom",
+  "name": "Skysplit Gembloom",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/skysplit-gembloom.webp"
+  }
+}

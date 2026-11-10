@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 55,
+  "slug": "winter-icelea",
+  "name": "Winter Icelea",
+  "region": "nod-krai",
+  "images": {
+    "icon": "local-specialties/winter-icelea.webp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 62,
+  "slug": "kristallfold",
+  "name": "Kristallfold",
+  "region": "snezhnaya",
+  "images": {
+    "icon": "local-specialties/kristallfold.webp"
+  }
+}

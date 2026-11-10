@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 24,
+  "slug": "sakura-bloom",
+  "name": "Sakura Bloom",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/sakura-bloom.webp"
+  }
+}

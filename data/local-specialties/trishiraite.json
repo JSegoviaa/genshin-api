@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 35,
+  "slug": "trishiraite",
+  "name": "Trishiraite",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/trishiraite.webp"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 12,
+  "slug": "2-4",
+  "name": "2.4",
+  "title": "Fleeting Colors in Flight",
+  "releaseDate": "2022-01-05"
+}

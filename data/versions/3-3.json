@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 20,
+  "slug": "3-3",
+  "name": "3.3",
+  "title": "All Senses Clear, All Existence Void",
+  "releaseDate": "2022-12-07"
+}

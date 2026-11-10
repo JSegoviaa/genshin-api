@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 17,
+  "slug": "violetgrass",
+  "name": "Violetgrass",
+  "region": "liyue",
+  "images": {
+    "icon": "local-specialties/violetgrass.webp"
+  }
+}

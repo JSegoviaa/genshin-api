@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 59,
+  "slug": "frostfairy-flower",
+  "name": "Frostfairy Flower",
+  "region": "snezhnaya",
+  "images": {
+    "icon": "local-specialties/frostfairy-flower.webp"
+  }
+}

@@ -18,12 +18,13 @@ export interface Ref {
 
 export interface RefTarget {
   resource: ResourceName;
-  key: "id" | "slug";
+  key: "id" | "slug" | "name";
 }
 
 export interface Ctx {
   ref(resource: ResourceName, slug: string | null): Ref | null;
   refById(resource: ResourceName, id: number | null): Ref | null;
+  refByName(resource: ResourceName, name: string | null): Ref | null;
   refs(resource: ResourceName, slugs: string[]): Ref[];
   related<T>(resource: ResourceName, predicate: (item: T) => boolean): Ref[];
   url(resource: ResourceName, slug: string): string;

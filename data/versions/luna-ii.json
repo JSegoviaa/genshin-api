@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 45,
+  "slug": "luna-ii",
+  "name": "Luna II",
+  "title": "An Elegy for Faded Moonlight",
+  "releaseDate": "2025-10-22"
+}

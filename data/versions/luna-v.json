@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 48,
+  "slug": "luna-v",
+  "name": "Luna V",
+  "title": "Homeward, He Who Caught the Wind",
+  "releaseDate": "2026-02-25"
+}

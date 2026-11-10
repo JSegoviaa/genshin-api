@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 9,
+  "slug": "clearwater-jade",
+  "name": "Clearwater Jade",
+  "region": "liyue",
+  "images": {
+    "icon": "local-specialties/clearwater-jade.webp"
+  }
+}

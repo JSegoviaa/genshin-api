@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 4,
+  "slug": "philanemo-mushroom",
+  "name": "Philanemo Mushroom",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/philanemo-mushroom.webp"
+  }
+}

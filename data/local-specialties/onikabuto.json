@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 23,
+  "slug": "onikabuto",
+  "name": "Onikabuto",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/onikabuto.webp"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 43,
+  "slug": "5-8",
+  "name": "5.8",
+  "title": "Sunspray Summer Resort",
+  "releaseDate": "2025-07-30"
+}

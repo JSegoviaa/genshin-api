@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 40,
+  "slug": "5-5",
+  "name": "5.5",
+  "title": "Days of the Flame's Return",
+  "releaseDate": "2025-03-26"
+}

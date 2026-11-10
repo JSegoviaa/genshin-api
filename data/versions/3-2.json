@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 19,
+  "slug": "3-2",
+  "name": "3.2",
+  "title": "Akasha Pulses, the Kalpa Flame Rises",
+  "releaseDate": "2022-11-02"
+}

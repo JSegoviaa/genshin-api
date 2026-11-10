@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 21,
+  "slug": "fluorescent-fungus",
+  "name": "Fluorescent Fungus",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/fluorescent-fungus.webp"
+  }
+}

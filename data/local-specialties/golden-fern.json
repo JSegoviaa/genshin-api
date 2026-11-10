@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 60,
+  "slug": "golden-fern",
+  "name": "Golden Fern",
+  "region": "snezhnaya",
+  "images": {
+    "icon": "local-specialties/golden-fern.webp"
+  }
+}

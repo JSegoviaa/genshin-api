@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 45,
+  "slug": "quenepa-berry",
+  "name": "Quenepa Berry",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/quenepa-berry.webp"
+  }
+}

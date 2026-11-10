@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 47,
+  "slug": "sprayfeather-gill",
+  "name": "Sprayfeather Gill",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/sprayfeather-gill.webp"
+  }
+}

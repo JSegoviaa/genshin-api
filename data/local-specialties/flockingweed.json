@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 58,
+  "slug": "flockingweed",
+  "name": "Flockingweed",
+  "region": "snezhnaya",
+  "images": {
+    "icon": "local-specialties/flockingweed.webp"
+  }
+}

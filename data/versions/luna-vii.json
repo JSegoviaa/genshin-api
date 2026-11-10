@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 50,
+  "slug": "luna-vii",
+  "name": "Luna VII",
+  "title": "Truth Amongst the Pages of Purana",
+  "releaseDate": "2026-04-20"
+}

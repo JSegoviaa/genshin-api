@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 24,
+  "slug": "3-7",
+  "name": "3.7",
+  "title": "Duel! The Summoners' Summit!",
+  "releaseDate": "2023-05-24"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 26,
+  "slug": "sea-ganoderma",
+  "name": "Sea Ganoderma",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/sea-ganoderma.webp"
+  }
+}

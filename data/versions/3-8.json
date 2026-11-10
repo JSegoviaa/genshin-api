@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 25,
+  "slug": "3-8",
+  "name": "3.8",
+  "title": "Secret Summer Paradise",
+  "releaseDate": "2023-07-05"
+}

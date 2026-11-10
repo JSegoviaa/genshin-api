@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 49,
+  "slug": "withering-purpurbloom",
+  "name": "Withering Purpurbloom",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/withering-purpurbloom.webp"
+  }
+}

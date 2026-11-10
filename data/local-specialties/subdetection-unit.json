@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 43,
+  "slug": "subdetection-unit",
+  "name": "Subdetection Unit",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/subdetection-unit.webp"
+  }
+}

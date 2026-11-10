@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 35,
+  "slug": "5-0",
+  "name": "5.0",
+  "title": "Flowers Resplendent on the Sun-Scorched Sojourn",
+  "releaseDate": "2024-08-28"
+}

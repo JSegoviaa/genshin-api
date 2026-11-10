@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 20,
+  "slug": "dendrobium",
+  "name": "Dendrobium",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/dendrobium.webp"
+  }
+}

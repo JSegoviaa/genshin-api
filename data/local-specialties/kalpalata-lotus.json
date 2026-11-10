@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 28,
+  "slug": "kalpalata-lotus",
+  "name": "Kalpalata Lotus",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/kalpalata-lotus.webp"
+  }
+}

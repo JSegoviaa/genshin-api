@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 61,
+  "slug": "fairy-wormwood",
+  "name": "Fairy Wormwood",
+  "region": "snezhnaya",
+  "images": {
+    "icon": "local-specialties/fairy-wormwood.webp"
+  }
+}

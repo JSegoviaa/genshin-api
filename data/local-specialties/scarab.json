@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 34,
+  "slug": "scarab",
+  "name": "Scarab",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/scarab.webp"
+  }
+}

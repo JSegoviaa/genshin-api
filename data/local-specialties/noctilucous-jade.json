@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 13,
+  "slug": "noctilucous-jade",
+  "name": "Noctilucous Jade",
+  "region": "liyue",
+  "images": {
+    "icon": "local-specialties/noctilucous-jade.webp"
+  }
+}

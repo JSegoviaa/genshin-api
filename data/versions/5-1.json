@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 36,
+  "slug": "5-1",
+  "name": "5.1",
+  "title": "The Rainbow Destined to Burn",
+  "releaseDate": "2024-10-09"
+}

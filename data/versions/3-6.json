@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 23,
+  "slug": "3-6",
+  "name": "3.6",
+  "title": "A Parade of Providence",
+  "releaseDate": "2023-04-12"
+}

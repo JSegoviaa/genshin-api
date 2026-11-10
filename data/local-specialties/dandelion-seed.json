@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 3,
+  "slug": "dandelion-seed",
+  "name": "Dandelion Seed",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/dandelion-seed.webp"
+  }
+}

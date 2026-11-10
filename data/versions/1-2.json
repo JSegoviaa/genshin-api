@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 3,
+  "slug": "1-2",
+  "name": "1.2",
+  "title": "The Chalk Prince and the Dragon",
+  "releaseDate": "2020-12-23"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 37,
+  "slug": "lakelight-lily",
+  "name": "Lakelight Lily",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/lakelight-lily.webp"
+  }
+}

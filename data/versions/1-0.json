@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 1,
+  "slug": "1-0",
+  "name": "1.0",
+  "title": "Welcome to Teyvat",
+  "releaseDate": "2020-09-28"
+}

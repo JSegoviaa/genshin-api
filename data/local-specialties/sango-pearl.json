@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 25,
+  "slug": "sango-pearl",
+  "name": "Sango Pearl",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/sango-pearl.webp"
+  }
+}

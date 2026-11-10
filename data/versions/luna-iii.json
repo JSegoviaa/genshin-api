@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 46,
+  "slug": "luna-iii",
+  "name": "Luna III",
+  "title": "A Nocturne of the Far North",
+  "releaseDate": "2025-12-03"
+}

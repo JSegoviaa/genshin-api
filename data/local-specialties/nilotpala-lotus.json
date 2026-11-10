@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 30,
+  "slug": "nilotpala-lotus",
+  "name": "Nilotpala Lotus",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/nilotpala-lotus.webp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 42,
+  "slug": "spring-of-the-first-dewdrop",
+  "name": "Spring of the First Dewdrop",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/spring-of-the-first-dewdrop.webp"
+  }
+}

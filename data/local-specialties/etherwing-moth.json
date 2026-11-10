@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 57,
+  "slug": "etherwing-moth",
+  "name": "Etherwing Moth",
+  "region": "mondstadt",
+  "images": {
+    "icon": "local-specialties/etherwing-moth.webp"
+  }
+}

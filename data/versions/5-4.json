@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 39,
+  "slug": "5-4",
+  "name": "5.4",
+  "title": "Moonlight Amidst Dreams",
+  "releaseDate": "2025-02-12"
+}

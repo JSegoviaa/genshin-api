@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 9,
+  "slug": "2-1",
+  "name": "2.1",
+  "title": "Floating World Under the Moonlight",
+  "releaseDate": "2021-09-01"
+}

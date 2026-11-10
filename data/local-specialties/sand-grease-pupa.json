@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 33,
+  "slug": "sand-grease-pupa",
+  "name": "Sand Grease Pupa",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/sand-grease-pupa.webp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 16,
+  "slug": "starconch",
+  "name": "Starconch",
+  "region": "liyue",
+  "images": {
+    "icon": "local-specialties/starconch.webp"
+  }
+}

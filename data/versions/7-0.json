@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 52,
+  "slug": "7-0",
+  "name": "7.0",
+  "title": "Everwinter Without Mercy",
+  "releaseDate": "2026-08-02"
+}

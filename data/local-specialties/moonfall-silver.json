@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 53,
+  "slug": "moonfall-silver",
+  "name": "Moonfall Silver",
+  "region": "nod-krai",
+  "images": {
+    "icon": "local-specialties/moonfall-silver.webp"
+  }
+}

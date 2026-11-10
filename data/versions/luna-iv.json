@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 47,
+  "slug": "luna-iv",
+  "name": "Luna IV",
+  "title": "A Traveler on a Winter's Night",
+  "releaseDate": "2026-01-14"
+}

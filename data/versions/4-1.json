@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 27,
+  "slug": "4-1",
+  "name": "4.1",
+  "title": "To the Stars Shining in the Depths",
+  "releaseDate": "2023-09-27"
+}

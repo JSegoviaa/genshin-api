@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 48,
+  "slug": "glowing-hornshroom",
+  "name": "Glowing Hornshroom",
+  "region": "natlan",
+  "images": {
+    "icon": "local-specialties/glowing-hornshroom.webp"
+  }
+}

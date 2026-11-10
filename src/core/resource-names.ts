@@ -3,6 +3,8 @@ export const RESOURCE_NAMES = [
   "regions",
   "weapon-types",
   "rarities",
+  "versions",
+  "local-specialties",
   "weapons",
   "characters",
 ] as const;

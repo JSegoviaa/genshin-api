@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 14,
+  "slug": "qingxin",
+  "name": "Qingxin",
+  "region": "liyue",
+  "images": {
+    "icon": "local-specialties/qingxin.webp"
+  }
+}

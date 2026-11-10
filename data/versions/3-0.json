@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 17,
+  "slug": "3-0",
+  "name": "3.0",
+  "title": "The Morn a Thousand Roses Brings",
+  "releaseDate": "2022-08-24"
+}

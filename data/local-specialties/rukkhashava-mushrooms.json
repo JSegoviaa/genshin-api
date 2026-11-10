@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 32,
+  "slug": "rukkhashava-mushrooms",
+  "name": "Rukkhashava Mushrooms",
+  "region": "sumeru",
+  "images": {
+    "icon": "local-specialties/rukkhashava-mushrooms.webp"
+  }
+}

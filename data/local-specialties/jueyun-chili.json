@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 12,
+  "slug": "jueyun-chili",
+  "name": "Jueyun Chili",
+  "region": "liyue",
+  "images": {
+    "icon": "local-specialties/jueyun-chili.webp"
+  }
+}

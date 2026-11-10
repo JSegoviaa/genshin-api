@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 22,
+  "slug": "naku-weed",
+  "name": "Naku Weed",
+  "region": "inazuma",
+  "images": {
+    "icon": "local-specialties/naku-weed.webp"
+  }
+}

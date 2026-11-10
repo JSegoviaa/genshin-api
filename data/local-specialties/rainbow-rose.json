@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 40,
+  "slug": "rainbow-rose",
+  "name": "Rainbow Rose",
+  "region": "fontaine",
+  "images": {
+    "icon": "local-specialties/rainbow-rose.webp"
+  }
+}

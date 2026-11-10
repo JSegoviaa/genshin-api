@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 28,
+  "slug": "4-2",
+  "name": "4.2",
+  "title": "Masquerade of the Guilty",
+  "releaseDate": "2023-11-08"
+}

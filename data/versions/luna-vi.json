@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 49,
+  "slug": "luna-vi",
+  "name": "Luna VI",
+  "title": "Augured Homecoming",
+  "releaseDate": "2026-04-08"
+}

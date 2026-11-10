@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/local-specialties.json",
+  "id": 56,
+  "slug": "pine-amber",
+  "name": "Pine Amber",
+  "region": "nod-krai",
+  "images": {
+    "icon": "local-specialties/pine-amber.webp"
+  }
+}

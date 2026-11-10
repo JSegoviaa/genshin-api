@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/versions.json",
+  "id": 2,
+  "slug": "1-1",
+  "name": "1.1",
+  "title": "A New Star Approaches",
+  "releaseDate": "2020-11-11"
+}
