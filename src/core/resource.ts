@@ -16,8 +16,14 @@ export interface Ref {
   icon?: string | null;
 }
 
+export interface RefTarget {
+  resource: ResourceName;
+  key: "id" | "slug";
+}
+
 export interface Ctx {
   ref(resource: ResourceName, slug: string | null): Ref | null;
+  refById(resource: ResourceName, id: number | null): Ref | null;
   refs(resource: ResourceName, slugs: string[]): Ref[];
   related<T>(resource: ResourceName, predicate: (item: T) => boolean): Ref[];
   url(resource: ResourceName, slug: string): string;
@@ -40,7 +46,7 @@ export interface ResourceDef<T extends BaseItem = BaseItem> {
   description: string;
   example: string;
   schema: z.ZodType<T>;
-  refs: Partial<Record<keyof T & string, ResourceName>>;
+  refs: Partial<Record<keyof T & string, ResourceName | RefTarget>>;
   filters: Record<string, FilterDef<T>>;
   sorts: Record<string, (item: T) => string | number>;
   summary(item: T, ctx: Ctx): Record<string, unknown>;

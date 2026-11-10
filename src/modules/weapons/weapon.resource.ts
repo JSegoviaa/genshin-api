@@ -8,9 +8,15 @@ export const weaponResource = defineResource({
     "Every weapon with its rarity, type, secondary stat, series and ascension material.",
   example: "staff-of-homa",
   schema: weaponSchema,
-  refs: { weaponType: "weapon-types" },
+  refs: {
+    weaponType: "weapon-types",
+    rarity: { resource: "rarities", key: "id" },
+  },
   filters: {
-    rarity: { description: "Rarity (1-5)", get: (w) => w.rarity },
+    rarity: {
+      description: "Rarity stars (1-5) or rarity slug, e.g. 5 or 5-star",
+      get: (w) => [w.rarity, `${w.rarity}-star`],
+    },
     weaponType: { description: "Weapon type slug", get: (w) => w.weaponType },
     secondaryStat: {
       description: "Secondary stat, e.g. crit-rate",
@@ -24,13 +30,13 @@ export const weaponResource = defineResource({
   sorts: { rarity: (w) => w.rarity },
   summary: (w, ctx) => ({
     ...head("weapons", w, ctx),
-    rarity: w.rarity,
+    rarity: ctx.refById("rarities", w.rarity),
     weaponType: ctx.ref("weapon-types", w.weaponType),
     icon: ctx.image(w.images.icon),
   }),
   detail: (w, ctx) => ({
     ...head("weapons", w, ctx),
-    rarity: w.rarity,
+    rarity: ctx.refById("rarities", w.rarity),
     weaponType: ctx.ref("weapon-types", w.weaponType),
     secondaryStat: w.secondaryStat,
     series: w.series,

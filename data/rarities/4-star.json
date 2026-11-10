@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/rarities.json",
+  "id": 4,
+  "slug": "4-star",
+  "name": "4-Star",
+  "stars": 4,
+  "images": {
+    "icon": "rarities/4-star.webp"
+  }
+}

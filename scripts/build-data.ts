@@ -6,7 +6,7 @@ import {
   writeFileSync,
 } from "node:fs";
 import { basename, join, relative } from "node:path";
-import type { BaseItem } from "../src/core/resource";
+import type { BaseItem, RefTarget } from "../src/core/resource";
 import { RESOURCE_NAMES, type ResourceName } from "../src/core/resource-names";
 import { slugify } from "../src/core/slug";
 import { resources } from "../src/modules";
@@ -72,10 +72,18 @@ for (const name of RESOURCE_NAMES) {
 const slugsOf = (name: ResourceName) =>
   new Set(loaded[name].map(({ item }) => item.slug));
 
+const keysOf = (name: ResourceName, key: "id" | "slug") =>
+  new Set<unknown>(loaded[name].map(({ item }) => item[key]));
+
 for (const name of RESOURCE_NAMES) {
-  const refs = Object.entries(resources[name].refs) as [string, ResourceName][];
-  for (const [field, target] of refs) {
-    const valid = slugsOf(target);
+  const refs = Object.entries(resources[name].refs) as [
+    string,
+    ResourceName | RefTarget,
+  ][];
+  for (const [field, ref] of refs) {
+    const { resource: target, key } =
+      typeof ref === "string" ? { resource: ref, key: "slug" as const } : ref;
+    const valid = keysOf(target, key);
     for (const { item, file } of loaded[name]) {
       const value = (item as unknown as Record<string, unknown>)[field];
       const values = Array.isArray(value)
@@ -84,7 +92,7 @@ for (const name of RESOURCE_NAMES) {
           ? []
           : [value];
       for (const v of values) {
-        if (!valid.has(v as string))
+        if (!valid.has(v))
           fail(file, `${field}: "${v}" does not exist in ${target}`);
       }
     }

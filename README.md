@@ -22,7 +22,7 @@ scripts/                      ← data build, images and legacy migration
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `weapons`, `characters`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `weapons`, `characters`.
 
 | Endpoint | Description |
 |---|---|
@@ -38,6 +38,7 @@ List parameters:
 - Resource filters, accepting comma-separated values:
   - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`
+  - `rarity` accepts the number of stars or the rarity slug (`rarity=5` or `rarity=5-star`)
 
 Examples:
 
@@ -70,7 +71,8 @@ npm run typecheck
 4. `npm run images:check` verifies no images are missing.
 5. `npm run images:sync` uploads new images to R2 and `npm run deploy` publishes the API.
 
-References to exposed resources are stored by slug (`"element": "pyro"`). Fields pointing to resources not yet
+References to exposed resources are stored by slug (`"element": "pyro"`), except `rarity`, which is
+stored as the number of stars (`"rarity": 5`) and returned as a reference to `rarities`. Fields pointing to resources not yet
 exposed by the API (stats, materials, local specialties, weapon series) are stored by name
 (`"ascensionStat": "CRIT DMG"`). Once those resources exist, they will be resolved with `slugify(name)`
 without touching the data.

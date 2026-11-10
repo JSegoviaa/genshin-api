@@ -50,6 +50,10 @@ export function createApp(data: Dataset) {
         const item = slug ? store.bySlug(resource, slug) : undefined;
         return item ? toRef(resource, item) : null;
       },
+      refById: (resource, id) => {
+        const item = id !== null ? store.byId(resource, id) : undefined;
+        return item ? toRef(resource, item) : null;
+      },
       refs: (resource, slugs) =>
         slugs
           .map((s) => store.bySlug(resource, s))

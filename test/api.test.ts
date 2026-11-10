@@ -46,8 +46,15 @@ describe("paginated list", () => {
     expect(body.count).toBeGreaterThan(0);
     for (const c of body.results) {
       expect(["pyro", "hydro"]).toContain(c.element.slug);
-      expect(c.rarity).toBe(5);
+      expect(c.rarity.id).toBe(5);
     }
+  });
+
+  it("filters rarity by stars or by slug", async () => {
+    const a = await get("/api/v1/weapons?rarity=5");
+    const b = await get("/api/v1/weapons?rarity=5-star");
+    expect(a.body.count).toBeGreaterThan(0);
+    expect(a.body.count).toBe(b.body.count);
   });
 
   it("filters are case insensitive", async () => {
@@ -63,7 +70,7 @@ describe("paginated list", () => {
 
   it('sorts descending with "-" prefix', async () => {
     const { body } = await get("/api/v1/weapons?sort=-rarity&limit=3");
-    expect(body.results.every((w: any) => w.rarity === 5)).toBe(true);
+    expect(body.results.every((w: any) => w.rarity.id === 5)).toBe(true);
   });
 
   it("rejects unknown parameters and invalid values", async () => {
@@ -106,6 +113,26 @@ describe("detail", () => {
     expect(wt.body.weapons.length).toBeGreaterThan(0);
   });
 
+  it("lists rarities and their characters and weapons", async () => {
+    const list = await get("/api/v1/rarities");
+    expect(list.body.results.map((r: any) => r.stars)).toEqual([1, 2, 3, 4, 5]);
+    const { status, body } = await get("/api/v1/rarities/5");
+    expect(status).toBe(200);
+    expect(body.slug).toBe("5-star");
+    expect(body.characters.some((c: any) => c.slug === "hu-tao")).toBe(true);
+    expect(body.weapons.length).toBeGreaterThan(0);
+  });
+
+  it("returns rarity as a reference", async () => {
+    const { body } = await get("/api/v1/characters/hu-tao");
+    expect(body.rarity).toMatchObject({
+      id: 5,
+      slug: "5-star",
+      url: "http://api.test/api/v1/rarities/5-star",
+    });
+    expect(body.rarity.icon).toBe("https://img.test/rarities/5-star.webp");
+  });
+
   it("returns 404 with error format", async () => {
     const { status, body } = await get("/api/v1/characters/does-not-exist");
     expect(status).toBe(404);
@@ -121,7 +148,7 @@ describe("random", () => {
       );
       expect(status).toBe(200);
       expect(body.element.slug).toBe("cryo");
-      expect(body.rarity).toBe(4);
+      expect(body.rarity.id).toBe(4);
       expect(headers.get("cache-control")).toBe("no-store");
     }
   });
@@ -135,6 +162,7 @@ describe("random", () => {
       "elements",
       "regions",
       "weapon-types",
+      "rarities",
       "weapons",
       "characters",
     ]) {

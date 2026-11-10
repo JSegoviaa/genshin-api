@@ -8,9 +8,17 @@ export const characterResource = defineResource({
     "Playable characters with their element, weapon, region, birthday, materials and constellations.",
   example: "hu-tao",
   schema: characterSchema,
-  refs: { element: "elements", weaponType: "weapon-types", region: "regions" },
+  refs: {
+    element: "elements",
+    weaponType: "weapon-types",
+    region: "regions",
+    rarity: { resource: "rarities", key: "id" },
+  },
   filters: {
-    rarity: { description: "Rarity (4-5)", get: (c) => c.rarity },
+    rarity: {
+      description: "Rarity stars (4-5) or rarity slug, e.g. 5 or 5-star",
+      get: (c) => [c.rarity, `${c.rarity}-star`],
+    },
     element: { description: "Element slug", get: (c) => c.element },
     weaponType: { description: "Weapon type slug", get: (c) => c.weaponType },
     region: { description: "Region slug", get: (c) => c.region },
@@ -27,7 +35,7 @@ export const characterResource = defineResource({
   },
   summary: (c, ctx) => ({
     ...head("characters", c, ctx),
-    rarity: c.rarity,
+    rarity: ctx.refById("rarities", c.rarity),
     element: ctx.ref("elements", c.element),
     weaponType: ctx.ref("weapon-types", c.weaponType),
     region: ctx.ref("regions", c.region),
@@ -36,7 +44,7 @@ export const characterResource = defineResource({
   }),
   detail: (c, ctx) => ({
     ...head("characters", c, ctx),
-    rarity: c.rarity,
+    rarity: ctx.refById("rarities", c.rarity),
     element: ctx.ref("elements", c.element),
     weaponType: ctx.ref("weapon-types", c.weaponType),
     region: ctx.ref("regions", c.region),
