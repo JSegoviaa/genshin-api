@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 91,
+  "id": 94,
   "slug": "nobushi-hitsukeban",
   "name": "Nobushi: Hitsukeban",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ],
+    "artifactSets": []
+  },
   "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.\nThey not only possess highly advanced sword skills, but can also carry out flame powder attacks using the elements. Objectively speaking, perhaps this method of winning goes against the path of a martial artist.\nSometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
   "images": {}
 }

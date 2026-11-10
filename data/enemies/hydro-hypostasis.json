@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 314,
+  "id": 111,
   "slug": "hydro-hypostasis",
   "name": "Hydro Hypostasis",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "dew-of-repudiation"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-destiny",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "Code Name: He. A high-purity Hydro entity.\nHypostases have strong rejection properties, and will mercilessly expel any that test them.\nThe logic behind such behavior remains a mystery.",
   "images": {}
 }

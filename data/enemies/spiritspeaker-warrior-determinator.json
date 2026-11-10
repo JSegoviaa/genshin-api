@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 121,
+  "id": 263,
   "slug": "spiritspeaker-warrior-determinator",
   "name": "Spiritspeaker Warrior: Determinator",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the Night-Wind, and a tribal guardian that patrols the misty canyons.\nTo a certain degree, they can draw upon the power of their body paint to wield their weapons with their willpower.",
   "images": {}
 }

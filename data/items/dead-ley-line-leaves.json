@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 26,
+  "slug": "dead-ley-line-leaves",
+  "name": "Dead Ley Line Leaves",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "abyss-mage-materials",
+  "rarity": 3,
+  "description": "A twig from deep within the earth. Though it is far from where it once lay, its leaves still pulsate with energy.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

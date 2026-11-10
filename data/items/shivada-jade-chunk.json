@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 58,
+  "slug": "shivada-jade-chunk",
+  "name": "Shivada Jade Chunk",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "shivada-jade",
+  "rarity": 4,
+  "description": "Character Ascension material.\n\"Sorry...\"\n\"...to also have you shoulder the grievances of the world.\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

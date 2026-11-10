@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 344,
+  "id": 212,
   "slug": "millennial-pearl-seahorse",
   "name": "Millennial Pearl Seahorse",
   "type": "normal-bosses",
@@ -54,6 +54,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "fontemer-unihorn"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "An ancient suzerain of the Fontemer Aberrant that dwells in a cavern. Has a body possessed of phantasmal beauty and a temper fiercer than a raging thunderstorm.",
   "images": {}
 }

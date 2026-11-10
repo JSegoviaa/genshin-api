@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 11,
+  "slug": "sharp-arrowhead",
+  "name": "Sharp Arrowhead",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "hilichurl-shooter-materials",
+  "rarity": 2,
+  "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

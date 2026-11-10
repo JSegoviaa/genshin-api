@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 27,
+  "slug": "ley-line-sprout",
+  "name": "Ley Line Sprout",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "abyss-mage-materials",
+  "rarity": 4,
+  "description": "It is said that there was a great tree whose roots once spread out to every corner of the world, and this branch is said to be part of it. It is almost if it was never broken off and taken far away, for its vitality is such that it still sprouts new leaves even now.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

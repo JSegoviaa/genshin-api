@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 42,
+  "id": 19,
   "slug": "boars",
   "name": "Boars",
   "family": "mystical-beasts",

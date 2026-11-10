@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 263,
+  "slug": "chimeric-core",
+  "name": "Chimeric Core",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "aberrant-chimeric-monster-materials",
+  "rarity": 1,
+  "description": "The internal core harvested from aberrant man-made monsters.\nThis is the most fundamental core grown within a man-made monster. Yet, simple as it may be, it contains the primordial design for the growth of all man-made creations.",
+  "releaseVersion": "7.0",
+  "images": {}
+}

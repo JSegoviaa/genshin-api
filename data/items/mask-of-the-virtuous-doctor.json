@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 246,
+  "slug": "mask-of-the-virtuous-doctor",
+  "name": "Mask of the Virtuous Doctor",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "the-doctor-materials",
+  "rarity": 5,
+  "description": "A mask found in the heretical testing grounds after defeating the false god that usurped the moon.\nMedicine is meant to cure the ailments of the flesh, yet mortal physicians turn a blind eye to the true causes of death. In the hands of a wise healer, the frail human body escapes the bounds of birth, aging, sickness, and death, revealing strength that defies common sense.",
+  "releaseVersion": "Luna IV",
+  "images": {}
+}

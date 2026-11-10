@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 194,
+  "slug": "saurian-crowned-warriors-golden-whistle",
+  "name": "Saurian-Crowned Warrior's Golden Whistle",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "sauroform-tribal-warrior-materials",
+  "rarity": 3,
+  "description": "Among Natlan's tribes, this is the symbol of a mighty, Saurian-Crowned warrior.\nA golden whistle that is bestowed only upon those who have won great honor for the tribe and shown valor of the highest order. Its symbolic significance now outweighs its practical use, for a Saurian-Crowned warrior is able to handle most crises alone.",
+  "releaseVersion": "5.0",
+  "images": {}
+}

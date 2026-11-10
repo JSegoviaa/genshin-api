@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 353,
+  "id": 359,
   "slug": "immortal-construct",
   "name": "Immortal Construct",
   "type": "normal-bosses",
@@ -54,6 +54,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "unscorched-blossom-branch"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-illumination",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A mere byproduct, manufactured solely to bring a certain selfish plan to fruition.\nWith its purpose as a biological vessel long since lost, the subject endures as a feral, mindless entity wandering the outer wilds.",
   "images": {}
 }

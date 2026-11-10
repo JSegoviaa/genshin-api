@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 109,
+  "id": 228,
   "slug": "swiftstep-armed-courier",
   "name": "Swiftstep Armed Courier",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the Canopy, and a tribal guardian that patrols the forest valleys and mountain streams.\nMany wonder if claymores are too heavy to be wielded by the couriers of the Scions of the Canopy, but perhaps it is precisely because their duties are heavier still that a weapon more capable of deterrence is a necessity.",
   "images": {}
 }

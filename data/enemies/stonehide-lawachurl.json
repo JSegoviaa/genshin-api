@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 201,
+  "id": 54,
   "slug": "stonehide-lawachurl",
   "name": "Stonehide Lawachurl",
   "type": "elite-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "artifactSets": []
+  },
   "description": "A mysterious \"lord\" of hilichurls that walks between a thousand peaks.\nThis huge hilichurl is referred to as a \"lawa\" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.",
   "images": {}
 }

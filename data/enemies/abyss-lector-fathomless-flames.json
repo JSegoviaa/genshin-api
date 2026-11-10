@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 219,
+  "id": 122,
   "slug": "abyss-lector-fathomless-flames",
   "name": "Abyss Lector: Fathomless Flames",
   "type": "elite-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout",
+      "gloomy-statuette",
+      "dark-statuette",
+      "deathly-statuette"
+    ],
+    "artifactSets": []
+  },
   "description": "Wielders of abyssal fire who pursue the meaning behind texts and scriptures. Is a member of the Abyss Order.\nThe surface people have a slightly distorted understanding of what their name means, calling them \"Lectors\" when their name can also mean \"exegete.\" Reading the word of grace grants them great power.",
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 123,
+  "id": 265,
   "slug": "winged-warrior-feathershedder",
   "name": "Winged Warrior: Feathershedder",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the clifftops, and a tribal guardian that patrols the steep mountain ridges.\nProud sword wielders whose blade strokes are as sweeping as a Qucusaur's outstretched wingspan. Blood sprays forth like scattered feathers from the wounds they inflict.",
   "images": {}
 }

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 41,
+  "slug": "guardian-of-apeps-oasis-materials",
+  "name": "Guardian of Apep's Oasis Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 298,
+  "id": 348,
   "slug": "fanged-zealot",
   "name": "Fanged Zealot",
   "type": "elite-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone",
+      "accreted-fragment",
+      "accreted-mass",
+      "accreted-growth"
+    ],
+    "artifactSets": []
+  },
   "description": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess some of the noblest bloodlines. Their clan once produced many formidable war leaders, many of whom even served as close retainers to the King of Beasts.\nYet the greater an individual fae's power and the longer its life, the harder it becomes for such beings to form a clan. Compared with other Volkodlaks, this type is now far rarer in Snezhnaya.",
   "images": {}
 }

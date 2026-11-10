@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 67,
+  "slug": "domain-keeper-materials",
+  "name": "Domain Keeper Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "images": {}
+}

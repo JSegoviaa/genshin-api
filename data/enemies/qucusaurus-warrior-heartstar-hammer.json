@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 119,
+  "id": 261,
   "slug": "qucusaurus-warrior-heartstar-hammer",
   "name": "Qucusaurus Warrior: Heartstar Hammer",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A powerful warrior from the clifftops, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nEven in Natlan, the Nation of Pyro, members of the Flower-Feather Clan have a unique approach when it comes to wielding fire and flames. For these tribal warriors, armed as they are with heavy hammers, flames are something that burst forth from violent collisions, symbols of intense passion. When they do battle, the fight usually ends within an instant— and they are always the ones who stand victorious.",
   "images": {}
 }

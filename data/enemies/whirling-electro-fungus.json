@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 149,
+  "id": 145,
   "slug": "whirling-electro-fungus",
   "name": "Whirling Electro Fungus",
   "type": "common-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nResearch has shown that this sort of fungal beast's internal electric current will change periodically. If further developed, perhaps this study may give rise to a wide range of uses...",
   "images": {}
 }

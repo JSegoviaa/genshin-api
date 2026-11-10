@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 42,
+  "slug": "agnidus-agate-chunk",
+  "name": "Agnidus Agate Chunk",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "agnidus-agate",
+  "rarity": 4,
+  "description": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\nBurnt to cinders for a dream.\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

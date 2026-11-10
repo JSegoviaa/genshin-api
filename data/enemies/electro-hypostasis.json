@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 309,
+  "id": 65,
   "slug": "electro-hypostasis",
   "name": "Electro Hypostasis",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "lightning-prism"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-wisdom",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "Code name: Aleph. A high-purity Electro entity.\nElemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.\nElemental hypostases have developed defensive mechanisms based on their elemental attributes.",
   "images": {}
 }

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 72,
+  "slug": "dvalins-sigh",
+  "name": "Dvalin's Sigh",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "dvalin-materials",
+  "rarity": 5,
+  "description": "A bit of power taken from the whirlwinds evoked by the Dragon of the East.\nBeautiful and transparent, both trade winds and tornadoes will work in its name. The winds moves as its companion, its voice, and its freedom.\nIts enemies are the thousands who stand against the wind.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

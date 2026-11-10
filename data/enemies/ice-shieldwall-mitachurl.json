@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 204,
+  "id": 79,
   "slug": "ice-shieldwall-mitachurl",
   "name": "Ice Shieldwall Mitachurl",
   "type": "elite-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "artifactSets": []
+  },
   "description": "A muscular hilichurl that uses solid ice as a shield, wielding it in battle.\nReason normally dictates that large creatures that see a lot of action should burn through a great number of calories to sustain themselves. As such, the present-day El Musk has proposed the \"Mitachurl Index.\" This index correlates the percentage of mitachurls within the hilichurl population to the stability and success of hilichurl foraging activity.",
   "images": {}
 }

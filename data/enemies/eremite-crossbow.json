@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 132,
+  "id": 366,
   "slug": "eremite-crossbow",
   "name": "Eremite Crossbow",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
+    ],
+    "artifactSets": []
+  },
   "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThe Eremite tradition is to use bows to engage their foes, but ever since the Akademiya permitted them to buy crossbows at the bazaars, only the proudest shooters would still use bows, which take many years of practice to master.",
   "images": {}
 }

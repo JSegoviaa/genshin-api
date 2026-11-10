@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 265,
+  "id": 159,
   "slug": "primal-construct-repulsor",
   "name": "Primal Construct: Repulsor",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-prism",
+      "turbid-prism",
+      "radiant-prism"
+    ],
+    "artifactSets": []
+  },
   "description": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\nThese machines were not first built to be temple guards or palace defenders, but instead to rebirth the paradise that the foolish desert ruler dreamed of.\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
   "images": {}
 }

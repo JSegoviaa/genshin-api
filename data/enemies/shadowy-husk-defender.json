@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 220,
+  "id": 128,
   "slug": "shadowy-husk-defender",
   "name": "Shadowy Husk: Defender",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "gloomy-statuette",
+      "dark-statuette",
+      "deathly-statuette"
+    ],
+    "artifactSets": []
+  },
   "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it is now nothing but a husk that only bears memories of battle. All shall decay in the end, and this is all that is left of the Black Serpent Knights amidst the merciless march of their sins, curses, and time itself.",
   "images": {}
 }

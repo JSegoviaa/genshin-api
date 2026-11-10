@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 6,
+  "id": 4,
   "slug": "hilichurl-grenadiers",
   "name": "Hilichurl Grenadiers",
   "family": "hilichurls",

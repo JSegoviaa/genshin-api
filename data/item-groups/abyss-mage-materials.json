@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 9,
+  "slug": "abyss-mage-materials",
+  "name": "Abyss Mage Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "images": {}
+}

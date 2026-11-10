@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 49,
+  "slug": "vajrada-amethyst-fragment",
+  "name": "Vajrada Amethyst Fragment",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "vajrada-amethyst",
+  "rarity": 3,
+  "description": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

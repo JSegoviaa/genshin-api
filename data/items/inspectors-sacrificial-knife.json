@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 36,
+  "slug": "inspectors-sacrificial-knife",
+  "name": "Inspector's Sacrificial Knife",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "fatui-pyro-agent-materials",
+  "rarity": 4,
+  "description": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 29,
+  "id": 22,
   "slug": "hilichurl-berserker",
   "name": "Hilichurl Berserker",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ],
+    "artifactSets": []
+  },
   "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese hilichurls wield flaming clubs and charge with reckless abandon to chase intruding adventurers off. Most wildfires in the grasslands or forests are not actually caused by a certain special Knight, but due to the actions of these hilichurls.",
   "images": {}
 }

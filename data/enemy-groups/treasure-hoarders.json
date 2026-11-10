@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 38,
+  "id": 7,
   "slug": "treasure-hoarders",
   "name": "Treasure Hoarders",
   "family": "other-human-factions",

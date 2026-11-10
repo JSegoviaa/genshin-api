@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 7,
+  "slug": "divining-scroll",
+  "name": "Divining Scroll",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "samachurl-materials",
+  "rarity": 1,
+  "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

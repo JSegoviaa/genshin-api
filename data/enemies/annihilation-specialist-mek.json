@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 66,
+  "id": 179,
   "slug": "annihilation-specialist-mek",
   "name": "Annihilation Specialist Mek",
   "type": "common-enemies",
@@ -55,6 +55,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ],
+    "artifactSets": []
+  },
   "description": "Although the Fontaine Research Institute of Kinetic Energy Engineering is the main organization involved in clockwork meka research and design, there are also many independent engineers and workshops that are not affiliated with the Research Institute.\nThe first ever machine of this type was designed by an independent engineer to commemorate their lover and sponsor. In the end, it was acquired by the Maison Gardiennage as a tool to uphold municipal security — or, as some would have it, state apparatus enforcing the monopoly on violence.",
   "images": {}
 }

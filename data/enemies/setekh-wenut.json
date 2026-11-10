@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 342,
+  "id": 170,
   "slug": "setekh-wenut",
   "name": "Setekh Wenut",
   "type": "normal-bosses",
@@ -54,6 +54,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "vayuda-turquoise-sliver",
+      "vayuda-turquoise-fragment",
+      "vayuda-turquoise-chunk",
+      "vayuda-turquoise-gemstone",
+      "pseudo-stamens"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "lucky-dog",
+      "wanderers-troupe"
+    ]
+  },
   "description": "An eyeless predator from deep within the Great Red Sand that uses sound and vibrations to seek out its prey.\nLegend has it that in the ancient past before even the concept of time was created, these creatures thrived with their progenitors and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.\nWith the passage of eons, the gifts of heaven has long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the \"Wenut.\"\nSome desert folk still mistakenly believe that sandworms are the final point of a quicksand eel's life cycle, likely due to superficial similarities between the species' behaviors.",
   "images": {}
 }

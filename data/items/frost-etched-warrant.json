@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 228,
+  "slug": "frost-etched-warrant",
+  "name": "Frost-Etched Warrant",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "fatui-oprichniki-materials",
+  "rarity": 3,
+  "description": "A warrant issued to members of the Fatui Oprichniki.\nAdorned by a frost-colored crystal — a symbol of glory. One wonders what deeds its bearer must have performed to prove their loyalty and worth.",
+  "releaseVersion": "Luna I",
+  "images": {}
+}

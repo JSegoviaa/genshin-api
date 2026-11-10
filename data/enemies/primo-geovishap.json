@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 338,
+  "id": 84,
   "slug": "primo-geovishap",
   "name": "Primo Geovishap",
   "type": "normal-bosses",
@@ -57,6 +57,42 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "prithiva-topaz-sliver",
+      "prithiva-topaz-fragment",
+      "prithiva-topaz-chunk",
+      "prithiva-topaz-gemstone",
+      "juvenile-jade"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-destiny",
+      "prayers-for-illumination",
+      "prayers-for-wisdom",
+      "prayers-to-springtime",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "After many years, the awesomely powerful Primo Geovishaps have grown accustomed to changes in their elemental environment.\nFolktales hold that after the great \"draconic calamity\" that led to the ruin of Tianqiu Valley, the Geovishaps and Primo Geovishaps burrowed deep into the earth, awaiting their chance to rise once more...",
   "images": {}
 }

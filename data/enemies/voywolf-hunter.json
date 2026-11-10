@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 307,
+  "id": 357,
   "slug": "voywolf-hunter",
   "name": "Voywolf Hunter",
   "type": "elite-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone",
+      "accreted-fragment",
+      "accreted-mass",
+      "accreted-growth"
+    ],
+    "artifactSets": []
+  },
   "description": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\nTheir clan once prospered to the point that they could serve as an independent army under the King of Beasts. Yet after the Belyi Tsar, master of the Pale Star's royal court, unified the frozen lands, the clan's relatively small losses in the war caused them to fall under suspicion. They gradually declined, and by the time the Tsaritsa ascended the throne, they had withdrawn from the center of power in Snezhnaya. Today, most wolf-pack Volkodlak make their homes in the snowy plains and mountain forests.",
   "images": {}
 }

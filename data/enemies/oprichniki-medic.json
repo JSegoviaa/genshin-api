@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 62,
+  "id": 310,
   "slug": "oprichniki-medic",
   "name": "Oprichniki Medic",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ],
+    "artifactSets": []
+  },
   "description": "A soldier of the Fatui Oprichniki, equipped with a staff-like device and tasked with providing emergency medical support to their comrades in arms.\nIn truth, these medics have largely only taken crash-course training, and as such, their healing abilities are limited. In practice, they tend to adopt more efficient methods of supporting their allies — mixing in with the different units and charging at the enemy lines.",
   "images": {}
 }

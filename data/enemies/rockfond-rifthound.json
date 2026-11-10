@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 215,
+  "id": 114,
   "slug": "rockfond-rifthound",
   "name": "Rockfond Rifthound",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "concealed-claw",
+      "concealed-unguis",
+      "concealed-talon"
+    ],
+    "artifactSets": []
+  },
   "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold\".\nThey do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their \"next of kin,\" and dream of replacing them someday.",
   "images": {}
 }

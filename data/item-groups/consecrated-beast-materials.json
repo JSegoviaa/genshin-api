@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 39,
+  "slug": "consecrated-beast-materials",
+  "name": "Consecrated Beast Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "images": {}
+}

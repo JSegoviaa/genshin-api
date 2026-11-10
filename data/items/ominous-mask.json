@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 6,
+  "slug": "ominous-mask",
+  "name": "Ominous Mask",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "hilichurl-materials",
+  "rarity": 3,
+  "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\nNo one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

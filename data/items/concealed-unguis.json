@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 105,
+  "slug": "concealed-unguis",
+  "name": "Concealed Unguis",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "riftwolf-materials",
+  "rarity": 3,
+  "description": "Body tissue left behind by one of the Riftwolves.\nThough they are quite wondrous indeed, these hunting hounds of \"Alfisol\" are nothing of note before Durin of \"Humus.\"",
+  "releaseVersion": "2.2",
+  "images": {}
+}

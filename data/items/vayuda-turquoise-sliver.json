@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 52,
+  "slug": "vayuda-turquoise-sliver",
+  "name": "Vayuda Turquoise Sliver",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "vayuda-turquoise",
+  "rarity": 2,
+  "description": "Character Ascension Material.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

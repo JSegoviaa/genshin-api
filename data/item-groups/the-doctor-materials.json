@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 66,
+  "slug": "the-doctor-materials",
+  "name": "The Doctor Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

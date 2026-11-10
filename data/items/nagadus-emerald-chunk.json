@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 130,
+  "slug": "nagadus-emerald-chunk",
+  "name": "Nagadus Emerald Chunk",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "nagadus-emerald",
+  "rarity": 4,
+  "description": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
+  "releaseVersion": "3.0",
+  "images": {}
+}

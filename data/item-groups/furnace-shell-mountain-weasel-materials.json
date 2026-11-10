@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 58,
+  "slug": "furnace-shell-mountain-weasel-materials",
+  "name": "Furnace Shell Mountain Weasel Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "images": {}
+}

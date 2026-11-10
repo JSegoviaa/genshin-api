@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 335,
+  "id": 281,
   "slug": "wayward-hermetic-spiritspeaker",
   "name": "Wayward Hermetic Spiritspeaker",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "talisman-of-the-enigmatic-land"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "lucky-dog",
+      "prayers-to-springtime",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A priestess of the Masters of the Night-Wind who has lived apart from her tribe, honing her abilities in utter solitude. It is said that her Spiritspeaking powers surpass those of ordinary priests and shamans, a result of having had the protection of the Masters of the Night-Wind's Wayob bestowed upon her. Both a blessing and a curse, these powers were at first beyond her ability to control, which was why she set out to master them in isolation from her tribe. Though she has since done so, to this day she still lives in seclusion, a habit that has earned her a reputation as a loner and a recluse. Rumor has it, however, that she is more than willing to teach those who seek her guidance — though always on her own terms...",
   "images": {}
 }

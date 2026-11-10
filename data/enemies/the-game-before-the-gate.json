@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 367,
+  "id": 296,
   "slug": "the-game-before-the-gate",
   "name": "The Game Before the Gate",
   "type": "weekly-bosses",
@@ -55,6 +55,32 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "ascended-sample-knight",
+      "ascended-sample-rook",
+      "ascended-sample-queen"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A soldier-entity born into being through the skills of various members of the Hexenzirkel.\nAlthough their technological underpinnings are far from abstruse, and touch not upon the profound wisdom at the universe's core, yet as guards of the gate's final threshold, they are a metaphor in and of themselves.\nThis world may be governed by rules, but for those who manage to cross its verge, such constraints no longer apply.",
   "images": {}
 }

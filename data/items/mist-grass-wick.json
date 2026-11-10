@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 33,
+  "slug": "mist-grass-wick",
+  "name": "Mist Grass Wick",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "fatui-cicin-mage-materials",
+  "rarity": 4,
+  "description": "A rare bundle of Mist Grass that gives off a faint glow. Those who carry it invite both the Cicins and misfortune.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

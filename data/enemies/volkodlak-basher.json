@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 303,
+  "id": 353,
   "slug": "volkodlak-basher",
   "name": "Volkodlak Basher",
   "type": "elite-enemies",
@@ -55,6 +55,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone",
+      "accreted-fragment",
+      "accreted-mass",
+      "accreted-growth"
+    ],
+    "artifactSets": []
+  },
   "description": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\nWith the strength of beasts and humanoid bodies, they possess a feral instinct for bringing their own power to bear. Should an untrained human face such a Volkodlak with weapons in hand, victory would undoubtedly belong to the latter.",
   "images": {}
 }

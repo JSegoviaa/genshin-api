@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 343,
+  "id": 207,
   "slug": "emperor-of-fire-and-iron",
   "name": "Emperor of Fire and Iron",
   "type": "normal-bosses",
@@ -54,6 +54,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "emperors-resolution"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "An ancient ruler of the Fontemer Aberrant that lives in the caverns. It is said to have witnessed the seas of Fontaine before the first diluvian period.",
   "images": {}
 }

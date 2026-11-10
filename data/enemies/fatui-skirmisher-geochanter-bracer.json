@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 46,
+  "id": 33,
   "slug": "fatui-skirmisher-geochanter-bracer",
   "name": "Fatui Skirmisher - Geochanter Bracer",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A skirmisher with the ability to generate a Geo Shield and defend their allies.\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\nTo complete their tasks and reduce losses in men and material, their tactics are thus more reliant on teamwork.",
   "images": {}
 }

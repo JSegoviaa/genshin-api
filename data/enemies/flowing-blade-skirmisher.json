@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 103,
+  "id": 222,
   "slug": "flowing-blade-skirmisher",
   "name": "Flowing Blade Skirmisher",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the source of the springs, and a tribal guardian that patrols the waters and shores.\nIn lieu of weapons, these tribal warriors have mastered the techniques of raw, physical combat. Their seemingly ordinary fists and feet contain the power equal to the crashing waves.",
   "images": {}
 }

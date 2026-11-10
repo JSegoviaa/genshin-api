@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 224,
+  "id": 171,
   "slug": "abyss-herald-frost-fall",
   "name": "Abyss Herald: Frost Fall",
   "type": "elite-enemies",
@@ -53,6 +53,10 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [],
+    "artifactSets": []
+  },
   "description": "A monster from the Abyss Order that wields frigid, icy blades in battle.\nJust as there are saints who will spread and glorify the profound gospel, there are envoys who must correct any twisted strains and remove any dissonance.\nPeople often say that steel feels like ice as it pierces the body, but this dark frost is said to freeze even the soul.",
   "images": {}
 }

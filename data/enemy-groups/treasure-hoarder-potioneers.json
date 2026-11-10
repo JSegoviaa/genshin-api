@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 37,
+  "id": 8,
   "slug": "treasure-hoarder-potioneers",
   "name": "Treasure Hoarder Potioneers",
   "family": "other-human-factions",

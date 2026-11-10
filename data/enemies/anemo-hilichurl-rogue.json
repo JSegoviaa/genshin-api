@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 207,
+  "id": 173,
   "slug": "anemo-hilichurl-rogue",
   "name": "Anemo Hilichurl Rogue",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "a-flower-yet-to-bloom",
+      "treasured-flower",
+      "wanderers-blooming-flower"
+    ],
+    "artifactSets": []
+  },
   "description": "Hilichurl wanderers who do not belong to any hilichurl tribe. It almost seems as if they are searching for the fated genesis of their kind, seeking to uncover some bygone splendor that once belonged to their people.\nIf these monsters capable of only crude language and bereft of missing history could record their own epics and legends, the hilichurl wanderers would be the heroes in said tales.",
   "images": {}
 }

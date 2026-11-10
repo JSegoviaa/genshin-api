@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 15,
+  "slug": "varunada-lazurite",
+  "name": "Varunada Lazurite",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "images": {}
+}

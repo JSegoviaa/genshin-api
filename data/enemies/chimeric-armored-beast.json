@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 178,
+  "id": 339,
   "slug": "chimeric-armored-beast",
   "name": "Chimeric Armored Beast",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
+    ],
+    "artifactSets": []
+  },
   "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs.",
   "images": {}
 }

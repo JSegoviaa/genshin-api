@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 20,
+  "id": 120,
   "slug": "electro-specter",
   "name": "Electro Specter",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A monster born from hightly-concentrated Electro elements that can float in the air.\nA certain researcher once studied these creatures. He believed they must be Hypostases of some kind. After all, both had elemental peculiarties and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption.",
   "images": {}
 }

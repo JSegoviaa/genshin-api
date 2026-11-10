@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 222,
+  "slug": "ascended-sample-queen",
+  "name": "Ascended Sample: Queen",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "the-game-before-the-gate-materials",
+  "rarity": 5,
+  "description": "A rare sample resulting from the alchemical activation of a substance.\nThe \"Queen\" was once known as the \"Minister,\" but as the rules of the game evolved, it grew to become the most powerful piece and a representation of the authority of the family behind the throne — a true symbol of gilded royalty.\nPerhaps the promotion of an ordinary foot soldier shares some similarities with the transmutation of matter, yet even should they manage to turn to gold, the most a pawn might hope for is to be represented by an upturned rook.",
+  "releaseVersion": "5.6",
+  "images": {}
+}

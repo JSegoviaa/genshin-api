@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 131,
+  "slug": "nagadus-emerald-gemstone",
+  "name": "Nagadus Emerald Gemstone",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "nagadus-emerald",
+  "rarity": 5,
+  "description": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"\n\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
+  "releaseVersion": "3.0",
+  "images": {}
+}

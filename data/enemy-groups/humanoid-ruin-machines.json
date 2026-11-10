@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 27,
+  "id": 15,
   "slug": "humanoid-ruin-machines",
   "name": "Humanoid Ruin Machines",
   "family": "automatons",

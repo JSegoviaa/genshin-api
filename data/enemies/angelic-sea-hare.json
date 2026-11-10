@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 156,
+  "id": 190,
   "slug": "angelic-sea-hare",
   "name": "Angelic Sea Hare",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ],
+    "artifactSets": []
+  },
   "description": "An aquatic creature that hunts by firing watery projectiles.\nFrom an evolutionary perspective, it is assumed that Fontemer Aberrants have developed from aquatic creatures due to environmental factors specific to Fontaine. As such, it can be inferred that at some point in the past, Fontaine's original aquatic lifeforms differed little from those native to the other regions of Teyvat.",
   "images": {}
 }

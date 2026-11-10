@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 142,
+  "id": 132,
   "slug": "floating-hydro-fungus",
   "name": "Floating Hydro Fungus",
   "type": "common-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nIt is said that it tastes awful. However, such fungi have lots of moisture within them, and so can be used as an emergency water source...",
   "images": {}
 }

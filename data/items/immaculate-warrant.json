@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 227,
+  "slug": "immaculate-warrant",
+  "name": "Immaculate Warrant",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "fatui-oprichniki-materials",
+  "rarity": 2,
+  "description": "A warrant issued to members of the Fatui Oprichniki.\nOne wonders if the exquisite styling might hide a price paid for its owner's promotion.",
+  "releaseVersion": "Luna I",
+  "images": {}
+}

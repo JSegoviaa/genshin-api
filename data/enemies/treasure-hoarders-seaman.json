@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 88,
+  "id": 46,
   "slug": "treasure-hoarders-seaman",
   "name": "Treasure Hoarders: Seaman",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n\"Stealing? What do you mean, stealing? It's re-discovery, I tell you — the return of treasure to those who appreciate it! Makes every happy, to boot! How great is that, eh?\"\n—A certain Treasure Hoarder Seaman, in response to a question posed by a doubtful recruit",
   "images": {}
 }

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 199,
+  "slug": "ignited-seed-of-life",
+  "name": "Ignited Seed of Life",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "avatar-of-lava-materials",
+  "rarity": 3,
+  "description": "A condensed pile of burning matter obtained from the body of a defeated Avatar of Lava.\nIt emits a slight heat.\nAttempting to stop a stone pile of this size from incessantly burning away would be a hard task indeed. It is said that this is some primordial form of life.",
+  "releaseVersion": "5.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 115,
+  "id": 234,
   "slug": "yumkasaurus-warrior-whirling-leaves",
   "name": "Yumkasaurus Warrior: Whirling Leaves",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A powerful warrior from the Canopy, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can use a grappling hook to extend their attack range. Grappling hooks are an indispensable part of daily life for the Scions of the Canopy. However, only the wildest warriors will combine the hooks with sawblades to create a weapon both exceptionally lethal and difficult-to-control.",
   "images": {}
 }

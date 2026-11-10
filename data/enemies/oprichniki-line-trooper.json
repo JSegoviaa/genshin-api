@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 61,
+  "id": 309,
   "slug": "oprichniki-line-trooper",
   "name": "Oprichniki Line Trooper",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ],
+    "artifactSets": []
+  },
   "description": "A soldier of the Fatui Oprichniki, equipped with a gunblade and tasked to hold the line as the resilient backbone of the Oprichniki forces.\nAccording to Snezhnayan infantry manuals, the primary duties of line troops are merely to aim, shoot, and charge. Even should the individual soldier's combat power not prove exceptional, soldiers of the line in tight formation remain a key foundation of the Snezhnayan military machine.",
   "images": {}
 }

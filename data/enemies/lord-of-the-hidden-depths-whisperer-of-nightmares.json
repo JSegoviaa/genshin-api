@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 322,
+  "id": 332,
   "slug": "lord-of-the-hidden-depths-whisperer-of-nightmares",
   "name": "Lord of the Hidden Depths: Whisperer of Nightmares",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "remnant-of-the-dreadwing"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-wisdom",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "An Abyssal creature that creeps through rifts in the hidden depths, quietly watching this world. Its eerie, faceless form is said to be nothing more than a projection, for its true body exists only as a formless mass of pure Abyssal energy.\nEven invaders who seek to claim this world must obey its rules to some extent. Unless the heavens split open and the earth's defenses collapse, these star-born outsiders can do little more than linger at the world's fringes, whispering their madness into this realm, their attempts to seep inside amounting to nothing... But how long can this stability and order truly last?",
   "images": {}
 }

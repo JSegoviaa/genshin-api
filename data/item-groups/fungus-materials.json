@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 31,
+  "slug": "fungus-materials",
+  "name": "Fungus Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "images": {}
+}

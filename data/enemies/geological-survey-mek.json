@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 71,
+  "id": 184,
   "slug": "geological-survey-mek",
   "name": "Geological Survey Mek",
   "type": "common-enemies",
@@ -55,6 +55,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ],
+    "artifactSets": []
+  },
   "description": "A clockwork meka designed for surveying underground resources and certain minerals.\nDue to the fact that the desired metal type can be set, this device has proven very popular among Treasure Hoarders and Adventurers alike.",
   "images": {}
 }

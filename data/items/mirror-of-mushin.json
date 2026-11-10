@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 141,
+  "slug": "mirror-of-mushin",
+  "name": "Mirror of Mushin",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "everlasting-lord-of-arcane-wisdom-materials",
+  "rarity": 5,
+  "description": "The mirror that was set in Shouki no Kami's chest to separate him from the outside world. The mitsudomoe symbol is emblazoned on it as a deliberate show of status and might.\nThis symbol, however, is no show of obeisance to the master of lightning, but is instead a blade pointed at the existing powers that be in this world. Nor is the mirror a means to shut out the looks of judgment from onlooking people, but is rather a bulwark against this base and sullied world. Within this great temple shall punishment be meted out and ignorance be cleansed.\nDreams shall be overturned, desires shall be cut away, and karma shall be reset.",
+  "releaseVersion": "3.2",
+  "images": {}
+}

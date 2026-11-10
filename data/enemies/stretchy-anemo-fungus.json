@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 145,
+  "id": 141,
   "slug": "stretchy-anemo-fungus",
   "name": "Stretchy Anemo Fungus",
   "type": "common-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis mushroom quickly absorbs nutrients through its extended column, and its umbrella-shaped cap turns where the wind's flow carries it.",
   "images": {}
 }

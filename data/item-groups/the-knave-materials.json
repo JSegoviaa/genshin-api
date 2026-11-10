@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 50,
+  "slug": "the-knave-materials",
+  "name": "The Knave Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

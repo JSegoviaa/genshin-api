@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 40,
+  "slug": "agnidus-agate-sliver",
+  "name": "Agnidus Agate Sliver",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "agnidus-agate",
+  "rarity": 2,
+  "description": "Character Ascension Material.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

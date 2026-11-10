@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 260,
+  "slug": "ethereal-glimmershard",
+  "name": "Ethereal Glimmershard",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "fae-of-crystalline-flesh-materials",
+  "rarity": 1,
+  "description": "The remains of a Snezhnayan fae left behind after battle.\nThese shards once coated the creature's body like crystalline scales. Upon falling away, they stripped themselves of all colors, shifting into something akin to the dusty dross of a moth's wings.",
+  "releaseVersion": "7.0",
+  "images": {}
+}

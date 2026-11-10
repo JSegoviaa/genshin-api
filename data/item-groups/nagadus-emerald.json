@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 36,
+  "slug": "nagadus-emerald",
+  "name": "Nagadus Emerald",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "images": {}
+}

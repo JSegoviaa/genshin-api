@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 198,
+  "slug": "ignited-stone",
+  "name": "Ignited Stone",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "avatar-of-lava-materials",
+  "rarity": 2,
+  "description": "A shard obtained from the body of a defeated Avatar of Lava.\nThough it has been shattered to a great extent, on the inside, it still continues to burn. Perhaps this is a testament to the extraordinary vitality of phlogiston.",
+  "releaseVersion": "5.0",
+  "images": {}
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 244,
+  "slug": "hooked-beak-of-the-deep-shadow",
+  "name": "Hooked Beak of the Deep Shadow",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "fisher-of-hidden-depths-materials",
+  "rarity": 4,
+  "description": "The remains of a fisher from beyond this world, left after its body dissolved.\nA birdlike, hook-shaped beak used by predators from beyond this world to store the biomass they seize.",
+  "releaseVersion": "Luna IV",
+  "images": {}
+}

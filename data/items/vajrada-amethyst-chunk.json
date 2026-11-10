@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 50,
+  "slug": "vajrada-amethyst-chunk",
+  "name": "Vajrada Amethyst Chunk",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "vajrada-amethyst",
+  "rarity": 4,
+  "description": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\nIt should hold absolute control over this world.\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

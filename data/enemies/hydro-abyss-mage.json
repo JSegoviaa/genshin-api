@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 210,
+  "id": 57,
   "slug": "hydro-abyss-mage",
   "name": "Hydro Abyss Mage",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "artifactSets": []
+  },
   "description": "Abyss creatures that utilize Hydro energy in battle.\nStories circulate among adventurers that Abyss Mages are at the lowest rung of the Abyss Order's hierarchy and that they roam the various lands to scheme fell deeds of destruction. Though they also often make fun of these Abyss Mages, saying that the most harm they can do is to cause rheumatism or a common cold, their power is not to be underestimated.",
   "images": {}
 }

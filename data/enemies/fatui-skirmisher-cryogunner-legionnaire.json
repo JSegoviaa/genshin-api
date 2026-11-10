@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 44,
+  "id": 31,
   "slug": "fatui-skirmisher-cryogunner-legionnaire",
   "name": "Fatui Skirmisher - Cryogunner Legionnaire",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost. Though this may confer elemental power beyond the ken of ordinary humans, that power may yet to come at a price...",
   "images": {}
 }

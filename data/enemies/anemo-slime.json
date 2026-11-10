@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
+    ],
+    "artifactSets": []
+  },
   "description": "A small monster created by the coalescing of Anemo dispersed throughout nature.\nIt is able to float in the air due to the power of Anemo.",
   "images": {}
 }

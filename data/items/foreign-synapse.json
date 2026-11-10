@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 164,
+  "slug": "foreign-synapse",
+  "name": "Foreign Synapse",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "breacher-primus-materials",
+  "rarity": 3,
+  "description": "A shard left by Breacher Primus.\nThis strange life form originates in Elynas and inhabits the area.",
+  "releaseVersion": "4.0",
+  "images": {}
+}

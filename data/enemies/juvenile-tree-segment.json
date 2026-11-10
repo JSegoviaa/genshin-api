@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 299,
+  "id": 349,
   "slug": "juvenile-tree-segment",
   "name": "Juvenile Tree Segment",
   "type": "elite-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone",
+      "hollow-root-of-life",
+      "sprout-node-of-life",
+      "coiled-core-of-life"
+    ],
+    "artifactSets": []
+  },
   "description": "A Leshy that grows in forests and wilds.\nAmong the many fae of Snezhnaya, Leshies are a very unusual kind, rarely appearing in cities. They may well be the longest-lived among all fae, and few members of other long-lived races have ever witnessed a Leshy's life from beginning to end. Of course, most people would likely struggle even to distinguish one Leshy from another.",
   "images": {}
 }

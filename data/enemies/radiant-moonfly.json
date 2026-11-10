@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 350,
+  "id": 324,
   "slug": "radiant-moonfly",
   "name": "Radiant Moonfly",
   "type": "normal-bosses",
@@ -54,6 +54,26 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "nagadus-emerald-sliver",
+      "nagadus-emerald-fragment",
+      "nagadus-emerald-chunk",
+      "nagadus-emerald-gemstone",
+      "lightbearing-scale-feather"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "The moon's ancient power has seeped into these illusory wings, and the butterfly-shaped monster now dances lightly in the moonlight.\nThe principles of evolution state that after the wild yet primeval power was tamed by the heavenly ruler, such a monster should not be able to maintain its shape, becoming smaller and weaker over time. However, the moon's blessing has allowed it to glide through this world while remaining in its prime, displaying the remnants of an older world, when the ancient moon once illuminated the land.",
   "images": {}
 }

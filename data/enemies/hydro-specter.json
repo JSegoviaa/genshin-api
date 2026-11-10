@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 18,
+  "id": 110,
   "slug": "hydro-specter",
   "name": "Hydro Specter",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A monster birthed from a high concentration of Hydro that can float in the air.\nOn moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.",
   "images": {}
 }

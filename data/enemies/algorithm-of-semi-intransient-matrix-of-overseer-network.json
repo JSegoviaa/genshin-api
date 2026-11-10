@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 328,
+  "id": 162,
   "slug": "algorithm-of-semi-intransient-matrix-of-overseer-network",
   "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
   "type": "normal-bosses",
@@ -54,6 +54,26 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "vayuda-turquoise-sliver",
+      "vayuda-turquoise-fragment",
+      "vayuda-turquoise-chunk",
+      "vayuda-turquoise-gemstone",
+      "light-guiding-tetrahedron"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A perpetual-motion device from an ancient civilization.\nIt governs the many ruin machines that are scattered throughout the desert and still seems to carry the will of its lonely ruler.",
   "images": {}
 }

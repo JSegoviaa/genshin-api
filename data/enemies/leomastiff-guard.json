@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 300,
+  "id": 350,
   "slug": "leomastiff-guard",
   "name": "Leomastiff Guard",
   "type": "elite-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone",
+      "accreted-fragment",
+      "accreted-mass",
+      "accreted-growth"
+    ],
+    "artifactSets": []
+  },
   "description": "A Volkodlak of the canine clans that usually appears somewhat lazy.\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor.",
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 84,
+  "id": 42,
   "slug": "treasure-hoarders-marksman",
   "name": "Treasure Hoarders: Marksman",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThough they are called \"marksmen\", this name has an undercurrent of mockery to it, as they use crossbows instead of bows, which require a long period of training to use. It must be said that even hilichurls know how to operate a crossbow. Just point the wider end at the enemy, pull the trigger, and bam — that's all there is to it.",
   "images": {}
 }

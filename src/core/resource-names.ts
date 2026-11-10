@@ -15,6 +15,9 @@ export const RESOURCE_NAMES = [
   "enemy-families",
   "enemy-groups",
   "enemies",
+  "item-types",
+  "item-groups",
+  "items",
 ] as const;
 
 export type ResourceName = (typeof RESOURCE_NAMES)[number];

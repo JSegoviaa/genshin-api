@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 23,
+  "id": 16,
   "slug": "anemo-samachurl",
   "name": "Anemo Samachurl",
   "type": "common-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ],
+    "artifactSets": []
+  },
   "description": "A wizened, mumbling hilichurl, one that spreads the message of Anemo.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. Their ability to command the flowing winds stems from dark, forgotten memories.",
   "images": {}
 }

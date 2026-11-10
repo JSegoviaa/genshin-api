@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 241,
+  "id": 275,
   "slug": "tenebrous-mimesis-tepetlisaurus-warrior-rockbreaker-blade",
   "name": "Tenebrous Mimesis - Tepetlisaurus Warrior: Rockbreaker Blade",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "artifactSets": []
+  },
   "description": null,
   "images": {}
 }

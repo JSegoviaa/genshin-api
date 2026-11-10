@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 43,
+  "id": 30,
   "slug": "fatui-skirmisher-anemoboxer-vanguard",
   "name": "Fatui Skirmisher - Anemoboxer Vanguard",
   "type": "common-enemies",
@@ -58,6 +58,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.\nThey departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.\n—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
   "images": {}
 }

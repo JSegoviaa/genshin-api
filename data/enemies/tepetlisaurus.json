@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 169,
+  "id": 238,
   "slug": "tepetlisaurus",
   "name": "Tepetlisaurus",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ],
+    "artifactSets": []
+  },
   "description": "A Saurian with a drill-like horn and strong claws that can tunnel through rocks and solid phlogiston.\nAccording to legend, the ancestor of all Tepetlisaurs was a massive drake as large as a mountain, with an exceptionally long lifespan. When it slept, mountains would form along its back, and when it woke, it would shake off the dirt and rocks, leaving behind gems and jade shining amongst its scales. The huge, drill-shaped objects in the Children of Echoes are said to be the remains of that great drake's large drill-horn.",
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 231,
+  "id": 250,
   "slug": "tenebrous-mimesis-crackling-axe-mitachurl",
   "name": "Tenebrous Mimesis - Crackling Axe Mitachurl",
   "type": "elite-enemies",
@@ -55,6 +55,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "artifactSets": []
+  },
   "description": null,
   "images": {}
 }

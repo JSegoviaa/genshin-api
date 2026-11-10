@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 326,
+  "id": 134,
   "slug": "ruin-serpent",
   "name": "Ruin Serpent",
   "type": "normal-bosses",
@@ -53,6 +53,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "prithiva-topaz-sliver",
+      "prithiva-topaz-fragment",
+      "prithiva-topaz-chunk",
+      "prithiva-topaz-gemstone",
+      "runic-fang"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "From within the depths of The Chasm come faint bursts of machine motion...",
   "images": {}
 }

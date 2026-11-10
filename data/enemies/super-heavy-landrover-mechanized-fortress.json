@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 323,
+  "id": 326,
   "slug": "super-heavy-landrover-mechanized-fortress",
   "name": "Super-Heavy Landrover: Mechanized Fortress",
   "type": "normal-bosses",
@@ -55,6 +55,26 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "cyclic-military-kuuvahki-core"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-illumination",
+      "wanderers-troupe"
+    ]
+  },
   "description": "Referred to internally as the \"Type Drzislav,\" this super heavy-class mechanism was jointly developed by the Armory Palace and the Kuuvahki Experimental Design Bureau.\nThis giant all-terrain vehicle was originally designed for civilian use, particularly heavy transport, as evidenced by its equipped drills and cutters. However, later production models were militarized with heavy weapons mounted on them.\nAfter all, in this mortal world beneath the moon, even the most perfect and divine designs may stray from their original intent, let alone machines born of mortal hands, crafted from humble intentions and flawed from the very beginning.",
   "images": {}
 }

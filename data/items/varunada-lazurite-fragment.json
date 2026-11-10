@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 45,
+  "slug": "varunada-lazurite-fragment",
+  "name": "Varunada Lazurite Fragment",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "varunada-lazurite",
+  "rarity": 3,
+  "description": "Character Ascension material.\n\"My ideals have no stains.\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

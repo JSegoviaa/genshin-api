@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 21,
+  "slug": "lupus-boreas-materials",
+  "name": "Lupus Boreas Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

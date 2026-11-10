@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 68,
+  "id": 181,
   "slug": "arithmetic-enhancer-mek",
   "name": "Arithmetic Enhancer Mek",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ],
+    "artifactSets": []
+  },
   "description": "A clockwork meka designed to transmit and enhance signals.\nThe power that drives this clockwork meka is generated from a controlled annihilation reaction between ousia and pneuma in the kinetic core. As a result, overloading it with excessive energy will cause its original equilibrium to be disrupted.",
   "images": {}
 }

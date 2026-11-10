@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 359,
+  "id": 88,
   "slug": "azhdaha",
   "name": "Azhdaha",
   "type": "weekly-bosses",
@@ -57,6 +57,40 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "prithiva-topaz-sliver",
+      "prithiva-topaz-fragment",
+      "prithiva-topaz-chunk",
+      "prithiva-topaz-gemstone",
+      "dragon-lords-crown",
+      "bloodjade-branch",
+      "gilded-scale"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "An enormous dragon as ancient as the mountains themselves. In an age that has all but faded from memory, he stood shoulder to shoulder with one who ruled over a harbor of stone. But in the end, the two came into conflict, and the dragon was banished to a dark place deep underground.\nOver the long years of his imprisonment, his power has slowly dissipated. He has also become disfigured from the various kinds of erosion he has been subjected to.\nThe faint rattling of this dragon lord's shackles and his deep, angry growl echo through the bowels of the mountains like memories of a bygone era.",
   "images": {}
 }

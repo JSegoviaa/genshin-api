@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 365,
+  "id": 219,
   "slug": "the-knave",
   "name": "The Knave",
   "type": "weekly-bosses",
@@ -53,6 +53,24 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "fading-candle",
+      "silken-feather",
+      "denial-and-judgment"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "The Knave, Fourth of the Fatui Harbingers.",
   "images": {}
 }

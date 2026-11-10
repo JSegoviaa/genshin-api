@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 341,
+  "id": 151,
   "slug": "jadeplume-terrorshroom",
   "name": "Jadeplume Terrorshroom",
   "type": "normal-bosses",
@@ -53,6 +53,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "nagadus-emerald-sliver",
+      "nagadus-emerald-fragment",
+      "nagadus-emerald-chunk",
+      "nagadus-emerald-gemstone",
+      "majestic-hooked-beak"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "The lord of fungal beasts that lives in the heart of the woods and in the company of its kin.\nFungi grow wherever it is damp and fertile. They can always adapt to adversity, and their spores can spread anywhere there is room. Given time, this proud-looking bird-like beast might evolve into something yet more magnificent.",
   "images": {}
 }

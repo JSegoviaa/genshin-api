@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 127,
+  "id": 284,
   "slug": "ferocious-warrior-human-ram",
   "name": "Ferocious Warrior: Human Ram",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the plains and a tribal guardian who watches over the golden fields.\nThey are adept at using their horn-studded blades to strike at enemy weak spots — be careful not to let them detect any of yours.",
   "images": {}
 }

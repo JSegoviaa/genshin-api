@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 83,
+  "id": 41,
   "slug": "treasure-hoarders-hydro-potioneer",
   "name": "Treasure Hoarders: Hydro Potioneer",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThey say that some Treasure Hoarder Potioneers used to be charlatans who would wander villages, towns, and cities, hawking their special blends of elixirs, holy waters, and the like. These cure-alls certainly seem to serve better in combat than they ever did in chicanery.",
   "images": {}
 }

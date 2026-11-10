@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 43,
+  "slug": "clockwork-meka-materials",
+  "name": "Clockwork Meka Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "images": {}
+}

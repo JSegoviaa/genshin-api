@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 32,
+  "id": 25,
   "slug": "hilichurl-shooter",
   "name": "Hilichurl Shooter",
   "type": "common-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
+    ],
+    "artifactSets": []
+  },
   "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious.",
   "images": {}
 }

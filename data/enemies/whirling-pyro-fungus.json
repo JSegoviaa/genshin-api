@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 155,
+  "id": 157,
   "slug": "whirling-pyro-fungus",
   "name": "Whirling Pyro Fungus",
   "type": "common-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nDue to the abundant amount of Pyro these creatures contain, they have a tendency to cause forest fires during dry seasons, and thus are considered a dangerous invasive species to the forest.",
   "images": {}
 }

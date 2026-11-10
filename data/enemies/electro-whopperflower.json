@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 141,
+  "id": 97,
   "slug": "electro-whopperflower",
   "name": "Electro Whopperflower",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ],
+    "artifactSets": []
+  },
   "description": "Energetic mimetic Plant monsters that use Electro to attack their prey.\nWhen fully-charged with Electro energy, they can unleash a strong electric current from their crowns. As such, some researchers have tried to apply them in other areas...",
   "images": {}
 }

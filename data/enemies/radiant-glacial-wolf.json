@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 296,
+  "id": 331,
   "slug": "radiant-glacial-wolf",
   "name": "Radiant Glacial Wolf",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "lightless-bone",
+      "glowing-remains",
+      "radiant-exoskeleton"
+    ],
+    "artifactSets": []
+  },
   "description": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\nLegend has it that when a dark calamity wiped out countless lives, the frontier forests fell completely silent. In that stillness, the only sound to break the dead quiet was the howl of the Glacial Wolves calling to the moon. Night after night, their mournful cries echoed across the empty wilderness in the cold moonlight.",
   "images": {}
 }

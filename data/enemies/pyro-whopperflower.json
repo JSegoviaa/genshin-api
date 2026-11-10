@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 139,
+  "id": 50,
   "slug": "pyro-whopperflower",
   "name": "Pyro Whopperflower",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ],
+    "artifactSets": []
+  },
   "description": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 205,
+  "id": 98,
   "slug": "crackling-axe-mitachurl",
   "name": "Crackling Axe Mitachurl",
   "type": "elite-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "artifactSets": []
+  },
   "description": "Muscular hilichurls who wield large, two-handled axes.\nAttacks with large strikes and uses Electro Slimes to infuse their axes with Electro. Their blows are very lethal.\nAxes forged from steel are highly conductive material. The image of those tall and strong Crackling Axe Mitachurls holding their axes up to summon lightning is quite majestic to the hilichurls.",
   "images": {}
 }

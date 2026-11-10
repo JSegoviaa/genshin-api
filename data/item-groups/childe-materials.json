@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 22,
+  "slug": "childe-materials",
+  "name": "Childe Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

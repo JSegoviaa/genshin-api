@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 336,
+  "id": 68,
   "slug": "cryo-regisvine",
   "name": "Cryo Regisvine",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "hoarfrost-core"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "lucky-dog",
+      "prayers-to-springtime",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A monster formed from a vine that was imbued with the essence of biting frost within the ley lines.\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the ley lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers, and the like, which brim over with elemental energy.\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — in the course of many years.",
   "images": {}
 }

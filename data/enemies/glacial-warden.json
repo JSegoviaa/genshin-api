@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 182,
+  "id": 343,
   "slug": "glacial-warden",
   "name": "Glacial Warden",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone"
+    ],
+    "artifactSets": []
+  },
   "description": "A Snegovik born of love amid the snow and ice.\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end.",
   "images": {}
 }

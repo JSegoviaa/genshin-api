@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 48,
+  "slug": "vajrada-amethyst-sliver",
+  "name": "Vajrada Amethyst Sliver",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "vajrada-amethyst",
+  "rarity": 2,
+  "description": "Character Ascension Material.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 70,
+  "slug": "fae-of-crystalline-flesh-materials",
+  "name": "Fae of Crystalline Flesh Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "images": {}
+}

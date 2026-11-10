@@ -347,6 +347,50 @@ describe("detail", () => {
     expect(region.body.enemies.map((e: any) => e.slug)).toContain("andrius");
   });
 
+  it("returns items with type, source, group and relations", async () => {
+    const { status, body } = await get("/api/v1/items/damaged-mask");
+    expect(status).toBe(200);
+    expect(body.type).toMatchObject({
+      slug: "character-and-weapon-enhancement-materials",
+    });
+    expect(body.source).toBe("general-enemy-drops");
+    expect(body.group).toMatchObject({ slug: "hilichurl-materials" });
+    expect(body.rarity).toMatchObject({ id: 1 });
+    expect(body.droppedBy.map((e: any) => e.slug)).toContain("hilichurl");
+    expect(body.usedBy.length).toBeGreaterThan(0);
+    const group = await get("/api/v1/item-groups/hilichurl-materials");
+    expect(group.body.items.map((i: any) => i.slug)).toEqual([
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+    ]);
+    const weekly = await get(
+      "/api/v1/items?source=weekly-boss-drops&rarity=5&limit=100",
+    );
+    expect(weekly.body.count).toBeGreaterThan(0);
+    const type = await get("/api/v1/item-types/character-ascension-materials");
+    expect(type.body.inventoryCategory).toBe("Character Development Items");
+    expect(type.body.groups).toHaveLength(7);
+  });
+
+  it("links enemy drops and character materials to items", async () => {
+    const guard = await get("/api/v1/enemies/ruin-guard");
+    expect(guard.body.drops.items.map((i: any) => i.slug)).toContain(
+      "chaos-core",
+    );
+    const droppers = await get("/api/v1/enemies?drop=damaged-mask&limit=100");
+    expect(droppers.body.results.map((e: any) => e.slug)).toContain(
+      "hilichurl",
+    );
+    const hu = await get("/api/v1/characters/hu-tao");
+    expect(hu.body.materials.boss).toMatchObject({ slug: "juvenile-jade" });
+    expect(hu.body.materials.common.map((m: any) => m.slug)).toContain(
+      "whopperflower-nectar",
+    );
+    const set = await get("/api/v1/artifact-sets/berserker");
+    expect(set.body.droppedBy.length).toBeGreaterThan(0);
+  });
+
   it("links enemy families, groups and types", async () => {
     const family = await get("/api/v1/enemy-families/hilichurls");
     expect(family.body.groups.map((g: any) => g.slug)).toContain("samachurls");
@@ -360,6 +404,9 @@ describe("detail", () => {
     expect(weekly.body.enemies).toHaveLength(14);
     const version = await get("/api/v1/versions/1.0");
     expect(version.body.enemies.map((e: any) => e.slug)).toContain("hilichurl");
+    expect(version.body.items.map((i: any) => i.slug)).toContain(
+      "damaged-mask",
+    );
   });
 
   it("returns rarity as a reference", async () => {
@@ -414,6 +461,9 @@ describe("random", () => {
       "enemy-families",
       "enemy-groups",
       "enemies",
+      "item-types",
+      "item-groups",
+      "items",
     ]) {
       expect((await get(`/api/v1/${r}/random`)).status).toBe(200);
     }

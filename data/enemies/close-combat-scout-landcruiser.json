@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 49,
+  "id": 297,
   "slug": "close-combat-scout-landcruiser",
   "name": "Close Combat Scout Landcruiser",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
+    ],
+    "artifactSets": []
+  },
   "description": "An autonomous machine that applies the principles of naval combat to land battles, a literal \"armed ship that cruises on land.\"\nThese walking Landcruisers with bipedal structures are often used as \"scouts,\" for they are able to quickly traverse rough terrain and reach key positions to seize the initiative for their allies. Their close-combat-oriented rotating blades allow them to deal fatal damage to their foes and shred shrubbery and obstacles to open the way, allowing units to operate with ease even amidst thick vegetation.",
   "images": {}
 }

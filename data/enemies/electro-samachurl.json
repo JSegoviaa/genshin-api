@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 42,
+  "id": 91,
   "slug": "electro-samachurl",
   "name": "Electro Samachurl",
   "type": "common-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ],
+    "artifactSets": []
+  },
   "description": "A wizened, mumbling Hilichurl, one that prays to Electro. Hilichurls especially gifted in commanding elements who often reach the zenith of their skill in their twilight years. Since they possess such advanced skill in creating electricity and summoning thunder, you may as well use the crackling sound to compose an elegy.",
   "images": {}
 }

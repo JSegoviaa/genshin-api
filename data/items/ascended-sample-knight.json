@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 220,
+  "slug": "ascended-sample-knight",
+  "name": "Ascended Sample: Knight",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "the-game-before-the-gate-materials",
+  "rarity": 5,
+  "description": "A rare sample resulting from the alchemical activation of a substance.\nIn the esoteric codices, the bronze knight knows not whether its mission is to conquer or to protect. Since its alchemical elevation, it has merely been seeking to discover its purpose. The age of bronze was an age of heroes.",
+  "releaseVersion": "5.6",
+  "images": {}
+}

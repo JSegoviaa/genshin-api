@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 368,
+  "id": 333,
   "slug": "heretic-of-the-false-moon",
   "name": "Heretic of the False Moon",
   "type": "weekly-bosses",
@@ -56,6 +56,32 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "mask-of-the-virtuous-doctor",
+      "madmans-restraint",
+      "elixir-of-the-heretic"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "Reviled far and wide as a heretic, The Doctor — Second of the Eleven Fatui Harbingers — has seized the authority of the three moons and now ascends the long steps toward the divine throne of the \"new world.\"\nAll should have belonged to us.\nBut reason cast out all that exceeded its limits, leaving humanity blind to its true nature.\nLife and death bound us into mortal shells, shackling every spark of aspiration.\nTime and space closed in last of all, fencing the mind into meek obedience, so no one would dare imagine breaking free.\nFrom that point on, false gods governed the world, each one declaring their own truth as the sole, unassailable gospel — though none deserved the mantle they so loudly coveted.\nThere is no inherent structure to life's flow — order was merely imposed upon it. Strip away every shackle laid across this world, and the essence of all things will at last come into view.\nAnd that revelation... is the first light of the new world.\n\"How much longer will you continue to suffer this stagnant, obsolescent world?\"",
   "images": {}
 }

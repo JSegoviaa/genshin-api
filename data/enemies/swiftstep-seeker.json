@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 110,
+  "id": 229,
   "slug": "swiftstep-seeker",
   "name": "Swiftstep Seeker",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the Canopy, and a tribal guardian that patrols the forest valleys and mountain streams.\nUnlike the warriors of other tribes, these warriors, ever swinging around the mountains using their grappling hooks, are always considering how to defeat their opponents with unexpected attacks.",
   "images": {}
 }

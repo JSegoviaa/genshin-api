@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 120,
+  "id": 262,
   "slug": "spiritspeaker-warrior-contemplator",
   "name": "Spiritspeaker Warrior: Contemplator",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the Night-Wind, and a tribal guardian that patrols the misty canyons.\nOnly sentries whose strength has been tested are permitted to daub themselves with such body paint, infused as it is with mysterious powers. This also signifies that these warriors have reached a new phase in their mental training.",
   "images": {}
 }

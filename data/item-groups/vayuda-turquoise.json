@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 17,
+  "slug": "vayuda-turquoise",
+  "name": "Vayuda Turquoise",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "images": {}
+}

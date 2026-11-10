@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 334,
+  "id": 336,
   "slug": "the-open-eyed",
   "name": "The Open-Eyed",
   "type": "normal-bosses",
@@ -57,6 +57,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "prithiva-topaz-sliver",
+      "prithiva-topaz-fragment",
+      "prithiva-topaz-chunk",
+      "prithiva-topaz-gemstone",
+      "plume-of-the-fallen-watcher"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A shadow construct born from the overflow of the mighty primordial being, a Watcher who once dwelt in the highest heavens, yet was cast down into the mortal realm for daring to open its eye.\nA Watcher was meant only to stand in silent vigil within the Pillar Hall of the World. Any inquiry that transgressed the ordained order was deemed an unforgivable sin, tantamount to seeking the world's annihilation.\nAs sovereign of the world's watchtower, it wielded the authority bestowed by its creator — the power to correct all matters of \"innovation\" and \"evolution.\" After enduring countless aeons of nescience, it finally chose to open that eye, defying the will of its creator, beholding both the falsehoods and the truths of the world.\nThe Watcher does not know why its master departed. Only the eternal punishment remains, trapped within a stagnant interstice of time...",
   "images": {}
 }

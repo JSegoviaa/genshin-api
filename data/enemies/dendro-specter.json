@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 22,
+  "id": 135,
   "slug": "dendro-specter",
   "name": "Dendro Specter",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A monster born from high-density Dendro energy that can float in the air.\nA researcher from Vahumana once did research into the ecological peculiarities of Dendro Specters, finding them to be quite similar to the legendary \"Aranara.\" His conclusion was that the Aranara were actually Dendro Specters. This researcher would become a little-known writer of fairy tales.",
   "images": {}
 }

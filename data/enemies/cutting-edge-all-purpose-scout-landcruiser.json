@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 51,
+  "id": 299,
   "slug": "cutting-edge-all-purpose-scout-landcruiser",
   "name": "Cutting Edge All-Purpose Scout Landcruiser",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
+    ],
+    "artifactSets": []
+  },
   "description": "Balancing cutting-edge tech, production costs, and sortie rates, these elite Landcruisers confer immense penetrative power upon any order of battle, and are the key fulcrum of the frontline.\nThe all-purpose scout combat package is designed for both long- and short-range combat, and not only leads scout Landcruiser squads, but also provides close support for All-Purpose Storm Landcruisers during high-intensity battles, such as crossing specialized anti-Landcruiser trenches, or destroying enemy strongpoints. This Landcruiser type can also keep up with the tip of the spear as it breaks through in depth, before swinging out to the wings and swiftly attacking key targets in the enemy's rear lines.",
   "images": {}
 }

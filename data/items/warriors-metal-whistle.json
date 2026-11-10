@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 193,
+  "slug": "warriors-metal-whistle",
+  "name": "Warrior's Metal Whistle",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "sauroform-tribal-warrior-materials",
+  "rarity": 2,
+  "description": "The symbol of a Natlan tribal warrior.\nA metal whistle that is given to individuals who have been officially recognized as tribal warriors. It is used to communicate and alert others to danger by those that patrol the tribe's vicinity. This is a duty that falls upon the warriors of the tribe.",
+  "releaseVersion": "5.0",
+  "images": {}
+}

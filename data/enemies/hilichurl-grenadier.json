@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 31,
+  "id": 24,
   "slug": "hilichurl-grenadier",
   "name": "Hilichurl Grenadier",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ],
+    "artifactSets": []
+  },
   "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese sneaky fellows are skilled in the use of Pyro Slimes, using them as weapons to attack intruders. Skilled grenadiers may be able to destroy four wooden dummies in a single throw.",
   "images": {}
 }

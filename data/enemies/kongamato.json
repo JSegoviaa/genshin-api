@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 348,
+  "id": 248,
   "slug": "kongamato",
   "name": "Kongamato",
   "type": "normal-bosses",
@@ -54,6 +54,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "nagadus-emerald-sliver",
+      "nagadus-emerald-fragment",
+      "nagadus-emerald-chunk",
+      "nagadus-emerald-gemstone",
+      "overripe-flamegranate"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A mighty Yumkasaurus that has survived since ancient times and seen countless battles. It owes its huge size to its rampant gluttony.",
   "images": {}
 }

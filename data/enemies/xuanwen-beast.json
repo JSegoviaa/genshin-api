@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 282,
+  "id": 215,
   "slug": "xuanwen-beast",
   "name": "Xuanwen Beast",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "feathery-fin",
+      "lunar-fin",
+      "chasmlight-fin"
+    ],
+    "artifactSets": []
+  },
   "description": "A fearsome beast that lurks in the mountains. It uses Anemo to pursue its prey.",
   "images": {}
 }

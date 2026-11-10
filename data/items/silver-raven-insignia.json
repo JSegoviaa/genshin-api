@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 17,
+  "slug": "silver-raven-insignia",
+  "name": "Silver Raven Insignia",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "treasure-hoarder-materials",
+  "rarity": 2,
+  "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

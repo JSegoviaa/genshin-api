@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 112,
+  "id": 231,
   "slug": "tepetlisaurus-warrior-rockbreaker-blade",
   "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A powerful warrior from the canyon, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can strike with the power of a rockfall. Legend holds that the Sulfurous Veins were once a more complete and more beautiful mountain range, and it was only when the Black Tide came that the Saurian-Crowned warriors of the Children of Echoes carved the earth itself to guide the tide, giving the Veins their current appearance.",
   "images": {}
 }

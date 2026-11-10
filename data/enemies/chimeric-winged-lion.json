@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 352,
+  "id": 358,
   "slug": "chimeric-winged-lion",
   "name": "Chimeric Winged Lion",
   "type": "normal-bosses",
@@ -54,6 +54,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "vayuda-turquoise-sliver",
+      "vayuda-turquoise-fragment",
+      "vayuda-turquoise-chunk",
+      "vayuda-turquoise-gemstone",
+      "severed-tail-of-the-sky-roamer"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A byproduct engineered along the path to manifesting a certain grand ambition.\nYet, perhaps due to the anomalous materials fused into its shell, the entity commands a terrifying power unmatched by any ordinary man-made monsters.",
   "images": {}
 }

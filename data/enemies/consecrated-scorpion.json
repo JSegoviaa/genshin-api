@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 279,
+  "id": 169,
   "slug": "consecrated-scorpion",
   "name": "Consecrated Scorpion",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "desiccated-shell",
+      "sturdy-shell",
+      "marked-shell"
+    ],
+    "artifactSets": []
+  },
   "description": "An arthropod that has mutated after feeding from greater lifeforms.\nLifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did. Animals and humans often have far more in common than the latter is willing to acknowledge.",
   "images": {}
 }

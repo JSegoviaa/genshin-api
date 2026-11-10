@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 128,
+  "slug": "nagadus-emerald-sliver",
+  "name": "Nagadus Emerald Sliver",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "nagadus-emerald",
+  "rarity": 2,
+  "description": "Character Ascension Material.",
+  "releaseVersion": "3.0",
+  "images": {}
+}

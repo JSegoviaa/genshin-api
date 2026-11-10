@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 51,
+  "slug": "natlan-saurian-materials",
+  "name": "Natlan Saurian Materials",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "images": {}
+}

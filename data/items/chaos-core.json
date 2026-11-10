@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 30,
+  "slug": "chaos-core",
+  "name": "Chaos Core",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "humanoid-ruin-machine-materials",
+  "rarity": 4,
+  "description": "Comes from ancient defunct relic structures. The core that once drove a mechanical beast. Should you come to understand its workings and reproduce it, you could perhaps change the world.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 153,
+  "id": 155,
   "slug": "grounded-geoshroom",
   "name": "Grounded Geoshroom",
   "type": "common-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A mimetic life form made out of spores that has extreme adaptability.\nThis being has undergone almost complete keratinization due to the influence of Geo. When one considers that Fungi evolved from spores, perhaps this one might even be the foundation for a further evolution into some new life form altogether — if given time, that is.\nThis creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match.",
   "images": {}
 }

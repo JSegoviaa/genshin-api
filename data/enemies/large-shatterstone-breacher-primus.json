@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 227,
+  "id": 203,
   "slug": "large-shatterstone-breacher-primus",
   "name": "Large Shatterstone Breacher Primus",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "rift-core",
+      "foreign-synapse",
+      "alien-life-core"
+    ],
+    "artifactSets": []
+  },
   "description": "A strange life form that mostly appears in Elynas.\nMelusines perceive Breacher Primuses as harmless creatures, and many even find them completely adorable.\nThe visual perception of Melusines is very different from humans.",
   "images": {}
 }

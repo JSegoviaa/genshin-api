@@ -15,10 +15,10 @@
   "ascensionStat": "ATK",
   "localSpecialty": "Small Lamp Grass",
   "materials": {
-    "boss": "Lighthing Prism",
+    "boss": "Lightning Prism",
     "weeklyBoss": "Spirit Locket of Boreas",
     "common": [
-      "Firm Arrow",
+      "Firm Arrowhead",
       "Sharp Arrowhead",
       "Weathered Arrowhead"
     ]

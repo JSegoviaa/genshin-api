@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 67,
+  "slug": "hoarfrost-core",
+  "name": "Hoarfrost Core",
+  "type": "character-level-up-materials",
+  "source": "normal-boss-drops",
+  "group": null,
+  "rarity": 4,
+  "description": "The exposed core of a defeated Cryo Regisvine. Pure Cryo elements are contained within it. Energy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to living things on the ground, turning even ordinary vegetation like vines into huge, vicious predators.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 16,
+  "id": 39,
   "slug": "breacher-primuses",
   "name": "Breacher Primuses",
   "family": "the-abyss",

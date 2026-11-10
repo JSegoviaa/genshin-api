@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 60,
+  "slug": "prithiva-topaz-sliver",
+  "name": "Prithiva Topaz Sliver",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "prithiva-topaz",
+  "rarity": 2,
+  "description": "Character Ascension Material.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

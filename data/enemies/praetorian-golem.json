@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 283,
+  "id": 217,
   "slug": "praetorian-golem",
   "name": "Praetorian Golem",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ruined-hilt",
+      "splintered-hilt",
+      "still-smoldering-hilt"
+    ],
+    "artifactSets": []
+  },
   "description": "A moving statue shaped like a warrior who will swing their sword at all who dare trespass upon the area under their guardianship.\nThe being beneath its resilient exterior may have long been lost in the mists of ancient memory.",
   "images": {}
 }

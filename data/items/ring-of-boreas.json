@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 74,
+  "slug": "ring-of-boreas",
+  "name": "Ring of Boreas",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "lupus-boreas-materials",
+  "rarity": 5,
+  "description": "A bit of crystallized ice from the Great Wolf King of the North.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 209,
+  "id": 56,
   "slug": "cryo-abyss-mage",
   "name": "Cryo Abyss Mage",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "artifactSets": []
+  },
   "description": "Abyss creatures that call upon Cryo in battle.\nThough they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective barrier has been broken, they are at your mercy.",
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 253,
+  "id": 209,
   "slug": "frost-operative",
   "name": "Frost Operative",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "old-operatives-pocket-watch",
+      "operatives-standard-pocket-watch",
+      "operatives-constancy"
+    ],
+    "artifactSets": []
+  },
   "description": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty.",
   "images": {}
 }

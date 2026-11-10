@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 214,
+  "id": 100,
   "slug": "electro-abyss-mage",
   "name": "Electro Abyss Mage",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "artifactSets": []
+  },
   "description": "Abyss creatures that utilize Electro in battles.\nWhile studying at the Akademiya, researcher Alva Nikola once conducted a systematic study of the methods by which Electro Abyss Mages manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation.",
   "images": {}
 }

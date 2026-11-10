@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 223,
+  "id": 133,
   "slug": "black-serpent-knight-windcutter",
   "name": "Black Serpent Knight: Windcutter",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "gloomy-statuette",
+      "dark-statuette",
+      "deathly-statuette"
+    ],
+    "artifactSets": []
+  },
   "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\nThe Twilight Sword was once one of their number. That realm's glory has been extinguished, never again to be reclaimed.",
   "images": {}
 }

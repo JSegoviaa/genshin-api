@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 77,
+  "slug": "shard-of-a-foul-legacy",
+  "name": "Shard of a Foul Legacy",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "childe-materials",
+  "rarity": 5,
+  "description": "The shard of a weapon that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is stained with a profound color that is not of this world, no doubt due to the land of endless darkness that the young boy saw with his own two eyes.\nPerhaps it has nothing to do with the power of a Delusion, but as they say, the weapon reflects its user...",
+  "releaseVersion": "1.1",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 37,
+  "id": 72,
   "slug": "unusual-hilichurl",
   "name": "Unusual Hilichurl",
   "type": "common-enemies",
@@ -53,6 +53,10 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [],
+    "artifactSets": []
+  },
   "description": "\"Homu, homu, mimi domu!\"",
   "images": {}
 }

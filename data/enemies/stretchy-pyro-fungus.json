@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 147,
+  "id": 143,
   "slug": "stretchy-pyro-fungus",
   "name": "Stretchy Pyro Fungus",
   "type": "common-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis creature only looks explosive — it is, in fact, a most gentle soul, so long as you don't get too close...",
   "images": {}
 }

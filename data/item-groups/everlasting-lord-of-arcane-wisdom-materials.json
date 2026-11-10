@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 38,
+  "slug": "everlasting-lord-of-arcane-wisdom-materials",
+  "name": "Everlasting Lord of Arcane Wisdom Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

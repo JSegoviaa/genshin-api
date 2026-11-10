@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 41,
+  "id": 27,
   "slug": "bathysmal-vishaps",
   "name": "Bathysmal Vishaps",
   "family": "mystical-beasts",

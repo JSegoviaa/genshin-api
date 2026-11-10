@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 281,
+  "id": 176,
   "slug": "consecrated-horned-crocodile",
   "name": "Consecrated Horned Crocodile",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "desiccated-shell",
+      "sturdy-shell",
+      "marked-shell"
+    ],
+    "artifactSets": []
+  },
   "description": "A reptile that has mutated after feeding from greater lifeforms.\nMajestic beasts are sometimes revered by human beings as the embodiment of a greater power, their visages turned to analogy to feed in reference to a person, feeding their ego. However, the majority of beasts that have absorbed the \"greater power\" were slain by the overwhelming nature of the power itself. Only a few among their number evolved new forms.",
   "images": {}
 }

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 91,
+  "slug": "dismal-prism",
+  "name": "Dismal Prism",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "mirror-maiden-materials",
+  "rarity": 2,
+  "description": "This was once a prism that could polarize light, but has grown dull through the passing of years.",
+  "releaseVersion": "2.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 152,
+  "id": 154,
   "slug": "floating-anemo-fungus",
   "name": "Floating Anemo Fungus",
   "type": "common-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis mushroom may have a sizable cap, but the umbrella-shaped structure is in fact hollow, and thus does not make for a particularly good meal.",
   "images": {}
 }

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 19,
+  "slug": "prithiva-topaz",
+  "name": "Prithiva Topaz",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "images": {}
+}

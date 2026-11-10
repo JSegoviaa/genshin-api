@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 354,
+  "id": 360,
   "slug": "guardian-blade-of-drifting-snow",
   "name": "Guardian Blade of Drifting Snow",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "vagabonds-cracked-armor"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "lucky-dog",
+      "the-exile",
+      "prayers-for-destiny",
+      "wanderers-troupe"
+    ]
+  },
   "description": "An ancient Snegovik held in high esteem among her kin.\nAfter the current Snegurochka princess ascended to power, she left the clan's manor in the mountains — perhaps because their ideals no longer aligned.",
   "images": {}
 }

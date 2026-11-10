@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 4,
+  "id": 25,
   "slug": "specters",
   "name": "Specters",
   "family": "elemental-lifeforms",

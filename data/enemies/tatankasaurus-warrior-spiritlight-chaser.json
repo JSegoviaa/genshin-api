@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 130,
+  "id": 287,
   "slug": "tatankasaurus-warrior-spiritlight-chaser",
   "name": "Tatankasaurus Warrior: Spiritlight Chaser",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A powerful warrior from a land of plenty, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nAmong the Collective of Plenty, even those warriors who have painstakingly trained to use long-range weapons are known to be skilled in hand-to-hand combat. Perhaps, to them, ranged weapons are better for bludgeoning than firing projectiles.",
   "images": {}
 }

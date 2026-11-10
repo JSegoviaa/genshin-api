@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 213,
+  "id": 86,
   "slug": "abyss-lector-violet-lightning",
   "name": "Abyss Lector: Violet Lightning",
   "type": "elite-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout",
+      "gloomy-statuette",
+      "dark-statuette",
+      "deathly-statuette"
+    ],
+    "artifactSets": []
+  },
   "description": "A monster who serves the Abyss Order and commands lightning while singing the praises of the darkness.\nThese are the evangelists and the scholars of the Abyss. Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.",
   "images": {}
 }

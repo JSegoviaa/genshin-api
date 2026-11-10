@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 35,
+  "slug": "agents-sacrificial-knife",
+  "name": "Agent's Sacrificial Knife",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "fatui-pyro-agent-materials",
+  "rarity": 3,
+  "description": "An oddly-shaped weapon made with superior Snezhnayan technology that once belonged to a senior agent. Proper training is required for using this strange weapon.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

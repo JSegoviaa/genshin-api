@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 21,
+  "id": 14,
   "slug": "fatui-cicin-mages",
   "name": "Fatui Cicin Mages",
   "family": "fatui",

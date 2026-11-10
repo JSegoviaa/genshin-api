@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 129,
+  "slug": "nagadus-emerald-fragment",
+  "name": "Nagadus Emerald Fragment",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "nagadus-emerald",
+  "rarity": 3,
+  "description": "Character Ascension material.\n\"I had a very, very long dream...\"",
+  "releaseVersion": "3.0",
+  "images": {}
+}

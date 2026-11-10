@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 239,
+  "id": 273,
   "slug": "tenebrous-mimesis-qucusaurus-warrior-blazing-sky",
   "name": "Tenebrous Mimesis - Qucusaurus Warrior: Blazing Sky",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "artifactSets": []
+  },
   "description": null,
   "images": {}
 }

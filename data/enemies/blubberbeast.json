@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 159,
+  "id": 193,
   "slug": "blubberbeast",
   "name": "Blubberbeast",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ],
+    "artifactSets": []
+  },
   "description": "A type of mammal that resides in the watery regions of Fontaine. It communicates with its companions through melodious sounds.\nDue to its density, water is a much more efficient medium of sound than air. Drawing inspiration from the Blubberbeast, someone from the Research Institute invented a type of technology that converted images into data to facilitate instant transmission. But due to the technical limitations of the experiment, it never became widely adopted outside the Institute.\nIn reality, however, data transmission technology based on fluid and sound has existed since ancient times. As the saying goes, there's nothing new under the sun.",
   "images": {}
 }

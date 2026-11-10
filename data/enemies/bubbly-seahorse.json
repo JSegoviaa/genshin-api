@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 161,
+  "id": 195,
   "slug": "bubbly-seahorse",
   "name": "Bubbly Seahorse",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ],
+    "artifactSets": []
+  },
   "description": "An aquatic creature that hunts by firing watery projectiles.\nAmong the (admittedly somewhat sparse) ranks of Fontemer Aberrant enthusiasts, Bubbly Seahorses have many fans. As with clockwork meka enthusiasts, a small minority of Fontemer Aberrant enthusiasts can be very standoffish when it comes to people whose opinions differ from their own.",
   "images": {}
 }

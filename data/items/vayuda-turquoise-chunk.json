@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 54,
+  "slug": "vayuda-turquoise-chunk",
+  "name": "Vayuda Turquoise Chunk",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "vayuda-turquoise",
+  "rarity": 4,
+  "description": "Character Ascension material.\n\"Still, the winds change direction.\nSomeday, they will blow towards a brighter future...\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

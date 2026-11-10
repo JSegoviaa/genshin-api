@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 256,
+  "id": 62,
   "slug": "ruin-hunter",
   "name": "Ruin Hunter",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "chaos-device",
+      "chaos-circuit",
+      "chaos-core"
+    ],
+    "artifactSets": []
+  },
   "description": "A giant alien war machine.\nThey are said to be remnants from a lost ancient nation. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.\nConsidering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.",
   "images": {}
 }

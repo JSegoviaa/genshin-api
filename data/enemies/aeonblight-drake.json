@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 327,
+  "id": 161,
   "slug": "aeonblight-drake",
   "name": "Aeonblight Drake",
   "type": "normal-bosses",
@@ -60,6 +60,26 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "perpetual-caliber"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "lucky-dog",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "This dragon-shaped combat machine is a being that inspires fear, much like the lord who once ruled these vast lands.\nThis mysterious, tireless mechanical monstrosity seems to be proof that the now-destroyed realm had reached heights that mortals should never have.",
   "images": {}
 }

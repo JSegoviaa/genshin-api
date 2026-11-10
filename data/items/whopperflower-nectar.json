@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 19,
+  "slug": "whopperflower-nectar",
+  "name": "Whopperflower Nectar",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "whopperflower-materials",
+  "rarity": 1,
+  "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elemental energy. The taste of the nectar has a hint of Sweet Flower in it.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

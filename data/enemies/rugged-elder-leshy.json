@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 302,
+  "id": 352,
   "slug": "rugged-elder-leshy",
   "name": "Rugged Elder Leshy",
   "type": "elite-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone",
+      "hollow-root-of-life",
+      "sprout-node-of-life",
+      "coiled-core-of-life"
+    ],
+    "artifactSets": []
+  },
   "description": "A Leshy that grows in forests and wilds.\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand.",
   "images": {}
 }

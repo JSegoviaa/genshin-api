@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 50,
+  "id": 298,
   "slug": "close-combat-storm-landcruiser",
   "name": "Close Combat Storm Landcruiser",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
+    ],
+    "artifactSets": []
+  },
   "description": "An autonomous machine that applies the principles of naval combat to land battles, a literal \"armed ship that cruises on land.\"\nEquipped with Crawler Track Movement Mechanisms, these Landcruisers are normally used to storm enemy positions, where they can pass over rough terrain such as mud and melting snow despite heavy armor and armaments through their excellent load-bearing capabilities and off-road mobility. When close-combat Landcruisers approach enemy defensive lines in formation, rotating blades raised for battle, most foes will concentrate fire on them, allowing other units the opportunity to unleash their firepower...",
   "images": {}
 }

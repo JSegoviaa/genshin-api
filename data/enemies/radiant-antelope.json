@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 293,
+  "id": 320,
   "slug": "radiant-antelope",
   "name": "Radiant Antelope",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "lightless-bone",
+      "glowing-remains",
+      "radiant-exoskeleton"
+    ],
+    "artifactSets": []
+  },
   "description": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\nStrange lightning once fell upon the land blessed by moonlight, causing once ordinary antelopes to gain the power to wield lightning. They say that some have seen a truly strange sight — antelopes standing on cliffs at the convergence of a storm, attracting bolts of lightning to temper their bodies.",
   "images": {}
 }

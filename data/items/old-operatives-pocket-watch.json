@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 169,
+  "slug": "old-operatives-pocket-watch",
+  "name": "Old Operative's Pocket Watch",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "fatui-operative-materials",
+  "rarity": 2,
+  "description": "A standard-issue pocket watch given to Fatui Operatives.\nThe erosion and oxidation on the casing serve as a loyal record of its owners' days spent as an instrument, enforcing the Fatui's will.",
+  "releaseVersion": "4.1",
+  "images": {}
+}

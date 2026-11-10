@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 87,
+  "id": 45,
   "slug": "treasure-hoarders-scout",
   "name": "Treasure Hoarders: Scout",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nTheirs is the legwork and the tailing of targets. They usually wind up in criminal circles due to poverty or lack of education, but they don't seem to have gotten any richer after choosing a life of crime...",
   "images": {}
 }

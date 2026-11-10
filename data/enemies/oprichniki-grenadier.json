@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 59,
+  "id": 307,
   "slug": "oprichniki-grenadier",
   "name": "Oprichniki Grenadier",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ],
+    "artifactSets": []
+  },
   "description": "A soldier of the Fatui Oprichniki, equipped with a man-portable grenade launcher that can perform close-range bombardment.\nThough the Oprichniki has large-scale, fully-functional fire support attachments, the commanding staff still advocates for large numbers of grenadiers to be maintained. After all, no big gun can compare in surety at the very front lines of combat to a grenade launcher you can direct at will.",
   "images": {}
 }

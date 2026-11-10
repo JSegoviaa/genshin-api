@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 173,
+  "id": 269,
   "slug": "iktomisaurus-chick",
   "name": "Iktomisaurus Chick",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ],
+    "artifactSets": []
+  },
   "description": "A young Iktomisaur with a keen sense of perception.\nIt has yet to grow its full plumage and may even appear a little slow on the uptake. It is said that among the Saurians that now live, Iktomisaurs not only have the longest lifespans, but spend the longest time as juveniles too. They possess the capacity to communicate with the Night Kingdom or Wayob, though it may take many years before the young Saurians can fully comprehend this.",
   "images": {}
 }

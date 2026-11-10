@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 254,
+  "slug": "counterfeit-resin",
+  "name": "Counterfeit Resin",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "il-dottore-materials",
+  "rarity": 5,
+  "description": "A resin recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nOnce a crystal meant to bear the many beautiful memories that make up this world, it is now filled instead with delusions and malice that do not belong here.",
+  "releaseVersion": "Luna VII",
+  "images": {}
+}

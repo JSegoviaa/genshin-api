@@ -16,6 +16,9 @@ export const characterResource = defineResource({
     releaseVersion: { resource: "versions", key: "name" },
     localSpecialty: { resource: "local-specialties", key: "name" },
     ascensionStat: { resource: "stats", key: "name" },
+    "materials.boss": { resource: "items", key: "name" },
+    "materials.weeklyBoss": { resource: "items", key: "name" },
+    "materials.common": { resource: "items", key: "name" },
   },
   filters: {
     rarity: {
@@ -66,7 +69,11 @@ export const characterResource = defineResource({
     releaseVersion: ctx.refByName("versions", c.releaseVersion),
     ascensionStat: ctx.refByName("stats", c.ascensionStat),
     localSpecialty: ctx.refByName("local-specialties", c.localSpecialty),
-    materials: c.materials,
+    materials: {
+      boss: ctx.refByName("items", c.materials.boss),
+      weeklyBoss: ctx.refByName("items", c.materials.weeklyBoss),
+      common: c.materials.common.map((m) => ctx.refByName("items", m)),
+    },
     constellations: c.constellations.map((k) => ({
       slug: k.slug,
       name: k.name,

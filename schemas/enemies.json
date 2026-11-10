@@ -94,6 +94,30 @@
         "additionalProperties": false
       }
     },
+    "drops": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
+        },
+        "artifactSets": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
+        }
+      },
+      "required": [
+        "items",
+        "artifactSets"
+      ],
+      "additionalProperties": false
+    },
     "description": {
       "anyOf": [
         {
@@ -127,6 +151,7 @@
     "elements",
     "releaseVersion",
     "resistances",
+    "drops",
     "description",
     "images"
   ],

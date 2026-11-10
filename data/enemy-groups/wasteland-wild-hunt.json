@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 20,
+  "id": 50,
   "slug": "wasteland-wild-hunt",
   "name": "Wasteland Wild Hunt",
   "family": "the-abyss",

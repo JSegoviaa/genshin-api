@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 125,
+  "id": 267,
   "slug": "winged-warrior-skysoarer",
   "name": "Winged Warrior: Skysoarer",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the clifftops, and a tribal guardian that patrols the steep mountain ridges.\nThese tribal warriors trust their own two hands more than any weapon. Above all else, they are renowned for their lithe and agile bearing.",
   "images": {}
 }

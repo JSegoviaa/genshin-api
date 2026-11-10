@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 198,
+  "id": 363,
   "slug": "icebound-reflection",
   "name": "Icebound Reflection",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "snowborn-heartshard",
+      "snowborn-mirrorheart",
+      "snowborn-heart-of-ignorance"
+    ],
+    "artifactSets": []
+  },
   "description": "A strange monster born from a peculiar kind of ice and snow.\nIts frozen form holds immense power, yet no clear will has awakened within it to command that strength.",
   "images": {}
 }

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 15,
+  "slug": "lieutenants-insignia",
+  "name": "Lieutenant's Insignia",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "fatui-skirmisher-materials",
+  "rarity": 3,
+  "description": "An insignia to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

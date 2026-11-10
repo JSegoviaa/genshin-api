@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 24,
+  "slug": "black-crystal-horn",
+  "name": "Black Crystal Horn",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "mitachurl-materials",
+  "rarity": 4,
+  "description": "A metallic horn with an ominous shine decorated with black crystals of an unknown source. It has hardly been used at all. It is likely a ceremonial item of the hilichurls'.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

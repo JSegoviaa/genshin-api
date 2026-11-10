@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 57,
+  "slug": "shivada-jade-fragment",
+  "name": "Shivada Jade Fragment",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "shivada-jade",
+  "rarity": 3,
+  "description": "Character Ascension material.\n\"Sorry...\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

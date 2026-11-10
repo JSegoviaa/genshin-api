@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 14,
+  "slug": "agnidus-agate",
+  "name": "Agnidus Agate",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "images": {}
+}

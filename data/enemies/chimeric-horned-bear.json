@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 180,
+  "id": 341,
   "slug": "chimeric-horned-bear",
   "name": "Chimeric Horned Bear",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
+    ],
+    "artifactSets": []
+  },
   "description": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\nPerhaps no one knows the answer to that by now.",
   "images": {}
 }

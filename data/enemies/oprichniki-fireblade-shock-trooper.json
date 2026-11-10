@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 58,
+  "id": 306,
   "slug": "oprichniki-fireblade-shock-trooper",
   "name": "Oprichniki Fireblade Shock Trooper",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ],
+    "artifactSets": []
+  },
   "description": "An elite officer of the Fatui Oprichniki who specializes in close combat using a giant blade.\nWhether it be in the war against the dark calamity or against those ignoramuses who dare stand against the Tsaritsa's ideals, those who breach at the tip of the spear suffer the greatest casualties. As such, those who survive multiple battles are naturally the elite of the elite. There will always be those willing to become the fire and sword of the empire, just as there will always be those who chafe against the injustice of fate and the inequity of the Old World.",
   "images": {}
 }

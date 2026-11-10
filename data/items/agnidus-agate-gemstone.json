@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 43,
+  "slug": "agnidus-agate-gemstone",
+  "name": "Agnidus Agate Gemstone",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "agnidus-agate",
+  "rarity": 5,
+  "description": "Before completing Fire and War\nCharacter Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\nBurnt to cinders for a dream.\nIf the intention yet remains, achieved 's truth he has.\"\n\nAfter completing Fire and War\nCharacter Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\nBurnt to cinders for a dream.\nIf the intention yet remains, achieved the allogene's truth he has.\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 364,
+  "id": 214,
   "slug": "all-devouring-narwhal",
   "name": "All-Devouring Narwhal",
   "type": "weekly-bosses",
@@ -55,6 +55,24 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "lightless-silk-string",
+      "lightless-eye-of-the-maelstrom",
+      "lightless-mass"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A mysterious and gargantuan creature from another world.",
   "images": {}
 }

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 37,
+  "slug": "fragile-bone-shard",
+  "name": "Fragile Bone Shard",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "vishap-materials",
+  "rarity": 2,
+  "description": "A bone shard once carried by a Geovishap.\nAlthough they are quite fragile, they seem to still harbor some indescribable power.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

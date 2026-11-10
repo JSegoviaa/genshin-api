@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 295,
+  "id": 322,
   "slug": "radiant-lunapod",
   "name": "Radiant Lunapod",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "lightless-bone",
+      "glowing-remains",
+      "radiant-exoskeleton"
+    ],
+    "artifactSets": []
+  },
   "description": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\nLegend has it that when the waves of calamity rolled over the land, even those animals who dwelled in the Forsaken Sea were not spared. Those who could not accept the moonlight into themselves vanished like foam, whether great sea serpents who could send waves skyward, or single-eyed monsters who once plotted to consume all things.",
   "images": {}
 }

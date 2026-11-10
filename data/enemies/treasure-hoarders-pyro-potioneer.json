@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 86,
+  "id": 44,
   "slug": "treasure-hoarders-pyro-potioneer",
   "name": "Treasure Hoarders: Pyro Potioneer",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nRisk-takers who utilize their knowledge of chemistry to mix volatile and flammable brews that aid in their comrades' dastardly deeds.",
   "images": {}
 }

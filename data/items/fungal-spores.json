@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 112,
+  "slug": "fungal-spores",
+  "name": "Fungal Spores",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "fungus-materials",
+  "rarity": 1,
+  "description": "A small amount of glittering spore powder left behind by Floating Fungi. Seems that a sneeze is all it takes for this powder to vanish without a trace.",
+  "releaseVersion": "2.6",
+  "images": {}
+}

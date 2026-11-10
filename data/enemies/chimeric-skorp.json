@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 187,
+  "id": 362,
   "slug": "chimeric-skorp",
   "name": "Chimeric Skorp",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
+    ],
+    "artifactSets": []
+  },
   "description": "A product of bio-alchemy that has taken a particularly unique shape.\nLegend has it that this monster, possessing the body of a rooster and the tail of a scorpion, wields a terrifying power that turns anyone who meets its gaze to stone. Its creator could've sworn that he had not endowed it with such a horrific ability. Yet, after a moment's reflection on why such a rumor might persist, he reasoned... \"Perhaps it stems from the fact that its toxins cause muscle rigidity.\"",
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 163,
+  "id": 197,
   "slug": "hat-jellyfish",
   "name": "Hat Jellyfish",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ],
+    "artifactSets": []
+  },
   "description": "An aquatic creature that hunts by firing watery projectiles.\nAlthough it looks like a hat, it actually eats from its underside, so attempting to wear it is strongly disadvised. In the words of someone who once did this: \"That wasn't very clever, was it?\"",
   "images": {}
 }

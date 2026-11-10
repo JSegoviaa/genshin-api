@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 44,
+  "slug": "varunada-lazurite-sliver",
+  "name": "Varunada Lazurite Sliver",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "varunada-lazurite",
+  "rarity": 2,
+  "description": "Character Ascension Material.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

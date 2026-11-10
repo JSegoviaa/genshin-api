@@ -12,6 +12,12 @@ const resistanceSchema = z
     message: "Immune resistances must have a null value",
   });
 
+const uniqueRefs = z
+  .array(ref)
+  .refine((v) => new Set(v).size === v.length, {
+    message: "Values must be unique",
+  });
+
 export const enemySchema = z
   .object({
     ...base,
@@ -24,6 +30,7 @@ export const enemySchema = z
     }),
     releaseVersion: label.nullable(),
     resistances: z.array(resistanceSchema).max(8),
+    drops: z.object({ items: uniqueRefs, artifactSets: uniqueRefs }).strict(),
     description: z.string().min(1).nullable(),
     images: iconOnly,
   })

@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
+    ],
+    "artifactSets": []
+  },
   "description": "A small monster created through the coagulation of Cryo in the natural environment.\nCompetitors once spread malicious rumors that the Dawn Winery used Cryo Slimes to control the temperature of their wine cellar and preserve the quality of their alcohol.",
   "images": {}
 }

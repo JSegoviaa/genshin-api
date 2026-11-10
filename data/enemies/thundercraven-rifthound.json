@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 217,
+  "id": 116,
   "slug": "thundercraven-rifthound",
   "name": "Thundercraven Rifthound",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "concealed-claw",
+      "concealed-unguis",
+      "concealed-talon"
+    ],
+    "artifactSets": []
+  },
   "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold\".\nOnce upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten Springvale and Wolvendom are such creatures.",
   "images": {}
 }

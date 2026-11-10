@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 76,
+  "id": 189,
   "slug": "underwater-survey-mek",
   "name": "Underwater Survey Mek",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ],
+    "artifactSets": []
+  },
   "description": "A clockwork meka designed for underwater surveying.\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
   "images": {}
 }

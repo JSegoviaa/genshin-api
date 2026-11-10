@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 292,
+  "id": 293,
   "slug": "thundering-wayob-manifestation",
   "name": "Thundering Wayob Manifestation",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "shard-of-a-shattered-will",
+      "locus-of-a-clear-will",
+      "sigil-of-a-striding-will"
+    ],
+    "artifactSets": []
+  },
   "description": "The Collective of Plenty believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nAccording to tribal legend, the Wayob has taken on countless forms. In the dim, pre-dawn darkness, where faces were hidden in shadows, the Wayob would wrestle with the mightiest tribal warriors, with neither side prevailing. The Collective of Plenty believe their Wayob has the power to control thunder and speed, and can bestow abundant harvests upon the land.",
   "images": {}
 }

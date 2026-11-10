@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 349,
+  "id": 294,
   "slug": "lava-dragon-statue",
   "name": "Lava Dragon Statue",
   "type": "normal-bosses",
@@ -54,6 +54,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "sparkless-statue-core"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A monster that can continuously generate heat to sustain its activities.\nLegends say these monsters with lava at their cores are the products of a distinct line of research to the Source Mechanisms that followed them — research into whether the primal flame could be used to create a new race based on humans. This research undoubtedly failed, for once the reaver arrived with their throne from beyond the skies, all that the primal flame could birth were hollow shells whose nominal lifeforce granted them no more consciousness than a stone.",
   "images": {}
 }

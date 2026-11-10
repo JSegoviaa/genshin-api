@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 236,
+  "slug": "mistshroud-plate",
+  "name": "Mistshroud Plate",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "wasteland-wild-hunt-materials",
+  "rarity": 3,
+  "description": "A plate found in the mists of the Wild Hunt.\nIt was part of the armor of a Wild Hunt monster, but for some reason, it did not disappear with the mist.",
+  "releaseVersion": "Luna I",
+  "images": {}
+}

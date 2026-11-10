@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 366,
+  "id": 282,
   "slug": "lord-of-eroded-primal-fire",
   "name": "Lord of Eroded Primal Fire",
   "type": "weekly-bosses",
@@ -54,6 +54,24 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "eroded-horn",
+      "eroded-sunfire",
+      "eroded-scale-feather"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A fell dragon, congealed from the power of pitch-black darkness.",
   "images": {}
 }

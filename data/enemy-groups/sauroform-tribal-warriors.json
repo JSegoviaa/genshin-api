@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 35,
+  "id": 41,
   "slug": "sauroform-tribal-warriors",
   "name": "Sauroform Tribal Warriors",
   "family": "other-human-factions",

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 56,
+  "slug": "shivada-jade-sliver",
+  "name": "Shivada Jade Sliver",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "shivada-jade",
+  "rarity": 2,
+  "description": "Character Ascension Material.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 154,
+  "slug": "transoceanic-pearl",
+  "name": "Transoceanic Pearl",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "fontemer-aberrant-materials",
+  "rarity": 1,
+  "description": "A small crystal obtained from a defeated Fontemer Aberrant.\nFontemer Aberrants arise from Fontaine's sea. They are believed to be a unique life form born from the mysterious energy in the water.",
+  "releaseVersion": "4.0",
+  "images": {}
+}

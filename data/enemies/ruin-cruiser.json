@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 258,
+  "id": 102,
   "slug": "ruin-cruiser",
   "name": "Ruin Cruiser",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "chaos-gear",
+      "chaos-axis",
+      "chaos-oculus"
+    ],
+    "artifactSets": []
+  },
   "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.",
   "images": {}
 }

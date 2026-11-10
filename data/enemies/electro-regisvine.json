@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 340,
+  "id": 150,
   "slug": "electro-regisvine",
   "name": "Electro Regisvine",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "thunderclap-fruitcore"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-wisdom",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A giant plant that violently releases electric charges stored within the Ley Lines.\nElectro awakens plants and boosts soil fertility. If the Regisvine was indeed created to harmonize the turbulent energies of the Ley Lines, then it might be the earth's wish to see the presence of lush forests in Sumeru.",
   "images": {}
 }

@@ -9,6 +9,9 @@ import { enemyResource } from "./enemies/enemy.resource";
 import { enemyFamilyResource } from "./enemy-families/enemy-family.resource";
 import { enemyGroupResource } from "./enemy-groups/enemy-group.resource";
 import { enemyTypeResource } from "./enemy-types/enemy-type.resource";
+import { itemGroupResource } from "./item-groups/item-group.resource";
+import { itemTypeResource } from "./item-types/item-type.resource";
+import { itemResource } from "./items/item.resource";
 import { localSpecialtyResource } from "./local-specialties/local-specialty.resource";
 import { rarityResource } from "./rarities/rarity.resource";
 import { regionResource } from "./regions/region.resource";
@@ -34,4 +37,7 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   "enemy-families": enemyFamilyResource,
   "enemy-groups": enemyGroupResource,
   enemies: enemyResource,
+  "item-types": itemTypeResource,
+  "item-groups": itemGroupResource,
+  items: itemResource,
 };

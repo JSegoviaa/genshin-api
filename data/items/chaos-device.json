@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 28,
+  "slug": "chaos-device",
+  "name": "Chaos Device",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "humanoid-ruin-machine-materials",
+  "rarity": 2,
+  "description": "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 351,
+  "id": 334,
   "slug": "radiant-moongecko",
   "name": "Radiant Moongecko",
   "type": "normal-bosses",
@@ -53,6 +53,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "prithiva-topaz-sliver",
+      "prithiva-topaz-fragment",
+      "prithiva-topaz-chunk",
+      "prithiva-topaz-gemstone",
+      "prismatic-severed-tail"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "An ancient monster drawn to moonlight, this gecko dwells deep within layers of rock.\nThough the memory of true moonlight has faded, instinct remains, compelling them, on nights of the full moon, to gnaw on rock and soil suffused with lunar radiance to preserve their bloodline.",
   "images": {}
 }

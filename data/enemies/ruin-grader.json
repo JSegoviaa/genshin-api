@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 257,
+  "id": 81,
   "slug": "ruin-grader",
   "name": "Ruin Grader",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "chaos-device",
+      "chaos-circuit",
+      "chaos-core"
+    ],
+    "artifactSets": []
+  },
   "description": "An ancient humanoid war machine.\nTheir form is similar to that of Ruin Guards, but is more distorted and more powerful. Energy cores have been installed in both its legs, as though to power its overly heavy form.",
   "images": {}
 }

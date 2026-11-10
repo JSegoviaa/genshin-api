@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 264,
+  "slug": "symbiotic-chimeric-nucleus",
+  "name": "Symbiotic Chimeric Nucleus",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "aberrant-chimeric-monster-materials",
+  "rarity": 2,
+  "description": "The internal core harvested from aberrant man-made monsters.\nA relatively complex core harvested from a man-made monster. This symbiotic nucleus is engineered to sustain the biological cycles of two distinct life-forms, seamlessly weaving them into a single organism.",
+  "releaseVersion": "7.0",
+  "images": {}
+}

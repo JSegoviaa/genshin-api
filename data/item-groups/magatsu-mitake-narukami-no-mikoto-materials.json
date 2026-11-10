@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 30,
+  "slug": "magatsu-mitake-narukami-no-mikoto-materials",
+  "name": "Magatsu Mitake Narukami no Mikoto Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

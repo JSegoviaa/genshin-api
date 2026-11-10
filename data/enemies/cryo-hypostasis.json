@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 312,
+  "id": 87,
   "slug": "cryo-hypostasis",
   "name": "Cryo Hypostasis",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "crystalline-bloom"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "lucky-dog",
+      "prayers-to-springtime",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A great nail fell down to Dragonspine in a bygone era, and has been pouring energy into the Ley Lines here ever since. Who knows what strange new phenomena might occur on the mountain when the nail is dislodged?",
   "images": {}
 }

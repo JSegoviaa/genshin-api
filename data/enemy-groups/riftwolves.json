@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 17,
+  "id": 26,
   "slug": "riftwolves",
   "name": "Riftwolves",
   "family": "the-abyss",

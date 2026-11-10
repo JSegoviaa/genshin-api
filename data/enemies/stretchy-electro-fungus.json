@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 154,
+  "id": 156,
   "slug": "stretchy-electro-fungus",
   "name": "Stretchy Electro Fungus",
   "type": "common-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nUnlike other Fungi, this creature possesses a cap with a luminous tendril sticking out of it. When in danger, it will release small electric orbs as a form of self-defense.",
   "images": {}
 }

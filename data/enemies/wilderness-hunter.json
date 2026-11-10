@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 247,
+  "id": 319,
   "slug": "wilderness-hunter",
   "name": "Wilderness Hunter",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "mistshroud-manifestation",
+      "mistshroud-plate",
+      "mistshroud-helmet"
+    ],
+    "artifactSets": []
+  },
   "description": "A ghoul that stalks the frozen wilderness when the pitch-dark mist rolls in. Their emergence presages worse calamities to come.\nMany great champions of a lost ancient kingdom lie buried beneath the frozen northlands. Though the remnants of the past have been long wiped clean, these noble spirits yet defend their golden homeland. Awakened by Abyssal taint, these warriors now see all who trespass as prey.",
   "images": {}
 }

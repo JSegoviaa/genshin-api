@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 48,
+  "id": 42,
   "slug": "natlan-saurians",
   "name": "Natlan Saurians",
   "family": "mystical-beasts",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 128,
+  "id": 285,
   "slug": "ferocious-warrior-wrestler",
   "name": "Ferocious Warrior: Wrestler",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the plains and a tribal guardian who watches over the golden fields.\nThey have trained their strength relentlessly since the moment they set their sights on becoming a warrior. When they bring their two-handed weapon down in a mighty strike, the sheer force is something no ordinary person can withstand.",
   "images": {}
 }

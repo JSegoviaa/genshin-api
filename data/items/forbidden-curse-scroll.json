@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 9,
+  "slug": "forbidden-curse-scroll",
+  "name": "Forbidden Curse Scroll",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "samachurl-materials",
+  "rarity": 3,
+  "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

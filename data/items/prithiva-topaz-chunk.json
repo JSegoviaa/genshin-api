@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 62,
+  "slug": "prithiva-topaz-chunk",
+  "name": "Prithiva Topaz Chunk",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "group": "prithiva-topaz",
+  "rarity": 4,
+  "description": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
+  "releaseVersion": "1.0",
+  "images": {}
+}

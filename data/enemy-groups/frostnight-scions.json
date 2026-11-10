@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 1,
+  "id": 49,
   "slug": "frostnight-scions",
   "name": "Frostnight Scions",
   "family": "elemental-lifeforms",

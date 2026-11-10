@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 175,
+  "slug": "lightless-silk-string",
+  "name": "Lightless Silk String",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "all-devouring-narwhal-materials",
+  "rarity": 5,
+  "description": "A slender strand that somehow ended up entangled on your weapon while fighting the All-Devouring Narwhal.\nIn ancient Fontaine, some thought that Fortuna, which ruled the world, was woven from countless fibers, like the strings of a harp. Strings that resonate with the majestic music would bring happiness to all, while discord would destroy the fabric of the universe.",
+  "releaseVersion": "4.2",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 54,
+  "id": 9,
   "slug": "whopperflowers",
   "name": "Whopperflowers",
   "family": "mystical-beasts",

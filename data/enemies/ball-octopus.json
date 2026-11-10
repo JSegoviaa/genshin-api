@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 158,
+  "id": 192,
   "slug": "ball-octopus",
   "name": "Ball Octopus",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ],
+    "artifactSets": []
+  },
   "description": "An aquatic creature that hunts by firing watery projectiles.\nThe ability to fire water bombs is of course not uncommon among Fontemer Aberrants. But for your average careless diver, most of whom are tourists, a high-pressure water current of this kind can pose a significant threat. The thickness of diving equipment is therefore necessary for two reasons – firstly, to resist the pressure of the water itself, but secondly, to protect against the attacks of Fontemer Aberrants.",
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 315,
+  "id": 112,
   "slug": "thunder-manifestation",
   "name": "Thunder Manifestation",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "storm-beads"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-wisdom",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "Amidst the storms of Amakumo Peak, you hear a raging, thunderous cry...",
   "images": {}
 }

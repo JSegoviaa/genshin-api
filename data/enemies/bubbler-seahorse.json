@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 160,
+  "id": 194,
   "slug": "bubbler-seahorse",
   "name": "Bubbler Seahorse",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ],
+    "artifactSets": []
+  },
   "description": "The adult form of a male Bubbly Seahorse. It is extremely aggressive.\nSome people even claim to have encountered the king among the seahorses. It is said that they are proud beings with four long limbs.",
   "images": {}
 }

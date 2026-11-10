@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 144,
+  "slug": "sturdy-shell",
+  "name": "Sturdy Shell",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "consecrated-beast-materials",
+  "rarity": 3,
+  "description": "The sturdy shell of a Consecrated Beast.\nThe remains of a ruinous beast that once gnawed at the flesh of great, fallen beings. Even should the beasts sup a sliver of power from the gods of yesteryear, they too will greet the same end as said gods.",
+  "releaseVersion": "3.4",
+  "images": {}
+}

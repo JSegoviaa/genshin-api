@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 57,
+  "slug": "lord-of-eroded-primal-fire-materials",
+  "name": "Lord of Eroded Primal Fire Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

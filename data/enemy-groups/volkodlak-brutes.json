@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 52,
+  "id": 54,
   "slug": "volkodlak-brutes",
   "name": "Volkodlak Brutes",
   "family": "mystical-beasts",

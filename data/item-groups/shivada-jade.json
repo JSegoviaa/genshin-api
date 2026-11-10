@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 18,
+  "slug": "shivada-jade",
+  "name": "Shivada Jade",
+  "type": "character-ascension-materials",
+  "source": "ascension-gems",
+  "images": {}
+}

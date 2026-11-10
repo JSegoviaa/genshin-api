@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 21,
+  "id": 121,
   "slug": "pyro-specter",
   "name": "Pyro Specter",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A monster born from highly-concentrated Pyro elements that can float in the air.\nThere was once an Akademiya student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.",
   "images": {}
 }

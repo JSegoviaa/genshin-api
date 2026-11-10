@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 146,
+  "id": 142,
   "slug": "stretchy-geo-fungus",
   "name": "Stretchy Geo Fungus",
   "type": "common-enemies",
@@ -53,6 +53,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust",
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nThese shrooms' caps have hard outer layers derived from concretions of Geo energy. Its bodily structure is also quite likely to be denser than others of its kind.",
   "images": {}
 }

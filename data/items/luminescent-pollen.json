@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 113,
+  "slug": "luminescent-pollen",
+  "name": "Luminescent Pollen",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "fungus-materials",
+  "rarity": 2,
+  "description": "A small parcel of luminescent Fungal Spore powder, a common medical ingredient in the land of rainforests. Merchants usually sell them in paper packets.",
+  "releaseVersion": "2.6",
+  "images": {}
+}

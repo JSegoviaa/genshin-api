@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 248,
+  "slug": "elixir-of-the-heretic",
+  "name": "Elixir of the Heretic",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "group": "the-doctor-materials",
+  "rarity": 5,
+  "description": "A vial found in the heretical testing grounds after defeating the false god that usurped the moon.\nFor centuries, self-proclaimed scholars have crawled beneath the weight of the six cardinal prohibitions, their studies little more than circular reasoning and empty words. The pursuit of truth should know no bounds — by this measure, those condemned as heretics by the world are the truest seekers of knowledge.",
+  "releaseVersion": "Luna IV",
+  "images": {}
+}

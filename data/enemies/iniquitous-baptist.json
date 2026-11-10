@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 320,
+  "id": 177,
   "slug": "iniquitous-baptist",
   "name": "Iniquitous Baptist",
   "type": "normal-bosses",
@@ -56,6 +56,38 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "evergloom-ring"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "prayers-for-destiny",
+      "prayers-for-illumination",
+      "prayers-for-wisdom",
+      "prayers-to-springtime",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A monster from the Abyss that wields multiple types of Elemental Power and has gained extra limbs from its \"evolution.\"\n\n\"The nature of the 'Abyss' is essentially irreconcilable with the elements. However, even the elements of gods can be entrapped and distorted before they are subsumed to become tools of the abyssal will. Just judging from outcomes and practical use, \"Abyssal powers\" seem little different from elemental items, from ones as paltry as the Treasure Hoarders' elemental containers to those as powerful as Visions...\"\n—Notes left behind in Hangeh Afrasiyab by someone.",
   "images": {}
 }

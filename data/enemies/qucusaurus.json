@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 174,
+  "id": 270,
   "slug": "qucusaurus",
   "name": "Qucusaurus",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ],
+    "artifactSets": []
+  },
   "description": "A Saurian with large, supple wings that can glide through the air for long periods.\nIt is said that the ancestors of the Qucusaurs were the closest in form to the mighty winged dragons, and that they could soar through the sky like clouds. According to the storytellers, when the greatest of such dragons spread its wings, the entire sky would be blotted out. Of course, the Qucusaurs we see today no longer possess such forms, but the claws they hide within their downy feather coats remain as sharp as ever.",
   "images": {}
 }

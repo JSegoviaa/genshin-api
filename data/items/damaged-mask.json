@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 4,
+  "slug": "damaged-mask",
+  "name": "Damaged Mask",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "hilichurl-materials",
+  "rarity": 1,
+  "description": "A broken bone mask that once belonged to some hilichurl.\nNow more broken than complete, it can no longer perform its primary function.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 117,
+  "slug": "deathly-statuette",
+  "name": "Deathly Statuette",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "the-black-serpents-material",
+  "rarity": 4,
+  "description": "A one-eyed carving that emanates an ominous energy, with no indication of what it's made of.\nAs you gaze upon this idol, you can almost hear a strange, comforting whisper...\n\"See, my child. All that lies under the throne of heaven shall be destroyed by upheaval. The eternal peace of the pitch-dark void shall embrace us all.\"",
+  "releaseVersion": "2.6",
+  "images": {}
+}

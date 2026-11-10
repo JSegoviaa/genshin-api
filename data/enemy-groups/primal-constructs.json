@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 28,
+  "id": 33,
   "slug": "primal-constructs",
   "name": "Primal Constructs",
   "family": "automatons",

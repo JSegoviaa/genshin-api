@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 280,
+  "id": 175,
   "slug": "consecrated-fanged-beast",
   "name": "Consecrated Fanged Beast",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "desiccated-shell",
+      "sturdy-shell",
+      "marked-shell"
+    ],
+    "artifactSets": []
+  },
   "description": "A predator that has mutated after feeding from greater lifeforms.\nSurvival of the fittest is written in the law of nature. But pets and Consecrated Beasts are exceptions. Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.",
   "images": {}
 }

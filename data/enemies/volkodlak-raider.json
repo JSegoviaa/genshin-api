@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 305,
+  "id": 355,
   "slug": "volkodlak-raider",
   "name": "Volkodlak Raider",
   "type": "elite-enemies",
@@ -56,6 +56,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone",
+      "accreted-fragment",
+      "accreted-mass",
+      "accreted-growth"
+    ],
+    "artifactSets": []
+  },
   "description": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\nWith their swift movements and senses keener than a human's, they can evade many attacks in battle by instinct alone, making them quite troublesome opponents in close-quarters combat.",
   "images": {}
 }

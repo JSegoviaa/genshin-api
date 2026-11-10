@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 289,
+  "id": 278,
   "slug": "biting-cold-wayob-manifestation",
   "name": "Biting-Cold Wayob Manifestation",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "shard-of-a-shattered-will",
+      "locus-of-a-clear-will",
+      "sigil-of-a-striding-will"
+    ],
+    "artifactSets": []
+  },
   "description": "The Masters of the Night-Wind believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nThe Masters of the Night-Wind have tried using many mediums to communicate with the Night Kingdom. Eventually, they discovered that the medium that allowed them to establish the most stable connection with the Wayob was obsidian. This may explain why, over the ages, Wayob Manifestations have taken on a form that resembles a stone statue. The Masters of the Night-Wind believe their Wayob has the power to control the process of freezing and crystallization, and can also command both fixedness and mutability.",
   "images": {}
 }

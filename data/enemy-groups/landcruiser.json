@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 25,
+  "id": 47,
   "slug": "landcruiser",
   "name": "Landcruiser",
   "family": "fatui",

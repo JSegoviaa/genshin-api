@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 310,
+  "id": 66,
   "slug": "geo-hypostasis",
   "name": "Geo Hypostasis",
   "type": "normal-bosses",
@@ -53,6 +53,22 @@
       "immune": true
     }
   ],
+  "drops": {
+    "items": [
+      "prithiva-topaz-sliver",
+      "prithiva-topaz-fragment",
+      "prithiva-topaz-chunk",
+      "prithiva-topaz-gemstone",
+      "basalt-pillar"
+    ],
+    "artifactSets": [
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "traveling-doctor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "Code Name: Gimel. A high-purity Geo entity.\nElemental hypostases are ultra-compact structures with a high mass.\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to the elemental stimuli.",
   "images": {}
 }

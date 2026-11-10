@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 86,
+  "slug": "kageuchi-handguard",
+  "name": "Kageuchi Handguard",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "nobushi-materials",
+  "rarity": 2,
+  "description": "A handguard mounted upon a sword of some distinction.\nInazuma has a long tradition of sword-making. When making swords, smiths will often make several different weapons at once, before choosing from among them the \"shinuchi,\" or the best weapon, while the others are known as \"kageuchi.\"",
+  "releaseVersion": "2.0",
+  "images": {}
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 34,
+  "slug": "hunters-sacrificial-knife",
+  "name": "Hunter's Sacrificial Knife",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "fatui-pyro-agent-materials",
+  "rarity": 2,
+  "description": "A sharp alloy weapon. Though its owner has been lost, it still reflects a disturbingly cold light.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

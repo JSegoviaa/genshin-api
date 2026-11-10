@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 119,
+  "slug": "faded-red-satin",
+  "name": "Faded Red Satin",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "the-eremites-materials",
+  "rarity": 1,
+  "description": "A piece of red satin used to cover the eyes. The fabric is slightly torn.\nMany Eremites tend to cover their eyes with textiles, but the original intention of this practice has long been lost to the sands of time.",
+  "releaseVersion": "3.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 355,
+  "id": 364,
   "slug": "wavebinder",
   "name": "Wavebinder",
   "type": "normal-bosses",
@@ -53,6 +53,23 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "shattered-stability-anchor"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "prayers-for-destiny",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
   "description": "A Volkodlak of peerless strength, brought into being to fulfill an ancient civilization's grand ambition of exploring the waters unhindered.\nNow that their bloodline has been diluted, such creatures are finally able to move about on land — though they have, in turn, lost the ability to remain submerged for long periods of time.",
   "images": {}
 }

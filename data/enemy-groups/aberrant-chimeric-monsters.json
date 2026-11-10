@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 39,
+  "id": 52,
   "slug": "aberrant-chimeric-monsters",
   "name": "Aberrant Chimeric Monsters",
   "family": "mystical-beasts",

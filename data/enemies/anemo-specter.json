@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 16,
+  "id": 108,
   "slug": "anemo-specter",
   "name": "Anemo Specter",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ],
+    "artifactSets": []
+  },
   "description": "A monster birthed from a high concentration of Anemo that can float in the air.\nAs reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost.",
   "images": {}
 }

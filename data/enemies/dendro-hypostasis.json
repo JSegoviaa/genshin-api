@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 316,
+  "id": 163,
   "slug": "dendro-hypostasis",
   "name": "Dendro Hypostasis",
   "type": "normal-bosses",
@@ -53,6 +53,22 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "nagadus-emerald-sliver",
+      "nagadus-emerald-fragment",
+      "nagadus-emerald-chunk",
+      "nagadus-emerald-gemstone",
+      "quelled-creeper"
+    ],
+    "artifactSets": [
+      "adventurer",
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "wanderers-troupe"
+    ]
+  },
   "description": "Code Name: Zayin. A high-purity Dendro entity.\nThere are significant deviations in behavior between this being and the other Elemental Hypostases, though no one has yet produced a reliable conclusion as to why this is the case.",
   "images": {}
 }

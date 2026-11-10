@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 46,
+  "id": 37,
   "slug": "fontemer-aberrants",
   "name": "Fontemer Aberrants",
   "family": "mystical-beasts",

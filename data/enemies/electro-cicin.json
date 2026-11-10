@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 137,
+  "id": 48,
   "slug": "electro-cicin",
   "name": "Electro Cicin",
   "type": "common-enemies",
@@ -53,6 +53,10 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [],
+    "artifactSets": []
+  },
   "description": "Little creatures that can ever so slightly manipulate Electro.\nThey and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances.",
   "images": {}
 }

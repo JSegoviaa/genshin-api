@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 45,
+  "id": 32,
   "slug": "fatui-skirmisher-electrohammer-vanguard",
   "name": "Fatui Skirmisher - Electrohammer Vanguard",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ],
+    "artifactSets": []
+  },
   "description": "A sturdily-build skirmisher armed with an Electro-powered war-hammer.\nAs a Fatui soldier, one has access to munificent resources: salaries, armaments, and supplies.\nBut at the same time, it also means much time away from home and family and putting one's life in the hands of comrades one has never met.",
   "images": {}
 }

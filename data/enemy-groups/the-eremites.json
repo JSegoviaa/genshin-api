@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemy-groups.json",
-  "id": 36,
+  "id": 31,
   "slug": "the-eremites",
   "name": "The Eremites",
   "family": "other-human-factions",

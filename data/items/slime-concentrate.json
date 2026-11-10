@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 3,
+  "slug": "slime-concentrate",
+  "name": "Slime Concentrate",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "slime-materials",
+  "rarity": 3,
+  "description": "Concentrated slime essence. When left alone, it will begin to move on its own.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

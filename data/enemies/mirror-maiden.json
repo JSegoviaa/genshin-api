@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 252,
+  "id": 101,
   "slug": "mirror-maiden",
   "name": "Mirror Maiden",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "dismal-prism",
+      "crystal-prism",
+      "polarizing-prism"
+    ],
+    "artifactSets": []
+  },
   "description": "A member of a special Fatui honor guard from Snezhnaya.\nWilling to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title \"Maiden\".",
   "images": {}
 }

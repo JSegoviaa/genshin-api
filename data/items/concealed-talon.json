@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 106,
+  "slug": "concealed-talon",
+  "name": "Concealed Talon",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "elite-enemy-drops",
+  "group": "riftwolf-materials",
+  "rarity": 4,
+  "description": "A sharp nail left behind by one of the Riftwolves.\nAll the marvels in the world must pale before \"Cretaceus,\" the greatest work of them all.",
+  "releaseVersion": "2.2",
+  "images": {}
+}

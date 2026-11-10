@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 172,
+  "id": 268,
   "slug": "iktomisaurus",
   "name": "Iktomisaurus",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ],
+    "artifactSets": []
+  },
   "description": "Able to use their plumage for leaping, Iktomisaurs are also the only type of Saurian to have grasped how to enter the \"Spiritspeaker\" state.\nAccording to legend, their ancestors did not have a physical form, and instead could drift like spirits between reality and the spiritual realm, manifesting themselves through the darkness of night. Some also say that the first Iktomisaur to emerge from the Night Kingdom was not actually a true Saurian, but rather a unique race distinct from ordinary Saurians.",
   "images": {}
 }

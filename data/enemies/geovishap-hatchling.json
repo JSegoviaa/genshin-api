@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 270,
+  "id": 63,
   "slug": "geovishap-hatchling",
   "name": "Geovishap Hatchling",
   "type": "elite-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "fragile-bone-shard",
+      "sturdy-bone-shard",
+      "fossilized-bone-shard"
+    ],
+    "artifactSets": []
+  },
   "description": "A young vishap with a hard Geo exoskeleton.\nVishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Akademiya believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
   "images": {}
 }

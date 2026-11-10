@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 60,
+  "id": 308,
   "slug": "oprichniki-hailstorm-cannoneer",
   "name": "Oprichniki Hailstorm Cannoneer",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ],
+    "artifactSets": []
+  },
   "description": "An elite officer of the Fatui Oprichniki who uses a heavy cannon to tear enemy formations apart while using a mighty shield to defend their comrades.\nBitter battles have dyed the shield frost white, while coatings of blood have tinted its edges black. Oprichniki officers know that empty words will never bring back those who have fallen in sacrifice — only a bombardment akin to a hailstorm can shake this defiled Old World.",
   "images": {}
 }

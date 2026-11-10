@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 5,
+  "slug": "stained-mask",
+  "name": "Stained Mask",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "hilichurl-materials",
+  "rarity": 2,
+  "description": "A bone mask covered in unidentifiable stains, that emanates a mysterious odor.\nYet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
+  "releaseVersion": "1.0",
+  "images": {}
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 225,
+  "id": 172,
   "slug": "black-serpent-knight-rockbreaker-ax",
   "name": "Black Serpent Knight: Rockbreaker Ax",
   "type": "elite-enemies",
@@ -54,6 +54,10 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [],
+    "artifactSets": []
+  },
   "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\nThough Truthseeker is, strictly speaking, a sword art, its teachings can also be used with various other weapons — and in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway.",
   "images": {}
 }

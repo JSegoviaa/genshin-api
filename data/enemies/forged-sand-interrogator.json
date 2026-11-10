@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 104,
+  "id": 223,
   "slug": "forged-sand-interrogator",
   "name": "Forged Sand Interrogator",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A valiant warrior of the canyon, and a tribal guardian who patrols the crystal mountains and rivers.\nA tribal warrior wielding a ball-headed club, she can turn even the hardest of rocks into dust with her crushing blows. When not using her weapon to fight, she instead often smashes open rocks in search of precious gems and traces of phlogiston crystals.",
   "images": {}
 }

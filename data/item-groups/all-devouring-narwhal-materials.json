@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 47,
+  "slug": "all-devouring-narwhal-materials",
+  "name": "All-Devouring Narwhal Materials",
+  "type": "character-level-up-materials",
+  "source": "weekly-boss-drops",
+  "images": {}
+}

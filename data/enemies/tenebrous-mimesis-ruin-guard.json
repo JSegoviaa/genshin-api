@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 232,
+  "id": 251,
   "slug": "tenebrous-mimesis-ruin-guard",
   "name": "Tenebrous Mimesis - Ruin Guard",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "artifactSets": []
+  },
   "description": null,
   "images": {}
 }

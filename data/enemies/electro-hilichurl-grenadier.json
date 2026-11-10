@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 41,
+  "id": 90,
   "slug": "electro-hilichurl-grenadier",
   "name": "Electro Hilichurl Grenadier",
   "type": "common-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ],
+    "artifactSets": []
+  },
   "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nElectro Slimes don't seem to have as many applications as Pyro Slimes or Anemo Slimes in the benighted lives of the Hilichurls.\nPerhaps one day they may discover the flow of Elements between Electro Slime and Mutant Electro Slime and make some great progress...?",
   "images": {}
 }

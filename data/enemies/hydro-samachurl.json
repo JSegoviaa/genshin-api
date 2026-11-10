@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 33,
+  "id": 26,
   "slug": "hydro-samachurl",
   "name": "Hydro Samachurl",
   "type": "common-enemies",
@@ -54,6 +54,17 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask",
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ],
+    "artifactSets": []
+  },
   "description": "A wizened, mumbling hilichurl, one that chants of the power of Hydro.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. What sort of life would lead to such simple creatures being able to summon water and rains?",
   "images": {}
 }

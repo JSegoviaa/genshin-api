@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 278,
+  "id": 168,
   "slug": "consecrated-red-vulture",
   "name": "Consecrated Red Vulture",
   "type": "elite-enemies",
@@ -53,6 +53,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "desiccated-shell",
+      "sturdy-shell",
+      "marked-shell"
+    ],
+    "artifactSets": []
+  },
   "description": "A scavenging bird of prey that has mutated after feeding from greater lifeforms.\nThe greater lifeforms devoured by Consecrated Beasts often have nigh-immortal consciousness that can never be fully silenced or eradicated. The very power and consciousness gained by Consecrated Beasts devouring these lifeforms will, in turn, drive them to seek more violence and carrion.",
   "images": {}
 }

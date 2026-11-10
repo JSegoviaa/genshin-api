@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/enemies.json",
-  "id": 124,
+  "id": 266,
   "slug": "winged-warrior-skymaster",
   "name": "Winged Warrior: Skymaster",
   "type": "common-enemies",
@@ -54,6 +54,14 @@
       "immune": false
     }
   ],
+  "drops": {
+    "items": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ],
+    "artifactSets": []
+  },
   "description": "A warrior from the clifftops, and a tribal guardian that patrols the steep mountain ridges.\nBy observing and emulating the claw strikes of airborne Saurians, these warriors have grasped the essence of harnessing their own power. Their kicks, delivered from up high, should not be underestimated.",
   "images": {}
 }

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 190,
+  "slug": "seasoned-fang",
+  "name": "Seasoned Fang",
+  "type": "character-and-weapon-enhancement-materials",
+  "source": "general-enemy-drops",
+  "group": "natlan-saurian-materials",
+  "rarity": 2,
+  "description": "A sturdy tooth that fell from a Natlan Saurian.\nWear and tear bear witness to the experiences and battles of its previous owner. Among the many Saurians of Natlan, one with such a tooth must have been considered a formidable warrior indeed.",
+  "releaseVersion": "5.0",
+  "images": {}
+}

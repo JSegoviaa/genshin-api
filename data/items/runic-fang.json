@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 118,
+  "slug": "runic-fang",
+  "name": "Runic Fang",
+  "type": "character-level-up-materials",
+  "source": "normal-boss-drops",
+  "group": null,
+  "rarity": 4,
+  "description": "A \"fang\" with which the mysterious, snakelike machine of old dug into mountains' depths. There are many ominous runes carved on it.\nIt is said that giant serpents lurk in the dark fissures deep beneath the ground. Burning with eternal resentment and malice toward the world above, they throw themselves into digging great tunnels, yet none know what their malicious purposes are...",
+  "releaseVersion": "2.6",
+  "images": {}
+}
