@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 145,
+  "slug": "thundering-pulse",
+  "name": "Thundering Pulse",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Inazuma Series"
+  ],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/thundering-pulse/icon.webp",
+    "awakenedIcon": "weapons/thundering-pulse/awakened-icon.webp"
+  }
+}

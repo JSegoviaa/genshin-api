@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 199,
+  "slug": "flower-wreathed-feathers",
+  "name": "Flower-Wreathed Feathers",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Estimation",
+  "images": {
+    "icon": "weapons/flower-wreathed-feathers/icon.webp",
+    "awakenedIcon": "weapons/flower-wreathed-feathers/awakened-icon.webp"
+  }
+}

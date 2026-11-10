@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 7,
+  "slug": "barbara",
+  "name": "Barbara",
+  "rarity": 4,
+  "element": "hydro",
+  "weaponType": "catalyst",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "07-05",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "HP",
+  "localSpecialty": "Philanemo Mushroom",
+  "materials": {
+    "boss": "Cleansing Heart",
+    "weeklyBoss": "Ring of Boreas",
+    "common": [
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "crater",
+      "name": "Crater",
+      "meaning": "Cup",
+      "images": {
+        "image": "characters/barbara/constellations/crater/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Gleeful Songs",
+          "description": "Barbara regenerates 1 Energy every 10s.",
+          "images": {
+            "icon": "characters/barbara/constellations/crater/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Vitality Burst",
+          "description": "Decreases the CD of Let the Show Begin♪ by 15%. During the ability's duration, your active character gains a 15% Hydro DMG Bonus.",
+          "images": {
+            "icon": "characters/barbara/constellations/crater/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Star of Tomorrow",
+          "description": "Increases the Level of Shining Miracle♪ by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/barbara/constellations/crater/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Attentiveness Be My Power",
+          "description": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her. A maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
+          "images": {
+            "icon": "characters/barbara/constellations/crater/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "The Purest Companionship",
+          "description": "Increases the Level of Let the Show Begin♪ by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/barbara/constellations/crater/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Dedicating Everything to You",
+          "description": "When Barbara is in the party but not on the field, and one of your own party members falls: Automatically revives the fallen character. Fully restores the revived character's HP to 100%. This effect can only occur once every 15 mins.",
+          "images": {
+            "icon": "characters/barbara/constellations/crater/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/barbara/icon.png",
+    "card": "characters/barbara/card.webp",
+    "inGame": "characters/barbara/in-game.webp",
+    "wish": "characters/barbara/wish.webp",
+    "multiWish": "characters/barbara/multi-wish.webp",
+    "partyIcon": "characters/barbara/party-icon.webp"
+  }
+}

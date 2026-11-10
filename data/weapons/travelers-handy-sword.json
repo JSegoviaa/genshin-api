@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 11,
+  "slug": "travelers-handy-sword",
+  "name": "Traveler's Handy Sword",
+  "rarity": 3,
+  "weaponType": "sword",
+  "secondaryStat": "DEF",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/travelers-handy-sword/icon.webp",
+    "awakenedIcon": "weapons/travelers-handy-sword/awakened-icon.webp"
+  }
+}

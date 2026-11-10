@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 6,
+  "slug": "silver-sword",
+  "name": "Silver Sword",
+  "rarity": 2,
+  "weaponType": "sword",
+  "secondaryStat": null,
+  "series": [
+    "2-Star Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/silver-sword/icon.webp",
+    "awakenedIcon": "weapons/silver-sword/awakened-icon.webp"
+  }
+}

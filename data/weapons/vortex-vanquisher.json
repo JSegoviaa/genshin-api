@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 131,
+  "slug": "vortex-vanquisher",
+  "name": "Vortex Vanquisher",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "ATK",
+  "series": [
+    "Liyue Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/vortex-vanquisher/icon.webp",
+    "awakenedIcon": "weapons/vortex-vanquisher/awakened-icon.webp"
+  }
+}

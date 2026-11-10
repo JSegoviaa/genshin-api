@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 94,
+  "slug": "citlali",
+  "name": "Citlali",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "catalyst",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "01-20",
+  "releaseDate": "2025-01-01",
+  "releaseVersion": "5.3",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Quenepa Berry",
+  "materials": {
+    "boss": "Talisman of the Enigmatic Land",
+    "weeklyBoss": "Denial and Judgment",
+    "common": [
+      "Juvenile Fang",
+      "Seasoned Fang",
+      "Tyrant's Fang"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "patina-anavatlaca",
+      "name": "Patina Anavatlaca",
+      "meaning": "Anahuatl Dish",
+      "images": {
+        "image": "characters/citlali/constellations/patina-anavatlaca/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/citlali/icon.webp",
+    "card": "characters/citlali/card.webp",
+    "inGame": "characters/citlali/in-game.webp",
+    "wish": "characters/citlali/wish.webp",
+    "multiWish": "characters/citlali/multi-wish.webp",
+    "partyIcon": "characters/citlali/party-icon.webp"
+  }
+}

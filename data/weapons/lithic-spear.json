@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 74,
+  "slug": "lithic-spear",
+  "name": "Lithic Spear",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "ATK",
+  "series": [
+    "Lithic Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/lithic-spear/icon.webp",
+    "awakenedIcon": "weapons/lithic-spear/awakened-icon.webp"
+  }
+}

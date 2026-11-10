@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 237,
+  "slug": "echoes-of-the-heart",
+  "name": "Echoes of the Heart",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Cast Iron",
+  "images": {
+    "icon": "weapons/echoes-of-the-heart/icon.webp",
+    "awakenedIcon": "weapons/echoes-of-the-heart/awakened-icon.webp"
+  }
+}

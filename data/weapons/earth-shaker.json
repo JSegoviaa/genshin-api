@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 188,
+  "slug": "earth-shaker",
+  "name": "Earth Shaker",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/earth-shaker/icon.webp",
+    "awakenedIcon": "weapons/earth-shaker/awakened-icon.webp"
+  }
+}

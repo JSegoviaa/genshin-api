@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 252,
+  "slug": "starsealed-edict",
+  "name": "Starsealed Edict",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Severed Steel",
+  "images": {
+    "icon": "weapons/starsealed-edict/icon.webp",
+    "awakenedIcon": "weapons/starsealed-edict/awakened-icon.webp"
+  }
+}

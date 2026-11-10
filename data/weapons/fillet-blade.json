@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 14,
+  "slug": "fillet-blade",
+  "name": "Fillet Blade",
+  "rarity": 3,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/fillet-blade/icon.webp",
+    "awakenedIcon": "weapons/fillet-blade/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 140,
+  "slug": "memory-of-dust",
+  "name": "Memory of Dust",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [
+    "Liyue Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/memory-of-dust/icon.webp",
+    "awakenedIcon": "weapons/memory-of-dust/awakened-icon.webp"
+  }
+}

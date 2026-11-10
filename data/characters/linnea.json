@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 114,
+  "slug": "linnea",
+  "name": "Linnea",
+  "rarity": 5,
+  "element": "geo",
+  "weaponType": "bow",
+  "region": "nod-krai",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "05-23",
+  "releaseDate": "2026-04-08",
+  "releaseVersion": "Luna VI",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Etherwing Moth",
+  "materials": {
+    "boss": "Plume of the Fallen Watcher",
+    "weeklyBoss": "Elixir of the Herectic",
+    "common": [
+      "Tattered Warrant",
+      "Immaculate Warrant",
+      "Frost-Etched Warrant"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/linnea/icon.webp",
+    "card": "characters/linnea/card.webp",
+    "inGame": "characters/linnea/in-game.webp",
+    "wish": "characters/linnea/wish.webp",
+    "multiWish": "characters/linnea/multi-wish.webp",
+    "partyIcon": "characters/linnea/party-icon.webp"
+  }
+}

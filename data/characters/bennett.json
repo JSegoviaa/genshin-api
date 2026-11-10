@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 17,
+  "slug": "bennett",
+  "name": "Bennett",
+  "rarity": 4,
+  "element": "pyro",
+  "weaponType": "sword",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "02-29",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Energy Recharge",
+  "localSpecialty": "Windwheel Aster",
+  "materials": {
+    "boss": "Everfkane Seed",
+    "weeklyBoss": "Dvalin's Plume",
+    "common": [
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "rota-calamitas",
+      "name": "Rota Calamitas",
+      "meaning": "Wheel of Misfortune",
+      "images": {
+        "image": "characters/bennett/constellations/rota-calamitas/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Grand Expectation",
+          "description": "Fantastic Voyage's ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+          "images": {
+            "icon": "characters/bennett/constellations/rota-calamitas/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Impasse Conqueror",
+          "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+          "images": {
+            "icon": "characters/bennett/constellations/rota-calamitas/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Unstoppable Fervor",
+          "description": "Increases the Level of Passion Overload by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/bennett/constellations/rota-calamitas/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Unexpected Odyssey",
+          "description": "Using a Normal Attack as the second attack of Passion Overload's. Charge Level 1 will perform a follow-up attack. This additional attack does 135% of the second attack's DMG.",
+          "images": {
+            "icon": "characters/bennett/constellations/rota-calamitas/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "True Explorer",
+          "description": "Increases the Level of Fantastic Voyage by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/bennett/constellations/rota-calamitas/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Fire Ventures With Me",
+          "description": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.",
+          "images": {
+            "icon": "characters/bennett/constellations/rota-calamitas/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/bennett/icon.png",
+    "card": "characters/bennett/card.webp",
+    "inGame": "characters/bennett/in-game.webp",
+    "wish": "characters/bennett/wish.webp",
+    "multiWish": "characters/bennett/multi-wish.webp",
+    "partyIcon": "characters/bennett/party-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 180,
+  "slug": "uraku-misugiri",
+  "name": "Uraku Misugiri",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Sunken Sands",
+  "images": {
+    "icon": "weapons/uraku-misugiri/icon.webp",
+    "awakenedIcon": "weapons/uraku-misugiri/awakened-icon.webp"
+  }
+}

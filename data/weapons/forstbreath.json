@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 241,
+  "slug": "forstbreath",
+  "name": "Forstbreath",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Chain Track",
+  "images": {
+    "icon": "weapons/forstbreath/icon.webp",
+    "awakenedIcon": "weapons/forstbreath/awakened-icon.webp"
+  }
+}

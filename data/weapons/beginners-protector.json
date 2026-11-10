@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 3,
+  "slug": "beginners-protector",
+  "name": "Beginner's Protector",
+  "rarity": 1,
+  "weaponType": "polearm",
+  "secondaryStat": null,
+  "series": [
+    "1-Star Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/beginners-protector/icon.webp",
+    "awakenedIcon": "weapons/beginners-protector/awakened-icon.webp"
+  }
+}

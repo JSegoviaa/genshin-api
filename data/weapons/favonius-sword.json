@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 49,
+  "slug": "favonius-sword",
+  "name": "Favonius Sword",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Favonius Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/favonius-sword/icon.webp",
+    "awakenedIcon": "weapons/favonius-sword/awakened-icon.webp"
+  }
+}

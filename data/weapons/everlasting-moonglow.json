@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 143,
+  "slug": "everlasting-moonglow",
+  "name": "Everlasting Moonglow",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "HP",
+  "series": [],
+  "ascensionMaterial": "Sunken Sands",
+  "images": {
+    "icon": "weapons/everlasting-moonglow/icon.webp",
+    "awakenedIcon": "weapons/everlasting-moonglow/awakened-icon.webp"
+  }
+}

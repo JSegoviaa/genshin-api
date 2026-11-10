@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 94,
+  "slug": "frostbearer",
+  "name": "Frostbearer",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [
+    "Dragonspine Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/frostbearer/icon.webp",
+    "awakenedIcon": "weapons/frostbearer/awakened-icon.webp"
+  }
+}

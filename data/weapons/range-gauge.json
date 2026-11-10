@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 172,
+  "slug": "range-gauge",
+  "name": "Range Gauge",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Construction Series"
+  ],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/range-gauge/icon.webp",
+    "awakenedIcon": "weapons/range-gauge/awakened-icon.webp"
+  }
+}

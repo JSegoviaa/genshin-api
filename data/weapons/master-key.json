@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 215,
+  "slug": "master-key",
+  "name": "Master Key",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Lunar Oblation",
+  "images": {
+    "icon": "weapons/master-key/icon.webp",
+    "awakenedIcon": "weapons/master-key/awakened-icon.webp"
+  }
+}

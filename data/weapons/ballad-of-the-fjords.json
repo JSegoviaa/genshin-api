@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 163,
+  "slug": "ballad-of-the-fjords",
+  "name": "Ballad of the Fjords",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Gnostic Hymn 2 Series"
+  ],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/ballad-of-the-fjords/icon.webp",
+    "awakenedIcon": "weapons/ballad-of-the-fjords/awakened-icon.webp"
+  }
+}

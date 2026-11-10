@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 89,
+  "slug": "kinich",
+  "name": "Kinich",
+  "rarity": 5,
+  "element": "dendro",
+  "weaponType": "claymore",
+  "region": "natlan",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "11-11",
+  "releaseDate": "2024-09-17",
+  "releaseVersion": "5.0",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Saurian Claw Succulent",
+  "materials": {
+    "boss": "Overripe Flamegranate",
+    "weeklyBoss": "Denial and Judgment",
+    "common": [
+      "Juvenile Fang",
+      "Seasoned Fang",
+      "Tyrant's Fang"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "chimaera-alebriius",
+      "name": "Chimaera Alebriius",
+      "meaning": "Chimera Alebrije",
+      "images": {
+        "image": "characters/kinich/constellations/chimaera-alebriius/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/kinich/icon.webp",
+    "card": "characters/kinich/card.webp",
+    "inGame": "characters/kinich/in-game.webp",
+    "wish": "characters/kinich/wish.webp",
+    "multiWish": "characters/kinich/multi-wish.webp",
+    "partyIcon": "characters/kinich/party-icon.webp"
+  }
+}

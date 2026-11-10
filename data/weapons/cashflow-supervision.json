@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 174,
+  "slug": "cashflow-supervision",
+  "name": "Cashflow Supervision",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/cashflow-supervision/icon.webp",
+    "awakenedIcon": "weapons/cashflow-supervision/awakened-icon.webp"
+  }
+}

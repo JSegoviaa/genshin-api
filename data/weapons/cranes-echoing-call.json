@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 179,
+  "slug": "cranes-echoing-call",
+  "name": "Crane's Echoing Call",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/cranes-echoing-call/icon.webp",
+    "awakenedIcon": "weapons/cranes-echoing-call/awakened-icon.webp"
+  }
+}

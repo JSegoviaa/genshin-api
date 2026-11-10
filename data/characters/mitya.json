@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 124,
+  "slug": "mitya",
+  "name": "Mitya",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "catalyst",
+  "region": "snezhnaya",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "02-08",
+  "releaseDate": "2026-11-04",
+  "releaseVersion": "7.2",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Kristallfold",
+  "materials": {
+    "boss": "Shattered Stability Anchor",
+    "weeklyBoss": "Mask of the Virtuous Doctor",
+    "common": [
+      "Chimeric Core",
+      "Symbiotic Chimeric Nucleus",
+      "Prime Chimeric Nexus"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/mitya/icon.webp",
+    "card": "characters/mitya/card.webp",
+    "inGame": "characters/mitya/in-game.webp",
+    "wish": "characters/mitya/wish.webp",
+    "multiWish": "characters/mitya/multi-wish.webp",
+    "partyIcon": "characters/mitya/party-icon.webp"
+  }
+}

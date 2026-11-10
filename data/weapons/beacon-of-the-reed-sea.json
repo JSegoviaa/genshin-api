@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 152,
+  "slug": "beacon-of-the-reed-sea",
+  "name": "Beacon of the Reed Sea",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Deshret Series"
+  ],
+  "ascensionMaterial": "Leading Karma",
+  "images": {
+    "icon": "weapons/beacon-of-the-reed-sea/icon.webp",
+    "awakenedIcon": "weapons/beacon-of-the-reed-sea/awakened-icon.webp"
+  }
+}

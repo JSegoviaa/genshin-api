@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 112,
+  "slug": "fading-twilight",
+  "name": "Fading Twilight",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/fading-twilight/icon.webp",
+    "awakenedIcon": "weapons/fading-twilight/awakened-icon.webp"
+  }
+}

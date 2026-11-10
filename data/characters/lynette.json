@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 71,
+  "slug": "lynette",
+  "name": "Lynette",
+  "rarity": 4,
+  "element": "anemo",
+  "weaponType": "sword",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "02-02",
+  "releaseDate": "2023-08-16",
+  "releaseVersion": "4.0",
+  "ascensionStat": "Anemo DMG Bonus",
+  "localSpecialty": "Lumidouce Bell",
+  "materials": {
+    "boss": "Artificed Spare Clockwork Component — Coppelia",
+    "weeklyBoss": "Everamber",
+    "common": [
+      "Meshing Gear",
+      "Mechanical Spur Gear",
+      "Artificed Dynamic Gear"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "felis-alba",
+      "name": "Felis Alba",
+      "meaning": "White Cat",
+      "images": {
+        "image": "characters/lynette/constellations/felis-alba/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "A Cold Blade Like a Shadow",
+          "description": "When Enigmatic Feint's Enigma Thrust hits an opponent with Shadowsign, a vortex will be created at that opponent's position that will pull nearby opponents in.",
+          "images": {
+            "icon": "characters/lynette/constellations/felis-alba/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Endless Mysteries",
+          "description": "Whenever the Bogglecat Box summoned by Magic Trick: Astonishing Shift fires a Vivid Shot, it will fire an extra Vivid Shot.",
+          "images": {
+            "icon": "characters/lynette/constellations/felis-alba/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Cognition-Inverting Gaze",
+          "description": "Increases the Level of Magic Trick: Astonishing Shift by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/lynette/constellations/felis-alba/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Tacit Coordination",
+          "description": "Increases Enigmatic Feint's charges by 1.",
+          "images": {
+            "icon": "characters/lynette/constellations/felis-alba/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Obscuring Ambiguity",
+          "description": "Increases the Level of Enigmatic Feint by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/lynette/constellations/felis-alba/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Watchful Eye",
+          "description": "When Lynette uses Enigmatic Feint's Enigma Thrust, she will gain an Anemo Infusion and 20% Anemo DMG Bonus for 6s.",
+          "images": {
+            "icon": "characters/lynette/constellations/felis-alba/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/lynette/icon.webp",
+    "card": "characters/lynette/card.webp",
+    "inGame": "characters/lynette/in-game.webp",
+    "wish": "characters/lynette/wish.webp",
+    "multiWish": "characters/lynette/multi-wish.webp",
+    "partyIcon": "characters/lynette/party-icon.webp"
+  }
+}

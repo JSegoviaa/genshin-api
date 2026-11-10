@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 76,
+  "slug": "favonius-lance",
+  "name": "Favonius Lance",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Favonius Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/favonius-lance/icon.webp",
+    "awakenedIcon": "weapons/favonius-lance/awakened-icon.webp"
+  }
+}

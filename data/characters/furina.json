@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 76,
+  "slug": "furina",
+  "name": "Furina",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "sword",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "10-13",
+  "releaseDate": "2023-11-08",
+  "releaseVersion": "4.2",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Lakelight Lily",
+  "materials": {
+    "boss": "Water Taht Failed To Transcend",
+    "weeklyBoss": "Lightless Mass",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "animula-choragi",
+      "name": "Animula Choragi",
+      "meaning": "Little Soul Conductor",
+      "images": {
+        "image": "characters/furina/constellations/animula-choragi/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/furina/icon.webp",
+    "card": "characters/furina/card.webp",
+    "inGame": "characters/furina/in-game.webp",
+    "wish": "characters/furina/wish.webp",
+    "multiWish": "characters/furina/multi-wish.webp",
+    "partyIcon": "characters/furina/party-icon.webp"
+  }
+}

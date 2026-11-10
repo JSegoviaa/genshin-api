@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 106,
+  "slug": "predator",
+  "name": "Predator",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Outlander Series"
+  ],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/predator/icon.webp",
+    "awakenedIcon": "weapons/predator/awakened-icon.webp"
+  }
+}

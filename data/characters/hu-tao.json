@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 31,
+  "slug": "hu-tao",
+  "name": "Hu Tao",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "polearm",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "07-15",
+  "releaseDate": "2021-03-02",
+  "releaseVersion": "1.3",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Silk Flower",
+  "materials": {
+    "boss": "Juvenile Jade",
+    "weeklyBoss": "Shard of a Foul Legacy",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "papilio-charontis",
+      "name": "Papilio Charontis",
+      "meaning": "Butterfly of Charon",
+      "images": {
+        "image": "characters/hu-tao/constellations/papilio-charontis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Crimson Bouquet",
+          "description": "While in a Paramita Papilio state activated by Guide to Afterlife, Hu Tao's Charged Attacks do not consume Stamina.",
+          "images": {
+            "icon": "characters/hu-tao/constellations/papilio-charontis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Ominous Rainfall",
+          "description": "Increases the Blood Blossom DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied. Additionally, Spirit Soother will also apply the Blood Blossom effect.",
+          "images": {
+            "icon": "characters/hu-tao/constellations/papilio-charontis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Lingering Carmine",
+          "description": "Increases the Level of Guide to Afterlife by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/hu-tao/constellations/papilio-charontis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Garden of Eternal Rest",
+          "description": "Upon defeating an enemy affected by a Blood Blossom that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
+          "images": {
+            "icon": "characters/hu-tao/constellations/papilio-charontis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Floral Incense",
+          "description": "Increases the Level of Spirit Soother by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/hu-tao/constellations/papilio-charontis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Butterfly's Embrace",
+          "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike: Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased. This effect triggers automatically when Hu Tao has 1 HP left. Can only occur once every 60s.",
+          "images": {
+            "icon": "characters/hu-tao/constellations/papilio-charontis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/hu-tao/icon.png",
+    "card": "characters/hu-tao/card.webp",
+    "inGame": "characters/hu-tao/in-game.webp",
+    "wish": "characters/hu-tao/wish.webp",
+    "multiWish": "characters/hu-tao/multi-wish.webp",
+    "partyIcon": "characters/hu-tao/party-icon.webp"
+  }
+}

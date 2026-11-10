@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 67,
+  "slug": "kaveh",
+  "name": "Kaveh",
+  "rarity": 4,
+  "element": "dendro",
+  "weaponType": "claymore",
+  "region": "sumeru",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "07-09",
+  "releaseDate": "2023-05-02",
+  "releaseVersion": "3.6",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Mourning Flower",
+  "materials": {
+    "boss": "Quelled Creeper",
+    "weeklyBoss": "Primordial Greenbloom",
+    "common": [
+      "Fungal Spores",
+      "Luminescent Pollen",
+      "Crystalline Cyst Dust"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "paradisaea",
+      "name": "Paradisaea",
+      "meaning": "Bird-of-paradise",
+      "images": {
+        "image": "characters/kaveh/constellations/paradisaea/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Sublime Salutations",
+          "description": "Within 3s after using Artistic Ingenuity, Kaveh's Dendro RES and Incoming Healing Bonus will be increased by 50% and 25% respectively.",
+          "images": {
+            "icon": "characters/kaveh/constellations/paradisaea/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Grace of Royal Roads",
+          "description": "Kaveh's Normal Attack SPD increases by 15% during Painted Dome.",
+          "images": {
+            "icon": "characters/kaveh/constellations/paradisaea/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Profferings of Dur Untash",
+          "description": "Increases the Level of Painted Dome by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/kaveh/constellations/paradisaea/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Feast of Apadana",
+          "description": "Dendro Cores created from Bloom reactions Kaveh triggers will deal 60% more DMG when they burst.",
+          "images": {
+            "icon": "characters/kaveh/constellations/paradisaea/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Treasures of Bonkhanak",
+          "description": "Increases the Level of Artistic Ingenuity by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/kaveh/constellations/paradisaea/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Pairidaeza's Dreams",
+          "description": "When Kaveh's Normal, Charged, or Plunging Attacks hit opponents during Painted Dome, they will unleash Pairidaeza's Light upon the opponent's position, dealing 61.8% of Kaveh's ATK as AoE Dendro DMG and causing all Dendro Cores within that AoE to burst. This effect can be triggered once every 3s.",
+          "images": {
+            "icon": "characters/kaveh/constellations/paradisaea/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/kaveh/icon.webp",
+    "card": "characters/kaveh/card.webp",
+    "inGame": "characters/kaveh/in-game.webp",
+    "wish": "characters/kaveh/wish.webp",
+    "multiWish": "characters/kaveh/multi-wish.webp",
+    "partyIcon": "characters/kaveh/party-icon.webp"
+  }
+}

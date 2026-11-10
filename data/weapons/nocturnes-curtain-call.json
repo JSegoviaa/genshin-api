@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 227,
+  "slug": "nocturnes-curtain-call",
+  "name": "Nocturne's Curtain Call",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Lunar Oblation",
+  "images": {
+    "icon": "weapons/nocturnes-curtain-call/icon.webp",
+    "awakenedIcon": "weapons/nocturnes-curtain-call/awakened-icon.webp"
+  }
+}

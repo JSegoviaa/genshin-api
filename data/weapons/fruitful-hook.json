@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 197,
+  "slug": "fruitful-hook",
+  "name": "Fruitful Hook",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Estimation",
+  "images": {
+    "icon": "weapons/fruitful-hook/icon.webp",
+    "awakenedIcon": "weapons/fruitful-hook/awakened-icon.webp"
+  }
+}

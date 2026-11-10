@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 89,
+  "slug": "prototype-amber",
+  "name": "Prototype Amber",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "HP",
+  "series": [
+    "Prototype Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/prototype-amber/icon.webp",
+    "awakenedIcon": "weapons/prototype-amber/awakened-icon.webp"
+  }
+}

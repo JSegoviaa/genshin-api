@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 198,
+  "slug": "peak-patrol-song",
+  "name": "Peak Patrol Song",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "DEF",
+  "series": [],
+  "ascensionMaterial": "Estimation",
+  "images": {
+    "icon": "weapons/peak-patrol-song/icon.webp",
+    "awakenedIcon": "weapons/peak-patrol-song/awakened-icon.webp"
+  }
+}

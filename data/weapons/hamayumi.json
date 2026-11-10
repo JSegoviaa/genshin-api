@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 110,
+  "slug": "hamayumi",
+  "name": "Hamayumi",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Amethyst Series"
+  ],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/hamayumi/icon.webp",
+    "awakenedIcon": "weapons/hamayumi/awakened-icon.webp"
+  }
+}

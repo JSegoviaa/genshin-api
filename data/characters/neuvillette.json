@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 73,
+  "slug": "neuvillette",
+  "name": "Neuvillette",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "catalyst",
+  "region": "fontaine",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "12-18",
+  "releaseDate": "2023-09-27",
+  "releaseVersion": "4.1",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Lumitoile",
+  "materials": {
+    "boss": "Fontemer Unihorn",
+    "weeklyBoss": "Everamber",
+    "common": [
+      "Transoceanic Pearl",
+      "Transoceanic Chunk",
+      "Xenochromatic Crystal"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "leviathan-judicator",
+      "name": "Leviathan Judicator",
+      "meaning": "Leviathan Judge",
+      "images": {
+        "image": "characters/neuvillette/constellations/leviathan-judicator/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/neuvillette/icon.webp",
+    "card": "characters/neuvillette/card.webp",
+    "inGame": "characters/neuvillette/in-game.webp",
+    "wish": "characters/neuvillette/wish.webp",
+    "multiWish": "characters/neuvillette/multi-wish.webp",
+    "partyIcon": "characters/neuvillette/party-icon.webp"
+  }
+}

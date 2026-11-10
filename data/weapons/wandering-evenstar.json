@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 84,
+  "slug": "wandering-evenstar",
+  "name": "Wandering Evenstar",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "TulayTullah Series"
+  ],
+  "ascensionMaterial": "Obsession",
+  "images": {
+    "icon": "weapons/wandering-evenstar/icon.webp",
+    "awakenedIcon": "weapons/wandering-evenstar/awakened-icon.webp"
+  }
+}

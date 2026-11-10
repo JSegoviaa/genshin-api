@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 248,
+  "slug": "winters-heavy-heart",
+  "name": "Winter's Heavy Heart",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Severed Steel",
+  "images": {
+    "icon": "weapons/winters-heavy-heart/icon.webp",
+    "awakenedIcon": "weapons/winters-heavy-heart/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 9,
+  "slug": "jean",
+  "name": "Jean",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "sword",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "03-14",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Healing Bonus",
+  "localSpecialty": "Dandelion Seed",
+  "materials": {
+    "boss": "Hurricane Seed",
+    "weeklyBoss": "Dvalin's Plume",
+    "common": [
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "leo-minor",
+      "name": "Leo Minor",
+      "meaning": "Lesse Lion",
+      "images": {
+        "image": "characters/jean/constellations/leo-minor/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Spiraling Tempest",
+          "description": "Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.",
+          "images": {
+            "icon": "characters/jean/constellations/leo-minor/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "People's Aegis",
+          "description": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
+          "images": {
+            "icon": "characters/jean/constellations/leo-minor/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "When the West Wind Arises",
+          "description": "Increases the Level of Dandelion Breeze by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/jean/constellations/leo-minor/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Lands of Dandelion",
+          "description": "Within the Field created by Dandelion Breeze, all opponents have their Anemo RES decreased by 40%.",
+          "images": {
+            "icon": "characters/jean/constellations/leo-minor/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Outbursting Gust",
+          "description": "Increases the Level of Gale Blade by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/jean/constellations/leo-minor/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Lion's Fang, Fair Protector of Mondstadt",
+          "description": "Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
+          "images": {
+            "icon": "characters/jean/constellations/leo-minor/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/jean/icon.png",
+    "card": "characters/jean/card.webp",
+    "inGame": "characters/jean/in-game.webp",
+    "wish": "characters/jean/wish.webp",
+    "multiWish": "characters/jean/multi-wish.webp",
+    "partyIcon": "characters/jean/party-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 192,
+  "slug": "ash-graven-drinking-horn",
+  "name": "Ash-Graven Drinking Horn",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "HP",
+  "series": [],
+  "ascensionMaterial": "Estimation",
+  "images": {
+    "icon": "weapons/ash-graven-drinking-horn/icon.webp",
+    "awakenedIcon": "weapons/ash-graven-drinking-horn/awakened-icon.webp"
+  }
+}

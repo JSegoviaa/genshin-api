@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 16,
+  "slug": "cool-steel",
+  "name": "Cool Steel",
+  "rarity": 3,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [
+    "3-Star Bane Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/cool-steel/icon.webp",
+    "awakenedIcon": "weapons/cool-steel/awakened-icon.webp"
+  }
+}

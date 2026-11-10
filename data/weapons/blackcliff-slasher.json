@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 67,
+  "slug": "blackcliff-slasher",
+  "name": "Blackcliff Slasher",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Blackcliff Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/blackcliff-slasher/icon.webp",
+    "awakenedIcon": "weapons/blackcliff-slasher/awakened-icon.webp"
+  }
+}

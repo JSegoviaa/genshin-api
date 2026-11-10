@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 105,
+  "slug": "lauma",
+  "name": "Lauma",
+  "rarity": 5,
+  "element": "dendro",
+  "weaponType": "catalyst",
+  "region": "nod-krai",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "03-01",
+  "releaseDate": "2025-09-10",
+  "releaseVersion": "Luna I",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Moonfall Silver",
+  "materials": {
+    "boss": "Lightbearing Scale-Feather",
+    "weeklyBoss": "Eroded Scale-Feather",
+    "common": [
+      "Tattered Warrant",
+      "Immaculate Warrant",
+      "Frost-Etched Warrant"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "cerva-nivea",
+      "name": "Cerva Nivea",
+      "meaning": "Snow Doe",
+      "images": {
+        "image": "characters/lauma/constellations/cerva-nivea/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/lauma/icon.webp",
+    "card": "characters/lauma/card.webp",
+    "inGame": "characters/lauma/in-game.webp",
+    "wish": "characters/lauma/wish.webp",
+    "multiWish": "characters/lauma/multi-wish.webp",
+    "partyIcon": "characters/lauma/party-icon.webp"
+  }
+}

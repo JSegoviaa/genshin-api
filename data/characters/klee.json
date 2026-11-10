@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 23,
+  "slug": "klee",
+  "name": "Klee",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "catalyst",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "07-27",
+  "releaseDate": "2020-10-20",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Pyro DMG Bonus",
+  "localSpecialty": "Philanemo Mushroom",
+  "materials": {
+    "boss": "Everfkane Seed",
+    "weeklyBoss": "Ring of Boreas",
+    "common": [
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "trifolium",
+      "name": "Trifolium",
+      "meaning": "Clover",
+      "images": {
+        "image": "characters/klee/constellations/trifolium/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Chained Reactions",
+          "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.",
+          "images": {
+            "icon": "characters/klee/constellations/trifolium/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Explosive Frags",
+          "description": "Being hit by Jumpy Dumpty's mines decreases opponents' DEF by 23% for 10s.",
+          "images": {
+            "icon": "characters/klee/constellations/trifolium/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Exquisite Compound",
+          "description": "Increases the Level of Jumpy Dumpty by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/klee/constellations/trifolium/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Sparkly Explosion",
+          "description": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG.",
+          "images": {
+            "icon": "characters/klee/constellations/trifolium/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Nova Burst",
+          "description": "Increases the Level of Sparks 'n' Splash by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/klee/constellations/trifolium/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Blazing Delight",
+          "description": "While under the effects of Sparks 'n' Splash, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s. When Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.",
+          "images": {
+            "icon": "characters/klee/constellations/trifolium/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/klee/icon.png",
+    "card": "characters/klee/card.webp",
+    "inGame": "characters/klee/in-game.webp",
+    "wish": "characters/klee/wish.webp",
+    "multiWish": "characters/klee/multi-wish.webp",
+    "partyIcon": "characters/klee/party-icon.webp"
+  }
+}

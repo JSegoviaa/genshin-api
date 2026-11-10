@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 193,
+  "slug": "surfs-up",
+  "name": "Surf's Up",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/surfs-up/icon.webp",
+    "awakenedIcon": "weapons/surfs-up/awakened-icon.webp"
+  }
+}

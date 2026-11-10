@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 242,
+  "slug": "clash-of-kings",
+  "name": "Clash of Kings",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/clash-of-kings/icon.webp",
+    "awakenedIcon": "weapons/clash-of-kings/awakened-icon.webp"
+  }
+}

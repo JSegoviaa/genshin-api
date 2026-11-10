@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 111,
+  "slug": "favonius-warbow",
+  "name": "Favonius Warbow",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Favonius Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/favonius-warbow/icon.webp",
+    "awakenedIcon": "weapons/favonius-warbow/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 88,
+  "slug": "mualani",
+  "name": "Mualani",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "catalyst",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "08-03",
+  "releaseDate": "2024-08-27",
+  "releaseVersion": "5.0",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Sprayfeather Gill",
+  "materials": {
+    "boss": "Mark of the Binding Blessing",
+    "weeklyBoss": "Lightless Mass",
+    "common": [
+      "Sentry's Wooden Whistle",
+      "Warrior's Metal Whistle",
+      "Saurian-Crowned Warrior's Golden Whistle"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "phoca-neomonachus",
+      "name": "Phoca Neomonachus",
+      "meaning": "Hawaiian Monk Seal",
+      "images": {
+        "image": "characters/mualani/constellations/phoca-neomonachus/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/mualani/icon.webp",
+    "card": "characters/mualani/card.webp",
+    "inGame": "characters/mualani/in-game.webp",
+    "wish": "characters/mualani/wish.webp",
+    "multiWish": "characters/mualani/multi-wish.webp",
+    "partyIcon": "characters/mualani/party-icon.webp"
+  }
+}

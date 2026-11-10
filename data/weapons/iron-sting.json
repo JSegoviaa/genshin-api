@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 47,
+  "slug": "iron-sting",
+  "name": "Iron Sting",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Infusion Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/iron-sting/icon.webp",
+    "awakenedIcon": "weapons/iron-sting/awakened-icon.webp"
+  }
+}

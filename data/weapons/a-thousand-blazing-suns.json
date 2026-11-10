@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 203,
+  "slug": "a-thousand-blazing-suns",
+  "name": "A Thousand Blazing Suns",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/a-thousand-blazing-suns/icon.webp",
+    "awakenedIcon": "weapons/a-thousand-blazing-suns/awakened-icon.webp"
+  }
+}

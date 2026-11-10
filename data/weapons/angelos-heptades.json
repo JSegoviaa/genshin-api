@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 231,
+  "slug": "angelos-heptades",
+  "name": "Angelos' Heptades",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Radiant Splendor",
+  "images": {
+    "icon": "weapons/angelos-heptades/icon.webp",
+    "awakenedIcon": "weapons/angelos-heptades/awakened-icon.webp"
+  }
+}

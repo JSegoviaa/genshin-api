@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 230,
+  "slug": "golden-frostbound-oath",
+  "name": "Golden Frostbound Oath",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Prayers Sung",
+  "images": {
+    "icon": "weapons/golden-frostbound-oath/icon.webp",
+    "awakenedIcon": "weapons/golden-frostbound-oath/awakened-icon.webp"
+  }
+}

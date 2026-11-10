@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 217,
+  "slug": "blackmarrow-lantern",
+  "name": "Blackmarrow Lantern",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Prayers Sung",
+  "images": {
+    "icon": "weapons/blackmarrow-lantern/icon.webp",
+    "awakenedIcon": "weapons/blackmarrow-lantern/awakened-icon.webp"
+  }
+}

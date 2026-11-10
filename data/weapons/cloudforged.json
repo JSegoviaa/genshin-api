@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 183,
+  "slug": "cloudforged",
+  "name": "Cloudforged",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/cloudforged/icon.webp",
+    "awakenedIcon": "weapons/cloudforged/awakened-icon.webp"
+  }
+}

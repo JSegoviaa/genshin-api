@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 164,
+  "slug": "sacrificial-jade",
+  "name": "Sacrificial Jade",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Gnostic Hymn 2 Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/sacrificial-jade/icon.webp",
+    "awakenedIcon": "weapons/sacrificial-jade/awakened-icon.webp"
+  }
+}

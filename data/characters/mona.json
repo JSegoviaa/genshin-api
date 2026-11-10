@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 12,
+  "slug": "mona",
+  "name": "Mona",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "catalyst",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "08-31",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Energy Recharge",
+  "localSpecialty": "Philanemo Mushroom",
+  "materials": {
+    "boss": "Cleansing Heart",
+    "weeklyBoss": "Ring of Boreas",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "astrolabos",
+      "name": "Astrolabos",
+      "meaning": "Astrolabe",
+      "images": {
+        "image": "characters/mona/constellations/astrolabos/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Prophecy of Submersion",
+          "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s: Electro-Charged DMG increases by 15%. Vaporize DMG increases by 15%. Hydro Swirl DMG increases by 15%. Frozen duration is extended by 15%.",
+          "images": {
+            "icon": "characters/mona/constellations/astrolabos/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Lunar Chain",
+          "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. This effect can only occur once every 5s.",
+          "images": {
+            "icon": "characters/mona/constellations/astrolabos/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Restless Revolution",
+          "description": "Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/mona/constellations/astrolabos/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Prophecy of Oblivion",
+          "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
+          "images": {
+            "icon": "characters/mona/constellations/astrolabos/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Mockery of Fortuna",
+          "description": "Increases the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/mona/constellations/astrolabos/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Rhetorics of Calamitas",
+          "description": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movemen A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+          "images": {
+            "icon": "characters/mona/constellations/astrolabos/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/mona/icon.png",
+    "card": "characters/mona/card.webp",
+    "inGame": "characters/mona/in-game.webp",
+    "wish": "characters/mona/wish.webp",
+    "multiWish": "characters/mona/multi-wish.webp",
+    "partyIcon": "characters/mona/party-icon.webp"
+  }
+}

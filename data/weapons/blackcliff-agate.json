@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 98,
+  "slug": "blackcliff-agate",
+  "name": "Blackcliff Agate",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Blackcliff Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/blackcliff-agate/icon.webp",
+    "awakenedIcon": "weapons/blackcliff-agate/awakened-icon.webp"
+  }
+}

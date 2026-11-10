@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 182,
+  "slug": "crimson-moons-semblance",
+  "name": "Crimson Moon's Semblance",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/crimson-moons-semblance/icon.webp",
+    "awakenedIcon": "weapons/crimson-moons-semblance/awakened-icon.webp"
+  }
+}

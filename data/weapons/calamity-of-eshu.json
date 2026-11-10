@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 201,
+  "slug": "calamity-of-eshu",
+  "name": "Calamity of Eshu",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Attentive Observation",
+  "images": {
+    "icon": "weapons/calamity-of-eshu/icon.webp",
+    "awakenedIcon": "weapons/calamity-of-eshu/awakened-icon.webp"
+  }
+}

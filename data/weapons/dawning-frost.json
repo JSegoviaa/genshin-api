@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 221,
+  "slug": "dawning-frost",
+  "name": "Dawning Frost",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Radiant Splendor",
+  "images": {
+    "icon": "weapons/dawning-frost/icon.webp",
+    "awakenedIcon": "weapons/dawning-frost/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 83,
+  "slug": "sethos",
+  "name": "Sethos",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "bow",
+  "region": "sumeru",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "05-31",
+  "releaseDate": "2024-06-04",
+  "releaseVersion": "4.7",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Trishiraite",
+  "materials": {
+    "boss": "Cloudseam Scale",
+    "weeklyBoss": "Daka's Bell",
+    "common": [
+      "Faded Red Satin",
+      "Trimmed Red Silk",
+      "Rich Red Brocade"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "basileos-delta",
+      "name": "Basileos Delta",
+      "meaning": "Delta of the Basileus",
+      "images": {
+        "image": "characters/sethos/constellations/basileos-delta/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/sethos/icon.webp",
+    "card": "characters/sethos/card.webp",
+    "inGame": "characters/sethos/in-game.webp",
+    "wish": "characters/sethos/wish.webp",
+    "multiWish": "characters/sethos/multi-wish.webp",
+    "partyIcon": "characters/sethos/party-icon.webp"
+  }
+}

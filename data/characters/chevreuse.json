@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 78,
+  "slug": "chevreuse",
+  "name": "Chevreuse",
+  "rarity": 4,
+  "element": "pyro",
+  "weaponType": "polearm",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "01-10",
+  "releaseDate": "2024-01-09",
+  "releaseVersion": "4.3",
+  "ascensionStat": "HP",
+  "localSpecialty": "Lumidouce Bell",
+  "materials": {
+    "boss": "Fontemer Unihorn",
+    "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "common": [
+      "Meshing Gear",
+      "Mechanical Spur Gear",
+      "Artificed Dynamic Gear"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "sclopetum-ensiferum",
+      "name": "Sclopetum Ensiferum",
+      "meaning": "Sword-Bearing Rifle",
+      "images": {
+        "image": "characters/chevreuse/constellations/sclopetum-ensiferum/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/chevreuse/icon.webp",
+    "card": "characters/chevreuse/card.webp",
+    "inGame": "characters/chevreuse/in-game.webp",
+    "wish": "characters/chevreuse/wish.webp",
+    "multiWish": "characters/chevreuse/multi-wish.webp",
+    "partyIcon": "characters/chevreuse/party-icon.webp"
+  }
+}

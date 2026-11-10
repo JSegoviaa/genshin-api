@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 95,
+  "slug": "lan-yan",
+  "name": "Lan Yan",
+  "rarity": 4,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "01-06",
+  "releaseDate": "2025-01-21",
+  "releaseVersion": "5.3",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Clearwater Jade",
+  "materials": {
+    "boss": "Gold-Inscribed Secret Source Core",
+    "weeklyBoss": "Eroded Sunfire",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "hirundo-lazuli",
+      "name": "Hirundo Lazuli",
+      "meaning": "Azure  Swallow",
+      "images": {
+        "image": "characters/lan-yan/constellations/hirundo-lazuli/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/lan-yan/icon.webp",
+    "card": "characters/lan-yan/card.webp",
+    "inGame": "characters/lan-yan/in-game.webp",
+    "wish": "characters/lan-yan/wish.webp",
+    "multiWish": "characters/lan-yan/multi-wish.webp",
+    "partyIcon": "characters/lan-yan/party-icon.webp"
+  }
+}

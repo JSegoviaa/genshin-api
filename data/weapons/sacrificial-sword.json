@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 42,
+  "slug": "sacrificial-sword",
+  "name": "Sacrificial Sword",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Sacrificial Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/sacrificial-sword/icon.webp",
+    "awakenedIcon": "weapons/sacrificial-sword/awakened-icon.webp"
+  }
+}

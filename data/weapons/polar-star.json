@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 147,
+  "slug": "polar-star",
+  "name": "Polar Star",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/polar-star/icon.webp",
+    "awakenedIcon": "weapons/polar-star/awakened-icon.webp"
+  }
+}

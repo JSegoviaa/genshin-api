@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 181,
+  "slug": "dialogues-of-the-desert-sages",
+  "name": "Dialogues of the Desert Sages",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "HP",
+  "series": [],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/dialogues-of-the-desert-sages/icon.webp",
+    "awakenedIcon": "weapons/dialogues-of-the-desert-sages/awakened-icon.webp"
+  }
+}

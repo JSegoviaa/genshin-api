@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 24,
+  "slug": "diona",
+  "name": "Diona",
+  "rarity": 4,
+  "element": "cryo",
+  "weaponType": "bow",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "01-18",
+  "releaseDate": "2020-11-11",
+  "releaseVersion": "1.1",
+  "ascensionStat": "Cryo DMG Bonus",
+  "localSpecialty": "Calla Lily",
+  "materials": {
+    "boss": "Hoarfrost Core",
+    "weeklyBoss": "Shard of a Foul Legacy",
+    "common": [
+      "Firm Arrow",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "feles",
+      "name": "Feles",
+      "meaning": "Cat",
+      "images": {
+        "image": "characters/diona/constellations/feles/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "A Lingering Flavor",
+          "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+          "images": {
+            "icon": "characters/diona/constellations/feles/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Shaken, Not Purred",
+          "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%. Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s.",
+          "images": {
+            "icon": "characters/diona/constellations/feles/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "A—Another Round?",
+          "description": "Increases the Level of Signature Mix by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/diona/constellations/feles/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Wine Industry Slayer",
+          "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%",
+          "images": {
+            "icon": "characters/diona/constellations/feles/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Double Shot, on the Rocks",
+          "description": "Increases the Level of Icy Paws by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/diona/constellations/feles/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Cat's Tail Closing Time",
+          "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts: Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%. Elemental Mastery increased by 200 when HP is above 50%.",
+          "images": {
+            "icon": "characters/diona/constellations/feles/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/diona/icon.png",
+    "card": "characters/diona/card.webp",
+    "inGame": "characters/diona/in-game.webp",
+    "wish": "characters/diona/wish.webp",
+    "multiWish": "characters/diona/multi-wish.webp",
+    "partyIcon": "characters/diona/party-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 15,
+  "slug": "dark-iron-sword",
+  "name": "Dark Iron Sword",
+  "rarity": 3,
+  "weaponType": "sword",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/dark-iron-sword/icon.webp",
+    "awakenedIcon": "weapons/dark-iron-sword/awakened-icon.webp"
+  }
+}

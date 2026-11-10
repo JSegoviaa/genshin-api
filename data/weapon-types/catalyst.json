@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/weapon-types.json",
+  "id": 4,
+  "slug": "catalyst",
+  "name": "Catalyst",
+  "images": {
+    "icon": "weapon-types/catalyst.webp"
+  }
+}

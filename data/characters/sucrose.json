@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 21,
+  "slug": "sucrose",
+  "name": "Sucrose",
+  "rarity": 4,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "11-26",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Anemo DMG Bonus",
+  "localSpecialty": "Windwheel Aster",
+  "materials": {
+    "boss": "Hurricane Seed",
+    "weeklyBoss": "Spirit Locket of Boreas",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "ampulla",
+      "name": "Ampulla",
+      "meaning": "Flask",
+      "images": {
+        "image": "characters/sucrose/constellations/ampulla/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Clustered Vacuum Field",
+          "description": "Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
+          "images": {
+            "icon": "characters/sucrose/constellations/ampulla/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Beth: Unbound Form",
+          "description": "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
+          "images": {
+            "icon": "characters/sucrose/constellations/ampulla/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Flawless Alchemistress",
+          "description": "Increases the Level of Astable Anemohypostasis Creation - 6308 by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/sucrose/constellations/ampulla/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Alchemania",
+          "description": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s.",
+          "images": {
+            "icon": "characters/sucrose/constellations/ampulla/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Caution: Standard Flask",
+          "description": "Increases the Level of Forbidden Creation - Isomer 75 / Type II by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/sucrose/constellations/ampulla/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Chaotic Entropy",
+          "description": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
+          "images": {
+            "icon": "characters/sucrose/constellations/ampulla/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/sucrose/icon.png",
+    "card": "characters/sucrose/card.webp",
+    "inGame": "characters/sucrose/in-game.webp",
+    "wish": "characters/sucrose/wish.webp",
+    "multiWish": "characters/sucrose/multi-wish.webp",
+    "partyIcon": "characters/sucrose/party-icon.webp"
+  }
+}

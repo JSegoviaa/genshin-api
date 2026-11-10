@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 141,
+  "slug": "lost-prayer-to-the-sacred-winds",
+  "name": "Lost Prayer to the Sacred Winds",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/lost-prayer-to-the-sacred-winds/icon.webp",
+    "awakenedIcon": "weapons/lost-prayer-to-the-sacred-winds/awakened-icon.webp"
+  }
+}

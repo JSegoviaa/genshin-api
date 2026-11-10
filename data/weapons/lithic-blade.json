@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 63,
+  "slug": "lithic-blade",
+  "name": "Lithic Blade",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [
+    "Lithic Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/lithic-blade/icon.webp",
+    "awakenedIcon": "weapons/lithic-blade/awakened-icon.webp"
+  }
+}

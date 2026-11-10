@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 21,
+  "slug": "bloodtainted-greatsword",
+  "name": "Bloodtainted Greatsword",
+  "rarity": 3,
+  "weaponType": "claymore",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "3-Star Bane Series"
+  ],
+  "ascensionMaterial": "Submerged Valley",
+  "images": {
+    "icon": "weapons/bloodtainted-greatsword/icon.webp",
+    "awakenedIcon": "weapons/bloodtainted-greatsword/awakened-icon.webp"
+  }
+}

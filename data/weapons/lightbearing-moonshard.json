@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 228,
+  "slug": "lightbearing-moonshard",
+  "name": "Lightbearing Moonshard",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/lightbearing-moonshard/icon.webp",
+    "awakenedIcon": "weapons/lightbearing-moonshard/awakened-icon.webp"
+  }
+}

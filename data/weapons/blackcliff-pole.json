@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 81,
+  "slug": "blackcliff-pole",
+  "name": "Blackcliff Pole",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Blackcliff Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/blackcliff-pole/icon.webp",
+    "awakenedIcon": "weapons/blackcliff-pole/awakened-icon.webp"
+  }
+}

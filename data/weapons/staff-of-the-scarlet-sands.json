@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 132,
+  "slug": "staff-of-the-scarlet-sands",
+  "name": "Staff of the Scarlet Sands",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Deshret Series"
+  ],
+  "ascensionMaterial": "Obsession",
+  "images": {
+    "icon": "weapons/staff-of-the-scarlet-sands/icon.webp",
+    "awakenedIcon": "weapons/staff-of-the-scarlet-sands/awakened-icon.webp"
+  }
+}

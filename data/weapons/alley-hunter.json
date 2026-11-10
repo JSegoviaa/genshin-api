@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 116,
+  "slug": "alley-hunter",
+  "name": "Alley Hunter",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Alley Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/alley-hunter/icon.webp",
+    "awakenedIcon": "weapons/alley-hunter/awakened-icon.webp"
+  }
+}

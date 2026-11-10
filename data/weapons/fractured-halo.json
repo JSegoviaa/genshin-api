@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 212,
+  "slug": "fractured-halo",
+  "name": "Fractured Halo",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/fractured-halo/icon.webp",
+    "awakenedIcon": "weapons/fractured-halo/awakened-icon.webp"
+  }
+}

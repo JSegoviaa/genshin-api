@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 93,
+  "slug": "mavuika",
+  "name": "Mavuika",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "claymore",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "08-28",
+  "releaseDate": "2025-01-01",
+  "releaseVersion": "5.3",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Withering Purpurbloom",
+  "materials": {
+    "boss": "Gold-Inscribed Secret Source Core",
+    "weeklyBoss": "Eroded Horn",
+    "common": [
+      "Sentry's Wooden Whistle",
+      "Warrior's Metal Whistle",
+      "Saurian-Crowned Warrior's Golden Whistle"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "sol-invictus",
+      "name": "Sol Invictus",
+      "meaning": "Uncoquered Sun",
+      "images": {
+        "image": "characters/mavuika/constellations/sol-invictus/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/mavuika/icon.webp",
+    "card": "characters/mavuika/card.webp",
+    "inGame": "characters/mavuika/in-game.webp",
+    "wish": "characters/mavuika/wish.webp",
+    "multiWish": "characters/mavuika/multi-wish.webp",
+    "partyIcon": "characters/mavuika/party-icon.webp"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 103,
+  "slug": "ineffa",
+  "name": "Ineffa",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "polearm",
+  "region": "nod-krai",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "04-02",
+  "releaseDate": "2025-07-30",
+  "releaseVersion": "5.8",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Glowing Hornshroom",
+  "materials": {
+    "boss": "Secret Source Airflow Accumulator",
+    "weeklyBoss": "Eroded Sunfire",
+    "common": [
+      "Sentry's Wooden Whistle",
+      "Warrior's Metal Whistle",
+      "Saurian-Crowned Warrior's Golden Whistle"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "vanilla-planifolia",
+      "name": "Vanilla Planifolia",
+      "meaning": "Flat-Leaved Vanilla",
+      "images": {
+        "image": "characters/ineffa/constellations/vanilla-planifolia/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/ineffa/icon.webp",
+    "card": "characters/ineffa/card.webp",
+    "inGame": "characters/ineffa/in-game.webp",
+    "wish": "characters/ineffa/wish.webp",
+    "multiWish": "characters/ineffa/multi-wish.webp",
+    "partyIcon": "characters/ineffa/party-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 129,
+  "slug": "skyward-pride",
+  "name": "Skyward Pride",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Mondstadt Series"
+  ],
+  "ascensionMaterial": "Submerged Valley",
+  "images": {
+    "icon": "weapons/skyward-pride/icon.webp",
+    "awakenedIcon": "weapons/skyward-pride/awakened-icon.webp"
+  }
+}

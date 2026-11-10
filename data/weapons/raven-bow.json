@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 33,
+  "slug": "raven-bow",
+  "name": "Raven Bow",
+  "rarity": 3,
+  "weaponType": "bow",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "3-Star Bane Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/raven-bow/icon.webp",
+    "awakenedIcon": "weapons/raven-bow/awakened-icon.webp"
+  }
+}

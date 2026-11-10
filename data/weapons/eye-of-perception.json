@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 96,
+  "slug": "eye-of-perception",
+  "name": "Eye of Perception",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/eye-of-perception/icon.webp",
+    "awakenedIcon": "weapons/eye-of-perception/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 4,
+  "slug": "amber",
+  "name": "Amber",
+  "rarity": 4,
+  "element": "pyro",
+  "weaponType": "bow",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "08-10",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Small Lamp Grass",
+  "materials": {
+    "boss": "Everfkane Seed",
+    "weeklyBoss": "Dvalin's Sigh",
+    "common": [
+      "Firm Arrow",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "lepus",
+      "name": "Lepus",
+      "meaning": "Hare",
+      "images": {
+        "image": "characters/amber/constellations/lepus/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "One Arrow to Rule Them All",
+          "description": "Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG.",
+          "images": {
+            "icon": "characters/amber/constellations/lepus/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Bunny Triggered",
+          "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it. Explosion via manual detonation deals 200% additional DMG.",
+          "images": {
+            "icon": "characters/amber/constellations/lepus/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "It Burns!",
+          "description": "Increases the Level of Fiery Rain by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/amber/constellations/lepus/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "It's Not Just Any Doll...",
+          "description": "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.",
+          "images": {
+            "icon": "characters/amber/constellations/lepus/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "It's Baron Bunny!",
+          "description": "Increases the Level of Explosive Puppet by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/amber/constellations/lepus/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Wildfire",
+          "description": "Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s.",
+          "images": {
+            "icon": "characters/amber/constellations/lepus/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/amber/icon.png",
+    "card": "characters/amber/card.webp",
+    "inGame": "characters/amber/in-game.webp",
+    "wish": "characters/amber/wish.webp",
+    "multiWish": "characters/amber/multi-wish.webp",
+    "partyIcon": "characters/amber/party-icon.webp"
+  }
+}

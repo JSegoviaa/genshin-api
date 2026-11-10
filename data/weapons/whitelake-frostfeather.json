@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 245,
+  "slug": "whitelake-frostfeather",
+  "name": "Whitelake Frostfeather",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Chain Track",
+  "images": {
+    "icon": "weapons/whitelake-frostfeather/icon.webp",
+    "awakenedIcon": "weapons/whitelake-frostfeather/awakened-icon.webp"
+  }
+}

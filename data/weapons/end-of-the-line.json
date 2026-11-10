@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 113,
+  "slug": "end-of-the-line",
+  "name": "End of the Line",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Fishing Association Series"
+  ],
+  "ascensionMaterial": "Leading Karma",
+  "images": {
+    "icon": "weapons/end-of-the-line/icon.webp",
+    "awakenedIcon": "weapons/end-of-the-line/awakened-icon.webp"
+  }
+}

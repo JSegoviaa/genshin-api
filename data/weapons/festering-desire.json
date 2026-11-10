@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 48,
+  "slug": "festering-desire",
+  "name": "Festering Desire",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/festering-desire/icon.webp",
+    "awakenedIcon": "weapons/festering-desire/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/weapon-types.json",
+  "id": 1,
+  "slug": "sword",
+  "name": "Sword",
+  "images": {
+    "icon": "weapon-types/sword.webp"
+  }
+}

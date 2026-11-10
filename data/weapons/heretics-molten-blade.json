@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 239,
+  "slug": "heretics-molten-blade",
+  "name": "Heretic's Molten Blade",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/heretics-molten-blade/icon.webp",
+    "awakenedIcon": "weapons/heretics-molten-blade/awakened-icon.webp"
+  }
+}

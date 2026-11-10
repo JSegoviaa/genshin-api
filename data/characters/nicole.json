@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 116,
+  "slug": "nicole",
+  "name": "Nicole",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "catalyst",
+  "region": null,
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "09-29",
+  "releaseDate": "2026-05-20",
+  "releaseVersion": "Luna VII",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Pine Amber",
+  "materials": {
+    "boss": "Remnant of the Dreadwing",
+    "weeklyBoss": "Counterfeit Resin",
+    "common": [
+      "Tattered Warrant",
+      "Immaculate Warrant",
+      "Frost-Etched Warrant"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/nicole/icon.webp",
+    "card": "characters/nicole/card.webp",
+    "inGame": "characters/nicole/in-game.webp",
+    "wish": "characters/nicole/wish.webp",
+    "multiWish": "characters/nicole/multi-wish.webp",
+    "partyIcon": "characters/nicole/party-icon.webp"
+  }
+}

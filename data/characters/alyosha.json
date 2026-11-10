@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 119,
+  "slug": "alyosha",
+  "name": "Alyosha",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "polearm",
+  "region": "snezhnaya",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "02-09",
+  "releaseDate": "2026-08-12",
+  "releaseVersion": "7.0",
+  "ascensionStat": "Energy Recharge",
+  "localSpecialty": "Flockingweed",
+  "materials": {
+    "boss": "Severed Tail of the Sky-Roamer",
+    "weeklyBoss": "Elixir of the Herectic",
+    "common": [
+      "Chimeric Core",
+      "Symbiotic Chimeric Nucleus",
+      "Prime Chimeric Nexus"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/alyosha/icon.webp",
+    "card": "characters/alyosha/card.webp",
+    "inGame": "characters/alyosha/in-game.webp",
+    "wish": "characters/alyosha/wish.webp",
+    "multiWish": "characters/alyosha/multi-wish.webp",
+    "partyIcon": "characters/alyosha/party-icon.webp"
+  }
+}

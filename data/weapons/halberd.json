@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 23,
+  "slug": "halberd",
+  "name": "Halberd",
+  "rarity": 3,
+  "weaponType": "polearm",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/halberd/icon.webp",
+    "awakenedIcon": "weapons/halberd/awakened-icon.webp"
+  }
+}

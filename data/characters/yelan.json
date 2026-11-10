@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 50,
+  "slug": "yelan",
+  "name": "Yelan",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "bow",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "04-20",
+  "releaseDate": "2022-05-31",
+  "releaseVersion": "2.7",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Starconch",
+  "materials": {
+    "boss": "Runic Fang",
+    "weeklyBoss": "Gilded Scale",
+    "common": [
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "umbrabilis-orchis",
+      "name": "Umbrabilis Orchis",
+      "meaning": "Shadowy Orchid",
+      "images": {
+        "image": "characters/yelan/constellations/umbrabilis-orchis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Enter the Plotters",
+          "description": "Lingering Lifeline gains 1 additional charge.",
+          "images": {
+            "icon": "characters/yelan/constellations/umbrabilis-orchis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Taking All Comers",
+          "description": "When Exquisite Throw conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG. This effect can trigger once every 1.8s.",
+          "images": {
+            "icon": "characters/yelan/constellations/umbrabilis-orchis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Beware the Trickster's Dice",
+          "description": "Increases the Level of Depth-Clarion Dice by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yelan/constellations/umbrabilis-orchis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Bait-and-Switch",
+          "description": "Increases all party members' Max HP by 10% for 25s for every opponent marked by Lifeline when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+          "images": {
+            "icon": "characters/yelan/constellations/umbrabilis-orchis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Dealer's Sleight",
+          "description": "Increases the Level of Lingering Lifeline by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yelan/constellations/umbrabilis-orchis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Winner Takes All",
+          "description": "After using Depth-Clarion Dice, Yelan will enter the Mastermind state. In this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG. The Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+          "images": {
+            "icon": "characters/yelan/constellations/umbrabilis-orchis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/yelan/icon.png",
+    "card": "characters/yelan/card.webp",
+    "inGame": "characters/yelan/in-game.webp",
+    "wish": "characters/yelan/wish.webp",
+    "multiWish": "characters/yelan/multi-wish.webp",
+    "partyIcon": "characters/yelan/party-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 77,
+  "slug": "dragonspine-spear",
+  "name": "Dragonspine Spear",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [
+    "Dragonspine Series"
+  ],
+  "ascensionMaterial": "Submerged Valley",
+  "images": {
+    "icon": "weapons/dragonspine-spear/icon.webp",
+    "awakenedIcon": "weapons/dragonspine-spear/awakened-icon.webp"
+  }
+}

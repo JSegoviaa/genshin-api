@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 124,
+  "slug": "freedom-sworn",
+  "name": "Freedom-Sworn",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Millennial Movement Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/freedom-sworn/icon.webp",
+    "awakenedIcon": "weapons/freedom-sworn/awakened-icon.webp"
+  }
+}

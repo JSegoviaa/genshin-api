@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 156,
+  "slug": "finale-of-the-deep",
+  "name": "Finale of the Deep",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [
+    "Beaumont Series"
+  ],
+  "ascensionMaterial": "Artisanship",
+  "images": {
+    "icon": "weapons/finale-of-the-deep/icon.webp",
+    "awakenedIcon": "weapons/finale-of-the-deep/awakened-icon.webp"
+  }
+}

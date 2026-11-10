@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 25,
+  "slug": "tartaglia",
+  "name": "Tartaglia",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "bow",
+  "region": "snezhnaya",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "07-20",
+  "releaseDate": "2020-11-11",
+  "releaseVersion": "1.1",
+  "ascensionStat": "Hydro DMG Bonus",
+  "localSpecialty": "Starconch",
+  "materials": {
+    "boss": "Cleansing Heart",
+    "weeklyBoss": "Shard of a Foul Legacy",
+    "common": [
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "monoceros-caeli",
+      "name": "Monoceros Caeli",
+      "meaning": "Celestial Narwhal",
+      "images": {
+        "image": "characters/tartaglia/constellations/monoceros-caeli/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Foul Legacy: Tide Withholder",
+          "description": "Decreases the CD of Foul Legacy: Raging Tide by 20%",
+          "images": {
+            "icon": "characters/tartaglia/constellations/monoceros-caeli/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Foul Legacy: Understream",
+          "description": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.",
+          "images": {
+            "icon": "characters/tartaglia/constellations/monoceros-caeli/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Abyssal Mayhem: Vortex of Turmoil",
+          "description": "Increases the Level of Foul Legacy: Raging Tide by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/tartaglia/constellations/monoceros-caeli/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Abyssal Mayhem: Hydrospout",
+          "description": "If Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash. Riptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
+          "images": {
+            "icon": "characters/tartaglia/constellations/monoceros-caeli/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Havoc: Formless Blade",
+          "description": "Increases the Level of Havoc: Obliteration by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/tartaglia/constellations/monoceros-caeli/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Havoc: Annihilation",
+          "description": "When Havoc: Obliteration is cast in Melee Stance, the CD of Foul Legacy: Raging Tide is reset. This effect will only take place once Tartaglia returns to his Ranged Stance.",
+          "images": {
+            "icon": "characters/tartaglia/constellations/monoceros-caeli/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/tartaglia/icon.png",
+    "card": "characters/tartaglia/card.webp",
+    "inGame": "characters/tartaglia/in-game.webp",
+    "wish": "characters/tartaglia/wish.webp",
+    "multiWish": "characters/tartaglia/multi-wish.webp",
+    "partyIcon": "characters/tartaglia/party-icon.webp"
+  }
+}

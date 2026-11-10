@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 190,
+  "slug": "ring-of-yaxche",
+  "name": "Ring of Yaxche",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "HP",
+  "series": [],
+  "ascensionMaterial": "Attentive Observation",
+  "images": {
+    "icon": "weapons/ring-of-yaxche/icon.webp",
+    "awakenedIcon": "weapons/ring-of-yaxche/awakened-icon.webp"
+  }
+}

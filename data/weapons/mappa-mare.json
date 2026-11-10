@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 91,
+  "slug": "mappa-mare",
+  "name": "Mappa Mare",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Infusion Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/mappa-mare/icon.webp",
+    "awakenedIcon": "weapons/mappa-mare/awakened-icon.webp"
+  }
+}

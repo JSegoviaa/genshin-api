@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 20,
+  "slug": "debate-club",
+  "name": "Debate Club",
+  "rarity": 3,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/debate-club/icon.webp",
+    "awakenedIcon": "weapons/debate-club/awakened-icon.webp"
+  }
+}

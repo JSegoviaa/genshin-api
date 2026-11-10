@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 251,
+  "slug": "hymn-of-the-maelstrom",
+  "name": "Hymn of the Maelstrom",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "HP",
+  "series": [],
+  "ascensionMaterial": "Chain Track",
+  "images": {
+    "icon": "weapons/hymn-of-the-maelstrom/icon.webp",
+    "awakenedIcon": "weapons/hymn-of-the-maelstrom/awakened-icon.webp"
+  }
+}

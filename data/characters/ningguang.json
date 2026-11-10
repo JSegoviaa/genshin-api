@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 19,
+  "slug": "ningguang",
+  "name": "Ningguang",
+  "rarity": 4,
+  "element": "geo",
+  "weaponType": "catalyst",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "08-26",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Geo DMG Bonus",
+  "localSpecialty": "Glaze Lily",
+  "materials": {
+    "boss": "Basalt Pillar",
+    "weeklyBoss": "Spirit Locket of Boreas",
+    "common": [
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "opus-aequilibrium",
+      "name": "Opus Aequilibrium",
+      "meaning": "Balancing Creation",
+      "images": {
+        "image": "characters/ningguang/constellations/opus-aequilibrium/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Piercing Fragments",
+          "description": "When a Normal Attack hits, it deals AoE DMG.",
+          "images": {
+            "icon": "characters/ningguang/constellations/opus-aequilibrium/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Shock Effect",
+          "description": "When Jade Screen is shattered, its CD will reset. Can occur once every 6s.",
+          "images": {
+            "icon": "characters/ningguang/constellations/opus-aequilibrium/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Majesty Be the Array of Stars",
+          "description": "Increases the Level of Starshatter by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/ningguang/constellations/opus-aequilibrium/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Exquisite be the Jade, Outshining All Beneath",
+          "description": "Jade Screen increases nearby characters' Elemental RES by 10%.",
+          "images": {
+            "icon": "characters/ningguang/constellations/opus-aequilibrium/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Invincible Be the Jade Screen",
+          "description": "Increases the Level of Jade Screen by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/ningguang/constellations/opus-aequilibrium/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Grandeur Be the Seven Stars",
+          "description": "When Starshatter is used, Ningguang gains 7 Star Jades.",
+          "images": {
+            "icon": "characters/ningguang/constellations/opus-aequilibrium/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/ningguang/icon.png",
+    "card": "characters/ningguang/card.webp",
+    "inGame": "characters/ningguang/in-game.webp",
+    "wish": "characters/ningguang/wish.webp",
+    "multiWish": "characters/ningguang/multi-wish.webp",
+    "partyIcon": "characters/ningguang/party-icon.webp"
+  }
+}

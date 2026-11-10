@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 151,
+  "slug": "amos-bow",
+  "name": "Amos' Bow",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/amos-bow/icon.webp",
+    "awakenedIcon": "weapons/amos-bow/awakened-icon.webp"
+  }
+}

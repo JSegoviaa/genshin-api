@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 235,
+  "slug": "blade-of-atonement",
+  "name": "Blade of Atonement",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Cast Iron",
+  "images": {
+    "icon": "weapons/blade-of-atonement/icon.webp",
+    "awakenedIcon": "weapons/blade-of-atonement/awakened-icon.webp"
+  }
+}

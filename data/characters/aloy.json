@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 41,
+  "slug": "aloy",
+  "name": "Aloy",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "bow",
+  "region": "another-world",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "04-04",
+  "releaseDate": "2021-09-01",
+  "releaseVersion": "2.1",
+  "ascensionStat": "Cryo DMG Bonus",
+  "localSpecialty": "Crystal Marrow",
+  "materials": {
+    "boss": "Crystaline Bloom",
+    "weeklyBoss": "Molten Moment",
+    "common": [
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "nora-fortis",
+      "name": "Nora Fortis",
+      "meaning": "Nora Brave",
+      "images": {
+        "image": "characters/aloy/constellations/nora-fortis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Star of Another World",
+          "description": "The time has not yet come for this person's corner of the night sky to light up.",
+          "images": {
+            "icon": "characters/aloy/constellations/nora-fortis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Star of Another World",
+          "description": "The time has not yet come for this person's corner of the night sky to light up.",
+          "images": {
+            "icon": "characters/aloy/constellations/nora-fortis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Star of Another World",
+          "description": "The time has not yet come for this person's corner of the night sky to light up.",
+          "images": {
+            "icon": "characters/aloy/constellations/nora-fortis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Star of Another World",
+          "description": "The time has not yet come for this person's corner of the night sky to light up.",
+          "images": {
+            "icon": "characters/aloy/constellations/nora-fortis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Star of Another World",
+          "description": "The time has not yet come for this person's corner of the night sky to light up.",
+          "images": {
+            "icon": "characters/aloy/constellations/nora-fortis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Star of Another World",
+          "description": "The time has not yet come for this person's corner of the night sky to light up.",
+          "images": {
+            "icon": "characters/aloy/constellations/nora-fortis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/aloy/icon.png",
+    "card": "characters/aloy/card.webp",
+    "inGame": "characters/aloy/in-game.webp",
+    "wish": "characters/aloy/wish.webp",
+    "multiWish": "characters/aloy/multi-wish.webp",
+    "partyIcon": "characters/aloy/party-icon.webp"
+  }
+}

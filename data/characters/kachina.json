@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 87,
+  "slug": "kachina",
+  "name": "Kachina",
+  "rarity": 4,
+  "element": "geo",
+  "weaponType": "polearm",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "04-22",
+  "releaseDate": "2024-08-27",
+  "releaseVersion": "5.0",
+  "ascensionStat": "Geo DMG Bonus",
+  "localSpecialty": "Quenepa Berry",
+  "materials": {
+    "boss": "Overripe Flamegranate",
+    "weeklyBoss": "Fading Candle",
+    "common": [
+      "Sentry's Wooden Whistle",
+      "Warrior's Metal Whistle",
+      "Saurian-Crowned Warrior's Golden Whistle"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "ochotona-princeps",
+      "name": "Ochotona Princeps",
+      "meaning": "American Pika",
+      "images": {
+        "image": "characters/kachina/constellations/ochotona-princeps/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/kachina/icon.webp",
+    "card": "characters/kachina/card.webp",
+    "inGame": "characters/kachina/in-game.webp",
+    "wish": "characters/kachina/wish.webp",
+    "multiWish": "characters/kachina/multi-wish.webp",
+    "partyIcon": "characters/kachina/party-icon.webp"
+  }
+}

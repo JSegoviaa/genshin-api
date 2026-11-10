@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 90,
+  "slug": "oathsworn-eye",
+  "name": "Oathsworn Eye",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Sunken Sands",
+  "images": {
+    "icon": "weapons/oathsworn-eye/icon.webp",
+    "awakenedIcon": "weapons/oathsworn-eye/awakened-icon.webp"
+  }
+}

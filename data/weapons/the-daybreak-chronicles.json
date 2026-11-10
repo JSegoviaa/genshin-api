@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 226,
+  "slug": "the-daybreak-chronicles",
+  "name": "The Daybreak Chronicles",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/the-daybreak-chronicles/icon.webp",
+    "awakenedIcon": "weapons/the-daybreak-chronicles/awakened-icon.webp"
+  }
+}

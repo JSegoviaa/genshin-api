@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 34,
+  "slug": "messenger",
+  "name": "Messenger",
+  "rarity": 3,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/messenger/icon.webp",
+    "awakenedIcon": "weapons/messenger/awakened-icon.webp"
+  }
+}

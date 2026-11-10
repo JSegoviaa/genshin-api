@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 59,
+  "slug": "nahida",
+  "name": "Nahida",
+  "rarity": 5,
+  "element": "dendro",
+  "weaponType": "catalyst",
+  "region": "sumeru",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "10-27",
+  "releaseDate": "2022-11-02",
+  "releaseVersion": "3.2",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Kalpalata Lotus",
+  "materials": {
+    "boss": "Quelled Creeper",
+    "weeklyBoss": "Puppet Strings",
+    "common": [
+      "Fungal Spores",
+      "Luminescent Pollen",
+      "Crystalline Cyst Dust"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "sapientia-oromasdis",
+      "name": "Sapientia Oromasdis",
+      "meaning": "Wisdom of Oromasdis",
+      "images": {
+        "image": "characters/nahida/constellations/sapientia-oromasdis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "The Seed of Stored Knowledge",
+          "description": "When the Shrine of Maya is unleashed and the Elemental Types of the party members are being tabulated, the count will add 1 to the number of Pyro, Electro, and Hydro characters respectively.",
+          "images": {
+            "icon": "characters/nahida/constellations/sapientia-oromasdis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "The Root of All Fullness",
+          "description": "Opponents that are marked by Seeds of Skandha applied by Nahida herself will be affected by the following effects: Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively. Within 8s of being affected by Quicken, Aggravate, Spread, DEF is decreased by 30%.",
+          "images": {
+            "icon": "characters/nahida/constellations/sapientia-oromasdis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "The Shoot of Conscious Attainment",
+          "description": "Increases the Level of All Schemes to Know by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/nahida/constellations/sapientia-oromasdis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "The Stem of Manifest Inference",
+          "description": "When 1/2/3/(4 or more) nearby opponents are affected by All Schemes to Know's Seeds of Skandha, Nahida's Elemental Mastery will be increased by 100/120/140/160.",
+          "images": {
+            "icon": "characters/nahida/constellations/sapientia-oromasdis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "The Leaves of Enlightening Speech",
+          "description": "Increases the Level of Illusory Heart by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/nahida/constellations/sapientia-oromasdis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "The Fruit of Reason's Culmination",
+          "description": "When Nahida hits an opponent affected by All Schemes to Know's Seeds of Skandha with Normal or Charged Attacks after unleashing Illusory Heart, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing Dendro DMG based on 200% of Nahida's ATK and 400% of her Elemental Mastery. DMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s. This effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion.",
+          "images": {
+            "icon": "characters/nahida/constellations/sapientia-oromasdis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/nahida/icon.png",
+    "card": "characters/nahida/card.webp",
+    "inGame": "characters/nahida/in-game.webp",
+    "wish": "characters/nahida/wish.webp",
+    "multiWish": "characters/nahida/multi-wish.webp",
+    "partyIcon": "characters/nahida/party-icon.webp"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/regions.json",
+  "id": 3,
+  "slug": "inazuma",
+  "name": "Inazuma",
+  "images": {
+    "icon": "regions/inazuma.webp"
+  }
+}

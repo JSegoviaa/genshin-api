@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 81,
+  "slug": "chiori",
+  "name": "Chiori",
+  "rarity": 5,
+  "element": "geo",
+  "weaponType": "sword",
+  "region": "inazuma",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "08-17",
+  "releaseDate": "2024-03-12",
+  "releaseVersion": "4.5",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Dendrobium",
+  "materials": {
+    "boss": "Artificed Spare Clockwork Component — Coppelia",
+    "weeklyBoss": "Lightless Silk String",
+    "common": [
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "cisoria",
+      "name": "Cisoria",
+      "meaning": "Scissors",
+      "images": {
+        "image": "characters/chiori/constellations/cisoria/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/chiori/icon.webp",
+    "card": "characters/chiori/card.webp",
+    "inGame": "characters/chiori/in-game.webp",
+    "wish": "characters/chiori/wish.webp",
+    "multiWish": "characters/chiori/multi-wish.webp",
+    "partyIcon": "characters/chiori/party-icon.webp"
+  }
+}

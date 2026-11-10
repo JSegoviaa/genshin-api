@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 36,
+  "slug": "kamisato-ayaka",
+  "name": "Kamisato Ayaka",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "sword",
+  "region": "inazuma",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "09-28",
+  "releaseDate": "2021-07-21",
+  "releaseVersion": "2.0",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Sakura Bloom",
+  "materials": {
+    "boss": "Perpetual Heart",
+    "weeklyBoss": "Bloodjade Branch",
+    "common": [
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "grus-nivis",
+      "name": "Grus Nivis",
+      "meaning": "Snow-White Crane",
+      "images": {
+        "image": "characters/kamisato-ayaka/constellations/grus-nivis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Snowswept Sakura",
+          "description": "When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of Kamisato Art: Hyouka by 0.3s. This effect can occur once every 0.1s.",
+          "images": {
+            "icon": "characters/kamisato-ayaka/constellations/grus-nivis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Blizzard Blade Seki no To",
+          "description": "When casting Kamisato Art: Soumetsu, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
+          "images": {
+            "icon": "characters/kamisato-ayaka/constellations/grus-nivis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Frostbloom Kamifubuki",
+          "description": "Increases the Level of Kamisato Art: Soumetsu by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/kamisato-ayaka/constellations/grus-nivis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Ebb and Flow",
+          "description": "Opponents damaged by Kamisato Art: Soumetsu's Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
+          "images": {
+            "icon": "characters/kamisato-ayaka/constellations/grus-nivis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Blossom Cloud Irutsuki",
+          "description": "Increases the Level of Kamisato Art: Hyouka by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/kamisato-ayaka/constellations/grus-nivis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Dance of Suigetsu",
+          "description": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.",
+          "images": {
+            "icon": "characters/kamisato-ayaka/constellations/grus-nivis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/kamisato-ayaka/icon.png",
+    "card": "characters/kamisato-ayaka/card.webp",
+    "inGame": "characters/kamisato-ayaka/in-game.webp",
+    "wish": "characters/kamisato-ayaka/wish.webp",
+    "multiWish": "characters/kamisato-ayaka/multi-wish.webp",
+    "partyIcon": "characters/kamisato-ayaka/party-icon.webp"
+  }
+}

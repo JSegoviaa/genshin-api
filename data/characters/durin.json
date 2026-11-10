@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 109,
+  "slug": "durin",
+  "name": "Durin",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "sword",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "03-14",
+  "releaseDate": "2025-12-03",
+  "releaseVersion": "Luna III",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Frostlamp Flower",
+  "materials": {
+    "boss": "Cyclic Military Kuuvahki Core",
+    "weeklyBoss": "Eroded Sunfire",
+    "common": [
+      "Tattered Warrant",
+      "Immaculate Warrant",
+      "Frost-Etched Warrant"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/durin/icon.webp",
+    "card": "characters/durin/card.webp",
+    "inGame": "characters/durin/in-game.webp",
+    "wish": "characters/durin/wish.webp",
+    "multiWish": "characters/durin/multi-wish.webp",
+    "partyIcon": "characters/durin/party-icon.webp"
+  }
+}

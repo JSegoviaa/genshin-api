@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 65,
+  "slug": "forest-regalia",
+  "name": "Forest Regalia",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Aranara Series"
+  ],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/forest-regalia/icon.webp",
+    "awakenedIcon": "weapons/forest-regalia/awakened-icon.webp"
+  }
+}

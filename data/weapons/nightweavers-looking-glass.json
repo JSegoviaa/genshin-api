@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 219,
+  "slug": "nightweavers-looking-glass",
+  "name": "Nightweaver's Looking Glass",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Radiant Splendor",
+  "images": {
+    "icon": "weapons/nightweavers-looking-glass/icon.webp",
+    "awakenedIcon": "weapons/nightweavers-looking-glass/awakened-icon.webp"
+  }
+}

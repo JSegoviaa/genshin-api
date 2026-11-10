@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 86,
+  "slug": "emilie",
+  "name": "Emilie",
+  "rarity": 5,
+  "element": "dendro",
+  "weaponType": "polearm",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "09-22",
+  "releaseDate": "2024-08-06",
+  "releaseVersion": "4.8",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Lakelight Lily",
+  "materials": {
+    "boss": "Fragment of a Golden Melody",
+    "weeklyBoss": "Silken Feather",
+    "common": [
+      "Meshing Gear",
+      "Mechanical Spur Gear",
+      "Artificed Dynamic Gear"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "pomum-de-ambra",
+      "name": "Pomum de Ambra",
+      "meaning": "Pomander",
+      "images": {
+        "image": "characters/emilie/constellations/pomum-de-ambra/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/emilie/icon.webp",
+    "card": "characters/emilie/card.webp",
+    "inGame": "characters/emilie/in-game.webp",
+    "wish": "characters/emilie/wish.webp",
+    "multiWish": "characters/emilie/multi-wish.webp",
+    "partyIcon": "characters/emilie/party-icon.webp"
+  }
+}

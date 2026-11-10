@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 11,
+  "slug": "keqing",
+  "name": "Keqing",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "sword",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "11-20",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Cor Lapis",
+  "materials": {
+    "boss": "Lighthing Prism",
+    "weeklyBoss": "Ring of Boreas",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "trulla-cementarii",
+      "name": "Trulla Cementarii",
+      "meaning": "Plumb Line",
+      "images": {
+        "image": "characters/keqing/constellations/trulla-cementarii/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Thundering Might",
+          "description": "Recasting Stellar Restoration while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as AoE Electro DMG at the start point and terminus of her Blink.",
+          "images": {
+            "icon": "characters/keqing/constellations/trulla-cementarii/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Keen Extraction",
+          "description": "When Keqing's Normal and Charged Attacks hit opponents affected by Electro, they have a 50% chance of producing an Elemental Particle. This effect can only occur once every 5s.",
+          "images": {
+            "icon": "characters/keqing/constellations/trulla-cementarii/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Foreseen Reformation",
+          "description": "Increases the Level of Starward Sword by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/keqing/constellations/trulla-cementarii/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Attunement",
+          "description": "For 10s after Keqing triggers an Electro-related Elemental Reaction, her ATK is increased by 25%.",
+          "images": {
+            "icon": "characters/keqing/constellations/trulla-cementarii/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Beckoning Stars",
+          "description": "Increases the Level of Stellar Restoration by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/keqing/constellations/trulla-cementarii/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Tenacious Star",
+          "description": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% Electro DMG Bonus for 8s. Effects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities.",
+          "images": {
+            "icon": "characters/keqing/constellations/trulla-cementarii/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/keqing/icon.png",
+    "card": "characters/keqing/card.webp",
+    "inGame": "characters/keqing/in-game.webp",
+    "wish": "characters/keqing/wish.webp",
+    "multiWish": "characters/keqing/multi-wish.webp",
+    "partyIcon": "characters/keqing/party-icon.webp"
+  }
+}

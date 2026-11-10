@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 153,
+  "slug": "mailed-flower",
+  "name": "Mailed Flower",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/mailed-flower/icon.webp",
+    "awakenedIcon": "weapons/mailed-flower/awakened-icon.webp"
+  }
+}

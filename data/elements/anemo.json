@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/elements.json",
+  "id": 1,
+  "slug": "anemo",
+  "name": "Anemo",
+  "images": {
+    "icon": "elements/anemo.svg"
+  }
+}

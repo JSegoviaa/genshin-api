@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 191,
+  "slug": "chain-breaker",
+  "name": "Chain Breaker",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Estimation",
+  "images": {
+    "icon": "weapons/chain-breaker/icon.webp",
+    "awakenedIcon": "weapons/chain-breaker/awakened-icon.webp"
+  }
+}

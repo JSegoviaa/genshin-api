@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 61,
+  "slug": "wanderer",
+  "name": "Wanderer",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "sumeru",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "01-03",
+  "releaseDate": "2022-12-07",
+  "releaseVersion": "3.3",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Rukkhashava Mushrooms",
+  "materials": {
+    "boss": "Perpetual Caliber",
+    "weeklyBoss": "Daka's Bell",
+    "common": [
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "peregrinus",
+      "name": "Peregrinus",
+      "meaning": "Wanderer",
+      "images": {
+        "image": "characters/wanderer/constellations/peregrinus/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Shoban: Ostentatious Plumage",
+          "description": "When in the Windfavored state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%. Additionally, the wind arrows fired by the Passive Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must unlock the Passive Talent \"Gales of Reverie\" first.",
+          "images": {
+            "icon": "characters/wanderer/constellations/peregrinus/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Niban: Isle Amidst White Waves",
+          "description": "When in the Windfavored state, Kyougen: Five Ceremonial Plays will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill. Through this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%.",
+          "images": {
+            "icon": "characters/wanderer/constellations/peregrinus/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Sanban: Moonflower Kusemai",
+          "description": "Increases the Level of Kyougen: Five Ceremonial Plays by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/wanderer/constellations/peregrinus/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Yonban: Set Adrift into Spring",
+          "description": "When casting Hanega: Song of the Wind, should the Passive Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously. You must unlock the Passive Talent \"Jade-Claimed Flower\" first.",
+          "images": {
+            "icon": "characters/wanderer/constellations/peregrinus/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Matsuban: Ancient Illuminator From Abroad",
+          "description": "Increases the Level of Hanega: Song of the Wind by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/wanderer/constellations/peregrinus/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Shugen: The Curtains' Melancholic Sway",
+          "description": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the Windfavored state, the following effects will occur: Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG. When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration.",
+          "images": {
+            "icon": "characters/wanderer/constellations/peregrinus/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/wanderer/icon.png",
+    "card": "characters/wanderer/card.webp",
+    "inGame": "characters/wanderer/in-game.webp",
+    "wish": "characters/wanderer/wish.webp",
+    "multiWish": "characters/wanderer/multi-wish.webp",
+    "partyIcon": "characters/wanderer/party-icon.webp"
+  }
+}

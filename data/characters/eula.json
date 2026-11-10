@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 34,
+  "slug": "eula",
+  "name": "Eula",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "claymore",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "10-25",
+  "releaseDate": "2021-05-18",
+  "releaseVersion": "1.5",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Dandelion Seed",
+  "materials": {
+    "boss": "Crystaline Bloom",
+    "weeklyBoss": "Dragon Lord's Crown",
+    "common": [
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "aphros-delos",
+      "name": "Aphros Delos",
+      "meaning": "Brilliant Sea-Foam",
+      "images": {
+        "image": "characters/eula/constellations/aphros-delos/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Tidal Illusion",
+          "description": "Every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s. Each stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+          "images": {
+            "icon": "characters/eula/constellations/aphros-delos/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Lady of Seafoam",
+          "description": "Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to Tapping CD.",
+          "images": {
+            "icon": "characters/eula/constellations/aphros-delos/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Lawrence Pedigree",
+          "description": "Increases the Level of Glacial Illumination by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/eula/constellations/aphros-delos/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "The Obstinacy of One's Inferiors",
+          "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+          "images": {
+            "icon": "characters/eula/constellations/aphros-delos/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Chivalric Quality",
+          "description": "Increases the Level of Icetide Vortex by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/eula/constellations/aphros-delos/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Noble Obligation",
+          "description": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+          "images": {
+            "icon": "characters/eula/constellations/aphros-delos/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/eula/icon.png",
+    "card": "characters/eula/card.webp",
+    "inGame": "characters/eula/in-game.webp",
+    "wish": "characters/eula/wish.webp",
+    "multiWish": "characters/eula/multi-wish.webp",
+    "partyIcon": "characters/eula/party-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 189,
+  "slug": "footprint-of-the-rainbow",
+  "name": "Footprint of the Rainbow",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "DEF",
+  "series": [],
+  "ascensionMaterial": "Attentive Observation",
+  "images": {
+    "icon": "weapons/footprint-of-the-rainbow/icon.webp",
+    "awakenedIcon": "weapons/footprint-of-the-rainbow/awakened-icon.webp"
+  }
+}

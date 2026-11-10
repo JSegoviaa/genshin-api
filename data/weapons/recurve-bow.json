@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 32,
+  "slug": "recurve-bow",
+  "name": "Recurve Bow",
+  "rarity": 3,
+  "weaponType": "bow",
+  "secondaryStat": "HP",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/recurve-bow/icon.webp",
+    "awakenedIcon": "weapons/recurve-bow/awakened-icon.webp"
+  }
+}

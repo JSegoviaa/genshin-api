@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 196,
+  "slug": "mountain-bracing-bolt",
+  "name": "Mountain-Bracing Bolt",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Attentive Observation",
+  "images": {
+    "icon": "weapons/mountain-bracing-bolt/icon.webp",
+    "awakenedIcon": "weapons/mountain-bracing-bolt/awakened-icon.webp"
+  }
+}

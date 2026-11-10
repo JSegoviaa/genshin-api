@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 44,
+  "slug": "arataki-itto",
+  "name": "Arataki Itto",
+  "rarity": 5,
+  "element": "geo",
+  "weaponType": "claymore",
+  "region": "inazuma",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "06-01",
+  "releaseDate": "2021-12-14",
+  "releaseVersion": "2.3",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Onikabuto",
+  "materials": {
+    "boss": "Riftborn Regalia",
+    "weeklyBoss": "Ashen Heart",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "taurus-iracundus",
+      "name": "Taurus Iracundus",
+      "meaning": "Raging Bull",
+      "images": {
+        "image": "characters/arataki-itto/constellations/taurus-iracundus/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Stay a While and Listen Up",
+          "description": "After using Royal Descent: Behold, Itto the Evil!, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s.",
+          "images": {
+            "icon": "characters/arataki-itto/constellations/taurus-iracundus/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Gather 'Round, It's a Brawl!",
+          "description": "After using Royal Descent: Behold, Itto the Evil!, each party member whose Element is Geo will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto. CD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner.",
+          "images": {
+            "icon": "characters/arataki-itto/constellations/taurus-iracundus/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Horns Lowered, Coming Through",
+          "description": "Increases the Level of Masatsu Zetsugi: Akaushi Burst! by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/arataki-itto/constellations/taurus-iracundus/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Jailhouse Bread and Butter",
+          "description": "When the Raging Oni King state caused by Royal Descent: Behold, Itto the Evil! ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
+          "images": {
+            "icon": "characters/arataki-itto/constellations/taurus-iracundus/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "10 Years of Hanamizaka Fame",
+          "description": "Increases the Level of Royal Descent: Behold, Itto the Evil! by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/arataki-itto/constellations/taurus-iracundus/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Arataki Itto, Present!",
+          "description": "Arataki Itto's Charged Attacks deal +70% Crit DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength.",
+          "images": {
+            "icon": "characters/arataki-itto/constellations/taurus-iracundus/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/arataki-itto/icon.png",
+    "card": "characters/arataki-itto/card.webp",
+    "inGame": "characters/arataki-itto/in-game.webp",
+    "wish": "characters/arataki-itto/wish.webp",
+    "multiWish": "characters/arataki-itto/multi-wish.webp",
+    "partyIcon": "characters/arataki-itto/party-icon.webp"
+  }
+}

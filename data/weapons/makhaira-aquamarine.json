@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 61,
+  "slug": "makhaira-aquamarine",
+  "name": "Makhaira Aquamarine",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "TulayTullah Series"
+  ],
+  "ascensionMaterial": "Leading Karma",
+  "images": {
+    "icon": "weapons/makhaira-aquamarine/icon.webp",
+    "awakenedIcon": "weapons/makhaira-aquamarine/awakened-icon.webp"
+  }
+}

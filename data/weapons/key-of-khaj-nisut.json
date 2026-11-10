@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 122,
+  "slug": "key-of-khaj-nisut",
+  "name": "Key of Khaj-Nisut",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "HP",
+  "series": [
+    "Deshret Series"
+  ],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/key-of-khaj-nisut/icon.webp",
+    "awakenedIcon": "weapons/key-of-khaj-nisut/awakened-icon.webp"
+  }
+}

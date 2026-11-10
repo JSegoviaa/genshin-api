@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 1,
+  "slug": "dull-blade",
+  "name": "Dull Blade",
+  "rarity": 1,
+  "weaponType": "sword",
+  "secondaryStat": null,
+  "series": [
+    "1-Star Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/dull-blade/icon.webp",
+    "awakenedIcon": "weapons/dull-blade/awakened-icon.webp"
+  }
+}

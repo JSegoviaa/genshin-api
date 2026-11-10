@@ -1,0 +1,31 @@
+{
+  "name": "genshin-api-v2",
+  "version": "1.0.0",
+  "description": "Read-only Genshin Impact API on Cloudflare Workers",
+  "scripts": {
+    "test": "npm run build:data && vitest run",
+    "dev": "npm run build:data && wrangler dev",
+    "build:data": "tsx scripts/build-data.ts",
+    "schemas": "tsx scripts/gen-schemas.ts",
+    "migrate:v1": "tsx scripts/migrate-v1.ts",
+    "images:check": "tsx scripts/images.ts check",
+    "images:sync": "tsx scripts/images.ts sync",
+    "typecheck": "tsc --noEmit",
+    "deploy": "npm run build:data && npm run typecheck && wrangler deploy"
+  },
+  "type": "module",
+  "dependencies": {
+    "hono": "^4.13.17",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1165.0",
+    "@cloudflare/workers-types": "^5.20261110.1",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.160.0"
+  },
+  "private": "true"
+}

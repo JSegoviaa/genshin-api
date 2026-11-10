@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 120,
+  "slug": "mistsplitter-reforged",
+  "name": "Mistsplitter Reforged",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Inazuma Series"
+  ],
+  "ascensionMaterial": "Sunken Sands",
+  "images": {
+    "icon": "weapons/mistsplitter-reforged/icon.webp",
+    "awakenedIcon": "weapons/mistsplitter-reforged/awakened-icon.webp"
+  }
+}

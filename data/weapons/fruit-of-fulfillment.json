@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 93,
+  "slug": "fruit-of-fulfillment",
+  "name": "Fruit of Fulfillment",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Aranara Series"
+  ],
+  "ascensionMaterial": "Obsession",
+  "images": {
+    "icon": "weapons/fruit-of-fulfillment/icon.webp",
+    "awakenedIcon": "weapons/fruit-of-fulfillment/awakened-icon.webp"
+  }
+}

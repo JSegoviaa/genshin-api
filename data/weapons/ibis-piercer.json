@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 155,
+  "slug": "ibis-piercer",
+  "name": "Ibis Piercer",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/ibis-piercer/icon.webp",
+    "awakenedIcon": "weapons/ibis-piercer/awakened-icon.webp"
+  }
+}

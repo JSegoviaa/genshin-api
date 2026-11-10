@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 12,
+  "slug": "skyrider-sword",
+  "name": "Skyrider Sword",
+  "rarity": 3,
+  "weaponType": "sword",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Skyrider Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/skyrider-sword/icon.webp",
+    "awakenedIcon": "weapons/skyrider-sword/awakened-icon.webp"
+  }
+}

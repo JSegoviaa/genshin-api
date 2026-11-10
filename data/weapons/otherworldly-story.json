@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 27,
+  "slug": "otherworldly-story",
+  "name": "Otherworldly Story",
+  "rarity": 3,
+  "weaponType": "catalyst",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/otherworldly-story/icon.webp",
+    "awakenedIcon": "weapons/otherworldly-story/awakened-icon.webp"
+  }
+}

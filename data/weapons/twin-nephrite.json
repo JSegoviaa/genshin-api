@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 25,
+  "slug": "twin-nephrite",
+  "name": "Twin Nephrite",
+  "rarity": 3,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/twin-nephrite/icon.webp",
+    "awakenedIcon": "weapons/twin-nephrite/awakened-icon.webp"
+  }
+}

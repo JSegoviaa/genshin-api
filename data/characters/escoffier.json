@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 100,
+  "slug": "escoffier",
+  "name": "Escoffier",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "polearm",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "06-08",
+  "releaseDate": "2025-05-07",
+  "releaseVersion": "5.6",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Beryl Conch",
+  "materials": {
+    "boss": "Secret Source Airflow Accumulator",
+    "weeklyBoss": "Eroded Horn",
+    "common": [
+      "Meshing Gear",
+      "Mechanical Spur Gear",
+      "Artificed Dynamic Gear"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "dulciaria-structura",
+      "name": "Dulciaria Structura",
+      "meaning": "Sweet Cake Structure",
+      "images": {
+        "image": "characters/escoffier/constellations/dulciaria-structura/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/escoffier/icon.webp",
+    "card": "characters/escoffier/card.webp",
+    "inGame": "characters/escoffier/in-game.webp",
+    "wish": "characters/escoffier/wish.webp",
+    "multiWish": "characters/escoffier/multi-wish.webp",
+    "partyIcon": "characters/escoffier/party-icon.webp"
+  }
+}

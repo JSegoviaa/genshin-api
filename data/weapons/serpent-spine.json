@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 56,
+  "slug": "serpent-spine",
+  "name": "Serpent Spine",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Gnostic Hymn 1 Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/serpent-spine/icon.webp",
+    "awakenedIcon": "weapons/serpent-spine/awakened-icon.webp"
+  }
+}

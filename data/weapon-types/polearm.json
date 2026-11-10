@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/weapon-types.json",
+  "id": 3,
+  "slug": "polearm",
+  "name": "Polearm",
+  "images": {
+    "icon": "weapon-types/polearm.webp"
+  }
+}

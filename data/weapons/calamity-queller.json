@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 137,
+  "slug": "calamity-queller",
+  "name": "Calamity Queller",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/calamity-queller/icon.webp",
+    "awakenedIcon": "weapons/calamity-queller/awakened-icon.webp"
+  }
+}

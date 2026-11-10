@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 71,
+  "slug": "prototype-starglitter",
+  "name": "Prototype Starglitter",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Prototype Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/prototype-starglitter/icon.webp",
+    "awakenedIcon": "weapons/prototype-starglitter/awakened-icon.webp"
+  }
+}

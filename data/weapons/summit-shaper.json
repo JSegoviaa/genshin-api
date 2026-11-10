@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 117,
+  "slug": "summit-shaper",
+  "name": "Summit Shaper",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [
+    "Liyue Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/summit-shaper/icon.webp",
+    "awakenedIcon": "weapons/summit-shaper/awakened-icon.webp"
+  }
+}

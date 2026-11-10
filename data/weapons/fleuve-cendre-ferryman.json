@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 166,
+  "slug": "fleuve-cendre-ferryman",
+  "name": "Fleuve Cendre Ferryman",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Skyrider Series"
+  ],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/fleuve-cendre-ferryman/icon.webp",
+    "awakenedIcon": "weapons/fleuve-cendre-ferryman/awakened-icon.webp"
+  }
+}

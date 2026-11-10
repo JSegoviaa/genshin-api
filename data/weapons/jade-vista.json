@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 243,
+  "slug": "jade-vista",
+  "name": "Jade Vista",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/jade-vista/icon.webp",
+    "awakenedIcon": "weapons/jade-vista/awakened-icon.webp"
+  }
+}

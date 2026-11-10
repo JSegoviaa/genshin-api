@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 146,
+  "slug": "skyward-harp",
+  "name": "Skyward Harp",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Mondstadt Series"
+  ],
+  "ascensionMaterial": "Submerged Valley",
+  "images": {
+    "icon": "weapons/skyward-harp/icon.webp",
+    "awakenedIcon": "weapons/skyward-harp/awakened-icon.webp"
+  }
+}

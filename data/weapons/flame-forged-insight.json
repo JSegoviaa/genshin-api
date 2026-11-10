@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 211,
+  "slug": "flame-forged-insight",
+  "name": "Flame-Forged Insight",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Attentive Observation",
+  "images": {
+    "icon": "weapons/flame-forged-insight/icon.webp",
+    "awakenedIcon": "weapons/flame-forged-insight/awakened-icon.webp"
+  }
+}

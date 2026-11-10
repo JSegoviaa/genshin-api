@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 105,
+  "slug": "prototype-crescent",
+  "name": "Prototype Crescent",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Prototype Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/prototype-crescent/icon.webp",
+    "awakenedIcon": "weapons/prototype-crescent/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 135,
+  "slug": "primordial-jade-winged-spear",
+  "name": "Primordial Jade Winged-Spear",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Primordial Jade Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/primordial-jade-winged-spear/icon.webp",
+    "awakenedIcon": "weapons/primordial-jade-winged-spear/awakened-icon.webp"
+  }
+}

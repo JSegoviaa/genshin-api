@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 102,
+  "slug": "skirk",
+  "name": "Skirk",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "sword",
+  "region": "another-world",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "11-05",
+  "releaseDate": "2025-06-18",
+  "releaseVersion": "5.7",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Skysplit Gembloom",
+  "materials": {
+    "boss": "Ensnaring Gaze",
+    "weeklyBoss": "Ascended Sample: Knight",
+    "common": [
+      "Meshing Gear",
+      "Mechanical Spur Gear",
+      "Artificed Dynamic Gear"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "crystallina",
+      "name": "Crystallina",
+      "meaning": "Crystalline",
+      "images": {
+        "image": "characters/skirk/constellations/crystallina/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/skirk/icon.webp",
+    "card": "characters/skirk/card.webp",
+    "inGame": "characters/skirk/in-game.webp",
+    "wish": "characters/skirk/wish.webp",
+    "multiWish": "characters/skirk/multi-wish.webp",
+    "partyIcon": "characters/skirk/party-icon.webp"
+  }
+}

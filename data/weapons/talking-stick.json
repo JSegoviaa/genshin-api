@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 162,
+  "slug": "talking-stick",
+  "name": "Talking Stick",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Gnostic Hymn 2 Series"
+  ],
+  "ascensionMaterial": "Obsession",
+  "images": {
+    "icon": "weapons/talking-stick/icon.webp",
+    "awakenedIcon": "weapons/talking-stick/awakened-icon.webp"
+  }
+}

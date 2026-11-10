@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 206,
+  "slug": "sunny-morning-sleep-in",
+  "name": "Sunny Morning Sleep-In",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/sunny-morning-sleep-in/icon.webp",
+    "awakenedIcon": "weapons/sunny-morning-sleep-in/awakened-icon.webp"
+  }
+}

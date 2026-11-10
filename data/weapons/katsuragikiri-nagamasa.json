@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 64,
+  "slug": "katsuragikiri-nagamasa",
+  "name": "Katsuragikiri Nagamasa",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Amethyst Series"
+  ],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/katsuragikiri-nagamasa/icon.webp",
+    "awakenedIcon": "weapons/katsuragikiri-nagamasa/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 144,
+  "slug": "a-thousand-floating-dreams",
+  "name": "A Thousand Floating Dreams",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Sumeru Series"
+  ],
+  "ascensionMaterial": "Obsession",
+  "images": {
+    "icon": "weapons/a-thousand-floating-dreams/icon.webp",
+    "awakenedIcon": "weapons/a-thousand-floating-dreams/awakened-icon.webp"
+  }
+}

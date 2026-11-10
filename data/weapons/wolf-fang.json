@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 161,
+  "slug": "wolf-fang",
+  "name": "Wolf-Fang",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Gnostic Hymn 2 Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/wolf-fang/icon.webp",
+    "awakenedIcon": "weapons/wolf-fang/awakened-icon.webp"
+  }
+}

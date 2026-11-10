@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 45,
+  "slug": "gorou",
+  "name": "Gorou",
+  "rarity": 4,
+  "element": "geo",
+  "weaponType": "bow",
+  "region": "inazuma",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "05-18",
+  "releaseDate": "2021-12-14",
+  "releaseVersion": "2.3",
+  "ascensionStat": "Geo DMG Bonus",
+  "localSpecialty": "Sango Pearl",
+  "materials": {
+    "boss": "Perpetual Heart",
+    "weeklyBoss": "Molten Moment",
+    "common": [
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "canis-bellatoris",
+      "name": "Canis Bellatoris",
+      "meaning": "Warrior's Dog",
+      "images": {
+        "image": "characters/gorou/constellations/canis-bellatoris/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Rushing Hound: Swift as the Wind",
+          "description": "When characters (other than Gorou) within the AoE of Gorou's General's War Banner or General's Glory deal Geo DMG to opponents, the CD of Gorou's Inuzaka All-Round Defense is decreased by 2s. This effect can occur once every 10s.",
+          "images": {
+            "icon": "characters/gorou/constellations/canis-bellatoris/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Sitting Hound: Steady as a Clock",
+          "description": "While General's Glory is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. This effect can occur once every 0.1s. Max extension is 3s.",
+          "images": {
+            "icon": "characters/gorou/constellations/canis-bellatoris/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Mauling Hound: Fierce as Fire",
+          "description": "Increases the Level of Inuzaka All-Round Defense by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/gorou/constellations/canis-bellatoris/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Lapping Hound: Warm as Water",
+          "description": "When General's Glory is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+          "images": {
+            "icon": "characters/gorou/constellations/canis-bellatoris/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Striking Hound: Thunderous Force",
+          "description": "Increases the Level of Juuga: Forward Unto Victory by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/gorou/constellations/canis-bellatoris/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Valiant Hound: Mountainous Fealty",
+          "description": "For 12s after using Inuzaka All-Round Defense or Juuga: Forward Unto Victory, increases the CRIT DMG of all nearby party members' Geo DMG based on the buff level of the skill's field at the time of use: \"Standing Firm\": +10% \"Impregnable\": +20% \"Crunch\": +40% This effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+          "images": {
+            "icon": "characters/gorou/constellations/canis-bellatoris/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/gorou/icon.png",
+    "card": "characters/gorou/card.webp",
+    "inGame": "characters/gorou/in-game.webp",
+    "wish": "characters/gorou/wish.webp",
+    "multiWish": "characters/gorou/multi-wish.webp",
+    "partyIcon": "characters/gorou/party-icon.webp"
+  }
+}

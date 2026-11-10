@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 43,
+  "slug": "royal-longsword",
+  "name": "Royal Longsword",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [
+    "Royal Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/royal-longsword/icon.webp",
+    "awakenedIcon": "weapons/royal-longsword/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 213,
+  "slug": "etherlight-spindlelute",
+  "name": "Etherlight Spindlelute",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Lunar Oblation",
+  "images": {
+    "icon": "weapons/etherlight-spindlelute/icon.webp",
+    "awakenedIcon": "weapons/etherlight-spindlelute/awakened-icon.webp"
+  }
+}

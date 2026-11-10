@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 92,
+  "slug": "chasca",
+  "name": "Chasca",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "bow",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "12-10",
+  "releaseDate": "2024-11-19",
+  "releaseVersion": "5.2",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Withering Purpurbloom",
+  "materials": {
+    "boss": "Ensnaring Gaze",
+    "weeklyBoss": "Silken Feather",
+    "common": [
+      "Juvenile Fang",
+      "Seasoned Fang",
+      "Tyrant's Fang"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "vultur-gryphus",
+      "name": "Vultur Gryphus",
+      "meaning": "Andean Condor",
+      "images": {
+        "image": "characters/chasca/constellations/vultur-gryphus/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/chasca/icon.webp",
+    "card": "characters/chasca/card.webp",
+    "inGame": "characters/chasca/in-game.webp",
+    "wish": "characters/chasca/wish.webp",
+    "multiWish": "characters/chasca/multi-wish.webp",
+    "partyIcon": "characters/chasca/party-icon.webp"
+  }
+}

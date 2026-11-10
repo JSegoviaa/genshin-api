@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 200,
+  "slug": "waveriding-whirl",
+  "name": "Waveriding Whirl",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/waveriding-whirl/icon.webp",
+    "awakenedIcon": "weapons/waveriding-whirl/awakened-icon.webp"
+  }
+}

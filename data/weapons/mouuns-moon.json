@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 107,
+  "slug": "mouuns-moon",
+  "name": "Mouun's Moon",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Watatsumi Series"
+  ],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/mouuns-moon/icon.webp",
+    "awakenedIcon": "weapons/mouuns-moon/awakened-icon.webp"
+  }
+}

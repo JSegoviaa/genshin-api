@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 54,
+  "slug": "the-bell",
+  "name": "The Bell",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "HP",
+  "series": [
+    "Wanderer's Troupe Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/the-bell/icon.webp",
+    "awakenedIcon": "weapons/the-bell/awakened-icon.webp"
+  }
+}

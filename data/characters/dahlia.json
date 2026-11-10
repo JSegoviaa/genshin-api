@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 101,
+  "slug": "dahlia",
+  "name": "Dahlia",
+  "rarity": 4,
+  "element": "hydro",
+  "weaponType": "sword",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "05-25",
+  "releaseDate": "2025-06-18",
+  "releaseVersion": "5.7",
+  "ascensionStat": "HP",
+  "localSpecialty": "Calla Lily",
+  "materials": {
+    "boss": "Secret Source Airflow Accumulator",
+    "weeklyBoss": "Eroded Scale-Feather",
+    "common": [
+      "Firm Arrow",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "cantus-choralis",
+      "name": "Cantus Choralis",
+      "meaning": "Choral Song",
+      "images": {
+        "image": "characters/dahlia/constellations/cantus-choralis/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/dahlia/icon.webp",
+    "card": "characters/dahlia/card.webp",
+    "inGame": "characters/dahlia/in-game.webp",
+    "wish": "characters/dahlia/wish.webp",
+    "multiWish": "characters/dahlia/multi-wish.webp",
+    "partyIcon": "characters/dahlia/party-icon.webp"
+  }
+}

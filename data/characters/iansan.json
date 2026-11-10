@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 97,
+  "slug": "iansan",
+  "name": "Iansan",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "polearm",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "08-08",
+  "releaseDate": "2025-03-26",
+  "releaseVersion": "5.5",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Dracolite",
+  "materials": {
+    "boss": "Ensnaring Gaze",
+    "weeklyBoss": "Denial and Judgment",
+    "common": [
+      "Sentry's Wooden Whistle",
+      "Warrior's Metal Whistle",
+      "Saurian-Crowned Warrior's Golden Whistle"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "carnotaurus",
+      "name": "Carnotaurus",
+      "meaning": "Carnotaurus",
+      "images": {
+        "image": "characters/iansan/constellations/carnotaurus/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/iansan/icon.webp",
+    "card": "characters/iansan/card.webp",
+    "inGame": "characters/iansan/in-game.webp",
+    "wish": "characters/iansan/wish.webp",
+    "multiWish": "characters/iansan/multi-wish.webp",
+    "partyIcon": "characters/iansan/party-icon.webp"
+  }
+}

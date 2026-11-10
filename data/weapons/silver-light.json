@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 247,
+  "slug": "silver-light",
+  "name": "Silver Light",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/silver-light/icon.webp",
+    "awakenedIcon": "weapons/silver-light/awakened-icon.webp"
+  }
+}

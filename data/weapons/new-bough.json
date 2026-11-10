@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 246,
+  "slug": "new-bough",
+  "name": "New Bough",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Chain Track",
+  "images": {
+    "icon": "weapons/new-bough/icon.webp",
+    "awakenedIcon": "weapons/new-bough/awakened-icon.webp"
+  }
+}

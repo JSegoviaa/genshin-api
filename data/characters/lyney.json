@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 70,
+  "slug": "lyney",
+  "name": "Lyney",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "bow",
+  "region": "fontaine",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "02-02",
+  "releaseDate": "2023-08-16",
+  "releaseVersion": "4.0",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Rainbow Rose",
+  "materials": {
+    "boss": "Emperor's Resolution",
+    "weeklyBoss": "Primordial Greenbloom",
+    "common": [
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "felis-fuscus",
+      "name": "Felis Fuscus",
+      "meaning": "Black Cat",
+      "images": {
+        "image": "characters/lyney/constellations/felis-fuscus/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Whimsical Wonders",
+          "description": "Lyney can have 2 Grin-Malkin Hats present at once. Additionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s.",
+          "images": {
+            "icon": "characters/lyney/constellations/felis-fuscus/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Loquacious Cajoling",
+          "description": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. This will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field.",
+          "images": {
+            "icon": "characters/lyney/constellations/felis-fuscus/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Prestidigitation",
+          "description": "Increases the Level of Normal Attack: Card Force Translocation by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/lyney/constellations/felis-fuscus/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Well-Versed, Well-Rehearsed",
+          "description": "After an opponent is hit by Lyney's Pyro Charged Attack, this opponent's Pyro RES will be decreased by 20% for 6s.",
+          "images": {
+            "icon": "characters/lyney/constellations/felis-fuscus/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "To Pierce Enigmas",
+          "description": "Increases the Level of Wondrous Trick: Miracle Parade by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/lyney/constellations/felis-fuscus/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Guarded Smile",
+          "description": "When Lyney fires a Prop Arrow, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG.",
+          "images": {
+            "icon": "characters/lyney/constellations/felis-fuscus/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/lyney/icon.webp",
+    "card": "characters/lyney/card.webp",
+    "inGame": "characters/lyney/in-game.webp",
+    "wish": "characters/lyney/wish.webp",
+    "multiWish": "characters/lyney/multi-wish.webp",
+    "partyIcon": "characters/lyney/party-icon.webp"
+  }
+}

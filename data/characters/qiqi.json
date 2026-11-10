@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 10,
+  "slug": "qiqi",
+  "name": "Qiqi",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "sword",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "03-03",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Healing Bonus",
+  "localSpecialty": "Violetgrass",
+  "materials": {
+    "boss": "Hoarfrost Core",
+    "weeklyBoss": "Tail of Boreas",
+    "common": [
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "pristina-nola",
+      "name": "Pristina Nola",
+      "meaning": "Ancient Bell",
+      "images": {
+        "image": "characters/qiqi/constellations/pristina-nola/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Ascetics of Frost",
+          "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+          "images": {
+            "icon": "characters/qiqi/constellations/pristina-nola/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Frozen to the Bone",
+          "description": "Qiqi's Normal and Charge Attack DMG against opponents affected by Cryo is increased by 15%.",
+          "images": {
+            "icon": "characters/qiqi/constellations/pristina-nola/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Ascendant Praise",
+          "description": "Increases the Level of Adeptus Art: Preserver of Fortune by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/qiqi/constellations/pristina-nola/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Divine Suppression",
+          "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+          "images": {
+            "icon": "characters/qiqi/constellations/pristina-nola/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Crimson Lotus Bloom",
+          "description": "Increases the Level of Adeptus Art: Herald of Frost by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/qiqi/constellations/pristina-nola/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Rite of Resurrection",
+          "description": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP. This effect can only occur once every 15 mins.",
+          "images": {
+            "icon": "characters/qiqi/constellations/pristina-nola/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/qiqi/icon.png",
+    "card": "characters/qiqi/card.webp",
+    "inGame": "characters/qiqi/in-game.webp",
+    "wish": "characters/qiqi/wish.webp",
+    "multiWish": "characters/qiqi/multi-wish.webp",
+    "partyIcon": "characters/qiqi/party-icon.webp"
+  }
+}

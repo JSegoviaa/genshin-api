@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 178,
+  "slug": "verdict",
+  "name": "Verdict",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/verdict/icon.webp",
+    "awakenedIcon": "weapons/verdict/awakened-icon.webp"
+  }
+}

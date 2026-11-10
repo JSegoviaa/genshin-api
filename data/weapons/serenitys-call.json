@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 214,
+  "slug": "serenitys-call",
+  "name": "Serenity's Call",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Radiant Splendor",
+  "images": {
+    "icon": "weapons/serenitys-call/icon.webp",
+    "awakenedIcon": "weapons/serenitys-call/awakened-icon.webp"
+  }
+}

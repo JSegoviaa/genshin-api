@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 209,
+  "slug": "symphonist-of-scents",
+  "name": "Symphonist of Scents",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Artisanship",
+  "images": {
+    "icon": "weapons/symphonist-of-scents/icon.webp",
+    "awakenedIcon": "weapons/symphonist-of-scents/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 175,
+  "slug": "sword-of-narzissenkreuz",
+  "name": "Sword of Narzissenkreuz",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/sword-of-narzissenkreuz/icon.webp",
+    "awakenedIcon": "weapons/sword-of-narzissenkreuz/awakened-icon.webp"
+  }
+}

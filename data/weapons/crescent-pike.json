@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 80,
+  "slug": "crescent-pike",
+  "name": "Crescent Pike",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [
+    "Infusion Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/crescent-pike/icon.webp",
+    "awakenedIcon": "weapons/crescent-pike/awakened-icon.webp"
+  }
+}

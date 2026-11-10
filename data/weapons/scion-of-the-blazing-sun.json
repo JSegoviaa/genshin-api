@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 165,
+  "slug": "scion-of-the-blazing-sun",
+  "name": "Scion of the Blazing Sun",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Gnostic Hymn 2 Series"
+  ],
+  "ascensionMaterial": "Leading Karma",
+  "images": {
+    "icon": "weapons/scion-of-the-blazing-sun/icon.webp",
+    "awakenedIcon": "weapons/scion-of-the-blazing-sun/awakened-icon.webp"
+  }
+}

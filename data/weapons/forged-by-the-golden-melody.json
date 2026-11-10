@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 240,
+  "slug": "forged-by-the-golden-melody",
+  "name": "Forged by the Golden Melody",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Artisanship",
+  "images": {
+    "icon": "weapons/forged-by-the-golden-melody/icon.webp",
+    "awakenedIcon": "weapons/forged-by-the-golden-melody/awakened-icon.webp"
+  }
+}

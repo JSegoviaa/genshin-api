@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 121,
+  "slug": "light-of-foliar-incision",
+  "name": "Light of Foliar Incision",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Sumeru Series"
+  ],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/light-of-foliar-incision/icon.webp",
+    "awakenedIcon": "weapons/light-of-foliar-incision/awakened-icon.webp"
+  }
+}

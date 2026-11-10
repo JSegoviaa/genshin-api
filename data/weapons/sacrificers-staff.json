@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 222,
+  "slug": "sacrificers-staff",
+  "name": "Sacrificer's Staff",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Prayers Sung",
+  "images": {
+    "icon": "weapons/sacrificers-staff/icon.webp",
+    "awakenedIcon": "weapons/sacrificers-staff/awakened-icon.webp"
+  }
+}

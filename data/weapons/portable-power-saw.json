@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 169,
+  "slug": "portable-power-saw",
+  "name": "Portable Power Saw",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "HP",
+  "series": [
+    "Construction Series"
+  ],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/portable-power-saw/icon.webp",
+    "awakenedIcon": "weapons/portable-power-saw/awakened-icon.webp"
+  }
+}

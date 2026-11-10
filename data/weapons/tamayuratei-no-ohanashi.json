@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 205,
+  "slug": "tamayuratei-no-ohanashi",
+  "name": "Tamayuratei no Ohanashi",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/tamayuratei-no-ohanashi/icon.webp",
+    "awakenedIcon": "weapons/tamayuratei-no-ohanashi/awakened-icon.webp"
+  }
+}

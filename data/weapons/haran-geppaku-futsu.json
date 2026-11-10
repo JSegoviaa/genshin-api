@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 123,
+  "slug": "haran-geppaku-futsu",
+  "name": "Haran Geppaku Futsu",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/haran-geppaku-futsu/icon.webp",
+    "awakenedIcon": "weapons/haran-geppaku-futsu/awakened-icon.webp"
+  }
+}

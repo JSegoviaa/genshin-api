@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 63,
+  "slug": "yaoyao",
+  "name": "Yaoyao",
+  "rarity": 4,
+  "element": "dendro",
+  "weaponType": "polearm",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "03-06",
+  "releaseDate": "2023-01-18",
+  "releaseVersion": "3.4",
+  "ascensionStat": "HP",
+  "localSpecialty": "Jueyun Chili",
+  "materials": {
+    "boss": "Quelled Creeper",
+    "weeklyBoss": "Daka's Bell",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "osmanthus",
+      "name": "Osmanthus",
+      "meaning": "Osmanthus",
+      "images": {
+        "image": "characters/yaoyao/constellations/osmanthus/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Adeptus' Tutelage",
+          "description": "When White Jade Radishes explode, active characters within their AoE will gain 15% Dendro DMG Bonus for 8s and have 15 Stamina restored to them. This form of Stamina Restoration can only be triggered every 5s.",
+          "images": {
+            "icon": "characters/yaoyao/constellations/osmanthus/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Innocent",
+          "description": "While affected by the Adeptal Legacy state caused by Moonjade Descent, if White Jade Radish explosions damage opponents, 3 Energy will be restored to Yaoyao. This form of Energy regeneration can occur once every 0.8s.",
+          "images": {
+            "icon": "characters/yaoyao/constellations/osmanthus/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Loyal and Kind",
+          "description": "Increases the Level of Raphanus Sky Cluster by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yaoyao/constellations/osmanthus/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Winsome",
+          "description": "After using Raphanus Sky Cluster or Moonjade Descent, Yaoyao's Elemental Mastery will be increased based on 0.3% of her Max HP for 8s. The maximum Elemental Mastery she can gain this way is 120.",
+          "images": {
+            "icon": "characters/yaoyao/constellations/osmanthus/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Compassionate",
+          "description": "Increases the Level of Moonjade Descent by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yaoyao/constellations/osmanthus/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Beneficent",
+          "description": "For every 2 White Jade Radishes Yuegui: Throwing Mode throws out, it will also throw a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding: Deals AoE Dendro DMG based on 75% of Yaoyao's ATK. Restores HP for the active character based on 7.5% of Yaoyao's Max HP. Every Yuegei: Throwing Mode can throw out a maximum of 2 Mega Radishes.",
+          "images": {
+            "icon": "characters/yaoyao/constellations/osmanthus/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/yaoyao/icon.webp",
+    "card": "characters/yaoyao/card.webp",
+    "inGame": "characters/yaoyao/in-game.webp",
+    "wish": "characters/yaoyao/wish.webp",
+    "multiWish": "characters/yaoyao/multi-wish.webp",
+    "partyIcon": "characters/yaoyao/party-icon.webp"
+  }
+}

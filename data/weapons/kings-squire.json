@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 109,
+  "slug": "kings-squire",
+  "name": "King's Squire",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Aranara Series"
+  ],
+  "ascensionMaterial": "Leading Karma",
+  "images": {
+    "icon": "weapons/kings-squire/icon.webp",
+    "awakenedIcon": "weapons/kings-squire/awakened-icon.webp"
+  }
+}

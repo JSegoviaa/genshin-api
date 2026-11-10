@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 49,
+  "slug": "kamisato-ayato",
+  "name": "Kamisato Ayato",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "sword",
+  "region": "inazuma",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "03-26",
+  "releaseDate": "2022-03-30",
+  "releaseVersion": "2.6",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Sakura Bloom",
+  "materials": {
+    "boss": "Dew of Repudiation",
+    "weeklyBoss": "Mudra of the Malefic General",
+    "common": [
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "cypressus-custos",
+      "name": "Cypressus Custos",
+      "meaning": "Guardian Cypress",
+      "images": {
+        "image": "characters/kamisato-ayato/constellations/cypressus-custos/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Kyouka Fuushi",
+          "description": "Shunsuiken DMG is increased by 40% against opponents with 50% HP or less.",
+          "images": {
+            "icon": "characters/kamisato-ayato/constellations/cypressus-custos/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "World Source",
+          "description": "Namisen's maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%.",
+          "images": {
+            "icon": "characters/kamisato-ayato/constellations/cypressus-custos/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "To Admire the Flowers",
+          "description": "Increases the Level of Kamisato Art: Kyouka by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/kamisato-ayato/constellations/cypressus-custos/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Endless Flow",
+          "description": "After using Kamisato Art: Suiyuu, all nearby party members will have 15% increased Normal Attack SPD for 15s.",
+          "images": {
+            "icon": "characters/kamisato-ayato/constellations/cypressus-custos/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Bansui Ichiro",
+          "description": "Increases the Level of Kamisato Art: Suiyuu by 3. Maximum upgrade level is 15",
+          "images": {
+            "icon": "characters/kamisato-ayato/constellations/cypressus-custos/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Boundless Origin",
+          "description": "After using Kamisato Art: Kyouka, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG. Both these Shunsuiken attacks will not be affected by Namisen.",
+          "images": {
+            "icon": "characters/kamisato-ayato/constellations/cypressus-custos/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/kamisato-ayato/icon.png",
+    "card": "characters/kamisato-ayato/card.webp",
+    "inGame": "characters/kamisato-ayato/in-game.webp",
+    "wish": "characters/kamisato-ayato/wish.webp",
+    "multiWish": "characters/kamisato-ayato/multi-wish.webp",
+    "partyIcon": "characters/kamisato-ayato/party-icon.webp"
+  }
+}

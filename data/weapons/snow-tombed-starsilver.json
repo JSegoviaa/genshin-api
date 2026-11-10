@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 55,
+  "slug": "snow-tombed-starsilver",
+  "name": "Snow-Tombed Starsilver",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [
+    "Dragonspine Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/snow-tombed-starsilver/icon.webp",
+    "awakenedIcon": "weapons/snow-tombed-starsilver/awakened-icon.webp"
+  }
+}

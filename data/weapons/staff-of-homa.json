@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 133,
+  "slug": "staff-of-homa",
+  "name": "Staff of Homa",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/staff-of-homa/icon.webp",
+    "awakenedIcon": "weapons/staff-of-homa/awakened-icon.webp"
+  }
+}

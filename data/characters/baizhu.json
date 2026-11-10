@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 68,
+  "slug": "baizhu",
+  "name": "Baizhu",
+  "rarity": 5,
+  "element": "dendro",
+  "weaponType": "catalyst",
+  "region": "liyue",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "04-25",
+  "releaseDate": "2023-05-02",
+  "releaseVersion": "3.6",
+  "ascensionStat": "HP",
+  "localSpecialty": "Violetgrass",
+  "materials": {
+    "boss": "Evergloom Ring",
+    "weeklyBoss": "Worldspan Fern",
+    "common": [
+      "Fungal Spores",
+      "Luminescent Pollen",
+      "Crystalline Cyst Dust"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "lagenaria",
+      "name": "Lagenaria",
+      "meaning": "Calabash",
+      "images": {
+        "image": "characters/baizhu/constellations/lagenaria/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Attentive Observation",
+          "description": "Universal Diagnosis gains 1 additional charge.",
+          "images": {
+            "icon": "characters/baizhu/constellations/lagenaria/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Incisive Discernment",
+          "description": "When your own active character hits a nearby opponent with their attacks, Baizhu will unleash a Gossamer Sprite: Splice. Gossamer Sprite: Splice will initiate 1 attack before returning, dealing 250% of Baizhu's ATK as Dendro DMG and healing for 20% of Universal Diagnosis's Gossamer Sprite's normal healing. DMG dealt this way is considered Elemental Skill DMG. This effect can be triggered once every 5s.",
+          "images": {
+            "icon": "characters/baizhu/constellations/lagenaria/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "All Aspects Stabilized",
+          "description": "Increases the Level of Holistic Revivification by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/baizhu/constellations/lagenaria/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Ancient Art of Perception",
+          "description": "For 15s after Holistic Revivification is used, Baizhu will increase all nearby party members' Elemental Mastery by 80.",
+          "images": {
+            "icon": "characters/baizhu/constellations/lagenaria/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "The Hidden Ebb and Flow",
+          "description": "Increases the Level of Universal Diagnosis by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/baizhu/constellations/lagenaria/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Elimination of Malicious Qi",
+          "description": "Increases the DMG dealt by Holistic Revivification's Spiritveins by 8% of Baizhu's Max HP. Additionally, when a Gossamer Sprite or Gossamer Sprite: Splice hits opponents, there is a 100% chance of generating one of Holistic Revivification's Seamless Shields. This effect can only be triggered once by each Gossamer Sprite or Gossamer Sprite: Splice.",
+          "images": {
+            "icon": "characters/baizhu/constellations/lagenaria/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/baizhu/icon.webp",
+    "card": "characters/baizhu/card.webp",
+    "inGame": "characters/baizhu/in-game.webp",
+    "wish": "characters/baizhu/wish.webp",
+    "multiWish": "characters/baizhu/multi-wish.webp",
+    "partyIcon": "characters/baizhu/party-icon.webp"
+  }
+}

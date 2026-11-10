@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 114,
+  "slug": "compound-bow",
+  "name": "Compound Bow",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [
+    "Infusion Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/compound-bow/icon.webp",
+    "awakenedIcon": "weapons/compound-bow/awakened-icon.webp"
+  }
+}

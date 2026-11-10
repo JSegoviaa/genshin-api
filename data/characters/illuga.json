@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 111,
+  "slug": "illuga",
+  "name": "Illuga",
+  "rarity": 4,
+  "element": "geo",
+  "weaponType": "polearm",
+  "region": "nod-krai",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "12-23",
+  "releaseDate": "2026-02-13",
+  "releaseVersion": "Luna IV",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Pine Amber",
+  "materials": {
+    "boss": "Cyclic Military Kuuvahki Core",
+    "weeklyBoss": "Eroded Horn",
+    "common": [
+      "Broken Drive Shaft",
+      "Reinforced Drive Shaft",
+      "Precision Drive Shaft"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/illuga/icon.webp",
+    "card": "characters/illuga/card.webp",
+    "inGame": "characters/illuga/in-game.webp",
+    "wish": "characters/illuga/wish.webp",
+    "multiWish": "characters/illuga/multi-wish.webp",
+    "partyIcon": "characters/illuga/party-icon.webp"
+  }
+}

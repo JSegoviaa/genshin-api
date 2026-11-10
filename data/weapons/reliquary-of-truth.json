@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 223,
+  "slug": "reliquary-of-truth",
+  "name": "Reliquary of Truth",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Obsession",
+  "images": {
+    "icon": "weapons/reliquary-of-truth/icon.webp",
+    "awakenedIcon": "weapons/reliquary-of-truth/awakened-icon.webp"
+  }
+}

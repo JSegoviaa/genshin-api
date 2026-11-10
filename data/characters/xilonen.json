@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 90,
+  "slug": "xilonen",
+  "name": "Xilonen",
+  "rarity": 5,
+  "element": "geo",
+  "weaponType": "sword",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "03-13",
+  "releaseDate": "2024-10-08",
+  "releaseVersion": "5.1",
+  "ascensionStat": "DEF",
+  "localSpecialty": "Brilliant Chrysanthemum\t",
+  "materials": {
+    "boss": "Gold-Inscribed Secret Source Core",
+    "weeklyBoss": "Mirror of Mushin",
+    "common": [
+      "Sentry's Wooden Whistle",
+      "Warrior's Metal Whistle",
+      "Saurian-Crowned Warrior's Golden Whistle"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "panthera-ocelota",
+      "name": "Panthera Ocelota",
+      "meaning": "Ocelot",
+      "images": {
+        "image": "characters/xilonen/constellations/panthera-ocelota/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/xilonen/icon.webp",
+    "card": "characters/xilonen/card.webp",
+    "inGame": "characters/xilonen/in-game.webp",
+    "wish": "characters/xilonen/wish.webp",
+    "multiWish": "characters/xilonen/multi-wish.webp",
+    "partyIcon": "characters/xilonen/party-icon.webp"
+  }
+}

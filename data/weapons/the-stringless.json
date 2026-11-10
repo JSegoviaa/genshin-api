@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 101,
+  "slug": "the-stringless",
+  "name": "The Stringless",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Wanderer's Troupe Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/the-stringless/icon.webp",
+    "awakenedIcon": "weapons/the-stringless/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 58,
+  "slug": "nilou",
+  "name": "Nilou",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "sword",
+  "region": "sumeru",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "12-03",
+  "releaseDate": "2022-10-14",
+  "releaseVersion": "3.1",
+  "ascensionStat": "HP",
+  "localSpecialty": "Padisarah",
+  "materials": {
+    "boss": "Perpetual Caliber",
+    "weeklyBoss": "Tears of the Calamitous God",
+    "common": [
+      "Fungal Spores",
+      "Luminescent Pollen",
+      "Crystalline Cyst Dust"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "lotos-somno",
+      "name": "Lotos Somno",
+      "meaning": "Sleeping Lotus",
+      "images": {
+        "image": "characters/nilou/constellations/lotos-somno/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Dance of the Waning Moon",
+          "description": "Dance of Haftkarsvar will be enhanced as follows: Luminous Illusion DMG is increased by 65%. The Tranquility Aura's duration is extended by 6s.",
+          "images": {
+            "icon": "characters/nilou/constellations/lotos-somno/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "The Starry Skies Their Flowers Rain",
+          "description": "After characters affected by the Golden Chalice's Bounty deal Hydro DMG to an opponent, that opponent's Hydro RES will be decreased by 35% for 10s. After a triggered Bloom reaction deals DMG to opponents, their Dendro RES will be decreased by 35% for 10s. You need to have unlocked the \"Court of Dancing Petals\" Talent.",
+          "images": {
+            "icon": "characters/nilou/constellations/lotos-somno/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Beguiling Shadowstep",
+          "description": "Increases the Level of Dance of Abzendegi: Distant Dreams, Listening Spring by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/nilou/constellations/lotos-somno/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Fricative Pulse",
+          "description": "After the third dance step of Dance of Haftkarsvar's Pirouette hits opponents, Nilou will gain 15 Elemental Energy, and DMG from her Dance of Abzendegi: Distant Dreams, Listening Spring will be increased by 50% for 8s.",
+          "images": {
+            "icon": "characters/nilou/constellations/lotos-somno/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Twirling Light",
+          "description": "Increases the Level of Dance of Haftkarsvar by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/nilou/constellations/lotos-somno/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Frostbreaker's Melody",
+          "description": "For every 1,000 points of Max HP, Nilou's CRIT Rate and CRIT DMG will increase by 0.6% and 1.2% respectively. The maximum increase in CRIT Rate and CRIT DMG via this method is 30% and 60% respectively.",
+          "images": {
+            "icon": "characters/nilou/constellations/lotos-somno/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/nilou/icon.png",
+    "card": "characters/nilou/card.webp",
+    "inGame": "characters/nilou/in-game.webp",
+    "wish": "characters/nilou/wish.webp",
+    "multiWish": "characters/nilou/multi-wish.webp",
+    "partyIcon": "characters/nilou/party-icon.webp"
+  }
+}

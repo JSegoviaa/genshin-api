@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 117,
+  "slug": "lohen",
+  "name": "Lohen",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "polearm",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "04-03",
+  "releaseDate": "2026-06-09",
+  "releaseVersion": "Luna VII",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Etherwing Moth",
+  "materials": {
+    "boss": "Prismatic Severed Tail",
+    "weeklyBoss": "Ascended Sample: Knight",
+    "common": [
+      "Firm Arrow",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/lohen/icon.webp",
+    "card": "characters/lohen/card.webp",
+    "inGame": "characters/lohen/in-game.webp",
+    "wish": "characters/lohen/wish.webp",
+    "multiWish": "characters/lohen/multi-wish.webp",
+    "partyIcon": "characters/lohen/party-icon.webp"
+  }
+}

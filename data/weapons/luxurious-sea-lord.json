@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 62,
+  "slug": "luxurious-sea-lord",
+  "name": "Luxurious Sea-Lord",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/luxurious-sea-lord/icon.webp",
+    "awakenedIcon": "weapons/luxurious-sea-lord/awakened-icon.webp"
+  }
+}

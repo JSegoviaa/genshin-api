@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 210,
+  "slug": "azurelight",
+  "name": "Azurelight",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Estimation",
+  "images": {
+    "icon": "weapons/azurelight/icon.webp",
+    "awakenedIcon": "weapons/azurelight/awakened-icon.webp"
+  }
+}

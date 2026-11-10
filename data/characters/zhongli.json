@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 27,
+  "slug": "zhongli",
+  "name": "Zhongli",
+  "rarity": 5,
+  "element": "geo",
+  "weaponType": "polearm",
+  "region": "liyue",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "12-31",
+  "releaseDate": "2020-12-01",
+  "releaseVersion": "1.1",
+  "ascensionStat": "Geo DMG Bonus",
+  "localSpecialty": "Cor Lapis",
+  "materials": {
+    "boss": "Basalt Pillar",
+    "weeklyBoss": "Tusk of Monoceros Caeli",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "lapis-dei",
+      "name": "Lapis Dei",
+      "meaning": "God's Stone",
+      "images": {
+        "image": "characters/zhongli/constellations/lapis-dei/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Rock, the Backbone of Earth",
+          "description": "Increases the maximum number of Stone Steles created by Dominus Lapidis that may exist simultaneously to 2.",
+          "images": {
+            "icon": "characters/zhongli/constellations/lapis-dei/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Stone, the Cradle of Jade",
+          "description": "Planet Befall grants nearby characters on the field a Jade Shield when it descends.",
+          "images": {
+            "icon": "characters/zhongli/constellations/lapis-dei/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Jade, Shimmering through Darkness",
+          "description": "Increases the Level of Dominus Lapidis by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/zhongli/constellations/lapis-dei/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Topaz, Unbreakable and Fearless",
+          "description": "Increases Planet Befall's AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+          "images": {
+            "icon": "characters/zhongli/constellations/lapis-dei/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Lazuli, Herald of the Order",
+          "description": "Increases the Level of Planet Befall by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/zhongli/constellations/lapis-dei/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Chrysos, Bounty of Dominator",
+          "description": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character. A single instance of regeneration cannot exceed 8% of that character's Max HP",
+          "images": {
+            "icon": "characters/zhongli/constellations/lapis-dei/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/zhongli/icon.png",
+    "card": "characters/zhongli/card.webp",
+    "inGame": "characters/zhongli/in-game.webp",
+    "wish": "characters/zhongli/wish.webp",
+    "multiWish": "characters/zhongli/multi-wish.webp",
+    "partyIcon": "characters/zhongli/party-icon.webp"
+  }
+}

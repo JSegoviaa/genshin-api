@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 44,
+  "slug": "prototype-rancour",
+  "name": "Prototype Rancour",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [
+    "Prototype Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/prototype-rancour/icon.webp",
+    "awakenedIcon": "weapons/prototype-rancour/awakened-icon.webp"
+  }
+}

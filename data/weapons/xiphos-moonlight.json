@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 35,
+  "slug": "xiphos-moonlight",
+  "name": "Xiphos' Moonlight",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "TulayTullah Series"
+  ],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/xiphos-moonlight/icon.webp",
+    "awakenedIcon": "weapons/xiphos-moonlight/awakened-icon.webp"
+  }
+}

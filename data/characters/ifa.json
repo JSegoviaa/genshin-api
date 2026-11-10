@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 99,
+  "slug": "ifa",
+  "name": "Ifa",
+  "rarity": 4,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "natlan",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "03-23",
+  "releaseDate": "2025-05-07",
+  "releaseVersion": "5.6",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Saurian Claw Succulent",
+  "materials": {
+    "boss": "Sparkless Statue Core",
+    "weeklyBoss": "Ascended Sample: Rook",
+    "common": [
+      "Juvenile Fang",
+      "Seasoned Fang",
+      "Tyrant's Fang"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "catena-opele",
+      "name": "Catena Opele",
+      "meaning": "Opele Chain",
+      "images": {
+        "image": "characters/ifa/constellations/catena-opele/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/ifa/icon.webp",
+    "card": "characters/ifa/card.webp",
+    "inGame": "characters/ifa/in-game.webp",
+    "wish": "characters/ifa/wish.webp",
+    "multiWish": "characters/ifa/multi-wish.webp",
+    "partyIcon": "characters/ifa/party-icon.webp"
+  }
+}

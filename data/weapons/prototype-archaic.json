@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 60,
+  "slug": "prototype-archaic",
+  "name": "Prototype Archaic",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [
+    "Prototype Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/prototype-archaic/icon.webp",
+    "awakenedIcon": "weapons/prototype-archaic/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 24,
+  "slug": "black-tassel",
+  "name": "Black Tassel",
+  "rarity": 3,
+  "weaponType": "polearm",
+  "secondaryStat": "HP",
+  "series": [
+    "3-Star Bane Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/black-tassel/icon.webp",
+    "awakenedIcon": "weapons/black-tassel/awakened-icon.webp"
+  }
+}

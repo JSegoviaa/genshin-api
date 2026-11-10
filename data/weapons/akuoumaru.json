@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 68,
+  "slug": "akuoumaru",
+  "name": "Akuoumaru",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [
+    "Watatsumi Series"
+  ],
+  "ascensionMaterial": "Sunken Sands",
+  "images": {
+    "icon": "weapons/akuoumaru/icon.webp",
+    "awakenedIcon": "weapons/akuoumaru/awakened-icon.webp"
+  }
+}

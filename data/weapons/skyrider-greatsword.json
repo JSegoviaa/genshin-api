@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 18,
+  "slug": "skyrider-greatsword",
+  "name": "Skyrider Greatsword",
+  "rarity": 3,
+  "weaponType": "claymore",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [
+    "Skyrider Series"
+  ],
+  "ascensionMaterial": "Trial Grounds of Thunder",
+  "images": {
+    "icon": "weapons/skyrider-greatsword/icon.webp",
+    "awakenedIcon": "weapons/skyrider-greatsword/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 195,
+  "slug": "sturdy-bone",
+  "name": "Sturdy Bone",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/sturdy-bone/icon.webp",
+    "awakenedIcon": "weapons/sturdy-bone/awakened-icon.webp"
+  }
+}

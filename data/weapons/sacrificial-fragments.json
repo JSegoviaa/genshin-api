@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 87,
+  "slug": "sacrificial-fragments",
+  "name": "Sacrificial Fragments",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Sacrificial Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/sacrificial-fragments/icon.webp",
+    "awakenedIcon": "weapons/sacrificial-fragments/awakened-icon.webp"
+  }
+}

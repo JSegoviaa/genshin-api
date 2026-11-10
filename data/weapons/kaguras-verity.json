@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 142,
+  "slug": "kaguras-verity",
+  "name": "Kagura's Verity",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Inazuma Series"
+  ],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/kaguras-verity/icon.webp",
+    "awakenedIcon": "weapons/kaguras-verity/awakened-icon.webp"
+  }
+}

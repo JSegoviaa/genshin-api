@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 96,
+  "slug": "yumemizuki-mizuki",
+  "name": "Yumemizuki Mizuki",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "inazuma",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "03-16",
+  "releaseDate": "2025-02-12",
+  "releaseVersion": "5.4",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Sea Ganoderma",
+  "materials": {
+    "boss": "Talisman of the Enigmatic Land",
+    "weeklyBoss": "Fading Candle",
+    "common": [
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "tapirus-somniator",
+      "name": "Tapirus Somniator",
+      "meaning": "Dreamer Tapir",
+      "images": {
+        "image": "characters/yumemizuki-mizuki/constellations/tapirus-somniator/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/yumemizuki-mizuki/icon.webp",
+    "card": "characters/yumemizuki-mizuki/card.webp",
+    "inGame": "characters/yumemizuki-mizuki/in-game.webp",
+    "wish": "characters/yumemizuki-mizuki/wish.webp",
+    "multiWish": "characters/yumemizuki-mizuki/multi-wish.webp",
+    "partyIcon": "characters/yumemizuki-mizuki/party-icon.webp"
+  }
+}

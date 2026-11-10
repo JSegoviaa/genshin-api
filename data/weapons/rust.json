@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 103,
+  "slug": "rust",
+  "name": "Rust",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/rust/icon.webp",
+    "awakenedIcon": "weapons/rust/awakened-icon.webp"
+  }
+}

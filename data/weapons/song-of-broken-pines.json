@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 128,
+  "slug": "song-of-broken-pines",
+  "name": "Song of Broken Pines",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [
+    "Millennial Movement Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/song-of-broken-pines/icon.webp",
+    "awakenedIcon": "weapons/song-of-broken-pines/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 134,
+  "slug": "skyward-spine",
+  "name": "Skyward Spine",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Mondstadt Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/skyward-spine/icon.webp",
+    "awakenedIcon": "weapons/skyward-spine/awakened-icon.webp"
+  }
+}

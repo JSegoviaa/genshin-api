@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 218,
+  "slug": "snare-hook",
+  "name": "Snare Hook",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Prayers Sung",
+  "images": {
+    "icon": "weapons/snare-hook/icon.webp",
+    "awakenedIcon": "weapons/snare-hook/awakened-icon.webp"
+  }
+}

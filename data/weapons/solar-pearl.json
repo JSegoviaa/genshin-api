@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 86,
+  "slug": "solar-pearl",
+  "name": "Solar Pearl",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Kunwu Series",
+    "Gnostic Hymn 1 Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/solar-pearl/icon.webp",
+    "awakenedIcon": "weapons/solar-pearl/awakened-icon.webp"
+  }
+}

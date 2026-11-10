@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 52,
+  "slug": "shikanoin-heizou",
+  "name": "Shikanoin Heizou",
+  "rarity": 4,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "inazuma",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "07-24",
+  "releaseDate": "2022-07-13",
+  "releaseVersion": "2.8",
+  "ascensionStat": "Anemo DMG Bonus",
+  "localSpecialty": "Onikabuto",
+  "materials": {
+    "boss": "Runic Fang",
+    "weeklyBoss": "The Meaning of Aeons",
+    "common": [
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "cervus-minor",
+      "name": "Cervus Minor",
+      "meaning": "Cervus Minor",
+      "images": {
+        "image": "characters/shikanoin-heizou/constellations/cervus-minor/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Named Juvenile Casebook",
+          "description": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 10s.",
+          "images": {
+            "icon": "characters/shikanoin-heizou/constellations/cervus-minor/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Investigative Collection",
+          "description": "The pull effect of the Arresting Windtunnel created by Windmuster Kick is enhanced, and its duration is increased to 1s.",
+          "images": {
+            "icon": "characters/shikanoin-heizou/constellations/cervus-minor/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Esoteric Puzzle Book",
+          "description": "Increases the Level of Heartstopper Strike by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/shikanoin-heizou/constellations/cervus-minor/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Tome of Lies",
+          "description": "The first Windmuster Iris explosion in each Windmuster Kick will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou. One Windmuster Kick can regenerate a total of 13.5 Energy for Heizou in this manner.",
+          "images": {
+            "icon": "characters/shikanoin-heizou/constellations/cervus-minor/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Secret Archive",
+          "description": "Increases the Level of Windmuster Kick by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/shikanoin-heizou/constellations/cervus-minor/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Curious Casefiles",
+          "description": "Each Declension stack will increase the CRIT Rate of the Heartstopper Strike unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%.",
+          "images": {
+            "icon": "characters/shikanoin-heizou/constellations/cervus-minor/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/shikanoin-heizou/icon.png",
+    "card": "characters/shikanoin-heizou/card.webp",
+    "inGame": "characters/shikanoin-heizou/in-game.webp",
+    "wish": "characters/shikanoin-heizou/wish.webp",
+    "multiWish": "characters/shikanoin-heizou/multi-wish.webp",
+    "partyIcon": "characters/shikanoin-heizou/party-icon.webp"
+  }
+}

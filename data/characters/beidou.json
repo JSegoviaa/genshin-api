@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 16,
+  "slug": "beidou",
+  "name": "Beidou",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "claymore",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "02-14",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Electro DMG Bonus",
+  "localSpecialty": "Noctilucous Jade",
+  "materials": {
+    "boss": "Lighthing Prism",
+    "weeklyBoss": "Dvalin's Sigh",
+    "common": [
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "victor-mare",
+      "name": "Victor Mare",
+      "meaning": "Conqueror of the Sea",
+      "images": {
+        "image": "characters/beidou/constellations/victor-mare/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Sea Beast's Scourge",
+          "description": "When Stormbreaker is used: Creates a shield that absorbs up to 16% of Beidou's Max HP for 15s. This shield absorbs Electro DMG 250% more effectively.",
+          "images": {
+            "icon": "characters/beidou/constellations/victor-mare/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Upon the Turbulent Sea, the Thunder Arises",
+          "description": "Stormbreaker's arc lightning can jump to 2 additional targets.",
+          "images": {
+            "icon": "characters/beidou/constellations/victor-mare/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Summoner of Storm",
+          "description": "Increases the Level of Tidecaller by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/beidou/constellations/victor-mare/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Stunning Revenge",
+          "description": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% Electro DMG for 10s.",
+          "images": {
+            "icon": "characters/beidou/constellations/victor-mare/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Crimson Tidewalker",
+          "description": "Increases the Level of Stormbreaker by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/beidou/constellations/victor-mare/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Bane of Evil",
+          "description": "During the duration of Stormbreaker, the Electro RES of surrounding opponents is decreased by 15%.",
+          "images": {
+            "icon": "characters/beidou/constellations/victor-mare/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/beidou/icon.png",
+    "card": "characters/beidou/card.webp",
+    "inGame": "characters/beidou/in-game.webp",
+    "wish": "characters/beidou/wish.webp",
+    "multiWish": "characters/beidou/multi-wish.webp",
+    "partyIcon": "characters/beidou/party-icon.webp"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 6,
+  "slug": "lisa",
+  "name": "Lisa",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "catalyst",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "06-09",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Valberry",
+  "materials": {
+    "boss": "Lighthing Prism",
+    "weeklyBoss": "Dvalin's Claw",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "tempus-fugit",
+      "name": "Tempus Fugit",
+      "meaning": "Time Flies",
+      "images": {
+        "image": "characters/lisa/constellations/tempus-fugit/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Infinite Circuit",
+          "description": "Lisa regenerates 2 Energy for every opponent hit while holding Violet Arc. A maximum of 10 Energy can be regenerated in this manner at any one time.",
+          "images": {
+            "icon": "characters/lisa/constellations/tempus-fugit/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Electromagnetic Field",
+          "description": "Holding Violet Arc has the following effects: Increases DEF by 25%. Increases Lisa's resistance to interruption.",
+          "images": {
+            "icon": "characters/lisa/constellations/tempus-fugit/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Resonant Thunder",
+          "description": "Increases the Level of Lightning Rose by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/lisa/constellations/tempus-fugit/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Plasma Eruption",
+          "description": "Lightning Rose now unleashes 1-3 lightning bolts when it attacks.",
+          "images": {
+            "icon": "characters/lisa/constellations/tempus-fugit/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Electrocute",
+          "description": "Increases the Level of Violet Arc by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/lisa/constellations/tempus-fugit/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Pulsating Witch",
+          "description": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents. This effect can only occur once every 5s.",
+          "images": {
+            "icon": "characters/lisa/constellations/tempus-fugit/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/lisa/icon.png",
+    "card": "characters/lisa/card.webp",
+    "inGame": "characters/lisa/in-game.webp",
+    "wish": "characters/lisa/wish.webp",
+    "multiWish": "characters/lisa/multi-wish.webp",
+    "partyIcon": "characters/lisa/party-icon.webp"
+  }
+}

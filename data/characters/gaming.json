@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 79,
+  "slug": "gaming",
+  "name": "Gaming",
+  "rarity": 4,
+  "element": "pyro",
+  "weaponType": "claymore",
+  "region": "liyue",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "12-22",
+  "releaseDate": "2024-01-31",
+  "releaseVersion": "4.4",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Starconch",
+  "materials": {
+    "boss": "Emperor's Resolution",
+    "weeklyBoss": "Lightless Mass",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "leo-expergiscens",
+      "name": "Leo Expergiscens",
+      "meaning": "Awakening Lion",
+      "images": {
+        "image": "characters/gaming/constellations/leo-expergiscens/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/gaming/icon.webp",
+    "card": "characters/gaming/card.webp",
+    "inGame": "characters/gaming/in-game.webp",
+    "wish": "characters/gaming/wish.webp",
+    "multiWish": "characters/gaming/multi-wish.webp",
+    "partyIcon": "characters/gaming/party-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 159,
+  "slug": "flowing-purity",
+  "name": "Flowing Purity",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [
+    "Beaumont Series"
+  ],
+  "ascensionMaterial": "Artisanship",
+  "images": {
+    "icon": "weapons/flowing-purity/icon.webp",
+    "awakenedIcon": "weapons/flowing-purity/awakened-icon.webp"
+  }
+}

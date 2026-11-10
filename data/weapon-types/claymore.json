@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/weapon-types.json",
+  "id": 2,
+  "slug": "claymore",
+  "name": "Claymore",
+  "images": {
+    "icon": "weapon-types/claymore.webp"
+  }
+}

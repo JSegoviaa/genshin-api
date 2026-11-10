@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 119,
+  "slug": "primordial-jade-cutter",
+  "name": "Primordial Jade Cutter",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Primordial Jade Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/primordial-jade-cutter/icon.webp",
+    "awakenedIcon": "weapons/primordial-jade-cutter/awakened-icon.webp"
+  }
+}

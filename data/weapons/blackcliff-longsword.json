@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 51,
+  "slug": "blackcliff-longsword",
+  "name": "Blackcliff Longsword",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Blackcliff Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/blackcliff-longsword/icon.webp",
+    "awakenedIcon": "weapons/blackcliff-longsword/awakened-icon.webp"
+  }
+}

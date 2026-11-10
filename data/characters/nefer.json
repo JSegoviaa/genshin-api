@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 107,
+  "slug": "nefer",
+  "name": "Nefer",
+  "rarity": 5,
+  "element": "dendro",
+  "weaponType": "catalyst",
+  "region": "nod-krai",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "05-09",
+  "releaseDate": "2025-10-22",
+  "releaseVersion": "Luna II",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Moonfall Silver",
+  "materials": {
+    "boss": "Radiant Antler",
+    "weeklyBoss": "Ascended Sample: Rook",
+    "common": [
+      "Tattered Warrant",
+      "Immaculate Warrant",
+      "Frost-Etched Warrant"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "ludus-latrunculorum",
+      "name": "Ludus Latrunculorum",
+      "meaning": "Game of Brigands",
+      "images": {
+        "image": "characters/nefer/constellations/ludus-latrunculorum/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/nefer/icon.webp",
+    "card": "characters/nefer/card.webp",
+    "inGame": "characters/nefer/in-game.webp",
+    "wish": "characters/nefer/wish.webp",
+    "multiWish": "characters/nefer/multi-wish.webp",
+    "partyIcon": "characters/nefer/party-icon.webp"
+  }
+}

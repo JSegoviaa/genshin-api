@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 4,
+  "slug": "apprentices-note",
+  "name": "Apprentice's Note",
+  "rarity": 1,
+  "weaponType": "catalyst",
+  "secondaryStat": null,
+  "series": [
+    "1-Star Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/apprentices-note/icon.webp",
+    "awakenedIcon": "weapons/apprentices-note/awakened-icon.webp"
+  }
+}

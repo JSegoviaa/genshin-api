@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 85,
+  "slug": "sigewinne",
+  "name": "Sigewinne",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "bow",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "03-30",
+  "releaseDate": "2024-06-25",
+  "releaseVersion": "4.7",
+  "ascensionStat": "HP",
+  "localSpecialty": "Romaritime Flower",
+  "materials": {
+    "boss": "Water Taht Failed To Transcend",
+    "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "common": [
+      "Transoceanic Pearl",
+      "Transoceanic Chunk",
+      "Xenochromatic Crystal"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "nereides",
+      "name": "Nereides",
+      "meaning": "Nereids",
+      "images": {
+        "image": "characters/sigewinne/constellations/nereides/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/sigewinne/icon.webp",
+    "card": "characters/sigewinne/card.webp",
+    "inGame": "characters/sigewinne/in-game.webp",
+    "wish": "characters/sigewinne/wish.webp",
+    "multiWish": "characters/sigewinne/multi-wish.webp",
+    "partyIcon": "characters/sigewinne/party-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 82,
+  "slug": "the-catch",
+  "name": "\"The Catch\"",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Fishing Association Series"
+  ],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/the-catch/icon.webp",
+    "awakenedIcon": "weapons/the-catch/awakened-icon.webp"
+  }
+}

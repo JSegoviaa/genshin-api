@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 22,
+  "slug": "white-tassel",
+  "name": "White Tassel",
+  "rarity": 3,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/white-tassel/icon.webp",
+    "awakenedIcon": "weapons/white-tassel/awakened-icon.webp"
+  }
+}

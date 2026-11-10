@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 22,
+  "slug": "xingqiu",
+  "name": "Xingqiu",
+  "rarity": 4,
+  "element": "hydro",
+  "weaponType": "sword",
+  "region": "liyue",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "10-09",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Silk Flower",
+  "materials": {
+    "boss": "Cleansing Heart",
+    "weeklyBoss": "Tail of Boreas",
+    "common": [
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "fabulae-textile",
+      "name": "Fabulae Textile",
+      "meaning": "Woven Stories",
+      "images": {
+        "image": "characters/xingqiu/constellations/fabulae-textile/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "The Scent Remained",
+          "description": "Increases the maximum number of Rain Swords by 1.",
+          "images": {
+            "icon": "characters/xingqiu/constellations/fabulae-textile/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Rainbow Upon the Azure Sky",
+          "description": "Extends the duration of Guhua Sword: Raincutter by 3s. Decreases the Hydro RES of opponents hit by sword rain attacks by 15% for 4s",
+          "images": {
+            "icon": "characters/xingqiu/constellations/fabulae-textile/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Weaver of Verses",
+          "description": "Increases the Level of Guhua Sword: Raincutter by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/xingqiu/constellations/fabulae-textile/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Evilsoother",
+          "description": "Throughout the duration of Guhua Sword: Raincutter, the DMG dealt by Guhua Sword: Fatal Rainscreen is increased by 50%.",
+          "images": {
+            "icon": "characters/xingqiu/constellations/fabulae-textile/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Embrace of Rain",
+          "description": "Increases the Level of Guhua Sword: Fatal Rainscreen by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/xingqiu/constellations/fabulae-textile/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Hence, Call Them My Own Verses",
+          "description": "Activating 2 of Guhua Sword: Raincutter's sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu.",
+          "images": {
+            "icon": "characters/xingqiu/constellations/fabulae-textile/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/xingqiu/icon.png",
+    "card": "characters/xingqiu/card.webp",
+    "inGame": "characters/xingqiu/in-game.webp",
+    "wish": "characters/xingqiu/wish.webp",
+    "multiWish": "characters/xingqiu/multi-wish.webp",
+    "partyIcon": "characters/xingqiu/party-icon.webp"
+  }
+}

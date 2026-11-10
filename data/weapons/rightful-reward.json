@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 158,
+  "slug": "rightful-reward",
+  "name": "Rightful Reward",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "HP",
+  "series": [
+    "Beaumont Series"
+  ],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/rightful-reward/icon.webp",
+    "awakenedIcon": "weapons/rightful-reward/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 84,
+  "slug": "clorinde",
+  "name": "Clorinde",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "sword",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "09-20",
+  "releaseDate": "2024-06-04",
+  "releaseVersion": "4.7",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Lumitoile",
+  "materials": {
+    "boss": "Fontemer Unihorn",
+    "weeklyBoss": "Everamber",
+    "common": [
+      "Transoceanic Pearl",
+      "Transoceanic Chunk",
+      "Xenochromatic Crystal"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "rapperia",
+      "name": "Rapperia",
+      "meaning": "Rapier",
+      "images": {
+        "image": "characters/clorinde/constellations/rapperia/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/clorinde/icon.webp",
+    "card": "characters/clorinde/card.webp",
+    "inGame": "characters/clorinde/in-game.webp",
+    "wish": "characters/clorinde/wish.webp",
+    "multiWish": "characters/clorinde/multi-wish.webp",
+    "partyIcon": "characters/clorinde/party-icon.webp"
+  }
+}

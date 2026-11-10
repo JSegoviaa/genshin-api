@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 35,
+  "slug": "kaedehara-kazuha",
+  "name": "Kaedehara Kazuha",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "sword",
+  "region": "inazuma",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "10-29",
+  "releaseDate": "2021-06-29",
+  "releaseVersion": "1.6",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Sea Ganoderma",
+  "materials": {
+    "boss": "Marionette Core",
+    "weeklyBoss": "Gilded Scale",
+    "common": [
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "acer-palmatum",
+      "name": "Acer Palmatum",
+      "meaning": "Japanese Maple",
+      "images": {
+        "image": "characters/kaedehara-kazuha/constellations/acer-palmatum/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Scarlet Hills",
+          "description": "Decreases Chihayaburu's CD by 10%. Using Kazuha Slash resets the CD of Chihayaburu.",
+          "images": {
+            "icon": "characters/kaedehara-kazuha/constellations/acer-palmatum/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Yamaarashi Tailwind",
+          "description": "The Autumn Whirlwind field created by Kazuha Slash has the following effects: Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration. Increases the Elemental Mastery of characters within the field by 200. The Elemental Mastery-increasing effects of this Constellation do not stack.",
+          "images": {
+            "icon": "characters/kaedehara-kazuha/constellations/acer-palmatum/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Maple Monogatari",
+          "description": "Increases the Level of Chihayaburu by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/kaedehara-kazuha/constellations/acer-palmatum/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Oozora Genpou",
+          "description": "When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects: Pressing or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively. When gliding, Kaedehara Kazuha regenerates 2 Energy per second.",
+          "images": {
+            "icon": "characters/kaedehara-kazuha/constellations/acer-palmatum/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Wisdom of Bansei",
+          "description": "Increases the Level of Kazuha Slash by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/kaedehara-kazuha/constellations/acer-palmatum/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Crimson Momiji",
+          "description": "After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusion for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%.",
+          "images": {
+            "icon": "characters/kaedehara-kazuha/constellations/acer-palmatum/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/kaedehara-kazuha/icon.png",
+    "card": "characters/kaedehara-kazuha/card.webp",
+    "inGame": "characters/kaedehara-kazuha/in-game.webp",
+    "wish": "characters/kaedehara-kazuha/wish.webp",
+    "multiWish": "characters/kaedehara-kazuha/multi-wish.webp",
+    "partyIcon": "characters/kaedehara-kazuha/party-icon.webp"
+  }
+}

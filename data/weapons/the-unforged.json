@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 127,
+  "slug": "the-unforged",
+  "name": "The Unforged",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [
+    "Liyue Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/the-unforged/icon.webp",
+    "awakenedIcon": "weapons/the-unforged/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 148,
+  "slug": "hunters-path",
+  "name": "Hunter's Path",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Sumeru Series"
+  ],
+  "ascensionMaterial": "Leading Karma",
+  "images": {
+    "icon": "weapons/hunters-path/icon.webp",
+    "awakenedIcon": "weapons/hunters-path/awakened-icon.webp"
+  }
+}

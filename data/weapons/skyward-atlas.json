@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 139,
+  "slug": "skyward-atlas",
+  "name": "Skyward Atlas",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [
+    "Mondstadt Series"
+  ],
+  "ascensionMaterial": "Submerged Valley",
+  "images": {
+    "icon": "weapons/skyward-atlas/icon.webp",
+    "awakenedIcon": "weapons/skyward-atlas/awakened-icon.webp"
+  }
+}

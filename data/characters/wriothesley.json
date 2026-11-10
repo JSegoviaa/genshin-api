@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 74,
+  "slug": "wriothesley",
+  "name": "Wriothesley",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "catalyst",
+  "region": "fontaine",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "11-23",
+  "releaseDate": "2023-10-17",
+  "releaseVersion": "4.1",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Subdetection Unit",
+  "materials": {
+    "boss": "\"Tourbilon Device\"",
+    "weeklyBoss": "Primordial Greenbloom",
+    "common": [
+      "Meshing Gear",
+      "Mechanical Spur Gear",
+      "Artificed Dynamic Gear"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "cerberus",
+      "name": "Cerberus",
+      "meaning": "Cerberus",
+      "images": {
+        "image": "characters/wriothesley/constellations/cerberus/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/wriothesley/icon.webp",
+    "card": "characters/wriothesley/card.webp",
+    "inGame": "characters/wriothesley/in-game.webp",
+    "wish": "characters/wriothesley/wish.webp",
+    "multiWish": "characters/wriothesley/multi-wish.webp",
+    "partyIcon": "characters/wriothesley/party-icon.webp"
+  }
+}

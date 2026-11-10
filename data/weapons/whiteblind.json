@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 53,
+  "slug": "whiteblind",
+  "name": "Whiteblind",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "DEF",
+  "series": [
+    "Infusion Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/whiteblind/icon.webp",
+    "awakenedIcon": "weapons/whiteblind/awakened-icon.webp"
+  }
+}

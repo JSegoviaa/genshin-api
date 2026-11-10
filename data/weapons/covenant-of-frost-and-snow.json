@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 238,
+  "slug": "covenant-of-frost-and-snow",
+  "name": "Covenant of Frost and Snow",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "DEF",
+  "series": [],
+  "ascensionMaterial": "Cast Iron",
+  "images": {
+    "icon": "weapons/covenant-of-frost-and-snow/icon.webp",
+    "awakenedIcon": "weapons/covenant-of-frost-and-snow/awakened-icon.webp"
+  }
+}

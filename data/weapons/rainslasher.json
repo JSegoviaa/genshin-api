@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 59,
+  "slug": "rainslasher",
+  "name": "Rainslasher",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "4-Star Bane Series"
+  ],
+  "ascensionMaterial": "Thundering Ruins",
+  "images": {
+    "icon": "weapons/rainslasher/icon.webp",
+    "awakenedIcon": "weapons/rainslasher/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 250,
+  "slug": "beyond-the-chrysalis",
+  "name": "Beyond the Chrysalis",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Cast Iron",
+  "images": {
+    "icon": "weapons/beyond-the-chrysalis/icon.webp",
+    "awakenedIcon": "weapons/beyond-the-chrysalis/awakened-icon.webp"
+  }
+}

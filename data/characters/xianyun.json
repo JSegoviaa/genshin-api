@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 80,
+  "slug": "xianyun",
+  "name": "Xianyun",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "04-11",
+  "releaseDate": "2024-01-31",
+  "releaseVersion": "4.4",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Clearwater Jade",
+  "materials": {
+    "boss": "Cloudseam Scale",
+    "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "common": [
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "grus-serena",
+      "name": "Grus Serena",
+      "meaning": "Serene Crane",
+      "images": {
+        "image": "characters/xianyun/constellations/grus-serena/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/xianyun/icon.webp",
+    "card": "characters/xianyun/card.webp",
+    "inGame": "characters/xianyun/in-game.webp",
+    "wish": "characters/xianyun/wish.webp",
+    "multiWish": "characters/xianyun/multi-wish.webp",
+    "partyIcon": "characters/xianyun/party-icon.webp"
+  }
+}

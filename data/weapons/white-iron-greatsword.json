@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 17,
+  "slug": "white-iron-greatsword",
+  "name": "White Iron Greatsword",
+  "rarity": 3,
+  "weaponType": "claymore",
+  "secondaryStat": "DEF",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/white-iron-greatsword/icon.webp",
+    "awakenedIcon": "weapons/white-iron-greatsword/awakened-icon.webp"
+  }
+}

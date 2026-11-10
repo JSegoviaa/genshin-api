@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 154,
+  "slug": "jadefalls-splendor",
+  "name": "Jadefall's Splendor",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "HP",
+  "series": [
+    "Primordial Jade Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/jadefalls-splendor/icon.webp",
+    "awakenedIcon": "weapons/jadefalls-splendor/awakened-icon.webp"
+  }
+}

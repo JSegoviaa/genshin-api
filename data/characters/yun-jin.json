@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 47,
+  "slug": "yun-jin",
+  "name": "Yun Jin",
+  "rarity": 4,
+  "element": "geo",
+  "weaponType": "polearm",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "05-21",
+  "releaseDate": "2022-01-05",
+  "releaseVersion": "2.4",
+  "ascensionStat": "Energy Recharge",
+  "localSpecialty": "Glaze Lily",
+  "materials": {
+    "boss": "Riftborn Regalia",
+    "weeklyBoss": "Ashen Heart",
+    "common": [
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "opera-grandis",
+      "name": "Opera Grandis",
+      "meaning": "Grand Opera",
+      "images": {
+        "image": "characters/yun-jin/constellations/opera-grandis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Thespian Gallop",
+          "description": "Opening Flourish's CD is decreased by 18%.",
+          "images": {
+            "icon": "characters/yun-jin/constellations/opera-grandis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Myriad Mise-En-Scène",
+          "description": "After Cliffbreaker's Banner is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
+          "images": {
+            "icon": "characters/yun-jin/constellations/opera-grandis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Seafaring General",
+          "description": "Increases the Level of Cliffbreaker's Banner by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yun-jin/constellations/opera-grandis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Flower and a Fighter",
+          "description": "When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s.",
+          "images": {
+            "icon": "characters/yun-jin/constellations/opera-grandis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Famed Throughout the Land",
+          "description": "Increases the Level of Opening Flourish by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yun-jin/constellations/opera-grandis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Decorous Harmony",
+          "description": "Characters under the effects of the Flying Cloud Flag Formation have their Normal ATK SPD increased by 12%.",
+          "images": {
+            "icon": "characters/yun-jin/constellations/opera-grandis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/yun-jin/icon.png",
+    "card": "characters/yun-jin/card.webp",
+    "inGame": "characters/yun-jin/in-game.webp",
+    "wish": "characters/yun-jin/wish.webp",
+    "multiWish": "characters/yun-jin/multi-wish.webp",
+    "partyIcon": "characters/yun-jin/party-icon.webp"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 118,
+  "slug": "sandrone",
+  "name": "Sandrone",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "claymore",
+  "region": "snezhnaya",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "01-13",
+  "releaseDate": "2026-07-01",
+  "releaseVersion": "Luna VIII",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Subdetection Unit",
+  "materials": {
+    "boss": "Plume of the Fallen Watcher",
+    "weeklyBoss": "Madman's Restraint",
+    "common": [
+      "Broken Drive Shaft",
+      "Reinforced Drive Shaft",
+      "Precision Drive Shaft"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/sandrone/icon.webp",
+    "card": "characters/sandrone/card.webp",
+    "inGame": "characters/sandrone/in-game.webp",
+    "wish": "characters/sandrone/wish.webp",
+    "multiWish": "characters/sandrone/multi-wish.webp",
+    "partyIcon": "characters/sandrone/party-icon.webp"
+  }
+}

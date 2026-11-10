@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 62,
+  "slug": "faruzan",
+  "name": "Faruzan",
+  "rarity": 4,
+  "element": "anemo",
+  "weaponType": "bow",
+  "region": "sumeru",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "08-20",
+  "releaseDate": "2022-12-07",
+  "releaseVersion": "3.3",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Henna Berry",
+  "materials": {
+    "boss": "Light Guiding Tetrahedron",
+    "weeklyBoss": "Puppet Strings",
+    "common": [
+      "Faded Red Satin",
+      "Trimmed Red Silk",
+      "Rich Red Brocade"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "flosculi-implexi",
+      "name": "Flosculi Implexi",
+      "meaning": "Entwined Flowers",
+      "images": {
+        "image": "characters/faruzan/constellations/flosculi-implexi/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Truth by Any Means",
+          "description": "Faruzan can fire off a maximum of 2 Hurricane Arrows using fully charged Aimed Shots while under the effect of a single Manifest Gale created by Wind Realm of Nasamjnin.",
+          "images": {
+            "icon": "characters/faruzan/constellations/flosculi-implexi/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Overzealous Intellect",
+          "description": "The duration of the Dazzling Polyhedron created by The Wind's Secret Ways is increased by 6s.",
+          "images": {
+            "icon": "characters/faruzan/constellations/flosculi-implexi/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Spirit-Orchard Stroll",
+          "description": "Increases the Level of Wind Realm of Nasamjnin by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/faruzan/constellations/flosculi-implexi/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Divine Comprehension",
+          "description": "The vortex created by Pressurized Collapses will restore Energy to Faruzan based on the number of opponents hit: If it hits 1 opponent, it will restore 2 Energy for Faruzan. Each additional opponent hit will restore 0.5 more Energy for Faruzan. A maximum of 4 Energy can be restored to her per vortex.",
+          "images": {
+            "icon": "characters/faruzan/constellations/flosculi-implexi/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Wonderland of Rumination",
+          "description": "Increases the Level of The Wind's Secret Ways by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/faruzan/constellations/flosculi-implexi/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "The Wondrous Path of Truth",
+          "description": "Characters affected by The Wind's Secret Ways' Prayerful Wind's Benefit have 40% increased CRIT DMG when they deal Anemo DMG. When the active character deals DMG while affected by Prayerful Wind's Benefit, they will apply Pressurized Collapse to the opponent damaged. This effect can be triggered once every 3s. This CD is shared between all party members.",
+          "images": {
+            "icon": "characters/faruzan/constellations/flosculi-implexi/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/faruzan/icon.webp",
+    "card": "characters/faruzan/card.webp",
+    "inGame": "characters/faruzan/in-game.webp",
+    "wish": "characters/faruzan/wish.webp",
+    "multiWish": "characters/faruzan/multi-wish.webp",
+    "partyIcon": "characters/faruzan/party-icon.webp"
+  }
+}

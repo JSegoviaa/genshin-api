@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 8,
+  "slug": "iron-point",
+  "name": "Iron Point",
+  "rarity": 2,
+  "weaponType": "polearm",
+  "secondaryStat": null,
+  "series": [
+    "2-Star Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/iron-point/icon.webp",
+    "awakenedIcon": "weapons/iron-point/awakened-icon.webp"
+  }
+}

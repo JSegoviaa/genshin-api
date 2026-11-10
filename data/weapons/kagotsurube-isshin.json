@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 46,
+  "slug": "kagotsurube-isshin",
+  "name": "Kagotsurube Isshin",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/kagotsurube-isshin/icon.webp",
+    "awakenedIcon": "weapons/kagotsurube-isshin/awakened-icon.webp"
+  }
+}

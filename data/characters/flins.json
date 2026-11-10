@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 106,
+  "slug": "flins",
+  "name": "Flins",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "polearm",
+  "region": "nod-krai",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "10-31",
+  "releaseDate": "2025-09-30",
+  "releaseVersion": "Luna I",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Frostlamp Flower",
+  "materials": {
+    "boss": "Precision Kuuvahki Stamping Die",
+    "weeklyBoss": "Ascended Sample: Queen",
+    "common": [
+      "Broken Drive Shaft",
+      "Reinforced Drive Shaft",
+      "Precision Drive Shaft"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "laterna-vigilis",
+      "name": "Laterna Vigilis",
+      "meaning": "Watchman's Lantern",
+      "images": {
+        "image": "characters/flins/constellations/laterna-vigilis/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/flins/icon.webp",
+    "card": "characters/flins/card.webp",
+    "inGame": "characters/flins/in-game.webp",
+    "wish": "characters/flins/wish.webp",
+    "multiWish": "characters/flins/multi-wish.webp",
+    "partyIcon": "characters/flins/party-icon.webp"
+  }
+}

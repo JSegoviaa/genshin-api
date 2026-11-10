@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 176,
+  "slug": "splendor-of-tranquil-waters",
+  "name": "Splendor of Tranquil Waters",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Artisanship",
+  "images": {
+    "icon": "weapons/splendor-of-tranquil-waters/icon.webp",
+    "awakenedIcon": "weapons/splendor-of-tranquil-waters/awakened-icon.webp"
+  }
+}

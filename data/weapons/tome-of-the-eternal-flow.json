@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 173,
+  "slug": "tome-of-the-eternal-flow",
+  "name": "Tome of the Eternal Flow",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Artisanship",
+  "images": {
+    "icon": "weapons/tome-of-the-eternal-flow/icon.webp",
+    "awakenedIcon": "weapons/tome-of-the-eternal-flow/awakened-icon.webp"
+  }
+}

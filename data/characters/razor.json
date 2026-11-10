@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 20,
+  "slug": "razor",
+  "name": "Razor",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "claymore",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "09-09",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Physical DMG Bonus",
+  "localSpecialty": "Wolfhook",
+  "materials": {
+    "boss": "Lighthing Prism",
+    "weeklyBoss": "Dvalin's Claw",
+    "common": [
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "lupus-minor",
+      "name": "Lupus Minor",
+      "meaning": "Lesser Wolf",
+      "images": {
+        "image": "characters/razor/constellations/lupus-minor/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Wolf's Instinct",
+          "description": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+          "images": {
+            "icon": "characters/razor/constellations/lupus-minor/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Suppression",
+          "description": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
+          "images": {
+            "icon": "characters/razor/constellations/lupus-minor/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Soul Companion",
+          "description": "Increases the Level of Lightning Fang by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/razor/constellations/lupus-minor/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Bite",
+          "description": "When casting Claw and Thunder (Press), opponents hit will have their DEF decreased by 15% for 7s.",
+          "images": {
+            "icon": "characters/razor/constellations/lupus-minor/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Sharpened Claws",
+          "description": "Increases the Level of Claw and Thunder by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/razor/constellations/lupus-minor/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Lupus Fulguris",
+          "description": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG. When Razor is not using Lightning Fang, a lightning strike on an opponent will grant Razor an Electro Sigil for Claw and Thunder.",
+          "images": {
+            "icon": "characters/razor/constellations/lupus-minor/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/razor/icon.png",
+    "card": "characters/razor/card.webp",
+    "inGame": "characters/razor/in-game.webp",
+    "wish": "characters/razor/wish.webp",
+    "multiWish": "characters/razor/multi-wish.webp",
+    "partyIcon": "characters/razor/party-icon.webp"
+  }
+}

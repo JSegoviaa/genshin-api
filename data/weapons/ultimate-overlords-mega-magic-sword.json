@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 177,
+  "slug": "ultimate-overlords-mega-magic-sword",
+  "name": "\"Ultimate Overlord's Mega Magic Sword\"",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Energy Recharge",
+  "series": [],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/ultimate-overlords-mega-magic-sword/icon.webp",
+    "awakenedIcon": "weapons/ultimate-overlords-mega-magic-sword/awakened-icon.webp"
+  }
+}

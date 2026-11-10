@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 29,
+  "slug": "emerald-orb",
+  "name": "Emerald Orb",
+  "rarity": 3,
+  "weaponType": "catalyst",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/emerald-orb/icon.webp",
+    "awakenedIcon": "weapons/emerald-orb/awakened-icon.webp"
+  }
+}

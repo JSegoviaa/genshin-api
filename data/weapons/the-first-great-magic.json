@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 167,
+  "slug": "the-first-great-magic",
+  "name": "The First Great Magic",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/the-first-great-magic/icon.webp",
+    "awakenedIcon": "weapons/the-first-great-magic/awakened-icon.webp"
+  }
+}

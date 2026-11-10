@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 115,
+  "slug": "prune",
+  "name": "Prune",
+  "rarity": 4,
+  "element": "anemo",
+  "weaponType": "catalyst",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "11-20",
+  "releaseDate": "2026-05-20",
+  "releaseVersion": "Luna VII",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Winter Icelea",
+  "materials": {
+    "boss": "Radiant Antler",
+    "weeklyBoss": "Mask of the Virtuous Doctor",
+    "common": [
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/prune/icon.webp",
+    "card": "characters/prune/card.webp",
+    "inGame": "characters/prune/in-game.webp",
+    "wish": "characters/prune/wish.webp",
+    "multiWish": "characters/prune/multi-wish.webp",
+    "partyIcon": "characters/prune/party-icon.webp"
+  }
+}

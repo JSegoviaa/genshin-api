@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 202,
+  "slug": "astral-vultures-crimson-plumage",
+  "name": "Astral Vulture's Crimson Plumage",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Estimation",
+  "images": {
+    "icon": "weapons/astral-vultures-crimson-plumage/icon.webp",
+    "awakenedIcon": "weapons/astral-vultures-crimson-plumage/awakened-icon.webp"
+  }
+}

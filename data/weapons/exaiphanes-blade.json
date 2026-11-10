@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 244,
+  "slug": "exaiphanes-blade",
+  "name": "Exaiphanes Blade",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": null,
+  "images": {
+    "icon": "weapons/exaiphanes-blade/icon.webp",
+    "awakenedIcon": "weapons/exaiphanes-blade/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 69,
+  "slug": "wavebreakers-fin",
+  "name": "Wavebreaker's Fin",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "ATK",
+  "series": [
+    "Watatsumi Series"
+  ],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/wavebreakers-fin/icon.webp",
+    "awakenedIcon": "weapons/wavebreakers-fin/awakened-icon.webp"
+  }
+}

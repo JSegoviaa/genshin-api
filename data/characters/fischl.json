@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 15,
+  "slug": "fischl",
+  "name": "Fischl",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "bow",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "05-27",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Small Lamp Grass",
+  "materials": {
+    "boss": "Lighthing Prism",
+    "weeklyBoss": "Spirit Locket of Boreas",
+    "common": [
+      "Firm Arrow",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "corvus",
+      "name": "Corvus",
+      "meaning": "Raven",
+      "images": {
+        "image": "characters/fischl/constellations/corvus/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Gaze of the Deep",
+          "description": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK.",
+          "images": {
+            "icon": "characters/fischl/constellations/corvus/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Devourer of All Sins",
+          "description": "When Nightrider is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.",
+          "images": {
+            "icon": "characters/fischl/constellations/corvus/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Wings of Nightmare",
+          "description": "Increases the Level of Nightrider by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/fischl/constellations/corvus/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Her Pilgrimage of Bleak",
+          "description": "When Midnight Phantasmagoria is used, it deals 222% of ATK as Electro DMG to surrounding opponents. When the skill duration ends, Fischl regenerates 20% of her HP.",
+          "images": {
+            "icon": "characters/fischl/constellations/corvus/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Against the Fleeing Light",
+          "description": "Increases the Level of Midnight Phantasmagoria by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/fischl/constellations/corvus/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Evernight Raven",
+          "description": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as Electro DMG.",
+          "images": {
+            "icon": "characters/fischl/constellations/corvus/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/fischl/icon.png",
+    "card": "characters/fischl/card.webp",
+    "inGame": "characters/fischl/in-game.webp",
+    "wish": "characters/fischl/wish.webp",
+    "multiWish": "characters/fischl/multi-wish.webp",
+    "partyIcon": "characters/fischl/party-icon.webp"
+  }
+}

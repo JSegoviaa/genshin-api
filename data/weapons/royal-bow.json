@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 104,
+  "slug": "royal-bow",
+  "name": "Royal Bow",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Royal Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/royal-bow/icon.webp",
+    "awakenedIcon": "weapons/royal-bow/awakened-icon.webp"
+  }
+}

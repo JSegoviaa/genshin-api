@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 138,
+  "slug": "tulaytullahs-remembrance",
+  "name": "Tulaytullah's Remembrance",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Leading Karma",
+  "images": {
+    "icon": "weapons/tulaytullahs-remembrance/icon.webp",
+    "awakenedIcon": "weapons/tulaytullahs-remembrance/awakened-icon.webp"
+  }
+}

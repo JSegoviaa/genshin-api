@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 170,
+  "slug": "prospectors-drill",
+  "name": "Prospector's Drill",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "ATK",
+  "series": [
+    "Construction Series"
+  ],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/prospectors-drill/icon.webp",
+    "awakenedIcon": "weapons/prospectors-drill/awakened-icon.webp"
+  }
+}

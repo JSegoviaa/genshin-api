@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 108,
+  "slug": "mitternachts-waltz",
+  "name": "Mitternachts Waltz",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Physical DMG Bonus",
+  "series": [],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/mitternachts-waltz/icon.webp",
+    "awakenedIcon": "weapons/mitternachts-waltz/awakened-icon.webp"
+  }
+}

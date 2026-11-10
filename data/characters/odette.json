@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 120,
+  "slug": "odette",
+  "name": "Odette",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "sword",
+  "region": "snezhnaya",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "02-20",
+  "releaseDate": "2026-08-12",
+  "releaseVersion": "7.0",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Frostfairy Flower",
+  "materials": {
+    "boss": "Unscorched Blossom Branch",
+    "weeklyBoss": "Twisted Withered Branch",
+    "common": [
+      "Ethereal Glimmershard",
+      "Ethereal Crystal",
+      "Etheral Crystalscale Stone"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/odette/icon.webp",
+    "card": "characters/odette/card.webp",
+    "inGame": "characters/odette/in-game.webp",
+    "wish": "characters/odette/wish.webp",
+    "multiWish": "characters/odette/multi-wish.webp",
+    "partyIcon": "characters/odette/party-icon.webp"
+  }
+}

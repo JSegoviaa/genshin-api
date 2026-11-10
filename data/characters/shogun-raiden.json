@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 40,
+  "slug": "shogun-raiden",
+  "name": "Shogun Raiden",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "polearm",
+  "region": "inazuma",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "06-26",
+  "releaseDate": "2021-09-01",
+  "releaseVersion": "2.1",
+  "ascensionStat": "Energy Recharge",
+  "localSpecialty": "Amakumo Fruit",
+  "materials": {
+    "boss": "Storm Beads",
+    "weeklyBoss": "Molten Moment",
+    "common": [
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "imperatrix-umbrosa",
+      "name": "Imperatrix Umbrosa",
+      "meaning": "Shadow Empress",
+      "images": {
+        "image": "characters/shogun-raiden/constellations/imperatrix-umbrosa/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Ominous Inscription",
+          "description": "Chakra Desiderata will gather Resolve even faster. When Electro characters use their Elemental Bursts, the Resolve gained is increased by 80%. When characters of other Elemental Types use their Elemental Bursts, the Resolve gained is increased by 20%.",
+          "images": {
+            "icon": "characters/shogun-raiden/constellations/imperatrix-umbrosa/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Steelbreaker",
+          "description": "While using Musou no Hitotachi and in the Musou Isshin state applied by Secret Art: Musou Shinsetsu, the Raiden Shogun's attacks ignore 60% of opponents' DEF.",
+          "images": {
+            "icon": "characters/shogun-raiden/constellations/imperatrix-umbrosa/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Shinkage Bygones",
+          "description": "Increases the Level of Secret Art: Musou Shinsetsu by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/shogun-raiden/constellations/imperatrix-umbrosa/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Pledge of Propriety",
+          "description": "When the Musou Isshin state applied by Secret Art: Musou Shinsetsu expires, all nearby party members (excluding the Raiden Shogun) gain 30% bonus ATK for 10s.",
+          "images": {
+            "icon": "characters/shogun-raiden/constellations/imperatrix-umbrosa/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Shogun's Descent",
+          "description": "Increases the Level of Transcendence: Baleful Omen by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/shogun-raiden/constellations/imperatrix-umbrosa/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Wishbearer",
+          "description": "While in the Musou Isshin state applied by Secret Art: Musou Shinsetsu, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (but not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents. This effect can trigger once every 1s, and can trigger a total of 5 times during the state's duration.",
+          "images": {
+            "icon": "characters/shogun-raiden/constellations/imperatrix-umbrosa/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/shogun-raiden/icon.png",
+    "card": "characters/shogun-raiden/card.webp",
+    "inGame": "characters/shogun-raiden/in-game.webp",
+    "wish": "characters/shogun-raiden/wish.webp",
+    "multiWish": "characters/shogun-raiden/multi-wish.webp",
+    "partyIcon": "characters/shogun-raiden/party-icon.webp"
+  }
+}

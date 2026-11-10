@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 157,
+  "slug": "tidal-shadow",
+  "name": "Tidal Shadow",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [
+    "Beaumont Series"
+  ],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/tidal-shadow/icon.webp",
+    "awakenedIcon": "weapons/tidal-shadow/awakened-icon.webp"
+  }
+}

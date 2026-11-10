@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 187,
+  "slug": "flute-of-ezpitzal",
+  "name": "Flute of Ezpitzal",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "DEF",
+  "series": [],
+  "ascensionMaterial": "Scrying Shadows",
+  "images": {
+    "icon": "weapons/flute-of-ezpitzal/icon.webp",
+    "awakenedIcon": "weapons/flute-of-ezpitzal/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 150,
+  "slug": "aqua-simulacra",
+  "name": "Aqua Simulacra",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/aqua-simulacra/icon.webp",
+    "awakenedIcon": "weapons/aqua-simulacra/awakened-icon.webp"
+  }
+}

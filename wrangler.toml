@@ -1,0 +1,6 @@
+name = "genshin-api"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+[vars]
+IMAGES_BASE_URL = "https://pub-REPLACE_ME.r2.dev"

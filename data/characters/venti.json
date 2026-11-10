@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 14,
+  "slug": "venti",
+  "name": "Venti",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "bow",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "06-16",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Energy Recharge",
+  "localSpecialty": "Cecilia",
+  "materials": {
+    "boss": "Hurricane Seed",
+    "weeklyBoss": "Tail of Boreas",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "carmen-dei",
+      "name": "Carmen Dei",
+      "meaning": "God's Song",
+      "images": {
+        "image": "characters/venti/constellations/carmen-dei/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Splitting Gales",
+          "description": "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.",
+          "images": {
+            "icon": "characters/venti/constellations/carmen-dei/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Breeze of Reminiscence",
+          "description": "Skyward Sonnet decreases opponents' Anemo RES and Physical RES by 12% for 10s. Opponents launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne.",
+          "images": {
+            "icon": "characters/venti/constellations/carmen-dei/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Ode to Thousand Winds",
+          "description": "Increases the Level of Wind's Grand Ode by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/venti/constellations/carmen-dei/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Hurricane of Freedom",
+          "description": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.",
+          "images": {
+            "icon": "characters/venti/constellations/carmen-dei/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Concerto dal Cielo",
+          "description": "Increases the Level of Skyward Sonnet by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/venti/constellations/carmen-dei/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Storm of Defiance",
+          "description": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%. If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+          "images": {
+            "icon": "characters/venti/constellations/carmen-dei/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/venti/icon.png",
+    "card": "characters/venti/card.webp",
+    "inGame": "characters/venti/in-game.webp",
+    "wish": "characters/venti/wish.webp",
+    "multiWish": "characters/venti/multi-wish.webp",
+    "partyIcon": "characters/venti/party-icon.webp"
+  }
+}

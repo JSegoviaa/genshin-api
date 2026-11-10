@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 95,
+  "slug": "favonius-codex",
+  "name": "Favonius Codex",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Favonius Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/favonius-codex/icon.webp",
+    "awakenedIcon": "weapons/favonius-codex/awakened-icon.webp"
+  }
+}

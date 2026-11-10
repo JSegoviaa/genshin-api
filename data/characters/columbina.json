@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 110,
+  "slug": "columbina",
+  "name": "Columbina",
+  "rarity": 5,
+  "element": "hydro",
+  "weaponType": "catalyst",
+  "region": "nod-krai",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "01-14",
+  "releaseDate": "2026-01-14",
+  "releaseVersion": "Luna IV",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Winter Icelea",
+  "materials": {
+    "boss": "Radiant Antler",
+    "weeklyBoss": "Mask of the Virtuous Doctor",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/columbina/icon.webp",
+    "card": "characters/columbina/card.webp",
+    "inGame": "characters/columbina/in-game.webp",
+    "wish": "characters/columbina/wish.webp",
+    "multiWish": "characters/columbina/multi-wish.webp",
+    "partyIcon": "characters/columbina/party-icon.webp"
+  }
+}

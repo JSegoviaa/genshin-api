@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 72,
+  "slug": "moonpiercer",
+  "name": "Moonpiercer",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Aranara Series"
+  ],
+  "ascensionMaterial": "Obsession",
+  "images": {
+    "icon": "weapons/moonpiercer/icon.webp",
+    "awakenedIcon": "weapons/moonpiercer/awakened-icon.webp"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 13,
+  "slug": "diluc",
+  "name": "Diluc",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "claymore",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "04-30",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Small Lamp Grass",
+  "materials": {
+    "boss": "Everfkane Seed",
+    "weeklyBoss": "Dvalin's Plume",
+    "common": [
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "noctua",
+      "name": "Noctua",
+      "meaning": "Owl",
+      "images": {
+        "image": "characters/diluc/constellations/noctua/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Conviction",
+          "description": "Diluc deals 15% more DMG to opponents whose HP is above 50%.",
+          "images": {
+            "icon": "characters/diluc/constellations/noctua/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Searing Ember",
+          "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s. This effect can stack up to 3 times and can only occur once every 1.5s.",
+          "images": {
+            "icon": "characters/diluc/constellations/noctua/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Fire and Steel",
+          "description": "Increases the Level of Searing Onslaught by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/diluc/constellations/noctua/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Flowing Flame",
+          "description": "Casting Searing Onslaught in rhythm greatly increases damage dealt. 2s after casting Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
+          "images": {
+            "icon": "characters/diluc/constellations/noctua/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Phoenix, Harbinger of Dawn",
+          "description": "Increases the Level of Dawn by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/diluc/constellations/noctua/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Flaming Sword, Nemesis of the Dark",
+          "description": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%. Additionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+          "images": {
+            "icon": "characters/diluc/constellations/noctua/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/diluc/icon.png",
+    "card": "characters/diluc/card.webp",
+    "inGame": "characters/diluc/in-game.webp",
+    "wish": "characters/diluc/wish.webp",
+    "multiWish": "characters/diluc/multi-wish.webp",
+    "partyIcon": "characters/diluc/party-icon.webp"
+  }
+}

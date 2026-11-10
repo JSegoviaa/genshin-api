@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 38,
+  "slug": "naganohara-yoimiya",
+  "name": "Naganohara Yoimiya",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "bow",
+  "region": "inazuma",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "06-21",
+  "releaseDate": "2021-08-10",
+  "releaseVersion": "2.0",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Naku Weed",
+  "materials": {
+    "boss": "Smoldering Pear",
+    "weeklyBoss": "Dragon Lord's Crown",
+    "common": [
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "carassius-auratus",
+      "name": "Carassius Auratus",
+      "meaning": "Goldfish",
+      "images": {
+        "image": "characters/naganohara-yoimiya/constellations/carassius-auratus/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Agate Ryuukin",
+          "description": "The Aurous Blaze created by Ryuukin Saxifrage lasts for an extra 4s. Additionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
+          "images": {
+            "icon": "characters/naganohara-yoimiya/constellations/carassius-auratus/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "A Procession of Bonfires",
+          "description": "When Yoimiya's Pyro DMG scores a CRIT Hit, Yoimiya will gain a 25% Pyro DMG Bonus for 6s. This effect can be triggered even when Yoimiya is not the active character.",
+          "images": {
+            "icon": "characters/naganohara-yoimiya/constellations/carassius-auratus/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Trickster's Flare",
+          "description": "Increase the Level of Niwabi Fire-Dance by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/naganohara-yoimiya/constellations/carassius-auratus/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Pyrotechnic Professional",
+          "description": "When Yoimiya's own Aurous Blaze triggers an explosion, Niwabi Fire-Dance's CD is decreased by 1.2.",
+          "images": {
+            "icon": "characters/naganohara-yoimiya/constellations/carassius-auratus/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "A Summer Festival's Eve",
+          "description": "Increases the Level of Ryuukin Saxifrage by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/naganohara-yoimiya/constellations/carassius-auratus/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Naganohara Meteor Swarm",
+          "description": "During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+          "images": {
+            "icon": "characters/naganohara-yoimiya/constellations/carassius-auratus/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/naganohara-yoimiya/icon.png",
+    "card": "characters/naganohara-yoimiya/card.webp",
+    "inGame": "characters/naganohara-yoimiya/in-game.webp",
+    "wish": "characters/naganohara-yoimiya/wish.webp",
+    "multiWish": "characters/naganohara-yoimiya/multi-wish.webp",
+    "partyIcon": "characters/naganohara-yoimiya/party-icon.webp"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 77,
+  "slug": "navia",
+  "name": "Navia",
+  "rarity": 5,
+  "element": "geo",
+  "weaponType": "claymore",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "08-16",
+  "releaseDate": "2023-12-19",
+  "releaseVersion": "4.3",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Spring of the First Dewdrop",
+  "materials": {
+    "boss": "Artificed Spare Clockwork Component — Coppelius",
+    "weeklyBoss": "Lightless Silk String",
+    "common": [
+      "Transoceanic Pearl",
+      "Transoceanic Chunk",
+      "Xenochromatic Crystal"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "rosa-multiflora",
+      "name": "Rosa Multiflora",
+      "meaning": "Multiflora Rose",
+      "images": {
+        "image": "characters/navia/constellations/rosa-multiflora/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/navia/icon.webp",
+    "card": "characters/navia/card.webp",
+    "inGame": "characters/navia/in-game.webp",
+    "wish": "characters/navia/wish.webp",
+    "multiWish": "characters/navia/multi-wish.webp",
+    "partyIcon": "characters/navia/party-icon.webp"
+  }
+}

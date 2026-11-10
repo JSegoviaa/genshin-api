@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 91,
+  "slug": "ororon",
+  "name": "Ororon",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "bow",
+  "region": "natlan",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "10-14",
+  "releaseDate": "2024-11-20",
+  "releaseVersion": "5.2",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Glowing Hornshroom",
+  "materials": {
+    "boss": "Mark of the Binding Blessing",
+    "weeklyBoss": "Lightless Silk String",
+    "common": [
+      "Juvenile Fang",
+      "Seasoned Fang",
+      "Tyrant's Fang"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "vampyrum-spectrum",
+      "name": "Vampyrum Spectrum",
+      "meaning": "Spectral Bat",
+      "images": {
+        "image": "characters/ororon/constellations/vampyrum-spectrum/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/ororon/icon.webp",
+    "card": "characters/ororon/card.webp",
+    "inGame": "characters/ororon/in-game.webp",
+    "wish": "characters/ororon/wish.webp",
+    "multiWish": "characters/ororon/multi-wish.webp",
+    "partyIcon": "characters/ororon/party-icon.webp"
+  }
+}

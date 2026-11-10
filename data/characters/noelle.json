@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 3,
+  "slug": "noelle",
+  "name": "Noelle",
+  "rarity": 4,
+  "element": "geo",
+  "weaponType": "claymore",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "03-21",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "DEF",
+  "localSpecialty": "Valberry",
+  "materials": {
+    "boss": "Basalt Pillar",
+    "weeklyBoss": "Dvalin's Claw",
+    "common": [
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "parma-cordis",
+      "name": "Parma Cordis",
+      "meaning": "Heart's Shield",
+      "images": {
+        "image": "characters/noelle/constellations/parma-cordis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "I Got Your Back",
+          "description": "While Sweeping Time and Breastplate are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
+          "images": {
+            "icon": "characters/noelle/constellations/parma-cordis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Combat Maid",
+          "description": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
+          "images": {
+            "icon": "characters/noelle/constellations/parma-cordis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Invulnerable Maid",
+          "description": "Increases the Level of Breastplate by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/noelle/constellations/parma-cordis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "To Be Cleaned",
+          "description": "When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% ATK of Geo DMG to surrounding opponents.",
+          "images": {
+            "icon": "characters/noelle/constellations/parma-cordis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Favonius Sweeper Master",
+          "description": "Increases the Level of Sweeping Time by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/noelle/constellations/parma-cordis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Must Be Spotless",
+          "description": "Sweeping Time increases Noelle's ATK by an additional 50% of her DEF. Additionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
+          "images": {
+            "icon": "characters/noelle/constellations/parma-cordis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/noelle/icon.png",
+    "card": "characters/noelle/card.webp",
+    "inGame": "characters/noelle/in-game.webp",
+    "wish": "characters/noelle/wish.webp",
+    "multiWish": "characters/noelle/multi-wish.webp",
+    "partyIcon": "characters/noelle/party-icon.webp"
+  }
+}

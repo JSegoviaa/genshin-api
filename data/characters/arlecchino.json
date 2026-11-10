@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 82,
+  "slug": "arlecchino",
+  "name": "Arlecchino",
+  "rarity": 5,
+  "element": "pyro",
+  "weaponType": "polearm",
+  "region": "snezhnaya",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "08-22",
+  "releaseDate": "2024-04-23",
+  "releaseVersion": "4.6",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Rainbow Rose",
+  "materials": {
+    "boss": "Fragment of a Golden Melody",
+    "weeklyBoss": "Fading Candle",
+    "common": [
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "ignis-purgatorius",
+      "name": "Ignis Purgatorius",
+      "meaning": "Cleansing Fire",
+      "images": {
+        "image": "characters/arlecchino/constellations/ignis-purgatorius/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/arlecchino/icon.webp",
+    "card": "characters/arlecchino/card.webp",
+    "inGame": "characters/arlecchino/in-game.webp",
+    "wish": "characters/arlecchino/wish.webp",
+    "multiWish": "characters/arlecchino/multi-wish.webp",
+    "partyIcon": "characters/arlecchino/party-icon.webp"
+  }
+}

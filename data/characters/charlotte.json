@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 75,
+  "slug": "charlotte",
+  "name": "Charlotte",
+  "rarity": 4,
+  "element": "cryo",
+  "weaponType": "catalyst",
+  "region": "fontaine",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "04-10",
+  "releaseDate": "2023-11-07",
+  "releaseVersion": "4.2",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Beryl Conch",
+  "materials": {
+    "boss": "\"Tourbilon Device\"",
+    "weeklyBoss": "Lightless Silk String",
+    "common": [
+      "Meshing Gear",
+      "Mechanical Spur Gear",
+      "Artificed Dynamic Gear"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "hualina-veritas",
+      "name": "Hualina Veritas",
+      "meaning": "Crystalline Truth",
+      "images": {
+        "image": "characters/charlotte/constellations/hualina-veritas/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/charlotte/icon.webp",
+    "card": "characters/charlotte/card.webp",
+    "inGame": "characters/charlotte/in-game.webp",
+    "wish": "characters/charlotte/wish.webp",
+    "multiWish": "characters/charlotte/multi-wish.webp",
+    "partyIcon": "characters/charlotte/party-icon.webp"
+  }
+}

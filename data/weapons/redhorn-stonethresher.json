@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 130,
+  "slug": "redhorn-stonethresher",
+  "name": "Redhorn Stonethresher",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/redhorn-stonethresher/icon.webp",
+    "awakenedIcon": "weapons/redhorn-stonethresher/awakened-icon.webp"
+  }
+}

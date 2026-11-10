@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 104,
+  "slug": "aino",
+  "name": "Aino",
+  "rarity": 4,
+  "element": "hydro",
+  "weaponType": "claymore",
+  "region": "nod-krai",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "09-21",
+  "releaseDate": "2025-09-10",
+  "releaseVersion": "Luna I",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Portable Bearing",
+  "materials": {
+    "boss": "Precision Kuuvahki Stamping Die",
+    "weeklyBoss": "Silken Feather",
+    "common": [
+      "Broken Drive Shaft",
+      "Reinforced Drive Shaft",
+      "Precision Drive Shaft"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "cistellula-mira",
+      "name": "Cistellula Mira",
+      "meaning": "Miraculous Casket",
+      "images": {
+        "image": "characters/aino/constellations/cistellula-mira/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/aino/icon.webp",
+    "card": "characters/aino/card.webp",
+    "inGame": "characters/aino/in-game.webp",
+    "wish": "characters/aino/wish.webp",
+    "multiWish": "characters/aino/multi-wish.webp",
+    "partyIcon": "characters/aino/party-icon.webp"
+  }
+}

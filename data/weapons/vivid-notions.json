@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 207,
+  "slug": "vivid-notions",
+  "name": "Vivid Notions",
+  "rarity": 5,
+  "weaponType": "catalyst",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Attentive Observation",
+  "images": {
+    "icon": "weapons/vivid-notions/icon.webp",
+    "awakenedIcon": "weapons/vivid-notions/awakened-icon.webp"
+  }
+}

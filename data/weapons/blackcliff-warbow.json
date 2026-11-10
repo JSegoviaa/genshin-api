@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 115,
+  "slug": "blackcliff-warbow",
+  "name": "Blackcliff Warbow",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT DMG",
+  "series": [
+    "Blackcliff Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/blackcliff-warbow/icon.webp",
+    "awakenedIcon": "weapons/blackcliff-warbow/awakened-icon.webp"
+  }
+}

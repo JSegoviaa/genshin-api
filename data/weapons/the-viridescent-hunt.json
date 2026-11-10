@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 100,
+  "slug": "the-viridescent-hunt",
+  "name": "The Viridescent Hunt",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT Rate",
+  "series": [
+    "Gnostic Hymn 1 Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/the-viridescent-hunt/icon.webp",
+    "awakenedIcon": "weapons/the-viridescent-hunt/awakened-icon.webp"
+  }
+}

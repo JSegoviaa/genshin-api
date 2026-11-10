@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 184,
+  "slug": "absolution",
+  "name": "Absolution",
+  "rarity": 5,
+  "weaponType": "sword",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/absolution/icon.webp",
+    "awakenedIcon": "weapons/absolution/awakened-icon.webp"
+  }
+}

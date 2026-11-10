@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 39,
+  "slug": "the-alley-flash",
+  "name": "The Alley Flash",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Alley Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/the-alley-flash/icon.webp",
+    "awakenedIcon": "weapons/the-alley-flash/awakened-icon.webp"
+  }
+}

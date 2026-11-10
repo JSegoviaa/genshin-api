@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 98,
+  "slug": "varesa",
+  "name": "Varesa",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "catalyst",
+  "region": "natlan",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "11-15",
+  "releaseDate": "2025-03-26",
+  "releaseVersion": "5.5",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Skysplit Gembloom",
+  "materials": {
+    "boss": "Sparkless Statue Core",
+    "weeklyBoss": "Eroded Scale-Feather",
+    "common": [
+      "Juvenile Fang",
+      "Seasoned Fang",
+      "Tyrant's Fang"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "mascara-luctatori",
+      "name": "Mascara Luctatori",
+      "meaning": "Wrestling Mask",
+      "images": {
+        "image": "characters/varesa/constellations/mascara-luctatori/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/varesa/icon.webp",
+    "card": "characters/varesa/card.webp",
+    "inGame": "characters/varesa/in-game.webp",
+    "wish": "characters/varesa/wish.webp",
+    "multiWish": "characters/varesa/multi-wish.webp",
+    "partyIcon": "characters/varesa/party-icon.webp"
+  }
+}

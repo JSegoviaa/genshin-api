@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 66,
+  "slug": "favonius-greatsword",
+  "name": "Favonius Greatsword",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Favonius Series"
+  ],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/favonius-greatsword/icon.webp",
+    "awakenedIcon": "weapons/favonius-greatsword/awakened-icon.webp"
+  }
+}

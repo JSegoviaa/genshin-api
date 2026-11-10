@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 220,
+  "slug": "bloodsoaked-ruins",
+  "name": "Bloodsoaked Ruins",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Lunar Oblation",
+  "images": {
+    "icon": "weapons/bloodsoaked-ruins/icon.webp",
+    "awakenedIcon": "weapons/bloodsoaked-ruins/awakened-icon.webp"
+  }
+}

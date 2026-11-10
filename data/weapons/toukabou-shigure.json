@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 36,
+  "slug": "toukabou-shigure",
+  "name": "Toukabou Shigure",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Altar of Sands",
+  "images": {
+    "icon": "weapons/toukabou-shigure/icon.webp",
+    "awakenedIcon": "weapons/toukabou-shigure/awakened-icon.webp"
+  }
+}

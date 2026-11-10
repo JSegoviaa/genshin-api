@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 113,
+  "slug": "varka",
+  "name": "Varka",
+  "rarity": 5,
+  "element": "anemo",
+  "weaponType": "claymore",
+  "region": "mondstadt",
+  "gender": "male",
+  "bodyType": "tall",
+  "birthday": "02-17",
+  "releaseDate": "2026-02-25",
+  "releaseVersion": "Luna V",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Wolfhook",
+  "materials": {
+    "boss": "Prismatic Severed Tail",
+    "weeklyBoss": "Ascended Sample: Rook",
+    "common": [
+      "Broken Drive Shaft",
+      "Reinforced Drive Shaft",
+      "Precision Drive Shaft"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/varka/icon.webp",
+    "card": "characters/varka/card.webp",
+    "inGame": "characters/varka/in-game.webp",
+    "wish": "characters/varka/wish.webp",
+    "multiWish": "characters/varka/multi-wish.webp",
+    "partyIcon": "characters/varka/party-icon.webp"
+  }
+}

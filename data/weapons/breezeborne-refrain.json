@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 249,
+  "slug": "breezeborne-refrain",
+  "name": "Breezeborne Refrain",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Severed Steel",
+  "images": {
+    "icon": "weapons/breezeborne-refrain/icon.webp",
+    "awakenedIcon": "weapons/breezeborne-refrain/awakened-icon.webp"
+  }
+}

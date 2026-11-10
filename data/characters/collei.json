@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 53,
+  "slug": "collei",
+  "name": "Collei",
+  "rarity": 4,
+  "element": "dendro",
+  "weaponType": "bow",
+  "region": "sumeru",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "05-08",
+  "releaseDate": "2022-08-24",
+  "releaseVersion": "3.0",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Padisarah",
+  "materials": {
+    "boss": "Majestic Hooked Beak",
+    "weeklyBoss": "Tears of the Calamitous God",
+    "common": [
+      "Firm Arrow",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "leptailurus-cervarius",
+      "name": "Leptailurus Cervarius",
+      "meaning": "Serval",
+      "images": {
+        "image": "characters/collei/constellations/leptailurus-cervarius/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Deepwood Patrol",
+          "description": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%.",
+          "images": {
+            "icon": "characters/collei/constellations/leptailurus-cervarius/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Through Hill and Copse",
+          "description": "The Passive Talent Floral Sidewinder is changed to this: The Floral Ring will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as Dendro DMG to nearby opponents for 3s. From the moment of using Floral Brush to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Sprout effect will be extended by 3s. The Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed. Requires you to have unlocked the Floral Sidewinder Passive Talent.",
+          "images": {
+            "icon": "characters/collei/constellations/leptailurus-cervarius/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Scent of Summer",
+          "description": "Increases the Level of Floral Brush by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/collei/constellations/leptailurus-cervarius/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Gift of the Woods",
+          "description": "Using Trump-Card Kitty will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself).",
+          "images": {
+            "icon": "characters/collei/constellations/leptailurus-cervarius/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "All Embers",
+          "description": "Increases the Level of Trump-Card Kitty by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/collei/constellations/leptailurus-cervarius/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Forest of Falling Arrows",
+          "description": "When the Floral Ring hits, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as Dendro DMG. Each Floral Brush can only create one such miniature Cuilein-Anbar.",
+          "images": {
+            "icon": "characters/collei/constellations/leptailurus-cervarius/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/collei/icon.png",
+    "card": "characters/collei/card.webp",
+    "inGame": "characters/collei/in-game.webp",
+    "wish": "characters/collei/wish.webp",
+    "multiWish": "characters/collei/multi-wish.webp",
+    "partyIcon": "characters/collei/party-icon.webp"
+  }
+}

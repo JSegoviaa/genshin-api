@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 46,
+  "slug": "shenhe",
+  "name": "Shenhe",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "polearm",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "03-10",
+  "releaseDate": "2022-01-05",
+  "releaseVersion": "2.4",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Qingxin",
+  "materials": {
+    "boss": "Dragonheir's False Fin",
+    "weeklyBoss": "Hellfire Buttlerfly",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "crista-doloris",
+      "name": "Crista Doloris",
+      "meaning": "Crest of Sorrow",
+      "images": {
+        "image": "characters/shenhe/constellations/crista-doloris/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Clarity of Heart",
+          "description": "Spring Spirit Summoning can be used 1 more time.",
+          "images": {
+            "icon": "characters/shenhe/constellations/crista-doloris/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Centered Spirit",
+          "description": "Divine Maiden's Deliverance lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased Cryo CRIT DMG.",
+          "images": {
+            "icon": "characters/shenhe/constellations/crista-doloris/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Seclusion",
+          "description": "Increases Level of Spring Spirit Summoning by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/shenhe/constellations/crista-doloris/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Insight",
+          "description": "When characters under the effect of Icy Quill applied by Shenhe triggers its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack: When Shenhe uses Spring Spirit Summoning, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed. Max 50 stacks. Stacks last for 60s.",
+          "images": {
+            "icon": "characters/shenhe/constellations/crista-doloris/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Divine Attainment",
+          "description": "Increases the Level of Divine Maiden's Deliverance by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/shenhe/constellations/crista-doloris/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Mystical Abandon",
+          "description": "When characters trigger Icy Quill's effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota.",
+          "images": {
+            "icon": "characters/shenhe/constellations/crista-doloris/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/shenhe/icon.png",
+    "card": "characters/shenhe/card.webp",
+    "inGame": "characters/shenhe/in-game.webp",
+    "wish": "characters/shenhe/wish.webp",
+    "multiWish": "characters/shenhe/multi-wish.webp",
+    "partyIcon": "characters/shenhe/party-icon.webp"
+  }
+}

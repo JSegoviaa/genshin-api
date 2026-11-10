@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 75,
+  "slug": "kitain-cross-spear",
+  "name": "Kitain Cross Spear",
+  "rarity": 4,
+  "weaponType": "polearm",
+  "secondaryStat": "Elemental Mastery",
+  "series": [
+    "Amethyst Series"
+  ],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/kitain-cross-spear/icon.webp",
+    "awakenedIcon": "weapons/kitain-cross-spear/awakened-icon.webp"
+  }
+}

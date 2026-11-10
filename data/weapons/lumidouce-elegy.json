@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 186,
+  "slug": "lumidouce-elegy",
+  "name": "Lumidouce Elegy",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "CRIT Rate",
+  "series": [],
+  "ascensionMaterial": "Curious Contraptions",
+  "images": {
+    "icon": "weapons/lumidouce-elegy/icon.webp",
+    "awakenedIcon": "weapons/lumidouce-elegy/awakened-icon.webp"
+  }
+}

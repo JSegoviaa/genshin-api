@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 19,
+  "slug": "ferrous-shadow",
+  "name": "Ferrous Shadow",
+  "rarity": 3,
+  "weaponType": "claymore",
+  "secondaryStat": "HP",
+  "series": [],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/ferrous-shadow/icon.webp",
+    "awakenedIcon": "weapons/ferrous-shadow/awakened-icon.webp"
+  }
+}

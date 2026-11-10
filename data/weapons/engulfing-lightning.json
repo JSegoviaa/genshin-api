@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 136,
+  "slug": "engulfing-lightning",
+  "name": "Engulfing Lightning",
+  "rarity": 5,
+  "weaponType": "polearm",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Inazuma Series"
+  ],
+  "ascensionMaterial": "Sand Burial",
+  "images": {
+    "icon": "weapons/engulfing-lightning/icon.webp",
+    "awakenedIcon": "weapons/engulfing-lightning/awakened-icon.webp"
+  }
+}

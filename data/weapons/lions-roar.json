@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 45,
+  "slug": "lions-roar",
+  "name": "Lion's Roar",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [
+    "4-Star Bane Series",
+    "Kunwu Series"
+  ],
+  "ascensionMaterial": "Thundercloud",
+  "images": {
+    "icon": "weapons/lions-roar/icon.webp",
+    "awakenedIcon": "weapons/lions-roar/awakened-icon.webp"
+  }
+}

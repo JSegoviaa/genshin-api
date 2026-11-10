@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 233,
+  "slug": "a-teaspoon-of-transcendence",
+  "name": "A Teaspoon of Transcendence",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "CRIT DMG",
+  "series": [],
+  "ascensionMaterial": "Lunar Oblation",
+  "images": {
+    "icon": "weapons/a-teaspoon-of-transcendence/icon.webp",
+    "awakenedIcon": "weapons/a-teaspoon-of-transcendence/awakened-icon.webp"
+  }
+}

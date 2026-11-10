@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 26,
+  "slug": "xinyan",
+  "name": "Xinyan",
+  "rarity": 4,
+  "element": "pyro",
+  "weaponType": "claymore",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "10-16",
+  "releaseDate": "2020-12-01",
+  "releaseVersion": "1.1",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Violetgrass",
+  "materials": {
+    "boss": "Everfkane Seed",
+    "weeklyBoss": "Tusk of Monoceros Caeli",
+    "common": [
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "fila-ignium",
+      "name": "Fila Ignium",
+      "meaning": "Strings of Fire",
+      "images": {
+        "image": "characters/xinyan/constellations/fila-ignium/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Fatal Acceleration",
+          "description": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s. Can only occur once every 5s.",
+          "images": {
+            "icon": "characters/xinyan/constellations/fila-ignium/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Impromptu Opening",
+          "description": "Riff Revolution's Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
+          "images": {
+            "icon": "characters/xinyan/constellations/fila-ignium/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Double-Stop",
+          "description": "Increases the Level of Sweeping Fervor by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/xinyan/constellations/fila-ignium/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Wildfire Rhythm",
+          "description": "Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s.",
+          "images": {
+            "icon": "characters/xinyan/constellations/fila-ignium/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Screamin' for an Encore",
+          "description": "Increases the Level of Riff Revolution by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/xinyan/constellations/fila-ignium/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Rockin' in a Flaming World",
+          "description": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
+          "images": {
+            "icon": "characters/xinyan/constellations/fila-ignium/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/xinyan/icon.png",
+    "card": "characters/xinyan/card.webp",
+    "inGame": "characters/xinyan/in-game.webp",
+    "wish": "characters/xinyan/wish.webp",
+    "multiWish": "characters/xinyan/multi-wish.webp",
+    "partyIcon": "characters/xinyan/party-icon.webp"
+  }
+}

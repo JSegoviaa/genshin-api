@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 41,
+  "slug": "sapwood-blade",
+  "name": "Sapwood Blade",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Aranara Series"
+  ],
+  "ascensionMaterial": "Tainted Clouds",
+  "images": {
+    "icon": "weapons/sapwood-blade/icon.webp",
+    "awakenedIcon": "weapons/sapwood-blade/awakened-icon.webp"
+  }
+}

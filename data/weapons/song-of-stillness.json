@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 160,
+  "slug": "song-of-stillness",
+  "name": "Song of Stillness",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "ATK",
+  "series": [
+    "Beaumont Series"
+  ],
+  "ascensionMaterial": "Robotic Ruse",
+  "images": {
+    "icon": "weapons/song-of-stillness/icon.webp",
+    "awakenedIcon": "weapons/song-of-stillness/awakened-icon.webp"
+  }
+}

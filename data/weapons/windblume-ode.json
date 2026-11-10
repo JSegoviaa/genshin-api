@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 99,
+  "slug": "windblume-ode",
+  "name": "Windblume Ode",
+  "rarity": 4,
+  "weaponType": "bow",
+  "secondaryStat": "Elemental Mastery",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/windblume-ode/icon.webp",
+    "awakenedIcon": "weapons/windblume-ode/awakened-icon.webp"
+  }
+}

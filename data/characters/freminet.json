@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 72,
+  "slug": "freminet",
+  "name": "Freminet",
+  "rarity": 4,
+  "element": "cryo",
+  "weaponType": "claymore",
+  "region": "fontaine",
+  "gender": "male",
+  "bodyType": "medium",
+  "birthday": "09-24",
+  "releaseDate": "2023-09-05",
+  "releaseVersion": "4.0",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Romaritime Flower",
+  "materials": {
+    "boss": "Artificed Spare Clockwork Component — Coppelius",
+    "weeklyBoss": "Worldspan Fern",
+    "common": [
+      "Transoceanic Pearl",
+      "Transoceanic Chunk",
+      "Xenochromatic Crystal"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "automaton",
+      "name": "Automaton",
+      "meaning": "Automaton",
+      "images": {
+        "image": "characters/freminet/constellations/automaton/image.webp"
+      },
+      "levels": []
+    }
+  ],
+  "images": {
+    "icon": "characters/freminet/icon.webp",
+    "card": "characters/freminet/card.webp",
+    "inGame": "characters/freminet/in-game.webp",
+    "wish": "characters/freminet/wish.webp",
+    "multiWish": "characters/freminet/multi-wish.webp",
+    "partyIcon": "characters/freminet/party-icon.webp"
+  }
+}

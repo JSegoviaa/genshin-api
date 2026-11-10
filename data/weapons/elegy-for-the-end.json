@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 149,
+  "slug": "elegy-for-the-end",
+  "name": "Elegy for the End",
+  "rarity": 5,
+  "weaponType": "bow",
+  "secondaryStat": "Energy Recharge",
+  "series": [
+    "Sumeru Series"
+  ],
+  "ascensionMaterial": "Submerged Valley",
+  "images": {
+    "icon": "weapons/elegy-for-the-end/icon.webp",
+    "awakenedIcon": "weapons/elegy-for-the-end/awakened-icon.webp"
+  }
+}

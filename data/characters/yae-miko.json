@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 48,
+  "slug": "yae-miko",
+  "name": "Yae Miko",
+  "rarity": 5,
+  "element": "electro",
+  "weaponType": "catalyst",
+  "region": "inazuma",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "06-27",
+  "releaseDate": "2022-02-16",
+  "releaseVersion": "2.5",
+  "ascensionStat": "CRIT Rate",
+  "localSpecialty": "Sea Ganoderma",
+  "materials": {
+    "boss": "Dragonheir's False Fin",
+    "weeklyBoss": "The Meaning of Aeons",
+    "common": [
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "divina-vulpes",
+      "name": "Divina Vulpes",
+      "meaning": "Divine Fox",
+      "images": {
+        "image": "characters/yae-miko/constellations/divina-vulpes/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Yakan Offering",
+          "description": "Each time Great Secret Art: Tenko Kenshin activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
+          "images": {
+            "icon": "characters/yae-miko/constellations/divina-vulpes/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Fox's Mooncall",
+          "description": "Sesshou Sakura start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
+          "images": {
+            "icon": "characters/yae-miko/constellations/divina-vulpes/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "The Seven Glamours",
+          "description": "Increases the Level of Yakan Evocation: Sesshou Sakura by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yae-miko/constellations/divina-vulpes/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Sakura Channeling",
+          "description": "When Sesshou Sakura lightning hits opponents, the Electro DMG Bonus of all nearby party members is increased by 20% for 5s.",
+          "images": {
+            "icon": "characters/yae-miko/constellations/divina-vulpes/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Mischievous Teasing",
+          "description": "Increases the Level of Great Secret Art: Tenko Kenshin by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/yae-miko/constellations/divina-vulpes/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Forbidden Art: Daisesshou",
+          "description": "The Sesshou Sakura's attacks will ignore 60% of the opponent's DEF.",
+          "images": {
+            "icon": "characters/yae-miko/constellations/divina-vulpes/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/yae-miko/icon.png",
+    "card": "characters/yae-miko/card.webp",
+    "inGame": "characters/yae-miko/in-game.webp",
+    "wish": "characters/yae-miko/wish.webp",
+    "multiWish": "characters/yae-miko/multi-wish.webp",
+    "partyIcon": "characters/yae-miko/party-icon.webp"
+  }
+}

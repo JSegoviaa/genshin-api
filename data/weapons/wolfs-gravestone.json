@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 126,
+  "slug": "wolfs-gravestone",
+  "name": "Wolf's Gravestone",
+  "rarity": 5,
+  "weaponType": "claymore",
+  "secondaryStat": "ATK",
+  "series": [],
+  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "images": {
+    "icon": "weapons/wolfs-gravestone/icon.webp",
+    "awakenedIcon": "weapons/wolfs-gravestone/awakened-icon.webp"
+  }
+}

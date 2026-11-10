@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 112,
+  "slug": "zibai",
+  "name": "Zibai",
+  "rarity": 5,
+  "element": "geo",
+  "weaponType": "sword",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "05-15",
+  "releaseDate": "2026-02-13",
+  "releaseVersion": "Luna IV",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Glaze Lily",
+  "materials": {
+    "boss": "Remnant of the Dreadwing",
+    "weeklyBoss": "Ascended Sample: Queen",
+    "common": [
+      "Tattered Warrant",
+      "Immaculate Warrant",
+      "Frost-Etched Warrant"
+    ]
+  },
+  "constellations": [],
+  "images": {
+    "icon": "characters/zibai/icon.webp",
+    "card": "characters/zibai/card.webp",
+    "inGame": "characters/zibai/in-game.webp",
+    "wish": "characters/zibai/wish.webp",
+    "multiWish": "characters/zibai/multi-wish.webp",
+    "partyIcon": "characters/zibai/party-icon.webp"
+  }
+}

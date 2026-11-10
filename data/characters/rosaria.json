@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 32,
+  "slug": "rosaria",
+  "name": "Rosaria",
+  "rarity": 4,
+  "element": "cryo",
+  "weaponType": "polearm",
+  "region": "mondstadt",
+  "gender": "female",
+  "bodyType": "tall",
+  "birthday": "01-24",
+  "releaseDate": "2021-04-06",
+  "releaseVersion": "1.4",
+  "ascensionStat": "ATK",
+  "localSpecialty": "Valberry",
+  "materials": {
+    "boss": "Hoarfrost Core",
+    "weeklyBoss": "Shadow of the Warrior",
+    "common": [
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "spinea-corona",
+      "name": "Spinea Corona",
+      "meaning": "Thorny Crown",
+      "images": {
+        "image": "characters/rosaria/constellations/spinea-corona/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Unholy Revelation",
+          "description": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
+          "images": {
+            "icon": "characters/rosaria/constellations/spinea-corona/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Land Without Promise",
+          "description": "The duration of the Ice Lance created by Rites of Termination is increased by 4s.",
+          "images": {
+            "icon": "characters/rosaria/constellations/spinea-corona/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "The Wages of Sin",
+          "description": "Increases the Level of Ravaging Confession by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/rosaria/constellations/spinea-corona/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Painful Grace",
+          "description": "Ravaging Confession's CRIT Hits regenerate 5 Energy for Rosaria. Can only be triggered once each time Ravaging Confession is cast.",
+          "images": {
+            "icon": "characters/rosaria/constellations/spinea-corona/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Last Rites",
+          "description": "Increases the Level of Rites of Termination by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/rosaria/constellations/spinea-corona/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Divine Retribution",
+          "description": "Rites of Termination's attack decreases opponents' Physical RES by 20% for 10s.",
+          "images": {
+            "icon": "characters/rosaria/constellations/spinea-corona/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/rosaria/icon.png",
+    "card": "characters/rosaria/card.webp",
+    "inGame": "characters/rosaria/in-game.webp",
+    "wish": "characters/rosaria/wish.webp",
+    "multiWish": "characters/rosaria/multi-wish.webp",
+    "partyIcon": "characters/rosaria/party-icon.webp"
+  }
+}

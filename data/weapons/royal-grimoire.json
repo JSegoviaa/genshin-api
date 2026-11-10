@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 88,
+  "slug": "royal-grimoire",
+  "name": "Royal Grimoire",
+  "rarity": 4,
+  "weaponType": "catalyst",
+  "secondaryStat": "ATK",
+  "series": [
+    "Royal Series"
+  ],
+  "ascensionMaterial": "City of Reflections",
+  "images": {
+    "icon": "weapons/royal-grimoire/icon.webp",
+    "awakenedIcon": "weapons/royal-grimoire/awakened-icon.webp"
+  }
+}

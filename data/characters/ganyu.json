@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 29,
+  "slug": "ganyu",
+  "name": "Ganyu",
+  "rarity": 5,
+  "element": "cryo",
+  "weaponType": "bow",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "12-02",
+  "releaseDate": "2021-01-12",
+  "releaseVersion": "1.2",
+  "ascensionStat": "CRIT DMG",
+  "localSpecialty": "Qingxin",
+  "materials": {
+    "boss": "Hoarfrost Core",
+    "weeklyBoss": "Shadow of the Warrior",
+    "common": [
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "sinae-unicornis",
+      "name": "Sinae Unicornis",
+      "meaning": "Qilin",
+      "images": {
+        "image": "characters/ganyu/constellations/sinae-unicornis/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Dew-Drinker",
+          "description": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' Cryo RES by 15% for 6s. A hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
+          "images": {
+            "icon": "characters/ganyu/constellations/sinae-unicornis/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "The Auspicious",
+          "description": "Trail of the Qilin gains 1 additional charge.",
+          "images": {
+            "icon": "characters/ganyu/constellations/sinae-unicornis/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Cloud-Strider",
+          "description": "Increases the Level of Celestial Shower by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/ganyu/constellations/sinae-unicornis/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Westward Sojourn",
+          "description": "Opponents standing within the AoE of Celestial Shower take increased DMG. This effect strengthens over time. Increased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%. The effect lingers for 3s after the opponent leaves the AoE.",
+          "images": {
+            "icon": "characters/ganyu/constellations/sinae-unicornis/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "The Merciful",
+          "description": "Increases the Level of Trail of the Qilin by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/ganyu/constellations/sinae-unicornis/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "The Clement",
+          "description": "Using Trail of the Qilin causes the next Frostflake Arrow shot within 30s to not require charging.",
+          "images": {
+            "icon": "characters/ganyu/constellations/sinae-unicornis/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/ganyu/icon.png",
+    "card": "characters/ganyu/card.webp",
+    "inGame": "characters/ganyu/in-game.webp",
+    "wish": "characters/ganyu/wish.webp",
+    "multiWish": "characters/ganyu/multi-wish.webp",
+    "partyIcon": "characters/ganyu/party-icon.webp"
+  }
+}

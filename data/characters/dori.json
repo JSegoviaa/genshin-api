@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 55,
+  "slug": "dori",
+  "name": "Dori",
+  "rarity": 4,
+  "element": "electro",
+  "weaponType": "claymore",
+  "region": "sumeru",
+  "gender": "female",
+  "bodyType": "short",
+  "birthday": "12-21",
+  "releaseDate": "2022-09-09",
+  "releaseVersion": "3.0",
+  "ascensionStat": "HP",
+  "localSpecialty": "Kalpalata Lotus",
+  "materials": {
+    "boss": "Thunderclap Fruitcore",
+    "weeklyBoss": "Bloodjade Branch",
+    "common": [
+      "Faded Red Satin",
+      "Trimmed Red Silk",
+      "Rich Red Brocade"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "magicae-lucerna",
+      "name": "Magicae Lucerna",
+      "meaning": "Magic Lamp",
+      "images": {
+        "image": "characters/dori/constellations/magicae-lucerna/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Additional Investment",
+          "description": "The number of After-Sales Service Rounds created by Troubleshooter Shots is increased by 1.",
+          "images": {
+            "icon": "characters/dori/constellations/magicae-lucerna/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Special Franchise",
+          "description": "When you are in combat and the Jinni heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG.",
+          "images": {
+            "icon": "characters/dori/constellations/magicae-lucerna/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Wonders Never Cease",
+          "description": "Increases the Level of Alcazarzaray's Exactitude by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/dori/constellations/magicae-lucerna/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Discretionary Supplement",
+          "description": "The character connected to the Jinni will obtain the following buffs based on their current HP and Energy: When their HP is lower than 50%, they gain 50% Incoming Healing Bonus. When their Energy is less than 50%, they gain 30% Energy Recharge.",
+          "images": {
+            "icon": "characters/dori/constellations/magicae-lucerna/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Value for Mora",
+          "description": "Increases the Level of Spirit-Warding Lamp: Troubleshooter Cannon by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/dori/constellations/magicae-lucerna/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Sprinkling Weight",
+          "description": "Dori gains the following effects for 3s after using Spirit-Warding Lamp: Troubleshooter Cannon: Electro Infusion. When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
+          "images": {
+            "icon": "characters/dori/constellations/magicae-lucerna/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/dori/icon.png",
+    "card": "characters/dori/card.webp",
+    "inGame": "characters/dori/in-game.webp",
+    "wish": "characters/dori/wish.webp",
+    "multiWish": "characters/dori/multi-wish.webp",
+    "partyIcon": "characters/dori/party-icon.webp"
+  }
+}

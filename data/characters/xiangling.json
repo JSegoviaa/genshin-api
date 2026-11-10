@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/characters.json",
+  "id": 8,
+  "slug": "xiangling",
+  "name": "Xiangling",
+  "rarity": 4,
+  "element": "pyro",
+  "weaponType": "polearm",
+  "region": "liyue",
+  "gender": "female",
+  "bodyType": "medium",
+  "birthday": "11-02",
+  "releaseDate": "2020-09-28",
+  "releaseVersion": "1.0",
+  "ascensionStat": "Elemental Mastery",
+  "localSpecialty": "Jueyun Chili",
+  "materials": {
+    "boss": "Everfkane Seed",
+    "weeklyBoss": "Dvalin's Claw",
+    "common": [
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ]
+  },
+  "constellations": [
+    {
+      "slug": "trulla",
+      "name": "Trulla",
+      "meaning": "Ladle",
+      "images": {
+        "image": "characters/xiangling/constellations/trulla/image.webp"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "name": "Crispy Outside, Tender Inside",
+          "description": "Opponents hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s",
+          "images": {
+            "icon": "characters/xiangling/constellations/trulla/c1.svg"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Oil Meets Fire",
+          "description": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG.",
+          "images": {
+            "icon": "characters/xiangling/constellations/trulla/c2.svg"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Deepfry",
+          "description": "Increases the Level of Pyronado by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/xiangling/constellations/trulla/c3.svg"
+          }
+        },
+        {
+          "level": 4,
+          "name": "Slowbake",
+          "description": "Pyronado's duration is increased by 40%.",
+          "images": {
+            "icon": "characters/xiangling/constellations/trulla/c4.svg"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Guoba Mad",
+          "description": "Increases the Level of Guoba Attack by 3. Maximum upgrade level is 15.",
+          "images": {
+            "icon": "characters/xiangling/constellations/trulla/c5.svg"
+          }
+        },
+        {
+          "level": 6,
+          "name": "Condensed Pyronado",
+          "description": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus.",
+          "images": {
+            "icon": "characters/xiangling/constellations/trulla/c6.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "images": {
+    "icon": "characters/xiangling/icon.png",
+    "card": "characters/xiangling/card.webp",
+    "inGame": "characters/xiangling/in-game.webp",
+    "wish": "characters/xiangling/wish.webp",
+    "multiWish": "characters/xiangling/multi-wish.webp",
+    "partyIcon": "characters/xiangling/party-icon.webp"
+  }
+}

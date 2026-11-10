@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/weapons.json",
+  "id": 52,
+  "slug": "amenoma-kageuchi",
+  "name": "Amenoma Kageuchi",
+  "rarity": 4,
+  "weaponType": "sword",
+  "secondaryStat": "ATK",
+  "series": [
+    "Amethyst Series"
+  ],
+  "ascensionMaterial": "Sunken Sands",
+  "images": {
+    "icon": "weapons/amenoma-kageuchi/icon.webp",
+    "awakenedIcon": "weapons/amenoma-kageuchi/awakened-icon.webp"
+  }
+}
