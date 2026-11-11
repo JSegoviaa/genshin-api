@@ -10,6 +10,14 @@ const total = resources.reduce((sum, r) => sum + r.count, 0);
 const { body } = await request(`${API_PREFIX}/characters?name=hu-tao&limit=1`);
 const sample = JSON.stringify((body as { results: unknown[] }).results[0], null, 2);
 
+const tiers: Record<number, string[]> = {
+  5: ["characters", "weapons", "artifact-sets", "artifacts"],
+  4: ["enemies", "domains", "items", "local-specialties"],
+  3: ["regions", "elements", "stats", "versions", "item-groups", "enemy-groups", "enemy-families"],
+};
+const rarityOf = (name: string) =>
+  Number(Object.entries(tiers).find(([, names]) => names.includes(name))?.[0] ?? 2);
+
 const features = [
   {
     title: "Free & Open",
@@ -70,7 +78,7 @@ const features = [
     <div class="features">
       {
         features.map((f) => (
-          <article class="feature frame" style={`--c: var(--${f.color})`}>
+          <article class="feature parchment" style={`--c: var(--${f.color})`}>
             <span class="dot" />
             <h3>{f.title}</h3>
             <p>{f.text}</p>
@@ -88,10 +96,15 @@ const features = [
     <div class="resources">
       {
         resources.map((r) => (
-          <a href={`/docs/resources/${r.name}/`} class="resource frame">
+          <a
+            href={`/docs/resources/${r.name}/`}
+            class="resource"
+            style={`--r: var(--r${rarityOf(r.name)})`}
+          >
             <div class="resource-head">
               <h3>{r.title}</h3>
               <span class="count">{r.count}</span>
+              <span class="stars" aria-hidden="true">{"★".repeat(rarityOf(r.name))}</span>
             </div>
             <p>{r.description}</p>
             <code>{`${API_PREFIX}/${r.name}`}</code>
@@ -180,6 +193,7 @@ const features = [
   }
   .feature {
     padding: 1.6rem 1.4rem;
+    border-top: 3px solid var(--c);
   }
   .feature .dot {
     display: block;
@@ -191,11 +205,11 @@ const features = [
   }
   .feature h3 {
     margin: 1rem 0 0.5rem;
-    color: var(--gold-bright);
+    color: var(--ink);
   }
   .feature p {
     margin: 0;
-    color: var(--muted);
+    color: var(--ink-soft);
     font-size: 0.93rem;
   }
   .resources {
@@ -206,39 +220,59 @@ const features = [
   .resource {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    overflow: hidden;
     text-decoration: none;
-    color: var(--text);
-    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+    color: var(--ink);
+    background: var(--cream);
+    border-radius: 8px 8px 26px 8px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.2s, transform 0.2s;
   }
   .resource:hover {
-    color: var(--text);
-    border-color: var(--border-strong);
+    color: var(--ink);
     transform: translateY(-3px);
-    background: rgba(28, 37, 64, 0.85);
+    box-shadow: var(--select-glow), 0 14px 30px rgba(0, 0, 0, 0.45);
   }
   .resource-head {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 0.2rem 1rem;
+    padding: 1.1rem 1.3rem 0.8rem;
+    background:
+      radial-gradient(circle at 85% 0%, rgba(255, 255, 255, 0.28), transparent 55%),
+      var(--r);
   }
   .resource h3 {
     margin: 0;
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
   }
   .count {
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: 1.4rem;
-    color: var(--gold-bright);
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  }
+  .resource .stars {
+    grid-column: 1 / -1;
+    font-size: 0.85rem;
   }
   .resource p {
     flex: 1;
-    margin: 0.7rem 0 1.1rem;
-    color: var(--muted);
-    font-size: 0.93rem;
+    margin: 0.9rem 1.3rem 1rem;
+    color: var(--ink-soft);
+    font-size: 0.92rem;
   }
   .resource code {
     align-self: flex-start;
+    margin: 0 1.3rem 1.2rem;
+    color: var(--ink);
+    background: rgba(59, 67, 84, 0.08);
+    border-color: rgba(59, 67, 84, 0.2);
   }
   .final {
     text-align: center;

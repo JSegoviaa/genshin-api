@@ -17,6 +17,21 @@
   --muted: #a39d92;
   --faint: #6f6b66;
 
+  --cream: #ece5d8;
+  --cream-soft: #e0d6c2;
+  --ink: #3b4354;
+  --ink-soft: #6b7385;
+  --slate: #2b3244;
+  --slate-deep: #1e2433;
+  --star: #ffcc33;
+
+  --r5: linear-gradient(160deg, #6e4a33 0%, #a8693a 55%, #d6974f 100%);
+  --r4: linear-gradient(160deg, #4b4473 0%, #7a5ea6 55%, #a582c9 100%);
+  --r3: linear-gradient(160deg, #3c5470 0%, #4b7fa3 55%, #5ba3c4 100%);
+  --r2: linear-gradient(160deg, #3d5a50 0%, #4f8670 55%, #66a88a 100%);
+  --r1: linear-gradient(160deg, #50535b 0%, #6d717a 55%, #8b9099 100%);
+  --select-glow: 0 0 0 2px rgba(255, 255, 255, 0.85), 0 0 18px rgba(255, 255, 255, 0.35);
+
   --anemo: #74c2a8;
   --geo: #f0b232;
   --electro: #b28fe0;
@@ -191,6 +206,15 @@ code {
   backdrop-filter: blur(6px);
 }
 
+.frame::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(211, 188, 142, 0.08);
+  border-radius: calc(var(--radius) - 3px);
+  pointer-events: none;
+}
+
 .frame::before {
   content: "";
   position: absolute;
@@ -212,51 +236,89 @@ code {
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5em;
-  padding: 0.7em 1.5em;
+  gap: 0.75em;
+  padding: 0.45em 1.6em 0.45em 0.45em;
   border-radius: 999px;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.06em;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.98rem;
+  letter-spacing: 0.01em;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
   transition:
-    transform 0.15s,
     box-shadow 0.2s,
-    background 0.2s;
+    background 0.2s,
+    color 0.2s;
+}
+
+.btn::before {
+  content: "";
+  flex: none;
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, transparent 0 30%, var(--star) 32% 50%, transparent 52%),
+    var(--slate);
 }
 
 .btn:hover {
-  transform: translateY(-1px);
+  box-shadow: var(--select-glow);
 }
 
 .btn-primary {
-  color: #2a2116;
-  background: linear-gradient(180deg, #f6e7bd, #d3bc8e 55%, #b99b68);
-  border-color: #f6e7bd;
-  box-shadow:
-    0 0 0 3px rgba(211, 188, 142, 0.15),
-    var(--glow);
+  color: var(--ink);
+  background: linear-gradient(180deg, #f4efe5, var(--cream) 50%, var(--cream-soft));
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 
 .btn-primary:hover {
-  color: #2a2116;
-  box-shadow:
-    0 0 0 4px rgba(211, 188, 142, 0.25),
-    0 0 32px rgba(243, 226, 179, 0.3);
+  color: var(--ink);
 }
 
 .btn-ghost {
-  color: var(--gold-bright);
-  border-color: var(--border-strong);
-  background: rgba(211, 188, 142, 0.06);
+  color: var(--cream);
+  border-color: rgba(236, 229, 216, 0.25);
+  background: rgba(43, 50, 68, 0.88);
+}
+
+.btn-ghost::before {
+  background:
+    radial-gradient(circle, transparent 0 30%, var(--cream) 32% 46%, transparent 48%),
+    rgba(236, 229, 216, 0.12);
 }
 
 .btn-ghost:hover {
   color: #fff;
-  background: rgba(211, 188, 142, 0.14);
+  background: rgba(53, 61, 82, 0.95);
+}
+
+.parchment {
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse at top, rgba(255, 255, 255, 0.5), transparent 70%),
+    var(--cream);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.parchment :not(pre) > code {
+  color: var(--ink);
+  background: rgba(59, 67, 84, 0.08);
+  border-color: rgba(59, 67, 84, 0.18);
+}
+
+.parchment a {
+  color: #9a6427;
+  text-decoration-color: rgba(154, 100, 39, 0.4);
+}
+
+.stars {
+  color: var(--star);
+  letter-spacing: 0.05em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
 }
 
 .eyebrow {
@@ -279,6 +341,18 @@ table {
   font-size: 0.93rem;
 }
 
+thead th {
+  background: rgba(211, 188, 142, 0.07);
+}
+
+tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+tbody tr:hover td {
+  background: rgba(236, 229, 216, 0.06);
+}
+
 th {
   text-align: left;
   font-family: var(--font-display);
@@ -298,6 +372,11 @@ td {
 
 tr:last-child td {
   border-bottom: none;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(211, 188, 142, 0.45) transparent;
 }
 
 @media (max-width: 640px) {

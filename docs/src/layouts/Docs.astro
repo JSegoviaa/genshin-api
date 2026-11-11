@@ -102,6 +102,9 @@ const currentGroup = navigation.find((g) => g.items.some((i) => i.href === path)
     margin-top: 1.8rem;
   }
   .group-title {
+    display: flex;
+    align-items: center;
+    gap: 0.55em;
     margin: 0 0 0.6rem;
     font-family: var(--font-display);
     font-size: 0.74rem;
@@ -110,36 +113,61 @@ const currentGroup = navigation.find((g) => g.items.some((i) => i.href === path)
     text-transform: uppercase;
     color: var(--gold);
   }
+  .group-title::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: var(--gold);
+    clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%);
+  }
+  .group-title::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--border-strong), transparent);
+  }
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    border-left: 1px solid var(--border);
+    display: grid;
+    gap: 2px;
   }
   li a {
     position: relative;
-    display: block;
-    padding: 0.32rem 0 0.32rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.36rem 0.9rem;
+    border-radius: 999px;
     font-size: 0.93rem;
     color: var(--muted);
     text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  li a::before {
+    content: "";
+    flex: none;
+    width: 6px;
+    height: 6px;
+    rotate: 45deg;
+    border: 1px solid currentColor;
+    opacity: 0.5;
   }
   li a:hover {
-    color: var(--text);
+    color: var(--cream);
+    background: rgba(236, 229, 216, 0.07);
   }
   li a.active {
-    color: var(--gold-bright);
+    color: var(--ink);
+    font-weight: 600;
+    background: var(--cream);
+    box-shadow: 0 0 14px rgba(236, 229, 216, 0.22);
   }
   li a.active::before {
-    content: "";
-    position: absolute;
-    left: -4px;
-    top: 50%;
-    width: 7px;
-    height: 7px;
-    background: var(--gold);
-    transform: translateY(-50%) rotate(45deg);
-    box-shadow: 0 0 10px rgba(243, 226, 179, 0.7);
+    opacity: 1;
+    background: var(--ink);
+    border-color: var(--ink);
   }
   .content {
     min-width: 0;
@@ -150,9 +178,42 @@ const currentGroup = navigation.find((g) => g.items.some((i) => i.href === path)
     color: var(--muted);
   }
   .divider {
+    position: relative;
     height: 1px;
     margin: 1.8rem 0 2.2rem;
     background: linear-gradient(90deg, var(--gold-deep), transparent 70%);
+  }
+  .divider::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    translate: 0 -50%;
+    background: var(--gold-bright);
+    clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%);
+    filter: drop-shadow(0 0 6px rgba(243, 226, 179, 0.8));
+  }
+  .content :global(h2) {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+  }
+  .content :global(h2)::before {
+    content: "";
+    flex: none;
+    width: 0.5em;
+    height: 0.5em;
+    rotate: 45deg;
+    border: 2px solid var(--gold);
+    background: linear-gradient(var(--gold), var(--gold)) center / 40% 40% no-repeat;
+  }
+  .content :global(h2)::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--border-strong), transparent);
   }
   .pager {
     display: flex;
@@ -161,9 +222,10 @@ const currentGroup = navigation.find((g) => g.items.some((i) => i.href === path)
     margin-top: 4rem;
   }
   .pager a {
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 0.9rem 1.3rem;
+    padding: 0.9rem 1.3rem 0.9rem 3.4rem;
     min-width: 200px;
     text-decoration: none;
     font-family: var(--font-display);
@@ -171,9 +233,44 @@ const currentGroup = navigation.find((g) => g.items.some((i) => i.href === path)
     color: var(--gold-bright);
     transition: border-color 0.2s, background 0.2s;
   }
+  .pager a::before,
+  .pager a::after {
+    display: none;
+  }
   .pager a:hover {
-    border-color: var(--border-strong);
-    background: rgba(211, 188, 142, 0.08);
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: var(--select-glow);
+  }
+  .pager .prev {
+    background:
+      radial-gradient(circle at 1.7rem 50%, var(--slate) 0 0.95rem, transparent 1rem),
+      var(--panel);
+  }
+  .pager .next {
+    padding: 0.9rem 3.4rem 0.9rem 1.3rem;
+    background:
+      radial-gradient(circle at calc(100% - 1.7rem) 50%, var(--slate) 0 0.95rem, transparent 1rem),
+      var(--panel);
+  }
+  .pager .prev span::before,
+  .pager .next span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: solid var(--gold-bright);
+    border-width: 0 0 2px 2px;
+  }
+  .pager .prev span::before {
+    left: 1.5rem;
+    translate: 0 -50%;
+    rotate: 45deg;
+  }
+  .pager .next span::after {
+    right: 1.5rem;
+    translate: 0 -50%;
+    rotate: -135deg;
   }
   .pager span {
     font-family: var(--font-body);

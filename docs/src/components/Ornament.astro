@@ -36,9 +36,12 @@ const { class: className } = Astro.props;
     border: 1px solid var(--gold);
   }
   .gem.main {
-    width: 10px;
-    height: 10px;
-    background: var(--gold);
-    box-shadow: 0 0 12px rgba(243, 226, 179, 0.6);
+    width: 22px;
+    height: 22px;
+    border: none;
+    transform: none;
+    background: var(--gold-bright);
+    clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%);
+    filter: drop-shadow(0 0 8px rgba(243, 226, 179, 0.9));
   }
 </style>

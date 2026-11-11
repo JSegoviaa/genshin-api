@@ -30,9 +30,9 @@ const [listExample, detailExample, fields] = await Promise.all([
 
 <Docs title={r.title} description={r.description} eyebrow="Resource">
   <div class="stats">
-    <div class="stat frame"><strong>{r.count}</strong><span>items</span></div>
-    <div class="stat frame"><strong>{r.filters.length + 1}</strong><span>filters</span></div>
-    <div class="stat frame"><strong>{r.sorts.length}</strong><span>sort fields</span></div>
+    <div class="stat" style="--r: var(--r5)"><strong>{r.count}</strong><span>items</span></div>
+    <div class="stat" style="--r: var(--r4)"><strong>{r.filters.length + 1}</strong><span>filters</span></div>
+    <div class="stat" style="--r: var(--r3)"><strong>{r.sorts.length}</strong><span>sort fields</span></div>
   </div>
 
   <h2 id="endpoints">Endpoints</h2>
@@ -118,20 +118,36 @@ const [listExample, detailExample, fields] = await Promise.all([
   .stat {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1.1rem;
+    overflow: hidden;
+    border-radius: 8px 8px 22px 8px;
+    background: var(--cream);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    transition: box-shadow 0.2s;
+  }
+  .stat:hover {
+    box-shadow: var(--select-glow);
   }
   .stat strong {
+    display: grid;
+    place-items: center;
+    padding: 1rem 0.5rem;
     font-family: var(--font-display);
-    font-size: 1.8rem;
-    color: var(--gold-bright);
+    font-size: 2rem;
     line-height: 1.2;
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    background:
+      radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.25), transparent 55%),
+      var(--r);
   }
   .stat span {
-    font-size: 0.8rem;
+    padding: 0.35rem;
+    text-align: center;
+    font-size: 0.78rem;
+    font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--muted);
+    color: var(--ink);
   }
   .type {
     font-family: var(--font-mono);

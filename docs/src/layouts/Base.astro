@@ -85,8 +85,20 @@ const path = Astro.url.pathname;
     z-index: 50;
     height: var(--header-h);
     border-bottom: 1px solid var(--border);
-    background: rgba(10, 14, 25, 0.72);
+    background: linear-gradient(180deg, rgba(30, 36, 51, 0.92), rgba(16, 21, 34, 0.86));
     backdrop-filter: blur(14px);
+  }
+  .site-header::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 9px;
+    height: 9px;
+    translate: -50% 0;
+    rotate: 45deg;
+    background: var(--gold);
+    box-shadow: 0 0 10px rgba(243, 226, 179, 0.6);
   }
   .inner {
     max-width: var(--content-w);
@@ -154,19 +166,23 @@ const path = Astro.url.pathname;
     letter-spacing: 0.1em;
     text-decoration: none;
     color: var(--muted);
-    padding: 0.45em 0.9em;
+    padding: 0.45em 1.1em;
     border-radius: 999px;
     border: 1px solid transparent;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
   }
   nav a:hover {
-    color: var(--gold-bright);
+    color: var(--cream);
+    background: rgba(236, 229, 216, 0.08);
   }
   nav a.active {
-    color: var(--gold-bright);
-    border-color: var(--border);
-    background: rgba(211, 188, 142, 0.08);
+    color: var(--ink);
+    background: var(--cream);
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 12px rgba(236, 229, 216, 0.25);
   }
   .site-footer {
+    position: relative;
     margin-top: 6rem;
     border-top: 1px solid var(--border);
     background: rgba(10, 14, 25, 0.6);

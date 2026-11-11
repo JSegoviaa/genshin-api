@@ -6,32 +6,47 @@ interface Props {
 const { title, tone = "info" } = Astro.props;
 ---
 
-<aside class:list={["callout", tone]}>
+<aside class:list={["callout parchment", tone]}>
   {title && <strong class="title">{title}</strong>}
   <div class="body"><slot /></div>
 </aside>
 
 <style>
   .callout {
-    --accent: var(--hydro);
-    margin: 1.5rem 0;
-    padding: 1rem 1.2rem;
-    border-radius: 8px;
-    border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
-    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    --accent: #3f86b5;
+    position: relative;
+    margin: 1.8rem 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.6);
   }
   .tip {
-    --accent: var(--dendro);
+    --accent: #5f8a2c;
   }
   .warning {
-    --accent: var(--pyro);
+    --accent: #c0612a;
   }
   .title {
-    display: block;
-    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    padding: 0.55rem 1.2rem;
     font-family: var(--font-display);
     letter-spacing: 0.06em;
-    color: var(--accent);
+    color: var(--cream);
+    background: linear-gradient(90deg, var(--ink), #4d5568);
+    border-bottom: 3px solid var(--accent);
+  }
+  .title::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: var(--accent);
+    clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%);
+    filter: brightness(1.6);
+  }
+  .body {
+    padding: 0.9rem 1.2rem 1rem;
   }
   .body :global(p:last-child) {
     margin-bottom: 0;
