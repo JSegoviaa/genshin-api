@@ -12,20 +12,20 @@
   "birthday": "01-06",
   "releaseDate": "2025-01-21",
   "releaseVersion": "5.3",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Clearwater Jade",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Gold-Inscribed Secret Source Core",
-    "weeklyBoss": "Eroded Sunfire",
+    "boss": "gold-inscribed-secret-source-core",
+    "weeklyBoss": "eroded-sunfire",
+    "localSpecialty": "clearwater-jade",
     "talent": [
-      "Teachings of Diligence",
-      "Guide to Diligence",
-      "Philosophies of Diligence"
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence"
     ],
     "common": [
-      "Whopperflower Nectar",
-      "Shimmering Nectar",
-      "Energy Nectar"
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
     ]
   },
   "constellations": [

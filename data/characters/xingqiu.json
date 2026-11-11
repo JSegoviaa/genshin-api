@@ -12,20 +12,20 @@
   "birthday": "10-09",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Silk Flower",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Cleansing Heart",
-    "weeklyBoss": "Tail of Boreas",
+    "boss": "cleansing-heart",
+    "weeklyBoss": "tail-of-boreas",
+    "localSpecialty": "silk-flower",
     "talent": [
-      "Teachings of Gold",
-      "Guide to Gold",
-      "Philosophies of Gold"
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
     ],
     "common": [
-      "Damaged Mask",
-      "Stained Mask",
-      "Ominous Mask"
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
     ]
   },
   "constellations": [

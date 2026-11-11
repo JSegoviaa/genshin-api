@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 264,
+  "id": 298,
   "slug": "movement-of-an-ancient-chord",
   "name": "Movement of an Ancient Chord",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "ancient-chords",
+  "region": null,
   "rarity": 4,
   "description": "In that great disaster, the golden palace sank with its throne, the music was shattered, the notes turned to silence...\nBut the remnants of that empire never gave up their desire for salvation and to surpass fate.\nTo save their waning civilization and their desire to transcend, the Golden Troupe played melodies most wondrous, enticing children to offer their precious souls to the sleeping golems.",
   "releaseVersion": "4.0",

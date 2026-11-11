@@ -30,20 +30,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "copper-talisman-of-the-forest-dew",
-      "iron-talisman-of-the-forest-dew",
-      "silver-talisman-of-the-forest-dew",
-      "golden-talisman-of-the-forest-dew",
-      "oasis-gardens-reminiscence",
-      "oasis-gardens-kindness",
-      "oasis-gardens-mourning",
-      "oasis-gardens-truth",
-      "echo-of-scorching-might",
-      "remnant-glow-of-scorching-might",
-      "dream-of-scorching-might",
-      "olden-days-of-scorching-might"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

@@ -12,20 +12,20 @@
   "birthday": "02-17",
   "releaseDate": "2026-02-25",
   "releaseVersion": "Luna V",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Wolfhook",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Prismatic Severed Tail",
-    "weeklyBoss": "Ascended Sample: Rook",
+    "boss": "prismatic-severed-tail",
+    "weeklyBoss": "ascended-sample-rook",
+    "localSpecialty": "wolfhook",
     "talent": [
-      "Teachings of Freedom",
-      "Guide to Freedom",
-      "Philosophies of Freedom"
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom"
     ],
     "common": [
-      "Broken Drive Shaft",
-      "Reinforced Drive Shaft",
-      "Precision Drive Shaft"
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
     ]
   },
   "constellations": [],

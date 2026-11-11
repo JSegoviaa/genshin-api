@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 143,
+  "id": 160,
   "slug": "philosophies-of-elegance",
   "name": "Philosophies of Elegance",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "elegance-books",
+  "region": null,
   "rarity": 4,
   "description": "Elegance is the form of the nation of thunder.\nElegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance — that is how one perceives the chasm between the elegant and the contemptuous.",
   "releaseVersion": "2.0",

@@ -5,7 +5,7 @@
   "name": "Royal Bow",
   "rarity": 4,
   "weaponType": "bow",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Royal Series"
   ],

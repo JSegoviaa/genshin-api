@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 301,
+  "id": 344,
   "slug": "locus-of-a-clear-will",
   "name": "Locus of a Clear Will",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "wayob-manifestation-materials",
+  "region": null,
   "rarity": 3,
   "description": "A jade idol that houses a Wayob Manifestation.\nYou can roughly make out the form of an idol figurine. It has a greater capacity for channeling the Wayob's will and power.",
   "releaseVersion": "5.0",

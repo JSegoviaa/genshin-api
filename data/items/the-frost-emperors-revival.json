@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 438,
+  "id": 496,
   "slug": "the-frost-emperors-revival",
   "name": "The Frost Emperor's Revival",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "the-frost-emperor",
+  "region": null,
   "rarity": 2,
   "description": "The hero who emerged from the snowfields had yet to become the ruler of that frozen realm, but even then, he had already shown a habit of confiding far too much to those around him.\nSo he was all the more surprised when he received a gift from the fae of snow, who at the time had not yet taken their human form.\nAs far as he knew, he never told them that he was born from an egg as pale as ice deep within the wing-like mountains, nor did he ever mention the date of his birth.",
   "releaseVersion": "7.0",

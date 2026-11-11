@@ -12,20 +12,20 @@
   "birthday": "01-24",
   "releaseDate": "2021-04-06",
   "releaseVersion": "1.4",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Valberry",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Hoarfrost Core",
-    "weeklyBoss": "Shadow of the Warrior",
+    "boss": "hoarfrost-core",
+    "weeklyBoss": "shadow-of-the-warrior",
+    "localSpecialty": "valberry",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

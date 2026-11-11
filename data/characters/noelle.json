@@ -12,20 +12,20 @@
   "birthday": "03-21",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "DEF",
-  "localSpecialty": "Valberry",
+  "ascensionStat": "def",
   "materials": {
-    "boss": "Basalt Pillar",
-    "weeklyBoss": "Dvalin's Claw",
+    "boss": "basalt-pillar",
+    "weeklyBoss": "dvalins-claw",
+    "localSpecialty": "valberry",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Damaged Mask",
-      "Stained Mask",
-      "Ominous Mask"
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
     ]
   },
   "constellations": [

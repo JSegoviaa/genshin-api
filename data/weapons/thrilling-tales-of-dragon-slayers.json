@@ -5,7 +5,7 @@
   "name": "Thrilling Tales of Dragon Slayers",
   "rarity": 3,
   "weaponType": "catalyst",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [],
   "materials": {
     "ascension": [

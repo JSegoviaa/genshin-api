@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 126,
+  "slug": "glaze-lily",
+  "name": "Glaze Lily",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "liyue",
+  "rarity": null,
+  "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/glaze-lily.webp"
+  }
+}

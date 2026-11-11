@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 428,
+  "id": 486,
   "slug": "guide-to-glory",
   "name": "Guide to Glory",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "glory-books",
+  "region": null,
   "rarity": 3,
   "description": "Glory is the sacred faith of the frozen realm.\nIt is an ember flickering in the deep night, a beacon upon which all who trek across the snowfields fix their gaze. Just as they are certain the blizzards will wane and the dawn will break, they are certain that the path they tread remains the true one.",
   "releaseVersion": "7.0",

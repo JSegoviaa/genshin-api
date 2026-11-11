@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 270,
+  "id": 304,
   "slug": "broken-goblet-of-the-pristine-sea",
   "name": "Broken Goblet of the Pristine Sea",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "goblets-of-the-pristine-sea",
+  "region": null,
   "rarity": 2,
   "description": "Legend says that when the first usurper came to the primordial sea, the first sovereign gave him a goblet of water.\nLater, he became the unquestioned god-king, and used this goblet of water to refine the mysterious drops of dew, establishing a splendid and powerful empire.\nBut that is now an ancient story, whose main characters now sleep in the phosphorescence of the schools of the deepwater fish.",
   "releaseVersion": "4.0",

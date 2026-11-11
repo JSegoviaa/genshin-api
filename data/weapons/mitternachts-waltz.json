@@ -5,7 +5,7 @@
   "name": "Mitternachts Waltz",
   "rarity": 4,
   "weaponType": "bow",
-  "secondaryStat": "Physical DMG Bonus",
+  "secondaryStat": "physical-dmg-bonus",
   "series": [],
   "materials": {
     "ascension": [

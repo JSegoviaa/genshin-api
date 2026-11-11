@@ -12,20 +12,20 @@
   "birthday": "05-21",
   "releaseDate": "2022-01-05",
   "releaseVersion": "2.4",
-  "ascensionStat": "Energy Recharge",
-  "localSpecialty": "Glaze Lily",
+  "ascensionStat": "energy-recharge",
   "materials": {
-    "boss": "Riftborn Regalia",
-    "weeklyBoss": "Ashen Heart",
+    "boss": "riftborn-regalia",
+    "weeklyBoss": "ashen-heart",
+    "localSpecialty": "glaze-lily",
     "talent": [
-      "Teachings of Diligence",
-      "Guide to Diligence",
-      "Philosophies of Diligence"
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence"
     ],
     "common": [
-      "Damaged Mask",
-      "Stained Mask",
-      "Ominous Mask"
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
     ]
   },
   "constellations": [

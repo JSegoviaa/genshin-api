@@ -3,8 +3,6 @@
   "id": 110,
   "slug": "il-dottore-materials",
   "name": "Il Dottore Materials",
-  "type": "character-level-up-materials",
-  "source": "weekly-boss-drops",
   "domain": null,
   "domainLevel": null,
   "images": {}

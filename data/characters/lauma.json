@@ -12,20 +12,20 @@
   "birthday": "03-01",
   "releaseDate": "2025-09-10",
   "releaseVersion": "Luna I",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Moonfall Silver",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Lightbearing Scale-Feather",
-    "weeklyBoss": "Eroded Scale-Feather",
+    "boss": "lightbearing-scale-feather",
+    "weeklyBoss": "eroded-scale-feather",
+    "localSpecialty": "moonfall-silver",
     "talent": [
-      "Teachings of Moonlight",
-      "Guide to Moonlight",
-      "Philosophies of Moonlight"
+      "teachings-of-moonlight",
+      "guide-to-moonlight",
+      "philosophies-of-moonlight"
     ],
     "common": [
-      "Tattered Warrant",
-      "Immaculate Warrant",
-      "Frost-Etched Warrant"
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
     ]
   },
   "constellations": [

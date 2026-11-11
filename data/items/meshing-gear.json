@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 241,
+  "id": 275,
   "slug": "meshing-gear",
   "name": "Meshing Gear",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "clockwork-meka-materials",
+  "region": null,
   "rarity": 1,
   "description": "Clockwork meka's gear.\nIt is a crucial part of the meka's transmission structure. The whole system will malfunction if this gear is absent.",
   "releaseVersion": "4.0",

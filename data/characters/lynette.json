@@ -12,20 +12,20 @@
   "birthday": "02-02",
   "releaseDate": "2023-08-16",
   "releaseVersion": "4.0",
-  "ascensionStat": "Anemo DMG Bonus",
-  "localSpecialty": "Lumidouce Bell",
+  "ascensionStat": "anemo-dmg-bonus",
   "materials": {
-    "boss": "Artificed Spare Clockwork Component — Coppelia",
-    "weeklyBoss": "Everamber",
+    "boss": "artificed-spare-clockwork-component-coppelia",
+    "weeklyBoss": "everamber",
+    "localSpecialty": "lumidouce-bell",
     "talent": [
-      "Teachings of Order",
-      "Guide to Order",
-      "Philosophies of Order"
+      "teachings-of-order",
+      "guide-to-order",
+      "philosophies-of-order"
     ],
     "common": [
-      "Meshing Gear",
-      "Mechanical Spur Gear",
-      "Artificed Dynamic Gear"
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
     ]
   },
   "constellations": [

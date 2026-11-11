@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 416,
+  "id": 474,
   "slug": "hollow-root-of-life",
   "name": "Hollow Root of Life",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "wildwood-leshy-materials",
+  "region": null,
   "rarity": 2,
   "description": "A branch dropped by a Leshy before it returned to silence.\nWith only a few crystals grown upon it, this branch holds little power and gives off a faint glow.",
   "releaseVersion": "7.0",

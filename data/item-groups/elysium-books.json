@@ -3,8 +3,6 @@
   "id": 102,
   "slug": "elysium-books",
   "name": "Elysium Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "lightless-capital",
   "domainLevel": "Shadowed Legacy",
   "images": {}

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 253,
+  "id": 287,
   "slug": "teachings-of-equity",
   "name": "Teachings of Equity",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "equity-books",
+  "region": null,
   "rarity": 2,
   "description": "The shore of the Nation of Water is equity.\nEquity sets boundaries on rights. Without equity, the rights granted by law will be abused, and become a tool to damage our virtuous customs.",
   "releaseVersion": "4.0",

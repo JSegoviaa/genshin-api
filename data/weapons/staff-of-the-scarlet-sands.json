@@ -5,7 +5,7 @@
   "name": "Staff of the Scarlet Sands",
   "rarity": 5,
   "weaponType": "polearm",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [
     "Deshret Series"
   ],

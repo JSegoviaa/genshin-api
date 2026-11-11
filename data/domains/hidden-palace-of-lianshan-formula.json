@@ -29,20 +29,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "luminous-sands-from-guyun",
-      "lustrous-stone-from-guyun",
-      "relic-from-guyun",
-      "divine-body-from-guyun",
-      "mist-veiled-lead-elixir",
-      "mist-veiled-mercury-elixir",
-      "mist-veiled-gold-elixir",
-      "mist-veiled-primo-elixir",
-      "grain-of-aerosiderite",
-      "piece-of-aerosiderite",
-      "bit-of-aerosiderite",
-      "chunk-of-aerosiderite"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

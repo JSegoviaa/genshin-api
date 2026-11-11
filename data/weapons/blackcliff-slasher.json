@@ -5,7 +5,7 @@
   "name": "Blackcliff Slasher",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [
     "Blackcliff Series"
   ],

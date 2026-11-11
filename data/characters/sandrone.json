@@ -12,20 +12,20 @@
   "birthday": "01-13",
   "releaseDate": "2026-07-01",
   "releaseVersion": "Luna VIII",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Subdetection Unit",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Plume of the Fallen Watcher",
-    "weeklyBoss": "Madman's Restraint",
+    "boss": "plume-of-the-fallen-watcher",
+    "weeklyBoss": "madmans-restraint",
+    "localSpecialty": "subdetection-unit",
     "talent": [
-      "Teachings of Vagrancy",
-      "Guide to Vagrancy",
-      "Philosophies of Vagrancy"
+      "teachings-of-vagrancy",
+      "guide-to-vagrancy",
+      "philosophies-of-vagrancy"
     ],
     "common": [
-      "Broken Drive Shaft",
-      "Reinforced Drive Shaft",
-      "Precision Drive Shaft"
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
     ]
   },
   "constellations": [],

@@ -5,7 +5,7 @@
   "name": "Breezeborne Refrain",
   "rarity": 4,
   "weaponType": "bow",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [],
   "materials": {
     "ascension": [

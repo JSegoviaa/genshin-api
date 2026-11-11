@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 385,
+  "slug": "withering-purpurbloom",
+  "name": "Withering Purpurbloom",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "A flower, the leaves and petals of which look scorched and withered, that can often be seen in places where ash abounds.",
+  "releaseVersion": "5.2",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/withering-purpurbloom.webp"
+  }
+}

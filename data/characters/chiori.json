@@ -12,20 +12,20 @@
   "birthday": "08-17",
   "releaseDate": "2024-03-12",
   "releaseVersion": "4.5",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Dendrobium",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Artificed Spare Clockwork Component — Coppelia",
-    "weeklyBoss": "Lightless Silk String",
+    "boss": "artificed-spare-clockwork-component-coppelia",
+    "weeklyBoss": "lightless-silk-string",
+    "localSpecialty": "dendrobium",
     "talent": [
-      "Teachings of Light",
-      "Guide to Light",
-      "Philosophies of Light"
+      "teachings-of-light",
+      "guide-to-light",
+      "philosophies-of-light"
     ],
     "common": [
-      "Spectral Husk",
-      "Spectral Heart",
-      "Spectral Nucleus"
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
     ]
   },
   "constellations": [

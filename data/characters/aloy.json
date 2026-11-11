@@ -12,20 +12,20 @@
   "birthday": "04-04",
   "releaseDate": "2021-09-01",
   "releaseVersion": "2.1",
-  "ascensionStat": "Cryo DMG Bonus",
-  "localSpecialty": "Crystal Marrow",
+  "ascensionStat": "cryo-dmg-bonus",
   "materials": {
-    "boss": "Crystalline Bloom",
-    "weeklyBoss": "Molten Moment",
+    "boss": "crystalline-bloom",
+    "weeklyBoss": "molten-moment",
+    "localSpecialty": "crystal-marrow",
     "talent": [
-      "Teachings of Freedom",
-      "Guide to Freedom",
-      "Philosophies of Freedom"
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom"
     ],
     "common": [
-      "Spectral Husk",
-      "Spectral Heart",
-      "Spectral Nucleus"
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
     ]
   },
   "constellations": [

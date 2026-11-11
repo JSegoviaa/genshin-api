@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 196,
+  "id": 221,
   "slug": "thunderclap-fruitcore",
   "name": "Thunderclap Fruitcore",
   "type": "character-level-up-materials",
   "source": "normal-boss-drops",
   "group": null,
+  "region": null,
   "rarity": 4,
   "description": "The core of an Electro Regisvine, wrapped in razor-sharp leaves, wantonly emits Electro energy.\nThe roaring energy rampaging deep within the earth is eager to pour out its rage, thus even tainting these unfortunate vines with its mania, causing them to wail and flail their branches frantically. One can hardly tell whether it longs for others to taste the pain of being continuosly electrocuted and charred or if it is struggling, looking forward to its inevitable doom.",
   "releaseVersion": "3.0",

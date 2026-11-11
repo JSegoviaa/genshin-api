@@ -3,8 +3,6 @@
   "id": 101,
   "slug": "moonlight-books",
   "name": "Moonlight Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "lightless-capital",
   "domainLevel": "Fallen City",
   "images": {}

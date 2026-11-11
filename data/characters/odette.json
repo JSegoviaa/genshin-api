@@ -12,20 +12,20 @@
   "birthday": "02-20",
   "releaseDate": "2026-08-12",
   "releaseVersion": "7.0",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Frostfairy Flower",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Unscorched Blossom Branch",
-    "weeklyBoss": "Twisted Withered Branch",
+    "boss": "unscorched-blossom-branch",
+    "weeklyBoss": "twisted-withered-branch",
+    "localSpecialty": "frostfairy-flower",
     "talent": [
-      "Teachings of Charity",
-      "Guide to Charity",
-      "Philosophies of Charity"
+      "teachings-of-charity",
+      "guide-to-charity",
+      "philosophies-of-charity"
     ],
     "common": [
-      "Ethereal Glimmershard",
-      "Ethereal Crystal",
-      "Ethereal Crystalscale Stone"
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone"
     ]
   },
   "constellations": [],

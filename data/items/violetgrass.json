@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 129,
+  "slug": "violetgrass",
+  "name": "Violetgrass",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "liyue",
+  "rarity": null,
+  "description": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/violetgrass.webp"
+  }
+}

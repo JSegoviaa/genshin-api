@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 118,
+  "slug": "wolfhook",
+  "name": "Wolfhook",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/wolfhook.webp"
+  }
+}

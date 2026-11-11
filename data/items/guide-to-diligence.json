@@ -6,6 +6,7 @@
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "diligence-books",
+  "region": null,
   "rarity": 3,
   "description": "Industriousness is the foundation of the land of Geo.\nIndustriousness is the catalyst that flows in the blood of the people of Liyue, able to turn rocks into gold.\nIt is what lies behind the greatness of its great commercial port.",
   "releaseVersion": "1.0",

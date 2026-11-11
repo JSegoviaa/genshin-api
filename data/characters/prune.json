@@ -12,20 +12,20 @@
   "birthday": "11-20",
   "releaseDate": "2026-05-20",
   "releaseVersion": "Luna VII",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Winter Icelea",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Radiant Antler",
-    "weeklyBoss": "Mask of the Virtuous Doctor",
+    "boss": "radiant-antler",
+    "weeklyBoss": "mask-of-the-virtuous-doctor",
+    "localSpecialty": "winter-icelea",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [],

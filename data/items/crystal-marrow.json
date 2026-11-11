@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 178,
+  "slug": "crystal-marrow",
+  "name": "Crystal Marrow",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+  "releaseVersion": "2.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/crystal-marrow.webp"
+  }
+}

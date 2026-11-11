@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "humanoid-ruin-machine-materials",
+  "region": null,
   "rarity": 2,
   "description": "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite.",
   "releaseVersion": "1.0",

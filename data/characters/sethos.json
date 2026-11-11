@@ -12,20 +12,20 @@
   "birthday": "05-31",
   "releaseDate": "2024-06-04",
   "releaseVersion": "4.7",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Trishiraite",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Cloudseam Scale",
-    "weeklyBoss": "Daka's Bell",
+    "boss": "cloudseam-scale",
+    "weeklyBoss": "dakas-bell",
+    "localSpecialty": "trishiraite",
     "talent": [
-      "Teachings of Praxis",
-      "Guide to Praxis",
-      "Philosophies of Praxis"
+      "teachings-of-praxis",
+      "guide-to-praxis",
+      "philosophies-of-praxis"
     ],
     "common": [
-      "Faded Red Satin",
-      "Trimmed Red Silk",
-      "Rich Red Brocade"
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
     ]
   },
   "constellations": [

@@ -5,7 +5,7 @@
   "name": "Wavebreaker's Fin",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Watatsumi Series"
   ],

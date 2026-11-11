@@ -3,8 +3,6 @@
   "id": 72,
   "slug": "order-books",
   "name": "Order Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "pale-forgotten-glory",
   "domainLevel": "Chiming Recitation",
   "images": {}

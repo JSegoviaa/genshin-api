@@ -5,7 +5,7 @@
   "name": "Footprint of the Rainbow",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "DEF",
+  "secondaryStat": "def",
   "series": [],
   "materials": {
     "ascension": [

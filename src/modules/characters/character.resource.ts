@@ -1,5 +1,5 @@
 import { defineResource, head } from "../../core/resource";
-import { slugify } from "../../core/slug";
+import { characterMaterials } from "../items/item.resource";
 import type { Item } from "../items/item.schema";
 import { characterSchema } from "./character.schema";
 
@@ -16,12 +16,12 @@ export const characterResource = defineResource({
     region: "regions",
     rarity: { resource: "rarities", key: "id" },
     releaseVersion: { resource: "versions", key: "name" },
-    localSpecialty: { resource: "local-specialties", key: "name" },
-    ascensionStat: { resource: "stats", key: "name" },
-    "materials.boss": { resource: "items", key: "name" },
-    "materials.weeklyBoss": { resource: "items", key: "name" },
-    "materials.talent": { resource: "items", key: "name" },
-    "materials.common": { resource: "items", key: "name" },
+    ascensionStat: "stats",
+    "materials.boss": "items",
+    "materials.weeklyBoss": "items",
+    "materials.localSpecialty": "items",
+    "materials.talent": "items",
+    "materials.common": "items",
   },
   filters: {
     rarity: {
@@ -39,7 +39,7 @@ export const characterResource = defineResource({
     },
     localSpecialty: {
       description: "Local specialty slug, e.g. silk-flower",
-      get: (c) => c.localSpecialty,
+      get: (c) => c.materials.localSpecialty,
     },
     ascensionStat: {
       description: "Ascension stat slug, e.g. crit-dmg",
@@ -49,14 +49,7 @@ export const characterResource = defineResource({
       description:
         "Item or item group slug used to ascend the character or level up talents, e.g. juvenile-jade or diligence-books",
       get: (c, lookup) => {
-        const slugs = [
-          c.materials.boss,
-          c.materials.weeklyBoss,
-          ...c.materials.talent,
-          ...c.materials.common,
-        ]
-          .filter((m): m is string => !!m)
-          .map(slugify);
+        const slugs = characterMaterials(c);
         const groups = lookup
           .all<Item>("items")
           .filter((i) => slugs.includes(i.slug) && i.group)
@@ -89,13 +82,13 @@ export const characterResource = defineResource({
     birthday: c.birthday,
     releaseDate: c.releaseDate,
     releaseVersion: ctx.refByName("versions", c.releaseVersion),
-    ascensionStat: ctx.refByName("stats", c.ascensionStat),
-    localSpecialty: ctx.refByName("local-specialties", c.localSpecialty),
+    ascensionStat: ctx.ref("stats", c.ascensionStat),
     materials: {
-      boss: ctx.refByName("items", c.materials.boss),
-      weeklyBoss: ctx.refByName("items", c.materials.weeklyBoss),
-      talent: c.materials.talent.map((m) => ctx.refByName("items", m)),
-      common: c.materials.common.map((m) => ctx.refByName("items", m)),
+      boss: ctx.ref("items", c.materials.boss),
+      weeklyBoss: ctx.ref("items", c.materials.weeklyBoss),
+      localSpecialty: ctx.ref("items", c.materials.localSpecialty),
+      talent: ctx.refs("items", c.materials.talent),
+      common: ctx.refs("items", c.materials.common),
     },
     constellations: c.constellations.map((k) => ({
       slug: k.slug,

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 395,
+  "slug": "dracolite",
+  "name": "Dracolite",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "Formed gradually in areas rich in Phlogiston, these red, scale-like crystals are blazing-hot to the touch.",
+  "releaseVersion": "5.5",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/dracolite.webp"
+  }
+}

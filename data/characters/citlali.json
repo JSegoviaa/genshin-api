@@ -12,20 +12,20 @@
   "birthday": "01-20",
   "releaseDate": "2025-01-01",
   "releaseVersion": "5.3",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Quenepa Berry",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Talisman of the Enigmatic Land",
-    "weeklyBoss": "Denial and Judgment",
+    "boss": "talisman-of-the-enigmatic-land",
+    "weeklyBoss": "denial-and-judgment",
+    "localSpecialty": "quenepa-berry",
     "talent": [
-      "Teachings of Kindling",
-      "Guide to Kindling",
-      "Philosophies of Kindling"
+      "teachings-of-kindling",
+      "guide-to-kindling",
+      "philosophies-of-kindling"
     ],
     "common": [
-      "Juvenile Fang",
-      "Seasoned Fang",
-      "Tyrant's Fang"
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
     ]
   },
   "constellations": [

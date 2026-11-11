@@ -3,8 +3,6 @@
   "id": 87,
   "slug": "kindling-books",
   "name": "Kindling Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "blazing-ruins",
   "domainLevel": "Myriad Illusions",
   "images": {}

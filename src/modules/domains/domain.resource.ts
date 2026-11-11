@@ -1,6 +1,6 @@
 import { defineResource, head } from "../../core/resource";
-import type { ItemGroup } from "../item-groups/item-group.schema";
 import type { Item } from "../items/item.schema";
+import { domainGroups, domainRewards } from "./domain-rewards";
 import { domainSchema } from "./domain.schema";
 
 export const domainResource = defineResource({
@@ -32,7 +32,10 @@ export const domainResource = defineResource({
     reward: {
       description:
         "Item or artifact set slug the domain rewards, e.g. teachings-of-freedom or crimson-witch-of-flames",
-      get: (d) => [...d.rewards.items, ...d.rewards.artifactSets],
+      get: (d, lookup) => [
+        ...domainRewards(d, lookup),
+        ...d.rewards.artifactSets,
+      ],
     },
     releaseVersion: {
       description: "Release version, e.g. 1.0 or luna-i",
@@ -48,10 +51,7 @@ export const domainResource = defineResource({
   }),
   detail: (d, ctx) => {
     const items = ctx.all<Item>("items");
-    const levels = ctx
-      .all<ItemGroup>("item-groups")
-      .filter((g) => g.domain === d.slug)
-      .map((g) => ({
+    const levels = domainGroups(d, ctx).map((g) => ({
         name: g.domainLevel,
         days:
           items.find((i) => i.group === g.slug && i.days.length)?.days ?? [],
@@ -67,7 +67,7 @@ export const domainResource = defineResource({
       tiers: d.tiers,
       levels,
       rewards: {
-        items: ctx.refs("items", d.rewards.items),
+        items: ctx.refs("items", domainRewards(d, ctx)),
         artifactSets: ctx.refs("artifact-sets", d.rewards.artifactSets),
       },
       enemies: ctx.refs("enemies", d.enemies),

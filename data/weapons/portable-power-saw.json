@@ -5,7 +5,7 @@
   "name": "Portable Power Saw",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [
     "Construction Series"
   ],

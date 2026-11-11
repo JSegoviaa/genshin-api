@@ -5,7 +5,7 @@
   "name": "Festering Desire",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [],
   "materials": {
     "ascension": [

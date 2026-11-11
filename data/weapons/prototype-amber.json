@@ -5,7 +5,7 @@
   "name": "Prototype Amber",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [
     "Prototype Series"
   ],

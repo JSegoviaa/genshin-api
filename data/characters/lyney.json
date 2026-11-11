@@ -12,20 +12,20 @@
   "birthday": "02-02",
   "releaseDate": "2023-08-16",
   "releaseVersion": "4.0",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Rainbow Rose",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Emperor's Resolution",
-    "weeklyBoss": "Primordial Greenbloom",
+    "boss": "emperors-resolution",
+    "weeklyBoss": "primordial-greenbloom",
+    "localSpecialty": "rainbow-rose",
     "talent": [
-      "Teachings of Equity",
-      "Guide to Equity",
-      "Philosophies of Equity"
+      "teachings-of-equity",
+      "guide-to-equity",
+      "philosophies-of-equity"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

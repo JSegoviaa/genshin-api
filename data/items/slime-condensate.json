@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "slime-materials",
+  "region": null,
   "rarity": 1,
   "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
   "releaseVersion": "1.0",

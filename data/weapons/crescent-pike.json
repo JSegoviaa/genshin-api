@@ -5,7 +5,7 @@
   "name": "Crescent Pike",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "Physical DMG Bonus",
+  "secondaryStat": "physical-dmg-bonus",
   "series": [
     "Infusion Series"
   ],

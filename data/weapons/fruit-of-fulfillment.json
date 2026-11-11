@@ -5,7 +5,7 @@
   "name": "Fruit of Fulfillment",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Aranara Series"
   ],

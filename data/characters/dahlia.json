@@ -12,20 +12,20 @@
   "birthday": "05-25",
   "releaseDate": "2025-06-18",
   "releaseVersion": "5.7",
-  "ascensionStat": "HP",
-  "localSpecialty": "Calla Lily",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Secret Source Airflow Accumulator",
-    "weeklyBoss": "Eroded Scale-Feather",
+    "boss": "secret-source-airflow-accumulator",
+    "weeklyBoss": "eroded-scale-feather",
+    "localSpecialty": "calla-lily",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Firm Arrowhead",
-      "Sharp Arrowhead",
-      "Weathered Arrowhead"
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
     ]
   },
   "constellations": [

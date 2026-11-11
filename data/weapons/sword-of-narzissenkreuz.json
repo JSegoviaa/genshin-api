@@ -5,7 +5,7 @@
   "name": "Sword of Narzissenkreuz",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [],
   "materials": {
     "ascension": [

@@ -6,7 +6,7 @@ export const weaponSchema = z
     ...base,
     rarity,
     weaponType: ref,
-    secondaryStat: label.nullable(),
+    secondaryStat: ref.nullable(),
     series: z.array(label),
     materials: z
       .object({

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 329,
+  "slug": "clearwater-jade",
+  "name": "Clearwater Jade",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "liyue",
+  "rarity": null,
+  "description": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+  "releaseVersion": "4.4",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/clearwater-jade.webp"
+  }
+}

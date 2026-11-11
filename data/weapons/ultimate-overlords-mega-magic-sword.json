@@ -5,7 +5,7 @@
   "name": "\"Ultimate Overlord's Mega Magic Sword\"",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [],
   "materials": {
     "ascension": [

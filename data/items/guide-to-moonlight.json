@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 367,
+  "id": 418,
   "slug": "guide-to-moonlight",
   "name": "Guide to Moonlight",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "moonlight-books",
+  "region": null,
   "rarity": 3,
   "description": "\"Moonlight\" is the blessing of the land beneath the moon.\nThe cloud-veiled moonlight glows but faintly over the boundless dark wilds. Yet its fragile glimmer is a guide through the endless night.",
   "releaseVersion": "Luna I",

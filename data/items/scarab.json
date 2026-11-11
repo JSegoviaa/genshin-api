@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 253,
+  "slug": "scarab",
+  "name": "Scarab",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+  "releaseVersion": "3.1",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/scarab.webp"
+  }
+}

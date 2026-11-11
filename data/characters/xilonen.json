@@ -12,20 +12,20 @@
   "birthday": "03-13",
   "releaseDate": "2024-10-08",
   "releaseVersion": "5.1",
-  "ascensionStat": "DEF",
-  "localSpecialty": "Brilliant Chrysanthemum\t",
+  "ascensionStat": "def",
   "materials": {
-    "boss": "Gold-Inscribed Secret Source Core",
-    "weeklyBoss": "Mirror of Mushin",
+    "boss": "gold-inscribed-secret-source-core",
+    "weeklyBoss": "mirror-of-mushin",
+    "localSpecialty": "brilliant-chrysanthemum",
     "talent": [
-      "Teachings of Kindling",
-      "Guide to Kindling",
-      "Philosophies of Kindling"
+      "teachings-of-kindling",
+      "guide-to-kindling",
+      "philosophies-of-kindling"
     ],
     "common": [
-      "Sentry's Wooden Whistle",
-      "Warrior's Metal Whistle",
-      "Saurian-Crowned Warrior's Golden Whistle"
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
     ]
   },
   "constellations": [

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 179,
+  "slug": "dendrobium",
+  "name": "Dendrobium",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
+  "releaseVersion": "2.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/dendrobium.webp"
+  }
+}

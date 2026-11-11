@@ -5,7 +5,7 @@
   "name": "Halberd",
   "rarity": 3,
   "weaponType": "polearm",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [],
   "materials": {
     "ascension": [

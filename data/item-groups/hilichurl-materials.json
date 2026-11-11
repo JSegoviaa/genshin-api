@@ -3,8 +3,6 @@
   "id": 2,
   "slug": "hilichurl-materials",
   "name": "Hilichurl Materials",
-  "type": "character-and-weapon-enhancement-materials",
-  "source": "general-enemy-drops",
   "domain": null,
   "domainLevel": null,
   "images": {}

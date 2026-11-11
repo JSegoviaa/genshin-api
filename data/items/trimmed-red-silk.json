@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 183,
+  "id": 208,
   "slug": "trimmed-red-silk",
   "name": "Trimmed Red Silk",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "the-eremites-materials",
+  "region": null,
   "rarity": 2,
   "description": "A piece of red silk trimmed with simple decorations.\nA seasoned warrior can detect weaknesses from their foe's eyes and thus take advantage. The Eremites have long since lost a master to serve, and now they have no one to trust but themselves. Word has it that they are more than convinced that all things betray, even their own eyes.",
   "releaseVersion": "3.0",

@@ -12,20 +12,20 @@
   "birthday": "11-26",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Anemo DMG Bonus",
-  "localSpecialty": "Windwheel Aster",
+  "ascensionStat": "anemo-dmg-bonus",
   "materials": {
-    "boss": "Hurricane Seed",
-    "weeklyBoss": "Spirit Locket of Boreas",
+    "boss": "hurricane-seed",
+    "weeklyBoss": "spirit-locket-of-boreas",
+    "localSpecialty": "windwheel-aster",
     "talent": [
-      "Teachings of Freedom",
-      "Guide to Freedom",
-      "Philosophies of Freedom"
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom"
     ],
     "common": [
-      "Whopperflower Nectar",
-      "Shimmering Nectar",
-      "Energy Nectar"
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
     ]
   },
   "constellations": [

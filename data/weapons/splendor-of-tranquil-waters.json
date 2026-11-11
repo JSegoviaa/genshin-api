@@ -5,7 +5,7 @@
   "name": "Splendor of Tranquil Waters",
   "rarity": 5,
   "weaponType": "sword",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

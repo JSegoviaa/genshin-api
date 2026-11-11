@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 128,
+  "slug": "starconch",
+  "name": "Starconch",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "liyue",
+  "rarity": null,
+  "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/starconch.webp"
+  }
+}

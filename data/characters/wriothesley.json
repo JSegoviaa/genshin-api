@@ -12,20 +12,20 @@
   "birthday": "11-23",
   "releaseDate": "2023-10-17",
   "releaseVersion": "4.1",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Subdetection Unit",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "\"Tourbillon Device\"",
-    "weeklyBoss": "Primordial Greenbloom",
+    "boss": "tourbillon-device",
+    "weeklyBoss": "primordial-greenbloom",
+    "localSpecialty": "subdetection-unit",
     "talent": [
-      "Teachings of Order",
-      "Guide to Order",
-      "Philosophies of Order"
+      "teachings-of-order",
+      "guide-to-order",
+      "philosophies-of-order"
     ],
     "common": [
-      "Meshing Gear",
-      "Mechanical Spur Gear",
-      "Artificed Dynamic Gear"
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
     ]
   },
   "constellations": [

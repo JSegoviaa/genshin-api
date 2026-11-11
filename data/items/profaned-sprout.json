@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 403,
+  "id": 460,
   "slug": "profaned-sprout",
   "name": "Profaned Sprout",
   "type": "character-level-up-materials",
   "source": "weekly-boss-drops",
   "group": "il-dottore-materials",
+  "region": null,
   "rarity": 5,
   "description": "A sprig recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nWhat should have been a bud of hope has now become a beacon of profanation. Through its spreading veins, the sinful tree continues to climb toward the sky.",
   "releaseVersion": "Luna VII",

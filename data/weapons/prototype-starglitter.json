@@ -5,7 +5,7 @@
   "name": "Prototype Starglitter",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Prototype Series"
   ],

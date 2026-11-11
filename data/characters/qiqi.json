@@ -12,20 +12,20 @@
   "birthday": "03-03",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Healing Bonus",
-  "localSpecialty": "Violetgrass",
+  "ascensionStat": "healing-bonus",
   "materials": {
-    "boss": "Hoarfrost Core",
-    "weeklyBoss": "Tail of Boreas",
+    "boss": "hoarfrost-core",
+    "weeklyBoss": "tail-of-boreas",
+    "localSpecialty": "violetgrass",
     "talent": [
-      "Teachings of Prosperity",
-      "Guide to Prosperity",
-      "Philosophies of Prosperity"
+      "teachings-of-prosperity",
+      "guide-to-prosperity",
+      "philosophies-of-prosperity"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

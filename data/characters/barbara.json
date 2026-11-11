@@ -12,20 +12,20 @@
   "birthday": "07-05",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "HP",
-  "localSpecialty": "Philanemo Mushroom",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Cleansing Heart",
-    "weeklyBoss": "Ring of Boreas",
+    "boss": "cleansing-heart",
+    "weeklyBoss": "ring-of-boreas",
+    "localSpecialty": "philanemo-mushroom",
     "talent": [
-      "Teachings of Freedom",
-      "Guide to Freedom",
-      "Philosophies of Freedom"
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

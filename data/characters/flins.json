@@ -12,20 +12,20 @@
   "birthday": "10-31",
   "releaseDate": "2025-09-30",
   "releaseVersion": "Luna I",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Frostlamp Flower",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Precision Kuuvahki Stamping Die",
-    "weeklyBoss": "Ascended Sample: Queen",
+    "boss": "precision-kuuvahki-stamping-die",
+    "weeklyBoss": "ascended-sample-queen",
+    "localSpecialty": "frostlamp-flower",
     "talent": [
-      "Teachings of Vagrancy",
-      "Guide to Vagrancy",
-      "Philosophies of Vagrancy"
+      "teachings-of-vagrancy",
+      "guide-to-vagrancy",
+      "philosophies-of-vagrancy"
     ],
     "common": [
-      "Broken Drive Shaft",
-      "Reinforced Drive Shaft",
-      "Precision Drive Shaft"
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
     ]
   },
   "constellations": [

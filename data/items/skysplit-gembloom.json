@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 394,
+  "slug": "skysplit-gembloom",
+  "name": "Skysplit Gembloom",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "A strange plant whose flower's exterior resembles stone. Only in bloom does it reveal a resplendent, crystal-like core.",
+  "releaseVersion": "5.5",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/skysplit-gembloom.webp"
+  }
+}

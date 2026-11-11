@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 252,
+  "slug": "henna-berry",
+  "name": "Henna Berry",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
+  "releaseVersion": "3.1",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/henna-berry.webp"
+  }
+}

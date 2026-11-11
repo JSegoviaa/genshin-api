@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 284,
+  "id": 326,
   "slug": "lunar-fin",
   "name": "Lunar Fin",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "xuanwen-beast-materials",
+  "region": null,
   "rarity": 3,
   "description": "A fin taken from a defeated Xuanwen Beast's back.\nThe soft, moonlight-esque glow on the fin gives off a sense of serenity.",
   "releaseVersion": "4.4",

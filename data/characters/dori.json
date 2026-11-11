@@ -12,20 +12,20 @@
   "birthday": "12-21",
   "releaseDate": "2022-09-09",
   "releaseVersion": "3.0",
-  "ascensionStat": "HP",
-  "localSpecialty": "Kalpalata Lotus",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Thunderclap Fruitcore",
-    "weeklyBoss": "Bloodjade Branch",
+    "boss": "thunderclap-fruitcore",
+    "weeklyBoss": "bloodjade-branch",
+    "localSpecialty": "kalpalata-lotus",
     "talent": [
-      "Teachings of Ingenuity",
-      "Guide to Ingenuity",
-      "Philosophies of Ingenuity"
+      "teachings-of-ingenuity",
+      "guide-to-ingenuity",
+      "philosophies-of-ingenuity"
     ],
     "common": [
-      "Faded Red Satin",
-      "Trimmed Red Silk",
-      "Rich Red Brocade"
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
     ]
   },
   "constellations": [

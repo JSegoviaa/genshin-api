@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 397,
+  "id": 453,
   "slug": "faded-flaming-hilt",
   "name": "Faded Flaming Hilt",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "domain-keeper-materials",
+  "region": null,
   "rarity": 2,
   "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper.\nA sword of blazing fire was once the symbol of protection. Empowered by the authority of \"Space,\" it sealed the boundary between eternity and ephemera.",
   "releaseVersion": "Luna VI",

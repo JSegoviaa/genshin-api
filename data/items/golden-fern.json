@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 502,
+  "slug": "golden-fern",
+  "name": "Golden Fern",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "snezhnaya",
+  "rarity": null,
+  "description": "A fern whose edges radiate a faint golden shimmer. It is said to take on a remarkably unique flavor when stewed.",
+  "releaseVersion": "7.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/golden-fern.webp"
+  }
+}

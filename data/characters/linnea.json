@@ -12,20 +12,20 @@
   "birthday": "05-23",
   "releaseDate": "2026-04-08",
   "releaseVersion": "Luna VI",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Etherwing Moth",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Plume of the Fallen Watcher",
-    "weeklyBoss": "Elixir of the Heretic",
+    "boss": "plume-of-the-fallen-watcher",
+    "weeklyBoss": "elixir-of-the-heretic",
+    "localSpecialty": "etherwing-moth",
     "talent": [
-      "Teachings of Vagrancy",
-      "Guide to Vagrancy",
-      "Philosophies of Vagrancy"
+      "teachings-of-vagrancy",
+      "guide-to-vagrancy",
+      "philosophies-of-vagrancy"
     ],
     "common": [
-      "Tattered Warrant",
-      "Immaculate Warrant",
-      "Frost-Etched Warrant"
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
     ]
   },
   "constellations": [],

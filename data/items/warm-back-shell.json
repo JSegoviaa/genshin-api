@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 342,
+  "id": 391,
   "slug": "warm-back-shell",
   "name": "Warm Back-Shell",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "furnace-shell-mountain-weasel-materials",
+  "region": null,
   "rarity": 3,
   "description": "A portion of shell removed from a Furnace Shell Mountain Weasel's back after its defeat.\nFurnace Shell Mountain Weasels accumulate Phlogiston in their shells from feeding to be used in emergencies. The sight of them blazing fiery trails over the Sacred Mountain has not been seen since ancient times.",
   "releaseVersion": "5.5",

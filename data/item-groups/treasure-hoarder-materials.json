@@ -3,8 +3,6 @@
   "id": 6,
   "slug": "treasure-hoarder-materials",
   "name": "Treasure Hoarder Materials",
-  "type": "character-and-weapon-enhancement-materials",
-  "source": "general-enemy-drops",
   "domain": null,
   "domainLevel": null,
   "images": {}

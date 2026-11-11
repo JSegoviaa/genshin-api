@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 417,
+  "id": 475,
   "slug": "sprout-node-of-life",
   "name": "Sprout Node of Life",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "wildwood-leshy-materials",
+  "region": null,
   "rarity": 3,
   "description": "A branch dropped by a Leshy before it returned to silence.\nA branch bearing a fair number of crystals. It feels heavy in the hand, and traces of vitality can still be felt within it even after it has broken away from the Leshy's body.",
   "releaseVersion": "7.0",

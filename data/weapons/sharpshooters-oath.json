@@ -5,7 +5,7 @@
   "name": "Sharpshooter's Oath",
   "rarity": 3,
   "weaponType": "bow",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

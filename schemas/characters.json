@@ -87,18 +87,7 @@
       "anyOf": [
         {
           "type": "string",
-          "minLength": 1
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "localSpecialty": {
-      "anyOf": [
-        {
-          "type": "string",
-          "minLength": 1
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
         },
         {
           "type": "null"
@@ -112,7 +101,7 @@
           "anyOf": [
             {
               "type": "string",
-              "minLength": 1
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
             },
             {
               "type": "null"
@@ -123,7 +112,18 @@
           "anyOf": [
             {
               "type": "string",
-              "minLength": 1
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "localSpecialty": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
             },
             {
               "type": "null"
@@ -134,20 +134,21 @@
           "type": "array",
           "items": {
             "type": "string",
-            "minLength": 1
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
           }
         },
         "common": {
           "type": "array",
           "items": {
             "type": "string",
-            "minLength": 1
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
           }
         }
       },
       "required": [
         "boss",
         "weeklyBoss",
+        "localSpecialty",
         "talent",
         "common"
       ],
@@ -272,7 +273,6 @@
     "releaseDate",
     "releaseVersion",
     "ascensionStat",
-    "localSpecialty",
     "materials",
     "constellations",
     "images"

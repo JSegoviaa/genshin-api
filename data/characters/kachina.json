@@ -12,20 +12,20 @@
   "birthday": "04-22",
   "releaseDate": "2024-08-27",
   "releaseVersion": "5.0",
-  "ascensionStat": "Geo DMG Bonus",
-  "localSpecialty": "Quenepa Berry",
+  "ascensionStat": "geo-dmg-bonus",
   "materials": {
-    "boss": "Overripe Flamegranate",
-    "weeklyBoss": "Fading Candle",
+    "boss": "overripe-flamegranate",
+    "weeklyBoss": "fading-candle",
+    "localSpecialty": "quenepa-berry",
     "talent": [
-      "Teachings of Conflict",
-      "Guide to Conflict",
-      "Philosophies of Conflict"
+      "teachings-of-conflict",
+      "guide-to-conflict",
+      "philosophies-of-conflict"
     ],
     "common": [
-      "Sentry's Wooden Whistle",
-      "Warrior's Metal Whistle",
-      "Saurian-Crowned Warrior's Golden Whistle"
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
     ]
   },
   "constellations": [

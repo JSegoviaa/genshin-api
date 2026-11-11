@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 292,
+  "id": 335,
   "slug": "silken-feather",
   "name": "Silken Feather",
   "type": "character-level-up-materials",
   "source": "weekly-boss-drops",
   "group": "the-knave-materials",
+  "region": null,
   "rarity": 5,
   "description": "A crystal that you picked up in the ruins after completing the duel against The Knave.\nThe already-cooled blood and fire still maintain the shape of a feather, that is framed with solidified sleek black threads.\nBefore their thoughts have matured, young children are reliant on the meticulous care of their parents, just as fledglings need the aegis of an adult wing.\nIt is to fulfill such wishes that \"Father\" wove dangerous spider-silk into a facsimile of feathers, that she might grant her family some warmth.",
   "releaseVersion": "4.6",

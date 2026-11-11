@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 268,
+  "id": 302,
   "slug": "spring-of-pure-sacred-dewdrop",
   "name": "Spring of Pure Sacred Dewdrop",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "sacred-dewdrops",
+  "region": null,
   "rarity": 4,
   "description": "This is a relic from a time when the Lochknights still roamed — the knights said, there were still loyal spirits in the mountain springs and valleys where none tread, guarding those pure, unpolluted springs...",
   "releaseVersion": "4.0",

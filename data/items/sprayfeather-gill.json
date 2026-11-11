@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 375,
+  "slug": "sprayfeather-gill",
+  "name": "Sprayfeather Gill",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
+  "releaseVersion": "5.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/sprayfeather-gill.webp"
+  }
+}

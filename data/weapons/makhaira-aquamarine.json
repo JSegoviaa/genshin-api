@@ -5,7 +5,7 @@
   "name": "Makhaira Aquamarine",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "TulayTullah Series"
   ],

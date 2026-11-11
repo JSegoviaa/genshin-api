@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 431,
+  "id": 489,
   "slug": "muster-of-the-pale-star-army",
   "name": "Muster of the Pale Star Army",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "pale-star-army",
+  "region": null,
   "rarity": 3,
   "description": "\"They seized the canyon by sheer luck. That laughably arrogant fool is no more than a spent bolt, a fading gale.\"\n\"Even with all their strength, they can barely hold back a fraction of our forces. Soon enough, their defeat will be plain to see.\"\n\"Soldiers, march onward! For our king has already foretold, for this entire campaign shall end in effortless victory!\"",
   "releaseVersion": "7.0",

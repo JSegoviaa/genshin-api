@@ -12,20 +12,20 @@
   "birthday": "01-10",
   "releaseDate": "2024-01-09",
   "releaseVersion": "4.3",
-  "ascensionStat": "HP",
-  "localSpecialty": "Lumidouce Bell",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Fontemer Unihorn",
-    "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "boss": "fontemer-unihorn",
+    "weeklyBoss": "lightless-eye-of-the-maelstrom",
+    "localSpecialty": "lumidouce-bell",
     "talent": [
-      "Teachings of Order",
-      "Guide to Order",
-      "Philosophies of Order"
+      "teachings-of-order",
+      "guide-to-order",
+      "philosophies-of-order"
     ],
     "common": [
-      "Meshing Gear",
-      "Mechanical Spur Gear",
-      "Artificed Dynamic Gear"
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
     ]
   },
   "constellations": [

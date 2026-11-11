@@ -6,6 +6,7 @@
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "elixirs",
+  "region": null,
   "rarity": 2,
   "description": "Jueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Alchemy, Sigils, and Sub-Space Creation.",
   "releaseVersion": "1.0",

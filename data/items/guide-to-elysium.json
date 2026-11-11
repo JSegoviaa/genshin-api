@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 370,
+  "id": 421,
   "slug": "guide-to-elysium",
   "name": "Guide to Elysium",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "elysium-books",
+  "region": null,
   "rarity": 3,
   "description": "\"Elysium\" is the dream of the land beneath the moon.\nTo create a paradise without borders or distinctions upon a land overflowing with bitterness and sorrow — though it might be but a childish delusion, it may yet be a foundation for the future.",
   "releaseVersion": "Luna I",

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 309,
+  "slug": "romaritime-flower",
+  "name": "Romaritime Flower",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "fontaine",
+  "rarity": null,
+  "description": "An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities.",
+  "releaseVersion": "4.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/romaritime-flower.webp"
+  }
+}

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 351,
+  "id": 402,
   "slug": "precision-drive-shaft",
   "name": "Precision Drive Shaft",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "landcruiser-materials",
+  "region": null,
   "rarity": 3,
   "description": "The drive shaft of a Landcruiser refined by the Design Bureau.\nOn the blueprints drawn by the engineers of the north, this unassuming part was once the flawless embodiment of glory and technological advancement, its small metal body encapsulating the wisdom of countless generations. Now it lies in the cold dirt, waiting to be recycled once more.",
   "releaseVersion": "Luna I",

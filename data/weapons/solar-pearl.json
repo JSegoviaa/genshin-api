@@ -5,7 +5,7 @@
   "name": "Solar Pearl",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [
     "Kunwu Series",
     "Gnostic Hymn 1 Series"

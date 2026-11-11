@@ -12,20 +12,20 @@
   "birthday": "01-03",
   "releaseDate": "2022-12-07",
   "releaseVersion": "3.3",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Rukkhashava Mushrooms",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Perpetual Caliber",
-    "weeklyBoss": "Daka's Bell",
+    "boss": "perpetual-caliber",
+    "weeklyBoss": "dakas-bell",
+    "localSpecialty": "rukkhashava-mushrooms",
     "talent": [
-      "Teachings of Praxis",
-      "Guide to Praxis",
-      "Philosophies of Praxis"
+      "teachings-of-praxis",
+      "guide-to-praxis",
+      "philosophies-of-praxis"
     ],
     "common": [
-      "Old Handguard",
-      "Kageuchi Handguard",
-      "Famed Handguard"
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
     ]
   },
   "constellations": [

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 244,
+  "slug": "padisarah",
+  "name": "Padisarah",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+  "releaseVersion": "3.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/padisarah.webp"
+  }
+}

@@ -12,20 +12,20 @@
   "birthday": "05-27",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Small Lamp Grass",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Lightning Prism",
-    "weeklyBoss": "Spirit Locket of Boreas",
+    "boss": "lightning-prism",
+    "weeklyBoss": "spirit-locket-of-boreas",
+    "localSpecialty": "small-lamp-grass",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Firm Arrowhead",
-      "Sharp Arrowhead",
-      "Weathered Arrowhead"
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
     ]
   },
   "constellations": [

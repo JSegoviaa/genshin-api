@@ -12,20 +12,20 @@
   "birthday": "08-28",
   "releaseDate": "2025-01-01",
   "releaseVersion": "5.3",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Withering Purpurbloom",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Gold-Inscribed Secret Source Core",
-    "weeklyBoss": "Eroded Horn",
+    "boss": "gold-inscribed-secret-source-core",
+    "weeklyBoss": "eroded-horn",
+    "localSpecialty": "withering-purpurbloom",
     "talent": [
-      "Teachings of Contention",
-      "Guide to Contention",
-      "Philosophies of Contention"
+      "teachings-of-contention",
+      "guide-to-contention",
+      "philosophies-of-contention"
     ],
     "common": [
-      "Sentry's Wooden Whistle",
-      "Warrior's Metal Whistle",
-      "Saurian-Crowned Warrior's Golden Whistle"
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
     ]
   },
   "constellations": [

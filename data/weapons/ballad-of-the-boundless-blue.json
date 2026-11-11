@@ -5,7 +5,7 @@
   "name": "Ballad of the Boundless Blue",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [],
   "materials": {
     "ascension": [

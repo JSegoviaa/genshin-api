@@ -5,7 +5,7 @@
   "name": "Dawning Frost",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

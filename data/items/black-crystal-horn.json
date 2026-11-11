@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "mitachurl-materials",
+  "region": null,
   "rarity": 4,
   "description": "A metallic horn with an ominous shine decorated with black crystals of an unknown source. It has hardly been used at all. It is likely a ceremonial item of the hilichurls'.",
   "releaseVersion": "1.0",

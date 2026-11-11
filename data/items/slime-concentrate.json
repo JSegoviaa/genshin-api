@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "slime-materials",
+  "region": null,
   "rarity": 3,
   "description": "Concentrated slime essence. When left alone, it will begin to move on its own.",
   "releaseVersion": "1.0",

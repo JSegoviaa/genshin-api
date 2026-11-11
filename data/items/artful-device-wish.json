@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 378,
+  "id": 429,
   "slug": "artful-device-wish",
   "name": "Artful Device Wish",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "artful-devices",
+  "region": null,
   "rarity": 5,
   "description": "\"The poor, the starving, the wretched, the oppressed! My exiled brothers and sisters!\"\n\"If you, too, have tasted indignities at the cruel hands of fate! If you, too, have wept in the night at the plight of your neighbors!\"\n\"If you, too, have longed for a shelter from fear! If you, too, have dreamed of a world where no tears are shed!\"\n\"Then join us, your brothers and sisters, in breaking the chains of slavery!\"\n\"Let the dead bury the dead, for you will rise up, and with the treasures of the haughty, we will build an Elysium without boundaries!\"",
   "releaseVersion": "Luna I",

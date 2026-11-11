@@ -12,20 +12,20 @@
   "birthday": "09-21",
   "releaseDate": "2025-09-10",
   "releaseVersion": "Luna I",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Portable Bearing",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Precision Kuuvahki Stamping Die",
-    "weeklyBoss": "Silken Feather",
+    "boss": "precision-kuuvahki-stamping-die",
+    "weeklyBoss": "silken-feather",
+    "localSpecialty": "portable-bearing",
     "talent": [
-      "Teachings of Elysium",
-      "Guide to Elysium",
-      "Philosophies of Elysium"
+      "teachings-of-elysium",
+      "guide-to-elysium",
+      "philosophies-of-elysium"
     ],
     "common": [
-      "Broken Drive Shaft",
-      "Reinforced Drive Shaft",
-      "Precision Drive Shaft"
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
     ]
   },
   "constellations": [

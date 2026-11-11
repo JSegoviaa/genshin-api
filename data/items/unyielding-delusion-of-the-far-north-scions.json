@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 384,
+  "id": 435,
   "slug": "unyielding-delusion-of-the-far-north-scions",
   "name": "Unyielding Delusion of the Far-North Scions",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "the-far-north-scions",
+  "region": null,
   "rarity": 3,
   "description": "The grand city of gold and white stone was no more. Following the moonlight's pale guidance, its exiled inhabitants wandered to a desolate foreign land.\nThe glory and prowess of the past had dried up like morning dew, yet the earliest delusion still flowed beneath the skin of the proud, unlike the graves now lost to time.\nLike farmers breeding their crops, the Archpriestesses who served the moonlight, for generation after generation, selected the purest bloodlines closest to their progenitors, no matter the cost...",
   "releaseVersion": "Luna I",

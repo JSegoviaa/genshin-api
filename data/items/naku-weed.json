@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 180,
+  "slug": "naku-weed",
+  "name": "Naku Weed",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
+  "releaseVersion": "2.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/naku-weed.webp"
+  }
+}

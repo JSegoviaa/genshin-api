@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 133,
+  "slug": "cor-lapis",
+  "name": "Cor Lapis",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "liyue",
+  "rarity": null,
+  "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/cor-lapis.webp"
+  }
+}

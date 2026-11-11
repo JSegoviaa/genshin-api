@@ -5,7 +5,7 @@
   "name": "Mistsplitter Reforged",
   "rarity": 5,
   "weaponType": "sword",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [
     "Inazuma Series"
   ],

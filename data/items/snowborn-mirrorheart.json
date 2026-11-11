@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 444,
+  "id": 505,
   "slug": "snowborn-mirrorheart",
   "name": "Snowborn Mirrorheart",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "mindless-iceborn-materials",
+  "region": null,
   "rarity": 3,
   "description": "A remnant left behind when a monster formed from ice and snow fades away.\nFor reasons unknown, the creature possesses no intelligence with which to communicate, yet bears a fierce hostility toward certain targets. It is as though that hatred was etched into its very being the moment it took form.",
   "releaseVersion": "7.2",

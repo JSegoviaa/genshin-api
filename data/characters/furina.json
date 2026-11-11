@@ -12,20 +12,20 @@
   "birthday": "10-13",
   "releaseDate": "2023-11-08",
   "releaseVersion": "4.2",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Lakelight Lily",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Water That Failed To Transcend",
-    "weeklyBoss": "Lightless Mass",
+    "boss": "water-that-failed-to-transcend",
+    "weeklyBoss": "lightless-mass",
+    "localSpecialty": "lakelight-lily",
     "talent": [
-      "Teachings of Justice",
-      "Guide to Justice",
-      "Philosophies of Justice"
+      "teachings-of-justice",
+      "guide-to-justice",
+      "philosophies-of-justice"
     ],
     "common": [
-      "Whopperflower Nectar",
-      "Shimmering Nectar",
-      "Energy Nectar"
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
     ]
   },
   "constellations": [

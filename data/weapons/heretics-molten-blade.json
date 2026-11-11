@@ -5,7 +5,7 @@
   "name": "Heretic's Molten Blade",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [],
   "materials": {
     "ascension": [

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 317,
+  "slug": "lumitoile",
+  "name": "Lumitoile",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "fontaine",
+  "rarity": null,
+  "description": "A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.",
+  "releaseVersion": "4.1",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/lumitoile.webp"
+  }
+}

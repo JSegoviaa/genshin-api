@@ -3,8 +3,6 @@
   "id": 20,
   "slug": "dvalin-materials",
   "name": "Dvalin Materials",
-  "type": "character-level-up-materials",
-  "source": "weekly-boss-drops",
   "domain": null,
   "domainLevel": null,
   "images": {}

@@ -12,20 +12,20 @@
   "birthday": "02-22",
   "releaseDate": "2021-09-21",
   "releaseVersion": "2.1",
-  "ascensionStat": "Hydro DMG Bonus",
-  "localSpecialty": "Sango Pearl",
+  "ascensionStat": "hydro-dmg-bonus",
   "materials": {
-    "boss": "Dew of Repudiation",
-    "weeklyBoss": "Hellfire Butterfly",
+    "boss": "dew-of-repudiation",
+    "weeklyBoss": "hellfire-butterfly",
+    "localSpecialty": "sango-pearl",
     "talent": [
-      "Teachings of Transience",
-      "Guide to Transience",
-      "Philosophies of Transience"
+      "teachings-of-transience",
+      "guide-to-transience",
+      "philosophies-of-transience"
     ],
     "common": [
-      "Spectral Husk",
-      "Spectral Heart",
-      "Spectral Nucleus"
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
     ]
   },
   "constellations": [

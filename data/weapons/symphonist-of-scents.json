@@ -5,7 +5,7 @@
   "name": "Symphonist of Scents",
   "rarity": 5,
   "weaponType": "polearm",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

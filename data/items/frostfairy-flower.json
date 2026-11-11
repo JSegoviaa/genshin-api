@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 500,
+  "slug": "frostfairy-flower",
+  "name": "Frostfairy Flower",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "snezhnaya",
+  "rarity": null,
+  "description": "A sacred flower that blooms no matter how harsh the wind and snow. It always radiates a faint, mesmerizing glow that draws the hearts of all who see it.",
+  "releaseVersion": "7.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/frostfairy-flower.webp"
+  }
+}

@@ -12,20 +12,20 @@
   "birthday": "06-23",
   "releaseDate": "2022-09-28",
   "releaseVersion": "3.1",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Scarab",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Thunderclap Fruitcore",
-    "weeklyBoss": "Mudra of the Malefic General",
+    "boss": "thunderclap-fruitcore",
+    "weeklyBoss": "mudra-of-the-malefic-general",
+    "localSpecialty": "scarab",
     "talent": [
-      "Teachings of Admonition",
-      "Guide to Admonition",
-      "Philosophies of Admonition"
+      "teachings-of-admonition",
+      "guide-to-admonition",
+      "philosophies-of-admonition"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

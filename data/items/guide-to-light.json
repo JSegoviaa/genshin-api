@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 145,
+  "id": 162,
   "slug": "guide-to-light",
   "name": "Guide to Light",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "light-books",
+  "region": null,
   "rarity": 3,
   "description": "Light is the yearning of the land of thunder.\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
   "releaseVersion": "2.0",

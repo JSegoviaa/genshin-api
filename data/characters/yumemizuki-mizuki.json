@@ -12,20 +12,20 @@
   "birthday": "03-16",
   "releaseDate": "2025-02-12",
   "releaseVersion": "5.4",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Sea Ganoderma",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Talisman of the Enigmatic Land",
-    "weeklyBoss": "Fading Candle",
+    "boss": "talisman-of-the-enigmatic-land",
+    "weeklyBoss": "fading-candle",
+    "localSpecialty": "sea-ganoderma",
     "talent": [
-      "Teachings of Transience",
-      "Guide to Transience",
-      "Philosophies of Transience"
+      "teachings-of-transience",
+      "guide-to-transience",
+      "philosophies-of-transience"
     ],
     "common": [
-      "Old Handguard",
-      "Kageuchi Handguard",
-      "Famed Handguard"
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
     ]
   },
   "constellations": [

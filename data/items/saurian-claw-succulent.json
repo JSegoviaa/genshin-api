@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 378,
+  "slug": "saurian-claw-succulent",
+  "name": "Saurian Claw Succulent",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "A succulent shaped like the paw of a great animal.",
+  "releaseVersion": "5.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/saurian-claw-succulent.webp"
+  }
+}

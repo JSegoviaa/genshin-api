@@ -5,7 +5,7 @@
   "name": "Recurve Bow",
   "rarity": 3,
   "weaponType": "bow",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [],
   "materials": {
     "ascension": [

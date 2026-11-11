@@ -12,20 +12,20 @@
   "birthday": "12-23",
   "releaseDate": "2026-02-13",
   "releaseVersion": "Luna IV",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Pine Amber",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Cyclic Military Kuuvahki Core",
-    "weeklyBoss": "Eroded Horn",
+    "boss": "cyclic-military-kuuvahki-core",
+    "weeklyBoss": "eroded-horn",
+    "localSpecialty": "pine-amber",
     "talent": [
-      "Teachings of Elysium",
-      "Guide to Elysium",
-      "Philosophies of Elysium"
+      "teachings-of-elysium",
+      "guide-to-elysium",
+      "philosophies-of-elysium"
     ],
     "common": [
-      "Broken Drive Shaft",
-      "Reinforced Drive Shaft",
-      "Precision Drive Shaft"
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
     ]
   },
   "constellations": [],

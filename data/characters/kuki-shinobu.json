@@ -12,20 +12,20 @@
   "birthday": "07-27",
   "releaseDate": "2022-06-21",
   "releaseVersion": "2.7",
-  "ascensionStat": "HP",
-  "localSpecialty": "Naku Weed",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Runic Fang",
-    "weeklyBoss": "Tears of the Calamitous God",
+    "boss": "runic-fang",
+    "weeklyBoss": "tears-of-the-calamitous-god",
+    "localSpecialty": "naku-weed",
     "talent": [
-      "Teachings of Elegance",
-      "Guide to Elegance",
-      "Philosophies of Elegance"
+      "teachings-of-elegance",
+      "guide-to-elegance",
+      "philosophies-of-elegance"
     ],
     "common": [
-      "Spectral Husk",
-      "Spectral Heart",
-      "Spectral Nucleus"
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
     ]
   },
   "constellations": [

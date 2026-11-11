@@ -12,20 +12,20 @@
   "birthday": "08-11",
   "releaseDate": "2023-03-21",
   "releaseVersion": "3.5",
-  "ascensionStat": "HP",
-  "localSpecialty": "Wolfhook",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Pseudo-Stamens",
-    "weeklyBoss": "Mirror of Mushin",
+    "boss": "pseudo-stamens",
+    "weeklyBoss": "mirror-of-mushin",
+    "localSpecialty": "wolfhook",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

@@ -12,20 +12,20 @@
   "birthday": "12-02",
   "releaseDate": "2021-01-12",
   "releaseVersion": "1.2",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Qingxin",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Hoarfrost Core",
-    "weeklyBoss": "Shadow of the Warrior",
+    "boss": "hoarfrost-core",
+    "weeklyBoss": "shadow-of-the-warrior",
+    "localSpecialty": "qingxin",
     "talent": [
-      "Teachings of Diligence",
-      "Guide to Diligence",
-      "Philosophies of Diligence"
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence"
     ],
     "common": [
-      "Whopperflower Nectar",
-      "Shimmering Nectar",
-      "Energy Nectar"
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
     ]
   },
   "constellations": [

@@ -12,20 +12,20 @@
   "birthday": "02-29",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Energy Recharge",
-  "localSpecialty": "Windwheel Aster",
+  "ascensionStat": "energy-recharge",
   "materials": {
-    "boss": "Everflame Seed",
-    "weeklyBoss": "Dvalin's Plume",
+    "boss": "everflame-seed",
+    "weeklyBoss": "dvalins-plume",
+    "localSpecialty": "windwheel-aster",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [

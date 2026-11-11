@@ -12,20 +12,20 @@
   "birthday": "03-26",
   "releaseDate": "2022-03-30",
   "releaseVersion": "2.6",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Sakura Bloom",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Dew of Repudiation",
-    "weeklyBoss": "Mudra of the Malefic General",
+    "boss": "dew-of-repudiation",
+    "weeklyBoss": "mudra-of-the-malefic-general",
+    "localSpecialty": "sakura-bloom",
     "talent": [
-      "Teachings of Elegance",
-      "Guide to Elegance",
-      "Philosophies of Elegance"
+      "teachings-of-elegance",
+      "guide-to-elegance",
+      "philosophies-of-elegance"
     ],
     "common": [
-      "Old Handguard",
-      "Kageuchi Handguard",
-      "Famed Handguard"
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
     ]
   },
   "constellations": [

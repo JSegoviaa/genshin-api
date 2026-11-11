@@ -12,20 +12,20 @@
   "birthday": "03-14",
   "releaseDate": "2025-12-03",
   "releaseVersion": "Luna III",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Frostlamp Flower",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Cyclic Military Kuuvahki Core",
-    "weeklyBoss": "Eroded Sunfire",
+    "boss": "cyclic-military-kuuvahki-core",
+    "weeklyBoss": "eroded-sunfire",
+    "localSpecialty": "frostlamp-flower",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Tattered Warrant",
-      "Immaculate Warrant",
-      "Frost-Etched Warrant"
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
     ]
   },
   "constellations": [],

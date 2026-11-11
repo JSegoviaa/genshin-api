@@ -12,20 +12,20 @@
   "birthday": "02-09",
   "releaseDate": "2026-08-12",
   "releaseVersion": "7.0",
-  "ascensionStat": "Energy Recharge",
-  "localSpecialty": "Flockingweed",
+  "ascensionStat": "energy-recharge",
   "materials": {
-    "boss": "Severed Tail of the Sky-Roamer",
-    "weeklyBoss": "Elixir of the Heretic",
+    "boss": "severed-tail-of-the-sky-roamer",
+    "weeklyBoss": "elixir-of-the-heretic",
+    "localSpecialty": "flockingweed",
     "talent": [
-      "Teachings of Fortitude",
-      "Guide to Fortitude",
-      "Philosophies of Fortitude"
+      "teachings-of-fortitude",
+      "guide-to-fortitude",
+      "philosophies-of-fortitude"
     ],
     "common": [
-      "Chimeric Core",
-      "Symbiotic Chimeric Nucleus",
-      "Prime Chimeric Nexus"
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
     ]
   },
   "constellations": [],

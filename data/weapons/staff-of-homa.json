@@ -5,7 +5,7 @@
   "name": "Staff of Homa",
   "rarity": 5,
   "weaponType": "polearm",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

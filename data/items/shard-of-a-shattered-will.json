@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 300,
+  "id": 343,
   "slug": "shard-of-a-shattered-will",
   "name": "Shard of a Shattered Will",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "wayob-manifestation-materials",
+  "region": null,
   "rarity": 2,
   "description": "A fragment that houses a Wayob Manifestation.\nIt is a broken shard of a shattered stone idol. Its capacity for channeling the Wayob's will and power is also extremely limited.",
   "releaseVersion": "5.0",

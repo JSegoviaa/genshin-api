@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 227,
+  "id": 258,
   "slug": "desiccated-shell",
   "name": "Desiccated Shell",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "consecrated-beast-materials",
+  "region": null,
   "rarity": 2,
   "description": "The ruined shell of a Consecrated Beast.\nA tangible effigy to the grand calamity that devoured the lands of yore, usually only discovered in places few dare tread.",
   "releaseVersion": "3.4",

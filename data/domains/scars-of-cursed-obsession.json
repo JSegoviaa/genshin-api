@@ -30,20 +30,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "rise-of-the-pale-star-army",
-      "muster-of-the-pale-star-army",
-      "clarion-of-the-pale-star-army",
-      "triumph-of-the-pale-star-army",
-      "measured-pour-of-the-cellared-spiritual-nectar",
-      "intoxication-of-the-cellared-spiritual-nectar",
-      "exhilaration-of-the-cellared-spiritual-nectar",
-      "revelry-of-the-cellared-spiritual-nectar",
-      "the-frost-emperors-revival",
-      "the-frost-emperors-ceremony",
-      "the-frost-emperors-lament",
-      "the-frost-emperors-farewell"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

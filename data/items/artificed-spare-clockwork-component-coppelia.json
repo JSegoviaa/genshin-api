@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 250,
+  "id": 284,
   "slug": "artificed-spare-clockwork-component-coppelia",
   "name": "Artificed Spare Clockwork Component — Coppelia",
   "type": "character-level-up-materials",
   "source": "normal-boss-drops",
   "group": null,
+  "region": null,
   "rarity": 4,
   "description": "An artificed spare clockwork component belonging to Coppelia. It powers this artificed dancer.\nAccording to its creator's design, the story of the artificed dancer with delicate joints ends at a merry moment. Coppelia will send whoever attempts to disturb that moment to a chapter of misfortune with her superb combat skills.",
   "releaseVersion": "4.0",

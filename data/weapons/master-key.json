@@ -5,7 +5,7 @@
   "name": "Master Key",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [],
   "materials": {
     "ascension": [

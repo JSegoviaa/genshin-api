@@ -12,20 +12,20 @@
   "birthday": "06-27",
   "releaseDate": "2022-02-16",
   "releaseVersion": "2.5",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Sea Ganoderma",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Dragonheir's False Fin",
-    "weeklyBoss": "The Meaning of Aeons",
+    "boss": "dragonheirs-false-fin",
+    "weeklyBoss": "the-meaning-of-aeons",
+    "localSpecialty": "sea-ganoderma",
     "talent": [
-      "Teachings of Light",
-      "Guide to Light",
-      "Philosophies of Light"
+      "teachings-of-light",
+      "guide-to-light",
+      "philosophies-of-light"
     ],
     "common": [
-      "Old Handguard",
-      "Kageuchi Handguard",
-      "Famed Handguard"
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
     ]
   },
   "constellations": [

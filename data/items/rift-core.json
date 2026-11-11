@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 247,
+  "id": 281,
   "slug": "rift-core",
   "name": "Rift Core",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "breacher-primus-materials",
+  "region": null,
   "rarity": 2,
   "description": "A shard left by Breacher Primus.\nIt bears no resemblance to any other known form of life in the world.",
   "releaseVersion": "4.0",

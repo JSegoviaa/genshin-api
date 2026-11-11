@@ -3,9 +3,10 @@ export const ITEM_SOURCES = [
   "elite-enemy-drops",
   "normal-boss-drops",
   "weekly-boss-drops",
-  "ascension-gems",
+  "boss-drops",
   "domains-of-mastery",
   "domains-of-forgery",
+  "gathering",
 ] as const;
 
 export const WEEKDAYS = [

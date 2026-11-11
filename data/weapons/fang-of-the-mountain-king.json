@@ -5,7 +5,7 @@
   "name": "Fang of the Mountain King",
   "rarity": 5,
   "weaponType": "claymore",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [],
   "materials": {
     "ascension": [

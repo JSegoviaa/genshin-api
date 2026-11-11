@@ -12,20 +12,20 @@
   "birthday": "05-15",
   "releaseDate": "2026-02-13",
   "releaseVersion": "Luna IV",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Glaze Lily",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Remnant of the Dreadwing",
-    "weeklyBoss": "Ascended Sample: Queen",
+    "boss": "remnant-of-the-dreadwing",
+    "weeklyBoss": "ascended-sample-queen",
+    "localSpecialty": "glaze-lily",
     "talent": [
-      "Teachings of Gold",
-      "Guide to Gold",
-      "Philosophies of Gold"
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
     ],
     "common": [
-      "Tattered Warrant",
-      "Immaculate Warrant",
-      "Frost-Etched Warrant"
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
     ]
   },
   "constellations": [],

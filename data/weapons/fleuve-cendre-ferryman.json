@@ -5,7 +5,7 @@
   "name": "Fleuve Cendre Ferryman",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Skyrider Series"
   ],

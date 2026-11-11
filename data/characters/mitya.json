@@ -12,20 +12,20 @@
   "birthday": "02-08",
   "releaseDate": "2026-11-04",
   "releaseVersion": "7.2",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Kristallfold",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Shattered Stability Anchor",
-    "weeklyBoss": "Mask of the Virtuous Doctor",
+    "boss": "shattered-stability-anchor",
+    "weeklyBoss": "mask-of-the-virtuous-doctor",
+    "localSpecialty": "kristallfold",
     "talent": [
-      "Teachings of Charity",
-      "Guide to Charity",
-      "Philosophies of Charity"
+      "teachings-of-charity",
+      "guide-to-charity",
+      "philosophies-of-charity"
     ],
     "common": [
-      "Chimeric Core",
-      "Symbiotic Chimeric Nucleus",
-      "Prime Chimeric Nexus"
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
     ]
   },
   "constellations": [],

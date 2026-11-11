@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 313,
+  "id": 356,
   "slug": "philosophies-of-contention",
   "name": "Philosophies of Contention",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "contention-books",
+  "region": null,
   "rarity": 4,
   "description": "Contention is the principle by which all is weighed in the Nation of Pyro.\nIts purpose is to make yourself stronger. After the outcome of a competition has been decided, the victor gains the confidence to be sure of their direction, while the loser gains insights on how they must become stronger. Beyond winning or losing, this is the true meaning of contention.",
   "releaseVersion": "5.0",

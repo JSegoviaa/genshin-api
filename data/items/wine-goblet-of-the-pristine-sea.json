@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 271,
+  "id": 305,
   "slug": "wine-goblet-of-the-pristine-sea",
   "name": "Wine Goblet of the Pristine Sea",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "goblets-of-the-pristine-sea",
+  "region": null,
   "rarity": 3,
   "description": "What kind of empire can last for a thousand years? After returning from the kingdom of dragons, the usurper once pondered this question.\nCombining the immortal stone with the Ichor essence extracted from primordial water, and carved into a race as black as iron— with arcane lithos for skin and Ichor for blood, never again fearing the curse of returning to the primeval past...\nThe silent golem still dreams the dream of the empire — not knowing it has been over a thousand years since the empire's obliteration.",
   "releaseVersion": "4.0",

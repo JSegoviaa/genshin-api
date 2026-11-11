@@ -12,20 +12,20 @@
   "birthday": "03-14",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Healing Bonus",
-  "localSpecialty": "Dandelion Seed",
+  "ascensionStat": "healing-bonus",
   "materials": {
-    "boss": "Hurricane Seed",
-    "weeklyBoss": "Dvalin's Plume",
+    "boss": "hurricane-seed",
+    "weeklyBoss": "dvalins-plume",
+    "localSpecialty": "dandelion-seed",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Damaged Mask",
-      "Stained Mask",
-      "Ominous Mask"
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
     ]
   },
   "constellations": [

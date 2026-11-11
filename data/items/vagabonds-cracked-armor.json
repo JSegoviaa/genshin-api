@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 442,
+  "id": 503,
   "slug": "vagabonds-cracked-armor",
   "name": "Vagabond's Cracked Armor",
   "type": "character-level-up-materials",
   "source": "normal-boss-drops",
   "group": null,
+  "region": null,
   "rarity": 4,
   "description": "An ancient piece of Snegovik armor with cracks all over it.\nArmor forged in the old days was never built to last this long. The cracks that have appeared over time have merely been masked by the Snegovik's steadily advancing mastery of Prime Ice technology. Like the cracks across this armor's surface, the oath to safeguard and protect reveals its fragility the instant its keeper is gone.",
   "releaseVersion": "7.1",

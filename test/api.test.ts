@@ -133,18 +133,28 @@ describe("detail", () => {
     expect((await get("/api/v1/versions/Luna%20I")).body.slug).toBe("luna-i");
   });
 
-  it("lists local specialties by region and links them to characters", async () => {
+  it("lists local specialties as items by region and links them to characters", async () => {
     const { body } = await get(
-      "/api/v1/local-specialties?region=liyue&limit=100",
+      "/api/v1/items?type=local-specialties&region=liyue&limit=100",
     );
     expect(body.count).toBeGreaterThan(0);
-    expect(body.results.every((l: any) => l.region.slug === "liyue")).toBe(
+    expect(body.results.every((i: any) => i.type.slug === "local-specialties")).toBe(
       true,
     );
-    const silk = await get("/api/v1/local-specialties/silk-flower");
-    expect(silk.body.characters.some((c: any) => c.slug === "hu-tao")).toBe(
+    const silk = await get("/api/v1/items/silk-flower");
+    expect(silk.body).toMatchObject({
+      source: "gathering",
+      region: { slug: "liyue" },
+      rarity: null,
+      group: null,
+    });
+    expect(silk.body.description.length).toBeGreaterThan(0);
+    expect(silk.body.usedBy.characters.some((c: any) => c.slug === "hu-tao")).toBe(
       true,
     );
+    const type = await get("/api/v1/item-types/local-specialties");
+    expect(type.body.inventoryCategory).toBe("Materials");
+    expect((await get("/api/v1/local-specialties")).status).toBe(404);
     const region = await get("/api/v1/regions/liyue");
     expect(
       region.body.localSpecialties.some((l: any) => l.slug === "silk-flower"),
@@ -154,9 +164,9 @@ describe("detail", () => {
   it("returns release version and local specialty as references", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.releaseVersion).toMatchObject({ slug: "1-3", name: "1.3" });
-    expect(body.localSpecialty).toMatchObject({
+    expect(body.materials.localSpecialty).toMatchObject({
       slug: "silk-flower",
-      url: "http://api.test/api/v1/local-specialties/silk-flower",
+      url: "http://api.test/api/v1/items/silk-flower",
     });
     const filtered = await get(
       "/api/v1/characters?localSpecialty=silk-flower&releaseVersion=1.3",
@@ -365,6 +375,21 @@ describe("detail", () => {
       "stained-mask",
       "ominous-mask",
     ]);
+    expect(group.body).toMatchObject({
+      type: { slug: "character-and-weapon-enhancement-materials" },
+      source: "general-enemy-drops",
+    });
+    const elite = await get(
+      "/api/v1/item-groups?source=elite-enemy-drops&limit=100",
+    );
+    expect(elite.body.count).toBeGreaterThan(0);
+    const gems = await get(
+      "/api/v1/items?type=character-ascension-materials&limit=100",
+    );
+    expect(gems.body.count).toBe(28);
+    expect(gems.body.results.every((i: any) => i.source === "boss-drops")).toBe(
+      true,
+    );
     const weekly = await get(
       "/api/v1/items?source=weekly-boss-drops&rarity=5&limit=100",
     );
@@ -423,13 +448,13 @@ describe("detail", () => {
     );
   });
 
-  it("returns weapons and local specialties with their release version", async () => {
+  it("returns weapons and items with their release version", async () => {
     const homa = await get("/api/v1/weapons/staff-of-homa");
     expect(homa.body.releaseVersion).toMatchObject({
       slug: "1-3",
       name: "1.3",
     });
-    const silk = await get("/api/v1/local-specialties/silk-flower");
+    const silk = await get("/api/v1/items/silk-flower");
     expect(silk.body.releaseVersion).toMatchObject({ name: "1.0" });
     const weapons = await get("/api/v1/weapons?releaseVersion=1.3&limit=100");
     expect(weapons.body.results.map((w: any) => w.slug)).toContain(
@@ -440,9 +465,7 @@ describe("detail", () => {
       "staff-of-homa",
     );
     const first = await get("/api/v1/versions/1.0");
-    expect(first.body.localSpecialties.map((l: any) => l.slug)).toContain(
-      "silk-flower",
-    );
+    expect(first.body.items.map((i: any) => i.slug)).toContain("silk-flower");
   });
 
   it("returns weapon ascension materials and weapon materials", async () => {
@@ -499,6 +522,16 @@ describe("detail", () => {
     expect(body.rewards.items.map((i: any) => i.slug)).toContain(
       "tile-of-decarabians-tower",
     );
+    const forgery = await get(
+      "/api/v1/domains?reward=tile-of-decarabians-tower",
+    );
+    expect(forgery.body.results.map((d: any) => d.slug)).toEqual([
+      "cecilia-garden",
+    ]);
+    const tile = await get("/api/v1/items/tile-of-decarabians-tower");
+    expect(tile.body.obtainedFrom.map((d: any) => d.slug)).toEqual([
+      "cecilia-garden",
+    ]);
     const group = await get("/api/v1/item-groups/decarabian-tiles");
     expect(group.body.domain).toMatchObject({ slug: "cecilia-garden" });
     expect(group.body.domainLevel).toBe("City of Reflections");
@@ -576,7 +609,6 @@ describe("random", () => {
       "weapon-types",
       "rarities",
       "versions",
-      "local-specialties",
       "weapons",
       "characters",
       "artifact-types",

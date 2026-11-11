@@ -12,20 +12,20 @@
   "birthday": "08-20",
   "releaseDate": "2022-12-07",
   "releaseVersion": "3.3",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Henna Berry",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Light Guiding Tetrahedron",
-    "weeklyBoss": "Puppet Strings",
+    "boss": "light-guiding-tetrahedron",
+    "weeklyBoss": "puppet-strings",
+    "localSpecialty": "henna-berry",
     "talent": [
-      "Teachings of Admonition",
-      "Guide to Admonition",
-      "Philosophies of Admonition"
+      "teachings-of-admonition",
+      "guide-to-admonition",
+      "philosophies-of-admonition"
     ],
     "common": [
-      "Faded Red Satin",
-      "Trimmed Red Silk",
-      "Rich Red Brocade"
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
     ]
   },
   "constellations": [

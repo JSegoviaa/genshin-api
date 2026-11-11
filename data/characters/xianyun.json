@@ -12,20 +12,20 @@
   "birthday": "04-11",
   "releaseDate": "2024-01-31",
   "releaseVersion": "4.4",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Clearwater Jade",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Cloudseam Scale",
-    "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "boss": "cloudseam-scale",
+    "weeklyBoss": "lightless-eye-of-the-maelstrom",
+    "localSpecialty": "clearwater-jade",
     "talent": [
-      "Teachings of Gold",
-      "Guide to Gold",
-      "Philosophies of Gold"
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

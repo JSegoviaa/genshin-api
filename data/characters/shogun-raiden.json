@@ -12,20 +12,20 @@
   "birthday": "06-26",
   "releaseDate": "2021-09-01",
   "releaseVersion": "2.1",
-  "ascensionStat": "Energy Recharge",
-  "localSpecialty": "Amakumo Fruit",
+  "ascensionStat": "energy-recharge",
   "materials": {
-    "boss": "Storm Beads",
-    "weeklyBoss": "Molten Moment",
+    "boss": "storm-beads",
+    "weeklyBoss": "molten-moment",
+    "localSpecialty": "amakumo-fruit",
     "talent": [
-      "Teachings of Light",
-      "Guide to Light",
-      "Philosophies of Light"
+      "teachings-of-light",
+      "guide-to-light",
+      "philosophies-of-light"
     ],
     "common": [
-      "Old Handguard",
-      "Kageuchi Handguard",
-      "Famed Handguard"
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
     ]
   },
   "constellations": [

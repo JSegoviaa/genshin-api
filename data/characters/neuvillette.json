@@ -12,20 +12,20 @@
   "birthday": "12-18",
   "releaseDate": "2023-09-27",
   "releaseVersion": "4.1",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Lumitoile",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Fontemer Unihorn",
-    "weeklyBoss": "Everamber",
+    "boss": "fontemer-unihorn",
+    "weeklyBoss": "everamber",
+    "localSpecialty": "lumitoile",
     "talent": [
-      "Teachings of Equity",
-      "Guide to Equity",
-      "Philosophies of Equity"
+      "teachings-of-equity",
+      "guide-to-equity",
+      "philosophies-of-equity"
     ],
     "common": [
-      "Transoceanic Pearl",
-      "Transoceanic Chunk",
-      "Xenochromatic Crystal"
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
     ]
   },
   "constellations": [

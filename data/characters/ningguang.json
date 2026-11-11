@@ -12,20 +12,20 @@
   "birthday": "08-26",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Geo DMG Bonus",
-  "localSpecialty": "Glaze Lily",
+  "ascensionStat": "geo-dmg-bonus",
   "materials": {
-    "boss": "Basalt Pillar",
-    "weeklyBoss": "Spirit Locket of Boreas",
+    "boss": "basalt-pillar",
+    "weeklyBoss": "spirit-locket-of-boreas",
+    "localSpecialty": "glaze-lily",
     "talent": [
-      "Teachings of Prosperity",
-      "Guide to Prosperity",
-      "Philosophies of Prosperity"
+      "teachings-of-prosperity",
+      "guide-to-prosperity",
+      "philosophies-of-prosperity"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

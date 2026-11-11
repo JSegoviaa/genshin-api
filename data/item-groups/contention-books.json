@@ -3,8 +3,6 @@
   "id": 86,
   "slug": "contention-books",
   "name": "Contention Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "blazing-ruins",
   "domainLevel": "Sublime Turning",
   "images": {}

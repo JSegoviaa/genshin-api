@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 352,
+  "id": 403,
   "slug": "tattered-warrant",
   "name": "Tattered Warrant",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "fatui-oprichniki-materials",
+  "region": null,
   "rarity": 1,
   "description": "A warrant issued to members of the Fatui Oprichniki.\nOne wonders what resolve drove its bearer to sign up.",
   "releaseVersion": "Luna I",

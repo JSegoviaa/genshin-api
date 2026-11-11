@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 119,
+  "slug": "valberry",
+  "name": "Valberry",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/valberry.webp"
+  }
+}

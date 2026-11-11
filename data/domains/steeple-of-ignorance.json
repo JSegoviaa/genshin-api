@@ -32,17 +32,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-admonition",
-      "guide-to-admonition",
-      "philosophies-of-admonition",
-      "teachings-of-ingenuity",
-      "guide-to-ingenuity",
-      "philosophies-of-ingenuity",
-      "teachings-of-praxis",
-      "guide-to-praxis",
-      "philosophies-of-praxis"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

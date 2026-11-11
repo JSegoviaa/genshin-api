@@ -5,7 +5,7 @@
   "name": "Royal Longsword",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Royal Series"
   ],

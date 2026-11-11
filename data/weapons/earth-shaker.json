@@ -5,7 +5,7 @@
   "name": "Earth Shaker",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [],
   "materials": {
     "ascension": [

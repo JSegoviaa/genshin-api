@@ -12,20 +12,20 @@
   "birthday": "01-14",
   "releaseDate": "2026-01-14",
   "releaseVersion": "Luna IV",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Winter Icelea",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Radiant Antler",
-    "weeklyBoss": "Mask of the Virtuous Doctor",
+    "boss": "radiant-antler",
+    "weeklyBoss": "mask-of-the-virtuous-doctor",
+    "localSpecialty": "winter-icelea",
     "talent": [
-      "Teachings of Moonlight",
-      "Guide to Moonlight",
-      "Philosophies of Moonlight"
+      "teachings-of-moonlight",
+      "guide-to-moonlight",
+      "philosophies-of-moonlight"
     ],
     "common": [
-      "Slime Condensate",
-      "Slime Secretions",
-      "Slime Concentrate"
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
     ]
   },
   "constellations": [],

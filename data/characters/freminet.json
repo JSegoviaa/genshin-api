@@ -12,20 +12,20 @@
   "birthday": "09-24",
   "releaseDate": "2023-09-05",
   "releaseVersion": "4.0",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Romaritime Flower",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Artificed Spare Clockwork Component — Coppelius",
-    "weeklyBoss": "Worldspan Fern",
+    "boss": "artificed-spare-clockwork-component-coppelius",
+    "weeklyBoss": "worldspan-fern",
+    "localSpecialty": "romaritime-flower",
     "talent": [
-      "Teachings of Justice",
-      "Guide to Justice",
-      "Philosophies of Justice"
+      "teachings-of-justice",
+      "guide-to-justice",
+      "philosophies-of-justice"
     ],
     "common": [
-      "Transoceanic Pearl",
-      "Transoceanic Chunk",
-      "Xenochromatic Crystal"
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
     ]
   },
   "constellations": [

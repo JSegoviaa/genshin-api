@@ -32,17 +32,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-contention",
-      "guide-to-contention",
-      "philosophies-of-contention",
-      "teachings-of-kindling",
-      "guide-to-kindling",
-      "philosophies-of-kindling",
-      "teachings-of-conflict",
-      "guide-to-conflict",
-      "philosophies-of-conflict"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

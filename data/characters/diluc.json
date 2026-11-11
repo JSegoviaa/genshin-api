@@ -12,20 +12,20 @@
   "birthday": "04-30",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Small Lamp Grass",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Everflame Seed",
-    "weeklyBoss": "Dvalin's Plume",
+    "boss": "everflame-seed",
+    "weeklyBoss": "dvalins-plume",
+    "localSpecialty": "small-lamp-grass",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 130,
+  "slug": "small-lamp-grass",
+  "name": "Small Lamp Grass",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/small-lamp-grass.webp"
+  }
+}

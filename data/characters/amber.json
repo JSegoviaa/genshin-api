@@ -12,20 +12,20 @@
   "birthday": "08-10",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Small Lamp Grass",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Everflame Seed",
-    "weeklyBoss": "Dvalin's Sigh",
+    "boss": "everflame-seed",
+    "weeklyBoss": "dvalins-sigh",
+    "localSpecialty": "small-lamp-grass",
     "talent": [
-      "Teachings of Freedom",
-      "Guide to Freedom",
-      "Philosophies of Freedom"
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom"
     ],
     "common": [
-      "Firm Arrowhead",
-      "Sharp Arrowhead",
-      "Weathered Arrowhead"
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
     ]
   },
   "constellations": [

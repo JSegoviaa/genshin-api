@@ -12,20 +12,20 @@
   "birthday": "01-22",
   "releaseDate": "2023-05-24",
   "releaseVersion": "3.7",
-  "ascensionStat": "HP",
-  "localSpecialty": "Amakumo Fruit",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Evergloom Ring",
-    "weeklyBoss": "Everamber",
+    "boss": "evergloom-ring",
+    "weeklyBoss": "everamber",
+    "localSpecialty": "amakumo-fruit",
     "talent": [
-      "Teachings of Transience",
-      "Guide to Transience",
-      "Philosophies of Transience"
+      "teachings-of-transience",
+      "guide-to-transience",
+      "philosophies-of-transience"
     ],
     "common": [
-      "Spectral Husk",
-      "Spectral Heart",
-      "Spectral Nucleus"
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
     ]
   },
   "constellations": [

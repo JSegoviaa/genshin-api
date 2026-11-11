@@ -5,7 +5,7 @@
   "name": "Mappa Mare",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "Infusion Series"
   ],

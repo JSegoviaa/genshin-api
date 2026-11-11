@@ -5,7 +5,7 @@
   "name": "Wine and Song",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Alley Series"
   ],

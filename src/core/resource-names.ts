@@ -4,7 +4,6 @@ export const RESOURCE_NAMES = [
   "weapon-types",
   "rarities",
   "versions",
-  "local-specialties",
   "weapons",
   "characters",
   "artifact-types",

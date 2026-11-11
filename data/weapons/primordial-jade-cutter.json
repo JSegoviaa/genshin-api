@@ -5,7 +5,7 @@
   "name": "Primordial Jade Cutter",
   "rarity": 5,
   "weaponType": "sword",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [
     "Primordial Jade Series"
   ],

@@ -5,7 +5,7 @@
   "name": "Crimson Moon's Semblance",
   "rarity": 5,
   "weaponType": "polearm",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [],
   "materials": {
     "ascension": [

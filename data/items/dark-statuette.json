@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 179,
+  "id": 204,
   "slug": "dark-statuette",
   "name": "Dark Statuette",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "the-black-serpents-material",
+  "region": null,
   "rarity": 3,
   "description": "An idol made in the likeness of some unknown, one-eyed person.\nYou can feel a strange warmth emanating from within as you hold onto it, like the shoulder of a dear friend. Perhaps this icon can indeed give people who understand its significance the courage to carry on.",
   "releaseVersion": "2.6",

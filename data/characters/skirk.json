@@ -12,20 +12,20 @@
   "birthday": "11-05",
   "releaseDate": "2025-06-18",
   "releaseVersion": "5.7",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Skysplit Gembloom",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Ensnaring Gaze",
-    "weeklyBoss": "Ascended Sample: Knight",
+    "boss": "ensnaring-gaze",
+    "weeklyBoss": "ascended-sample-knight",
+    "localSpecialty": "skysplit-gembloom",
     "talent": [
-      "Teachings of Contention",
-      "Guide to Contention",
-      "Philosophies of Contention"
+      "teachings-of-contention",
+      "guide-to-contention",
+      "philosophies-of-contention"
     ],
     "common": [
-      "Meshing Gear",
-      "Mechanical Spur Gear",
-      "Artificed Dynamic Gear"
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
     ]
   },
   "constellations": [

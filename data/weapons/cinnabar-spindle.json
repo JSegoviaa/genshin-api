@@ -5,7 +5,7 @@
   "name": "Cinnabar Spindle",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "DEF",
+  "secondaryStat": "def",
   "series": [],
   "materials": {
     "ascension": [

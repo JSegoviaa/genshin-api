@@ -12,20 +12,20 @@
   "birthday": "02-11",
   "releaseDate": "2023-01-18",
   "releaseVersion": "3.4",
-  "ascensionStat": "Dendro DMG Bonus",
-  "localSpecialty": "Sand Grease Pupa",
+  "ascensionStat": "dendro-dmg-bonus",
   "materials": {
-    "boss": "Pseudo-Stamens",
-    "weeklyBoss": "Mirror of Mushin",
+    "boss": "pseudo-stamens",
+    "weeklyBoss": "mirror-of-mushin",
+    "localSpecialty": "sand-grease-pupa",
     "talent": [
-      "Teachings of Ingenuity",
-      "Guide to Ingenuity",
-      "Philosophies of Ingenuity"
+      "teachings-of-ingenuity",
+      "guide-to-ingenuity",
+      "philosophies-of-ingenuity"
     ],
     "common": [
-      "Faded Red Satin",
-      "Trimmed Red Silk",
-      "Rich Red Brocade"
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
     ]
   },
   "constellations": [

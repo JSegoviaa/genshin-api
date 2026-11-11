@@ -5,7 +5,7 @@
   "name": "Ash-Graven Drinking Horn",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [],
   "materials": {
     "ascension": [

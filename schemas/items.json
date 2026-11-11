@@ -29,9 +29,10 @@
         "elite-enemy-drops",
         "normal-boss-drops",
         "weekly-boss-drops",
-        "ascension-gems",
+        "boss-drops",
         "domains-of-mastery",
-        "domains-of-forgery"
+        "domains-of-forgery",
+        "gathering"
       ]
     },
     "group": {
@@ -45,10 +46,28 @@
         }
       ]
     },
+    "region": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "rarity": {
-      "type": "integer",
-      "minimum": 1,
-      "maximum": 5
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "description": {
       "type": "string",
@@ -98,6 +117,7 @@
     "type",
     "source",
     "group",
+    "region",
     "rarity",
     "description",
     "releaseVersion",

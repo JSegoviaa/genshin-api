@@ -5,7 +5,7 @@
   "name": "Crane's Echoing Call",
   "rarity": 5,
   "weaponType": "catalyst",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [],
   "materials": {
     "ascension": [

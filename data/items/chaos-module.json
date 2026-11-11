@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 189,
+  "id": 214,
   "slug": "chaos-module",
   "name": "Chaos Module",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "ruin-drake-materials",
+  "region": null,
   "rarity": 3,
   "description": "Comes from a now-inactive ancient Ruin Drake.\nThe dragons were once the most primitive and ancient bodily form of the supreme elements until they were defeated, conquered, or assimilated.",
   "releaseVersion": "3.0",

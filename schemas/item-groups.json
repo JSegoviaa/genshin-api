@@ -18,22 +18,6 @@
       "type": "string",
       "minLength": 1
     },
-    "type": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-    },
-    "source": {
-      "type": "string",
-      "enum": [
-        "general-enemy-drops",
-        "elite-enemy-drops",
-        "normal-boss-drops",
-        "weekly-boss-drops",
-        "ascension-gems",
-        "domains-of-mastery",
-        "domains-of-forgery"
-      ]
-    },
     "domain": {
       "anyOf": [
         {
@@ -71,8 +55,6 @@
     "id",
     "slug",
     "name",
-    "type",
-    "source",
     "domain",
     "domainLevel",
     "images"

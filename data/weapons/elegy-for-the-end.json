@@ -5,7 +5,7 @@
   "name": "Elegy for the End",
   "rarity": 5,
   "weaponType": "bow",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Sumeru Series"
   ],

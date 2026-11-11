@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 336,
+  "id": 383,
   "slug": "ensnaring-gaze",
   "name": "Ensnaring Gaze",
   "type": "character-level-up-materials",
   "source": "normal-boss-drops",
   "group": null,
+  "region": null,
   "rarity": 4,
   "description": "An object obtained after defeating the monster known as the Tenebrous Papilla. It may look like a piece of fruit, but it is not.\nFormed from energy that has condensed in a single spot, its \"eye\" seems to gaze out from a distant, dark otherworld.",
   "releaseVersion": "5.2",

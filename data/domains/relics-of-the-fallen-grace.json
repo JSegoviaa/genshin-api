@@ -30,17 +30,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-charity",
-      "guide-to-charity",
-      "philosophies-of-charity",
-      "teachings-of-fortitude",
-      "guide-to-fortitude",
-      "philosophies-of-fortitude",
-      "teachings-of-glory",
-      "guide-to-glory",
-      "philosophies-of-glory"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

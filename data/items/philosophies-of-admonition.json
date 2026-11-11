@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 199,
+  "id": 224,
   "slug": "philosophies-of-admonition",
   "name": "Philosophies of Admonition",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "admonition-books",
+  "region": null,
   "rarity": 4,
   "description": "Admonition is the branches of the nation of wisdom.\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
   "releaseVersion": "3.0",

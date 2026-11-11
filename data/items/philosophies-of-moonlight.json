@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 368,
+  "id": 419,
   "slug": "philosophies-of-moonlight",
   "name": "Philosophies of Moonlight",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "moonlight-books",
+  "region": null,
   "rarity": 4,
   "description": "\"Moonlight\" is the blessing of the land beneath the moon.\nPraying to the new moon for guidance and fortune is a rite passed down from the days of the first people. Tonight's moonlight seems no different from any other night, yet where is the new moon that people once looked to?",
   "releaseVersion": "Luna I",

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 377,
+  "slug": "quenepa-berry",
+  "name": "Quenepa Berry",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "Bluish, juicy berries that grow in large amounts near the Scions of the Canopy. Their shape is similar to that of Flamegranates.",
+  "releaseVersion": "5.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/quenepa-berry.webp"
+  }
+}

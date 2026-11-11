@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 384,
+  "slug": "glowing-hornshroom",
+  "name": "Glowing Hornshroom",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "A fungus that emits a faint light in the darkness. It is so named because its shape resembles the horny crest of an Iktomisaurus.",
+  "releaseVersion": "5.2",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/glowing-hornshroom.webp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 177,
+  "slug": "sakura-bloom",
+  "name": "Sakura Bloom",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
+  "releaseVersion": "2.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/sakura-bloom.webp"
+  }
+}

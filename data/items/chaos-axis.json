@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 131,
+  "id": 148,
   "slug": "chaos-axis",
   "name": "Chaos Axis",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "ruin-sentinel-materials",
+  "region": null,
   "rarity": 3,
   "description": "Comes from a now-inactive ancient Ruin machine.\nEven the great techniques and unknown power of this device must come to nothing should the machine that contained them ever fail to maintain structural integrity.",
   "releaseVersion": "2.0",

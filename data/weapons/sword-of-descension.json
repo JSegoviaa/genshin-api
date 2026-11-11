@@ -5,7 +5,7 @@
   "name": "Sword of Descension",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Outlander Series"
   ],

@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "fatui-skirmisher-materials",
+  "region": null,
   "rarity": 1,
   "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
   "releaseVersion": "1.0",

@@ -12,20 +12,20 @@
   "birthday": "07-27",
   "releaseDate": "2020-10-20",
   "releaseVersion": "1.0",
-  "ascensionStat": "Pyro DMG Bonus",
-  "localSpecialty": "Philanemo Mushroom",
+  "ascensionStat": "pyro-dmg-bonus",
   "materials": {
-    "boss": "Everflame Seed",
-    "weeklyBoss": "Ring of Boreas",
+    "boss": "everflame-seed",
+    "weeklyBoss": "ring-of-boreas",
+    "localSpecialty": "philanemo-mushroom",
     "talent": [
-      "Teachings of Freedom",
-      "Guide to Freedom",
-      "Philosophies of Freedom"
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 197,
+  "id": 222,
   "slug": "teachings-of-admonition",
   "name": "Teachings of Admonition",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "admonition-books",
+  "region": null,
   "rarity": 2,
   "description": "Admonition is the branches of the nation of wisdom.\nAdmonition comes from a pure heart. Only sensible words of goodwill can express profound wisdom and free the sprout of knowledge from the shackles of arrogance.",
   "releaseVersion": "3.0",

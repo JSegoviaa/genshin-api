@@ -5,7 +5,7 @@
   "name": "Harbinger of Dawn",
   "rarity": 3,
   "weaponType": "sword",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

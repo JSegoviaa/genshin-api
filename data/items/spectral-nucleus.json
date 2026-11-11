@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 161,
+  "id": 183,
   "slug": "spectral-nucleus",
   "name": "Spectral Nucleus",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "specter-materials",
+  "region": null,
   "rarity": 3,
   "description": "A complete energy core that can sometimes be found after defeating Specters.\nThere is a debate among those who just have to divide the world into winners and losers: what floats better — a Specter or an Anemo Slime?",
   "releaseVersion": "2.1",

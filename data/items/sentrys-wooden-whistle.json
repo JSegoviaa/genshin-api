@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 297,
+  "id": 340,
   "slug": "sentrys-wooden-whistle",
   "name": "Sentry's Wooden Whistle",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "sauroform-tribal-warrior-materials",
+  "region": null,
   "rarity": 1,
   "description": "The symbol of a Natlan tribal sentry.\nWarriors are not born as warriors. They must first acquire the skills of combat by learning under the tutelage of those who have already done so. This is the origin of the trainee position of sentry.",
   "releaseVersion": "5.0",

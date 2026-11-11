@@ -12,20 +12,20 @@
   "birthday": "08-22",
   "releaseDate": "2024-04-23",
   "releaseVersion": "4.6",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Rainbow Rose",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Fragment of a Golden Melody",
-    "weeklyBoss": "Fading Candle",
+    "boss": "fragment-of-a-golden-melody",
+    "weeklyBoss": "fading-candle",
+    "localSpecialty": "rainbow-rose",
     "talent": [
-      "Teachings of Order",
-      "Guide to Order",
-      "Philosophies of Order"
+      "teachings-of-order",
+      "guide-to-order",
+      "philosophies-of-order"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

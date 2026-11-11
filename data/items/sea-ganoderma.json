@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 143,
+  "slug": "sea-ganoderma",
+  "name": "Sea Ganoderma",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+  "releaseVersion": "1.6",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/sea-ganoderma.webp"
+  }
+}

@@ -5,7 +5,7 @@
   "name": "Wolf's Gravestone",
   "rarity": 5,
   "weaponType": "claymore",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [],
   "materials": {
     "ascension": [

@@ -12,20 +12,20 @@
   "birthday": "06-16",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Energy Recharge",
-  "localSpecialty": "Cecilia",
+  "ascensionStat": "energy-recharge",
   "materials": {
-    "boss": "Hurricane Seed",
-    "weeklyBoss": "Tail of Boreas",
+    "boss": "hurricane-seed",
+    "weeklyBoss": "tail-of-boreas",
+    "localSpecialty": "cecilia",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Slime Condensate",
-      "Slime Secretions",
-      "Slime Concentrate"
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
     ]
   },
   "constellations": [

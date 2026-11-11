@@ -12,20 +12,20 @@
   "birthday": "09-20",
   "releaseDate": "2024-06-04",
   "releaseVersion": "4.7",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Lumitoile",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Fontemer Unihorn",
-    "weeklyBoss": "Everamber",
+    "boss": "fontemer-unihorn",
+    "weeklyBoss": "everamber",
+    "localSpecialty": "lumitoile",
     "talent": [
-      "Teachings of Justice",
-      "Guide to Justice",
-      "Philosophies of Justice"
+      "teachings-of-justice",
+      "guide-to-justice",
+      "philosophies-of-justice"
     ],
     "common": [
-      "Transoceanic Pearl",
-      "Transoceanic Chunk",
-      "Xenochromatic Crystal"
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
     ]
   },
   "constellations": [

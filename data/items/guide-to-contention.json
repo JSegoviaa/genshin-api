@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 312,
+  "id": 355,
   "slug": "guide-to-contention",
   "name": "Guide to Contention",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "contention-books",
+  "region": null,
   "rarity": 3,
   "description": "Contention is the principle by which all is weighed in the Nation of Pyro.\nThough humans cannot fly at the speed of winged beasts, nor match the flexibility of slimes, yet still, they have their own unique strengths. Sometimes, understanding both why and how to compete is the key to knowing oneself.",
   "releaseVersion": "5.0",

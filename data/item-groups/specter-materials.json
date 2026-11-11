@@ -3,8 +3,6 @@
   "id": 45,
   "slug": "specter-materials",
   "name": "Specter Materials",
-  "type": "character-and-weapon-enhancement-materials",
-  "source": "general-enemy-drops",
   "domain": null,
   "domainLevel": null,
   "images": {}

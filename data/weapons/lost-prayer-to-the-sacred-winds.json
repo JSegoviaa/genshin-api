@@ -5,7 +5,7 @@
   "name": "Lost Prayer to the Sacred Winds",
   "rarity": 5,
   "weaponType": "catalyst",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [],
   "materials": {
     "ascension": [

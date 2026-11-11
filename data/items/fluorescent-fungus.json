@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 194,
+  "slug": "fluorescent-fungus",
+  "name": "Fluorescent Fungus",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "A mushroom that glows like a night-light. Some curious power lies hidden within it.",
+  "releaseVersion": "2.2",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/fluorescent-fungus.webp"
+  }
+}

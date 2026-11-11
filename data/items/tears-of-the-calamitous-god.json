@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 173,
+  "id": 198,
   "slug": "tears-of-the-calamitous-god",
   "name": "Tears of the Calamitous God",
   "type": "character-level-up-materials",
   "source": "weekly-boss-drops",
   "group": "magatsu-mitake-narukami-no-mikoto-materials",
+  "region": null,
   "rarity": 5,
   "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
   "releaseVersion": "2.5",

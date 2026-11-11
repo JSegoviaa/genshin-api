@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 246,
+  "slug": "kalpalata-lotus",
+  "name": "Kalpalata Lotus",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+  "releaseVersion": "3.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/kalpalata-lotus.webp"
+  }
+}

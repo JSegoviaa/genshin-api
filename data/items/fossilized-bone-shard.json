@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "vishap-materials",
+  "region": null,
   "rarity": 4,
   "description": "A fossilized bone fragment sometimes found after defeating Geovishaps.\nGeovishaps all dream of growing into great dragons one day. They see these fossils as dragon bones and greatly cherish them, perhaps because they too hope to attain the dragons' longevity and power.",
   "releaseVersion": "1.0",

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 189,
+  "slug": "sango-pearl",
+  "name": "Sango Pearl",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight.",
+  "releaseVersion": "2.1",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/sango-pearl.webp"
+  }
+}

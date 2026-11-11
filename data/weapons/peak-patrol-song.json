@@ -5,7 +5,7 @@
   "name": "Peak Patrol Song",
   "rarity": 5,
   "weaponType": "sword",
-  "secondaryStat": "DEF",
+  "secondaryStat": "def",
   "series": [],
   "materials": {
     "ascension": [

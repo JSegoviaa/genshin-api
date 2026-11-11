@@ -5,7 +5,7 @@
   "name": "The Alley Flash",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "Alley Series"
   ],

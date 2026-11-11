@@ -5,7 +5,7 @@
   "name": "Flowing Purity",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Beaumont Series"
   ],

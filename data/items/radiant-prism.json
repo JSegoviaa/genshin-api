@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 220,
+  "id": 249,
   "slug": "radiant-prism",
   "name": "Radiant Prism",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "primal-construct-materials",
+  "region": null,
   "rarity": 4,
   "description": "An exquisite component obtained from defeating a Primal Construct.\nThe lord of the barren desert once had a dream, and once made a great many promises.\nThe legends of the desert say that these machines were originally vehicles for these unknown promises, which now live on only within their mechanical memory banks.",
   "releaseVersion": "3.1",

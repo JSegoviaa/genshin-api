@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 132,
+  "slug": "dandelion-seed",
+  "name": "Dandelion Seed",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/dandelion-seed.webp"
+  }
+}

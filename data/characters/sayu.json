@@ -12,20 +12,20 @@
   "birthday": "10-19",
   "releaseDate": "2021-08-10",
   "releaseVersion": "2.0",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Crystal Marrow",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Marionette Core",
-    "weeklyBoss": "Gilded Scale",
+    "boss": "marionette-core",
+    "weeklyBoss": "gilded-scale",
+    "localSpecialty": "crystal-marrow",
     "talent": [
-      "Teachings of Light",
-      "Guide to Light",
-      "Philosophies of Light"
+      "teachings-of-light",
+      "guide-to-light",
+      "philosophies-of-light"
     ],
     "common": [
-      "Whopperflower Nectar",
-      "Shimmering Nectar",
-      "Energy Nectar"
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
     ]
   },
   "constellations": [

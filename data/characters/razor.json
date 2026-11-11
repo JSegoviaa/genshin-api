@@ -12,20 +12,20 @@
   "birthday": "09-09",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Physical DMG Bonus",
-  "localSpecialty": "Wolfhook",
+  "ascensionStat": "physical-dmg-bonus",
   "materials": {
-    "boss": "Lightning Prism",
-    "weeklyBoss": "Dvalin's Claw",
+    "boss": "lightning-prism",
+    "weeklyBoss": "dvalins-claw",
+    "localSpecialty": "wolfhook",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Damaged Mask",
-      "Stained Mask",
-      "Ominous Mask"
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
     ]
   },
   "constellations": [

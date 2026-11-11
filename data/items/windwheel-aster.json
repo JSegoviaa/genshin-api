@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 121,
+  "slug": "windwheel-aster",
+  "name": "Windwheel Aster",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/windwheel-aster.webp"
+  }
+}

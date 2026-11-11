@@ -12,20 +12,20 @@
   "birthday": "06-08",
   "releaseDate": "2025-05-07",
   "releaseVersion": "5.6",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Beryl Conch",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Secret Source Airflow Accumulator",
-    "weeklyBoss": "Eroded Horn",
+    "boss": "secret-source-airflow-accumulator",
+    "weeklyBoss": "eroded-horn",
+    "localSpecialty": "beryl-conch",
     "talent": [
-      "Teachings of Justice",
-      "Guide to Justice",
-      "Philosophies of Justice"
+      "teachings-of-justice",
+      "guide-to-justice",
+      "philosophies-of-justice"
     ],
     "common": [
-      "Meshing Gear",
-      "Mechanical Spur Gear",
-      "Artificed Dynamic Gear"
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
     ]
   },
   "constellations": [

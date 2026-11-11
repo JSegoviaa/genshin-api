@@ -5,7 +5,7 @@
   "name": "Favonius Codex",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Favonius Series"
   ],

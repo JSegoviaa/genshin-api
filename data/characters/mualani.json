@@ -12,20 +12,20 @@
   "birthday": "08-03",
   "releaseDate": "2024-08-27",
   "releaseVersion": "5.0",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Sprayfeather Gill",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Mark of the Binding Blessing",
-    "weeklyBoss": "Lightless Mass",
+    "boss": "mark-of-the-binding-blessing",
+    "weeklyBoss": "lightless-mass",
+    "localSpecialty": "sprayfeather-gill",
     "talent": [
-      "Teachings of Contention",
-      "Guide to Contention",
-      "Philosophies of Contention"
+      "teachings-of-contention",
+      "guide-to-contention",
+      "philosophies-of-contention"
     ],
     "common": [
-      "Sentry's Wooden Whistle",
-      "Warrior's Metal Whistle",
-      "Saurian-Crowned Warrior's Golden Whistle"
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
     ]
   },
   "constellations": [

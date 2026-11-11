@@ -5,7 +5,7 @@
   "name": "Dialogues of the Desert Sages",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [],
   "materials": {
     "ascension": [

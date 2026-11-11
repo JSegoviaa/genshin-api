@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 257,
+  "id": 291,
   "slug": "guide-to-justice",
   "name": "Guide to Justice",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "justice-books",
+  "region": null,
   "rarity": 3,
   "description": "The sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Justice must be blind, and those who wield the sword of justice must not be led astray by their own interests or affairs.",
   "releaseVersion": "4.0",

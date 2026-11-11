@@ -12,20 +12,20 @@
   "birthday": "05-08",
   "releaseDate": "2022-08-24",
   "releaseVersion": "3.0",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Padisarah",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Majestic Hooked Beak",
-    "weeklyBoss": "Tears of the Calamitous God",
+    "boss": "majestic-hooked-beak",
+    "weeklyBoss": "tears-of-the-calamitous-god",
+    "localSpecialty": "padisarah",
     "talent": [
-      "Teachings of Praxis",
-      "Guide to Praxis",
-      "Philosophies of Praxis"
+      "teachings-of-praxis",
+      "guide-to-praxis",
+      "philosophies-of-praxis"
     ],
     "common": [
-      "Firm Arrowhead",
-      "Sharp Arrowhead",
-      "Weathered Arrowhead"
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
     ]
   },
   "constellations": [

@@ -5,7 +5,7 @@
   "name": "Otherworldly Story",
   "rarity": 3,
   "weaponType": "catalyst",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [],
   "materials": {
     "ascension": [

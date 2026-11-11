@@ -22,9 +22,9 @@ export const regionResource = defineResource({
       "characters",
       (c) => c.region === r.slug,
     ),
-    localSpecialties: ctx.related<{ region: string | null }>(
-      "local-specialties",
-      (l) => l.region === r.slug,
+    localSpecialties: ctx.related<{ type: string; region: string | null }>(
+      "items",
+      (i) => i.type === "local-specialties" && i.region === r.slug,
     ),
     enemies: ctx.related<{ region: string | null }>(
       "enemies",

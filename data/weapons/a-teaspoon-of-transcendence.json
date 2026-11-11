@@ -5,7 +5,7 @@
   "name": "A Teaspoon of Transcendence",
   "rarity": 5,
   "weaponType": "claymore",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

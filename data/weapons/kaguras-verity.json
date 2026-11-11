@@ -5,7 +5,7 @@
   "name": "Kagura's Verity",
   "rarity": 5,
   "weaponType": "catalyst",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [
     "Inazuma Series"
   ],

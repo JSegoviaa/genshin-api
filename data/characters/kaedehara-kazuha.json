@@ -12,20 +12,20 @@
   "birthday": "10-29",
   "releaseDate": "2021-06-29",
   "releaseVersion": "1.6",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Sea Ganoderma",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Marionette Core",
-    "weeklyBoss": "Gilded Scale",
+    "boss": "marionette-core",
+    "weeklyBoss": "gilded-scale",
+    "localSpecialty": "sea-ganoderma",
     "talent": [
-      "Teachings of Diligence",
-      "Guide to Diligence",
-      "Philosophies of Diligence"
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [

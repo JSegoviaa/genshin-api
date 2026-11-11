@@ -12,20 +12,20 @@
   "birthday": "01-09",
   "releaseDate": "2021-11-02",
   "releaseVersion": "2.2",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Fluorescent Fungus",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Smoldering Pearl",
-    "weeklyBoss": "Hellfire Butterfly",
+    "boss": "smoldering-pearl",
+    "weeklyBoss": "hellfire-butterfly",
+    "localSpecialty": "fluorescent-fungus",
     "talent": [
-      "Teachings of Transience",
-      "Guide to Transience",
-      "Philosophies of Transience"
+      "teachings-of-transience",
+      "guide-to-transience",
+      "philosophies-of-transience"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [

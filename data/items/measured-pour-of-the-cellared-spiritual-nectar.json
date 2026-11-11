@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 434,
+  "id": 492,
   "slug": "measured-pour-of-the-cellared-spiritual-nectar",
   "name": "Measured Pour of the Cellared Spiritual Nectar",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "cellared-spiritual-nectar",
+  "region": null,
   "rarity": 2,
   "description": "The radiance that once gleamed like the aurora in the northernmost sky was extinguished when it met the gaze from high above.\nThe calamity of bitter cold and black crystal nearly destroyed the foundations upon which all life endured.\nOnly the fae, unafraid of the cold, were able to emerge from the ice and snow to rule over the deserted realm.",
   "releaseVersion": "7.0",

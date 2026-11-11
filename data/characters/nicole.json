@@ -12,20 +12,20 @@
   "birthday": "09-29",
   "releaseDate": "2026-05-20",
   "releaseVersion": "Luna VII",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Pine Amber",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Remnant of the Dreadwing",
-    "weeklyBoss": "Counterfeit Resin",
+    "boss": "remnant-of-the-dreadwing",
+    "weeklyBoss": "counterfeit-resin",
+    "localSpecialty": "pine-amber",
     "talent": [
-      "Teachings of Elysium",
-      "Guide to Elysium",
-      "Philosophies of Elysium"
+      "teachings-of-elysium",
+      "guide-to-elysium",
+      "philosophies-of-elysium"
     ],
     "common": [
-      "Tattered Warrant",
-      "Immaculate Warrant",
-      "Frost-Etched Warrant"
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
     ]
   },
   "constellations": [],

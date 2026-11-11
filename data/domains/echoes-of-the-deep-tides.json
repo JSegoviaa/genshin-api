@@ -32,20 +32,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "fragment-of-an-ancient-chord",
-      "chapter-of-an-ancient-chord",
-      "movement-of-an-ancient-chord",
-      "echo-of-an-ancient-chord",
-      "dross-of-pure-sacred-dewdrop",
-      "sublimation-of-pure-sacred-dewdrop",
-      "spring-of-pure-sacred-dewdrop",
-      "essence-of-pure-sacred-dewdrop",
-      "broken-goblet-of-the-pristine-sea",
-      "wine-goblet-of-the-pristine-sea",
-      "silver-goblet-of-the-pristine-sea",
-      "golden-goblet-of-the-pristine-sea"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

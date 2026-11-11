@@ -5,7 +5,7 @@
   "name": "Moonpiercer",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "Aranara Series"
   ],

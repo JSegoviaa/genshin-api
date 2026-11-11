@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 138,
+  "id": 155,
   "slug": "teachings-of-transience",
   "name": "Teachings of Transience",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "transience-books",
+  "region": null,
   "rarity": 2,
   "description": "Transience is the dream of the nation of thunder.\nFleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
   "releaseVersion": "2.0",

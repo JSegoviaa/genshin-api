@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 372,
+  "id": 423,
   "slug": "teachings-of-vagrancy",
   "name": "Teachings of Vagrancy",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "vagrancy-books",
+  "region": null,
   "rarity": 2,
   "description": "\"Vagrancy\" is the living of the land beneath the moon.\nEnjoy a moment's respite, then depart before the sky turns black. Dawn is not the end, but the beginning of another journey.",
   "releaseVersion": "Luna I",

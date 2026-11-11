@@ -22,7 +22,7 @@ scripts/                      ← data build, JSON schemas and images
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `artifacts`, `stats`, `enemy-types`, `enemy-families`, `enemy-groups`, `enemies`, `item-types`, `item-groups`, `items`, `domain-types`, `domains`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `artifacts`, `stats`, `enemy-types`, `enemy-families`, `enemy-groups`, `enemies`, `item-types`, `item-groups`, `items`, `domain-types`, `domains`.
 
 | Endpoint | Description |
 |---|---|
@@ -37,13 +37,12 @@ List parameters:
 - `name`: partial search (`name=hu`)
 - Resource filters, accepting comma-separated values:
   - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`, `ascensionStat`, `material`
-  - `local-specialties`: `region`, `releaseVersion`
   - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`, `material` (item or item group slug), `releaseVersion`
   - `artifacts`: `set`, `type`, `rarity` (from the set)
   - `artifact-types`: `mainStat` (e.g. `crit-rate`)
   - `enemies`: `type`, `family`, `group`, `region` (bosses only), `element`, `drop` (item or artifact set slug), `releaseVersion`
-  - `items`: `type`, `source` (`general-enemy-drops`, `elite-enemy-drops`, `normal-boss-drops`, `weekly-boss-drops`, `ascension-gems`, `domains-of-mastery`, `domains-of-forgery`), `group`, `rarity`, `releaseVersion`, `days` (e.g. `monday`)
+  - `items`: `type`, `source` (`general-enemy-drops`, `elite-enemy-drops`, `normal-boss-drops`, `weekly-boss-drops`, `boss-drops`, `domains-of-mastery`, `domains-of-forgery`, `gathering`), `group`, `region`, `rarity`, `releaseVersion`, `days` (e.g. `monday`)
   - `item-groups`: `type`, `source`, `domain`
   - `domains`: `type`, `region`, `element` (recommended), `reward` (item or artifact set slug), `releaseVersion`
   - `enemy-groups`: `family`
@@ -81,13 +80,15 @@ npm run typecheck
 4. `npm run images:check` verifies no images are missing.
 5. `npm run images:sync` uploads new images to R2 and `npm run deploy` publishes the API.
 
-References to exposed resources are stored by slug (`"element": "pyro"`), except `rarity`, which is
-stored as the number of stars (`"rarity": 5`) and returned as a reference to `rarities`. Some fields
-are stored by name and resolved with `slugify(name)`: `releaseVersion` (in every released resource), `localSpecialty`,
-`ascensionStat` and `secondaryStat` (`"ascensionStat": "CRIT DMG"` → `stats/crit-dmg`). Character
-`materials` (`boss`, `weeklyBoss`, `talent`, `common`) are also stored by name and resolved against `items`. Fields
-pointing to resources not yet exposed by the API (weapon series) are also stored by name
-and will be resolved the same way once those resources exist, without touching the data.
+References to exposed resources are stored by slug (`"element": "pyro"`, `"ascensionStat": "crit-dmg"`,
+`"materials": { "localSpecialty": "silk-flower" }`), except `rarity`, which is stored as the number of stars
+(`"rarity": 5`, or `null` for items without rarity such as local specialties) and returned as a reference
+to `rarities`. `releaseVersion` is stored by version name (`"1.3"`, `"Luna I"`) and resolved with
+`slugify(name)`. Fields pointing to resources not yet exposed by the API (weapon series) are stored by
+name and will be resolved the same way once those resources exist, without touching the data.
+
+Data that can be derived is not stored twice: item groups take their type and source from their items,
+and Forgery and Mastery domains take their item rewards from the item groups linked to them.
 
 ### Adding a new resource (e.g. enemies)
 

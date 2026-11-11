@@ -12,20 +12,20 @@
   "birthday": "03-24",
   "releaseDate": "2026-11-04",
   "releaseVersion": "7.2",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Fairy Wormwood",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Severed Tail of the Sky-Roamer",
-    "weeklyBoss": "Counterfeit Resin",
+    "boss": "severed-tail-of-the-sky-roamer",
+    "weeklyBoss": "counterfeit-resin",
+    "localSpecialty": "fairy-wormwood",
     "talent": [
-      "Teachings of Glory",
-      "Guide to Glory",
-      "Philosophies of Glory"
+      "teachings-of-glory",
+      "guide-to-glory",
+      "philosophies-of-glory"
     ],
     "common": [
-      "Ethereal Glimmershard",
-      "Ethereal Crystal",
-      "Ethereal Crystalscale Stone"
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone"
     ]
   },
   "constellations": [],

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 240,
+  "id": 274,
   "slug": "xenochromatic-crystal",
   "name": "Xenochromatic Crystal",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "fontemer-aberrant-materials",
+  "region": null,
   "rarity": 3,
   "description": "A large crystal obtained from a defeated Fontemer Aberrant.\nIt contains a mysterious energy.\nAll rivers and seas originate in Fontaine, but the water loses all its unique properties once it flows outside Fontaine's borders.",
   "releaseVersion": "4.0",

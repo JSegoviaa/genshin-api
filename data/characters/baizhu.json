@@ -12,20 +12,20 @@
   "birthday": "04-25",
   "releaseDate": "2023-05-02",
   "releaseVersion": "3.6",
-  "ascensionStat": "HP",
-  "localSpecialty": "Violetgrass",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Evergloom Ring",
-    "weeklyBoss": "Worldspan Fern",
+    "boss": "evergloom-ring",
+    "weeklyBoss": "worldspan-fern",
+    "localSpecialty": "violetgrass",
     "talent": [
-      "Teachings of Gold",
-      "Guide to Gold",
-      "Philosophies of Gold"
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
     ],
     "common": [
-      "Fungal Spores",
-      "Luminescent Pollen",
-      "Crystalline Cyst Dust"
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
     ]
   },
   "constellations": [

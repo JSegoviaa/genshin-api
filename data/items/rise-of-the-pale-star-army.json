@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 430,
+  "id": 488,
   "slug": "rise-of-the-pale-star-army",
   "name": "Rise of the Pale Star Army",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "pale-star-army",
+  "region": null,
   "rarity": 2,
   "description": "In the east of the tundra, that arrogant monster born within the wing-like mountain is nothing more than a lowly peddler of malt and minerals.\nThe Vila under his command are but weaklings with insect wings, while the Domovoy cannot even lift weapons with their stunted arms.\nWho would heed the clamor of such rabble? What strength could they possibly have to stand against the onslaught of the kings of Volkodlak?",
   "releaseVersion": "7.0",

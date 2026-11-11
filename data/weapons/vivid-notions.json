@@ -5,7 +5,7 @@
   "name": "Vivid Notions",
   "rarity": 5,
   "weaponType": "catalyst",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

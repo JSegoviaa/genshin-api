@@ -6,6 +6,7 @@
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "ballad-books",
+  "region": null,
   "rarity": 3,
   "description": "Poetry is the soul of the land of the wind.\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
   "releaseVersion": "1.0",

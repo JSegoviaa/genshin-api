@@ -5,7 +5,7 @@
   "name": "Prototype Archaic",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Prototype Series"
   ],

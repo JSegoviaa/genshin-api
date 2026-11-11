@@ -5,7 +5,7 @@
   "name": "Forest Regalia",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Aranara Series"
   ],

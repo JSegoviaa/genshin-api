@@ -29,17 +29,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-transience",
-      "guide-to-transience",
-      "philosophies-of-transience",
-      "teachings-of-elegance",
-      "guide-to-elegance",
-      "philosophies-of-elegance",
-      "teachings-of-light",
-      "guide-to-light",
-      "philosophies-of-light"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

@@ -5,7 +5,7 @@
   "name": "Royal Grimoire",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Royal Series"
   ],

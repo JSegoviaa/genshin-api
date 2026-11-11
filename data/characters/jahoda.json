@@ -12,20 +12,20 @@
   "birthday": "01-05",
   "releaseDate": "2025-12-03",
   "releaseVersion": "Luna III",
-  "ascensionStat": "Healing Bonus",
-  "localSpecialty": "Portable Bearing",
+  "ascensionStat": "healing-bonus",
   "materials": {
-    "boss": "Lightbearing Scale-Feather",
-    "weeklyBoss": "Ascended Sample: Knight",
+    "boss": "lightbearing-scale-feather",
+    "weeklyBoss": "ascended-sample-knight",
+    "localSpecialty": "portable-bearing",
     "talent": [
-      "Teachings of Vagrancy",
-      "Guide to Vagrancy",
-      "Philosophies of Vagrancy"
+      "teachings-of-vagrancy",
+      "guide-to-vagrancy",
+      "philosophies-of-vagrancy"
     ],
     "common": [
-      "Broken Drive Shaft",
-      "Reinforced Drive Shaft",
-      "Precision Drive Shaft"
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
     ]
   },
   "constellations": [],

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 318,
+  "id": 361,
   "slug": "guide-to-conflict",
   "name": "Guide to Conflict",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "conflict-books",
+  "region": null,
   "rarity": 3,
   "description": "Conflict is considered reason in the Nation of Pyro.\nConflicts can always be resolved by greater powers. This fact means that they can always be managed, as opposed to developing into something uncontrollable. Conflict is also a kind of limitation, preventing people from endless shirking of responsibilities without weighing the costs. It demands that participants settle their scores decisively and efficiently.",
   "releaseVersion": "5.0",

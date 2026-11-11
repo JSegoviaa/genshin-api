@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 177,
+  "id": 202,
   "slug": "crystalline-cyst-dust",
   "name": "Crystalline Cyst Dust",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "fungus-materials",
+  "region": null,
   "rarity": 3,
   "description": "A huge lump of spore powder collected from a structurally complete spore cyst. Put it in an appropriate environment, and the area might be filled with a thriving aggregation of Floating Fungi later...",
   "releaseVersion": "2.6",

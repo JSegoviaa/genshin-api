@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 341,
+  "id": 390,
   "slug": "cold-cracked-shellshard",
   "name": "Cold-Cracked Shellshard",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "furnace-shell-mountain-weasel-materials",
+  "region": null,
   "rarity": 2,
   "description": "A chunk of shell carved from a Furnace Shell Mountain Weasel's back after its defeat.\nWhere it once blazed brightly, this piece has long since gone cold. The fire-like luster it once held is no more.",
   "releaseVersion": "5.5",

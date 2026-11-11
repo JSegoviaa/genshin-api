@@ -12,20 +12,20 @@
   "birthday": "02-04",
   "releaseDate": "2026-09-23",
   "releaseVersion": "7.1",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Golden Fern",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Vagabond's Cracked Armor",
-    "weeklyBoss": "Profaned Sprout",
+    "boss": "vagabonds-cracked-armor",
+    "weeklyBoss": "profaned-sprout",
+    "localSpecialty": "golden-fern",
     "talent": [
-      "Teachings of Glory",
-      "Guide to Glory",
-      "Philosophies of Glory"
+      "teachings-of-glory",
+      "guide-to-glory",
+      "philosophies-of-glory"
     ],
     "common": [
-      "Ethereal Glimmershard",
-      "Ethereal Crystal",
-      "Ethereal Crystalscale Stone"
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone"
     ]
   },
   "constellations": [],

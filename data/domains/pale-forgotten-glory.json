@@ -33,17 +33,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-equity",
-      "guide-to-equity",
-      "philosophies-of-equity",
-      "teachings-of-justice",
-      "guide-to-justice",
-      "philosophies-of-justice",
-      "teachings-of-order",
-      "guide-to-order",
-      "philosophies-of-order"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

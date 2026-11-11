@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 242,
+  "id": 276,
   "slug": "mechanical-spur-gear",
   "name": "Mechanical Spur Gear",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "clockwork-meka-materials",
+  "region": null,
   "rarity": 2,
   "description": "Clockwork meka's gear.\nAlthough many breakthroughs have been made in the kinematics of clockwork meka, its dynamics research has not seen any major advancements beyond the framework laid down by Alain Guillotin four hundred years ago.",
   "releaseVersion": "4.0",

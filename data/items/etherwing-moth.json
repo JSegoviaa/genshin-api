@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 457,
+  "slug": "etherwing-moth",
+  "name": "Etherwing Moth",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A singular entity bathed in a divine, golden radiance, drifting through uncanny interstices as if a moth in flight.",
+  "releaseVersion": "Luna VI",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/etherwing-moth.webp"
+  }
+}

@@ -12,20 +12,20 @@
   "birthday": "07-15",
   "releaseDate": "2021-03-02",
   "releaseVersion": "1.3",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Silk Flower",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Juvenile Jade",
-    "weeklyBoss": "Shard of a Foul Legacy",
+    "boss": "juvenile-jade",
+    "weeklyBoss": "shard-of-a-foul-legacy",
+    "localSpecialty": "silk-flower",
     "talent": [
-      "Teachings of Diligence",
-      "Guide to Diligence",
-      "Philosophies of Diligence"
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence"
     ],
     "common": [
-      "Whopperflower Nectar",
-      "Shimmering Nectar",
-      "Energy Nectar"
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
     ]
   },
   "constellations": [

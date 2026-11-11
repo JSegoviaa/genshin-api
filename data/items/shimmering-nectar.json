@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "whopperflower-materials",
+  "region": null,
   "rarity": 2,
   "description": "Nectar that is full of pure elemental energy.\nScholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
   "releaseVersion": "1.0",

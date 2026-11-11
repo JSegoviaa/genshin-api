@@ -3,8 +3,6 @@
   "id": 24,
   "slug": "ballad-books",
   "name": "Ballad Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "forsaken-rift",
   "domainLevel": "Realm of Slumber",
   "images": {}

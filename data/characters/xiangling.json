@@ -12,20 +12,20 @@
   "birthday": "11-02",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Jueyun Chili",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Everflame Seed",
-    "weeklyBoss": "Dvalin's Claw",
+    "boss": "everflame-seed",
+    "weeklyBoss": "dvalins-claw",
+    "localSpecialty": "jueyun-chili",
     "talent": [
-      "Teachings of Diligence",
-      "Guide to Diligence",
-      "Philosophies of Diligence"
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence"
     ],
     "common": [
-      "Slime Condensate",
-      "Slime Secretions",
-      "Slime Concentrate"
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
     ]
   },
   "constellations": [

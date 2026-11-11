@@ -5,7 +5,7 @@
   "name": "Beyond the Chrysalis",
   "rarity": 5,
   "weaponType": "sword",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [],
   "materials": {
     "ascension": [

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 245,
+  "slug": "nilotpala-lotus",
+  "name": "Nilotpala Lotus",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
+  "releaseVersion": "3.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/nilotpala-lotus.webp"
+  }
+}

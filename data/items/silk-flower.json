@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 125,
+  "slug": "silk-flower",
+  "name": "Silk Flower",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "liyue",
+  "rarity": null,
+  "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/silk-flower.webp"
+  }
+}

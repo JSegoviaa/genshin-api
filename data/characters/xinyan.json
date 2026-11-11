@@ -12,20 +12,20 @@
   "birthday": "10-16",
   "releaseDate": "2020-12-01",
   "releaseVersion": "1.1",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Violetgrass",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Everflame Seed",
-    "weeklyBoss": "Tusk of Monoceros Caeli",
+    "boss": "everflame-seed",
+    "weeklyBoss": "tusk-of-monoceros-caeli",
+    "localSpecialty": "violetgrass",
     "talent": [
-      "Teachings of Gold",
-      "Guide to Gold",
-      "Philosophies of Gold"
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [

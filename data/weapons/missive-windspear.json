@@ -5,7 +5,7 @@
   "name": "Missive Windspear",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [],
   "materials": {
     "ascension": [

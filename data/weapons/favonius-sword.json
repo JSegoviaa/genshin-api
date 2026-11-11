@@ -5,7 +5,7 @@
   "name": "Favonius Sword",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Favonius Series"
   ],

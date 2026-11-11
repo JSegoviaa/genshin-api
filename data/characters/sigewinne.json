@@ -12,20 +12,20 @@
   "birthday": "03-30",
   "releaseDate": "2024-06-25",
   "releaseVersion": "4.7",
-  "ascensionStat": "HP",
-  "localSpecialty": "Romaritime Flower",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Water That Failed To Transcend",
-    "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "boss": "water-that-failed-to-transcend",
+    "weeklyBoss": "lightless-eye-of-the-maelstrom",
+    "localSpecialty": "romaritime-flower",
     "talent": [
-      "Teachings of Equity",
-      "Guide to Equity",
-      "Philosophies of Equity"
+      "teachings-of-equity",
+      "guide-to-equity",
+      "philosophies-of-equity"
     ],
     "common": [
-      "Transoceanic Pearl",
-      "Transoceanic Chunk",
-      "Xenochromatic Crystal"
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
     ]
   },
   "constellations": [

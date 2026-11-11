@@ -3,8 +3,6 @@
   "id": 55,
   "slug": "admonition-books",
   "name": "Admonition Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "steeple-of-ignorance",
   "domainLevel": "Full Moon",
   "images": {}

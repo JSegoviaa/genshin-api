@@ -5,7 +5,7 @@
   "name": "Sequence of Solitude",
   "rarity": 4,
   "weaponType": "bow",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [],
   "materials": {
     "ascension": [

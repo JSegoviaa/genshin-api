@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 178,
+  "id": 203,
   "slug": "gloomy-statuette",
   "name": "Gloomy Statuette",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "the-black-serpents-material",
+  "region": null,
   "rarity": 2,
   "description": "An idol made in the likeness of some unknown person.\nEven though this carving has seen many years pass, it still has not been damaged in any way. It seems that its previous owner must have cherished it like some holy icon.",
   "releaseVersion": "2.6",

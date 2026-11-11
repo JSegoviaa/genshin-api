@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 256,
+  "id": 290,
   "slug": "teachings-of-justice",
   "name": "Teachings of Justice",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "justice-books",
+  "region": null,
   "rarity": 2,
   "description": "The sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Without the guidance of justice, all law is reduced to meaningless words, to be tampered with and slaughtered at a whim.",
   "releaseVersion": "4.0",

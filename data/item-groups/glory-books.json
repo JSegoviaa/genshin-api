@@ -3,8 +3,6 @@
   "id": 118,
   "slug": "glory-books",
   "name": "Glory Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "relics-of-the-fallen-grace",
   "domainLevel": "Shared Vision",
   "images": {}

@@ -5,7 +5,7 @@
   "name": "Everlasting Moonglow",
   "rarity": 5,
   "weaponType": "catalyst",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [],
   "materials": {
     "ascension": [

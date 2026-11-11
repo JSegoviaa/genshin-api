@@ -12,20 +12,20 @@
   "birthday": "11-15",
   "releaseDate": "2025-03-26",
   "releaseVersion": "5.5",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Skysplit Gembloom",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Sparkless Statue Core",
-    "weeklyBoss": "Eroded Scale-Feather",
+    "boss": "sparkless-statue-core",
+    "weeklyBoss": "eroded-scale-feather",
+    "localSpecialty": "skysplit-gembloom",
     "talent": [
-      "Teachings of Conflict",
-      "Guide to Conflict",
-      "Philosophies of Conflict"
+      "teachings-of-conflict",
+      "guide-to-conflict",
+      "philosophies-of-conflict"
     ],
     "common": [
-      "Juvenile Fang",
-      "Seasoned Fang",
-      "Tyrant's Fang"
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
     ]
   },
   "constellations": [

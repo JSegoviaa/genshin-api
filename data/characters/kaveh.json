@@ -12,20 +12,20 @@
   "birthday": "07-09",
   "releaseDate": "2023-05-02",
   "releaseVersion": "3.6",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Mourning Flower",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Quelled Creeper",
-    "weeklyBoss": "Primordial Greenbloom",
+    "boss": "quelled-creeper",
+    "weeklyBoss": "primordial-greenbloom",
+    "localSpecialty": "mourning-flower",
     "talent": [
-      "Teachings of Ingenuity",
-      "Guide to Ingenuity",
-      "Philosophies of Ingenuity"
+      "teachings-of-ingenuity",
+      "guide-to-ingenuity",
+      "philosophies-of-ingenuity"
     ],
     "common": [
-      "Fungal Spores",
-      "Luminescent Pollen",
-      "Crystalline Cyst Dust"
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
     ]
   },
   "constellations": [

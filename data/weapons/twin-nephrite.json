@@ -5,7 +5,7 @@
   "name": "Twin Nephrite",
   "rarity": 3,
   "weaponType": "catalyst",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [],
   "materials": {
     "ascension": [

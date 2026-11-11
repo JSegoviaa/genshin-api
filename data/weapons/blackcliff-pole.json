@@ -5,7 +5,7 @@
   "name": "Blackcliff Pole",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [
     "Blackcliff Series"
   ],

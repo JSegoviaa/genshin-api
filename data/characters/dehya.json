@@ -12,20 +12,20 @@
   "birthday": "04-07",
   "releaseDate": "2023-03-01",
   "releaseVersion": "3.5",
-  "ascensionStat": "HP",
-  "localSpecialty": "Sand Grease Pupa",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Light Guiding Tetrahedron",
-    "weeklyBoss": "Puppet Strings",
+    "boss": "light-guiding-tetrahedron",
+    "weeklyBoss": "puppet-strings",
+    "localSpecialty": "sand-grease-pupa",
     "talent": [
-      "Teachings of Praxis",
-      "Guide to Praxis",
-      "Philosophies of Praxis"
+      "teachings-of-praxis",
+      "guide-to-praxis",
+      "philosophies-of-praxis"
     ],
     "common": [
-      "Faded Red Satin",
-      "Trimmed Red Silk",
-      "Rich Red Brocade"
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
     ]
   },
   "constellations": [

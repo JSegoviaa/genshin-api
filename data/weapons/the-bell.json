@@ -5,7 +5,7 @@
   "name": "The Bell",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [
     "Wanderer's Troupe Series"
   ],

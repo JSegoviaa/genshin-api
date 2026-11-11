@@ -5,7 +5,7 @@
   "name": "Light of Foliar Incision",
   "rarity": 5,
   "weaponType": "sword",
-  "secondaryStat": "CRIT DMG",
+  "secondaryStat": "crit-dmg",
   "series": [
     "Sumeru Series"
   ],

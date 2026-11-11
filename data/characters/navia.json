@@ -12,20 +12,20 @@
   "birthday": "08-16",
   "releaseDate": "2023-12-19",
   "releaseVersion": "4.3",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Spring of the First Dewdrop",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Artificed Spare Clockwork Component — Coppelius",
-    "weeklyBoss": "Lightless Silk String",
+    "boss": "artificed-spare-clockwork-component-coppelius",
+    "weeklyBoss": "lightless-silk-string",
+    "localSpecialty": "spring-of-the-first-dewdrop",
     "talent": [
-      "Teachings of Equity",
-      "Guide to Equity",
-      "Philosophies of Equity"
+      "teachings-of-equity",
+      "guide-to-equity",
+      "philosophies-of-equity"
     ],
     "common": [
-      "Transoceanic Pearl",
-      "Transoceanic Chunk",
-      "Xenochromatic Crystal"
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
     ]
   },
   "constellations": [

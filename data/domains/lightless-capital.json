@@ -30,17 +30,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-moonlight",
-      "guide-to-moonlight",
-      "philosophies-of-moonlight",
-      "teachings-of-elysium",
-      "guide-to-elysium",
-      "philosophies-of-elysium",
-      "teachings-of-vagrancy",
-      "guide-to-vagrancy",
-      "philosophies-of-vagrancy"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

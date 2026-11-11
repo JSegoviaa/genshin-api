@@ -5,7 +5,7 @@
   "name": "Lion's Roar",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "4-Star Bane Series",
     "Kunwu Series"

@@ -5,7 +5,7 @@
   "name": "Engulfing Lightning",
   "rarity": 5,
   "weaponType": "polearm",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Inazuma Series"
   ],

@@ -32,20 +32,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "blazing-sacrificial-hearts-terror",
-      "blazing-sacrificial-hearts-hesitance",
-      "blazing-sacrificial-hearts-resolve",
-      "blazing-sacrificial-hearts-splendor",
-      "delirious-decadence-of-the-sacred-lord",
-      "delirious-desolation-of-the-sacred-lord",
-      "delirious-demeanor-of-the-sacred-lord",
-      "delirious-divinity-of-the-sacred-lord",
-      "night-winds-mystic-consideration",
-      "night-winds-mystic-premonition",
-      "night-winds-mystic-augury",
-      "night-winds-mystic-revelation"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

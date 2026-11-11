@@ -30,20 +30,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "coral-branch-of-a-distant-sea",
-      "jeweled-branch-of-a-distant-sea",
-      "jade-branch-of-a-distant-sea",
-      "golden-branch-of-a-distant-sea",
-      "narukamis-wisdom",
-      "narukamis-joy",
-      "narukamis-affection",
-      "narukamis-valor",
-      "mask-of-the-wicked-lieutenant",
-      "mask-of-the-tigers-bite",
-      "mask-of-the-one-horned",
-      "mask-of-the-kijin"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

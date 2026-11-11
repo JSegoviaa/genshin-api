@@ -5,7 +5,7 @@
   "name": "Dragon's Bane",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "4-Star Bane Series",
     "Kunwu Series"

@@ -5,7 +5,7 @@
   "name": "Silvershower Heartstrings",
   "rarity": 5,
   "weaponType": "bow",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [],
   "materials": {
     "ascension": [

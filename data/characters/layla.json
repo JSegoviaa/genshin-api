@@ -12,20 +12,20 @@
   "birthday": "12-19",
   "releaseDate": "2022-11-18",
   "releaseVersion": "3.2",
-  "ascensionStat": "HP",
-  "localSpecialty": "Nilotpala Lotus",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Perpetual Caliber",
-    "weeklyBoss": "Mirror of Mushin",
+    "boss": "perpetual-caliber",
+    "weeklyBoss": "mirror-of-mushin",
+    "localSpecialty": "nilotpala-lotus",
     "talent": [
-      "Teachings of Ingenuity",
-      "Guide to Ingenuity",
-      "Philosophies of Ingenuity"
+      "teachings-of-ingenuity",
+      "guide-to-ingenuity",
+      "philosophies-of-ingenuity"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

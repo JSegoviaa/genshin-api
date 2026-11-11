@@ -12,20 +12,20 @@
   "birthday": "05-03",
   "releaseDate": "2022-09-28",
   "releaseVersion": "3.1",
-  "ascensionStat": "HP",
-  "localSpecialty": "Henna Berry",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Light Guiding Tetrahedron",
-    "weeklyBoss": "Tears of the Calamitous God",
+    "boss": "light-guiding-tetrahedron",
+    "weeklyBoss": "tears-of-the-calamitous-god",
+    "localSpecialty": "henna-berry",
     "talent": [
-      "Teachings of Admonition",
-      "Guide to Admonition",
-      "Philosophies of Admonition"
+      "teachings-of-admonition",
+      "guide-to-admonition",
+      "philosophies-of-admonition"
     ],
     "common": [
-      "Faded Red Satin",
-      "Trimmed Red Silk",
-      "Rich Red Brocade"
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
     ]
   },
   "constellations": [

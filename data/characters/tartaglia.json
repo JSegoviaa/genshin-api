@@ -12,20 +12,20 @@
   "birthday": "07-20",
   "releaseDate": "2020-11-11",
   "releaseVersion": "1.1",
-  "ascensionStat": "Hydro DMG Bonus",
-  "localSpecialty": "Starconch",
+  "ascensionStat": "hydro-dmg-bonus",
   "materials": {
-    "boss": "Cleansing Heart",
-    "weeklyBoss": "Shard of a Foul Legacy",
+    "boss": "cleansing-heart",
+    "weeklyBoss": "shard-of-a-foul-legacy",
+    "localSpecialty": "starconch",
     "talent": [
-      "Teachings of Freedom",
-      "Guide to Freedom",
-      "Philosophies of Freedom"
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

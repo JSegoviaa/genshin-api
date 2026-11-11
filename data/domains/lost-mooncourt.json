@@ -32,20 +32,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "artful-device-fragment",
-      "artful-device-replica",
-      "artful-device-inheritance",
-      "artful-device-wish",
-      "ember-of-long-night-flint",
-      "afterglow-of-long-night-flint",
-      "flare-of-long-night-flint",
-      "blaze-of-long-night-flint",
-      "sundered-glory-of-the-far-north-scions",
-      "unyielding-delusion-of-the-far-north-scions",
-      "oblation-of-the-far-north-scions",
-      "aureate-radiance-of-the-far-north-scions"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

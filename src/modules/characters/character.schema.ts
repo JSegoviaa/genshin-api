@@ -54,14 +54,14 @@ export const characterSchema = z
     birthday: monthDay.nullable(),
     releaseDate: date,
     releaseVersion: z.string().min(1),
-    ascensionStat: label.nullable(),
-    localSpecialty: label.nullable(),
+    ascensionStat: ref.nullable(),
     materials: z
       .object({
-        boss: label.nullable(),
-        weeklyBoss: label.nullable(),
-        talent: z.array(label),
-        common: z.array(label),
+        boss: ref.nullable(),
+        weeklyBoss: ref.nullable(),
+        localSpecialty: ref.nullable(),
+        talent: z.array(ref),
+        common: z.array(ref),
       })
       .strict(),
     constellations: z.array(constellationSchema),

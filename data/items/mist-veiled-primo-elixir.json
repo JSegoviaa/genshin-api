@@ -6,6 +6,7 @@
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "elixirs",
+  "region": null,
   "rarity": 5,
   "description": "An elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case.",
   "releaseVersion": "1.0",

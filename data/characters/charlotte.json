@@ -12,20 +12,20 @@
   "birthday": "04-10",
   "releaseDate": "2023-11-07",
   "releaseVersion": "4.2",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Beryl Conch",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "\"Tourbillon Device\"",
-    "weeklyBoss": "Lightless Silk String",
+    "boss": "tourbillon-device",
+    "weeklyBoss": "lightless-silk-string",
+    "localSpecialty": "beryl-conch",
     "talent": [
-      "Teachings of Justice",
-      "Guide to Justice",
-      "Philosophies of Justice"
+      "teachings-of-justice",
+      "guide-to-justice",
+      "philosophies-of-justice"
     ],
     "common": [
-      "Meshing Gear",
-      "Mechanical Spur Gear",
-      "Artificed Dynamic Gear"
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
     ]
   },
   "constellations": [

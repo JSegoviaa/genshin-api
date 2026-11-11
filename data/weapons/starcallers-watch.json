@@ -5,7 +5,7 @@
   "name": "Starcaller's Watch",
   "rarity": 5,
   "weaponType": "catalyst",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [],
   "materials": {
     "ascension": [

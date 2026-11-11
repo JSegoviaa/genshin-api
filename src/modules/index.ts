@@ -14,7 +14,6 @@ import { enemyTypeResource } from "./enemy-types/enemy-type.resource";
 import { itemGroupResource } from "./item-groups/item-group.resource";
 import { itemTypeResource } from "./item-types/item-type.resource";
 import { itemResource } from "./items/item.resource";
-import { localSpecialtyResource } from "./local-specialties/local-specialty.resource";
 import { rarityResource } from "./rarities/rarity.resource";
 import { regionResource } from "./regions/region.resource";
 import { statResource } from "./stats/stat.resource";
@@ -28,7 +27,6 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   "weapon-types": weaponTypeResource,
   rarities: rarityResource,
   versions: versionResource,
-  "local-specialties": localSpecialtyResource,
   weapons: weaponResource,
   characters: characterResource,
   "artifact-types": artifactTypeResource,

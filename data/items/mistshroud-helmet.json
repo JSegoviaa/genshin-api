@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 363,
+  "id": 414,
   "slug": "mistshroud-helmet",
   "name": "Mistshroud Helmet",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "wasteland-wild-hunt-materials",
+  "region": null,
   "rarity": 4,
   "description": "A helmet found in the mists of the Wild Hunt.\nPerhaps because the sullying presence from beyond this world has fed from the memories of the Ley Lines, its shape appears oddly similar to the relics of a lost kingdom.",
   "releaseVersion": "Luna I",

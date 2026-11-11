@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 377,
+  "id": 428,
   "slug": "artful-device-inheritance",
   "name": "Artful Device Inheritance",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "artful-devices",
+  "region": null,
   "rarity": 4,
   "description": "Word on the street is that the legendary thief, Reed Miller, has been sentenced to death several times, yet he's always managed to escape at the last minute with the help of his friends — and his tools.\nIn some versions of these stories, several of his followers willingly died in his place for their revered King of Elysium. Naturally, these versions can't compete with the more popular drunken stories full of romance and bliss. Since there has never been a shackle that could restrain the legendary thief, it is only natural to assume that no ending could do the same.",
   "releaseVersion": "Luna I",

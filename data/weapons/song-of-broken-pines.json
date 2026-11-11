@@ -5,7 +5,7 @@
   "name": "Song of Broken Pines",
   "rarity": 5,
   "weaponType": "claymore",
-  "secondaryStat": "Physical DMG Bonus",
+  "secondaryStat": "physical-dmg-bonus",
   "series": [
     "Millennial Movement Series"
   ],

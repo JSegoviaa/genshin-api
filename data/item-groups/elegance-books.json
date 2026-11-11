@@ -3,8 +3,6 @@
   "id": 40,
   "slug": "elegance-books",
   "name": "Elegance Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "violet-court",
   "domainLevel": "Thundering Valley",
   "images": {}

@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "treasure-hoarder-materials",
+  "region": null,
   "rarity": 1,
   "description": "A signet that proudly represents its owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
   "releaseVersion": "1.0",

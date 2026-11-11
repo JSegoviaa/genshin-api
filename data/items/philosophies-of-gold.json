@@ -6,6 +6,7 @@
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "gold-books",
+  "region": null,
   "rarity": 4,
   "description": "Gold is the symbol of the land of Geo.\nGold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
   "releaseVersion": "1.0",

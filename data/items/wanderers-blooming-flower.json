@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 233,
+  "id": 265,
   "slug": "wanderers-blooming-flower",
   "name": "Wanderer's Blooming Flower",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "hilichurl-rogue-materials",
+  "region": null,
   "rarity": 4,
   "description": "A blooming wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nThe eternal outlander asks not for reward, but only to see their deeds come to fruition...",
   "releaseVersion": "3.6",

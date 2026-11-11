@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 258,
+  "id": 292,
   "slug": "philosophies-of-justice",
   "name": "Philosophies of Justice",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "justice-books",
+  "region": null,
   "rarity": 4,
   "description": "The sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Justice means judgment and reconciliation, the blade of judgment arrests the actions of evil, while reconciliation maintains order.",
   "releaseVersion": "4.0",

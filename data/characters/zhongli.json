@@ -12,20 +12,20 @@
   "birthday": "12-31",
   "releaseDate": "2020-12-01",
   "releaseVersion": "1.1",
-  "ascensionStat": "Geo DMG Bonus",
-  "localSpecialty": "Cor Lapis",
+  "ascensionStat": "geo-dmg-bonus",
   "materials": {
-    "boss": "Basalt Pillar",
-    "weeklyBoss": "Tusk of Monoceros Caeli",
+    "boss": "basalt-pillar",
+    "weeklyBoss": "tusk-of-monoceros-caeli",
+    "localSpecialty": "cor-lapis",
     "talent": [
-      "Teachings of Gold",
-      "Guide to Gold",
-      "Philosophies of Gold"
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
     ],
     "common": [
-      "Slime Condensate",
-      "Slime Secretions",
-      "Slime Concentrate"
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
     ]
   },
   "constellations": [

@@ -12,20 +12,20 @@
   "birthday": "06-09",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Elemental Mastery",
-  "localSpecialty": "Valberry",
+  "ascensionStat": "elemental-mastery",
   "materials": {
-    "boss": "Lightning Prism",
-    "weeklyBoss": "Dvalin's Claw",
+    "boss": "lightning-prism",
+    "weeklyBoss": "dvalins-claw",
+    "localSpecialty": "valberry",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Slime Condensate",
-      "Slime Secretions",
-      "Slime Concentrate"
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
     ]
   },
   "constellations": [

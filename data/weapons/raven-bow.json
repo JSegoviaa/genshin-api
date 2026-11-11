@@ -5,7 +5,7 @@
   "name": "Raven Bow",
   "rarity": 3,
   "weaponType": "bow",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "3-Star Bane Series"
   ],

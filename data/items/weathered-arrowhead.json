@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "hilichurl-shooter-materials",
+  "region": null,
   "rarity": 3,
   "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon.\nHowever it represents the pride of a hunter and acts as both an amulet and a medal.",
   "releaseVersion": "1.0",

@@ -12,20 +12,20 @@
   "birthday": "04-20",
   "releaseDate": "2022-05-31",
   "releaseVersion": "2.7",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Starconch",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Runic Fang",
-    "weeklyBoss": "Gilded Scale",
+    "boss": "runic-fang",
+    "weeklyBoss": "gilded-scale",
+    "localSpecialty": "starconch",
     "talent": [
-      "Teachings of Prosperity",
-      "Guide to Prosperity",
-      "Philosophies of Prosperity"
+      "teachings-of-prosperity",
+      "guide-to-prosperity",
+      "philosophies-of-prosperity"
     ],
     "common": [
-      "Recruit's Insignia",
-      "Sergeant's Insignia",
-      "Lieutenant's Insignia"
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
     ]
   },
   "constellations": [

@@ -3,8 +3,6 @@
   "id": 57,
   "slug": "praxis-books",
   "name": "Praxis Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "steeple-of-ignorance",
   "domainLevel": "Basket of Discipline",
   "images": {}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 439,
+  "slug": "frostlamp-flower",
+  "name": "Frostlamp Flower",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "nod-krai",
+  "rarity": null,
+  "description": "A flower that resembles a candle lamp, commonly found near water. It emits a cold, simple aroma that has a calming effect.\nThe contrasting colors of its stamen and stem are thought to symbolize the two different types of kuuvahki, yet despite this symbolism, it is one of the few rare plants that are immune to kuuvahki's influence. As a result, the Frostmoon Scions sometimes regard it as a symbol of faithlessness and apostasy.\nIt is said that this strangely shaped flower first appeared at the end of the dark calamity five hundred years ago, but this claim has never been rigorously verified.",
+  "releaseVersion": "Luna I",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/frostlamp-flower.webp"
+  }
+}

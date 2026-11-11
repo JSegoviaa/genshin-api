@@ -12,20 +12,20 @@
   "birthday": "10-25",
   "releaseDate": "2021-05-18",
   "releaseVersion": "1.5",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Dandelion Seed",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Crystalline Bloom",
-    "weeklyBoss": "Dragon Lord's Crown",
+    "boss": "crystalline-bloom",
+    "weeklyBoss": "dragon-lords-crown",
+    "localSpecialty": "dandelion-seed",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Damaged Mask",
-      "Stained Mask",
-      "Ominous Mask"
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
     ]
   },
   "constellations": [

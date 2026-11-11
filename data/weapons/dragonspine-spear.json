@@ -5,7 +5,7 @@
   "name": "Dragonspine Spear",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "Physical DMG Bonus",
+  "secondaryStat": "physical-dmg-bonus",
   "series": [
     "Dragonspine Series"
   ],

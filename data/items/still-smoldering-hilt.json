@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 289,
+  "id": 332,
   "slug": "still-smoldering-hilt",
   "name": "Still-Smoldering Hilt",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "praetorian-golem-materials",
+  "region": null,
   "rarity": 4,
   "description": "A stone hilt obtained from an ancient statue.\nOnly the recentness of its separation from its owner may explain the as-yet unextinguished flame within.",
   "releaseVersion": "4.6",

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 262,
+  "id": 296,
   "slug": "fragment-of-an-ancient-chord",
   "name": "Fragment of an Ancient Chord",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "ancient-chords",
+  "region": null,
   "rarity": 2,
   "description": "A harp with rotten keys. Its voice blocked, it cannot be played nor its sound heard.\nIt is said the descendants of the forgotten music once lacquered mechanical wooden harps with gold in order to revive the magnificent remnants of the ancient dynasty, futilely attempting to match them to the silent golems...\nA long time passed, and then more, and the rotten, off-key harps remained in the grasp of those silent giants, caressed by the waves, playing only sorrowful strains.",
   "releaseVersion": "4.0",

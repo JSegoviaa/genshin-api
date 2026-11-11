@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 190,
+  "slug": "amakumo-fruit",
+  "name": "Amakumo Fruit",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
+  "releaseVersion": "2.1",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/amakumo-fruit.webp"
+  }
+}

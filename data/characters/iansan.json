@@ -12,20 +12,20 @@
   "birthday": "08-08",
   "releaseDate": "2025-03-26",
   "releaseVersion": "5.5",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Dracolite",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Ensnaring Gaze",
-    "weeklyBoss": "Denial and Judgment",
+    "boss": "ensnaring-gaze",
+    "weeklyBoss": "denial-and-judgment",
+    "localSpecialty": "dracolite",
     "talent": [
-      "Teachings of Contention",
-      "Guide to Contention",
-      "Philosophies of Contention"
+      "teachings-of-contention",
+      "guide-to-contention",
+      "philosophies-of-contention"
     ],
     "common": [
-      "Sentry's Wooden Whistle",
-      "Warrior's Metal Whistle",
-      "Saurian-Crowned Warrior's Golden Whistle"
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
     ]
   },
   "constellations": [

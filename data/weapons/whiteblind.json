@@ -5,7 +5,7 @@
   "name": "Whiteblind",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "DEF",
+  "secondaryStat": "def",
   "series": [
     "Infusion Series"
   ],

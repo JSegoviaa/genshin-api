@@ -12,20 +12,20 @@
   "birthday": "04-03",
   "releaseDate": "2026-06-09",
   "releaseVersion": "Luna VII",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Etherwing Moth",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Prismatic Severed Tail",
-    "weeklyBoss": "Ascended Sample: Knight",
+    "boss": "prismatic-severed-tail",
+    "weeklyBoss": "ascended-sample-knight",
+    "localSpecialty": "etherwing-moth",
     "talent": [
-      "Teachings of Resistance",
-      "Guide to Resistance",
-      "Philosophies of Resistance"
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance"
     ],
     "common": [
-      "Firm Arrowhead",
-      "Sharp Arrowhead",
-      "Weathered Arrowhead"
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
     ]
   },
   "constellations": [],

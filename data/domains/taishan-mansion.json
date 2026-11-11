@@ -31,17 +31,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-prosperity",
-      "guide-to-prosperity",
-      "philosophies-of-prosperity",
-      "teachings-of-diligence",
-      "guide-to-diligence",
-      "philosophies-of-diligence",
-      "teachings-of-gold",
-      "guide-to-gold",
-      "philosophies-of-gold"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

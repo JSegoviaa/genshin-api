@@ -5,7 +5,7 @@
   "name": "Compound Bow",
   "rarity": 4,
   "weaponType": "bow",
-  "secondaryStat": "Physical DMG Bonus",
+  "secondaryStat": "physical-dmg-bonus",
   "series": [
     "Infusion Series"
   ],

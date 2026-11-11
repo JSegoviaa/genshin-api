@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "fatui-cicin-mage-materials",
+  "region": null,
   "rarity": 2,
   "description": "Strange spores created by Mist Grass in enclosed spaces. They are the Cicins' favorite food.",
   "releaseVersion": "1.0",

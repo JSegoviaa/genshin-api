@@ -12,20 +12,20 @@
   "birthday": "12-22",
   "releaseDate": "2024-01-31",
   "releaseVersion": "4.4",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Starconch",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Emperor's Resolution",
-    "weeklyBoss": "Lightless Mass",
+    "boss": "emperors-resolution",
+    "weeklyBoss": "lightless-mass",
+    "localSpecialty": "starconch",
     "talent": [
-      "Teachings of Prosperity",
-      "Guide to Prosperity",
-      "Philosophies of Prosperity"
+      "teachings-of-prosperity",
+      "guide-to-prosperity",
+      "philosophies-of-prosperity"
     ],
     "common": [
-      "Slime Condensate",
-      "Slime Secretions",
-      "Slime Concentrate"
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
     ]
   },
   "constellations": [

@@ -12,20 +12,20 @@
   "birthday": "02-14",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Electro DMG Bonus",
-  "localSpecialty": "Noctilucous Jade",
+  "ascensionStat": "electro-dmg-bonus",
   "materials": {
-    "boss": "Lightning Prism",
-    "weeklyBoss": "Dvalin's Sigh",
+    "boss": "lightning-prism",
+    "weeklyBoss": "dvalins-sigh",
+    "localSpecialty": "noctilucous-jade",
     "talent": [
-      "Teachings of Gold",
-      "Guide to Gold",
-      "Philosophies of Gold"
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [

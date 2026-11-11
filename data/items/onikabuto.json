@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 176,
+  "slug": "onikabuto",
+  "name": "Onikabuto",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "inazuma",
+  "rarity": null,
+  "description": "A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
+  "releaseVersion": "2.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/onikabuto.webp"
+  }
+}

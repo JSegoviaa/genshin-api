@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 130,
+  "id": 147,
   "slug": "chaos-gear",
   "name": "Chaos Gear",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "ruin-sentinel-materials",
+  "region": null,
   "rarity": 2,
   "description": "Comes from a now-inactive ancient Ruin machine.\nThis is the energy source of that biomimetic mechanism.",
   "releaseVersion": "2.0",

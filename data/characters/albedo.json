@@ -12,20 +12,20 @@
   "birthday": "09-13",
   "releaseDate": "2020-12-23",
   "releaseVersion": "1.2",
-  "ascensionStat": "Geo DMG Bonus",
-  "localSpecialty": "Cecilia",
+  "ascensionStat": "geo-dmg-bonus",
   "materials": {
-    "boss": "Basalt Pillar",
-    "weeklyBoss": "Tusk of Monoceros Caeli",
+    "boss": "basalt-pillar",
+    "weeklyBoss": "tusk-of-monoceros-caeli",
+    "localSpecialty": "cecilia",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

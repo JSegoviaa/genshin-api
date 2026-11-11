@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 156,
+  "id": 173,
   "slug": "mask-of-the-tigers-bite",
   "name": "Mask of the Tiger's Bite",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "oni-masks",
+  "region": null,
   "rarity": 3,
   "description": "\"Sumirezome Sangetsu Kogetsukan\" depicts the fierce oni Torachiyo shattering the Shogun's naginata with a single bite, thus gaining the upper hand for a time. As such, masks that are based on him have finely crafted fangs.\nIn the denouement of this tale, the wounded oni fled into the forest, deathly afraid of showing himself even to the cold moonlight. The wind that whispers through the alleys and valleys can be said to resemble his quiet cries of agony, and so there is a poetic seasonal expression for this in Inazuma: \"Torachiyo's Wind.\"",
   "releaseVersion": "2.0",

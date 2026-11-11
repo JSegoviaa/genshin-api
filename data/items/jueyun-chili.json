@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 123,
+  "slug": "jueyun-chili",
+  "name": "Jueyun Chili",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "liyue",
+  "rarity": null,
+  "description": "A spicy plant native to Liyue.\nMerely smelling it makes one hot and thirsty.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/jueyun-chili.webp"
+  }
+}

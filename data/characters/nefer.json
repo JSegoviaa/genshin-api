@@ -12,20 +12,20 @@
   "birthday": "05-09",
   "releaseDate": "2025-10-22",
   "releaseVersion": "Luna II",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Moonfall Silver",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Radiant Antler",
-    "weeklyBoss": "Ascended Sample: Rook",
+    "boss": "radiant-antler",
+    "weeklyBoss": "ascended-sample-rook",
+    "localSpecialty": "moonfall-silver",
     "talent": [
-      "Teachings of Elysium",
-      "Guide to Elysium",
-      "Philosophies of Elysium"
+      "teachings-of-elysium",
+      "guide-to-elysium",
+      "philosophies-of-elysium"
     ],
     "common": [
-      "Tattered Warrant",
-      "Immaculate Warrant",
-      "Frost-Etched Warrant"
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
     ]
   },
   "constellations": [

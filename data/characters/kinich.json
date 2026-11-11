@@ -12,20 +12,20 @@
   "birthday": "11-11",
   "releaseDate": "2024-09-17",
   "releaseVersion": "5.0",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Saurian Claw Succulent",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Overripe Flamegranate",
-    "weeklyBoss": "Denial and Judgment",
+    "boss": "overripe-flamegranate",
+    "weeklyBoss": "denial-and-judgment",
+    "localSpecialty": "saurian-claw-succulent",
     "talent": [
-      "Teachings of Kindling",
-      "Guide to Kindling",
-      "Philosophies of Kindling"
+      "teachings-of-kindling",
+      "guide-to-kindling",
+      "philosophies-of-kindling"
     ],
     "common": [
-      "Juvenile Fang",
-      "Seasoned Fang",
-      "Tyrant's Fang"
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
     ]
   },
   "constellations": [

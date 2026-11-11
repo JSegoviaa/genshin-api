@@ -1,5 +1,4 @@
 import { defineResource, head } from "../../core/resource";
-import { slugify } from "../../core/slug";
 import type { ArtifactType } from "../artifact-types/artifact-type.schema";
 import { statSchema } from "./stat.schema";
 
@@ -35,11 +34,11 @@ export const statResource = defineResource({
     images: ctx.images(s.images),
     characters: ctx.related<{ ascensionStat: string | null }>(
       "characters",
-      (c) => !!c.ascensionStat && slugify(c.ascensionStat) === s.slug,
+      (c) => c.ascensionStat === s.slug,
     ),
     weapons: ctx.related<{ secondaryStat: string | null }>(
       "weapons",
-      (w) => !!w.secondaryStat && slugify(w.secondaryStat) === s.slug,
+      (w) => w.secondaryStat === s.slug,
     ),
     artifacts: {
       mainStat: ctx.related<ArtifactType>("artifact-types", (t) =>

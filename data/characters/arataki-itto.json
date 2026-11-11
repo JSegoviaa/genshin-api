@@ -12,20 +12,20 @@
   "birthday": "06-01",
   "releaseDate": "2021-12-14",
   "releaseVersion": "2.3",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Onikabuto",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Riftborn Regalia",
-    "weeklyBoss": "Ashen Heart",
+    "boss": "riftborn-regalia",
+    "weeklyBoss": "ashen-heart",
+    "localSpecialty": "onikabuto",
     "talent": [
-      "Teachings of Elegance",
-      "Guide to Elegance",
-      "Philosophies of Elegance"
+      "teachings-of-elegance",
+      "guide-to-elegance",
+      "philosophies-of-elegance"
     ],
     "common": [
-      "Slime Condensate",
-      "Slime Secretions",
-      "Slime Concentrate"
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
     ]
   },
   "constellations": [

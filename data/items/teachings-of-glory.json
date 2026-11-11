@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 427,
+  "id": 485,
   "slug": "teachings-of-glory",
   "name": "Teachings of Glory",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "glory-books",
+  "region": null,
   "rarity": 2,
   "description": "Glory is the sacred faith of the frozen realm.\nIt is a spark buried deep beneath the frozen soil; if one can but trace its true form, they shall grant themselves the courage to stand against the biting cold.",
   "releaseVersion": "7.0",

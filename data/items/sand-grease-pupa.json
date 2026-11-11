@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 262,
+  "slug": "sand-grease-pupa",
+  "name": "Sand Grease Pupa",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
+  "releaseVersion": "3.4",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/sand-grease-pupa.webp"
+  }
+}

@@ -5,7 +5,7 @@
   "name": "Rainslasher",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "4-Star Bane Series"
   ],

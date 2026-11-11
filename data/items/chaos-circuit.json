@@ -6,6 +6,7 @@
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "humanoid-ruin-machine-materials",
+  "region": null,
   "rarity": 3,
   "description": "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no one is able to make sense of how it worked.",
   "releaseVersion": "1.0",

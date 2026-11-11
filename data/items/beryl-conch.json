@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 308,
+  "slug": "beryl-conch",
+  "name": "Beryl Conch",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "fontaine",
+  "rarity": null,
+  "description": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy.",
+  "releaseVersion": "4.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/beryl-conch.webp"
+  }
+}

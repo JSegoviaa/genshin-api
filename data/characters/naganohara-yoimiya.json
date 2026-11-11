@@ -12,20 +12,20 @@
   "birthday": "06-21",
   "releaseDate": "2021-08-10",
   "releaseVersion": "2.0",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Naku Weed",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Smoldering Pearl",
-    "weeklyBoss": "Dragon Lord's Crown",
+    "boss": "smoldering-pearl",
+    "weeklyBoss": "dragon-lords-crown",
+    "localSpecialty": "naku-weed",
     "talent": [
-      "Teachings of Transience",
-      "Guide to Transience",
-      "Philosophies of Transience"
+      "teachings-of-transience",
+      "guide-to-transience",
+      "philosophies-of-transience"
     ],
     "common": [
-      "Divining Scroll",
-      "Sealed Scroll",
-      "Forbidden Curse Scroll"
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
     ]
   },
   "constellations": [

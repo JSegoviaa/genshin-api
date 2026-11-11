@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 376,
+  "slug": "brilliant-chrysanthemum",
+  "name": "Brilliant Chrysanthemum",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "natlan",
+  "rarity": null,
+  "description": "A flower with a shape like floating wings. Its petals sway in an unbelievably relaxed, serene manner as they are caressed by the wind.",
+  "releaseVersion": "5.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/brilliant-chrysanthemum.webp"
+  }
+}

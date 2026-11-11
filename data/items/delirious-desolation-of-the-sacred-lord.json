@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 325,
+  "id": 368,
   "slug": "delirious-desolation-of-the-sacred-lord",
   "name": "Delirious Desolation of the Sacred Lord",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "delirious-masks-of-the-sacred-lord",
+  "region": null,
   "rarity": 3,
   "description": "During the war with the dragons, that mastermind of all the tribes — the same one who had hidden his face behind a mask — deciphered the golden patterns on the non-human ruins for the warriors. The knowledge with which he did so is now long lost.\nIt was from their enemies that he learned the language and thought patterns required to do this. For him, wielding these skills against them was perhaps a deeply satisfying act of revenge.\nYet his unconcealed hatred for them was a recurring cause of great concern among his fellow heroes.",
   "releaseVersion": "5.0",

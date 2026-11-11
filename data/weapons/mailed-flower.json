@@ -5,7 +5,7 @@
   "name": "Mailed Flower",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [],
   "materials": {
     "ascension": [

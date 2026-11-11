@@ -12,20 +12,20 @@
   "birthday": "12-29",
   "releaseDate": "2022-08-24",
   "releaseVersion": "3.0",
-  "ascensionStat": "Dendro DMG Bonus",
-  "localSpecialty": "Nilotpala Lotus",
+  "ascensionStat": "dendro-dmg-bonus",
   "materials": {
-    "boss": "Majestic Hooked Beak",
-    "weeklyBoss": "The Meaning of Aeons",
+    "boss": "majestic-hooked-beak",
+    "weeklyBoss": "the-meaning-of-aeons",
+    "localSpecialty": "nilotpala-lotus",
     "talent": [
-      "Teachings of Admonition",
-      "Guide to Admonition",
-      "Philosophies of Admonition"
+      "teachings-of-admonition",
+      "guide-to-admonition",
+      "philosophies-of-admonition"
     ],
     "common": [
-      "Fungal Spores",
-      "Luminescent Pollen",
-      "Crystalline Cyst Dust"
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
     ]
   },
   "constellations": [

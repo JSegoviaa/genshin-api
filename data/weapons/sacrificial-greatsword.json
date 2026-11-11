@@ -5,7 +5,7 @@
   "name": "Sacrificial Greatsword",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Sacrificial Series"
   ],

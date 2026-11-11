@@ -5,7 +5,7 @@
   "name": "Traveler's Handy Sword",
   "rarity": 3,
   "weaponType": "sword",
-  "secondaryStat": "DEF",
+  "secondaryStat": "def",
   "series": [],
   "materials": {
     "ascension": [

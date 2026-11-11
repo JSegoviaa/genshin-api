@@ -5,7 +5,7 @@
   "name": "Akuoumaru",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Watatsumi Series"
   ],

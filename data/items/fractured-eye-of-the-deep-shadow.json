@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 389,
+  "id": 443,
   "slug": "fractured-eye-of-the-deep-shadow",
   "name": "Fractured Eye of the Deep Shadow",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "fisher-of-hidden-depths-materials",
+  "region": null,
   "rarity": 2,
   "description": "The remains of a fisher beyond this world, left after its body dissolved.\nOnce its shell cracked, the malice housed within faded away as well.",
   "releaseVersion": "Luna IV",

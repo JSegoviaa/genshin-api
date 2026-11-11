@@ -5,7 +5,7 @@
   "name": "Amenoma Kageuchi",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Amethyst Series"
   ],

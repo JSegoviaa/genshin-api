@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 243,
+  "id": 277,
   "slug": "artificed-dynamic-gear",
   "name": "Artificed Dynamic Gear",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "clockwork-meka-materials",
+  "region": null,
   "rarity": 3,
   "description": "Clockwork meka's gear.\nPrecision processing and advancement of material science are the keys to clockwork meka development in Fontaine. With the help of advanced equipment, any engineer is capable of making a meka that outshines \"Lord-Artificer\" Alain Guillotin's creation.",
   "releaseVersion": "4.0",

@@ -5,7 +5,7 @@
   "name": "Finale of the Deep",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Beaumont Series"
   ],

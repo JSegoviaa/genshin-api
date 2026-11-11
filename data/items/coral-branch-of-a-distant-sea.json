@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 147,
+  "id": 164,
   "slug": "coral-branch-of-a-distant-sea",
   "name": "Coral Branch of a Distant Sea",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "branches-of-a-distant-sea",
+  "region": null,
   "rarity": 2,
   "description": "Watatsumi Island is the furthest from Narukami Island in the Inazuman island chain, and its name means \"the god of the oceans\" in the island's ancient tongue. Legend has it that when the great serpent first arose within the abyssal nation of ever-night, its fluorescent body was covered in myriad-colored coral.",
   "releaseVersion": "2.0",

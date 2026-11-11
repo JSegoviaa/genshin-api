@@ -12,20 +12,20 @@
   "birthday": "09-07",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Cor Lapis",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Hoarfrost Core",
-    "weeklyBoss": "Dvalin's Sigh",
+    "boss": "hoarfrost-core",
+    "weeklyBoss": "dvalins-sigh",
+    "localSpecialty": "cor-lapis",
     "talent": [
-      "Teachings of Diligence",
-      "Guide to Diligence",
-      "Philosophies of Diligence"
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence"
     ],
     "common": [
-      "Damaged Mask",
-      "Stained Mask",
-      "Ominous Mask"
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
     ]
   },
   "constellations": [

@@ -12,20 +12,20 @@
   "birthday": "09-22",
   "releaseDate": "2024-08-06",
   "releaseVersion": "4.8",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Lakelight Lily",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Fragment of a Golden Melody",
-    "weeklyBoss": "Silken Feather",
+    "boss": "fragment-of-a-golden-melody",
+    "weeklyBoss": "silken-feather",
+    "localSpecialty": "lakelight-lily",
     "talent": [
-      "Teachings of Order",
-      "Guide to Order",
-      "Philosophies of Order"
+      "teachings-of-order",
+      "guide-to-order",
+      "philosophies-of-order"
     ],
     "common": [
-      "Meshing Gear",
-      "Mechanical Spur Gear",
-      "Artificed Dynamic Gear"
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
     ]
   },
   "constellations": [

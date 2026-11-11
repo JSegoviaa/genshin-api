@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 451,
+  "slug": "pine-amber",
+  "name": "Pine Amber",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "nod-krai",
+  "rarity": null,
+  "description": "A gem formed from the resin of the towering ancient trees that once blanketed Nod-Krai. Over ages, the resin hardened into crystalline amber, now shining with vivid, radiant hues.",
+  "releaseVersion": "Luna IV",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/pine-amber.webp"
+  }
+}

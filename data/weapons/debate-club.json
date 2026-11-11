@@ -5,7 +5,7 @@
   "name": "Debate Club",
   "rarity": 3,
   "weaponType": "claymore",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [],
   "materials": {
     "ascension": [

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 243,
+  "slug": "rukkhashava-mushrooms",
+  "name": "Rukkhashava Mushrooms",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "Before Where the Boat of Consciousness Lies\nA fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.\n\nAfter Where the Boat of Consciousness Lies\nA fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest.",
+  "releaseVersion": "3.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/rukkhashava-mushrooms.webp"
+  }
+}

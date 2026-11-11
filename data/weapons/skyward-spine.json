@@ -5,7 +5,7 @@
   "name": "Skyward Spine",
   "rarity": 5,
   "weaponType": "polearm",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Mondstadt Series"
   ],

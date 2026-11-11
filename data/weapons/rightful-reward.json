@@ -5,7 +5,7 @@
   "name": "Rightful Reward",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "HP",
+  "secondaryStat": "hp",
   "series": [
     "Beaumont Series"
   ],

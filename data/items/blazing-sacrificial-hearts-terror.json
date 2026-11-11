@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 320,
+  "id": 363,
   "slug": "blazing-sacrificial-hearts-terror",
   "name": "Blazing Sacrificial Heart's Terror",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "blazing-sacrificial-hearts",
+  "region": null,
   "rarity": 2,
   "description": "According to ancient tribal tradition, all that a person takes comes from this world — so naturally, all that they gain shall also be given back to it.",
   "releaseVersion": "5.0",

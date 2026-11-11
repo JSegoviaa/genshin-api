@@ -5,7 +5,7 @@
   "name": "Skyrider Greatsword",
   "rarity": 3,
   "weaponType": "claymore",
-  "secondaryStat": "Physical DMG Bonus",
+  "secondaryStat": "physical-dmg-bonus",
   "series": [
     "Skyrider Series"
   ],

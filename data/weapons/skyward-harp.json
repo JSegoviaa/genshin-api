@@ -5,7 +5,7 @@
   "name": "Skyward Harp",
   "rarity": 5,
   "weaponType": "bow",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [
     "Mondstadt Series"
   ],

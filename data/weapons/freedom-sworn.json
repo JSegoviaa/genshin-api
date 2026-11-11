@@ -5,7 +5,7 @@
   "name": "Freedom-Sworn",
   "rarity": 5,
   "weaponType": "sword",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "Millennial Movement Series"
   ],

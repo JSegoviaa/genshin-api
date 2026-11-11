@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 127,
+  "id": 144,
   "slug": "old-handguard",
   "name": "Old Handguard",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
   "group": "nobushi-materials",
+  "region": null,
   "rarity": 1,
   "description": "A battle-worn handguard that was once mounted on an Inazuman blade.\nFor those adept in the art of the sword, the tsuba is a defense from the edge of an opponent's blade. For beginners, it is a defense made for their own right hand, to protect it from itself.",
   "releaseVersion": "2.0",

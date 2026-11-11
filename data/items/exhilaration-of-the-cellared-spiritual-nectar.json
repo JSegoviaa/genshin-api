@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 436,
+  "id": 494,
   "slug": "exhilaration-of-the-cellared-spiritual-nectar",
   "name": "Exhilaration of the Cellared Spiritual Nectar",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "cellared-spiritual-nectar",
+  "region": null,
   "rarity": 4,
   "description": "Legend has it that long ago, countless casks of fine wine were poured into a frozen lake.\nSome say the wine was intended as wartime provisions, which had to be destroyed after some mishap. Others say a certain Grand Duke of the Domovoy had lost a bet to the ruler of the Water Imps.\nOnly when unquenchable azure hellflame spread across the lake, and the foes below writhed in choking waves, did they come to understand:\nIn the hands of the people well versed in the turning of the world, water itself could burn, and even the sweetest nectar could prove deadlier than poison.",
   "releaseVersion": "7.0",

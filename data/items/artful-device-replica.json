@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 376,
+  "id": 427,
   "slug": "artful-device-replica",
   "name": "Artful Device Replica",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "artful-devices",
+  "region": null,
   "rarity": 3,
   "description": "Just as the legendary thief's tools have been imitated by countless others, so has his name.\nIn a sense, it was not the people who thirsted for something more who stole Reed Miller's name, but rather Reed Miller who stole the identity that was originally theirs alone. These viewpoints are just two sides of the same coin.",
   "releaseVersion": "Luna I",

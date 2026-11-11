@@ -8,7 +8,8 @@ export const itemSchema = z
     type: ref,
     source: z.enum(ITEM_SOURCES),
     group: ref.nullable(),
-    rarity,
+    region: ref.nullable(),
+    rarity: rarity.nullable(),
     description: z.string().min(1),
     releaseVersion: label.nullable(),
     days: z

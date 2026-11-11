@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 318,
+  "slug": "subdetection-unit",
+  "name": "Subdetection Unit",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "fontaine",
+  "rarity": null,
+  "description": "Detection units produced by Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data.",
+  "releaseVersion": "4.1",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/subdetection-unit.webp"
+  }
+}

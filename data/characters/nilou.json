@@ -12,20 +12,20 @@
   "birthday": "12-03",
   "releaseDate": "2022-10-14",
   "releaseVersion": "3.1",
-  "ascensionStat": "HP",
-  "localSpecialty": "Padisarah",
+  "ascensionStat": "hp",
   "materials": {
-    "boss": "Perpetual Caliber",
-    "weeklyBoss": "Tears of the Calamitous God",
+    "boss": "perpetual-caliber",
+    "weeklyBoss": "tears-of-the-calamitous-god",
+    "localSpecialty": "padisarah",
     "talent": [
-      "Teachings of Praxis",
-      "Guide to Praxis",
-      "Philosophies of Praxis"
+      "teachings-of-praxis",
+      "guide-to-praxis",
+      "philosophies-of-praxis"
     ],
     "common": [
-      "Fungal Spores",
-      "Luminescent Pollen",
-      "Crystalline Cyst Dust"
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
     ]
   },
   "constellations": [

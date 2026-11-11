@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 254,
+  "id": 288,
   "slug": "guide-to-equity",
   "name": "Guide to Equity",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "equity-books",
+  "region": null,
   "rarity": 3,
   "description": "The shore of the Nation of Water is equity.\nEquity is the foundation upon which Fontaine was founded. Equity forms the standard of the law. If law loses the essence of equity, it will become a chessboard played for profit.",
   "releaseVersion": "4.0",

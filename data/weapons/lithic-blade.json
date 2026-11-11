@@ -5,7 +5,7 @@
   "name": "Lithic Blade",
   "rarity": 4,
   "weaponType": "claymore",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Lithic Series"
   ],

@@ -12,20 +12,20 @@
   "birthday": "03-10",
   "releaseDate": "2022-01-05",
   "releaseVersion": "2.4",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Qingxin",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Dragonheir's False Fin",
-    "weeklyBoss": "Hellfire Butterfly",
+    "boss": "dragonheirs-false-fin",
+    "weeklyBoss": "hellfire-butterfly",
+    "localSpecialty": "qingxin",
     "talent": [
-      "Teachings of Prosperity",
-      "Guide to Prosperity",
-      "Philosophies of Prosperity"
+      "teachings-of-prosperity",
+      "guide-to-prosperity",
+      "philosophies-of-prosperity"
     ],
     "common": [
-      "Whopperflower Nectar",
-      "Shimmering Nectar",
-      "Energy Nectar"
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
     ]
   },
   "constellations": [

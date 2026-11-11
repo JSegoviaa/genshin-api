@@ -5,7 +5,7 @@
   "name": "The Black Sword",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [
     "Gnostic Hymn 1 Series"
   ],

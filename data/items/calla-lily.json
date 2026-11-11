@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 131,
+  "slug": "calla-lily",
+  "name": "Calla Lily",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/calla-lily.webp"
+  }
+}

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 439,
+  "id": 497,
   "slug": "the-frost-emperors-ceremony",
   "name": "The Frost Emperor's Ceremony",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "the-frost-emperor",
+  "region": null,
   "rarity": 3,
   "description": "The fae of the court didn't understand why a gift meant for the Tsar must be made in such shape. They knew only to lavish their craft upon ornaments bright as jewels.\nOnly the Tsar seated upon the throne and the fae of snow understood the meaning behind it.\nFor what mattered was never the ceremony, but the ancient truth it preserved.",
   "releaseVersion": "7.0",

@@ -5,7 +5,7 @@
   "name": "Disaster and Remorse",
   "rarity": 5,
   "weaponType": "polearm",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [],
   "materials": {
     "ascension": [

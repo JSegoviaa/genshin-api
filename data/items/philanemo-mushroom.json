@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 122,
+  "slug": "philanemo-mushroom",
+  "name": "Philanemo Mushroom",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "mondstadt",
+  "rarity": null,
+  "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+  "releaseVersion": "1.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/philanemo-mushroom.webp"
+  }
+}

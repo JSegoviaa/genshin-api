@@ -29,17 +29,7 @@
     }
   ],
   "rewards": {
-    "items": [
-      "teachings-of-freedom",
-      "guide-to-freedom",
-      "philosophies-of-freedom",
-      "teachings-of-resistance",
-      "guide-to-resistance",
-      "philosophies-of-resistance",
-      "teachings-of-ballad",
-      "guide-to-ballad",
-      "philosophies-of-ballad"
-    ],
+    "items": [],
     "artifactSets": []
   },
   "enemies": [],

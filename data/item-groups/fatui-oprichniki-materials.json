@@ -3,8 +3,6 @@
   "id": 97,
   "slug": "fatui-oprichniki-materials",
   "name": "Fatui Oprichniki Materials",
-  "type": "character-and-weapon-enhancement-materials",
-  "source": "general-enemy-drops",
   "domain": null,
   "domainLevel": null,
   "images": {}

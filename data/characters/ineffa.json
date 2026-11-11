@@ -12,20 +12,20 @@
   "birthday": "04-02",
   "releaseDate": "2025-07-30",
   "releaseVersion": "5.8",
-  "ascensionStat": "CRIT Rate",
-  "localSpecialty": "Glowing Hornshroom",
+  "ascensionStat": "crit-rate",
   "materials": {
-    "boss": "Secret Source Airflow Accumulator",
-    "weeklyBoss": "Eroded Sunfire",
+    "boss": "secret-source-airflow-accumulator",
+    "weeklyBoss": "eroded-sunfire",
+    "localSpecialty": "glowing-hornshroom",
     "talent": [
-      "Teachings of Conflict",
-      "Guide to Conflict",
-      "Philosophies of Conflict"
+      "teachings-of-conflict",
+      "guide-to-conflict",
+      "philosophies-of-conflict"
     ],
     "common": [
-      "Sentry's Wooden Whistle",
-      "Warrior's Metal Whistle",
-      "Saurian-Crowned Warrior's Golden Whistle"
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
     ]
   },
   "constellations": [

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 282,
+  "id": 322,
   "slug": "lightless-mass",
   "name": "Lightless Mass",
   "type": "character-level-up-materials",
   "source": "weekly-boss-drops",
   "group": "all-devouring-narwhal-materials",
+  "region": null,
   "rarity": 5,
   "description": "A fragment produced from the intense battle against the All-Devouring Narwhal.\nThe universe is a dark and cold place.\nBut look carefully. Inside are always faint glimmers of light, like pearls gleaming from within the sand, splinters of diamond sprinkled over asphalt, lights lancing through the fog on a misty night, and sparks that ignite the brightest blazes.",
   "releaseVersion": "4.2",

@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 200,
+  "id": 225,
   "slug": "teachings-of-ingenuity",
   "name": "Teachings of Ingenuity",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "ingenuity-books",
+  "region": null,
   "rarity": 2,
   "description": "Ingenuity is the leaf-veins of the nation of wisdom.\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
   "releaseVersion": "3.0",

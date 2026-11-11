@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 207,
+  "id": 232,
   "slug": "iron-talisman-of-the-forest-dew",
   "name": "Iron Talisman of the Forest Dew",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "talismans-of-the-forest-dew",
+  "region": null,
   "rarity": 3,
   "description": "Later, the Lord of Verdure taught people the mystery of the forging of black iron. The innocent mortals thus grasped the knowledge of using fire to forge blades.\nThe Lord of Verdure took pleasure in their knowledge — Lethal as fire and blades were to her, they made ordinary people powerful.",
   "releaseVersion": "3.0",

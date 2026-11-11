@@ -5,7 +5,7 @@
   "name": "Rainbow Serpent's Rain Bow",
   "rarity": 4,
   "weaponType": "bow",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [],
   "materials": {
     "ascension": [

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 450,
+  "slug": "winter-icelea",
+  "name": "Winter Icelea",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "nod-krai",
+  "rarity": null,
+  "description": "A hardy plant known for withstanding relentless wind and frost, it survives even in the coldest depths of winter.",
+  "releaseVersion": "Luna IV",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/winter-icelea.webp"
+  }
+}

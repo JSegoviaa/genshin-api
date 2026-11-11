@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 271,
+  "slug": "trishiraite",
+  "name": "Trishiraite",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "sumeru",
+  "rarity": null,
+  "description": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
+  "releaseVersion": "3.6",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/trishiraite.webp"
+  }
+}

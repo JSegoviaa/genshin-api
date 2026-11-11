@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 232,
+  "id": 264,
   "slug": "treasured-flower",
   "name": "Treasured Flower",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "hilichurl-rogue-materials",
+  "region": null,
   "rarity": 3,
   "description": "A wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nFlowers can be used as gifts or offerings to express one's feelings in many cultures.",
   "releaseVersion": "3.6",

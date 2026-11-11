@@ -5,7 +5,7 @@
   "name": "Sacrificial Jade",
   "rarity": 4,
   "weaponType": "catalyst",
-  "secondaryStat": "CRIT Rate",
+  "secondaryStat": "crit-rate",
   "series": [
     "Gnostic Hymn 2 Series"
   ],

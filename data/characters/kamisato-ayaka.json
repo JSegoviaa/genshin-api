@@ -12,20 +12,20 @@
   "birthday": "09-28",
   "releaseDate": "2021-07-21",
   "releaseVersion": "2.0",
-  "ascensionStat": "CRIT DMG",
-  "localSpecialty": "Sakura Bloom",
+  "ascensionStat": "crit-dmg",
   "materials": {
-    "boss": "Perpetual Heart",
-    "weeklyBoss": "Bloodjade Branch",
+    "boss": "perpetual-heart",
+    "weeklyBoss": "bloodjade-branch",
+    "localSpecialty": "sakura-bloom",
     "talent": [
-      "Teachings of Elegance",
-      "Guide to Elegance",
-      "Philosophies of Elegance"
+      "teachings-of-elegance",
+      "guide-to-elegance",
+      "philosophies-of-elegance"
     ],
     "common": [
-      "Old Handguard",
-      "Kageuchi Handguard",
-      "Famed Handguard"
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
     ]
   },
   "constellations": [

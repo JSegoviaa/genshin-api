@@ -12,20 +12,20 @@
   "birthday": "11-30",
   "releaseDate": "2020-09-28",
   "releaseVersion": "1.0",
-  "ascensionStat": "Energy Recharge",
-  "localSpecialty": "Calla Lily",
+  "ascensionStat": "energy-recharge",
   "materials": {
-    "boss": "Hoarfrost Core",
-    "weeklyBoss": "Spirit Locket of Boreas",
+    "boss": "hoarfrost-core",
+    "weeklyBoss": "spirit-locket-of-boreas",
+    "localSpecialty": "calla-lily",
     "talent": [
-      "Teachings of Ballad",
-      "Guide to Ballad",
-      "Philosophies of Ballad"
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [

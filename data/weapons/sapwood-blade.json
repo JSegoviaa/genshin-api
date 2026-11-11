@@ -5,7 +5,7 @@
   "name": "Sapwood Blade",
   "rarity": 4,
   "weaponType": "sword",
-  "secondaryStat": "Energy Recharge",
+  "secondaryStat": "energy-recharge",
   "series": [
     "Aranara Series"
   ],

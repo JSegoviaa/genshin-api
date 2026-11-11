@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 501,
+  "slug": "flockingweed",
+  "name": "Flockingweed",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "snezhnaya",
+  "rarity": null,
+  "description": "A peculiar plant once suspected to be a hybrid of plant and animal, though it was proven nothing more than an ordinary plant covered in a coat of animal-like fuzz.",
+  "releaseVersion": "7.0",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/flockingweed.webp"
+  }
+}

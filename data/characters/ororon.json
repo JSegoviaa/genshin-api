@@ -12,20 +12,20 @@
   "birthday": "10-14",
   "releaseDate": "2024-11-20",
   "releaseVersion": "5.2",
-  "ascensionStat": "ATK",
-  "localSpecialty": "Glowing Hornshroom",
+  "ascensionStat": "atk",
   "materials": {
-    "boss": "Mark of the Binding Blessing",
-    "weeklyBoss": "Lightless Silk String",
+    "boss": "mark-of-the-binding-blessing",
+    "weeklyBoss": "lightless-silk-string",
+    "localSpecialty": "glowing-hornshroom",
     "talent": [
-      "Teachings of Kindling",
-      "Guide to Kindling",
-      "Philosophies of Kindling"
+      "teachings-of-kindling",
+      "guide-to-kindling",
+      "philosophies-of-kindling"
     ],
     "common": [
-      "Juvenile Fang",
-      "Seasoned Fang",
-      "Tyrant's Fang"
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
     ]
   },
   "constellations": [

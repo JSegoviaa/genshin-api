@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 321,
+  "id": 364,
   "slug": "blazing-sacrificial-hearts-hesitance",
   "name": "Blazing Sacrificial Heart's Hesitance",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "blazing-sacrificial-hearts",
+  "region": null,
   "rarity": 3,
   "description": "After the original civilizations crumbled like shattered jade — and those envoys from the skies above, under whose guidance the earthly civilizations had thrived, were devoured by the awakened dragons — humanity plunged into savagery, losing the ability to perceive the world anew.\nThus did they revert to their most primal beliefs, convinced of the inherent mystery of the earth that nurtured all things. This marked the dawn of the era where hunted prey began to be offered as sacrifices.",
   "releaseVersion": "5.0",

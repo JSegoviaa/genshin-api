@@ -5,7 +5,7 @@
   "name": "Royal Spear",
   "rarity": 4,
   "weaponType": "polearm",
-  "secondaryStat": "ATK",
+  "secondaryStat": "atk",
   "series": [
     "Royal Series"
   ],

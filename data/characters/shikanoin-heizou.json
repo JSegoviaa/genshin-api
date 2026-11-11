@@ -12,20 +12,20 @@
   "birthday": "07-24",
   "releaseDate": "2022-07-13",
   "releaseVersion": "2.8",
-  "ascensionStat": "Anemo DMG Bonus",
-  "localSpecialty": "Onikabuto",
+  "ascensionStat": "anemo-dmg-bonus",
   "materials": {
-    "boss": "Runic Fang",
-    "weeklyBoss": "The Meaning of Aeons",
+    "boss": "runic-fang",
+    "weeklyBoss": "the-meaning-of-aeons",
+    "localSpecialty": "onikabuto",
     "talent": [
-      "Teachings of Transience",
-      "Guide to Transience",
-      "Philosophies of Transience"
+      "teachings-of-transience",
+      "guide-to-transience",
+      "philosophies-of-transience"
     ],
     "common": [
-      "Treasure Hoarder Insignia",
-      "Silver Raven Insignia",
-      "Golden Raven Insignia"
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
     ]
   },
   "constellations": [

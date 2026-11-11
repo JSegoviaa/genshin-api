@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 324,
+  "slug": "spring-of-the-first-dewdrop",
+  "name": "Spring of the First Dewdrop",
+  "type": "local-specialties",
+  "source": "gathering",
+  "group": null,
+  "region": "fontaine",
+  "rarity": null,
+  "description": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.",
+  "releaseVersion": "4.2",
+  "days": [],
+  "images": {
+    "icon": "local-specialties/spring-of-the-first-dewdrop.webp"
+  }
+}

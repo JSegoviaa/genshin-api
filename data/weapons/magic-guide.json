@@ -5,7 +5,7 @@
   "name": "Magic Guide",
   "rarity": 3,
   "weaponType": "catalyst",
-  "secondaryStat": "Elemental Mastery",
+  "secondaryStat": "elemental-mastery",
   "series": [
     "3-Star Bane Series"
   ],

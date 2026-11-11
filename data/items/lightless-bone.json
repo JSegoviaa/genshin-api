@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 358,
+  "id": 409,
   "slug": "lightless-bone",
   "name": "Lightless Bone",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
   "group": "radiant-beast-materials",
+  "region": null,
   "rarity": 2,
   "description": "A dull piece of bone taken from the exterior of a glowing beast.\nIt is a fragment from the exoskeleton of a monster infused with the ancient power of the moon. Along with the vanished light, it has also lost the secrets once hidden within.",
   "releaseVersion": "Luna I",

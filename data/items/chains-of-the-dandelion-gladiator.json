@@ -6,6 +6,7 @@
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
   "group": "gladiator-shackles",
+  "region": null,
   "rarity": 3,
   "description": "The chains that once bound the great hero Vennessa. In truth, all gladiators would have worn chains in that era, and Vennessa was but one of many.",
   "releaseVersion": "1.0",

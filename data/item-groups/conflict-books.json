@@ -3,8 +3,6 @@
   "id": 88,
   "slug": "conflict-books",
   "name": "Conflict Books",
-  "type": "character-talent-materials",
-  "source": "domains-of-mastery",
   "domain": "blazing-ruins",
   "domainLevel": "Return",
   "images": {}

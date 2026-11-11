@@ -1,11 +1,12 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 423,
+  "id": 481,
   "slug": "philosophies-of-charity",
   "name": "Philosophies of Charity",
   "type": "character-talent-materials",
   "source": "domains-of-mastery",
   "group": "charity-books",
+  "region": null,
   "rarity": 4,
   "description": "Charity is the salvation of the frozen realm.\nIt is a boundless grace extended to all living things. It collapses the divide between the highborn and the low, transcending both bloodline and nation. Its watchful gaze beholds all of humanity, offering sanctuary to the unfortunate and promising eternal liberation unto all.",
   "releaseVersion": "7.0",
