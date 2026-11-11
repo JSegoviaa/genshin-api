@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "DEF",
   "series": [],
-  "ascensionMaterial": "Cast Iron",
+  "materials": {
+    "ascension": [
+      "rise-of-the-pale-star-army",
+      "muster-of-the-pale-star-army",
+      "clarion-of-the-pale-star-army",
+      "triumph-of-the-pale-star-army"
+    ],
+    "elite": [
+      "hollow-root-of-life",
+      "sprout-node-of-life",
+      "coiled-core-of-life"
+    ],
+    "common": [
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
+    ]
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/covenant-of-frost-and-snow/icon.webp",

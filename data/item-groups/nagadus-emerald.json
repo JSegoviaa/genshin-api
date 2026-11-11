@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 36,
+  "id": 45,
   "slug": "nagadus-emerald",
   "name": "Nagadus Emerald",
   "type": "character-ascension-materials",

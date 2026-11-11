@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Radiant Splendor",
+  "materials": {
+    "ascension": [
+      "artful-device-fragment",
+      "artful-device-replica",
+      "artful-device-inheritance",
+      "artful-device-wish"
+    ],
+    "elite": [
+      "frostnights-glimmer",
+      "frostnights-glow",
+      "frostnights-glory"
+    ],
+    "common": [
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
+    ]
+  },
   "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/nightweavers-looking-glass/icon.webp",

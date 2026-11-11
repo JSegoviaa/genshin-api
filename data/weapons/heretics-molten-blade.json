@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Scrying Shadows",
+  "materials": {
+    "ascension": [
+      "blazing-sacrificial-hearts-terror",
+      "blazing-sacrificial-hearts-hesitance",
+      "blazing-sacrificial-hearts-resolve",
+      "blazing-sacrificial-hearts-splendor"
+    ],
+    "elite": [
+      "cold-cracked-shellshard",
+      "warm-back-shell",
+      "blazing-prismshell"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/heretics-molten-blade/icon.webp",

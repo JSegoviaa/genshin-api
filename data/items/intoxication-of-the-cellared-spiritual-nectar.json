@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 363,
+  "slug": "intoxication-of-the-cellared-spiritual-nectar",
+  "name": "Intoxication of the Cellared Spiritual Nectar",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "cellared-spiritual-nectar",
+  "rarity": 3,
+  "description": "What others enjoy as a festive indulgence after a bountiful grain harvest is a necessity of survival for the clans who walk through the bitter cold.\nIt is said that the Domovoy, whose mastery of brewing was without equal, once relied on this art to enrich the treasury of the king they served.\nAnd so, passed from clan to clan through trade, the fae's brew flowed across the frozen lands like honey laced with poison.",
+  "releaseVersion": "7.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

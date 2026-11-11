@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 318,
+  "slug": "flare-of-long-night-flint",
+  "name": "Flare of Long Night Flint",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "long-night-flints",
+  "rarity": 4,
+  "description": "The insignia of the Lightkeepers is a nightingale holding a burning wick in its beak.\nIt is said that in the past, the nightingale insignia belonged to a renowned noble house in the northern kingdom. In the shadow untouched by light, a boy, who would become a legendary thief, carved his first raven insignia with his friend in imitation of the nightingale.\nBut that was many years ago. Nowadays, the raven insignia can be seen everywhere, but the nightingale that the raven once looked up to still dwells on its tower, lamenting the winter city to the light.",
+  "releaseVersion": "Luna I",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

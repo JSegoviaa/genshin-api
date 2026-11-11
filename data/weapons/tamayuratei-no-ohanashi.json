@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Sand Burial",
+  "materials": {
+    "ascension": [
+      "mask-of-the-wicked-lieutenant",
+      "mask-of-the-tigers-bite",
+      "mask-of-the-one-horned",
+      "mask-of-the-kijin"
+    ],
+    "elite": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "5.4",
   "images": {
     "icon": "weapons/tamayuratei-no-ohanashi/icon.webp",

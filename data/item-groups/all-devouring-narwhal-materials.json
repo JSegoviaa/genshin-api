@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 47,
+  "id": 62,
   "slug": "all-devouring-narwhal-materials",
   "name": "All-Devouring Narwhal Materials",
   "type": "character-level-up-materials",

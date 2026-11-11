@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "ruined-hilt",
+      "splintered-hilt",
+      "still-smoldering-hilt"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "4.7",
   "images": {
     "icon": "weapons/cloudforged/icon.webp",

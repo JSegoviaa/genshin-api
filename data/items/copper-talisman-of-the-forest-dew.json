@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 170,
+  "slug": "copper-talisman-of-the-forest-dew",
+  "name": "Copper Talisman of the Forest Dew",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "talismans-of-the-forest-dew",
+  "rarity": 2,
+  "description": "Under the instructions of the First Sage, the ancestors of the forest people made these talismans using withered trees to commemorate the Lord of Verdure.\nThe talisman's shape was inspired by the forest dew. It symbolizes the permeation of wisdom into mortal minds.",
+  "releaseVersion": "3.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

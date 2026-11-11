@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 368,
+  "slug": "the-frost-emperors-lament",
+  "name": "The Frost Emperor's Lament",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "the-frost-emperor",
+  "rarity": 4,
+  "description": "On the night the truth stirred like bitter waves, she prepared this gift for her friend upon the throne—though she herself was no longer the person she used to be.\nThey both seemed to understand that they might never speak to each other like this again.\nFor after that night, the path they once walked together diverged—sundered by the weakness of one, and the fury of the other.",
+  "releaseVersion": "7.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

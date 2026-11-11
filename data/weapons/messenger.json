@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Thundering Ruins",
+  "materials": {
+    "ascension": [
+      "mist-veiled-lead-elixir",
+      "mist-veiled-mercury-elixir",
+      "mist-veiled-gold-elixir",
+      "mist-veiled-primo-elixir"
+    ],
+    "elite": [
+      "mist-grass-pollen",
+      "mist-grass",
+      "mist-grass-wick"
+    ],
+    "common": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/messenger/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "DEF",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "axis-of-the-secret-source",
+      "sheath-of-the-secret-source",
+      "heart-of-the-secret-source"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/footprint-of-the-rainbow/icon.webp",

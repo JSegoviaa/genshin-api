@@ -9,7 +9,24 @@
   "series": [
     "Gnostic Hymn 1 Series"
   ],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia"
+    ],
+    "elite": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "common": [
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/the-black-sword/icon.webp",

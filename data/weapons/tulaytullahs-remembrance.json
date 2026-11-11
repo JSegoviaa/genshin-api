@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Leading Karma",
+  "materials": {
+    "ascension": [
+      "echo-of-scorching-might",
+      "remnant-glow-of-scorching-might",
+      "dream-of-scorching-might",
+      "olden-days-of-scorching-might"
+    ],
+    "elite": [
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "common": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
+    ]
+  },
   "releaseVersion": "3.3",
   "images": {
     "icon": "weapons/tulaytullahs-remembrance/icon.webp",

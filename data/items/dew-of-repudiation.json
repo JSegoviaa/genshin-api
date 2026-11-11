@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 99,
+  "id": 135,
   "slug": "dew-of-repudiation",
   "name": "Dew of Repudiation",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A strange water droplet left behind by the collapse of the Hydro Hypostasis.\nIt has strong rejection properties, and this forms the basis of one of the Hydro Hypostasis' attack patterns as well. They say that water contains memories and willpower, and that these things can grow when bodies of water meld together. However, the waves conjured by the Hydro Hypostasis are incompatible with the currents that flow above and below ground. Even if it were to flow into the surpassingly pure waters of Petrichor, this drop of water will likely resist assimilation as strongly as mercury.",
   "releaseVersion": "2.1",
+  "days": [],
   "images": {}
 }

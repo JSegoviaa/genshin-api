@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 183,
+  "id": 243,
   "slug": "splintered-hilt",
   "name": "Splintered Hilt",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "A stone hilt obtained from an ancient statue.\nThe chips and grooves speak to the brutal battles its owner once weathered.",
   "releaseVersion": "4.6",
+  "days": [],
   "images": {}
 }

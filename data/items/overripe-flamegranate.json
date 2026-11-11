@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 205,
+  "id": 265,
   "slug": "overripe-flamegranate",
   "name": "Overripe Flamegranate",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A strange Flamegranate obtained after defeating the Gluttonous Yumkasaur Mountain King.\nNormally, Flamegranates that keep growing once they have already ripened simply fall into the mud and rot. But Flamegranates that have fallen from the Mountain King's mane. perhaps owing to the unique internal temperature conditions, exhibit a rarely-seen \"Overripe\" state. Flamegranates in this state are stable, phlogiston-packed, brightly colored, and possess a rich and highly distinctive flavor.",
   "releaseVersion": "5.0",
+  "days": [],
   "images": {}
 }

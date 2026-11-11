@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "5.2",
   "images": {
     "icon": "weapons/calamity-of-eshu/icon.webp",

@@ -9,7 +9,24 @@
   "series": [
     "Beaumont Series"
   ],
-  "ascensionMaterial": "Artisanship",
+  "materials": {
+    "ascension": [
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop"
+    ],
+    "elite": [
+      "rift-core",
+      "foreign-synapse",
+      "alien-life-core"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/flowing-purity/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "materials": {
+    "ascension": [
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator",
+      "dream-of-the-dandelion-gladiator"
+    ],
+    "elite": [
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "1.2",
   "images": {
     "icon": "weapons/festering-desire/icon.webp",

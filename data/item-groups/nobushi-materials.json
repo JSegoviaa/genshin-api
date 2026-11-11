@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 24,
+  "id": 30,
   "slug": "nobushi-materials",
   "name": "Nobushi Materials",
   "type": "character-and-weapon-enhancement-materials",

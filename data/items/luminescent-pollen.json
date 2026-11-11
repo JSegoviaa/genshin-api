@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 113,
+  "id": 149,
   "slug": "luminescent-pollen",
   "name": "Luminescent Pollen",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A small parcel of luminescent Fungal Spore powder, a common medical ingredient in the land of rainforests. Merchants usually sell them in paper packets.",
   "releaseVersion": "2.6",
+  "days": [],
   "images": {}
 }

@@ -10,7 +10,24 @@
     "4-Star Bane Series",
     "Kunwu Series"
   ],
-  "ascensionMaterial": "Thundering Ruins",
+  "materials": {
+    "ascension": [
+      "mist-veiled-lead-elixir",
+      "mist-veiled-mercury-elixir",
+      "mist-veiled-gold-elixir",
+      "mist-veiled-primo-elixir"
+    ],
+    "elite": [
+      "mist-grass-pollen",
+      "mist-grass",
+      "mist-grass-wick"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/dragons-bane/icon.webp",

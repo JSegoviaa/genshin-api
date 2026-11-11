@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Severed Steel",
+  "materials": {
+    "ascension": [
+      "the-frost-emperors-revival",
+      "the-frost-emperors-ceremony",
+      "the-frost-emperors-lament",
+      "the-frost-emperors-farewell"
+    ],
+    "elite": [
+      "hollow-root-of-life",
+      "sprout-node-of-life",
+      "coiled-core-of-life"
+    ],
+    "common": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone"
+    ]
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/song-of-the-vigil/icon.webp",

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 85,
+  "slug": "the-far-north-scions",
+  "name": "The Far-North Scions",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

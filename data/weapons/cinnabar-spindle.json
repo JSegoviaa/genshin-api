@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "DEF",
   "series": [],
-  "ascensionMaterial": "City of Reflections",
+  "materials": {
+    "ascension": [
+      "tile-of-decarabians-tower",
+      "debris-of-decarabians-city",
+      "fragment-of-decarabians-epic",
+      "scattered-piece-of-decarabians-dream"
+    ],
+    "elite": [
+      "chaos-device",
+      "chaos-circuit",
+      "chaos-core"
+    ],
+    "common": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ]
+  },
   "releaseVersion": "2.3",
   "images": {
     "icon": "weapons/cinnabar-spindle/icon.webp",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 92,
+  "id": 116,
   "slug": "crystal-prism",
   "name": "Crystal Prism",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "A prism that can bend light.\nIllusory images can be made using such prisms, giving such devices — in a manner of speaking — the power to sway human hearts.",
   "releaseVersion": "2.0",
+  "days": [],
   "images": {}
 }

@@ -9,7 +9,24 @@
   "series": [
     "3-Star Bane Series"
   ],
-  "ascensionMaterial": "City of Reflections",
+  "materials": {
+    "ascension": [
+      "tile-of-decarabians-tower",
+      "debris-of-decarabians-city",
+      "fragment-of-decarabians-epic",
+      "scattered-piece-of-decarabians-dream"
+    ],
+    "elite": [
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "common": [
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/magic-guide/icon.webp",

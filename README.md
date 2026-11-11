@@ -39,11 +39,11 @@ List parameters:
   - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`, `ascensionStat`
   - `local-specialties`: `region`, `releaseVersion`
   - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
-  - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`, `releaseVersion`
+  - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`, `material` (item or item group slug), `releaseVersion`
   - `artifacts`: `set`, `type`, `rarity` (from the set)
   - `artifact-types`: `mainStat` (e.g. `crit-rate`)
   - `enemies`: `type`, `family`, `group`, `region` (bosses only), `element`, `drop` (item or artifact set slug), `releaseVersion`
-  - `items`: `type`, `source` (`general-enemy-drops`, `elite-enemy-drops`, `normal-boss-drops`, `weekly-boss-drops`, `ascension-gems`), `group`, `rarity`, `releaseVersion`
+  - `items`: `type`, `source` (`general-enemy-drops`, `elite-enemy-drops`, `normal-boss-drops`, `weekly-boss-drops`, `ascension-gems`, `domains-of-forgery`), `group`, `rarity`, `releaseVersion`, `days` (e.g. `monday`)
   - `item-groups`: `type`, `source`
   - `enemy-groups`: `family`
   - `stats`: `category` (`basic`, `advanced`, `hidden`), `element`
@@ -85,7 +85,7 @@ stored as the number of stars (`"rarity": 5`) and returned as a reference to `ra
 are stored by name and resolved with `slugify(name)`: `releaseVersion` (in every released resource), `localSpecialty`,
 `ascensionStat` and `secondaryStat` (`"ascensionStat": "CRIT DMG"` → `stats/crit-dmg`). Character
 `materials` are also stored by name and resolved against `items`. Fields
-pointing to resources not yet exposed by the API (weapon ascension materials, weapon series) are also stored by name
+pointing to resources not yet exposed by the API (weapon series) are also stored by name
 and will be resolved the same way once those resources exist, without touching the data.
 
 ### Adding a new resource (e.g. enemies)

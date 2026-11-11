@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 83,
+  "slug": "boreal-wolfs-nostalgia",
+  "name": "Boreal Wolf's Nostalgia",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "boreal-wolf-teeth",
+  "rarity": 5,
+  "description": "The Wolf King, believing himself to despise humans, thought himself unable to envision a happy life for humanity, making him unworthy of becoming the Lord of the Winds of the world. Therefore, he chose to disappear. Yet, in truth, he gazes on the ones abandoned by the world ever so gently.",
+  "releaseVersion": "1.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

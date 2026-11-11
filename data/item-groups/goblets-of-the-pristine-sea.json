@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 60,
+  "slug": "goblets-of-the-pristine-sea",
+  "name": "Goblets of the Pristine Sea",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

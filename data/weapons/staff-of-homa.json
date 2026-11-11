@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "common": [
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
+    ]
+  },
   "releaseVersion": "1.3",
   "images": {
     "icon": "weapons/staff-of-homa/icon.webp",

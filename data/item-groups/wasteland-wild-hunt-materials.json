@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 64,
+  "id": 82,
   "slug": "wasteland-wild-hunt-materials",
   "name": "Wasteland Wild Hunt Materials",
   "type": "character-and-weapon-enhancement-materials",

@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "HP",
   "series": [],
-  "ascensionMaterial": "Tainted Clouds",
+  "materials": {
+    "ascension": [
+      "copper-talisman-of-the-forest-dew",
+      "iron-talisman-of-the-forest-dew",
+      "silver-talisman-of-the-forest-dew",
+      "golden-talisman-of-the-forest-dew"
+    ],
+    "elite": [
+      "feathery-fin",
+      "lunar-fin",
+      "chasmlight-fin"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "4.5",
   "images": {
     "icon": "weapons/dialogues-of-the-desert-sages/icon.webp",

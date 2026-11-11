@@ -9,7 +9,21 @@
   "series": [
     "2-Star Series"
   ],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang"
+    ],
+    "elite": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves"
+    ],
+    "common": [
+      "slime-condensate",
+      "slime-secretions"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/old-mercs-pal/icon.webp",

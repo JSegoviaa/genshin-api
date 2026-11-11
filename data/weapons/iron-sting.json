@@ -9,7 +9,24 @@
   "series": [
     "Infusion Series"
   ],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "fragile-bone-shard",
+      "sturdy-bone-shard",
+      "fossilized-bone-shard"
+    ],
+    "common": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/iron-sting/icon.webp",

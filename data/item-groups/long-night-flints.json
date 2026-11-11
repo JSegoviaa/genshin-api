@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 84,
+  "slug": "long-night-flints",
+  "name": "Long Night Flints",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

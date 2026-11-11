@@ -9,7 +9,24 @@
   "series": [
     "Blackcliff Series"
   ],
-  "ascensionMaterial": "Thundercloud",
+  "materials": {
+    "ascension": [
+      "luminous-sands-from-guyun",
+      "lustrous-stone-from-guyun",
+      "relic-from-guyun",
+      "divine-body-from-guyun"
+    ],
+    "elite": [
+      "hunters-sacrificial-knife",
+      "agents-sacrificial-knife",
+      "inspectors-sacrificial-knife"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/blackcliff-agate/icon.webp",

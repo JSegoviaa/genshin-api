@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 72,
+  "id": 93,
   "slug": "volkodlak-brute-materials",
   "name": "Volkodlak Brute Materials",
   "type": "character-and-weapon-enhancement-materials",

@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Robotic Ruse",
+  "materials": {
+    "ascension": [
+      "fragment-of-an-ancient-chord",
+      "chapter-of-an-ancient-chord",
+      "movement-of-an-ancient-chord",
+      "echo-of-an-ancient-chord"
+    ],
+    "elite": [
+      "rift-core",
+      "foreign-synapse",
+      "alien-life-core"
+    ],
+    "common": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ]
+  },
   "releaseVersion": "4.3",
   "images": {
     "icon": "weapons/verdict/icon.webp",

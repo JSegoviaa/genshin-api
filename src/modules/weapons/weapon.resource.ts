@@ -1,11 +1,12 @@
 import { defineResource, head } from "../../core/resource";
+import type { Item } from "../items/item.schema";
 import { weaponSchema } from "./weapon.schema";
 
 export const weaponResource = defineResource({
   name: "weapons",
   title: "Weapons",
   description:
-    "Every weapon with its rarity, type, secondary stat, series, ascension material and release version.",
+    "Every weapon with its rarity, type, secondary stat, series, ascension materials and release version.",
   example: "staff-of-homa",
   schema: weaponSchema,
   refs: {
@@ -13,6 +14,9 @@ export const weaponResource = defineResource({
     rarity: { resource: "rarities", key: "id" },
     secondaryStat: { resource: "stats", key: "name" },
     releaseVersion: { resource: "versions", key: "name" },
+    "materials.ascension": "items",
+    "materials.elite": "items",
+    "materials.common": "items",
   },
   filters: {
     rarity: {
@@ -27,6 +31,22 @@ export const weaponResource = defineResource({
     series: {
       description: "Weapon series, e.g. favonius-series",
       get: (w) => w.series,
+    },
+    material: {
+      description:
+        "Item or item group slug used to ascend the weapon, e.g. aerosiderite or slime-concentrate",
+      get: (w, lookup) => {
+        const slugs = [
+          ...w.materials.ascension,
+          ...w.materials.elite,
+          ...w.materials.common,
+        ];
+        const groups = lookup
+          .all<Item>("items")
+          .filter((i) => slugs.includes(i.slug) && i.group)
+          .map((i) => i.group as string);
+        return [...slugs, ...new Set(groups)];
+      },
     },
     releaseVersion: {
       description: "Release version, e.g. 1.3 or luna-i",
@@ -46,7 +66,11 @@ export const weaponResource = defineResource({
     weaponType: ctx.ref("weapon-types", w.weaponType),
     secondaryStat: ctx.refByName("stats", w.secondaryStat),
     series: w.series,
-    ascensionMaterial: w.ascensionMaterial,
+    materials: {
+      ascension: ctx.refs("items", w.materials.ascension),
+      elite: ctx.refs("items", w.materials.elite),
+      common: ctx.refs("items", w.materials.common),
+    },
     releaseVersion: ctx.refByName("versions", w.releaseVersion),
     images: ctx.images(w.images),
   }),

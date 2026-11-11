@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 54,
+  "id": 69,
   "slug": "avatar-of-lava-materials",
   "name": "Avatar of Lava Materials",
   "type": "character-and-weapon-enhancement-materials",

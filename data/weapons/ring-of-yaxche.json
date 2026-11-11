@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "HP",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "shard-of-a-shattered-will",
+      "locus-of-a-clear-will",
+      "sigil-of-a-striding-will"
+    ],
+    "common": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ]
+  },
   "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/ring-of-yaxche/icon.webp",

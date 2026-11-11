@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "shard-of-a-shattered-will",
+      "locus-of-a-clear-will",
+      "sigil-of-a-striding-will"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "5.3",
   "images": {
     "icon": "weapons/starcallers-watch/icon.webp",

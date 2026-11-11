@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "materials": {
+    "ascension": [
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator",
+      "dream-of-the-dandelion-gladiator"
+    ],
+    "elite": [
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "common": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ]
+  },
   "releaseVersion": "Luna III",
   "images": {
     "icon": "weapons/the-daybreak-chronicles/icon.webp",

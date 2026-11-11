@@ -357,7 +357,8 @@ describe("detail", () => {
     expect(body.group).toMatchObject({ slug: "hilichurl-materials" });
     expect(body.rarity).toMatchObject({ id: 1 });
     expect(body.droppedBy.map((e: any) => e.slug)).toContain("hilichurl");
-    expect(body.usedBy.length).toBeGreaterThan(0);
+    expect(body.usedBy.characters.length).toBeGreaterThan(0);
+    expect(body.usedBy.weapons.length).toBeGreaterThan(0);
     const group = await get("/api/v1/item-groups/hilichurl-materials");
     expect(group.body.items.map((i: any) => i.slug)).toEqual([
       "damaged-mask",
@@ -428,6 +429,43 @@ describe("detail", () => {
     const first = await get("/api/v1/versions/1.0");
     expect(first.body.localSpecialties.map((l: any) => l.slug)).toContain(
       "silk-flower",
+    );
+  });
+
+  it("returns weapon ascension materials and weapon materials", async () => {
+    const grain = await get("/api/v1/items/grain-of-aerosiderite");
+    expect(grain.body.type).toMatchObject({
+      slug: "weapon-ascension-materials",
+    });
+    expect(grain.body.source).toBe("domains-of-forgery");
+    expect(grain.body.group).toMatchObject({ slug: "aerosiderite" });
+    expect(grain.body.days).toEqual(["wednesday", "saturday", "sunday"]);
+    expect(grain.body.usedBy.weapons.map((w: any) => w.slug)).toContain(
+      "staff-of-homa",
+    );
+    const monday = await get("/api/v1/items?days=monday&limit=100");
+    expect(monday.body.count).toBeGreaterThan(0);
+    const homa = await get("/api/v1/weapons/staff-of-homa");
+    expect(homa.body.materials.ascension.map((i: any) => i.slug)).toEqual([
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite",
+    ]);
+    expect(homa.body.materials.common[0]).toMatchObject({
+      slug: "slime-condensate",
+    });
+    const byGroup = await get(
+      "/api/v1/weapons?material=aerosiderite&limit=100",
+    );
+    expect(byGroup.body.results.map((w: any) => w.slug)).toContain(
+      "staff-of-homa",
+    );
+    const byItem = await get(
+      "/api/v1/weapons?material=slime-concentrate&limit=100",
+    );
+    expect(byItem.body.results.map((w: any) => w.slug)).toContain(
+      "staff-of-homa",
     );
   });
 

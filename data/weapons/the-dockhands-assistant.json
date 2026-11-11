@@ -9,7 +9,24 @@
   "series": [
     "Construction Series"
   ],
-  "ascensionMaterial": "Artisanship",
+  "materials": {
+    "ascension": [
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop"
+    ],
+    "elite": [
+      "old-operatives-pocket-watch",
+      "operatives-standard-pocket-watch",
+      "operatives-constancy"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "4.1",
   "images": {
     "icon": "weapons/the-dockhands-assistant/icon.webp",

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 369,
+  "slug": "the-frost-emperors-farewell",
+  "name": "The Frost Emperor's Farewell",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "the-frost-emperor",
+  "rarity": 5,
+  "description": "An object that appeared upon the table on the eve of war, though none knew when or how it'd come to be there.\nHe recognized it for the handiwork of the friend he hadn't seen for many long years.\nOnly then did he realize, that this was the beginning of every calamity, the bitter fruit of every desire, and the omen of every destruction.",
+  "releaseVersion": "7.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

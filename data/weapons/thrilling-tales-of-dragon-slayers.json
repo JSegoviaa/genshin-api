@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "HP",
   "series": [],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia"
+    ],
+    "elite": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/thrilling-tales-of-dragon-slayers/icon.webp",

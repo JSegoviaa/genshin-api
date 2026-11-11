@@ -9,7 +9,24 @@
   "series": [
     "TulayTullah Series"
   ],
-  "ascensionMaterial": "Leading Karma",
+  "materials": {
+    "ascension": [
+      "echo-of-scorching-might",
+      "remnant-glow-of-scorching-might",
+      "dream-of-scorching-might",
+      "olden-days-of-scorching-might"
+    ],
+    "elite": [
+      "chaos-storage",
+      "chaos-module",
+      "chaos-bolt"
+    ],
+    "common": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ]
+  },
   "releaseVersion": "3.1",
   "images": {
     "icon": "weapons/makhaira-aquamarine/icon.webp",

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 84,
+  "slug": "fetters-of-the-dandelion-gladiator",
+  "name": "Fetters of the Dandelion Gladiator",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "gladiator-shackles",
+  "rarity": 2,
+  "description": "It's a human thing to exaggerate a hero's story, even to the point of elevating the fetters that once bound the hero to the level of an enemy of true freedom.\nAs a result, these fetters were granted extraordinary powers.",
+  "releaseVersion": "1.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

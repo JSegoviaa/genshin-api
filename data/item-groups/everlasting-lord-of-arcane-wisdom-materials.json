@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 38,
+  "id": 50,
   "slug": "everlasting-lord-of-arcane-wisdom-materials",
   "name": "Everlasting Lord of Arcane Wisdom Materials",
   "type": "character-level-up-materials",

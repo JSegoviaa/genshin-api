@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 31,
+  "id": 40,
   "slug": "fungus-materials",
   "name": "Fungus Materials",
   "type": "character-and-weapon-enhancement-materials",

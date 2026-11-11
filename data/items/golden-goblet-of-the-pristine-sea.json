@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 228,
+  "slug": "golden-goblet-of-the-pristine-sea",
+  "name": "Golden Goblet of the Pristine Sea",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "goblets-of-the-pristine-sea",
+  "rarity": 5,
+  "description": "When the Usurper of the sunken city played the last movement of the golden symphony, the favored musician stole the golden goblet brimming with Ichor.\nShocked by the foolhardy betrayal of the God King, the musician summoned the last guards, and used the insoluble Ichor to seal the dragon beneath the tall tower, and sank into the abyss with the capital.\nAfterwards, this noble thief vanished silently from history, and only the \"Golden Troupe\" faithfully remembers his prophecy.",
+  "releaseVersion": "4.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

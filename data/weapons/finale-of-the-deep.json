@@ -9,7 +9,24 @@
   "series": [
     "Beaumont Series"
   ],
-  "ascensionMaterial": "Artisanship",
+  "materials": {
+    "ascension": [
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop"
+    ],
+    "elite": [
+      "drop-of-tainted-water",
+      "scoop-of-tainted-water",
+      "newborn-tainted-hydro-phantasm"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/finale-of-the-deep/icon.webp",

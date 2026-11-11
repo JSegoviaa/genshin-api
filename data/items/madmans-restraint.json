@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 247,
+  "id": 331,
   "slug": "madmans-restraint",
   "name": "Madman's Restraint",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A band found in the heretical testing grounds after defeating the false god that usurped the moon.\nHumanity defines civilization by driving out madness. Yet believing that all things, whether they exist or not, can be contained within reason may itself be another form of lunacy. The madman sees through reason's cunning, and in his world, all things are permitted.",
   "releaseVersion": "Luna IV",
+  "days": [],
   "images": {}
 }

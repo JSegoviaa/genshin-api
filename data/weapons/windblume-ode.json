@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "materials": {
+    "ascension": [
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator",
+      "dream-of-the-dandelion-gladiator"
+    ],
+    "elite": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "common": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ]
+  },
   "releaseVersion": "1.4",
   "images": {
     "icon": "weapons/windblume-ode/icon.webp",

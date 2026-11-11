@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 53,
+  "id": 68,
   "slug": "wayob-manifestation-materials",
   "name": "Wayob Manifestation Materials",
   "type": "character-and-weapon-enhancement-materials",

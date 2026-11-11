@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 93,
+  "id": 117,
   "slug": "polarizing-prism",
   "name": "Polarizing Prism",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A prism that can bend light.\nIn the darkness, these prisms can spread thin light into a wider area. Perhaps this is due to this quirk that these prisms can grant a measure of peace to those whose hearts are oft shrouded in darkness.",
   "releaseVersion": "2.0",
+  "days": [],
   "images": {}
 }

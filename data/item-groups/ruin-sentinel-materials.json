@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 25,
+  "id": 31,
   "slug": "ruin-sentinel-materials",
   "name": "Ruin Sentinel Materials",
   "type": "character-and-weapon-enhancement-materials",

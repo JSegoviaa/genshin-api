@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Artisanship",
+  "materials": {
+    "ascension": [
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop"
+    ],
+    "elite": [
+      "ruined-hilt",
+      "splintered-hilt",
+      "still-smoldering-hilt"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/forged-by-the-golden-melody/icon.webp",

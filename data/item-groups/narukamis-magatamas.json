@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 34,
+  "slug": "narukamis-magatamas",
+  "name": "Narukami's Magatamas",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

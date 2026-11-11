@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 243,
+  "id": 327,
   "slug": "aberrant-core-of-the-deep-shadow",
   "name": "Aberrant Core of the Deep Shadow",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "The remains of a fisher from beyond this world, left after its body dissolved.\nA core whose functions have fully shut down, and its structure resembles no organ of any creature found on this earth.",
   "releaseVersion": "Luna IV",
+  "days": [],
   "images": {}
 }

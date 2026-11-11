@@ -9,7 +9,24 @@
   "series": [
     "Infusion Series"
   ],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "fragile-bone-shard",
+      "sturdy-bone-shard",
+      "fossilized-bone-shard"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/compound-bow/icon.webp",

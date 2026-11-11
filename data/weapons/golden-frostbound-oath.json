@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Prayers Sung",
+  "materials": {
+    "ascension": [
+      "ember-of-long-night-flint",
+      "afterglow-of-long-night-flint",
+      "flare-of-long-night-flint",
+      "blaze-of-long-night-flint"
+    ],
+    "elite": [
+      "faded-flaming-hilt",
+      "fractured-flaming-hilt",
+      "jeweled-flaming-hilt"
+    ],
+    "common": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ]
+  },
   "releaseVersion": "Luna VI",
   "images": {
     "icon": "weapons/golden-frostbound-oath/icon.webp",

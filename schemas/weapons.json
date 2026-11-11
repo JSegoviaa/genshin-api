@@ -45,16 +45,37 @@
         "minLength": 1
       }
     },
-    "ascensionMaterial": {
-      "anyOf": [
-        {
-          "type": "string",
-          "minLength": 1
+    "materials": {
+      "type": "object",
+      "properties": {
+        "ascension": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
         },
-        {
-          "type": "null"
+        "elite": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
+        },
+        "common": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
         }
-      ]
+      },
+      "required": [
+        "ascension",
+        "elite",
+        "common"
+      ],
+      "additionalProperties": false
     },
     "releaseVersion": {
       "anyOf": [
@@ -90,7 +111,7 @@
     "weaponType",
     "secondaryStat",
     "series",
-    "ascensionMaterial",
+    "materials",
     "releaseVersion",
     "images"
   ],

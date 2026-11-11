@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 147,
+  "id": 195,
   "slug": "a-flower-yet-to-bloom",
   "name": "A Flower Yet to Bloom",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A wild flower that a Hilichurl Rogue treasured. It was plucked before it could bloom.\nThe hilichurl takes nothing with it in its sojourn across the wilderness save this flower.",
   "releaseVersion": "3.6",
+  "days": [],
   "images": {}
 }

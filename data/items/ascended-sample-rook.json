@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 221,
+  "id": 293,
   "slug": "ascended-sample-rook",
   "name": "Ascended Sample: Rook",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A rare sample resulting from the alchemical activation of a substance.\nThe name of this piece derives from the word for the \"Chariot\" in the ancient language of Sumeru. In divination, the Chariot card is depicted with two heavenly steeds — one black and one white — symbolizing the alchemical principle of balancing opposing properties.",
   "releaseVersion": "5.6",
+  "days": [],
   "images": {}
 }

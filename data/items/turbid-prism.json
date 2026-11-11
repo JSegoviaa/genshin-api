@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 135,
+  "id": 183,
   "slug": "turbid-prism",
   "name": "Turbid Prism",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "An old component obtained from defeating a Primal Construct.\nIt is said that these machines are different from those ruin machines that come from deep within the desert, for they were not made as heralds of destruction or conquest.",
   "releaseVersion": "3.1",
+  "days": [],
   "images": {}
 }

@@ -9,7 +9,24 @@
   "series": [
     "Aranara Series"
   ],
-  "ascensionMaterial": "Obsession",
+  "materials": {
+    "ascension": [
+      "oasis-gardens-reminiscence",
+      "oasis-gardens-kindness",
+      "oasis-gardens-mourning",
+      "oasis-gardens-truth"
+    ],
+    "elite": [
+      "gloomy-statuette",
+      "dark-statuette",
+      "deathly-statuette"
+    ],
+    "common": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
+    ]
+  },
   "releaseVersion": "3.0",
   "images": {
     "icon": "weapons/fruit-of-fulfillment/icon.webp",

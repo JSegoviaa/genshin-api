@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Robotic Ruse",
+  "materials": {
+    "ascension": [
+      "fragment-of-an-ancient-chord",
+      "chapter-of-an-ancient-chord",
+      "movement-of-an-ancient-chord",
+      "echo-of-an-ancient-chord"
+    ],
+    "elite": [
+      "old-operatives-pocket-watch",
+      "operatives-standard-pocket-watch",
+      "operatives-constancy"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "4.2",
   "images": {
     "icon": "weapons/sword-of-narzissenkreuz/icon.webp",

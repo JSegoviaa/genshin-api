@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Prayers Sung",
+  "materials": {
+    "ascension": [
+      "ember-of-long-night-flint",
+      "afterglow-of-long-night-flint",
+      "flare-of-long-night-flint",
+      "blaze-of-long-night-flint"
+    ],
+    "elite": [
+      "mistshroud-manifestation",
+      "mistshroud-plate",
+      "mistshroud-helmet"
+    ],
+    "common": [
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
+    ]
+  },
   "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/snare-hook/icon.webp",

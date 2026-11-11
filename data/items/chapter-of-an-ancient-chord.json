@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 218,
+  "slug": "chapter-of-an-ancient-chord",
+  "name": "Chapter of an Ancient Chord",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "ancient-chords",
+  "rarity": 3,
+  "description": "Legends say that the survivors of that ancient dynasty once cast a harp out of black iron to commemorate and mourn.\nA harp cast of black iron cannot be played. To mourn that ancient dynasty that was once so proud of its golden music, those remaining forged this heavy instrument and its yet weightier silence.\nBut no matter what, the black iron harp remained as silent as that lost era.",
+  "releaseVersion": "4.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

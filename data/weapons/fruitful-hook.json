@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Estimation",
+  "materials": {
+    "ascension": [
+      "night-winds-mystic-consideration",
+      "night-winds-mystic-premonition",
+      "night-winds-mystic-augury",
+      "night-winds-mystic-revelation"
+    ],
+    "elite": [
+      "axis-of-the-secret-source",
+      "sheath-of-the-secret-source",
+      "heart-of-the-secret-source"
+    ],
+    "common": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ]
+  },
   "releaseVersion": "5.1",
   "images": {
     "icon": "weapons/fruitful-hook/icon.webp",

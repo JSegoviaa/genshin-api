@@ -9,7 +9,24 @@
   "series": [
     "Amethyst Series"
   ],
-  "ascensionMaterial": "Sunken Sands",
+  "materials": {
+    "ascension": [
+      "coral-branch-of-a-distant-sea",
+      "jeweled-branch-of-a-distant-sea",
+      "jade-branch-of-a-distant-sea",
+      "golden-branch-of-a-distant-sea"
+    ],
+    "elite": [
+      "chaos-gear",
+      "chaos-axis",
+      "chaos-oculus"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "2.0",
   "images": {
     "icon": "weapons/amenoma-kageuchi/icon.webp",

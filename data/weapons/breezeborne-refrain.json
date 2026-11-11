@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Severed Steel",
+  "materials": {
+    "ascension": [
+      "the-frost-emperors-revival",
+      "the-frost-emperors-ceremony",
+      "the-frost-emperors-lament",
+      "the-frost-emperors-farewell"
+    ],
+    "elite": [
+      "accreted-fragment",
+      "accreted-mass",
+      "accreted-growth"
+    ],
+    "common": [
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
+    ]
+  },
   "releaseVersion": "7.1",
   "images": {
     "icon": "weapons/breezeborne-refrain/icon.webp",

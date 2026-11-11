@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 234,
+  "id": 306,
   "slug": "radiant-exoskeleton",
   "name": "Radiant Exoskeleton",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A giant piece of bone that glows coldly, taken from the exterior of a glowing beast.\nThese beasts blessed by the ancient power of the moon are able to manipulate their exoskeletons through the light that has soaked into their marrow over long years. Even though their bones float apart from their bodies, they can still command them at will like any other physical part.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

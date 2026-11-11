@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Artisanship",
+  "materials": {
+    "ascension": [
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop"
+    ],
+    "elite": [
+      "rift-core",
+      "foreign-synapse",
+      "alien-life-core"
+    ],
+    "common": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ]
+  },
   "releaseVersion": "4.1",
   "images": {
     "icon": "weapons/tome-of-the-eternal-flow/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "City of Reflections",
+  "materials": {
+    "ascension": [
+      "tile-of-decarabians-tower",
+      "debris-of-decarabians-city",
+      "fragment-of-decarabians-epic",
+      "scattered-piece-of-decarabians-dream"
+    ],
+    "elite": [
+      "frostnights-glimmer",
+      "frostnights-glow",
+      "frostnights-glory"
+    ],
+    "common": [
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
+    ]
+  },
   "releaseVersion": "Luna III",
   "images": {
     "icon": "weapons/athame-artis/icon.webp",

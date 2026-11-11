@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Scrying Shadows",
+  "materials": {
+    "ascension": [
+      "blazing-sacrificial-hearts-terror",
+      "blazing-sacrificial-hearts-hesitance",
+      "blazing-sacrificial-hearts-resolve",
+      "blazing-sacrificial-hearts-splendor"
+    ],
+    "elite": [
+      "ignited-stone",
+      "ignited-seed-of-life",
+      "ignited-seeing-eye"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/earth-shaker/icon.webp",

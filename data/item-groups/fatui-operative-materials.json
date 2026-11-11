@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 46,
+  "id": 61,
   "slug": "fatui-operative-materials",
   "name": "Fatui Operative Materials",
   "type": "character-and-weapon-enhancement-materials",

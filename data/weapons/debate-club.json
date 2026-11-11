@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Thundering Ruins",
+  "materials": {
+    "ascension": [
+      "mist-veiled-lead-elixir",
+      "mist-veiled-mercury-elixir",
+      "mist-veiled-gold-elixir",
+      "mist-veiled-primo-elixir"
+    ],
+    "elite": [
+      "mist-grass-pollen",
+      "mist-grass",
+      "mist-grass-wick"
+    ],
+    "common": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/debate-club/icon.webp",

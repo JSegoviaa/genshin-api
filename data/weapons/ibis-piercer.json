@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Tainted Clouds",
+  "materials": {
+    "ascension": [
+      "copper-talisman-of-the-forest-dew",
+      "iron-talisman-of-the-forest-dew",
+      "silver-talisman-of-the-forest-dew",
+      "golden-talisman-of-the-forest-dew"
+    ],
+    "elite": [
+      "a-flower-yet-to-bloom",
+      "treasured-flower",
+      "wanderers-blooming-flower"
+    ],
+    "common": [
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
+    ]
+  },
   "releaseVersion": "3.7",
   "images": {
     "icon": "weapons/ibis-piercer/icon.webp",

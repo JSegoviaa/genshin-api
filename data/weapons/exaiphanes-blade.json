@@ -7,7 +7,11 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": null,
+  "materials": {
+    "ascension": [],
+    "elite": [],
+    "common": []
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/exaiphanes-blade/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "HP",
   "series": [],
-  "ascensionMaterial": "Sunken Sands",
+  "materials": {
+    "ascension": [
+      "coral-branch-of-a-distant-sea",
+      "jeweled-branch-of-a-distant-sea",
+      "jade-branch-of-a-distant-sea",
+      "golden-branch-of-a-distant-sea"
+    ],
+    "elite": [
+      "dismal-prism",
+      "crystal-prism",
+      "polarizing-prism"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "2.1",
   "images": {
     "icon": "weapons/everlasting-moonglow/icon.webp",

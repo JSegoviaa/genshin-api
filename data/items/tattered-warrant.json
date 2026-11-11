@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 226,
+  "id": 298,
   "slug": "tattered-warrant",
   "name": "Tattered Warrant",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 1,
   "description": "A warrant issued to members of the Fatui Oprichniki.\nOne wonders what resolve drove its bearer to sign up.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

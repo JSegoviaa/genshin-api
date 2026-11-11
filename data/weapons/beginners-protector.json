@@ -9,7 +9,21 @@
   "series": [
     "1-Star Series"
   ],
-  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "materials": {
+    "ascension": [
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator"
+    ],
+    "elite": [
+      "chaos-device",
+      "chaos-circuit"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/beginners-protector/icon.webp",

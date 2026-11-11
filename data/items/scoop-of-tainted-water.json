@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 161,
+  "id": 209,
   "slug": "scoop-of-tainted-water",
   "name": "Scoop of Tainted Water",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "Water obtained from a defeated Tainted Hydro Phantasm.\nThe life force in it has yet to ebb away.\nToday, with the Oceanids extirpated from Fontaine, strange elemental life forms that are far from elegant have appeared in the waters.",
   "releaseVersion": "4.0",
+  "days": [],
   "images": {}
 }

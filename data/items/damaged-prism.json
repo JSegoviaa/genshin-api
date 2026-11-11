@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 134,
+  "id": 182,
   "slug": "damaged-prism",
   "name": "Damaged Prism",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A damaged component obtained from defeating a Primal Construct.\nThese uniquely-shaped machines are the eternal sentinels of the desert ruins, and they possess the power to pierce the mountains and reshape rocks. The same principles that power many mysterious devices above and beneath the earth also power these machines.",
   "releaseVersion": "3.1",
+  "days": [],
   "images": {}
 }

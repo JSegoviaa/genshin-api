@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 162,
+  "id": 210,
   "slug": "newborn-tainted-hydro-phantasm",
   "name": "Newborn Tainted Hydro Phantasm",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A new lifeform that arose from the dispersed Tainted Hydro Phantasm.\nIt is trapped inside a bottle.\nThe life contained within the waters is formless, and formless life is born of water and gains water's shape.",
   "releaseVersion": "4.0",
+  "days": [],
   "images": {}
 }

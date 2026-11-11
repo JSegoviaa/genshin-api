@@ -4,4 +4,15 @@ export const ITEM_SOURCES = [
   "normal-boss-drops",
   "weekly-boss-drops",
   "ascension-gems",
+  "domains-of-forgery",
+] as const;
+
+export const WEEKDAYS = [
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday",
 ] as const;

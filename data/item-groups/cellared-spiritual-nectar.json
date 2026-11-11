@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 96,
+  "slug": "cellared-spiritual-nectar",
+  "name": "Cellared Spiritual Nectar",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

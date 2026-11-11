@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Thundering Ruins",
+  "materials": {
+    "ascension": [
+      "mist-veiled-lead-elixir",
+      "mist-veiled-mercury-elixir",
+      "mist-veiled-gold-elixir",
+      "mist-veiled-primo-elixir"
+    ],
+    "elite": [
+      "mist-grass-pollen",
+      "mist-grass",
+      "mist-grass-wick"
+    ],
+    "common": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ]
+  },
   "releaseVersion": "2.4",
   "images": {
     "icon": "weapons/calamity-queller/icon.webp",

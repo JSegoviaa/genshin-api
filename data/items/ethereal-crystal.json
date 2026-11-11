@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 261,
+  "id": 345,
   "slug": "ethereal-crystal",
   "name": "Ethereal Crystal",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "The remains of a Snezhnayan fae left behind after battle.\nA shattered fragment of the crystalline scales that once grew upon the fae's body. Though it is now a mere empty shell, one can still sense the echo of the unique power that once dwelt within.",
   "releaseVersion": "7.0",
+  "days": [],
   "images": {}
 }

@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Radiant Splendor",
+  "materials": {
+    "ascension": [
+      "artful-device-fragment",
+      "artful-device-replica",
+      "artful-device-inheritance",
+      "artful-device-wish"
+    ],
+    "elite": [
+      "faded-flaming-hilt",
+      "fractured-flaming-hilt",
+      "jeweled-flaming-hilt"
+    ],
+    "common": [
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
+    ]
+  },
   "releaseVersion": "Luna VII",
   "images": {
     "icon": "weapons/angelos-heptades/icon.webp",

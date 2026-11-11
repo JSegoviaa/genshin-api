@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 242,
+  "id": 326,
   "slug": "fractured-eye-of-the-deep-shadow",
   "name": "Fractured Eye of the Deep Shadow",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "The remains of a fisher beyond this world, left after its body dissolved.\nOnce its shell cracked, the malice housed within faded away as well.",
   "releaseVersion": "Luna IV",
+  "days": [],
   "images": {}
 }

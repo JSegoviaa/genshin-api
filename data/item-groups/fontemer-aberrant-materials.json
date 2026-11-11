@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 42,
+  "id": 54,
   "slug": "fontemer-aberrant-materials",
   "name": "Fontemer Aberrant Materials",
   "type": "character-and-weapon-enhancement-materials",

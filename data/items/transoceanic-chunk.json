@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 155,
+  "id": 203,
   "slug": "transoceanic-chunk",
   "name": "Transoceanic Chunk",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A crystal obtained from a defeated Fontemer Aberrant.\nIt gives off a somewhat mysterious energy.\nAlthough many legends speak of great life forms residing in remote seas beyond human reach, ordinary oceans can hardly compare to the vibrant seas of Fontaine.",
   "releaseVersion": "4.0",
+  "days": [],
   "images": {}
 }

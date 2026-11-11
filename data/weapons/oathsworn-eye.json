@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Sunken Sands",
+  "materials": {
+    "ascension": [
+      "coral-branch-of-a-distant-sea",
+      "jeweled-branch-of-a-distant-sea",
+      "jade-branch-of-a-distant-sea",
+      "golden-branch-of-a-distant-sea"
+    ],
+    "elite": [
+      "concealed-claw",
+      "concealed-unguis",
+      "concealed-talon"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "2.5",
   "images": {
     "icon": "weapons/oathsworn-eye/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Thundercloud",
+  "materials": {
+    "ascension": [
+      "luminous-sands-from-guyun",
+      "lustrous-stone-from-guyun",
+      "relic-from-guyun",
+      "divine-body-from-guyun"
+    ],
+    "elite": [
+      "hunters-sacrificial-knife",
+      "agents-sacrificial-knife",
+      "inspectors-sacrificial-knife"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/white-tassel/icon.webp",

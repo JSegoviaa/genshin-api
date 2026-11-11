@@ -9,7 +9,24 @@
   "series": [
     "Liyue Series"
   ],
-  "ascensionMaterial": "Thundercloud",
+  "materials": {
+    "ascension": [
+      "luminous-sands-from-guyun",
+      "lustrous-stone-from-guyun",
+      "relic-from-guyun",
+      "divine-body-from-guyun"
+    ],
+    "elite": [
+      "hunters-sacrificial-knife",
+      "agents-sacrificial-knife",
+      "inspectors-sacrificial-knife"
+    ],
+    "common": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ]
+  },
   "releaseVersion": "1.2",
   "images": {
     "icon": "weapons/summit-shaper/icon.webp",

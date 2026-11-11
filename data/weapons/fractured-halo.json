@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Scrying Shadows",
+  "materials": {
+    "ascension": [
+      "blazing-sacrificial-hearts-terror",
+      "blazing-sacrificial-hearts-hesitance",
+      "blazing-sacrificial-hearts-resolve",
+      "blazing-sacrificial-hearts-splendor"
+    ],
+    "elite": [
+      "cold-cracked-shellshard",
+      "warm-back-shell",
+      "blazing-prismshell"
+    ],
+    "common": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ]
+  },
   "releaseVersion": "5.8",
   "images": {
     "icon": "weapons/fractured-halo/icon.webp",

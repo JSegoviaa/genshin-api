@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Scrying Shadows",
+  "materials": {
+    "ascension": [
+      "blazing-sacrificial-hearts-terror",
+      "blazing-sacrificial-hearts-hesitance",
+      "blazing-sacrificial-hearts-resolve",
+      "blazing-sacrificial-hearts-splendor"
+    ],
+    "elite": [
+      "axis-of-the-secret-source",
+      "sheath-of-the-secret-source",
+      "heart-of-the-secret-source"
+    ],
+    "common": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ]
+  },
   "releaseVersion": "5.3",
   "images": {
     "icon": "weapons/a-thousand-blazing-suns/icon.webp",

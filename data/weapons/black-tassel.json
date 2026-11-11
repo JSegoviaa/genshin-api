@@ -9,7 +9,24 @@
   "series": [
     "3-Star Bane Series"
   ],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "fragile-bone-shard",
+      "sturdy-bone-shard",
+      "fossilized-bone-shard"
+    ],
+    "common": [
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/black-tassel/icon.webp",

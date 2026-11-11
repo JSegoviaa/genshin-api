@@ -9,7 +9,24 @@
   "series": [
     "Sumeru Series"
   ],
-  "ascensionMaterial": "Tainted Clouds",
+  "materials": {
+    "ascension": [
+      "copper-talisman-of-the-forest-dew",
+      "iron-talisman-of-the-forest-dew",
+      "silver-talisman-of-the-forest-dew",
+      "golden-talisman-of-the-forest-dew"
+    ],
+    "elite": [
+      "desiccated-shell",
+      "sturdy-shell",
+      "marked-shell"
+    ],
+    "common": [
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
+    ]
+  },
   "releaseVersion": "3.4",
   "images": {
     "icon": "weapons/light-of-foliar-incision/icon.webp",

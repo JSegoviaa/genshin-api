@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "ignited-stone",
+      "ignited-seed-of-life",
+      "ignited-seeing-eye"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/fang-of-the-mountaing-king/icon.webp",

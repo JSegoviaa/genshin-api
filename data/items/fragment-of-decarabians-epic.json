@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 78,
+  "slug": "fragment-of-decarabians-epic",
+  "name": "Fragment of Decarabian's Epic",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "decarabian-tiles",
+  "rarity": 4,
+  "description": "Andrius once declared war upon Decarabian, but failed to even scratch the capital of the Lord of the Tower. If it were not for the song of freedom that shattered the city in an instant, Decarabian's dream would have gone on forever.",
+  "releaseVersion": "1.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

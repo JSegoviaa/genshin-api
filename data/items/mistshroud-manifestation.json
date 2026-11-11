@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 235,
+  "id": 307,
   "slug": "mistshroud-manifestation",
   "name": "Mistshroud Manifestation",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A chunk found in the mists of the Wild Hunt.\nLike a snowflake forming from the air, it was created by the manifestation and solidification of dark power from another world.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

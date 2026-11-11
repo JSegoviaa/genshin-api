@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Tainted Clouds",
+  "materials": {
+    "ascension": [
+      "copper-talisman-of-the-forest-dew",
+      "iron-talisman-of-the-forest-dew",
+      "silver-talisman-of-the-forest-dew",
+      "golden-talisman-of-the-forest-dew"
+    ],
+    "elite": [
+      "damaged-prism",
+      "turbid-prism",
+      "radiant-prism"
+    ],
+    "common": [
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
+    ]
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/clash-of-kings/icon.webp",

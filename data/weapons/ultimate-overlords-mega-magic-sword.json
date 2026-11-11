@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Curious Contraptions",
+  "materials": {
+    "ascension": [
+      "broken-goblet-of-the-pristine-sea",
+      "wine-goblet-of-the-pristine-sea",
+      "silver-goblet-of-the-pristine-sea",
+      "golden-goblet-of-the-pristine-sea"
+    ],
+    "elite": [
+      "old-operatives-pocket-watch",
+      "operatives-standard-pocket-watch",
+      "operatives-constancy"
+    ],
+    "common": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ]
+  },
   "releaseVersion": "4.3",
   "images": {
     "icon": "weapons/ultimate-overlords-mega-magic-sword/icon.webp",

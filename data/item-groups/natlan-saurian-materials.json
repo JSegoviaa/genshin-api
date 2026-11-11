@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 51,
+  "id": 66,
   "slug": "natlan-saurian-materials",
   "name": "Natlan Saurian Materials",
   "type": "character-and-weapon-enhancement-materials",

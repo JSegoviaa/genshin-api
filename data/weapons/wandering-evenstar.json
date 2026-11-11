@@ -9,7 +9,24 @@
   "series": [
     "TulayTullah Series"
   ],
-  "ascensionMaterial": "Obsession",
+  "materials": {
+    "ascension": [
+      "oasis-gardens-reminiscence",
+      "oasis-gardens-kindness",
+      "oasis-gardens-mourning",
+      "oasis-gardens-truth"
+    ],
+    "elite": [
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "common": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
+    ]
+  },
   "releaseVersion": "3.1",
   "images": {
     "icon": "weapons/wandering-evenstar/icon.webp",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 43,
+  "id": 55,
   "slug": "clockwork-meka-materials",
   "name": "Clockwork Meka Materials",
   "type": "character-and-weapon-enhancement-materials",

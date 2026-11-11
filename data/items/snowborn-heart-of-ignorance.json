@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 277,
+  "id": 373,
   "slug": "snowborn-heart-of-ignorance",
   "name": "Snowborn Heart of Ignorance",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A remnant left behind when a monster formed from ice and snow fades away.\nUnder the influence of some unknown, overwhelming power, these monsters, at once humanoid and beastlike, take form in a way unlike ordinary elemental beings. The proof lies in the power core they leave behind, its jagged growths jutting outward like the unruly scales of some primeval creature.",
   "releaseVersion": "7.2",
+  "days": [],
   "images": {}
 }

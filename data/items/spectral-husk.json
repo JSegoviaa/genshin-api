@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 96,
+  "id": 132,
   "slug": "spectral-husk",
   "name": "Spectral Husk",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 1,
   "description": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\nMost of the rest has already dispersed.",
   "releaseVersion": "2.1",
+  "days": [],
   "images": {}
 }

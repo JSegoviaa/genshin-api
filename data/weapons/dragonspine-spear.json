@@ -9,7 +9,24 @@
   "series": [
     "Dragonspine Series"
   ],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia"
+    ],
+    "elite": [
+      "mist-grass-pollen",
+      "mist-grass",
+      "mist-grass-wick"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "1.2",
   "images": {
     "icon": "weapons/dragonspine-spear/icon.webp",

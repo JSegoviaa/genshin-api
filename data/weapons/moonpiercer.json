@@ -9,7 +9,24 @@
   "series": [
     "Aranara Series"
   ],
-  "ascensionMaterial": "Obsession",
+  "materials": {
+    "ascension": [
+      "oasis-gardens-reminiscence",
+      "oasis-gardens-kindness",
+      "oasis-gardens-mourning",
+      "oasis-gardens-truth"
+    ],
+    "elite": [
+      "chaos-storage",
+      "chaos-module",
+      "chaos-bolt"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "3.0",
   "images": {
     "icon": "weapons/moonpiercer/icon.webp",

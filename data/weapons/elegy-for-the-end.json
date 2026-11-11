@@ -9,7 +9,24 @@
   "series": [
     "Sumeru Series"
   ],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia"
+    ],
+    "elite": [
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "1.4",
   "images": {
     "icon": "weapons/elegy-for-the-end/icon.webp",

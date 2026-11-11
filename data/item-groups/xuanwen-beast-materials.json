@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 48,
+  "id": 63,
   "slug": "xuanwen-beast-materials",
   "name": "Xuanwen Beast Materials",
   "type": "character-and-weapon-enhancement-materials",

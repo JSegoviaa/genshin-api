@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "cold-cracked-shellshard",
+      "warm-back-shell",
+      "blazing-prismshell"
+    ],
+    "common": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ]
+  },
   "releaseVersion": "5.5",
   "images": {
     "icon": "weapons/vivid-notions/icon.webp",

@@ -9,7 +9,24 @@
   "series": [
     "Amethyst Series"
   ],
-  "ascensionMaterial": "Altar of Sands",
+  "materials": {
+    "ascension": [
+      "narukamis-wisdom",
+      "narukamis-joy",
+      "narukamis-affection",
+      "narukamis-valor"
+    ],
+    "elite": [
+      "chaos-gear",
+      "chaos-axis",
+      "chaos-oculus"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "2.0",
   "images": {
     "icon": "weapons/katsuragikiri-nagamasa/icon.webp",

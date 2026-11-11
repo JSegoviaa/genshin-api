@@ -9,7 +9,24 @@
   "series": [
     "TulayTullah Series"
   ],
-  "ascensionMaterial": "Tainted Clouds",
+  "materials": {
+    "ascension": [
+      "copper-talisman-of-the-forest-dew",
+      "iron-talisman-of-the-forest-dew",
+      "silver-talisman-of-the-forest-dew",
+      "golden-talisman-of-the-forest-dew"
+    ],
+    "elite": [
+      "damaged-prism",
+      "turbid-prism",
+      "radiant-prism"
+    ],
+    "common": [
+      "faded-red-satin",
+      "trimmed-red-silk",
+      "rich-red-brocade"
+    ]
+  },
   "releaseVersion": "3.1",
   "images": {
     "icon": "weapons/xiphos-moonlight/icon.webp",

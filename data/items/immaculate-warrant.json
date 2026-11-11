@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 227,
+  "id": 299,
   "slug": "immaculate-warrant",
   "name": "Immaculate Warrant",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A warrant issued to members of the Fatui Oprichniki.\nOne wonders if the exquisite styling might hide a price paid for its owner's promotion.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

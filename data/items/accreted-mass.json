@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 267,
+  "id": 351,
   "slug": "accreted-mass",
   "name": "Accreted Mass",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "An accretion formed by powerful Volkodlak.\nAn accretion that has clung to an internal organ or bone for a long time. Once removed, such accretions are regarded as symbols of power and carefully preserved by the creature's descendants.",
   "releaseVersion": "7.0",
+  "days": [],
   "images": {}
 }

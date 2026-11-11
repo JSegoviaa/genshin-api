@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 266,
+  "id": 350,
   "slug": "accreted-fragment",
   "name": "Accreted Fragment",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "An accretion formed by powerful Volkodlak.\nAn accretion that has only just begun to attach to an internal organ or bone. As the Volkodlak's power grows, it may eventually cover an entire region of the body, or a whole organ.",
   "releaseVersion": "7.0",
+  "days": [],
   "images": {}
 }

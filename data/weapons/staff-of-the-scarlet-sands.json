@@ -9,7 +9,24 @@
   "series": [
     "Deshret Series"
   ],
-  "ascensionMaterial": "Obsession",
+  "materials": {
+    "ascension": [
+      "oasis-gardens-reminiscence",
+      "oasis-gardens-kindness",
+      "oasis-gardens-mourning",
+      "oasis-gardens-truth"
+    ],
+    "elite": [
+      "chaos-storage",
+      "chaos-module",
+      "chaos-bolt"
+    ],
+    "common": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
+    ]
+  },
   "releaseVersion": "3.1",
   "images": {
     "icon": "weapons/staff-of-the-scarlet-sands/icon.webp",

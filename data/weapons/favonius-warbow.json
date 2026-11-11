@@ -9,7 +9,24 @@
   "series": [
     "Favonius Series"
   ],
-  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "materials": {
+    "ascension": [
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator",
+      "dream-of-the-dandelion-gladiator"
+    ],
+    "elite": [
+      "chaos-device",
+      "chaos-circuit",
+      "chaos-core"
+    ],
+    "common": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/favonius-warbow/icon.webp",

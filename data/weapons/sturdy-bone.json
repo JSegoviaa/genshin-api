@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Scrying Shadows",
+  "materials": {
+    "ascension": [
+      "blazing-sacrificial-hearts-terror",
+      "blazing-sacrificial-hearts-hesitance",
+      "blazing-sacrificial-hearts-resolve",
+      "blazing-sacrificial-hearts-splendor"
+    ],
+    "elite": [
+      "shard-of-a-shattered-will",
+      "locus-of-a-clear-will",
+      "sigil-of-a-striding-will"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "5.1",
   "images": {
     "icon": "weapons/sturdy-bone/icon.webp",

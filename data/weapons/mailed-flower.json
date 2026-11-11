@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "materials": {
+    "ascension": [
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator",
+      "dream-of-the-dandelion-gladiator"
+    ],
+    "elite": [
+      "desiccated-shell",
+      "sturdy-shell",
+      "marked-shell"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "3.5",
   "images": {
     "icon": "weapons/mailed-flower/icon.webp",

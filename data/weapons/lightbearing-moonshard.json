@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "mistshroud-manifestation",
+      "mistshroud-plate",
+      "mistshroud-helmet"
+    ],
+    "common": [
+      "broken-drive-shaft",
+      "reinforced-drive-shaft",
+      "precision-drive-shaft"
+    ]
+  },
   "releaseVersion": "Luna IV",
   "images": {
     "icon": "weapons/lightbearing-moonshard/icon.webp",

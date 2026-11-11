@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 157,
+  "id": 205,
   "slug": "meshing-gear",
   "name": "Meshing Gear",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 1,
   "description": "Clockwork meka's gear.\nIt is a crucial part of the meka's transmission structure. The whole system will malfunction if this gear is absent.",
   "releaseVersion": "4.0",
+  "days": [],
   "images": {}
 }

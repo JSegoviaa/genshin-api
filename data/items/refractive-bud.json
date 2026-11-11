@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 207,
+  "id": 279,
   "slug": "refractive-bud",
   "name": "Refractive Bud",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A leaf bud dropped by the monster known as the Tenebrous Mimiflora after being vanquished.\nIt is said that when this creature emerged from the Black Tide, the first things it grew were these tender buds capable of deflecting elemental power.",
   "releaseVersion": "5.2",
+  "days": [],
   "images": {}
 }

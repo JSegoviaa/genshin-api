@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "HP",
   "series": [],
-  "ascensionMaterial": "Artisanship",
+  "materials": {
+    "ascension": [
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop"
+    ],
+    "elite": [
+      "feathery-fin",
+      "lunar-fin",
+      "chasmlight-fin"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "4.7",
   "images": {
     "icon": "weapons/silvershower-heartstrings/icon.webp",

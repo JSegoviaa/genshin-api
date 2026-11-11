@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Thundering Ruins",
+  "materials": {
+    "ascension": [
+      "mist-veiled-lead-elixir",
+      "mist-veiled-mercury-elixir",
+      "mist-veiled-gold-elixir",
+      "mist-veiled-primo-elixir"
+    ],
+    "elite": [
+      "feathery-fin",
+      "lunar-fin",
+      "chasmlight-fin"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "4.4",
   "images": {
     "icon": "weapons/cranes-echoing-call/icon.webp",

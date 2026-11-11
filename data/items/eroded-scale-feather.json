@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 214,
+  "id": 286,
   "slug": "eroded-scale-feather",
   "name": "Eroded Scale-Feather",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A pitch-black scale that fell to the ground after the battle against the Lord of Eroded Primal Fire.\nThe ancient dragons once used their fallen scales as a means to transmit secret messages and edicts.\nThis scale has been utterly corroded by the power of darkness, the light that was once engraved upon it wholly devoured, leaving naught but twisted, dark remnants.",
   "releaseVersion": "5.3",
+  "days": [],
   "images": {}
 }

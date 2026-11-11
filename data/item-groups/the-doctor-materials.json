@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 66,
+  "id": 87,
   "slug": "the-doctor-materials",
   "name": "The Doctor Materials",
   "type": "character-level-up-materials",

@@ -9,7 +9,24 @@
   "series": [
     "Beaumont Series"
   ],
-  "ascensionMaterial": "Curious Contraptions",
+  "materials": {
+    "ascension": [
+      "broken-goblet-of-the-pristine-sea",
+      "wine-goblet-of-the-pristine-sea",
+      "silver-goblet-of-the-pristine-sea",
+      "golden-goblet-of-the-pristine-sea"
+    ],
+    "elite": [
+      "rift-core",
+      "foreign-synapse",
+      "alien-life-core"
+    ],
+    "common": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/rightful-reward/icon.webp",

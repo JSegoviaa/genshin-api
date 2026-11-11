@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 29,
+  "id": 38,
   "slug": "riftwolf-materials",
   "name": "Riftwolf Materials",
   "type": "character-and-weapon-enhancement-materials",

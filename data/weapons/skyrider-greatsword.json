@@ -9,7 +9,24 @@
   "series": [
     "Skyrider Series"
   ],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "fragile-bone-shard",
+      "sturdy-bone-shard",
+      "fossilized-bone-shard"
+    ],
+    "common": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/skyrider-greatsword/icon.webp",

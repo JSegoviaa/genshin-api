@@ -9,7 +9,24 @@
   "series": [
     "Millennial Movement Series"
   ],
-  "ascensionMaterial": "Ruins of Thirsting Capital",
+  "materials": {
+    "ascension": [
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator",
+      "dream-of-the-dandelion-gladiator"
+    ],
+    "elite": [
+      "chaos-device",
+      "chaos-circuit",
+      "chaos-core"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "1.6",
   "images": {
     "icon": "weapons/freedom-sworn/icon.webp",

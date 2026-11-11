@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Severed Steel",
+  "materials": {
+    "ascension": [
+      "the-frost-emperors-revival",
+      "the-frost-emperors-ceremony",
+      "the-frost-emperors-lament",
+      "the-frost-emperors-farewell"
+    ],
+    "elite": [
+      "snowborn-heartshard",
+      "snowborn-mirrorheart",
+      "snowborn-heart-of-ignorance"
+    ],
+    "common": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone"
+    ]
+  },
   "releaseVersion": "7.2",
   "images": {
     "icon": "weapons/starsealed-edict/icon.webp",

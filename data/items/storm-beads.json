@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 100,
+  "id": 136,
   "slug": "storm-beads",
   "name": "Storm Beads",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "Crackling Electro pearls left behind by the Thunder Manifestation.\nIt is said that Thunder Manifestations will only descend upon lands where powerful hatred dwells. The singers say that it is the unbearable disappointments and sufferings of life that drive them to forever wander the broken earth, unleashing sky-searing lightning as they go.",
   "releaseVersion": "2.1",
+  "days": [],
   "images": {}
 }

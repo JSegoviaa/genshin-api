@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "cold-cracked-shellshard",
+      "warm-back-shell",
+      "blazing-prismshell"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "5.8",
   "images": {
     "icon": "weapons/flame-forged-insight/icon.webp",

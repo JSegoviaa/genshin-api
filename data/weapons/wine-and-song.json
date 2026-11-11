@@ -9,7 +9,24 @@
   "series": [
     "Alley Series"
   ],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia"
+    ],
+    "elite": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "common": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ]
+  },
   "releaseVersion": "1.4",
   "images": {
     "icon": "weapons/wine-and-song/icon.webp",

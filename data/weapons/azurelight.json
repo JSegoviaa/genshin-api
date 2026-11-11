@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Estimation",
+  "materials": {
+    "ascension": [
+      "night-winds-mystic-consideration",
+      "night-winds-mystic-premonition",
+      "night-winds-mystic-augury",
+      "night-winds-mystic-revelation"
+    ],
+    "elite": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "common": [
+      "sentrys-wooden-whistle",
+      "warriors-metal-whistle",
+      "saurian-crowned-warriors-golden-whistle"
+    ]
+  },
   "releaseVersion": "5.7",
   "images": {
     "icon": "weapons/azurelight/icon.webp",

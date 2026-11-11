@@ -9,7 +9,24 @@
   "series": [
     "Gnostic Hymn 2 Series"
   ],
-  "ascensionMaterial": "Thundercloud",
+  "materials": {
+    "ascension": [
+      "luminous-sands-from-guyun",
+      "lustrous-stone-from-guyun",
+      "relic-from-guyun",
+      "divine-body-from-guyun"
+    ],
+    "elite": [
+      "mist-grass-pollen",
+      "mist-grass",
+      "mist-grass-wick"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/sacrificial-jade/icon.webp",

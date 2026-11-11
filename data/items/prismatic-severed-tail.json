@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 249,
+  "id": 333,
   "slug": "prismatic-severed-tail",
   "name": "Prismatic Severed Tail",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A crystallized tail vertebra left behind by a defeated Radiant Moongecko in its attempt to escape.\nBy all logic, a lizard that has evolved to such formidable strength should no longer face the threat of natural predators. Yet it still retains the instinct to shed its tail in a bid for survival. Perhaps in an age when moonlight blanketed the land, even more terrifying predators once prowled this place.",
   "releaseVersion": "Luna V",
+  "days": [],
   "images": {}
 }

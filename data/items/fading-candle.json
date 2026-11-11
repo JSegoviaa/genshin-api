@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 186,
+  "id": 246,
   "slug": "fading-candle",
   "name": "Fading Candle",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A candle that you picked up in the ruins after completing the duel against The Knave.\nLegends passed down claim that when the candle's flame flickers in the hands of sinners, the light may become shadows, making footsteps faint and masking fatal intent.\nYou cannot tell what material this is made of, and it weeps no wax after burning, releasing only black ash that scatters into the wind, drifting towards the distant unknown.",
   "releaseVersion": "4.6",
+  "days": [],
   "images": {}
 }

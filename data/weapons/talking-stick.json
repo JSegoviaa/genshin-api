@@ -9,7 +9,24 @@
   "series": [
     "Gnostic Hymn 2 Series"
   ],
-  "ascensionMaterial": "Obsession",
+  "materials": {
+    "ascension": [
+      "oasis-gardens-reminiscence",
+      "oasis-gardens-kindness",
+      "oasis-gardens-mourning",
+      "oasis-gardens-truth"
+    ],
+    "elite": [
+      "desiccated-shell",
+      "sturdy-shell",
+      "marked-shell"
+    ],
+    "common": [
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/talking-stick/icon.webp",

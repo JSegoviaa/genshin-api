@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Attentive Observation",
+  "materials": {
+    "ascension": [
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord"
+    ],
+    "elite": [
+      "ignited-stone",
+      "ignited-seed-of-life",
+      "ignited-seeing-eye"
+    ],
+    "common": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ]
+  },
   "releaseVersion": "5.1",
   "images": {
     "icon": "weapons/mountain-bracing-bolt/icon.webp",

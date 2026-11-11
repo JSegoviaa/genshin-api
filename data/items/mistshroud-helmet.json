@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 237,
+  "id": 309,
   "slug": "mistshroud-helmet",
   "name": "Mistshroud Helmet",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A helmet found in the mists of the Wild Hunt.\nPerhaps because the sullying presence from beyond this world has fed from the memories of the Ley Lines, its shape appears oddly similar to the relics of a lost kingdom.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

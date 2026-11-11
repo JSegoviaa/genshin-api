@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 94,
+  "id": 118,
   "slug": "perpetual-heart",
   "name": "Perpetual Heart",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "The core that powers the autonomous movements of the Perpetual Mechanical Array.\nSome theorize that the symbols on these cores have knowledge and logic inscribed upon them in a language that eyes cannot perceive. Some go a step further and believe that these unique Ruin machines autonomously decided to forsake a biomimetic form to pursue strength of function on account of their especially large cores and complex inscriptions.",
   "releaseVersion": "2.0",
+  "days": [],
   "images": {}
 }

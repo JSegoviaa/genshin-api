@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 103,
+  "id": 139,
   "slug": "ashen-heart",
   "name": "Ashen Heart",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A deformed fragment that contains powerful emotions. You obtained this from defeating Signora, who unleashed her original power.\nEven tears cannot extinguish the flames. Molten-hot agony and rage rush through her veins, oozing from her tear ducts.\nThe First Fatuus found her just before her heart could be destroyed by the eternal blaze. He understood that only deeper hate and obsession could quench the fire that devoured her and make her his ally...",
   "releaseVersion": "2.1",
+  "days": [],
   "images": {}
 }

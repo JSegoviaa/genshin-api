@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 96,
+  "slug": "grain-of-aerosiderite",
+  "name": "Grain of Aerosiderite",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "aerosiderite",
+  "rarity": 2,
+  "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
+  "releaseVersion": "1.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

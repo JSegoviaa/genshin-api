@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 45,
+  "id": 57,
   "slug": "breacher-primus-materials",
   "name": "Breacher Primus Materials",
   "type": "character-and-weapon-enhancement-materials",

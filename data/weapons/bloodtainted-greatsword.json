@@ -9,7 +9,24 @@
   "series": [
     "3-Star Bane Series"
   ],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia"
+    ],
+    "elite": [
+      "dead-ley-line-branch",
+      "dead-ley-line-leaves",
+      "ley-line-sprout"
+    ],
+    "common": [
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/bloodtainted-greatsword/icon.webp",

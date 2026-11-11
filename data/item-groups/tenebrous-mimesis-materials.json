@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 56,
+  "id": 74,
   "slug": "tenebrous-mimesis-materials",
   "name": "Tenebrous Mimesis Materials",
   "type": "character-and-weapon-enhancement-materials",

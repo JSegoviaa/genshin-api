@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Cast Iron",
+  "materials": {
+    "ascension": [
+      "rise-of-the-pale-star-army",
+      "muster-of-the-pale-star-army",
+      "clarion-of-the-pale-star-army",
+      "triumph-of-the-pale-star-army"
+    ],
+    "elite": [
+      "accreted-fragment",
+      "accreted-mass",
+      "accreted-growth"
+    ],
+    "common": [
+      "ethereal-glimmershard",
+      "ethereal-crystal",
+      "ethereal-crystalscale-stone"
+    ]
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/blade-of-atonement/icon.webp",

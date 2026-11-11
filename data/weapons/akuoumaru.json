@@ -9,7 +9,24 @@
   "series": [
     "Watatsumi Series"
   ],
-  "ascensionMaterial": "Sunken Sands",
+  "materials": {
+    "ascension": [
+      "coral-branch-of-a-distant-sea",
+      "jeweled-branch-of-a-distant-sea",
+      "jade-branch-of-a-distant-sea",
+      "golden-branch-of-a-distant-sea"
+    ],
+    "elite": [
+      "concealed-claw",
+      "concealed-unguis",
+      "concealed-talon"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "2.2",
   "images": {
     "icon": "weapons/akuoumaru/icon.webp",

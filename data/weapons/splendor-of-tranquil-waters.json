@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Artisanship",
+  "materials": {
+    "ascension": [
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop"
+    ],
+    "elite": [
+      "drop-of-tainted-water",
+      "scoop-of-tainted-water",
+      "newborn-tainted-hydro-phantasm"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "4.2",
   "images": {
     "icon": "weapons/splendor-of-tranquil-waters/icon.webp",

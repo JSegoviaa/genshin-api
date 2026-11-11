@@ -9,7 +9,24 @@
   "series": [
     "Gnostic Hymn 2 Series"
   ],
-  "ascensionMaterial": "City of Reflections",
+  "materials": {
+    "ascension": [
+      "tile-of-decarabians-tower",
+      "debris-of-decarabians-city",
+      "fragment-of-decarabians-epic",
+      "scattered-piece-of-decarabians-dream"
+    ],
+    "elite": [
+      "chaos-device",
+      "chaos-circuit",
+      "chaos-core"
+    ],
+    "common": [
+      "damaged-mask",
+      "stained-mask",
+      "ominous-mask"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/wolf-fang/icon.webp",

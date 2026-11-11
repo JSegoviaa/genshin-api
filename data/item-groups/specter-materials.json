@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 27,
+  "id": 36,
   "slug": "specter-materials",
   "name": "Specter Materials",
   "type": "character-and-weapon-enhancement-materials",

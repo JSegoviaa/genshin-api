@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Lunar Oblation",
+  "materials": {
+    "ascension": [
+      "sundered-glory-of-the-far-north-scions",
+      "unyielding-delusion-of-the-far-north-scions",
+      "oblation-of-the-far-north-scions",
+      "aureate-radiance-of-the-far-north-scions"
+    ],
+    "elite": [
+      "lightless-bone",
+      "glowing-remains",
+      "radiant-exoskeleton"
+    ],
+    "common": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ]
+  },
   "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/etherlight-spindlelute/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Prayers Sung",
+  "materials": {
+    "ascension": [
+      "artful-device-fragment",
+      "artful-device-replica",
+      "artful-device-inheritance",
+      "artful-device-wish"
+    ],
+    "elite": [
+      "frostnights-glimmer",
+      "frostnights-glow",
+      "frostnights-glory"
+    ],
+    "common": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ]
+  },
   "releaseVersion": "Luna I",
   "images": {
     "icon": "weapons/blackmarrow-lantern/icon.webp",

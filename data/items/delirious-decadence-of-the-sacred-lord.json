@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 270,
+  "slug": "delirious-decadence-of-the-sacred-lord",
+  "name": "Delirious Decadence of the Sacred Lord",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "delirious-masks-of-the-sacred-lord",
+  "rarity": 2,
+  "description": "It is said that the controversial mastermind who later came to be known as the Sacred Lord of the ineffable city was once imprisoned. The first human to ascend, who at the time had not yet attained divine form, showed him great compassion.\nThus, after emerging from the mighty wing-shadows of a once-great race, he was accepted by the tribe who had once been his.\nSince then, he has concealed his true visage beneath a mask, hiding the golden patterns that mark it, and resolved to offer up everything to the master who holds his vow.",
+  "releaseVersion": "5.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

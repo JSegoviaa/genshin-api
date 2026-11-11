@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 71,
+  "slug": "blazing-sacrificial-hearts",
+  "name": "Blazing Sacrificial Hearts",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

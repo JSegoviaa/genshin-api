@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Curious Contraptions",
+  "materials": {
+    "ascension": [
+      "broken-goblet-of-the-pristine-sea",
+      "wine-goblet-of-the-pristine-sea",
+      "silver-goblet-of-the-pristine-sea",
+      "golden-goblet-of-the-pristine-sea"
+    ],
+    "elite": [
+      "ruined-hilt",
+      "splintered-hilt",
+      "still-smoldering-hilt"
+    ],
+    "common": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ]
+  },
   "releaseVersion": "4.8",
   "images": {
     "icon": "weapons/lumidouce-elegy/icon.webp",

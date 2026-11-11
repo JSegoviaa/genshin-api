@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "HP",
   "series": [],
-  "ascensionMaterial": "Robotic Ruse",
+  "materials": {
+    "ascension": [
+      "fragment-of-an-ancient-chord",
+      "chapter-of-an-ancient-chord",
+      "movement-of-an-ancient-chord",
+      "echo-of-an-ancient-chord"
+    ],
+    "elite": [
+      "cold-cracked-shellshard",
+      "warm-back-shell",
+      "blazing-prismshell"
+    ],
+    "common": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ]
+  },
   "releaseVersion": "5.6",
   "images": {
     "icon": "weapons/sequence-of-solitude/icon.webp",

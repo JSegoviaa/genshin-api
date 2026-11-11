@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 89,
+  "id": 113,
   "slug": "chaos-axis",
   "name": "Chaos Axis",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "Comes from a now-inactive ancient Ruin machine.\nEven the great techniques and unknown power of this device must come to nothing should the machine that contained them ever fail to maintain structural integrity.",
   "releaseVersion": "2.0",
+  "days": [],
   "images": {}
 }

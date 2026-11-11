@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 177,
+  "id": 237,
   "slug": "lightless-mass",
   "name": "Lightless Mass",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A fragment produced from the intense battle against the All-Devouring Narwhal.\nThe universe is a dark and cold place.\nBut look carefully. Inside are always faint glimmers of light, like pearls gleaming from within the sand, splinters of diamond sprinkled over asphalt, lights lancing through the fog on a misty night, and sparks that ignite the brightest blazes.",
   "releaseVersion": "4.2",
+  "days": [],
   "images": {}
 }

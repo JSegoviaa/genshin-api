@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "hunters-sacrificial-knife",
+      "agents-sacrificial-knife",
+      "inspectors-sacrificial-knife"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "2.7",
   "images": {
     "icon": "weapons/fading-twilight/icon.webp",

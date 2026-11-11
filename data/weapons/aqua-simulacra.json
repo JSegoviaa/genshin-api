@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Thundercloud",
+  "materials": {
+    "ascension": [
+      "luminous-sands-from-guyun",
+      "lustrous-stone-from-guyun",
+      "relic-from-guyun",
+      "divine-body-from-guyun"
+    ],
+    "elite": [
+      "gloomy-statuette",
+      "dark-statuette",
+      "deathly-statuette"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "2.7",
   "images": {
     "icon": "weapons/aqua-simulacra/icon.webp",

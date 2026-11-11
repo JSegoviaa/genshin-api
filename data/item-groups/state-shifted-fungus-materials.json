@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 34,
+  "id": 43,
   "slug": "state-shifted-fungus-materials",
   "name": "State-Shifted Fungus Materials",
   "type": "character-and-weapon-enhancement-materials",

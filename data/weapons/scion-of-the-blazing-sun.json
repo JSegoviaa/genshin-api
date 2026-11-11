@@ -9,7 +9,24 @@
   "series": [
     "Gnostic Hymn 2 Series"
   ],
-  "ascensionMaterial": "Leading Karma",
+  "materials": {
+    "ascension": [
+      "echo-of-scorching-might",
+      "remnant-glow-of-scorching-might",
+      "dream-of-scorching-might",
+      "olden-days-of-scorching-might"
+    ],
+    "elite": [
+      "a-flower-yet-to-bloom",
+      "treasured-flower",
+      "wanderers-blooming-flower"
+    ],
+    "common": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/scion-of-the-blazing-sun/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "DEF",
   "series": [],
-  "ascensionMaterial": "Scrying Shadows",
+  "materials": {
+    "ascension": [
+      "blazing-sacrificial-hearts-terror",
+      "blazing-sacrificial-hearts-hesitance",
+      "blazing-sacrificial-hearts-resolve",
+      "blazing-sacrificial-hearts-splendor"
+    ],
+    "elite": [
+      "ruined-hilt",
+      "splintered-hilt",
+      "still-smoldering-hilt"
+    ],
+    "common": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ]
+  },
   "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/flute-of-ezpitzal/icon.webp",

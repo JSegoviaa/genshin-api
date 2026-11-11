@@ -9,7 +9,24 @@
   "series": [
     "Gnostic Hymn 2 Series"
   ],
-  "ascensionMaterial": "Curious Contraptions",
+  "materials": {
+    "ascension": [
+      "broken-goblet-of-the-pristine-sea",
+      "wine-goblet-of-the-pristine-sea",
+      "silver-goblet-of-the-pristine-sea",
+      "golden-goblet-of-the-pristine-sea"
+    ],
+    "elite": [
+      "a-flower-yet-to-bloom",
+      "treasured-flower",
+      "wanderers-blooming-flower"
+    ],
+    "common": [
+      "whopperflower-nectar",
+      "shimmering-nectar",
+      "energy-nectar"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/ballad-of-the-fjords/icon.webp",

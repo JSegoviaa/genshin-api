@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Altar of Sands",
+  "materials": {
+    "ascension": [
+      "narukamis-wisdom",
+      "narukamis-joy",
+      "narukamis-affection",
+      "narukamis-valor"
+    ],
+    "elite": [
+      "damaged-prism",
+      "turbid-prism",
+      "radiant-prism"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "3.3",
   "images": {
     "icon": "weapons/toukabou-shigure/icon.webp",

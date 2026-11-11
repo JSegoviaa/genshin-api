@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Trial Grounds of Thunder",
+  "materials": {
+    "ascension": [
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "elite": [
+      "fragile-bone-shard",
+      "sturdy-bone-shard",
+      "fossilized-bone-shard"
+    ],
+    "common": [
+      "slime-condensate",
+      "slime-secretions",
+      "slime-concentrate"
+    ]
+  },
   "releaseVersion": "2.1",
   "images": {
     "icon": "weapons/luxurious-sea-lord/icon.webp",

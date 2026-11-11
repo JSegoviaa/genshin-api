@@ -2,7 +2,8 @@ import { defineResource, head } from "../../core/resource";
 import { slugify } from "../../core/slug";
 import type { Character } from "../characters/character.schema";
 import type { Enemy } from "../enemies/enemy.schema";
-import { ITEM_SOURCES } from "./item-source";
+import type { Weapon } from "../weapons/weapon.schema";
+import { ITEM_SOURCES, WEEKDAYS } from "./item-source";
 import { itemSchema } from "./item.schema";
 
 const characterMaterials = (c: Character) =>
@@ -14,7 +15,7 @@ export const itemResource = defineResource({
   name: "items",
   title: "Items",
   description:
-    "Character development items dropped by enemies and bosses, with their type, source, group, rarity, description and release version. Each item lists the enemies that drop it and the characters that use it.",
+    "Character development items such as enemy drops, ascension gems and weapon ascension materials, with their type, source, group, rarity, description, release version and farming days. Each item lists the enemies that drop it and the characters and weapons that use it.",
   example: "damaged-mask",
   schema: itemSchema,
   refs: {
@@ -41,6 +42,10 @@ export const itemResource = defineResource({
       description: "Release version, e.g. 5.0 or luna-i",
       get: (i) => i.releaseVersion,
     },
+    days: {
+      description: `Day of the week the item can be farmed: ${WEEKDAYS.join(" | ")}`,
+      get: (i) => i.days,
+    },
   },
   sorts: { rarity: (i) => i.rarity },
   summary: (i, ctx) => ({
@@ -58,12 +63,22 @@ export const itemResource = defineResource({
     rarity: ctx.refById("rarities", i.rarity),
     description: i.description,
     releaseVersion: ctx.refByName("versions", i.releaseVersion),
+    days: i.days,
     images: ctx.images(i.images),
     droppedBy: ctx.related<Enemy>("enemies", (e) =>
       e.drops.items.includes(i.slug),
     ),
-    usedBy: ctx.related<Character>("characters", (c) =>
-      characterMaterials(c).includes(i.slug),
-    ),
+    usedBy: {
+      characters: ctx.related<Character>("characters", (c) =>
+        characterMaterials(c).includes(i.slug),
+      ),
+      weapons: ctx.related<Weapon>("weapons", (w) =>
+        [
+          ...w.materials.ascension,
+          ...w.materials.elite,
+          ...w.materials.common,
+        ].includes(i.slug),
+      ),
+    },
   }),
 });

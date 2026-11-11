@@ -9,7 +9,24 @@
   "series": [
     "Watatsumi Series"
   ],
-  "ascensionMaterial": "Sand Burial",
+  "materials": {
+    "ascension": [
+      "mask-of-the-wicked-lieutenant",
+      "mask-of-the-tigers-bite",
+      "mask-of-the-one-horned",
+      "mask-of-the-kijin"
+    ],
+    "elite": [
+      "concealed-claw",
+      "concealed-unguis",
+      "concealed-talon"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "2.2",
   "images": {
     "icon": "weapons/wavebreakers-fin/icon.webp",

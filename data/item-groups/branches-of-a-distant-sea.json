@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 33,
+  "slug": "branches-of-a-distant-sea",
+  "name": "Branches of a Distant Sea",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

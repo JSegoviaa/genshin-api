@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 109,
+  "id": 145,
   "slug": "mudra-of-the-malefic-general",
   "name": "Mudra of the Malefic General",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the fierce general's shell had to embrace a new spring.",
   "releaseVersion": "2.5",
+  "days": [],
   "images": {}
 }

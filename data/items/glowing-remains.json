@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 233,
+  "id": 305,
   "slug": "glowing-remains",
   "name": "Glowing Remains",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "A faintly glowing piece of bone taken from the exterior of a glowing beast.\nIt is the remains of an exoskeleton in which a vestige of the ancient power of the moon still lingers. It emanates a deep hue that still lingers long after being separated from its body, steeped as it is in the power of the moon.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

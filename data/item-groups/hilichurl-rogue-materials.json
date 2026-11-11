@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 40,
+  "id": 52,
   "slug": "hilichurl-rogue-materials",
   "name": "Hilichurl Rogue Materials",
   "type": "character-and-weapon-enhancement-materials",

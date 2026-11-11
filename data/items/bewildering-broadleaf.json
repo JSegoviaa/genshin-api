@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 208,
+  "id": 280,
   "slug": "bewildering-broadleaf",
   "name": "Bewildering Broadleaf",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "An arrow-shaped leaf dropped by the monster known as the Tenebrous Mimiflora after being vanquished.\nAfter corroding the Ley Lines and extracting the memories within, the creature grows these leaves as a means of storing the information it has deciphered. There may be a close link between these intricately patterned leaves and the forms that their host can mimic.",
   "releaseVersion": "5.2",
+  "days": [],
   "images": {}
 }

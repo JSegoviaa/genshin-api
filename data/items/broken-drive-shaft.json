@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 223,
+  "id": 295,
   "slug": "broken-drive-shaft",
   "name": "Broken Drive Shaft",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 1,
   "description": "The drive shaft of a Landcruiser destroyed in battle.\nEven the most precise craftsmanship cannot withstand excessive wear, just as the most lofty ideals cannot bring back those who've died in vain for someone else's cause. Moreover, mass-produced components can hardly be called precise, and mass-produced ideals can hardly be considered true ideals.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

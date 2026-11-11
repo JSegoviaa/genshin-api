@@ -9,7 +9,24 @@
   "series": [
     "Aranara Series"
   ],
-  "ascensionMaterial": "Leading Karma",
+  "materials": {
+    "ascension": [
+      "echo-of-scorching-might",
+      "remnant-glow-of-scorching-might",
+      "dream-of-scorching-might",
+      "olden-days-of-scorching-might"
+    ],
+    "elite": [
+      "inactivated-fungal-nucleus",
+      "dormant-fungal-nucleus",
+      "robust-fungal-nucleus"
+    ],
+    "common": [
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
+    ]
+  },
   "releaseVersion": "3.0",
   "images": {
     "icon": "weapons/kings-squire/icon.webp",

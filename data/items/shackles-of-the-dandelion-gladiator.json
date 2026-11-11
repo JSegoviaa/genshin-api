@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 86,
+  "slug": "shackles-of-the-dandelion-gladiator",
+  "name": "Shackles of the Dandelion Gladiator",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "gladiator-shackles",
+  "rarity": 4,
+  "description": "Vennessa was not truly bound by her chains. If she had so wished, no ordinary physical constraints forged in Mondstadt could have held her, for the land there yielded no ore of exceptional quality, nor did it possess the divine flame of her ancestral home.\nShe was only bound by her responsibility to take care of her tribespeople.",
+  "releaseVersion": "1.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

@@ -9,7 +9,24 @@
   "series": [
     "Skyrider Series"
   ],
-  "ascensionMaterial": "Robotic Ruse",
+  "materials": {
+    "ascension": [
+      "fragment-of-an-ancient-chord",
+      "chapter-of-an-ancient-chord",
+      "movement-of-an-ancient-chord",
+      "echo-of-an-ancient-chord"
+    ],
+    "elite": [
+      "drop-of-tainted-water",
+      "scoop-of-tainted-water",
+      "newborn-tainted-hydro-phantasm"
+    ],
+    "common": [
+      "transoceanic-pearl",
+      "transoceanic-chunk",
+      "xenochromatic-crystal"
+    ]
+  },
   "releaseVersion": "4.0",
   "images": {
     "icon": "weapons/fleuve-cendre-ferryman/icon.webp",

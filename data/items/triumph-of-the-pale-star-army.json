@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 361,
+  "slug": "triumph-of-the-pale-star-army",
+  "name": "Triumph of the Pale Star Army",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "pale-star-army",
+  "rarity": 5,
+  "description": "\"All hail the Tsar, Protector of all fae, Heir to the Pale Star, sovereign born of sacred blood!\"\n\"Praise be, for the entire tundra now stands as one beneath the brilliance of the Polestar!\"\n\"Praise be, for His Majesty has slain the false king and embraced all fae. Such is his benevolence, such is his mercy!\"",
+  "releaseVersion": "7.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

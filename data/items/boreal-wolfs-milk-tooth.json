@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 80,
+  "slug": "boreal-wolfs-milk-tooth",
+  "name": "Boreal Wolf's Milk Tooth",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "boreal-wolf-teeth",
+  "rarity": 2,
+  "description": "Andrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf cub possess great potential.\nIn the past, the gods had the responsibility to love all people. Andrius was therefore quite unusual in that he became leader of the wolves, while only welcoming abandoned babies and wanderers when it came to humans.",
+  "releaseVersion": "1.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

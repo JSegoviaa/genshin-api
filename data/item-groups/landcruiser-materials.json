@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 60,
+  "id": 78,
   "slug": "landcruiser-materials",
   "name": "Landcruiser Materials",
   "type": "character-and-weapon-enhancement-materials",

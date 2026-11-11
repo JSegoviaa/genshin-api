@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 213,
+  "id": 285,
   "slug": "eroded-sunfire",
   "name": "Eroded Sunfire",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "Though the battle with the Lord of Eroded Primal Fire has ended, this ring-shaped flame yet burns.\nIn the beginning, in the deepest, darkest of nights, the master of flame emulated the sun, thus supplanting the light of the starry skies.\nThough the flame's glow has been halfway corroded, it still reflects the world of old in its glory.",
   "releaseVersion": "5.3",
+  "days": [],
   "images": {}
 }

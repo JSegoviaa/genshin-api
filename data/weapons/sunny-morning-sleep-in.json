@@ -7,7 +7,24 @@
   "weaponType": "catalyst",
   "secondaryStat": "Elemental Mastery",
   "series": [],
-  "ascensionMaterial": "Altar of Sands",
+  "materials": {
+    "ascension": [
+      "narukamis-wisdom",
+      "narukamis-joy",
+      "narukamis-affection",
+      "narukamis-valor"
+    ],
+    "elite": [
+      "ignited-stone",
+      "ignited-seed-of-life",
+      "ignited-seeing-eye"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "5.4",
   "images": {
     "icon": "weapons/sunny-morning-sleep-in/icon.webp",

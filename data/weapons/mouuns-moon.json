@@ -9,7 +9,24 @@
   "series": [
     "Watatsumi Series"
   ],
-  "ascensionMaterial": "Altar of Sands",
+  "materials": {
+    "ascension": [
+      "narukamis-wisdom",
+      "narukamis-joy",
+      "narukamis-affection",
+      "narukamis-valor"
+    ],
+    "elite": [
+      "dismal-prism",
+      "crystal-prism",
+      "polarizing-prism"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "2.2",
   "images": {
     "icon": "weapons/mouuns-moon/icon.webp",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 44,
+  "id": 56,
   "slug": "tainted-hydro-phantasm-materials",
   "name": "Tainted Hydro Phantasm Materials",
   "type": "character-and-weapon-enhancement-materials",

@@ -9,7 +9,24 @@
   "series": [
     "Sumeru Series"
   ],
-  "ascensionMaterial": "Obsession",
+  "materials": {
+    "ascension": [
+      "oasis-gardens-reminiscence",
+      "oasis-gardens-kindness",
+      "oasis-gardens-mourning",
+      "oasis-gardens-truth"
+    ],
+    "elite": [
+      "damaged-prism",
+      "turbid-prism",
+      "radiant-prism"
+    ],
+    "common": [
+      "fungal-spores",
+      "luminescent-pollen",
+      "crystalline-cyst-dust"
+    ]
+  },
   "releaseVersion": "3.2",
   "images": {
     "icon": "weapons/a-thousand-floating-dreams/icon.webp",

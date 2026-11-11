@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 268,
+  "id": 352,
   "slug": "accreted-growth",
   "name": "Accreted Growth",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "An accretion formed by powerful Volkodlak.\nAn accretion that has fully fused with an organ or bone. One could even say it's a newly grown bone or organ at the nodes of the Volkodlak's power circulation. Only long-lived Volkodlaks who have ceaselessly honed their strength can form such growths within their bodies.",
   "releaseVersion": "7.0",
+  "days": [],
   "images": {}
 }

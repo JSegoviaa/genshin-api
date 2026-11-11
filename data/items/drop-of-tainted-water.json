@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 160,
+  "id": 208,
   "slug": "drop-of-tainted-water",
   "name": "Drop of Tainted Water",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A small drop of water obtained from a defeated Tainted Hydro Phantasm.\nThe life force in it has yet to ebb away.",
   "releaseVersion": "4.0",
+  "days": [],
   "images": {}
 }

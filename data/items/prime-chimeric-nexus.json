@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 265,
+  "id": 349,
   "slug": "prime-chimeric-nexus",
   "name": "Prime Chimeric Nexus",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "The internal core harvested from aberrant man-made monsters.\nThe most complex core a man-made monster can possibly sustain, serving as an artificially engineered yet flawless seed of life. Whoever brought this creation into life has surely unlocked the very secrets of how life itself is shaped.",
   "releaseVersion": "7.0",
+  "days": [],
   "images": {}
 }

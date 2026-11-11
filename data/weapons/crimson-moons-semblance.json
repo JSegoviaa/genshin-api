@@ -7,7 +7,24 @@
   "weaponType": "polearm",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Curious Contraptions",
+  "materials": {
+    "ascension": [
+      "broken-goblet-of-the-pristine-sea",
+      "wine-goblet-of-the-pristine-sea",
+      "silver-goblet-of-the-pristine-sea",
+      "golden-goblet-of-the-pristine-sea"
+    ],
+    "elite": [
+      "ruined-hilt",
+      "splintered-hilt",
+      "still-smoldering-hilt"
+    ],
+    "common": [
+      "meshing-gear",
+      "mechanical-spur-gear",
+      "artificed-dynamic-gear"
+    ]
+  },
   "releaseVersion": "4.6",
   "images": {
     "icon": "weapons/crimson-moons-semblance/icon.webp",

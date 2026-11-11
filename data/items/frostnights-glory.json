@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 231,
+  "id": 303,
   "slug": "frostnights-glory",
   "name": "Frostnight's Glory",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "A bone plate taken from the horned crown of a defeated Frostnight Scion.\nA warmth as glossy as moonlight envelopes it, radiating strongly even in the dead of winter nights. In a sense, just like the Frostmoon Scions, this is the last thing these noble creatures stand by. The master they once served has been reduced to dust, yet their dreams still glow with golden splendor.",
   "releaseVersion": "Luna I",
+  "days": [],
   "images": {}
 }

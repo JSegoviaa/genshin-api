@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 52,
+  "id": 67,
   "slug": "sauroform-tribal-warrior-materials",
   "name": "Sauroform Tribal Warrior Materials",
   "type": "character-and-weapon-enhancement-materials",

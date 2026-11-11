@@ -9,7 +9,24 @@
   "series": [
     "Amethyst Series"
   ],
-  "ascensionMaterial": "Sand Burial",
+  "materials": {
+    "ascension": [
+      "mask-of-the-wicked-lieutenant",
+      "mask-of-the-tigers-bite",
+      "mask-of-the-one-horned",
+      "mask-of-the-kijin"
+    ],
+    "elite": [
+      "chaos-gear",
+      "chaos-axis",
+      "chaos-oculus"
+    ],
+    "common": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ]
+  },
   "releaseVersion": "2.0",
   "images": {
     "icon": "weapons/kitain-cross-spear/icon.webp",

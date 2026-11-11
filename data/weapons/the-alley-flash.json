@@ -9,7 +9,24 @@
   "series": [
     "Alley Series"
   ],
-  "ascensionMaterial": "City of Reflections",
+  "materials": {
+    "ascension": [
+      "tile-of-decarabians-tower",
+      "debris-of-decarabians-city",
+      "fragment-of-decarabians-epic",
+      "scattered-piece-of-decarabians-dream"
+    ],
+    "elite": [
+      "heavy-horn",
+      "black-bronze-horn",
+      "black-crystal-horn"
+    ],
+    "common": [
+      "divining-scroll",
+      "sealed-scroll",
+      "forbidden-curse-scroll"
+    ]
+  },
   "releaseVersion": "1.4",
   "images": {
     "icon": "weapons/the-alley-flash/icon.webp",

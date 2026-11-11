@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 93,
+  "slug": "mist-veiled-mercury-elixir",
+  "name": "Mist Veiled Mercury Elixir",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "elixirs",
+  "rarity": 3,
+  "description": "With Fulu (Sigils), the adepti can store their power in the form of symbols, and with Waijing (Sub-Space Creation) they can fashion a cosmic paradise with the power of their minds. The manufacture of elixirs, however, has always been shrouded in mystery, for certain death follows for any who swallow them.",
+  "releaseVersion": "1.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

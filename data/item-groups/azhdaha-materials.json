@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 23,
+  "id": 29,
   "slug": "azhdaha-materials",
   "name": "Azhdaha Materials",
   "type": "character-level-up-materials",

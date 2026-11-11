@@ -9,7 +9,24 @@
   "series": [
     "Infusion Series"
   ],
-  "ascensionMaterial": "Thundercloud",
+  "materials": {
+    "ascension": [
+      "luminous-sands-from-guyun",
+      "lustrous-stone-from-guyun",
+      "relic-from-guyun",
+      "divine-body-from-guyun"
+    ],
+    "elite": [
+      "hunters-sacrificial-knife",
+      "agents-sacrificial-knife",
+      "inspectors-sacrificial-knife"
+    ],
+    "common": [
+      "treasure-hoarder-insignia",
+      "silver-raven-insignia",
+      "golden-raven-insignia"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/crescent-pike/icon.webp",

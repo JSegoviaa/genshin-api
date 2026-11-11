@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 95,
+  "slug": "mist-veiled-primo-elixir",
+  "name": "Mist Veiled Primo Elixir",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "elixirs",
+  "rarity": 5,
+  "description": "An elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case.",
+  "releaseVersion": "1.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

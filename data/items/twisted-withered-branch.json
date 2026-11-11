@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 255,
+  "id": 339,
   "slug": "twisted-withered-branch",
   "name": "Twisted Withered Branch",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "A withered branch recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nA twisted bough grown from a giant tree meant to remain buried deep beneath the earth. Even cut off from its source, it still holds a strange and malevolent power.",
   "releaseVersion": "Luna VII",
+  "days": [],
   "images": {}
 }

@@ -9,7 +9,24 @@
   "series": [
     "Inazuma Series"
   ],
-  "ascensionMaterial": "Sand Burial",
+  "materials": {
+    "ascension": [
+      "mask-of-the-wicked-lieutenant",
+      "mask-of-the-tigers-bite",
+      "mask-of-the-one-horned",
+      "mask-of-the-kijin"
+    ],
+    "elite": [
+      "chaos-gear",
+      "chaos-axis",
+      "chaos-oculus"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "2.1",
   "images": {
     "icon": "weapons/engulfing-lightning/icon.webp",

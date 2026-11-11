@@ -9,7 +9,24 @@
   "series": [
     "Inazuma Series"
   ],
-  "ascensionMaterial": "Altar of Sands",
+  "materials": {
+    "ascension": [
+      "narukamis-wisdom",
+      "narukamis-joy",
+      "narukamis-affection",
+      "narukamis-valor"
+    ],
+    "elite": [
+      "dismal-prism",
+      "crystal-prism",
+      "polarizing-prism"
+    ],
+    "common": [
+      "firm-arrowhead",
+      "sharp-arrowhead",
+      "weathered-arrowhead"
+    ]
+  },
   "releaseVersion": "2.0",
   "images": {
     "icon": "weapons/thundering-pulse/icon.webp",

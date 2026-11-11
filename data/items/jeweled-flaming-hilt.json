@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 252,
+  "id": 336,
   "slug": "jeweled-flaming-hilt",
   "name": "Jeweled Flaming Hilt",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 4,
   "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper.\nA sword of blazing fire was once the symbol of admonition. Empowered by the authority of \"Space,\" it proclaimed the absolute and infallible will of the divine.",
   "releaseVersion": "Luna VI",
+  "days": [],
   "images": {}
 }

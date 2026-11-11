@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Sand Burial",
+  "materials": {
+    "ascension": [
+      "mask-of-the-wicked-lieutenant",
+      "mask-of-the-tigers-bite",
+      "mask-of-the-one-horned",
+      "mask-of-the-kijin"
+    ],
+    "elite": [
+      "concealed-claw",
+      "concealed-unguis",
+      "concealed-talon"
+    ],
+    "common": [
+      "spectral-husk",
+      "spectral-heart",
+      "spectral-nucleus"
+    ]
+  },
   "releaseVersion": "2.2",
   "images": {
     "icon": "weapons/polar-star/icon.webp",

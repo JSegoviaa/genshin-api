@@ -8,7 +8,13 @@ export const weaponSchema = z
     weaponType: ref,
     secondaryStat: label.nullable(),
     series: z.array(label),
-    ascensionMaterial: label.nullable(),
+    materials: z
+      .object({
+        ascension: z.array(ref),
+        elite: z.array(ref),
+        common: z.array(ref),
+      })
+      .strict(),
     releaseVersion: label.nullable(),
     images: z
       .object({

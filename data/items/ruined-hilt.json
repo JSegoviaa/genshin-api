@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 182,
+  "id": 242,
   "slug": "ruined-hilt",
   "name": "Ruined Hilt",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "A stone hilt obtained from an ancient statue.\nIts luster has long been lost to the depredations of seawater.",
   "releaseVersion": "4.6",
+  "days": [],
   "images": {}
 }

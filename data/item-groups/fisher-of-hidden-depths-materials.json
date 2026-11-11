@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 65,
+  "id": 86,
   "slug": "fisher-of-hidden-depths-materials",
   "name": "Fisher of Hidden Depths Materials",
   "type": "character-and-weapon-enhancement-materials",

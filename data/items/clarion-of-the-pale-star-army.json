@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 360,
+  "slug": "clarion-of-the-pale-star-army",
+  "name": "Clarion of the Pale Star Army",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "group": "pale-star-army",
+  "rarity": 4,
+  "description": "\"Our enemy Monomakh has built his palace beyond the valley, a sign that he is fully confident in his ability to contend with us.\"\n\"As matters stand, he deserves our utmost caution. Any talk of a swift victory should now be set aside.\"\n\"But it matters not. With wisdom to guide us all, the King shall stand with the clans to overcome every hardship and usher in a glorious new era!\"",
+  "releaseVersion": "7.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

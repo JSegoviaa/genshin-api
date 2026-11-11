@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 97,
+  "id": 133,
   "slug": "spectral-heart",
   "name": "Spectral Heart",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "An energy core that allows the Specters to float.\nThese elemental life-forms have strange behavioral patterns and will periodically surge in number before disappearing.",
   "releaseVersion": "2.1",
+  "days": [],
   "images": {}
 }

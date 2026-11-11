@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 30,
+  "id": 39,
   "slug": "magatsu-mitake-narukami-no-mikoto-materials",
   "name": "Magatsu Mitake Narukami no Mikoto Materials",
   "type": "character-level-up-materials",

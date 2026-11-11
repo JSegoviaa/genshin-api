@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Sunken Sands",
+  "materials": {
+    "ascension": [
+      "coral-branch-of-a-distant-sea",
+      "jeweled-branch-of-a-distant-sea",
+      "jade-branch-of-a-distant-sea",
+      "golden-branch-of-a-distant-sea"
+    ],
+    "elite": [
+      "chaos-gear",
+      "chaos-axis",
+      "chaos-oculus"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "4.5",
   "images": {
     "icon": "weapons/uraku-misugiri/icon.webp",

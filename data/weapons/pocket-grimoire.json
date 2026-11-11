@@ -9,7 +9,21 @@
   "series": [
     "2-Star Series"
   ],
-  "ascensionMaterial": "City of Reflections",
+  "materials": {
+    "ascension": [
+      "tile-of-decarabians-tower",
+      "debris-of-decarabians-city",
+      "fragment-of-decarabians-epic"
+    ],
+    "elite": [
+      "heavy-horn",
+      "black-bronze-horn"
+    ],
+    "common": [
+      "damaged-mask",
+      "stained-mask"
+    ]
+  },
   "releaseVersion": "1.0",
   "images": {
     "icon": "weapons/pocket-grimoire/icon.webp",

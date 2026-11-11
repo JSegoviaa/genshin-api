@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 28,
+  "id": 37,
   "slug": "la-signora-materials",
   "name": "La Signora Materials",
   "type": "character-level-up-materials",

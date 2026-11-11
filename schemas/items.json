@@ -29,7 +29,8 @@
         "elite-enemy-drops",
         "normal-boss-drops",
         "weekly-boss-drops",
-        "ascension-gems"
+        "ascension-gems",
+        "domains-of-forgery"
       ]
     },
     "group": {
@@ -63,6 +64,21 @@
         }
       ]
     },
+    "days": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday",
+          "sunday"
+        ]
+      }
+    },
     "images": {
       "type": "object",
       "properties": {
@@ -84,6 +100,7 @@
     "rarity",
     "description",
     "releaseVersion",
+    "days",
     "images"
   ],
   "additionalProperties": false

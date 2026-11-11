@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 72,
+  "slug": "delirious-masks-of-the-sacred-lord",
+  "name": "Delirious Masks of the Sacred Lord",
+  "type": "weapon-ascension-materials",
+  "source": "domains-of-forgery",
+  "images": {}
+}

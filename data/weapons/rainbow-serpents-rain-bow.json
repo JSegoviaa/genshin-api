@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "Energy Recharge",
   "series": [],
-  "ascensionMaterial": "Estimation",
+  "materials": {
+    "ascension": [
+      "night-winds-mystic-consideration",
+      "night-winds-mystic-premonition",
+      "night-winds-mystic-augury",
+      "night-winds-mystic-revelation"
+    ],
+    "elite": [
+      "refractive-bud",
+      "bewildering-broadleaf",
+      "illusory-leafcoil"
+    ],
+    "common": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ]
+  },
   "releaseVersion": "Luna III",
   "images": {
     "icon": "weapons/rainbow-serpents-rain-bow/icon.webp",

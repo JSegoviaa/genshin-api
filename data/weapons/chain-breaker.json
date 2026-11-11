@@ -7,7 +7,24 @@
   "weaponType": "bow",
   "secondaryStat": "ATK",
   "series": [],
-  "ascensionMaterial": "Estimation",
+  "materials": {
+    "ascension": [
+      "night-winds-mystic-consideration",
+      "night-winds-mystic-premonition",
+      "night-winds-mystic-augury",
+      "night-winds-mystic-revelation"
+    ],
+    "elite": [
+      "feathery-fin",
+      "lunar-fin",
+      "chasmlight-fin"
+    ],
+    "common": [
+      "juvenile-fang",
+      "seasoned-fang",
+      "tyrants-fang"
+    ]
+  },
   "releaseVersion": "5.0",
   "images": {
     "icon": "weapons/chain-breaker/icon.webp",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 62,
+  "id": 80,
   "slug": "frostnight-scion-materials",
   "name": "Frostnight Scion Materials",
   "type": "character-and-weapon-enhancement-materials",

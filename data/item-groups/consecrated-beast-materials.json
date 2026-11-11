@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 39,
+  "id": 51,
   "slug": "consecrated-beast-materials",
   "name": "Consecrated Beast Materials",
   "type": "character-and-weapon-enhancement-materials",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 125,
+  "id": 161,
   "slug": "chaos-storage",
   "name": "Chaos Storage",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 2,
   "description": "Comes from a now-inactive ancient Ruin Drake.\nRuin Drakes can absorb Elemental Energy from the outside and store it in this component inside their \"neck.\"",
   "releaseVersion": "3.0",
+  "days": [],
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 142,
+  "id": 190,
   "slug": "dakas-bell",
   "name": "Daka's Bell",
   "type": "character-level-up-materials",
@@ -9,5 +9,6 @@
   "rarity": 5,
   "description": "This ball joint, used to connect mechanical limbs together, is shaped almost like a bell. Though it may seem dainty, it can be used to carry an unimaginably large amount of energy.\nIf connected to one's arms, then one will lose all feeling in them.\nAnd all strength in one's legs will dissipate if such joints are connected to them.\nConnect this joint to one's skull...\nAh, hatred, pain, madness, pride — none of these will be washed away.\nMost fortunate.",
   "releaseVersion": "3.2",
+  "days": [],
   "images": {}
 }

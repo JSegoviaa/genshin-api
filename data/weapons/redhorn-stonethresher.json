@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Altar of Sands",
+  "materials": {
+    "ascension": [
+      "narukamis-wisdom",
+      "narukamis-joy",
+      "narukamis-affection",
+      "narukamis-valor"
+    ],
+    "elite": [
+      "concealed-claw",
+      "concealed-unguis",
+      "concealed-talon"
+    ],
+    "common": [
+      "old-handguard",
+      "kageuchi-handguard",
+      "famed-handguard"
+    ]
+  },
   "releaseVersion": "2.3",
   "images": {
     "icon": "weapons/redhorn-stonethresher/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "sword",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Chain Track",
+  "materials": {
+    "ascension": [
+      "measured-pour-of-the-cellared-spiritual-nectar",
+      "intoxication-of-the-cellared-spiritual-nectar",
+      "exhilaration-of-the-cellared-spiritual-nectar",
+      "revelry-of-the-cellared-spiritual-nectar"
+    ],
+    "elite": [
+      "hollow-root-of-life",
+      "sprout-node-of-life",
+      "coiled-core-of-life"
+    ],
+    "common": [
+      "chimeric-core",
+      "symbiotic-chimeric-nucleus",
+      "prime-chimeric-nexus"
+    ]
+  },
   "releaseVersion": "7.0",
   "images": {
     "icon": "weapons/whitelake-frostfeather/icon.webp",

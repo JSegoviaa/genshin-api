@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "CRIT DMG",
   "series": [],
-  "ascensionMaterial": "Lunar Oblation",
+  "materials": {
+    "ascension": [
+      "sundered-glory-of-the-far-north-scions",
+      "unyielding-delusion-of-the-far-north-scions",
+      "oblation-of-the-far-north-scions",
+      "aureate-radiance-of-the-far-north-scions"
+    ],
+    "elite": [
+      "fractured-lunar-iron",
+      "depleted-lunar-iron",
+      "unblemished-lunar-iron"
+    ],
+    "common": [
+      "tattered-warrant",
+      "immaculate-warrant",
+      "frost-etched-warrant"
+    ]
+  },
   "releaseVersion": "Luna VIII",
   "images": {
     "icon": "weapons/a-teaspoon-of-transcendence/icon.webp",

@@ -7,7 +7,24 @@
   "weaponType": "claymore",
   "secondaryStat": "CRIT Rate",
   "series": [],
-  "ascensionMaterial": "Submerged Valley",
+  "materials": {
+    "ascension": [
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia"
+    ],
+    "elite": [
+      "fractured-eye-of-the-deep-shadow",
+      "aberrant-core-of-the-deep-shadow",
+      "hooked-beak-of-the-deep-shadow"
+    ],
+    "common": [
+      "recruits-insignia",
+      "sergeants-insignia",
+      "lieutenants-insignia"
+    ]
+  },
   "releaseVersion": "Luna V",
   "images": {
     "icon": "weapons/gest-of-the-mighty-wolf/icon.webp",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 98,
+  "id": 134,
   "slug": "spectral-nucleus",
   "name": "Spectral Nucleus",
   "type": "character-and-weapon-enhancement-materials",
@@ -9,5 +9,6 @@
   "rarity": 3,
   "description": "A complete energy core that can sometimes be found after defeating Specters.\nThere is a debate among those who just have to divide the world into winners and losers: what floats better — a Specter or an Anemo Slime?",
   "releaseVersion": "2.1",
+  "days": [],
   "images": {}
 }
