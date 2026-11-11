@@ -57,7 +57,7 @@ const { path } = Astro.props;
       code.textContent = "";
       const started = performance.now();
       try {
-        const res = await fetch(`${form.dataset.api}${path}`);
+        const res = await fetch(`${form.dataset.api}${path}`, { cache: "no-store" });
         const body = await res.json();
         status.textContent = `${res.status} ${res.ok ? "OK" : res.statusText || "Error"}`;
         status.classList.add(res.ok ? "ok" : "err");

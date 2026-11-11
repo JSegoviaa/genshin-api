@@ -9,6 +9,7 @@
     "schemas": "tsx scripts/gen-schemas.ts",
     "images:check": "tsx scripts/images.ts check",
     "images:sync": "tsx scripts/images.ts sync",
+    "images:sync:local": "tsx scripts/images.ts sync --local",
     "typecheck": "tsc --noEmit",
     "deploy": "npm run build:data && npm run typecheck && wrangler deploy"
   },

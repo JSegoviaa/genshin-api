@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "npm --prefix .. run build:data && astro dev",
     "build": "npm --prefix .. run build:data && astro build",
+    "build:local": "npm --prefix .. run build:data && astro build --mode development",
     "preview": "astro preview",
+    "preview:local": "npm run build:local && astro preview",
     "check": "astro check",
     "deploy": "npm run build && wrangler deploy"
   },

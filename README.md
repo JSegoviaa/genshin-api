@@ -78,7 +78,8 @@ npm run typecheck
 2. Copy the images to `assets/` using the paths set in `images` (e.g. `assets/characters/hu-tao/icon.webp`).
 3. `npm run build:data` validates everything: schema, unique ids/slugs and references (`"element": "pyro"` must exist).
 4. `npm run images:check` verifies no images are missing.
-5. `npm run images:sync` uploads new images to R2 and `npm run deploy` publishes the API.
+5. `npm run images:sync:local` to preview them locally (see [Local images](#local-images)), then
+   `npm run images:sync` uploads new images to R2 and `npm run deploy` publishes the API.
 
 References to exposed resources are stored by slug (`"element": "pyro"`, `"ascensionStat": "crit-dmg"`,
 `"materials": { "localSpecialty": "silk-flower" }`), except `rarity`, which is stored as the number of stars
@@ -97,6 +98,24 @@ and Forgery and Mastery domains take their item rewards from the item groups lin
 3. Add `"enemies"` to `src/core/resource-names.ts` and register the module in `src/modules/index.ts`.
 4. Add files in `data/enemies/`. The 3 endpoints are generated automatically.
 5. `npm run schemas` to regenerate the JSON Schema.
+
+## Local images
+
+`docker-compose.yml` runs [RustFS](https://rustfs.com), an S3-compatible server, so images can be tested
+locally without touching R2:
+
+```bash
+docker compose up -d              # S3 API on http://localhost:9100, console on http://localhost:9101
+npm run images:sync:local         # creates the bucket, makes it public-read and uploads assets/
+cp .dev.vars.example .dev.vars    # IMAGES_BASE_URL=http://localhost:9100/genshin-images
+npm run dev                       # the API now returns local image URLs
+```
+
+`images:sync:local` uploads only new or changed files, like `images:sync`. Ports, credentials and bucket
+name can be changed with the `LOCAL_S3_*` variables in `.env` (see `.env.example`); the console login is
+`LOCAL_S3_ACCESS_KEY_ID` / `LOCAL_S3_SECRET_ACCESS_KEY` (`genshin` / `genshin-local-secret` by default).
+`docker compose down -v` removes the container and its data. Production is unaffected: `images:sync` always
+uses the R2 credentials, and the deployed Worker uses `IMAGES_BASE_URL` from `wrangler.toml`.
 
 ## Deployment (one time)
 
@@ -123,7 +142,9 @@ time from `src/modules` and the real data, so they never drift from the API. Eac
 cd docs
 npm install
 npm run dev            # http://localhost:4321
-npm run build          # rebuilds data and generates docs/dist
+npm run build          # rebuilds data and generates docs/dist (production URLs)
+npm run build:local    # same build with the development URLs (local API and images)
+npm run preview:local  # build:local + serve docs/dist
 npm run deploy         # build + wrangler deploy (Worker "genshin-api-docs")
 ```
 
@@ -131,10 +152,13 @@ npm run deploy         # build + wrangler deploy (Worker "genshin-api-docs")
 
 The API URL used in examples and "Try it" boxes is `PUBLIC_API_URL`, picked by mode:
 
-| Command | Mode | File | API URL |
-|---|---|---|---|
-| `npm run dev` | development | `docs/.env.development` | `http://localhost:8787` |
-| `npm run build` / `deploy` | production | `docs/.env.production` | public API URL |
+| Command | Mode | File | API URL | Image URL (`IMAGES_BASE_URL`) |
+|---|---|---|---|---|
+| `npm run dev` | development | `docs/.env.development` | `http://localhost:8787` | `http://localhost:9100/genshin-images` |
+| `npm run build` / `deploy` | production | `docs/.env.production` | public API URL | from `wrangler.toml` unless set |
+
+The API follows the same rule: `wrangler dev` reads `IMAGES_BASE_URL` from `.dev.vars` and the deployed
+Worker from `wrangler.toml`. Restart the dev servers after changing these files.
 
 In development a "Local" badge in the header shows which API the docs are using. To test locally,
 run `npm run dev` in the project root (API) and in `docs/` (docs) at the same time.

@@ -31,10 +31,19 @@ export const API_URL = PUBLIC_API_URL.replace(/\/+$/, "");
 
 export const API_BASE = `${API_URL}${API_PREFIX}`;
 
-const IMAGES_BASE_URL =
-  readFileSync(join(process.cwd(), "..", "wrangler.toml"), "utf8").match(
+const IMAGES_BASE_URL = (
+  import.meta.env.IMAGES_BASE_URL ||
+  (readFileSync(join(process.cwd(), "..", "wrangler.toml"), "utf8").match(
     /IMAGES_BASE_URL\s*=\s*"([^"]+)"/,
-  )?.[1] ?? "";
+  )?.[1] ??
+    "")
+).replace(/\/+$/, "");
+
+if (!DEV && IMAGES_BASE_URL.includes("REPLACE_ME")) {
+  console.warn(
+    `⚠ IMAGES_BASE_URL is still a placeholder (${IMAGES_BASE_URL}). Update it in wrangler.toml or docs/.env.production before deploying.`,
+  );
+}
 
 export { API_PREFIX, RESOURCE_NAMES, type ResourceName };
 

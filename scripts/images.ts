@@ -2,7 +2,10 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { extname, join, relative, sep } from "node:path";
 import {
+  CreateBucketCommand,
+  HeadBucketCommand,
   ListObjectsV2Command,
+  PutBucketPolicyCommand,
   PutObjectCommand,
   S3Client,
 } from "@aws-sdk/client-s3";
@@ -65,9 +68,13 @@ const CONTENT_TYPES: Record<string, string> = {
   ".svg": "image/svg+xml",
 };
 
-async function sync() {
-  const dryRun = flags.includes("--dry-run");
-  if (existsSync(join(root, ".env"))) process.loadEnvFile(join(root, ".env"));
+interface Target {
+  name: string;
+  s3: S3Client;
+  bucket: string;
+}
+
+function r2Target(): Target {
   const { R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET } =
     process.env;
   if (
@@ -81,21 +88,79 @@ async function sync() {
     );
     process.exit(1);
   }
+  return {
+    name: "R2",
+    bucket: R2_BUCKET,
+    s3: new S3Client({
+      region: "auto",
+      endpoint: `https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
+      credentials: {
+        accessKeyId: R2_ACCESS_KEY_ID,
+        secretAccessKey: R2_SECRET_ACCESS_KEY,
+      },
+    }),
+  };
+}
 
+async function localTarget(): Promise<Target> {
+  const env = process.env;
+  const endpoint =
+    env.LOCAL_S3_ENDPOINT ?? `http://localhost:${env.LOCAL_S3_PORT ?? "9100"}`;
+  const bucket = env.LOCAL_S3_BUCKET ?? "genshin-images";
   const s3 = new S3Client({
-    region: "auto",
-    endpoint: `https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
+    region: "us-east-1",
+    endpoint,
+    forcePathStyle: true,
     credentials: {
-      accessKeyId: R2_ACCESS_KEY_ID,
-      secretAccessKey: R2_SECRET_ACCESS_KEY,
+      accessKeyId: env.LOCAL_S3_ACCESS_KEY_ID ?? "genshin",
+      secretAccessKey: env.LOCAL_S3_SECRET_ACCESS_KEY ?? "genshin-local-secret",
     },
   });
+  try {
+    await s3.send(new HeadBucketCommand({ Bucket: bucket }));
+  } catch (error) {
+    const status = (error as { $metadata?: { httpStatusCode?: number } })
+      .$metadata?.httpStatusCode;
+    if (status !== 404) {
+      console.error(
+        `Cannot reach the local S3 server at ${endpoint} (${(error as Error).name}). Start it with "docker compose up -d".`,
+      );
+      process.exit(1);
+    }
+    await s3.send(new CreateBucketCommand({ Bucket: bucket }));
+    console.log(`Created bucket ${bucket}`);
+  }
+  await s3.send(
+    new PutBucketPolicyCommand({
+      Bucket: bucket,
+      Policy: JSON.stringify({
+        Version: "2012-10-17",
+        Statement: [
+          {
+            Effect: "Allow",
+            Principal: { AWS: ["*"] },
+            Action: ["s3:GetObject"],
+            Resource: [`arn:aws:s3:::${bucket}/*`],
+          },
+        ],
+      }),
+    }),
+  );
+  return { name: `local S3 (${endpoint}/${bucket})`, s3, bucket };
+}
+
+async function sync() {
+  const dryRun = flags.includes("--dry-run");
+  if (existsSync(join(root, ".env"))) process.loadEnvFile(join(root, ".env"));
+  const { name, s3, bucket } = flags.includes("--local")
+    ? await localTarget()
+    : r2Target();
 
   const remote = new Map<string, string>();
   let token: string | undefined;
   do {
     const page = await s3.send(
-      new ListObjectsV2Command({ Bucket: R2_BUCKET, ContinuationToken: token }),
+      new ListObjectsV2Command({ Bucket: bucket, ContinuationToken: token }),
     );
     for (const o of page.Contents ?? [])
       remote.set(o.Key!, (o.ETag ?? "").replaceAll('"', ""));
@@ -108,7 +173,7 @@ async function sync() {
   });
 
   console.log(
-    `In R2: ${remote.size} · to upload: ${pending.length}${dryRun ? " (dry-run)" : ""}`,
+    `In ${name}: ${remote.size} · to upload: ${pending.length}${dryRun ? " (dry-run)" : ""}`,
   );
   if (dryRun) {
     for (const f of pending) console.log(`  - ${toKey(f)}`);
@@ -121,7 +186,7 @@ async function sync() {
     for (let file = queue.shift(); file; file = queue.shift()) {
       await s3.send(
         new PutObjectCommand({
-          Bucket: R2_BUCKET,
+          Bucket: bucket,
           Key: toKey(file),
           Body: readFileSync(file),
           ContentType:
@@ -143,6 +208,6 @@ if (command === "check") {
 } else if (command === "sync") {
   await sync();
 } else {
-  console.error("Usage: tsx scripts/images.ts <check|sync> [--dry-run]");
+  console.error("Usage: tsx scripts/images.ts <check|sync> [--dry-run] [--local]");
   process.exit(1);
 }
