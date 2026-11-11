@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 74,
       "slug": "lagenaria",
       "name": "Lagenaria",
       "meaning": "Calabash",
+      "releaseVersion": "3.6",
       "images": {
         "image": "characters/baizhu/constellations/lagenaria/image.webp"
       },

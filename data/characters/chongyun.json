@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 20,
       "slug": "nubis-caesor",
       "name": "Nubis Caesor",
       "meaning": "Cloud Cutter",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/chongyun/constellations/nubis-caesor/image.webp"
       },

@@ -28,7 +28,54 @@
       "prime-chimeric-nexus"
     ]
   },
-  "constellations": [],
+  "constellations": [
+    {
+      "id": 134,
+      "slug": "piscicula-aurea",
+      "name": "Piscicula Aurea",
+      "meaning": "Little Golden Fish",
+      "releaseVersion": "7.1",
+      "images": {},
+      "levels": [
+        {
+          "level": 1,
+          "name": "Waters in Full Splendor",
+          "description": "Each time Vodyanitsa triggers the healing effect of Song of Ages Past, it also increases the ATK of all nearby party members by 0.8% of her Max HP for 5s.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Echoes That Pierce the Snow",
+          "description": "When the Horn of Spring's Call from the Elemental Skill Rechitativ: Sonorous Dawn attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from Hydro DMG and Cryo DMG dealt by the currently active party member by 50% for 5s. If there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s. Additionally, the Elemental Skill Rechitativ: Sonorous Dawn is enhanced as follows: the duration of the Song of Ages Past effect is extended by 9s.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Song Lingering on a Spring Morning",
+          "description": "Increases the Level of the Elemental Skill Rechitativ: Sonorous Dawn by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Melancholic Voice Upon the Gentle Waters",
+          "description": "When Vodyanitsa triggers the healing effect of Song of Ages Past, an additional effect will be triggered based on the healed character's HP. If the character's HP is below 40%: The healing is increased by 50%; and If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Together, Down Into the Deep",
+          "description": "Increases the Level of the Elemental Burst Koda: Sink With Thee by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Neverending Song of Revelry",
+          "description": "The Constellation Echoes That Pierce the Snow is enhanced: \"Two Voices in Black and White\" now applies to all nearby party members. Additionally, while the Song of Ages Past effect is active, Stellar Swirl reaction DMG dealt by nearby party members is elevated by 25% while Hydro DMG and Cryo DMG dealt are increased by 60%.",
+          "images": {}
+        }
+      ]
+    }
+  ],
   "images": {
     "icon": "characters/vodyanitsa/icon.webp",
     "card": "characters/vodyanitsa/card.webp",

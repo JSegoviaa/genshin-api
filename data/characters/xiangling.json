@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 10,
       "slug": "trulla",
       "name": "Trulla",
       "meaning": "Ladle",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/xiangling/constellations/trulla/image.webp"
       },

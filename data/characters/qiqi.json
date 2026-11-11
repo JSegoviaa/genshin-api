@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 12,
       "slug": "pristina-nola",
       "name": "Pristina Nola",
       "meaning": "Ancient Bell",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/qiqi/constellations/pristina-nola/image.webp"
       },

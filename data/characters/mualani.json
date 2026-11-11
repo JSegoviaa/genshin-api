@@ -30,13 +30,52 @@
   },
   "constellations": [
     {
+      "id": 96,
       "slug": "phoca-neomonachus",
       "name": "Phoca Neomonachus",
       "meaning": "Hawaiian Monk Seal",
+      "releaseVersion": "5.0",
       "images": {
         "image": "characters/mualani/constellations/phoca-neomonachus/image.webp"
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "name": "The Leisurely \"Meztli\"...",
+          "description": "The DMG dealt by the first Sharky's Surging Bite after Mualani enters Nightsoul's Blessing and the Shark Missiles it triggers is increased by 66% of Mualani's Max HP. This instance of increased DMG is subject to the diminishing DMG rules of Surfshark Wavebreaker. In addition, while out of combat, Mualani's Nightsoul's Blessing state consumes 30% less Phlogiston and Nightsoul points.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Mualani, Going All Out!",
+          "description": "Mualani gains 2 of Surfshark Wavebreaker's Wave Momentum stacks when she enters Nightsoul's Blessing. She will gain 1 stack when obtaining a Puffer. In addition, whenever Mualani obtains 2 Puffers within a single instance of the Nightsoul's Blessing state, she will recover an additional 12 Nightsoul points over 2s. You must first unlock the Ascension Talent \"Heat-Resistant Freshwater Floater.\"",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Surfing Atop Joyous Seas",
+          "description": "Increases the Level of Surfshark Wavebreaker by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Sharky Eats Puffies",
+          "description": "Mualani regenerates 8 Energy when obtaining a Puffer. You must first unlock the Ascension Talent \"Heat-Resistant Freshwater Puffer.\" Additionally, Boomsharka-laka deals 75% increased DMG.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Same Style of Surfboard on Sale!",
+          "description": "Increases the Level of Boomsharka-laka by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Spirit of the Springs' People",
+          "description": "The DMG increase from the Constellation \"The Leisurely 'Meztli'...\" is no longer limited to being triggered once every Nightsoul's Blessing.",
+          "images": {}
+        }
+      ]
     }
   ],
   "images": {

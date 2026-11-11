@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 68,
       "slug": "flosculi-implexi",
       "name": "Flosculi Implexi",
       "meaning": "Entwined Flowers",
+      "releaseVersion": "3.3",
       "images": {
         "image": "characters/faruzan/constellations/flosculi-implexi/image.webp"
       },

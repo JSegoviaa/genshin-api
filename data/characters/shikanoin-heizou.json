@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 56,
       "slug": "cervus-minor",
       "name": "Cervus Minor",
       "meaning": "Cervus Minor",
+      "releaseVersion": "2.8",
       "images": {
         "image": "characters/shikanoin-heizou/constellations/cervus-minor/image.webp"
       },

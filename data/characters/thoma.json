@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 47,
       "slug": "rubeum-scutum",
       "name": "Rubeum Scutum",
       "meaning": "Red Shield",
+      "releaseVersion": "2.2",
       "images": {
         "image": "characters/thoma/constellations/rubeum-scutum/image.webp"
       },

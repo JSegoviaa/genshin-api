@@ -90,9 +90,11 @@
   },
   "constellations": [
     {
+      "id": 3,
       "slug": "viatrix-anemo",
       "name": "Viatrix (Anemo)",
       "meaning": "(Female) Traveler",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/lumine/constellations/viatrix-anemo/image.webp"
       },
@@ -148,9 +150,11 @@
       ]
     },
     {
+      "id": 4,
       "slug": "viatrix-geo",
       "name": "Viatrix (Geo)",
       "meaning": "(Female) Traveler",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/lumine/constellations/viatrix-geo/image.webp"
       },
@@ -206,9 +210,11 @@
       ]
     },
     {
+      "id": 39,
       "slug": "viatrix-electro",
       "name": "Viatrix (Electro)",
       "meaning": "(Female) Traveler",
+      "releaseVersion": "2.0",
       "images": {
         "image": "characters/lumine/constellations/viatrix-electro/image.webp"
       },
@@ -264,9 +270,11 @@
       ]
     },
     {
+      "id": 58,
       "slug": "viatrix-dendro",
       "name": "Viatrix (Dendro)",
       "meaning": "(Female) Traveler",
+      "releaseVersion": "3.0",
       "images": {
         "image": "characters/lumine/constellations/viatrix-dendro/image.webp"
       },
@@ -298,7 +306,7 @@
         {
           "level": 4,
           "name": "Treacle Grass",
-          "description": "After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent \"Verdant Overgrowth.\" You must have unlocked this Passive Talent first.",
+          "description": "After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Ascension Talent \"Verdant Overgrowth.\" You must first unlock the Ascension Talent \"Verdant Overgrowth.\"",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-dendro/c4.svg"
           }
@@ -322,66 +330,107 @@
       ]
     },
     {
+      "id": 77,
       "slug": "viatrix-hydro",
       "name": "Viatrix (Hydro)",
       "meaning": "(Female) Traveler",
+      "releaseVersion": "4.0",
       "images": {
         "image": "characters/lumine/constellations/viatrix-hydro/image.webp"
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "name": "Swelling Lake",
+          "description": "Picking up a Sourcewater Droplet will restore 2 Energy to the Traveler. You must first unlock the Ascension Talent \"Spotless Waters.\"",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Trickling Purity",
+          "description": "The Movement SPD of Rising Waters' bubble will be decreased by 30%, and its duration increased by 3s.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Turbulent Ripples",
+          "description": "Increases the Level of Aquacrest Saber by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Pouring Descent",
+          "description": "When using Aquacrest Saber, an Aquacrest Aegis that can absorb 10% of the Traveler's Max HP in DMG will be created and will absorb Hydro DMG with 250% effectiveness. It will persist until the Traveler finishes using the skill. Once every 2s, after a Dewdrop hits an opponent, if the Traveler is being protected by Aquacrest Aegis, the DMG Absorption of the Aegis will be restored to 10% of the Traveler's Max HP. If the Traveler is not presently being protected by an Aegis, one will be redeployed.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Churning Whirlpool",
+          "description": "Increases the Level of Rising Waters by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Tides of Justice",
+          "description": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to the nearest party member with the lowest HP percentage remaining based on 6% of their Max HP.",
+          "images": {}
+        }
+      ]
     },
     {
+      "id": 102,
       "slug": "viatrix-pyro",
       "name": "Viatrix (Pyro)",
       "meaning": "(Female) Traveler",
+      "releaseVersion": "5.3",
       "images": {
         "image": "characters/lumine/constellations/viatrix-pyro/image.webp"
       },
       "levels": [
         {
           "level": 1,
-          "name": "Pyro Constellation",
-          "description": "Pyro Constellation",
+          "name": "Starfire's Flowing Light",
+          "description": "Base Effect: When opposing the Lord of Eroded Primal Fire incarnated by Gosoythoth, while the Blazing Threshold or Scorching Threshold is active, the Traveler's ATK increases by 40%, they take 40% less DMG, and their interruption resistance is increased. Unlocked With Blazing Flint Ore: While Blazing Threshold or Scorching Threshold are active, the current active character deals 6% increased DMG. If said character is in the Nightsoul's Blessing state, they will deal an additional 9% DMG.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-pyro/c1.webp"
           }
         },
         {
           "level": 2,
-          "name": "Pyro Constellation",
-          "description": "Pyro Constellation",
+          "name": "Ever-Lit Candle",
+          "description": "Base Effect: When opposing the Lord of Eroded Primal Fire incarnated by Gosoythoth, while in the Nightsoul's Blessing state, after the Traveler hits an opponent with Pyro attacks, that opponent's Pyro RES is decreased by 20% for 6s. Max 2 stacks. Each stack's duration is counted independently. Unlocked With Blazing Flint Ore: Within 12s of using the Elemental Skill Flowfire Blade, after nearby party members trigger a Pyro-related reaction on an opponent, the Traveler will regain 14 Nightsoul points. Each use of Flowfire Blade will restore at most 28 Nightsoul points in this way.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-pyro/c2.webp"
           }
         },
         {
           "level": 3,
-          "name": "Pyro Constellation",
-          "description": "Pyro Constellation",
+          "name": "Relayed Beacon",
+          "description": "Base Effect: When opposing the Lord of Eroded Primal Fire incarnated by Gosoythoth, the Traveler gains 40% Pyro DMG Bonus. Unlocked With Blazing Flint Ore: Increases the Level of Flowfire Blade by 3. Maximum upgrade level is 15.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-pyro/c3.webp"
           }
         },
         {
           "level": 4,
-          "name": "Pyro Constellation",
-          "description": "Pyro Constellation",
+          "name": "Ravaging Flame",
+          "description": "Base Effect: When opposing the Lord of Eroded Primal Fire incarnated by Gosoythoth, after using the Elemental Burst Plains Scorcher, all nearby party members will restore 40% of their Max HP. Within the next 10s, the Traveler will regain 4 Energy per second. Unlocked With Blazing Flint Ore: After using the Elemental Burst Plains Scorcher, the Traveler gains 20% Pyro DMG Bonus for 9s.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-pyro/c4.webp"
           }
         },
         {
           "level": 5,
-          "name": "Pyro Constellation",
-          "description": "Pyro Constellation",
+          "name": "The Fire Inextinguishable",
+          "description": "Base Effect: When opposing the Lord of Eroded Primal Fire incarnated by Gosoythoth, the Traveler's CRIT Rate increases by 20%, and their CRIT DMG increases by 40%. Unlocked With Blazing Flint Ore: Increases the Level of Plains Scorcher by 3. Maximum upgrade level is 15.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-pyro/c5.webp"
           }
         },
         {
           "level": 6,
-          "name": "Pyro Constellation",
-          "description": "Pyro Constellation",
+          "name": "The Sacred Flame Imperishable",
+          "description": "Base Effect: When opposing the Lord of Eroded Primal Fire incarnated by Gosoythoth, while in the Nightsoul's Blessing state, the Traveler's Movement SPD increases by 20%, their Stamina consumption decreases by 30%, and when they use Normal or Charged Attacks, they will send flaming waves flowing forward, dealing 96% of their ATK to opponents in the wave's path as Nightsoul-aligned Pyro DMG. Unlocked With Blazing Flint Ore: While in the Nightsoul's Blessing state, the Traveler's Normal, Charged, and Plunging Attacks will be converted to Nightsoul-aligned Pyro DMG that cannot be overridden, and the CRIT DMG of these attacks is increased by 40%.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-pyro/c6.webp"
           }
@@ -389,57 +438,59 @@
       ]
     },
     {
+      "id": 130,
       "slug": "viatrix-cryo",
       "name": "Viatrix (Cryo)",
       "meaning": "(Female) Traveler",
+      "releaseVersion": "7.0",
       "images": {
         "image": "characters/lumine/constellations/viatrix-cryo/image.webp"
       },
       "levels": [
         {
           "level": 1,
-          "name": "Cryo Constellation",
-          "description": "Cryo Constellation",
+          "name": "Somber Freeze",
+          "description": "The Traveler regenerates 5 Elemental Energy when they deal Stellar Glimmer DMG. This effect can trigger once every 0.5s.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-cryo/c1.webp"
           }
         },
         {
           "level": 2,
-          "name": "Cryo Constellation",
-          "description": "Cryo Constellation",
+          "name": "Frostfall Reverberation",
+          "description": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an ice crystal fired by the Elemental Skill Ice Fog Piercer. Additionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-cryo/c2.webp"
           }
         },
         {
           "level": 3,
-          "name": "Cryo Constellation",
-          "description": "Cryo Constellation",
+          "name": "Glacial Shard",
+          "description": "Increases the Level of the Elemental Burst Frostbound Javelin by 3. Maximum upgrade level is 15.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-cryo/c3.webp"
           }
         },
         {
           "level": 4,
-          "name": "Cryo Constellation",
-          "description": "Cryo Constellation",
+          "name": "Enduring Ice",
+          "description": "The duration of the Frostpierce Star created by the Elemental Skill Ice Fog Piercer is increased by 25%.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-cryo/c4.webp"
           }
         },
         {
           "level": 5,
-          "name": "Cryo Constellation",
-          "description": "Cryo Constellation",
+          "name": "Bittercold Fog",
+          "description": "Increases the Level of the Elemental Skill Ice Fog Piercer by 3. Maximum upgrade level is 15.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-cryo/c5.webp"
           }
         },
         {
           "level": 6,
-          "name": "Cryo Constellation",
-          "description": "Cryo Constellation",
+          "name": "Brumal Grimfrost",
+          "description": "Every stack of Frostglow consumed when using the Elemental Burst Frostbound Javelin increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way.",
           "images": {
             "icon": "characters/lumine/constellations/viatrix-cryo/c6.webp"
           }

@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 75,
       "slug": "arcella",
       "name": "Arcella",
       "meaning": "Little Boxs",
+      "releaseVersion": "3.7",
       "images": {
         "image": "characters/kirara/constellations/arcella/image.webp"
       },

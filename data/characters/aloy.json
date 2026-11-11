@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 45,
       "slug": "nora-fortis",
       "name": "Nora Fortis",
       "meaning": "Nora Brave",
+      "releaseVersion": "2.1",
       "images": {
         "image": "characters/aloy/constellations/nora-fortis/image.webp"
       },

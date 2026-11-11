@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 51,
       "slug": "opera-grandis",
       "name": "Opera Grandis",
       "meaning": "Grand Opera",
+      "releaseVersion": "2.4",
       "images": {
         "image": "characters/yun-jin/constellations/opera-grandis/image.webp"
       },

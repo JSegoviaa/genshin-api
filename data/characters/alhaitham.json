@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 70,
       "slug": "vultur-volans",
       "name": "Vultur Volans",
       "meaning": "Flying Vulture",
+      "releaseVersion": "3.4",
       "images": {
         "image": "characters/alhaitham/constellations/vultur-volans/image.webp"
       },

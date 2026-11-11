@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 34,
       "slug": "spinea-corona",
       "name": "Spinea Corona",
       "meaning": "Thorny Crown",
+      "releaseVersion": "1.4",
       "images": {
         "image": "characters/rosaria/constellations/spinea-corona/image.webp"
       },

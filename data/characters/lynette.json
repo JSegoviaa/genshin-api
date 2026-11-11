@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 79,
       "slug": "felis-alba",
       "name": "Felis Alba",
       "meaning": "White Cat",
+      "releaseVersion": "4.0",
       "images": {
         "image": "characters/lynette/constellations/felis-alba/image.webp"
       },

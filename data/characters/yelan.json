@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 54,
       "slug": "umbrabilis-orchis",
       "name": "Umbrabilis Orchis",
       "meaning": "Shadowy Orchid",
+      "releaseVersion": "2.7",
       "images": {
         "image": "characters/yelan/constellations/umbrabilis-orchis/image.webp"
       },

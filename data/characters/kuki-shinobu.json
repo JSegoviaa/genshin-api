@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 55,
       "slug": "tribulatio-demptio",
       "name": "Tribulatio Demptio",
       "meaning": "Trouble Removal",
+      "releaseVersion": "2.7",
       "images": {
         "image": "characters/kuki-shinobu/constellations/tribulatio-demptio/image.webp"
       },

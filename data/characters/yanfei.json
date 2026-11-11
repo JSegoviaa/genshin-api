@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 35,
       "slug": "bestia-iustitia",
       "name": "Bestia Iustitia",
       "meaning": "Beast of Justice",
+      "releaseVersion": "1.5",
       "images": {
         "image": "characters/yanfei/constellations/bestia-iustitia/image.webp"
       },

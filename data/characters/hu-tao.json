@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 33,
       "slug": "papilio-charontis",
       "name": "Papilio Charontis",
       "meaning": "Butterfly of Charon",
+      "releaseVersion": "1.3",
       "images": {
         "image": "characters/hu-tao/constellations/papilio-charontis/image.webp"
       },

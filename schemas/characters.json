@@ -159,6 +159,11 @@
       "items": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
           "slug": {
             "type": "string",
             "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
@@ -169,6 +174,10 @@
           },
           "meaning": {
             "type": "string"
+          },
+          "releaseVersion": {
+            "type": "string",
+            "minLength": 1
           },
           "images": {
             "type": "object",
@@ -219,9 +228,11 @@
           }
         },
         "required": [
+          "id",
           "slug",
           "name",
           "meaning",
+          "releaseVersion",
           "images",
           "levels"
         ],

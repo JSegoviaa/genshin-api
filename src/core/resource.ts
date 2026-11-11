@@ -1,5 +1,6 @@
 import type { z } from "zod";
 import type { ResourceName } from "./resource-names";
+import type { Dataset } from "./store";
 
 export interface BaseItem {
   id: number;
@@ -59,6 +60,7 @@ export interface ResourceDef<T extends BaseItem = BaseItem> {
   >;
   filters: Record<string, FilterDef<T>>;
   sorts: Record<string, (item: T) => string | number>;
+  derive?: (data: Dataset) => T[];
   summary(item: T, ctx: Ctx): Record<string, unknown>;
   detail(item: T, ctx: Ctx): Record<string, unknown>;
 }

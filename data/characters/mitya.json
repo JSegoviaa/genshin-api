@@ -28,7 +28,54 @@
       "prime-chimeric-nexus"
     ]
   },
-  "constellations": [],
+  "constellations": [
+    {
+      "id": 136,
+      "slug": "nodus-gordianus",
+      "name": "Nodus Gordianus",
+      "meaning": "Gordian Knot",
+      "releaseVersion": "7.2",
+      "images": {},
+      "levels": [
+        {
+          "level": 1,
+          "name": "The Observer Seeking What Is Missing",
+          "description": "The maximum number of Gradient Beacons Mitya can carry is increased to 5. Using the Elemental Skill Principle: Variable Detection additionally creates 1 Gradient Beacon. While the Detection Core is present, your own active character's CRIT DMG is increased by 40%. Additionally, Mitya regenerates 10 Elemental Energy when a Gradient Beacon is created. This effect can be triggered once every 8s.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "The Matter That Slumbers Beyond Inertness",
+          "description": "While the Detection Core is present, all opponents within the Polestar Field have their Cryo RES and Electro RES decreased by 20%. Additionally, if the Detection Core created is: Steady State: All nearby party members gain 123 Elemental Mastery; Overloaded: Your active character gains 234 Elemental Mastery.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "The Knotted String of Invariant Topology",
+          "description": "Increases the Level of the Elemental Skill Principle: Variable Detection by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "The Isotopes Born of Decay",
+          "description": "Detection Cores created by Mitya himself deals 1 instance of AoE Electro DMG equal to 300% of Mitya's Elemental Mastery to nearby opponents for every 5 Gradient Beacons consumed while it is on the field. This DMG is considered Stellar-Conduct reaction DMG.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "The Periodic Law That Orders All",
+          "description": "Increases the Level of Normal Attack: Chain Reaction by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Elemental Transition at the Gate of Reason",
+          "description": "Detection Core is enhanced. If the Detection Core: Is in the Steady State: Detection Core deals 115% of its original DMG. Is Overloaded: There is a 34% chance to create 1 new Gradient Beacon whenever Mitya consumes a Gradient Beacon with the Detection Core. Additionally, Stellar-Conduct reaction DMG dealt by all nearby party members is Elevated by 20%.",
+          "images": {}
+        }
+      ]
+    }
+  ],
   "images": {
     "icon": "characters/mitya/icon.webp",
     "card": "characters/mitya/card.webp",

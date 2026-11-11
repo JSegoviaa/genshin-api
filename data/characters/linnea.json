@@ -28,7 +28,54 @@
       "frost-etched-warrant"
     ]
   },
-  "constellations": [],
+  "constellations": [
+    {
+      "id": 124,
+      "slug": "alcyon",
+      "name": "Alcyon",
+      "meaning": "Kingfisher",
+      "releaseVersion": "Luna VI",
+      "images": {},
+      "levels": [
+        {
+          "level": 1,
+          "name": "Provisional Classification",
+          "description": "When unleashing Elemental Skill Countermeasure: Lumi's Battle Cry!, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the Field Catalog effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF. Additionally, when Lumi uses Million Ton Crush in her Ultimate Power Form, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Tidings of Joy and Sorrow",
+          "description": "Within 8s after triggering Moondrift Harmony, all Hydro and Geo party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses Million Ton Crush in her Ultimate Power Form, the CRIT DMG of that attack increases by an additional 150%. Moonsign: Ascendant Gleam: When Lumi uses Heavy Overdrive Hammer in her Super Power Form, or when she uses Million Ton Crush in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all Hydro and Geo characters in the party will be considered to have applied their Elements in the reaction.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Eventful Log Page",
+          "description": "Increases the Level of Countermeasure: Lumi's Battle Cry! by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Expert Instinct",
+          "description": "Within 5s after Moondrift Harmony is triggered, increase the DEF of Linnea and your current active character by 25% respectively. When Linnea is on field, the DEF-increasing effect can be stacked.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Fairyland's Farewell Gift",
+          "description": "Elemental Burst Memo: Survival Guide in Extreme Conditions increases by 3 Levels. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Golden Beagle's Dream",
+          "description": "The effects of the Constellation, Provisional Classification, are enhanced: When unleashing Elemental Skill Countermeasure: Lumi's Battle Cry!, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of Field Catalog stacks. When consuming Field Catalog, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value. Moonsign: Ascendant Gleam: Lunar-Crystallize Reaction DMG dealt by nearby party members is elevated by 25%.",
+          "images": {}
+        }
+      ]
+    }
+  ],
   "images": {
     "icon": "characters/linnea/icon.webp",
     "card": "characters/linnea/card.webp",

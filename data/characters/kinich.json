@@ -30,13 +30,52 @@
   },
   "constellations": [
     {
+      "id": 97,
       "slug": "chimaera-alebriius",
       "name": "Chimaera Alebriius",
       "meaning": "Chimera Alebrije",
+      "releaseVersion": "5.0",
       "images": {
         "image": "characters/kinich/constellations/chimaera-alebriius/image.webp"
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "name": "Parrot's Beak",
+          "description": "After Kinich lands from Canopy Hunter: Riding High's mid-air swing, his Movement SPD will increase by 30% for 6s. Additionally, Scalespiker Cannon's CRIT DMG is increased by 100%.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Tiger Beetle's Palm",
+          "description": "When Kinich's Elemental Skill hits an opponent, it will decrease their Dendro RES by 30% for 6s. Additionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Protosuchian's Claw",
+          "description": "Increases the Level of Canopy Hunter: Riding High by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Hummingbird's Feather",
+          "description": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s. Additionally, Hail to the Almighty Dragonlord deals 70% more DMG.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Howler Monkey's Tail",
+          "description": "Increases the Level of Hail to the Almighty Dragonlord by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Auspicious Beast's Shape",
+          "description": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as Dendro DMG. If this Scalespiker Cannon triggers the buffs that Ascension Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs.",
+          "images": {}
+        }
+      ]
     }
   ],
   "images": {

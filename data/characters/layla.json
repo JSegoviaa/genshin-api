@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 66,
       "slug": "luscinia",
       "name": "Luscinia",
       "meaning": "Nightingale",
+      "releaseVersion": "3.2",
       "images": {
         "image": "characters/layla/constellations/luscinia/image.webp"
       },

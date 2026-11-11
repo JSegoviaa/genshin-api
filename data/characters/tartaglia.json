@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 27,
       "slug": "monoceros-caeli",
       "name": "Monoceros Caeli",
       "meaning": "Celestial Narwhal",
+      "releaseVersion": "1.1",
       "images": {
         "image": "characters/tartaglia/constellations/monoceros-caeli/image.webp"
       },

@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 5,
       "slug": "parma-cordis",
       "name": "Parma Cordis",
       "meaning": "Heart's Shield",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/noelle/constellations/parma-cordis/image.webp"
       },

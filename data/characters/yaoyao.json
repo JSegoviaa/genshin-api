@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 69,
       "slug": "osmanthus",
       "name": "Osmanthus",
       "meaning": "Osmanthus",
+      "releaseVersion": "3.4",
       "images": {
         "image": "characters/yaoyao/constellations/osmanthus/image.webp"
       },

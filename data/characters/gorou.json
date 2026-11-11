@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 49,
       "slug": "canis-bellatoris",
       "name": "Canis Bellatoris",
       "meaning": "Warrior's Dog",
+      "releaseVersion": "2.3",
       "images": {
         "image": "characters/gorou/constellations/canis-bellatoris/image.webp"
       },

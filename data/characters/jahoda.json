@@ -28,7 +28,54 @@
       "precision-drive-shaft"
     ]
   },
-  "constellations": [],
+  "constellations": [
+    {
+      "id": 118,
+      "slug": "fragum",
+      "name": "Fragum",
+      "meaning": "Strawberry",
+      "releaseVersion": "Luna III",
+      "images": {},
+      "levels": [
+        {
+          "level": 1,
+          "name": "One More Flask!",
+          "description": "When a Fluffy Meowball fired by the Purr-loined Treasure Flask from the Elemental Skill Savvy Strategy: Splitting the Spoils hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Rogue's Quick Thinking",
+          "description": "Moonsign: Ascendant Gleam: In the Ascension Talent \"Plan to Get Paid,\" Jahoda can secretly track, in addition to the element with the highest number of characters, the element with the next highest number of characters among the remaining types. This allows up to two elemental effects to be active at once. You must first unlock the Ascension Talent \"Plan to Get Paid.\"",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Desperate Gamble",
+          "description": "Increases the Level of Hidden Aces: Seven Tools of the Hunter by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Wild Berry Amid the Dust",
+          "description": "When a Purrsonal Coordinated Assistance Robot from the Elemental Burst Hidden Aces: Seven Tools of the Hunter undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "The Greatest Treasure",
+          "description": "Increases the Level of Savvy Strategy: Splitting the Spoils by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "The Littlest Luck",
+          "description": "Moonsign: Ascendant Gleam: After the Purr-loined Treasure Flask from the Elemental Skill Savvy Strategy: Splitting the Spoils is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s.",
+          "images": {}
+        }
+      ]
+    }
+  ],
   "images": {
     "icon": "characters/jahoda/icon.webp",
     "card": "characters/jahoda/card.webp",

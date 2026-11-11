@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { characterConstellationSchema } from "../constellations/constellation.schema";
 import {
   base,
   date,
@@ -10,37 +11,6 @@ import {
   ref,
   slug,
 } from "../../core/schema";
-
-const constellationLevelSchema = z
-  .object({
-    level: z.number().int().min(1).max(6),
-    name,
-    description: z.string(),
-    images: iconOnly,
-  })
-  .strict();
-
-const constellationSchema = z
-  .object({
-    slug,
-    name,
-    meaning: z.string(),
-    images: z.object({ image: image.optional() }).strict(),
-    levels: z.array(constellationLevelSchema).superRefine((levels, ctx) => {
-      const seen = new Set<number>();
-      for (const [i, l] of levels.entries()) {
-        if (seen.has(l.level)) {
-          ctx.addIssue({
-            code: "custom",
-            path: [i, "level"],
-            message: `Duplicated level ${l.level}`,
-          });
-        }
-        seen.add(l.level);
-      }
-    }),
-  })
-  .strict();
 
 export const characterSchema = z
   .object({
@@ -64,7 +34,7 @@ export const characterSchema = z
         common: z.array(ref),
       })
       .strict(),
-    constellations: z.array(constellationSchema),
+    constellations: z.array(characterConstellationSchema),
     images: z
       .object({
         icon: image.optional(),

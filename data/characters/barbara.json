@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 9,
       "slug": "crater",
       "name": "Crater",
       "meaning": "Cup",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/barbara/constellations/crater/image.webp"
       },

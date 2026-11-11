@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 7,
       "slug": "pavo-ocellus",
       "name": "Pavo Ocellus",
       "meaning": "Peacock Eyespot",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/kaeya/constellations/pavo-ocellus/image.webp"
       },

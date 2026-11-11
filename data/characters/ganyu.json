@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 31,
       "slug": "sinae-unicornis",
       "name": "Sinae Unicornis",
       "meaning": "Qilin",
+      "releaseVersion": "1.2",
       "images": {
         "image": "characters/ganyu/constellations/sinae-unicornis/image.webp"
       },

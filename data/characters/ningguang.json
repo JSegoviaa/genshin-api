@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 21,
       "slug": "opus-aequilibrium",
       "name": "Opus Aequilibrium",
       "meaning": "Balancing Creation",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/ningguang/constellations/opus-aequilibrium/image.webp"
       },

@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 28,
       "slug": "fila-ignium",
       "name": "Fila Ignium",
       "meaning": "Strings of Fire",
+      "releaseVersion": "1.1",
       "images": {
         "image": "characters/xinyan/constellations/fila-ignium/image.webp"
       },

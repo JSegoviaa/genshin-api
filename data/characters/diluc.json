@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 15,
       "slug": "noctua",
       "name": "Noctua",
       "meaning": "Owl",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/diluc/constellations/noctua/image.webp"
       },

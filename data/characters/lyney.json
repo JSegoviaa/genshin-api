@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 78,
       "slug": "felis-fuscus",
       "name": "Felis Fuscus",
       "meaning": "Black Cat",
+      "releaseVersion": "4.0",
       "images": {
         "image": "characters/lyney/constellations/felis-fuscus/image.webp"
       },

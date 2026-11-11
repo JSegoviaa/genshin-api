@@ -30,13 +30,52 @@
   },
   "constellations": [
     {
+      "id": 111,
       "slug": "cantus-choralis",
       "name": "Cantus Choralis",
       "meaning": "Choral Song",
+      "releaseVersion": "5.7",
       "images": {
         "image": "characters/dahlia/constellations/cantus-choralis/image.webp"
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "name": "Infallible Procession",
+          "description": "Each time Dahlia gains 1 of his Elemental Burst Radiant Psalter's Benison stacks, he will regain 2.5 Elemental Energy.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Revelation of Mercy",
+          "description": "After Dahlia consumes his Elemental Burst Radiant Psalter's Benison stacks to summon a Shield of Sacred Favor, the character protected by said Shield will gain 25% increased Shield Strength for 12s.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Windblume Offertory",
+          "description": "Increases the Level of Radiant Psalter by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Collect of the Assembly",
+          "description": "The Favonian Favor from Dahlia's Elemental Burst Radiant Psalter lasts 3 more seconds.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Let It Be Subtly So",
+          "description": "Increases the Level of Immersive Ordinance by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "You Shall Go Out With Joy",
+          "description": "The current active character affected by the Elemental Burst Radiant Psalter's Favonian Favor has their ATK SPD increased by 10%. Additionally, when an active character affected by Favonian Favor falls, immediately: Revive them. Restore their HP to 100%. This effect can trigger once every 15 minutes.",
+          "images": {}
+        }
+      ]
     }
   ],
   "images": {

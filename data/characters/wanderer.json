@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 67,
       "slug": "peregrinus",
       "name": "Peregrinus",
       "meaning": "Wanderer",
+      "releaseVersion": "3.3",
       "images": {
         "image": "characters/wanderer/constellations/peregrinus/image.webp"
       },

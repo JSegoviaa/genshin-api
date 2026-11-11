@@ -28,7 +28,54 @@
       "ethereal-crystalscale-stone"
     ]
   },
-  "constellations": [],
+  "constellations": [
+    {
+      "id": 133,
+      "slug": "amentum-vernum",
+      "name": "Amentum Vernum",
+      "meaning": "Spring Ament",
+      "releaseVersion": "7.1",
+      "images": {},
+      "levels": [
+        {
+          "level": 1,
+          "name": "Winter's Farewell Feast",
+          "description": "When in the Armed for Action mode, Vesna can unleash Windborne Sword at the highest level 4 times instead of 3. Also, each time she enters the Armed for Action mode, she will not consume Sword Essence the first time she uses Windborne Sword at the highest level. Additionally, Vesna deals 20% increased Stellar Swirl reaction DMG when in the Armed for Action mode.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Kolo of Spring's Arrival",
+          "description": "The Ascension Talent Rite of Spring's Procession is enhanced: Vesna gains the maximum number of Disciplinary Action stacks when she enters Armed for Action mode. Vesna's ATK is increased by 40% when she has maximum Disciplinary Action stacks. You must unlock the Ascension Talent \"Rite of Spring's Procession\" to gain access to the above effects.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Winter's Last Offering",
+          "description": "Increases the Level of the Elemental Skill The Art of Victory by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Glory to Our Forebears",
+          "description": "The Ascension Talent Truth Prevails is enhanced: Its ATK and Elemental Mastery bonuses increase to 3 times their original values.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "The Nobleborn's Charge",
+          "description": "Increases the Level of the Elemental Burst For the Tsaritsa! by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Unwavering Ardor",
+          "description": "Tapping on Normal Attack or Elemental Skill in the 5s after Vesna uses Windborne Sword at its highest level will unleash the secret Vila ability Windborne Sword: Transpose, dealing Anemo DMG at 150% of Vesna's ATK as well as summoning Spirit Blades which deal an additional instance of Anemo DMG at 200% of Vesna's ATK. If Vesna is in the Armed for Action mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents. Additionally, Vesna's Stellar Swirl reaction DMG dealt is elevated by 20%.",
+          "images": {}
+        }
+      ]
+    }
+  ],
   "images": {
     "icon": "characters/vesna/icon.webp",
     "card": "characters/vesna/card.webp",

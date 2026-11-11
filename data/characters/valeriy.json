@@ -28,7 +28,54 @@
       "ethereal-crystalscale-stone"
     ]
   },
-  "constellations": [],
+  "constellations": [
+    {
+      "id": 135,
+      "slug": "ursus-magnus",
+      "name": "Ursus Magnus",
+      "meaning": "Great Bear",
+      "releaseVersion": "7.2",
+      "images": {},
+      "levels": [
+        {
+          "level": 1,
+          "name": "The Cadence of Suppressive Fire",
+          "description": "Valeriy regenerates 6 Elemental Energy after performing the special Charged Attack Direct-Fire Mortar: Point-Blank Bombardment. For every 10 Impact Momentum consumed beyond 40 when performing this special Charged Attack, he regenerates an additional 1.5 Elemental Energy. Each time he performs Direct-Fire Mortar: Point-Blank Bombardment, he can regenerate up to 15 Elemental Energy in this way. This effect can trigger once every 15s. Additionally, each time Valeriy enters combat, the first time he uses his Elemental Skill Active Defense: Bastion Charge, he gains an additional amount of Impact Momentum equal to 150% of the amount normally gained.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Ranks That Charge as One",
+          "description": "All nearby party members gain 100 Elemental Mastery for 18s after Valeriy uses his Elemental Skill Active Defense: Bastion Charge. Additionally, while protected by a Supercharged Shield, if Valeriy is already at maximum Impact Momentum, any further Impact Momentum he would gain is instead converted into increased DMG Absorption for the shield. Each point of excess Impact Momentum increases the Supercharged Shield's DMG Absorption by an amount equal to 8% of Valeriy's ATK. Up to 20 excess Impact Momentum can be converted in this way.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Vigilance at Close Quarters",
+          "description": "Increases the Level of Normal Attack Guard Tactics: Sword and Shield by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Fortitude Unshaken by Attrition",
+          "description": "Impact Momentum's limit is increased by 30, and its charging efficiency is increased by 30%. Additionally, the Ascension Talent Advance With the Creeping Barrage is enhanced: The maximum amount of Impact Momentum that can be gained from this Talent after using the Elemental Burst is 104. You must unlock the Ascension Talent Advance With the Creeping Barrage to gain access to this effect.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Resolve to Divide and Destroy",
+          "description": "Increases the Level of the Elemental Skill Active Defense: Bastion Charge by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "The Strength to Breach Enemy Lines",
+          "description": "The special Charged Attack Direct-Fire Mortar: Point-Blank Bombardment and Thunderburst Shells from Elemental Burst Focused Fire: Lightning Salvo are enhanced: Their DMG is increased by 100%, and opponents they hit have the CRIT Rate of Electro DMG they take increased by 10% for 7s. If the Electro DMG taken is Stellar-Conduct reaction DMG, that DMG instance's CRIT DMG is also increased by 40%.",
+          "images": {}
+        }
+      ]
+    }
+  ],
   "images": {
     "icon": "characters/valeriy/icon.webp",
     "card": "characters/valeriy/card.webp",

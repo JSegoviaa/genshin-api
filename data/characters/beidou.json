@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 18,
       "slug": "victor-mare",
       "name": "Victor Mare",
       "meaning": "Conqueror of the Sea",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/beidou/constellations/victor-mare/image.webp"
       },

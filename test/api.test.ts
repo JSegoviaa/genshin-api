@@ -161,6 +161,52 @@ describe("detail", () => {
     ).toBe(true);
   });
 
+  it("returns every character constellation with its six levels", async () => {
+    const furina = await get("/api/v1/characters/furina");
+    expect(furina.body.constellations[0]).toMatchObject({
+      name: "Animula Choragi",
+      meaning: "Little Soul Conductor",
+    });
+    expect(furina.body.constellations[0].levels.map((l: any) => l.level)).toEqual([
+      1, 2, 3, 4, 5, 6,
+    ]);
+    const alyosha = await get("/api/v1/characters/alyosha");
+    expect(alyosha.body.constellations).toHaveLength(1);
+    const aether = await get("/api/v1/characters/aether");
+    expect(aether.body.constellations).toHaveLength(7);
+    for (const k of aether.body.constellations) {
+      expect(k.levels).toHaveLength(6);
+      expect(k.levels.every((l: any) => l.name !== l.description)).toBe(true);
+    }
+  });
+
+  it("exposes constellations as a resource derived from characters", async () => {
+    const { status, body } = await get("/api/v1/constellations/papilio-charontis");
+    expect(status).toBe(200);
+    expect(body).toMatchObject({
+      name: "Papilio Charontis",
+      meaning: "Butterfly of Charon",
+      character: { slug: "hu-tao" },
+      element: { slug: "pyro" },
+      releaseVersion: { name: "1.3" },
+    });
+    expect(body.levels).toHaveLength(6);
+    const byName = await get("/api/v1/constellations?name=viator&limit=100");
+    expect(byName.body.count).toBe(7);
+    const cryo = await get("/api/v1/constellations?element=cryo&character=aether");
+    expect(cryo.body.results.map((k: any) => k.slug)).toEqual(["viator-cryo"]);
+    const traveler = await get("/api/v1/constellations/viator-cryo");
+    expect(traveler.body.releaseVersion).toMatchObject({ name: "7.0" });
+    const hu = await get("/api/v1/characters/hu-tao");
+    expect(hu.body.constellations[0].url).toBe(
+      "http://api.test/api/v1/constellations/papilio-charontis",
+    );
+    const version = await get("/api/v1/versions/7.0");
+    expect(version.body.constellations.map((k: any) => k.slug)).toContain(
+      "viator-cryo",
+    );
+  });
+
   it("returns release version and local specialty as references", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.releaseVersion).toMatchObject({ slug: "1-3", name: "1.3" });
@@ -611,6 +657,7 @@ describe("random", () => {
       "versions",
       "weapons",
       "characters",
+      "constellations",
       "artifact-types",
       "artifact-sets",
       "artifacts",

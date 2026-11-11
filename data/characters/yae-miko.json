@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 52,
       "slug": "divina-vulpes",
       "name": "Divina Vulpes",
       "meaning": "Divine Fox",
+      "releaseVersion": "2.5",
       "images": {
         "image": "characters/yae-miko/constellations/divina-vulpes/image.webp"
       },

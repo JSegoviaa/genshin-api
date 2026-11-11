@@ -9,7 +9,8 @@ import { basename, join, relative } from "node:path";
 import type { BaseItem, RefTarget } from "../src/core/resource";
 import { RESOURCE_NAMES, type ResourceName } from "../src/core/resource-names";
 import { slugify } from "../src/core/slug";
-import { resources } from "../src/modules";
+import { isDerived, resources } from "../src/modules";
+import type { Dataset } from "../src/core/store";
 
 const root = join(import.meta.dirname, "..");
 const dataDir = join(root, "data");
@@ -21,10 +22,30 @@ const fail = (file: string, msg: string) =>
 
 const loaded = {} as Record<ResourceName, { item: BaseItem; file: string }[]>;
 
+function checkUnique(name: ResourceName) {
+  for (const key of ["id", "slug"] as const) {
+    const seen = new Map<unknown, string>();
+    for (const { item, file } of loaded[name]) {
+      const prev = seen.get(item[key]);
+      if (prev)
+        fail(
+          file,
+          `duplicated ${key} ${item[key]} (also in ${relative(root, prev)})`,
+        );
+      else seen.set(item[key], file);
+    }
+  }
+}
+
 for (const name of RESOURCE_NAMES) {
   const def = resources[name];
   const dir = join(dataDir, name);
   loaded[name] = [];
+  if (def.derive) {
+    if (existsSync(dir))
+      fail(dir, `${name} is derived from other resources and must not have a data folder`);
+    continue;
+  }
   if (!existsSync(dir)) continue;
 
   for (const fileName of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
@@ -55,18 +76,26 @@ for (const name of RESOURCE_NAMES) {
     loaded[name].push({ item, file });
   }
 
-  for (const key of ["id", "slug"] as const) {
-    const seen = new Map<unknown, string>();
-    for (const { item, file } of loaded[name]) {
-      const prev = seen.get(item[key]);
-      if (prev)
-        fail(
-          file,
-          `duplicated ${key} ${item[key]} (also in ${relative(root, prev)})`,
-        );
-      else seen.set(item[key], file);
+  checkUnique(name);
+}
+
+const source = Object.fromEntries(
+  RESOURCE_NAMES.map((n) => [n, loaded[n].map(({ item }) => item)]),
+) as Dataset;
+for (const name of RESOURCE_NAMES.filter(isDerived)) {
+  const origin = join(dataDir, "(derived)", name);
+  for (const raw of resources[name].derive!(source)) {
+    const parsed = resources[name].schema.safeParse(raw);
+    if (!parsed.success) {
+      for (const issue of parsed.error.issues)
+        fail(origin, `${raw.slug}: ${issue.path.join(".") || "(root)"}: ${issue.message}`);
+      continue;
     }
+    if (raw.slug !== slugify(raw.name))
+      fail(origin, `slug "${raw.slug}" should be "${slugify(raw.name)}"`);
+    loaded[name].push({ item: raw, file: `${origin}/${raw.slug}` });
   }
+  checkUnique(name);
 }
 
 const slugsOf = (name: ResourceName) =>
@@ -117,7 +146,7 @@ if (errors.length) {
 }
 
 const output = Object.fromEntries(
-  RESOURCE_NAMES.map((name) => [
+  RESOURCE_NAMES.filter((name) => !isDerived(name)).map((name) => [
     name,
     loaded[name].map(({ item }) => item).sort((a, b) => a.id - b.id),
   ]),

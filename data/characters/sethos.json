@@ -30,13 +30,52 @@
   },
   "constellations": [
     {
+      "id": 91,
       "slug": "basileos-delta",
       "name": "Basileos Delta",
       "meaning": "Delta of the Basileus",
+      "releaseVersion": "4.7",
       "images": {
         "image": "characters/sethos/constellations/basileos-delta/image.webp"
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "name": "Sealed Shrine's Spiritsong",
+          "description": "The CRIT Rate of Shadowpiercing Shot is increased by 15%.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Papyrus Scripture of Silent Secrets",
+          "description": "When any of the following conditions are met, Sethos gains a 15% Electro DMG Bonus for 10s that may stack twice, with each stack duration counted independently: Consuming Elemental Energy through Aimed Shots. You must first unlock the Ascension Talent \"Black Kite's Enigma\" to trigger this condition. Regaining Elemental Energy by triggering Elemental Reactions using Ancient Rite: The Thundering Sands. Using Secret Rite: Twilight Shadowpiercer.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Ode to the Moonrise Sage",
+          "description": "Increases the Level of Normal Attack: Royal Reed Archery by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Beneficent Plumage",
+          "description": "When a Shadowpiercing Shot or Dusk Bolt strikes 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Record of the Desolate God's Burning Sands",
+          "description": "Increases the Level of Secret Rite: Twilight Shadowpiercer by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Pylon of the Sojourning Sun Temple",
+          "description": "After Shadowpiercing Shot strikes an opponent, the Elemental Energy consumed by the Ascension Talent \"Black Kite's Enigma\" will be returned. This effect can be triggered up to once every 15s. You must first unlock the Ascension Talent \"Black Kite's Enigma.\"",
+          "images": {}
+        }
+      ]
     }
   ],
   "images": {

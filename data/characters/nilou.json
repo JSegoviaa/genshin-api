@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 64,
       "slug": "lotos-somno",
       "name": "Lotos Somno",
       "meaning": "Sleeping Lotus",
+      "releaseVersion": "3.1",
       "images": {
         "image": "characters/nilou/constellations/lotos-somno/image.webp"
       },

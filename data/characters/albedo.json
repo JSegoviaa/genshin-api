@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 30,
       "slug": "princeps-cretaceus",
       "name": "Princeps Cretaceus",
       "meaning": "Chalk Prince",
+      "releaseVersion": "1.2",
       "images": {
         "image": "characters/albedo/constellations/princeps-cretaceus/image.webp"
       },

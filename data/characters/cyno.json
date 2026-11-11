@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 62,
       "slug": "lupus-aureus",
       "name": "Lupus Aureus",
       "meaning": "Golden Wolf",
+      "releaseVersion": "3.1",
       "images": {
         "image": "characters/cyno/constellations/lupus-aureus/image.webp"
       },

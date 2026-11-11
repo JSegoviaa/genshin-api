@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 37,
       "slug": "acer-palmatum",
       "name": "Acer Palmatum",
       "meaning": "Japanese Maple",
+      "releaseVersion": "1.6",
       "images": {
         "image": "characters/kaedehara-kazuha/constellations/acer-palmatum/image.webp"
       },

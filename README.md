@@ -22,7 +22,7 @@ scripts/                      ← data build, JSON schemas and images
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `artifacts`, `stats`, `enemy-types`, `enemy-families`, `enemy-groups`, `enemies`, `item-types`, `item-groups`, `items`, `domain-types`, `domains`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `weapons`, `characters`, `constellations`, `artifact-types`, `artifact-sets`, `artifacts`, `stats`, `enemy-types`, `enemy-families`, `enemy-groups`, `enemies`, `item-types`, `item-groups`, `items`, `domain-types`, `domains`.
 
 | Endpoint | Description |
 |---|---|
@@ -36,6 +36,7 @@ List parameters:
 - `sort`: `id`, `name` and resource-specific fields; prefix with `-` for descending (`sort=-releaseDate`)
 - `name`: partial search (`name=hu`)
 - Resource filters, accepting comma-separated values:
+  - `constellations`: `character`, `element`, `region`, `releaseVersion`
   - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`, `ascensionStat`, `material`
   - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`, `material` (item or item group slug), `releaseVersion`
@@ -87,6 +88,10 @@ References to exposed resources are stored by slug (`"element": "pyro"`, `"ascen
 to `rarities`. `releaseVersion` is stored by version name (`"1.3"`, `"Luna I"`) and resolved with
 `slugify(name)`. Fields pointing to resources not yet exposed by the API (weapon series) are stored by
 name and will be resolved the same way once those resources exist, without touching the data.
+
+Some resources are derived instead of stored: `constellations` are kept inside each character file
+(`constellations[]`, with their own `id` and `releaseVersion`) and the API builds the resource from them
+(`derive` in the resource definition), so they have no `data/` folder.
 
 Data that can be derived is not stored twice: item groups take their type and source from their items,
 and Forgery and Mastery domains take their item rewards from the item groups linked to them.

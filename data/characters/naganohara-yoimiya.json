@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 42,
       "slug": "carassius-auratus",
       "name": "Carassius Auratus",
       "meaning": "Goldfish",
+      "releaseVersion": "2.0",
       "images": {
         "image": "characters/naganohara-yoimiya/constellations/carassius-auratus/image.webp"
       },

@@ -6,10 +6,10 @@ import {
   type ResourceName,
 } from "../../../src/core/resource-names";
 import type { Dataset } from "../../../src/core/store";
-import { resources } from "../../../src/modules";
+import { resources, withDerived } from "../../../src/modules";
 import rawData from "../../../src/generated/data.json";
 
-const data = rawData as unknown as Dataset;
+const data = withDerived(rawData as unknown as Dataset);
 const app = createApp(data);
 
 const { MODE, DEV, PUBLIC_API_URL } = import.meta.env;

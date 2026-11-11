@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 11,
       "slug": "leo-minor",
       "name": "Leo Minor",
       "meaning": "Lesse Lion",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/jean/constellations/leo-minor/image.webp"
       },

@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 41,
       "slug": "nyctereutes-minor",
       "name": "Nyctereutes Minor",
       "meaning": "Lesser Tanuki",
+      "releaseVersion": "2.0",
       "images": {
         "image": "characters/sayu/constellations/nyctereutes-minor/image.webp"
       },

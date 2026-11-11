@@ -6,7 +6,7 @@ export const versionResource = defineResource({
   name: "versions",
   title: "Versions",
   description:
-    "Game versions with their update title and release date. Each version lists the characters, weapons, artifact sets, enemies, items and domains released in it.",
+    "Game versions with their update title and release date. Each version lists the characters, weapons, constellations, artifact sets, enemies, items and domains released in it.",
   example: "1-3",
   schema: versionSchema,
   refs: {},
@@ -40,6 +40,10 @@ export const versionResource = defineResource({
     items: ctx.related<{ releaseVersion: string | null }>(
       "items",
       (i) => !!i.releaseVersion && slugify(i.releaseVersion) === v.slug,
+    ),
+    constellations: ctx.related<{ releaseVersion: string }>(
+      "constellations",
+      (k) => slugify(k.releaseVersion) === v.slug,
     ),
     domains: ctx.related<{ releaseVersion: string | null }>(
       "domains",

@@ -28,7 +28,54 @@
       "prime-chimeric-nexus"
     ]
   },
-  "constellations": [],
+  "constellations": [
+    {
+      "id": 131,
+      "slug": "canis-borzoides",
+      "name": "Canis Borzoides",
+      "meaning": "Borzoi Hound",
+      "releaseVersion": "7.0",
+      "images": {},
+      "levels": [
+        {
+          "level": 1,
+          "name": "Frostvale Thunderclap",
+          "description": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an Electro-related reaction on an opponent. This effect can trigger once every 18s.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Howl From Afar",
+          "description": "The duration of the Elemental Burst Hunter's Advance is extended by 6s. Additionally, each time Tugarin attacks the opponent, he will also apply the Hunter's Mark to a target. This effect does not activate existing Hunter's Marks.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Friendly Call",
+          "description": "Increases the Level of the Elemental Skill Thunderbolt Strike by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Harvest the Spoils",
+          "description": "When Tugarin attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "When the Nightbird Falls Silent",
+          "description": "Increases the Level of the Elemental Burst Hunter's Advance by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Standard Reclaimed",
+          "description": "The Hunter's Precision effect obtained from activating a Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, currently active party members will also have their Elemental Mastery increased by 100.",
+          "images": {}
+        }
+      ]
+    }
+  ],
   "images": {
     "icon": "characters/alyosha/icon.webp",
     "card": "characters/alyosha/card.webp",

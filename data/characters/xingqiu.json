@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 24,
       "slug": "fabulae-textile",
       "name": "Fabulae Textile",
       "meaning": "Woven Stories",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/xingqiu/constellations/fabulae-textile/image.webp"
       },

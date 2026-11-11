@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 61,
       "slug": "magicae-lucerna",
       "name": "Magicae Lucerna",
       "meaning": "Magic Lamp",
+      "releaseVersion": "3.0",
       "images": {
         "image": "characters/dori/constellations/magicae-lucerna/image.webp"
       },

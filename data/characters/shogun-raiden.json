@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 44,
       "slug": "imperatrix-umbrosa",
       "name": "Imperatrix Umbrosa",
       "meaning": "Shadow Empress",
+      "releaseVersion": "2.1",
       "images": {
         "image": "characters/shogun-raiden/constellations/imperatrix-umbrosa/image.webp"
       },

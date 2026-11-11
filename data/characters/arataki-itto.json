@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 48,
       "slug": "taurus-iracundus",
       "name": "Taurus Iracundus",
       "meaning": "Raging Bull",
+      "releaseVersion": "2.3",
       "images": {
         "image": "characters/arataki-itto/constellations/taurus-iracundus/image.webp"
       },

@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 59,
       "slug": "leptailurus-cervarius",
       "name": "Leptailurus Cervarius",
       "meaning": "Serval",
+      "releaseVersion": "3.0",
       "images": {
         "image": "characters/collei/constellations/leptailurus-cervarius/image.webp"
       },

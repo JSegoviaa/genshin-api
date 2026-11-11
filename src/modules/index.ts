@@ -1,9 +1,11 @@
-import type { ResourceDef } from "../core/resource";
-import type { ResourceName } from "../core/resource-names";
+import type { BaseItem, ResourceDef } from "../core/resource";
+import { RESOURCE_NAMES, type ResourceName } from "../core/resource-names";
+import type { Dataset } from "../core/store";
 import { artifactSetResource } from "./artifact-sets/artifact-set.resource";
 import { artifactTypeResource } from "./artifact-types/artifact-type.resource";
 import { artifactResource } from "./artifacts/artifact.resource";
 import { characterResource } from "./characters/character.resource";
+import { constellationResource } from "./constellations/constellation.resource";
 import { domainTypeResource } from "./domain-types/domain-type.resource";
 import { domainResource } from "./domains/domain.resource";
 import { elementResource } from "./elements/element.resource";
@@ -29,6 +31,7 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   versions: versionResource,
   weapons: weaponResource,
   characters: characterResource,
+  constellations: constellationResource,
   "artifact-types": artifactTypeResource,
   "artifact-sets": artifactSetResource,
   artifacts: artifactResource,
@@ -43,3 +46,14 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   "domain-types": domainTypeResource,
   domains: domainResource,
 };
+
+export const isDerived = (name: ResourceName) => !!resources[name].derive;
+
+export function withDerived(data: Partial<Dataset>): Dataset {
+  const out = { ...data } as Dataset;
+  for (const name of RESOURCE_NAMES) {
+    const derive = resources[name].derive;
+    if (derive) out[name] = derive(out) as BaseItem[];
+  }
+  return out;
+}

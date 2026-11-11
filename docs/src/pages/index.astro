@@ -12,7 +12,7 @@ const sample = JSON.stringify((body as { results: unknown[] }).results[0], null,
 
 const tiers: Record<number, string[]> = {
   5: ["characters", "weapons", "artifact-sets", "artifacts"],
-  4: ["enemies", "domains", "items"],
+  4: ["enemies", "domains", "items", "constellations"],
   3: ["regions", "elements", "stats", "versions", "item-groups", "enemy-groups", "enemy-families"],
 };
 const rarityOf = (name: string) =>

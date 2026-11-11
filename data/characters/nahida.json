@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 65,
       "slug": "sapientia-oromasdis",
       "name": "Sapientia Oromasdis",
       "meaning": "Wisdom of Oromasdis",
+      "releaseVersion": "3.2",
       "images": {
         "image": "characters/nahida/constellations/sapientia-oromasdis/image.webp"
       },

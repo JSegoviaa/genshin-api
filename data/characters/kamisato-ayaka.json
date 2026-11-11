@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 40,
       "slug": "grus-nivis",
       "name": "Grus Nivis",
       "meaning": "Snow-White Crane",
+      "releaseVersion": "2.0",
       "images": {
         "image": "characters/kamisato-ayaka/constellations/grus-nivis/image.webp"
       },

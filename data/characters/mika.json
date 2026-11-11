@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 72,
       "slug": "palumbus",
       "name": "Palumbus",
       "meaning": "Wood Pigeon",
+      "releaseVersion": "3.5",
       "images": {
         "image": "characters/mika/constellations/palumbus/image.webp"
       },

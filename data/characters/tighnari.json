@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 60,
       "slug": "vulpes-zerda",
       "name": "Vulpes Zerda",
       "meaning": "Fennec Fox",
+      "releaseVersion": "3.0",
       "images": {
         "image": "characters/tighnari/constellations/vulpes-zerda/image.webp"
       },

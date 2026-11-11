@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 50,
       "slug": "crista-doloris",
       "name": "Crista Doloris",
       "meaning": "Crest of Sorrow",
+      "releaseVersion": "2.4",
       "images": {
         "image": "characters/shenhe/constellations/crista-doloris/image.webp"
       },

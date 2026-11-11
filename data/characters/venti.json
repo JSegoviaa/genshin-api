@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 16,
       "slug": "carmen-dei",
       "name": "Carmen Dei",
       "meaning": "God's Song",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/venti/constellations/carmen-dei/image.webp"
       },

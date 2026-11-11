@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 53,
       "slug": "cypressus-custos",
       "name": "Cypressus Custos",
       "meaning": "Guardian Cypress",
+      "releaseVersion": "2.6",
       "images": {
         "image": "characters/kamisato-ayato/constellations/cypressus-custos/image.webp"
       },

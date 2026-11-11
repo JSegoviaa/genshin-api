@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 6,
       "slug": "lepus",
       "name": "Lepus",
       "meaning": "Hare",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/amber/constellations/lepus/image.webp"
       },

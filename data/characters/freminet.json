@@ -30,13 +30,52 @@
   },
   "constellations": [
     {
+      "id": 80,
       "slug": "automaton",
       "name": "Automaton",
       "meaning": "Automaton",
+      "releaseVersion": "4.0",
       "images": {
         "image": "characters/freminet/constellations/automaton/image.webp"
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "name": "Dreams of the Foamy Deep",
+          "description": "The CRIT Rate of Pressurized Floe: Shattering Pressure will be increased by 15%.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Penguins and the Land of Plenty",
+          "description": "Unleashing Pressurized Floe: Shattering Pressure will restore 2 Energy to Freminet. If a Pressure Level 4 Shattering Pressure is unleashed, this will restore 3 Energy.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Song of the Eddies and Bleached Sands",
+          "description": "Increases the Level of Normal Attack: Flowing Eddies by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "Dance of the Snowy Moon and Flute",
+          "description": "After Freminet triggers Frozen, Shatter, or Superconduct against opponents, his ATK will be increased by 9% for 6s. Max 2 stacks. This can be triggered once every 0.3s.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Nights of Hearth and Happiness",
+          "description": "Increases the Level of Pressurized Floe by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "Moment of Waking and Resolve",
+          "description": "After Freminet triggers Frozen, Shatter, or Superconduct against opponents, his CRIT DMG will be increased by 12% for 6s. Max 3 stacks. This can be triggered once every 0.3s.",
+          "images": {}
+        }
+      ]
     }
   ],
   "images": {

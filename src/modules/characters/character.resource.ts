@@ -91,9 +91,9 @@ export const characterResource = defineResource({
       common: ctx.refs("items", c.materials.common),
     },
     constellations: c.constellations.map((k) => ({
-      slug: k.slug,
-      name: k.name,
+      ...head("constellations", k, ctx),
       meaning: k.meaning,
+      releaseVersion: ctx.refByName("versions", k.releaseVersion),
       image: ctx.image(k.images.image),
       levels: k.levels.map((l) => ({
         level: l.level,

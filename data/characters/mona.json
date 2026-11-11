@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 14,
       "slug": "astrolabos",
       "name": "Astrolabos",
       "meaning": "Astrolabe",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/mona/constellations/astrolabos/image.webp"
       },

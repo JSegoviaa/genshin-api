@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 36,
       "slug": "aphros-delos",
       "name": "Aphros Delos",
       "meaning": "Brilliant Sea-Foam",
+      "releaseVersion": "1.5",
       "images": {
         "image": "characters/eula/constellations/aphros-delos/image.webp"
       },

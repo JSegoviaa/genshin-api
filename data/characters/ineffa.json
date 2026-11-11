@@ -30,13 +30,52 @@
   },
   "constellations": [
     {
+      "id": 113,
       "slug": "vanilla-planifolia",
       "name": "Vanilla Planifolia",
       "meaning": "Flat-Leaved Vanilla",
+      "releaseVersion": "5.8",
       "images": {
         "image": "characters/ineffa/constellations/vanilla-planifolia/image.webp"
       },
-      "levels": []
+      "levels": [
+        {
+          "level": 1,
+          "name": "Rectifying Processor",
+          "description": "When Ineffa activates her Optical Flow Shield Barrier, all nearby party members will gain the Carrier Flow Composite effect for 20s: Increases Lunar-Charged DMG by 2.5% for every 100 ATK that Ineffa has, up to a maximum of 50%.",
+          "images": {}
+        },
+        {
+          "level": 2,
+          "name": "Support Cleaning Module",
+          "description": "After the Elemental Burst Supreme Instruction: Cyclonic Exterminator hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is attacked, nearby opponents will take AoE Electro DMG equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG. Additionally, when the Elemental Burst Supreme Instruction: Cyclonic Exterminator is unleashed, nearby party members will gain Optical Flow Shield Barriers.",
+          "images": {}
+        },
+        {
+          "level": 3,
+          "name": "Enhanced Emotion Emulator",
+          "description": "Increases the Level of Cleaning Mode: Carrier Frequency by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 4,
+          "name": "The Edictless Path",
+          "description": "When your own party members trigger Lunar-Charged reactions, recover 5 Elemental Energy. This effect can occur once every 4s.",
+          "images": {}
+        },
+        {
+          "level": 5,
+          "name": "Mirror's Dream Transcension",
+          "description": "Increases the Level of Supreme Instruction: Cyclonic Exterminator by 3. Maximum upgrade level is 15.",
+          "images": {}
+        },
+        {
+          "level": 6,
+          "name": "A Dawning Morn for You",
+          "description": "When Ineffa is affected by the Carrier Flow Composite effect, she will deal AoE Electro DMG equal to 135% of her ATK to opponents in the current active character's vicinity after nearby thunderclouds release bursts of lightning at opponents. This DMG is considered Lunar-Charged DMG. The aforementioned effect can trigger once every 3.5s.",
+          "images": {}
+        }
+      ]
     }
   ],
   "images": {

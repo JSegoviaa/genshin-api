@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 46,
       "slug": "dracaena-somnolenta",
       "name": "Dracaena Somnolenta",
       "meaning": "Sleeping Dragoness",
+      "releaseVersion": "2.1",
       "images": {
         "image": "characters/sangonomiya-kokomi/constellations/dracaena-somnolenta/image.webp"
       },

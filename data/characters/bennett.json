@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 19,
       "slug": "rota-calamitas",
       "name": "Rota Calamitas",
       "meaning": "Wheel of Misfortune",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/bennett/constellations/rota-calamitas/image.webp"
       },

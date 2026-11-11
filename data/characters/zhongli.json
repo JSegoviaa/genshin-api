@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 29,
       "slug": "lapis-dei",
       "name": "Lapis Dei",
       "meaning": "God's Stone",
+      "releaseVersion": "1.1",
       "images": {
         "image": "characters/zhongli/constellations/lapis-dei/image.webp"
       },

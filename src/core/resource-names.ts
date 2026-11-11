@@ -6,6 +6,7 @@ export const RESOURCE_NAMES = [
   "versions",
   "weapons",
   "characters",
+  "constellations",
   "artifact-types",
   "artifact-sets",
   "artifacts",

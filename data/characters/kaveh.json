@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 73,
       "slug": "paradisaea",
       "name": "Paradisaea",
       "meaning": "Bird-of-paradise",
+      "releaseVersion": "3.6",
       "images": {
         "image": "characters/kaveh/constellations/paradisaea/image.webp"
       },

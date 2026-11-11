@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 43,
       "slug": "flabellum",
       "name": "Flabellum",
       "meaning": "Handheld Fan",
+      "releaseVersion": "2.1",
       "images": {
         "image": "characters/kujou-sara/constellations/flabellum/image.webp"
       },

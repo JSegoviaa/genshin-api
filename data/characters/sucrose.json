@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 23,
       "slug": "ampulla",
       "name": "Ampulla",
       "meaning": "Flask",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/sucrose/constellations/ampulla/image.webp"
       },

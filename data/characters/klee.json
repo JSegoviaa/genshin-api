@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 25,
       "slug": "trifolium",
       "name": "Trifolium",
       "meaning": "Clover",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/klee/constellations/trifolium/image.webp"
       },

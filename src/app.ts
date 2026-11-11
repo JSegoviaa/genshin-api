@@ -5,7 +5,7 @@ import type { BaseItem, Ctx, Lookup, Ref, ResourceDef } from "./core/resource";
 import { RESOURCE_NAMES, type ResourceName } from "./core/resource-names";
 import { slugify } from "./core/slug";
 import { Store, type Dataset } from "./core/store";
-import { resources } from "./modules";
+import { resources, withDerived } from "./modules";
 
 export interface Env {
   IMAGES_BASE_URL: string;
@@ -19,8 +19,8 @@ const CACHE = "public, max-age=3600";
 const badRequest = (message: string) => new HTTPException(400, { message });
 const notFound = (message: string) => new HTTPException(404, { message });
 
-export function createApp(data: Dataset) {
-  const store = new Store(data);
+export function createApp(data: Partial<Dataset>) {
+  const store = new Store(withDerived(data));
   const app = new Hono<{ Bindings: Env }>();
   const lookup: Lookup = { all: (resource) => store.all(resource) as never };
 

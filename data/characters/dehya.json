@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 71,
       "slug": "mantichora",
       "name": "Mantichora",
       "meaning": "Manticore",
+      "releaseVersion": "3.5",
       "images": {
         "image": "characters/dehya/constellations/mantichora/image.webp"
       },

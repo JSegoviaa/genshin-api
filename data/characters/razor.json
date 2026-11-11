@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 22,
       "slug": "lupus-minor",
       "name": "Lupus Minor",
       "meaning": "Lesser Wolf",
+      "releaseVersion": "1.0",
       "images": {
         "image": "characters/razor/constellations/lupus-minor/image.webp"
       },

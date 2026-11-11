@@ -30,9 +30,11 @@
   },
   "constellations": [
     {
+      "id": 26,
       "slug": "feles",
       "name": "Feles",
       "meaning": "Cat",
+      "releaseVersion": "1.1",
       "images": {
         "image": "characters/diona/constellations/feles/image.webp"
       },
