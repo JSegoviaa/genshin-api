@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 169,
+  "slug": "unresolved-chess-game",
+  "name": "Unresolved Chess Game",
+  "type": "trounce-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "If you wish to earn the mages' approval, you must face up to the riddle at hand.",
+  "recommendedElements": [
+    "cryo",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "ascended-sample-knight",
+      "ascended-sample-rook",
+      "ascended-sample-queen"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "the-game-before-the-gate"
+  ],
+  "releaseVersion": "5.6",
+  "images": {}
+}

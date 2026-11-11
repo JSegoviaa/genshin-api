@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 212,
+  "id": 248,
   "slug": "foreign-synapse",
   "name": "Foreign Synapse",
   "type": "character-and-weapon-enhancement-materials",

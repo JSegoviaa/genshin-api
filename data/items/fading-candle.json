@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 246,
+  "id": 291,
   "slug": "fading-candle",
   "name": "Fading Candle",
   "type": "character-level-up-materials",

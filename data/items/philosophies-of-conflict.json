@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 319,
+  "slug": "philosophies-of-conflict",
+  "name": "Philosophies of Conflict",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "conflict-books",
+  "rarity": 4,
+  "description": "Conflict is considered reason in the Nation of Pyro.\nThe premise of conflict is that all parties involved must confront their own desires with the utmost sincerity. Only then, amid the fight or debate, can they remain mindful of what they wish to achieve and stay true to their original objectives.",
+  "releaseVersion": "5.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

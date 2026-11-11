@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 132,
+  "slug": "pale-forgotten-glory",
+  "name": "Pale Forgotten Glory",
+  "type": "domains-of-mastery",
+  "region": "fontaine",
+  "area": "Court of Fontaine Region",
+  "description": "In the past, the great white armada that traversed the seas was Fontaine's supreme pride and glory, for the Mistress of Rivers and Oceans blessed her people with the authority and wish to conquer all the waters of the world. However, this lofty ambition was insufficient to overcome the laws of fate.\nTo this day, on the brass masts are inscribed the words: \"I have conquered the waves of the four seas.\"",
+  "recommendedElements": [
+    "geo",
+    "hydro",
+    "pyro",
+    "cryo",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 38
+    },
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": 54
+    },
+    {
+      "requiredAdventureRank": 36,
+      "recommendedLevel": 71
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 88
+    }
+  ],
+  "rewards": {
+    "items": [
+      "teachings-of-equity",
+      "guide-to-equity",
+      "philosophies-of-equity",
+      "teachings-of-justice",
+      "guide-to-justice",
+      "philosophies-of-justice",
+      "teachings-of-order",
+      "guide-to-order",
+      "philosophies-of-order"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.0",
+  "images": {}
+}

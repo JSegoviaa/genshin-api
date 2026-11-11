@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 41,
+  "slug": "light-books",
+  "name": "Light Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "violet-court",
+  "domainLevel": "Vine-Infested Ruins",
+  "images": {}
+}

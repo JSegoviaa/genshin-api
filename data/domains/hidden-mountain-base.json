@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 61,
+  "slug": "hidden-mountain-base",
+  "name": "Hidden Mountain Base",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "Following the intelligence you got from Ippei, you discover the Takatsukasa Clan's hidden base.\nThe Tenryou Commission is in a precarious state, and Kujou Kamaji has not returned. You do not yet know what has happened in this place...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.1",
+  "images": {}
+}

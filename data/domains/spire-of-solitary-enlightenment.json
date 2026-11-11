@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 90,
+  "slug": "spire-of-solitary-enlightenment",
+  "name": "Spire of Solitary Enlightenment",
+  "type": "domains-of-blessing",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "In ancient times, this was a great and beautiful place, seemingly made to bless the children of humanity. But the arrow of heaven would descend, making mountains out of flat land and burying the ancient capitol beneath the hills.",
+  "recommendedElements": [
+    "electro",
+    "cryo",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "deepwood-memories",
+      "gambler",
+      "gilded-dreams",
+      "tiny-miracle"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

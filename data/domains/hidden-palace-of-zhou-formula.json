@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 3,
+  "slug": "hidden-palace-of-zhou-formula",
+  "name": "Hidden Palace of Zhou Formula",
+  "type": "domains-of-blessing",
+  "region": "liyue",
+  "area": "Bishui Plain",
+  "description": "There is a secret ritual that can conceal one gate out of eight, cutting off the route for evil to escape. This ritual was performed here long ago, sealing demons within this labyrinth. Rumor has it that the Method to fit Pillars with Zhou Formula presently seals an evil Chi.",
+  "recommendedElements": [
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "crimson-witch-of-flames",
+      "defenders-will",
+      "lavawalker",
+      "martial-artist"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

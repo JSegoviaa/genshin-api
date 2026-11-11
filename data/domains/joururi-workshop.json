@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 109,
+  "slug": "joururi-workshop",
+  "name": "Joururi Workshop",
+  "type": "trounce-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "The secret workshop hidden in the forest cavern revealed its entrance upon being struck with immense force. The seeds of \"surpassing\" are sprouting within, and are about to burst forth from the earth...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "vayuda-turquoise-sliver",
+      "vayuda-turquoise-fragment",
+      "vayuda-turquoise-chunk",
+      "vayuda-turquoise-gemstone",
+      "puppet-strings",
+      "mirror-of-mushin",
+      "dakas-bell"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "everlasting-lord-of-arcane-wisdom"
+  ],
+  "releaseVersion": "3.2",
+  "images": {}
+}

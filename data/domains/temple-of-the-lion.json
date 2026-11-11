@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 16,
+  "slug": "temple-of-the-lion",
+  "name": "Temple of the Lion",
+  "type": "one-time-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "This used to be a temple devoted to the Lion of the South, but it has long been abandoned. Folklore tells that the dandelions commonly seen riding on the winds across Mondstadt symbolize the blessing of the Lion of the South.",
+  "recommendedElements": [
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 18,
+      "recommendedLevel": 30
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

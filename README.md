@@ -22,7 +22,7 @@ scripts/                      ← data build, JSON schemas and images
 
 ## Endpoints
 
-Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `artifacts`, `stats`, `enemy-types`, `enemy-families`, `enemy-groups`, `enemies`, `item-types`, `item-groups`, `items`.
+Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `versions`, `local-specialties`, `weapons`, `characters`, `artifact-types`, `artifact-sets`, `artifacts`, `stats`, `enemy-types`, `enemy-families`, `enemy-groups`, `enemies`, `item-types`, `item-groups`, `items`, `domain-types`, `domains`.
 
 | Endpoint | Description |
 |---|---|
@@ -43,8 +43,9 @@ List parameters:
   - `artifacts`: `set`, `type`, `rarity` (from the set)
   - `artifact-types`: `mainStat` (e.g. `crit-rate`)
   - `enemies`: `type`, `family`, `group`, `region` (bosses only), `element`, `drop` (item or artifact set slug), `releaseVersion`
-  - `items`: `type`, `source` (`general-enemy-drops`, `elite-enemy-drops`, `normal-boss-drops`, `weekly-boss-drops`, `ascension-gems`, `domains-of-forgery`), `group`, `rarity`, `releaseVersion`, `days` (e.g. `monday`)
-  - `item-groups`: `type`, `source`
+  - `items`: `type`, `source` (`general-enemy-drops`, `elite-enemy-drops`, `normal-boss-drops`, `weekly-boss-drops`, `ascension-gems`, `domains-of-mastery`, `domains-of-forgery`), `group`, `rarity`, `releaseVersion`, `days` (e.g. `monday`)
+  - `item-groups`: `type`, `source`, `domain`
+  - `domains`: `type`, `region`, `element` (recommended), `reward` (item or artifact set slug), `releaseVersion`
   - `enemy-groups`: `family`
   - `stats`: `category` (`basic`, `advanced`, `hidden`), `element`
   - `rarity` accepts the number of stars or the rarity slug (`rarity=5` or `rarity=5-star`)

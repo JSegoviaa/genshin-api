@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 46,
+  "id": 58,
   "slug": "talismans-of-the-forest-dew",
   "name": "Talismans of the Forest Dew",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "tower-of-abject-pride",
+  "domainLevel": "Tainted Clouds",
   "images": {}
 }

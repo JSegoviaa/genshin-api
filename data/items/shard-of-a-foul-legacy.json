@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 101,
+  "id": 119,
   "slug": "shard-of-a-foul-legacy",
   "name": "Shard of a Foul Legacy",
   "type": "character-level-up-materials",

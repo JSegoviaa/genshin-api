@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 59,
+  "slug": "palace-in-a-pool",
+  "name": "Palace in a Pool",
+  "type": "one-time-domains",
+  "region": "inazuma",
+  "area": "Watatsumi Island",
+  "description": "They say that long ago, seawater had yet to fill this pool. The moonlight was brighter back then, and it filled the pool instead, flowing freely like quicksilver.",
+  "recommendedElements": [
+    "pyro",
+    "electro",
+    "cryo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 38,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.1",
+  "images": {}
+}

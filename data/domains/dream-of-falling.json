@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 111,
+  "slug": "dream-of-falling",
+  "name": "Dream of Falling",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.2",
+  "images": {}
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 182,
+  "slug": "phantom-of-the-sanctuary",
+  "name": "Phantom of the Sanctuary",
+  "type": "quest-domains",
+  "region": "nod-krai",
+  "area": "Hiisi Island",
+  "description": "Once a sacred place of the ancient Hyperboreans, its grand architecture stood as proof of their devotion to the moons. Yet now, even these crumbling ruins have turned to ash. The travelers should be well aware of the fate that befell them, and the new beginnings born in its wake.",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "Luna III",
+  "images": {}
+}

@@ -4,6 +4,8 @@ import { artifactSetResource } from "./artifact-sets/artifact-set.resource";
 import { artifactTypeResource } from "./artifact-types/artifact-type.resource";
 import { artifactResource } from "./artifacts/artifact.resource";
 import { characterResource } from "./characters/character.resource";
+import { domainTypeResource } from "./domain-types/domain-type.resource";
+import { domainResource } from "./domains/domain.resource";
 import { elementResource } from "./elements/element.resource";
 import { enemyResource } from "./enemies/enemy.resource";
 import { enemyFamilyResource } from "./enemy-families/enemy-family.resource";
@@ -40,4 +42,6 @@ export const resources: Record<ResourceName, ResourceDef<any>> = {
   "item-types": itemTypeResource,
   "item-groups": itemGroupResource,
   items: itemResource,
+  "domain-types": domainTypeResource,
+  domains: domainResource,
 };

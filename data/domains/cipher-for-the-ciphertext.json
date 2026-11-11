@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 19,
+  "slug": "cipher-for-the-ciphertext",
+  "name": "Cipher for the Ciphertext",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "A ciphertext written by an Abyss Mage for an Abyss Mage.\nThe simplest way to read it is to find an Abyss Mage, of course...",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 23
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

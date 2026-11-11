@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 56,
+  "slug": "amidst-stormy-judgment",
+  "name": "Amidst Stormy Judgment",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.0",
+  "images": {}
+}

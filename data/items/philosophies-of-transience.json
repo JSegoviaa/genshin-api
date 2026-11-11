@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 140,
+  "slug": "philosophies-of-transience",
+  "name": "Philosophies of Transience",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "transience-books",
+  "rarity": 4,
+  "description": "Transience is the dream of the nation of thunder.\nThe fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
+  "releaseVersion": "2.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

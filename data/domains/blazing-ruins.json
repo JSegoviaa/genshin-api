@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 154,
+  "slug": "blazing-ruins",
+  "name": "Blazing Ruins",
+  "type": "domains-of-mastery",
+  "region": "natlan",
+  "area": "Coatepec Mountain",
+  "description": "In that era, when people had yet to attain true mastery of the flames, there were sages in all corners of the world who pondered the fire and sought to fathom its mysteries. It is said that these ruins are all that is left of what was once a ring-shaped ceremonial site. Here, these sages attempted to perfect the rituals required to transform phlogiston. Among the heroes who later followed the mighty one into the belly of the volcano, there were several who once trained in this place.",
+  "recommendedElements": [
+    "dendro",
+    "electro",
+    "anemo",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 38
+    },
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": 54
+    },
+    {
+      "requiredAdventureRank": 36,
+      "recommendedLevel": 71
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 88
+    }
+  ],
+  "rewards": {
+    "items": [
+      "teachings-of-contention",
+      "guide-to-contention",
+      "philosophies-of-contention",
+      "teachings-of-kindling",
+      "guide-to-kindling",
+      "philosophies-of-kindling",
+      "teachings-of-conflict",
+      "guide-to-conflict",
+      "philosophies-of-conflict"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.0",
+  "images": {}
+}

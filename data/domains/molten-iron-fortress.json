@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 123,
+  "slug": "molten-iron-fortress",
+  "name": "Molten Iron Fortress",
+  "type": "domains-of-blessing",
+  "region": "sumeru",
+  "area": "Gavireh Lajavard",
+  "description": "Legend has it that the territory of the red desert was marked by an ancient barrier of iron and bronze. The Lord of the Blazing Sun used to set out from here on his chariot to drive away the evil spirits wandering among the grim mountains. However, the gilded nations later sank into the sand and towering parapets of iron and bronze thus faded into oblivion along with their parent nations, leaving only unrecognizable ruins.",
+  "recommendedElements": [
+    "dendro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "martial-artist",
+      "nymphs-dream",
+      "scholar",
+      "vourukashas-glow"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "3.6",
+  "images": {}
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 421,
+  "slug": "teachings-of-charity",
+  "name": "Teachings of Charity",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "charity-books",
+  "rarity": 2,
+  "description": "Charity is the salvation of the frozen realm.\nIt is the love and vigilant care shared among mortals. Across this vast and boundless land, it is the warmth by which the people withstand the biting frost, soothing the deep-seated scars etched into their memories.",
+  "releaseVersion": "7.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

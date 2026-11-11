@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schemas/item-types.json",
+  "id": 4,
+  "slug": "character-talent-materials",
+  "name": "Character Talent Materials",
+  "inventoryCategory": "Character Development Items",
+  "images": {}
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 65,
+  "slug": "the-lonesome-euthymia",
+  "name": "The Lonesome Euthymia",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.1",
+  "images": {}
+}

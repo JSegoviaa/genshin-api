@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 31,
+  "slug": "storming-terror",
+  "name": "Storming Terror",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Brightcrown Mountains",
+  "description": "After a long and daring pursuit of Dvalin, who has been led astray by the Abyss Mages, you are about to finally confront him once and for all.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 18,
+      "recommendedLevel": 26
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

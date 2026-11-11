@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 422,
+  "slug": "guide-to-charity",
+  "name": "Guide to Charity",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "charity-books",
+  "rarity": 3,
+  "description": "Charity is the salvation of the frozen realm.\nIt breeds mercy for others. In the realm of wind and snow, whosoever sincerely repents for the sins of their soul shall find absolution in the name of Charity.",
+  "releaseVersion": "7.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

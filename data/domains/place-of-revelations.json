@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 148,
+  "slug": "place-of-revelations",
+  "name": "Place of Revelations",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "Dain brings you to where he hid the \"eye\" before. As you continue onward, the answers will soon be revealed. But when you step within, there seems to be something strange going on with Dain...",
+  "recommendedElements": [
+    "pyro",
+    "electro"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.7",
+  "images": {}
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 311,
+  "slug": "teachings-of-contention",
+  "name": "Teachings of Contention",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "contention-books",
+  "rarity": 2,
+  "description": "Contention is the principle by which all is weighed in the Nation of Pyro.\nWhat defines strength, and what weakness? Only victory and defeat. The results of a contest are more convincing than any words.",
+  "releaseVersion": "5.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

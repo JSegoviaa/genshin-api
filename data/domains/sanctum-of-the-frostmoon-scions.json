@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 180,
+  "slug": "sanctum-of-the-frostmoon-scions",
+  "name": "Sanctum of the Frostmoon Scions",
+  "type": "quest-domains",
+  "region": "nod-krai",
+  "area": "Hiisi Island",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "Luna I",
+  "images": {}
+}

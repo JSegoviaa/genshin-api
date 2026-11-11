@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 37,
+  "id": 46,
   "slug": "la-signora-materials",
   "name": "La Signora Materials",
   "type": "character-level-up-materials",
   "source": "weekly-boss-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 133,
+  "slug": "aquanigma",
+  "name": "Aquanigma",
+  "type": "quest-domains",
+  "region": "fontaine",
+  "area": "Court of Fontaine Region",
+  "description": "According to the intelligence you have uncovered, this is where the culprit produces the Sinthe. There might be clues to the serial disappearances case inside.\nQuickly and carefully explore the place and look for conclusive evidence.",
+  "recommendedElements": [
+    "hydro",
+    "pyro",
+    "electro",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.0",
+  "images": {}
+}

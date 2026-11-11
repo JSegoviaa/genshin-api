@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 80,
+  "slug": "realm-of-snaring-illusions",
+  "name": "Realm of Snaring Illusions",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "The Chasm: Underground Mines",
+  "description": "A wondrous space hidden within The Chasm's depths. It is a key location filled with many mysteries.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.7",
+  "images": {}
+}

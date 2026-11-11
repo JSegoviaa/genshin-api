@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 113,
+  "slug": "the-greater-lords-remaining-consciousness",
+  "name": "The Greater Lord's Remaining Consciousness",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "Story Review:\n\nYou and Nahida successfully prevented the Akademiya's god-creation plan. With the Electro Gnosis in hand, you see where your hope of saving Irminsul lies...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.2",
+  "images": {}
+}

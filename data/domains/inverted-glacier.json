@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 188,
+  "slug": "inverted-glacier",
+  "name": "Inverted Glacier",
+  "type": "domains-of-blessing",
+  "region": "snezhnaya",
+  "area": "Everfrozen Earth",
+  "description": "In the most ancient legends of the fae, the dead tundra was once blanketed in lush, vibrant greenery, and streams of sweet honey filled the placid frozen sea. Yet, not even the eldest among them had ever witnessed that mythical paradise. Wherever the eye turned, naught but suffering and blizzards endlessly grind down the solemn, somber earth, and the fragile yet unyielding souls who clung to it.",
+  "recommendedElements": [
+    "cryo",
+    "electro",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 89
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "brave-heart",
+      "heart-of-the-furnace",
+      "scarlet-proof",
+      "the-exile"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "7.0",
+  "images": {}
+}

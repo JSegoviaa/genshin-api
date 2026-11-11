@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 27,
+  "slug": "gold-books",
+  "name": "Gold Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "taishan-mansion",
+  "domainLevel": "Circle of Embers",
+  "images": {}
+}

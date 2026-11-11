@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 67,
+  "slug": "moshiri-kara",
+  "name": "Moshiri Kara",
+  "type": "one-time-domains",
+  "region": "inazuma",
+  "area": "Tsurumi Island",
+  "description": "A mansion that was set up somewhere outside the Sea of Fog. No one knows who built this place, but it seems clear that it is now nothing but a den of ravenous wolves.",
+  "recommendedElements": [
+    "electro",
+    "geo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.2",
+  "images": {}
+}

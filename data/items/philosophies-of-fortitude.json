@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 426,
+  "slug": "philosophies-of-fortitude",
+  "name": "Philosophies of Fortitude",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "fortitude-books",
+  "rarity": 4,
+  "description": "Fortitude is the defining character of the frozen realm.\nIt breeds the prosperity of life itself. The people here have never bowed to the biting cold, just as a fragile seed defiantly chooses to bloom amidst the blizzards. This civilization has witnessed centuries of bitter winter, yet remains vibrant much like the Frostfairy Flower that flourishes season after season.",
+  "releaseVersion": "7.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

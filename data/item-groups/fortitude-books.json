@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 117,
+  "slug": "fortitude-books",
+  "name": "Fortitude Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "relics-of-the-fallen-grace",
+  "domainLevel": "Hermitage",
+  "images": {}
+}

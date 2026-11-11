@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 97,
+  "id": 121,
   "slug": "the-frost-emperor",
   "name": "The Frost Emperor",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "scars-of-cursed-obsession",
+  "domainLevel": "Severed Steel",
   "images": {}
 }

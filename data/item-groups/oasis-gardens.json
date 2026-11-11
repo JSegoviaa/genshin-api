@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 47,
+  "id": 59,
   "slug": "oasis-gardens",
   "name": "Oasis Gardens",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "tower-of-abject-pride",
+  "domainLevel": "Obsession",
   "images": {}
 }

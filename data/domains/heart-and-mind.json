@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 172,
+  "slug": "heart-and-mind",
+  "name": "Heart and Mind",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Sea of Clouds",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.7",
+  "images": {}
+}

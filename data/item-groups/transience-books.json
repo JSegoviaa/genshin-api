@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 39,
+  "slug": "transience-books",
+  "name": "Transience Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "violet-court",
+  "domainLevel": "Reign of Violet",
+  "images": {}
+}

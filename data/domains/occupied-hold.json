@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 88,
+  "slug": "occupied-hold",
+  "name": "Occupied Hold",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "This was once a secret holding of the Takatsukasa Clan which was taken over by ronin after being abandoned.\nIf you should meet any resistance on the way in... Well, might as well check how much strength remains in this mystical sword.",
+  "recommendedElements": [
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.8",
+  "images": {}
+}

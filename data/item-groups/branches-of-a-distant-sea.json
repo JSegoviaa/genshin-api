@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 33,
+  "id": 42,
   "slug": "branches-of-a-distant-sea",
   "name": "Branches of a Distant Sea",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "court-of-flowing-sand",
+  "domainLevel": "Sunken Sands",
   "images": {}
 }

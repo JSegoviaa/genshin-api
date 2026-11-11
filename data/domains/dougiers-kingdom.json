@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 135,
+  "slug": "dougiers-kingdom",
+  "name": "Dougier's \"Kingdom\"",
+  "type": "quest-domains",
+  "region": "fontaine",
+  "area": "Liffey Region",
+  "description": "Based on the investigation and prelimary conjecture, the goons of the Beret Society and their victims should be gathered deep within this place.\nDougier must have expected trouble, and has prepared a suitable \"welcome gift.\" As such, extensive preparations should be undertaken before entering.",
+  "recommendedElements": [
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.1",
+  "images": {}
+}

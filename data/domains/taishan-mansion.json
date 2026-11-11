@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 9,
+  "slug": "taishan-mansion",
+  "name": "Taishan Mansion",
+  "type": "domains-of-mastery",
+  "region": "liyue",
+  "area": "Minlin",
+  "description": "Once, people who sought the path of the adepti had to pass the trials of heavens and earth. Taishan Mansion served as the trial of \"earth.\" Now that the adepti have long departed from this realm, Taishan Mansion has also turned into a common treasure trove.",
+  "recommendedElements": [
+    "hydro",
+    "cryo",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 38
+    },
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": 54
+    },
+    {
+      "requiredAdventureRank": 36,
+      "recommendedLevel": 71
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 88
+    }
+  ],
+  "rewards": {
+    "items": [
+      "teachings-of-prosperity",
+      "guide-to-prosperity",
+      "philosophies-of-prosperity",
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence",
+      "teachings-of-gold",
+      "guide-to-gold",
+      "philosophies-of-gold"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

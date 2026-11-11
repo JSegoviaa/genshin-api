@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 15,
+  "slug": "temple-of-the-falcon",
+  "name": "Temple of the Falcon",
+  "type": "one-time-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "This ruin used to be a temple devoted to the benevolent Falcon of the West. The Temple of the Falcon has watched over Windrise for thousands of years. Perhaps the winds of the past still linger within its halls.",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 12,
+      "recommendedLevel": 20
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

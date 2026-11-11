@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 99,
+  "slug": "silent-seeker-of-knowledge",
+  "name": "Silent Seeker of Knowledge",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

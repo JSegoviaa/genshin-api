@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 147,
+  "slug": "into-the-sunlight",
+  "name": "Into the Sunlight",
+  "type": "quest-domains",
+  "region": "fontaine",
+  "area": "Liffey Region",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.6",
+  "images": {}
+}

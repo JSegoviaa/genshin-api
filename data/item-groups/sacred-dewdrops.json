@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 59,
+  "id": 74,
   "slug": "sacred-dewdrops",
   "name": "Sacred Dewdrops",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "echoes-of-the-deep-tides",
+  "domainLevel": "Artisanship",
   "images": {}
 }

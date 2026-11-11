@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 69,
+  "slug": "crumbling-guilt",
+  "name": "Crumbling Guilt",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Kannazuka",
+  "description": "After a round of pursuit, you and Itto have reached the ronin hideout.\nOnly by breaking through the obstacles that lie ahead can you resolve the misunderstanding between the Crimson Oni and the Blue Oni.",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.3",
+  "images": {}
+}

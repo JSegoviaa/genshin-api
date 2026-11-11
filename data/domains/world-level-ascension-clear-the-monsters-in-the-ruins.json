@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 158,
+  "slug": "world-level-ascension-clear-the-monsters-in-the-ruins",
+  "name": "World Level Ascension: Clear the Monsters in the Ruins",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "This world is about to become a more dangerous place for adventurers. Unlock new challenges, you who are ready. Ad astra abyssosque!",
+  "recommendedElements": [
+    "pyro",
+    "cryo",
+    "anemo",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 58,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.0",
+  "images": {}
+}

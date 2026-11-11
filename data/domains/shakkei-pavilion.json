@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 55,
+  "slug": "shakkei-pavilion",
+  "name": "Shakkei Pavilion",
+  "type": "one-time-domains",
+  "region": "inazuma",
+  "area": "Kannazuka",
+  "description": "This magnificent mansion was built by an ancient ascetic warrior in the depths of the earth using scenery borrowed from the outside world. At some point during the many years that followed, it was sealed for reasons unknown.",
+  "recommendedElements": [
+    "pyro",
+    "electro",
+    "cryo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 32,
+      "recommendedLevel": null
+    },
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 6
+    },
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 7
+    },
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": null
+    },
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 79
+    },
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 87
+    },
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 89
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.0",
+  "images": {}
+}

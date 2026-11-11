@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 96,
+  "slug": "under-the-umbrellas-shade",
+  "name": "Under the Umbrella's Shade",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Lokapala Jungle",
+  "description": "The poets have it that spores, like trees, are connected to each other, and that all fungal beings in the world share a single dream. At the end of that dream, the spores would take on the forms of all things, and that all things would return to the beginning — return to being one — and that there would never again be boundaries. But the evolution of Fungi into sentient, locomotive beings was not something that happened in such primordial times. Regardless, this place has become fertile soil for Fungi to thrive.",
+  "recommendedElements": [
+    "dendro",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 20,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 166,
+  "slug": "bastion-of-nightmares",
+  "name": "Bastion of Nightmares",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "Based on Miko's information, you and Mizuki manage to find Emura Chuuya's hiding place. Alone on a small island, this isolated house seems to harbor some kind of mystery. Even though there is a palpable sense of danger in the air, the two of you decide to venture inside...",
+  "recommendedElements": [
+    "electro",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.4",
+  "images": {}
+}

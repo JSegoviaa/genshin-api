@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/domain-types.json",
+  "id": 4,
+  "slug": "trounce-domains",
+  "name": "Trounce Domains",
+  "category": "Permanent Domains",
+  "description": "Trounce Domains are powerful Weekly Bosses that can be re-challenged after completing their respective Archon or Story Quests. They can be accessed on all days of the week.",
+  "images": {}
+}

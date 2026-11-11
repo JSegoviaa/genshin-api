@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 290,
+  "id": 344,
   "slug": "sparkless-statue-core",
   "name": "Sparkless Statue Core",
   "type": "character-level-up-materials",

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/domain-types.json",
+  "id": 6,
+  "slug": "quest-domains",
+  "name": "Quest Domains",
+  "category": "Temporary Domains",
+  "description": "Quest Domains are unique one-time domains that can only be accessed as part of an Archon, Story, or World Quests. Once complete they can no longer be visited, hence, one should check for hidden chests thoroughly.",
+  "images": {}
+}

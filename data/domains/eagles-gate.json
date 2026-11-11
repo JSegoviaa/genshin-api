@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 13,
+  "slug": "eagles-gate",
+  "name": "Eagle's Gate",
+  "type": "one-time-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "Both the prideful eagles and noble souls favor transcendent heights apart from the secular world. In days past, those who despised mortal squabbles as the eagles do could find peace of mind in this place.",
+  "recommendedElements": [
+    "pyro",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 35
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

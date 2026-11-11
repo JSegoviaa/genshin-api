@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 58,
+  "slug": "narukami-island-tenshukaku",
+  "name": "Narukami Island: Tenshukaku",
+  "type": "trounce-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "This is the dwelling of the Raiden Shogun, who rules over Inazuma. It is also the perfect place for a \"duel before the throne.\"",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "molten-moment",
+      "hellfire-butterfly",
+      "ashen-heart"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "la-signora"
+  ],
+  "releaseVersion": "2.1",
+  "images": {}
+}

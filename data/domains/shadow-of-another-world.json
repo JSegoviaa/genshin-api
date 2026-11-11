@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 136,
+  "slug": "shadow-of-another-world",
+  "name": "Shadow of Another World",
+  "type": "trounce-domains",
+  "region": "fontaine",
+  "area": "Court of Fontaine Region",
+  "description": "The behemoth that once devoured the birthing waters of the planet has departed without a single trace, but those in the know will forever live, surely, in the terrifying shadow of that omen of the end. A single shard of shattered spacetime remains in this place, and through it, you may perhaps be able to witness that titanic creature once more.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "lightless-silk-string",
+      "lightless-eye-of-the-maelstrom",
+      "lightless-mass"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "all-devouring-narwhal"
+  ],
+  "releaseVersion": "4.2",
+  "images": {}
+}

@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 54,
+  "id": 66,
   "slug": "fontemer-aberrant-materials",
   "name": "Fontemer Aberrant Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

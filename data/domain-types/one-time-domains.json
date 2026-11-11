@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/domain-types.json",
+  "id": 5,
+  "slug": "one-time-domains",
+  "name": "One-Time Domains",
+  "category": "Permanent Domains",
+  "description": "One-Time Domains are unique domains that are denoted by a smaller blue circle that provide a set reward upon the first time a player completes them. They are still open after the first completion but will not offer any rewards. One-Time Domains provide an early boost to Adventure Rank through their Adventure EXP rewards and sometimes offer unique Food recipes, along with Primogems.",
+  "images": {}
+}

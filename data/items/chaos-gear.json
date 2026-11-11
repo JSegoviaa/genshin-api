@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 112,
+  "id": 130,
   "slug": "chaos-gear",
   "name": "Chaos Gear",
   "type": "character-and-weapon-enhancement-materials",

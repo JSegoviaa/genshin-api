@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 71,
+  "slug": "sea-gazers-abode",
+  "name": "Sea Gazer's Abode",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Lisha",
+  "description": "An abode created by Sea Gazer. It has been abandoned for some time, but the adeptal energies within still power many an automatic defense system to deter trespassers",
+  "recommendedElements": [
+    "cryo",
+    "geo",
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.4",
+  "images": {}
+}

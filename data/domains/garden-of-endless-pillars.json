@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 105,
+  "slug": "garden-of-endless-pillars",
+  "name": "Garden of Endless Pillars",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Hypostyle Desert",
+  "description": "This palatial place was once dominated by many thousands of giant pillars, and priests and the powerful alike once walked beneath their bower unrestrained. But all that is left of the mighty and proud city of sapphire now is wrack and ruin.",
+  "recommendedElements": [
+    "dendro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 24,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.1",
+  "images": {}
+}

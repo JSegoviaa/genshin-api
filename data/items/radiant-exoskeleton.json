@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 306,
+  "id": 360,
   "slug": "radiant-exoskeleton",
   "name": "Radiant Exoskeleton",
   "type": "character-and-weapon-enhancement-materials",

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 139,
+  "slug": "guide-to-transience",
+  "name": "Guide to Transience",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "transience-books",
+  "rarity": 3,
+  "description": "Transience is the dream of the nation of thunder.\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
+  "releaseVersion": "2.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 157,
+  "slug": "the-mysterious-islands-truth",
+  "name": "The Mysterious Island's Truth",
+  "type": "quest-domains",
+  "region": "natlan",
+  "area": "Toyac Springs",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.0",
+  "images": {}
+}

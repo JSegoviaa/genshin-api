@@ -469,6 +469,59 @@ describe("detail", () => {
     );
   });
 
+  it("returns domains with levels, rewards and bosses", async () => {
+    const { status, body } = await get("/api/v1/domains/cecilia-garden");
+    expect(status).toBe(200);
+    expect(body.type).toMatchObject({ slug: "domains-of-forgery" });
+    expect(body.region).toMatchObject({ slug: "mondstadt" });
+    expect(body.tiers[0]).toEqual({
+      requiredAdventureRank: 15,
+      recommendedLevel: 15,
+    });
+    expect(body.levels).toContainEqual({
+      name: "City of Reflections",
+      days: ["monday", "thursday", "sunday"],
+      group: expect.objectContaining({ slug: "decarabian-tiles" }),
+    });
+    expect(body.rewards.items.map((i: any) => i.slug)).toContain(
+      "tile-of-decarabians-tower",
+    );
+    const group = await get("/api/v1/item-groups/decarabian-tiles");
+    expect(group.body.domain).toMatchObject({ slug: "cecilia-garden" });
+    expect(group.body.domainLevel).toBe("City of Reflections");
+    const trounce = await get("/api/v1/domains/confront-stormterror");
+    expect(trounce.body.enemies.map((e: any) => e.slug)).toEqual([
+      "stormterror-dvalin",
+    ]);
+    const blessing = await get(
+      "/api/v1/domains?reward=crimson-witch-of-flames&limit=100",
+    );
+    expect(blessing.body.count).toBeGreaterThan(0);
+    const types = await get("/api/v1/domain-types");
+    expect(types.body.count).toBe(6);
+  });
+
+  it("adds talent books and links domains back from other resources", async () => {
+    const book = await get("/api/v1/items/teachings-of-freedom");
+    expect(book.body.type).toMatchObject({
+      slug: "character-talent-materials",
+    });
+    expect(book.body.source).toBe("domains-of-mastery");
+    expect(book.body.obtainedFrom.map((d: any) => d.slug)).toEqual([
+      "forsaken-rift",
+    ]);
+    const set = await get("/api/v1/artifact-sets/crimson-witch-of-flames");
+    expect(set.body.obtainedFrom.length).toBeGreaterThan(0);
+    const dvalin = await get("/api/v1/enemies/stormterror-dvalin");
+    expect(dvalin.body.domains.map((d: any) => d.slug)).toEqual([
+      "confront-stormterror",
+    ]);
+    const region = await get("/api/v1/regions/mondstadt");
+    expect(region.body.domains.map((d: any) => d.slug)).toContain(
+      "cecilia-garden",
+    );
+  });
+
   it("returns rarity as a reference", async () => {
     const { body } = await get("/api/v1/characters/hu-tao");
     expect(body.rarity).toMatchObject({
@@ -524,6 +577,8 @@ describe("random", () => {
       "item-types",
       "item-groups",
       "items",
+      "domain-types",
+      "domains",
     ]) {
       expect((await get(`/api/v1/${r}/random`)).status).toBe(200);
     }

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 191,
+  "slug": "one-move-left-to-make",
+  "name": "One Move Left to Make",
+  "type": "quest-domains",
+  "region": "snezhnaya",
+  "area": "Everfrozen Earth",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "7.1",
+  "images": {}
+}

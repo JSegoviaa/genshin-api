@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 56,
+  "slug": "ingenuity-books",
+  "name": "Ingenuity Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "steeple-of-ignorance",
+  "domainLevel": "Witticism",
+  "images": {}
+}

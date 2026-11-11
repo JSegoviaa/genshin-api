@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 103,
+  "slug": "the-rhythm-that-reveals-the-beastly-trail",
+  "name": "The Rhythm that Reveals the Beastly Trail",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Ardravi Valley",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

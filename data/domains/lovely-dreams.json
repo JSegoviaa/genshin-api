@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 142,
+  "slug": "lovely-dreams",
+  "name": "Lovely Dreams",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Minlin",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.4",
+  "images": {}
+}

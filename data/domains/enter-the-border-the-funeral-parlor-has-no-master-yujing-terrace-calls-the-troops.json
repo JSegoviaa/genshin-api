@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 163,
+  "slug": "enter-the-border-the-funeral-parlor-has-no-master-yujing-terrace-calls-the-troops",
+  "name": "Enter the \"border\" (The Funeral Parlor Has No Master, Yujing Terrace Calls the Troops)",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Bishui Plain",
+  "description": "Returning to this once familiar place, you find it afflicted by a calamity of unknown origin, such that even the director of Wangsheng Funeral Parlor herself has been trapped within. If you choose to venture deeper, you must proceed with the utmost caution.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.3",
+  "images": {}
+}

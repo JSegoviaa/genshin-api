@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 143,
+  "slug": "youwang-cauldron",
+  "name": "Youwang Cauldron",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Chenyu Vale: Upper Vale",
+  "description": "This was once a treasure granted to Qiaoying Village by an adeptus from Jueyun. As the tea-making process has changed, the Youwang Cauldron has long ceased to serve the same key function it used to. However, its symbolic role in the hearts of the villagers is likely irreplaceable...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.4",
+  "images": {}
+}

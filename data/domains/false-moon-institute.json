@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 184,
+  "slug": "false-moon-institute",
+  "name": "False Moon Institute",
+  "type": "trounce-domains",
+  "region": "nod-krai",
+  "area": "Ashveil Peak",
+  "description": "A Fatui research facility that stands upon the northern reaches of Nod-Krai. It conceals secrets as deep and uncharted as the structures buried far beneath its foundations.\nEven now, when dusk descends upon this place, memories linger of the battle that once tore the very sky asunder.\nYet the moon of Nod-Krai has at last returned to its rightful home, and those who dwell in this sublunary sphere have found tranquility again...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "mask-of-the-virtuous-doctor",
+      "madmans-restraint",
+      "elixir-of-the-heretic"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "heretic-of-the-false-moon"
+  ],
+  "releaseVersion": "Luna IV",
+  "images": {}
+}

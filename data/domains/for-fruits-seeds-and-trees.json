@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 98,
+  "slug": "for-fruits-seeds-and-trees",
+  "name": "For Fruits, Seeds, and Trees",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Vissudha Field",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

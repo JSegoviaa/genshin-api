@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 117,
+  "slug": "the-night-bird-falls-at-the-curtains-call",
+  "name": "The Night-Bird Falls at the Curtain's Call",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.3",
+  "images": {}
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 130,
+  "slug": "denouement-of-sin",
+  "name": "Denouement of Sin",
+  "type": "domains-of-blessing",
+  "region": "fontaine",
+  "area": "Belleau Region",
+  "description": "Legends say that the first Lochknight concealed themselves in the remote wilderness with the Lochfolk, intending to use self-exile and rigorous training in an attempt to repay a sin fated to be beyond redemption. Now, the land has long returned to deathly silence, with the long chill winds still blowing through the deserted valley.",
+  "recommendedElements": [
+    "hydro",
+    "pyro",
+    "cryo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "defenders-will",
+      "golden-troupe",
+      "marechaussee-hunter",
+      "resolution-of-sojourner"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "4.0",
+  "images": {}
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 179,
+  "slug": "chamber-of-the-frostmoon-chant",
+  "name": "Chamber of the Frostmoon Chant",
+  "type": "quest-domains",
+  "region": "nod-krai",
+  "area": "Hiisi Island",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "Luna I",
+  "images": {}
+}

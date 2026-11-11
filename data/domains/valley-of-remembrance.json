@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 5,
+  "slug": "valley-of-remembrance",
+  "name": "Valley of Remembrance",
+  "type": "domains-of-blessing",
+  "region": "mondstadt",
+  "area": "Windwail Highland",
+  "description": "After a period of time, the people of the continent lost track of the past. They attempt to explore downwards, searching for the things that they had forgotten. On the other side of the ancient tree's hollow, the secrets of yesterday have become today's treasures.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 47
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "maiden-beloved",
+      "tiny-miracle",
+      "traveling-doctor",
+      "viridescent-venerer"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

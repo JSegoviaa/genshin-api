@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 95,
+  "slug": "the-dark-valley",
+  "name": "The Dark Valley",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Ardravi Valley",
+  "description": "Legend has it that the moon once had a face. Under the fierce moon's face, like a white bow, the paths through the forest labyrinth would bring lost people to jade and amber dreams. This forest labyrinth has ceased to exist for hundreds of years — and yet even a hundred thousand winters must seem like a day in the garden of dreams.",
+  "recommendedElements": [
+    "dendro",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

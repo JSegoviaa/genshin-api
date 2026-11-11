@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 146,
+  "slug": "scattered-ruins",
+  "name": "Scattered Ruins",
+  "type": "trounce-domains",
+  "region": "fontaine",
+  "area": "Liffey Region",
+  "description": "This courtyard was once a wonder to behold, but now lies desolate.\nThe previous battle has been buried like the dying light, but the next duel shall come, as long as the \"Family\" endures...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "fading-candle",
+      "silken-feather",
+      "denial-and-judgment"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "the-knave"
+  ],
+  "releaseVersion": "4.6",
+  "images": {}
+}

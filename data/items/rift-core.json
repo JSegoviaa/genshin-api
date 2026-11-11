@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 211,
+  "id": 247,
   "slug": "rift-core",
   "name": "Rift Core",
   "type": "character-and-weapon-enhancement-materials",

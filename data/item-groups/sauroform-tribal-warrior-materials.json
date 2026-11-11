@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 67,
+  "id": 82,
   "slug": "sauroform-tribal-warrior-materials",
   "name": "Sauroform Tribal Warrior Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 98,
+  "id": 122,
   "slug": "mindless-iceborn-materials",
   "name": "Mindless Iceborn Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

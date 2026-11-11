@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 126,
+  "slug": "somalata-inland-sea",
+  "name": "Somalata Inland Sea",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Realm of Farakhkert",
+  "description": "The fragrant sea underneath the desert is still as luxuriant today as it has always been. Nobody knows when the marvelous sentient Fungi moved in and became part of the ecology of the underground ocean.",
+  "recommendedElements": [
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.6",
+  "images": {}
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 52,
+  "slug": "violet-court",
+  "name": "Violet Court",
+  "type": "domains-of-mastery",
+  "region": "inazuma",
+  "area": "Kannazuka",
+  "description": "Sometime in the ancient past, the mountains rose higher than the skies, and the earth was larger than heaven's dome. But one day, the mirror shattered, and the oceans arose. In these legends, this caused the court of the primeval sakura to become sundered from the other islands.",
+  "recommendedElements": [
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 38
+    },
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": 54
+    },
+    {
+      "requiredAdventureRank": 36,
+      "recommendedLevel": 71
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 88
+    }
+  ],
+  "rewards": {
+    "items": [
+      "teachings-of-transience",
+      "guide-to-transience",
+      "philosophies-of-transience",
+      "teachings-of-elegance",
+      "guide-to-elegance",
+      "philosophies-of-elegance",
+      "teachings-of-light",
+      "guide-to-light",
+      "philosophies-of-light"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.0",
+  "images": {}
+}

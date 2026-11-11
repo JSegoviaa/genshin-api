@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 25,
+  "slug": "prosperity-books",
+  "name": "Prosperity Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "taishan-mansion",
+  "domainLevel": "Altar of Flames",
+  "images": {}
+}

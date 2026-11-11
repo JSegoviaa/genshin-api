@@ -18,6 +18,8 @@ export const RESOURCE_NAMES = [
   "item-types",
   "item-groups",
   "items",
+  "domain-types",
+  "domains",
 ] as const;
 
 export type ResourceName = (typeof RESOURCE_NAMES)[number];

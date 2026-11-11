@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 160,
+  "slug": "tlazollis-forge",
+  "name": "Tlazolli's Forge",
+  "type": "quest-domains",
+  "region": "natlan",
+  "area": "Tequemecan Valley",
+  "description": "A workshop that Tlazolli announced had been abandoned and sealed off. Now, an ominous crackling echoes within...",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.1",
+  "images": {}
+}

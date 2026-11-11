@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 76,
+  "slug": "teachings-of-freedom",
+  "name": "Teachings of Freedom",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "freedom-books",
+  "rarity": 2,
+  "description": "Freedom is the spirit of the land of the wind.\nThe freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
+  "releaseVersion": "1.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

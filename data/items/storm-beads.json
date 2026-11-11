@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 136,
+  "id": 163,
   "slug": "storm-beads",
   "name": "Storm Beads",
   "type": "character-level-up-materials",

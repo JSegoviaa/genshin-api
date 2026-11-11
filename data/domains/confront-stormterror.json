@@ -1,0 +1,68 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 10,
+  "slug": "confront-stormterror",
+  "name": "Confront Stormterror",
+  "type": "trounce-domains",
+  "region": "mondstadt",
+  "area": "Brightcrown Mountains",
+  "description": "The towering but broken spire tells of its tragic story silently. Its chambers and halls are filled with memories and longing, as well as howling winds.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 40
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 50
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "vayuda-turquoise-sliver",
+      "vayuda-turquoise-fragment",
+      "vayuda-turquoise-chunk",
+      "vayuda-turquoise-gemstone",
+      "dvalins-plume",
+      "dvalins-claw",
+      "dvalins-sigh"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "stormterror-dvalin"
+  ],
+  "releaseVersion": "1.0",
+  "images": {}
+}

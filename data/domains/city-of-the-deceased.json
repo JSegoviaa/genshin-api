@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 118,
+  "slug": "city-of-the-deceased",
+  "name": "City of the Deceased",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Desert of Hadramaveth",
+  "description": "The then-lords of Gurabad regarded death as the only path to the desert's sacred destination. In order to prevent the wretched from defiling this pilgrimage, they buried the unnamed tomb deep underground... But now, this place has become nothing but a paradise for Wenut and Fungi.",
+  "recommendedElements": [
+    "dendro",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 32,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.4",
+  "images": {}
+}

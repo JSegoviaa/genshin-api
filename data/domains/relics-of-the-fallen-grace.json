@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 190,
+  "slug": "relics-of-the-fallen-grace",
+  "name": "Relics of the Fallen Grace",
+  "type": "domains-of-mastery",
+  "region": "snezhnaya",
+  "area": "Fellfrost Peak",
+  "description": "In a bygone era beyond mortal memory, ancient fae bereft of their homeland raised a secluded sanctuary here, yearning to soothe the agony of extinction through cold, solitary asceticism. Yet all things of flesh and blood must eventually fade like a dying ember. Across hundreds of epochs, the remnants who wept for the golden realm — and the countless followers who never knew its past glory — perished one after another like scattering snow. In the end, even the last hermit departed, leaving behind naught but a desolate, freezing silence.",
+  "recommendedElements": [
+    "cryo",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 37
+    },
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": 53
+    },
+    {
+      "requiredAdventureRank": 36,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 87
+    }
+  ],
+  "rewards": {
+    "items": [
+      "teachings-of-charity",
+      "guide-to-charity",
+      "philosophies-of-charity",
+      "teachings-of-fortitude",
+      "guide-to-fortitude",
+      "philosophies-of-fortitude",
+      "teachings-of-glory",
+      "guide-to-glory",
+      "philosophies-of-glory"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "7.0",
+  "images": {}
+}

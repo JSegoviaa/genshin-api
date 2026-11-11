@@ -11,13 +11,14 @@ export const itemGroupResource = defineResource({
     "Groups of items that are the same material in different rarities, such as Hilichurl Materials or Agnidus Agate. Each group lists its items and the enemies that drop them.",
   example: "hilichurl-materials",
   schema: itemGroupSchema,
-  refs: { type: "item-types" },
+  refs: { type: "item-types", domain: "domains" },
   filters: {
     type: { description: "Item type slug", get: (g) => g.type },
     source: {
       description: ITEM_SOURCES.join(" | "),
       get: (g) => g.source,
     },
+    domain: { description: "Domain slug", get: (g) => g.domain },
   },
   sorts: {},
   summary: (g, ctx) => ({
@@ -36,6 +37,8 @@ export const itemGroupResource = defineResource({
       ...head("item-groups", g, ctx),
       type: ctx.ref("item-types", g.type),
       source: g.source,
+      domain: ctx.ref("domains", g.domain),
+      domainLevel: g.domainLevel,
       images: ctx.images(g.images),
       items: ctx.refs(
         "items",

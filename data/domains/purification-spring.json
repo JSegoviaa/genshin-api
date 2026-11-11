@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 125,
+  "slug": "purification-spring",
+  "name": "Purification Spring",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Realm of Farakhkert",
+  "description": "A water body said to be able to wash off all filth and connect to the sea within the earth. Perhaps because of the many similar scents and memories, it is still inhabited by monsters that devoured the remains of greater life forms.",
+  "recommendedElements": [
+    "dendro",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.6",
+  "images": {}
+}

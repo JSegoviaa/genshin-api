@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 30,
+  "id": 36,
   "slug": "nobushi-materials",
   "name": "Nobushi Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 188,
+  "id": 224,
   "slug": "puppet-strings",
   "name": "Puppet Strings",
   "type": "character-level-up-materials",

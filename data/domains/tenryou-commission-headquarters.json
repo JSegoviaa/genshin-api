@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 64,
+  "slug": "tenryou-commission-headquarters",
+  "name": "Tenryou Commission Headquarters",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.1",
+  "images": {}
+}

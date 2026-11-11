@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 72,
+  "slug": "where-the-heart-finds-rest",
+  "name": "Where the Heart Finds Rest",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Sea of Clouds",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.4",
+  "images": {}
+}

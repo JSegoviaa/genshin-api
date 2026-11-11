@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 85,
+  "id": 106,
   "slug": "the-far-north-scions",
   "name": "The Far-North Scions",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "lost-mooncourt",
+  "domainLevel": "Lunar Oblation",
   "images": {}
 }

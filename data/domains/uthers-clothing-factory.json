@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 144,
+  "slug": "uthers-clothing-factory",
+  "name": "Uther's Clothing Factory",
+  "type": "quest-domains",
+  "region": "fontaine",
+  "area": "Court of Fontaine Region",
+  "description": "A suspicious factory located in Fleuve Cendre. It may contain evidence of dishonest business practices on the part of its owner.",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.5",
+  "images": {}
+}

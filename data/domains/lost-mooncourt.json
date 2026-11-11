@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 177,
+  "slug": "lost-mooncourt",
+  "name": "Lost Mooncourt",
+  "type": "domains-of-forgery",
+  "region": "nod-krai",
+  "area": "Hiisi Island",
+  "description": "There was a time when the moon did not rise in solitude as it does today. In those days, three moons caressed the earth with their silver light, and the lunar people knew the secrets of the lunar phases, being able to predict the tidal ebb and flow. Whatever they gently touched with their fingers would surge with moonlit might. Yet in the waning days, the moonlight dimmed, and the people, defenseless and leaderless, were scattered. Legend has it that the Frostmoon Scions constructed a lunar court in the border realms, summoning lost moonlight back to them. Today, that reflected light has disappeared from this forsaken altar. Where it once flowed through these stone carvings, there is now only frozen silence. Yet secrets unveiled in that quietude, perhaps the echoes of ancient oaths, still swirl about within the labyrinth of time.",
+  "recommendedElements": [
+    "dendro",
+    "hydro",
+    "electro",
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 15
+    },
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 36
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    }
+  ],
+  "rewards": {
+    "items": [
+      "artful-device-fragment",
+      "artful-device-replica",
+      "artful-device-inheritance",
+      "artful-device-wish",
+      "ember-of-long-night-flint",
+      "afterglow-of-long-night-flint",
+      "flare-of-long-night-flint",
+      "blaze-of-long-night-flint",
+      "sundered-glory-of-the-far-north-scions",
+      "unyielding-delusion-of-the-far-north-scions",
+      "oblation-of-the-far-north-scions",
+      "aureate-radiance-of-the-far-north-scions"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "Luna I",
+  "images": {}
+}

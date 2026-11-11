@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 116,
+  "slug": "reminiscent-drift",
+  "name": "Reminiscent Drift",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "The memories of a certain puppet. He can be The Balladeer, Harbinger of the Fatui, and he can also be the kabukimono who was once sighted in Tatarasuna.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.3",
+  "images": {}
+}

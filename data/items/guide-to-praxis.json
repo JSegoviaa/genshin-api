@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 204,
+  "slug": "guide-to-praxis",
+  "name": "Guide to Praxis",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "praxis-books",
+  "rarity": 3,
+  "description": "Praxes are the roots of the nation of wisdom.\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
+  "releaseVersion": "3.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

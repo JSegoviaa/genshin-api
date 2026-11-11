@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 101,
+  "slug": "the-rhythm-that-leads-to-the-gloomy-path",
+  "name": "The Rhythm that Leads to the Gloomy Path",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Lokapala Jungle",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

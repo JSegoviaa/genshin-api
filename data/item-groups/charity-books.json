@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 116,
+  "slug": "charity-books",
+  "name": "Charity Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "relics-of-the-fallen-grace",
+  "domainLevel": "Contemplation",
+  "images": {}
+}

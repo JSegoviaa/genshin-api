@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 149,
+  "slug": "rawats-private-laboratory",
+  "name": "Rawat's Private Laboratory",
+  "type": "quest-domains",
+  "region": "fontaine",
+  "area": "Fontaine Research Institute of Kinetic Energy Engineering Region",
+  "description": "With the aid of the clues you found in Rawat's residence, you found this hidden underground laboratory. The truth behind Rawat's disappearance and the case may be hidden within...",
+  "recommendedElements": [
+    "hydro"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.7",
+  "images": {}
+}

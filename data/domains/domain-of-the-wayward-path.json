@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 12,
+  "slug": "domain-of-the-wayward-path",
+  "name": "Domain of the Wayward Path",
+  "type": "one-time-domains",
+  "region": "liyue",
+  "area": "Lisha",
+  "description": "Although Treasure Hoarders have long heard of treasures hidden here, they have yet to discover its location. In this world, the more one clings to delusions, the more quickly they slip through one's fingers. Only when the heart's desires are finally cast aside can the narrow path to peace be found.",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 27,
+      "recommendedLevel": 50
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

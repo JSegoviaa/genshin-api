@@ -68,6 +68,9 @@ export const itemResource = defineResource({
     droppedBy: ctx.related<Enemy>("enemies", (e) =>
       e.drops.items.includes(i.slug),
     ),
+    obtainedFrom: ctx.related<{
+      rewards: { items: string[]; artifactSets: string[] };
+    }>("domains", (d) => d.rewards.items.includes(i.slug)),
     usedBy: {
       characters: ctx.related<Character>("characters", (c) =>
         characterMaterials(c).includes(i.slug),

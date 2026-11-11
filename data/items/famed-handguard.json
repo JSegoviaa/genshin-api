@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 111,
+  "id": 129,
   "slug": "famed-handguard",
   "name": "Famed Handguard",
   "type": "character-and-weapon-enhancement-materials",

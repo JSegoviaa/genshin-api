@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 87,
+  "slug": "philosophies-of-prosperity",
+  "name": "Philosophies of Prosperity",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "prosperity-books",
+  "rarity": 4,
+  "description": "Prosperity is the people's pursuit in the land of Geo. Prosperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations - it all belongs to Liyue and its inhabitants.",
+  "releaseVersion": "1.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

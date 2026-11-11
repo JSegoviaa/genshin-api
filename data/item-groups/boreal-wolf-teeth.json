@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 23,
+  "id": 29,
   "slug": "boreal-wolf-teeth",
   "name": "Boreal Wolf Teeth",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "cecilia-garden",
+  "domainLevel": "Submerged Valley",
   "images": {}
 }

@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 162,
+  "slug": "stone-stele-records",
+  "name": "Stone Stele Records",
+  "type": "trounce-domains",
+  "region": "natlan",
+  "area": "Tezcatepetonco Range",
+  "description": "A giant stone tablet that has been erected in Natlan, upon which is etched the image of a new hero. Its real foundation was collective will, brought together in the cruicible of brutal battle. The silent carvings that stand here serve as a reminder to all — to forget neither the suffering and resolve of the fallen, nor the sacrifices and contributions of the brave.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "eroded-horn",
+      "eroded-sunfire",
+      "eroded-scale-feather"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "lord-of-eroded-primal-fire"
+  ],
+  "releaseVersion": "5.3",
+  "images": {}
+}

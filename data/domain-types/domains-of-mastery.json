@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/domain-types.json",
+  "id": 3,
+  "slug": "domains-of-mastery",
+  "name": "Domains of Mastery",
+  "category": "Permanent Domains",
+  "description": "Domains of Mastery award Character Talent Materials. These are used to upgrade character talents. Players must reach Adventure Rank 27 or complete Of the Land Amidst Monoliths to unlock the entrances to these domains.",
+  "images": {}
+}

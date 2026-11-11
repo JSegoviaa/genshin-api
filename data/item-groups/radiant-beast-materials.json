@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 81,
+  "id": 99,
   "slug": "radiant-beast-materials",
   "name": "Radiant Beast Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

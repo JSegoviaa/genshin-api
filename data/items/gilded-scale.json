@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 107,
+  "id": 125,
   "slug": "gilded-scale",
   "name": "Gilded Scale",
   "type": "character-level-up-materials",

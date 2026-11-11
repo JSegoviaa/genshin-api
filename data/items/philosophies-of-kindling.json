@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 316,
+  "slug": "philosophies-of-kindling",
+  "name": "Philosophies of Kindling",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "kindling-books",
+  "rarity": 4,
+  "description": "Offering up kindling is the established rule of the Nation of Pyro.\nWhat is meant by offering kindling is to offer up a sacrifice before one obtains something, though it does not always guarantee a response or return. Its true meaning lies in paying a price without expecting a reward — for in the end, the day when the fruits will be reaped is sure to come.",
+  "releaseVersion": "5.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 82,
+  "slug": "teachings-of-ballad",
+  "name": "Teachings of Ballad",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "ballad-books",
+  "rarity": 2,
+  "description": "Poetry is the soul of the land of the wind.\nPoetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves.",
+  "releaseVersion": "1.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

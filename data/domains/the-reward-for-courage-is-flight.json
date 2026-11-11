@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 34,
+  "slug": "the-reward-for-courage-is-flight",
+  "name": "The Reward for Courage is Flight",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Windwail Highland",
+  "description": "Raptor is lurking somewhere deep inside this temple. You cannot let him escape again. Use what you've learned about gliding to take him down.",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 13
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

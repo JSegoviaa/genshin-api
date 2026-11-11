@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 198,
+  "slug": "guide-to-admonition",
+  "name": "Guide to Admonition",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "admonition-books",
+  "rarity": 3,
+  "description": "Admonition is the branches of the nation of wisdom.\nAdmonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river.",
+  "releaseVersion": "3.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

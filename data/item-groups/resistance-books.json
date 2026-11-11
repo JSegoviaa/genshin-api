@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 23,
+  "slug": "resistance-books",
+  "name": "Resistance Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "forsaken-rift",
+  "domainLevel": "Frozen Abyss",
+  "images": {}
+}

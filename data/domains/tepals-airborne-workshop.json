@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 161,
+  "slug": "tepals-airborne-workshop",
+  "name": "Tepal's \"Airborne Workshop\"",
+  "type": "quest-domains",
+  "region": "natlan",
+  "area": "Quahuacan Cliff",
+  "description": "Tepal's \"Airborne Workshop,\" hidden above the clouds. Obsession piled up until it finally reached the vault of heaven.",
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.2",
+  "images": {}
+}

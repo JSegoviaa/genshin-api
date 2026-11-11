@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 203,
+  "slug": "teachings-of-praxis",
+  "name": "Teachings of Praxis",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "praxis-books",
+  "rarity": 2,
+  "description": "Praxes are the roots of the nation of wisdom.\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
+  "releaseVersion": "3.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/domain-types.json",
+  "id": 2,
+  "slug": "domains-of-forgery",
+  "name": "Domains of Forgery",
+  "category": "Permanent Domains",
+  "description": "Domains of Forgery award Weapon Ascension Materials. These materials can be used to ascend weapons to increase their stats and max level. Players must reach Adventure Rank 16 or complete For a Tomorrow Without Tears to unlock the entrances to these domains.",
+  "images": {}
+}

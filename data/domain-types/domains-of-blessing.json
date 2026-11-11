@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/domain-types.json",
+  "id": 1,
+  "slug": "domains-of-blessing",
+  "name": "Domains of Blessing",
+  "category": "Permanent Domains",
+  "description": "Domains of Blessing award Artifacts. Artifacts will increase the strength of characters in many ways. Players must reach Adventure Rank 22 or complete Song of the Dragon and Freedom to unlock the entrances to these domains.",
+  "images": {}
+}

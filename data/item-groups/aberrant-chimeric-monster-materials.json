@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 92,
+  "id": 113,
   "slug": "aberrant-chimeric-monster-materials",
   "name": "Aberrant Chimeric Monster Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "general-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

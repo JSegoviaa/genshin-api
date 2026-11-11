@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 48,
+  "slug": "behind-enemy-lines",
+  "name": "Behind Enemy Lines",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "After winning Schubert's trust, he has decided to take you to see his \"friends from a distant land.\"\nThe Fatui may be skulking within, so make sure to be fully prepared before stepping forward to investigate.",
+  "recommendedElements": [
+    "hydro",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.5",
+  "images": {}
+}

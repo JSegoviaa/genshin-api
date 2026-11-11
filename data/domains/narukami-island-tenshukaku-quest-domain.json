@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 62,
+  "slug": "narukami-island-tenshukaku-quest-domain",
+  "name": "Narukami Island: Tenshukaku (Quest Domain)",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "This is where the Raiden Shogun dwells. If your guess isn't off, you are about to meet Signora again.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.1",
+  "images": {}
+}

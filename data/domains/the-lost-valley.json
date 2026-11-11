@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 76,
+  "slug": "the-lost-valley",
+  "name": "The Lost Valley",
+  "type": "domains-of-blessing",
+  "region": "liyue",
+  "area": "The Chasm (Area)",
+  "description": "The ancient ritual grounds were buried beneath the earth amidst a cataclysm that tore heaven and earth asunder before being uplifted by the descent of an alien object, and finally unveiled by a destructive battle that resulted from a betrayal. Nonetheless, those who once frequented this place are no more.",
+  "recommendedElements": [
+    "pyro",
+    "electro",
+    "geo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "echoes-of-an-offering",
+      "gambler",
+      "martial-artist",
+      "vermillion-hereafter"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "2.6",
+  "images": {}
+}

@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 41,
+  "id": 50,
   "slug": "the-black-serpents-material",
   "name": "The Black Serpents Material",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

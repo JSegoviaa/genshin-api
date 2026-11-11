@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 2,
+  "slug": "domain-of-guyun",
+  "name": "Domain of Guyun",
+  "type": "domains-of-blessing",
+  "region": "liyue",
+  "area": "Sea of Clouds",
+  "description": "Delusions and disappointments of an ancient ambition to lead humanity are gathered here. It refuses to give up on its lofty ambitions, though it is for now consigned to fester in the cavernous depths of Guyun.",
+  "recommendedElements": [
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 20,
+      "recommendedLevel": 34
+    },
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 47
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "archaic-petra",
+      "brave-heart",
+      "lucky-dog",
+      "retracing-bolide"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

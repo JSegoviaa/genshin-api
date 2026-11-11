@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 152,
+  "slug": "sanctum-of-rainbow-spirits",
+  "name": "Sanctum of Rainbow Spirits",
+  "type": "domains-of-blessing",
+  "region": "natlan",
+  "area": "Toyac Springs",
+  "description": "It is said that the first sage to learn how to use phlogiston created a place of great purity, and that within this place, warriors were taught to wield the power of prismatic flames and flowing light. Later, even before they were used to resist common enemies, these powers were employed as weapons in conflicts between the tribes. Disheartened by this state of affairs, the Sage of the Stolen Flame withdrew from the world, vanishing from the pages of many tales. Devoid of their original purpose, these empty trial grounds were left behind, along with all those stories that came to be forgotten…",
+  "recommendedElements": [
+    "anemo",
+    "cryo",
+    "pyro",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "gambler",
+      "obsidian-codex",
+      "resolution-of-sojourner",
+      "scroll-of-the-hero-of-cinder-city"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "5.0",
+  "images": {}
+}

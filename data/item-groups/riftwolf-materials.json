@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 38,
+  "id": 47,
   "slug": "riftwolf-materials",
   "name": "Riftwolf Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

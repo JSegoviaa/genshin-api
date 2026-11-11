@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 51,
+  "slug": "court-of-flowing-sand",
+  "name": "Court of Flowing Sand",
+  "type": "domains-of-forgery",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "They say that in antediluvian times now lost to history, there was once a foolish ruler who dreamed of building a high garden in honor of the white sacred tree over the primordial sands. Now, dead silence fills the kingdom built on sand, but the obsessions of the past remain.",
+  "recommendedElements": [
+    "geo",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 15
+    },
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 36
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    }
+  ],
+  "rewards": {
+    "items": [
+      "coral-branch-of-a-distant-sea",
+      "jeweled-branch-of-a-distant-sea",
+      "jade-branch-of-a-distant-sea",
+      "golden-branch-of-a-distant-sea",
+      "narukamis-wisdom",
+      "narukamis-joy",
+      "narukamis-affection",
+      "narukamis-valor",
+      "mask-of-the-wicked-lieutenant",
+      "mask-of-the-tigers-bite",
+      "mask-of-the-one-horned",
+      "mask-of-the-kijin"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.0",
+  "images": {}
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 78,
+  "slug": "philosophies-of-freedom",
+  "name": "Philosophies of Freedom",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "freedom-books",
+  "rarity": 4,
+  "description": "Freedom is the spirit of the land of the wind.\nTo sing is one such freedom. To sing on the land created by the Anemo Archon is to send your heart away with the song on the wind.",
+  "releaseVersion": "1.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

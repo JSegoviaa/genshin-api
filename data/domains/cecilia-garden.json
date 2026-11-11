@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 6,
+  "slug": "cecilia-garden",
+  "name": "Cecilia Garden",
+  "type": "domains-of-forgery",
+  "region": "mondstadt",
+  "area": "Windwail Highland",
+  "description": "The Cecilia flowers that only grow on high cliffs once bloomed in the greenhouses here. The ancient civilization that once enjoyed the scent of the Cecilia was lost, and so too was the sea of white flowers.",
+  "recommendedElements": [
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 15
+    },
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 36
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    }
+  ],
+  "rewards": {
+    "items": [
+      "tile-of-decarabians-tower",
+      "debris-of-decarabians-city",
+      "fragment-of-decarabians-epic",
+      "scattered-piece-of-decarabians-dream",
+      "boreal-wolfs-milk-tooth",
+      "boreal-wolfs-cracked-tooth",
+      "boreal-wolfs-broken-fang",
+      "boreal-wolfs-nostalgia",
+      "fetters-of-the-dandelion-gladiator",
+      "chains-of-the-dandelion-gladiator",
+      "shackles-of-the-dandelion-gladiator",
+      "dream-of-the-dandelion-gladiator"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

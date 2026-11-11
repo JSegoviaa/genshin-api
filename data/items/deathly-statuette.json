@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 153,
+  "id": 180,
   "slug": "deathly-statuette",
   "name": "Deathly Statuette",
   "type": "character-and-weapon-enhancement-materials",

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 89,
+  "slug": "the-ancient-azure-stars",
+  "name": "The Ancient Azure Stars",
+  "type": "quest-domains",
+  "region": null,
+  "area": "Minacious Isle",
+  "description": "You find this strange realm under Mona's guidance. The way of entering this place is quite unique indeed. You reckon it must have quite the deep association with the genius astrologer...",
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.8",
+  "images": {}
+}

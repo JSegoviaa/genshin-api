@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 164,
+  "slug": "on-the-path-to-war",
+  "name": "On the Path to War",
+  "type": "quest-domains",
+  "region": "natlan",
+  "area": "Basin of Unnumbered Flames",
+  "description": "Now that the Ancient Names have been forged, you are ready to step onto the final battlefield — for friends, for the beings that inhabit this land, for the flames, and for the legacy that shall be left behind...\n(This Domain may take some time to complete. For the best experience, it is recommended that you experience the next part of the story when you have ample time to complete it.)",
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.3",
+  "images": {}
+}

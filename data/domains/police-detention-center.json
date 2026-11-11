@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 57,
+  "slug": "police-detention-center",
+  "name": "Police Detention Center",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "A location being used by the Police Station for temporarily detaining criminals. As well as being heavily guarded, there are also all manners of mechanisms to prevent criminals from escaping.",
+  "recommendedElements": [
+    "pyro",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.0",
+  "images": {}
+}

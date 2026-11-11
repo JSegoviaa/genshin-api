@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 131,
+  "slug": "echoes-of-the-deep-tides",
+  "name": "Echoes of the Deep Tides",
+  "type": "domains-of-forgery",
+  "region": "fontaine",
+  "area": "Court of Fontaine Region",
+  "description": "Legend speaks of a time in the distant past, when the Sovereign of the Waters had not yet returned from confinement, there was another God King who dreamed of building a prosperous empire out of harmonious music atop the waves. But the great ambition of building a utopia failed to come to fruition, and the arrogance of humanity sunk into their depths along with their pride. The golden melodies long silent, only the cold music of the tides still echoes upon the remains of their grand altars.",
+  "recommendedElements": [
+    "hydro",
+    "pyro",
+    "cryo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 15
+    },
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 36
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    }
+  ],
+  "rewards": {
+    "items": [
+      "fragment-of-an-ancient-chord",
+      "chapter-of-an-ancient-chord",
+      "movement-of-an-ancient-chord",
+      "echo-of-an-ancient-chord",
+      "dross-of-pure-sacred-dewdrop",
+      "sublimation-of-pure-sacred-dewdrop",
+      "spring-of-pure-sacred-dewdrop",
+      "essence-of-pure-sacred-dewdrop",
+      "broken-goblet-of-the-pristine-sea",
+      "wine-goblet-of-the-pristine-sea",
+      "silver-goblet-of-the-pristine-sea",
+      "golden-goblet-of-the-pristine-sea"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.0",
+  "images": {}
+}

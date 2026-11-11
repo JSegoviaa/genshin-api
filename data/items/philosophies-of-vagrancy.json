@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 374,
+  "slug": "philosophies-of-vagrancy",
+  "name": "Philosophies of Vagrancy",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "vagrancy-books",
+  "rarity": 4,
+  "description": "\"Vagrancy\" is the living of the land beneath the moon.\nThrough thunder and storms, across mountains and snowfields, though scarred and weary, the wanderer does not stop — nor will they till they find a place to call home.",
+  "releaseVersion": "Luna I",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

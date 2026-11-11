@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 26,
+  "slug": "hunt-down-the-abyss-mage",
+  "name": "Hunt Down the Abyss Mage",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "The Abyss Mage has disappeared somewhere deep inside this underground ruin.\nDo not spare this evildoer.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 34,
+      "recommendedLevel": 30
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

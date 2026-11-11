@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 151,
+  "slug": "until-the-end-of-the-world",
+  "name": "Until the End of the World",
+  "type": "quest-domains",
+  "region": null,
+  "area": "Broken Sea",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.8",
+  "images": {}
+}

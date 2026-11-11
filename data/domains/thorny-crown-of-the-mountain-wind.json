@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 186,
+  "slug": "thorny-crown-of-the-mountain-wind",
+  "name": "Thorny Crown of the Mountain Wind",
+  "type": "domains-of-blessing",
+  "region": "mondstadt",
+  "area": "Windrest Peak",
+  "description": "In the ages when the thousand winds could still brush against the Temple of Space, the ancient people of Elysium believed that the city-state, eternally sealed within its coffin, would ultimately overcome the destruction wrought by external corruption, flourishing unceasingly like a sacred forest.\nYet, all things in this world wax and wane. The dream of Elysium shall never return. What remains in the wind is naught but poetry and blooming flowers.",
+  "recommendedElements": [
+    "anemo",
+    "cryo",
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "berserker",
+      "celestial-gift",
+      "disenchantment-in-deep-shadow",
+      "the-exile"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "Luna VII",
+  "images": {}
+}

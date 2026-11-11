@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 171,
+  "slug": "all-devouring",
+  "name": "All Devouring",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "The Chasm (Area)",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.7",
+  "images": {}
+}

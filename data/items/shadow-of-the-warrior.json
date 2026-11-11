@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 102,
+  "id": 120,
   "slug": "shadow-of-the-warrior",
   "name": "Shadow of the Warrior",
   "type": "character-level-up-materials",

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 25,
+  "slug": "hidden-teardrop-in-the-heart-of-the-jungle",
+  "name": "Hidden Teardrop in the Heart of the Jungle",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "The party has come to a secret ruin hidden deep in a jungle. One of Dvalin's powerful teardrops lies within. Head inside with Jean and Diluc to track it down.",
+  "recommendedElements": [
+    "electro",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 18
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

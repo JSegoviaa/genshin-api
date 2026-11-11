@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 36,
+  "slug": "enter-the-golden-house-quest-domain",
+  "name": "Enter the Golden House (Quest Domain)",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Sea of Clouds",
+  "description": "Your pursuit of the truth brings you to the very heart of the political storm that has been slowly brewing in Liyue Harbor.\nIt is time to peer beyond the glittering gold, and see what lurks in the shadows...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": 47
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.1",
+  "images": {}
+}

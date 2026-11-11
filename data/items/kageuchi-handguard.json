@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 110,
+  "id": 128,
   "slug": "kageuchi-handguard",
   "name": "Kageuchi Handguard",
   "type": "character-and-weapon-enhancement-materials",

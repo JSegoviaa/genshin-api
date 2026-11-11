@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 167,
+  "slug": "derelict-masonry-dock",
+  "name": "Derelict Masonry Dock",
+  "type": "domains-of-blessing",
+  "region": "natlan",
+  "area": "Atocpan",
+  "description": "An environment incomprehensible to the inhabitants of today's lands, one where ash-gray mechanisms driven by golden runes replaced the toil of flesh, effortlessly bringing brilliance and imagination to life above pools of flame. After this era was ended by tyrannical outsiders, the once-powerful race stagnated in their submission. Now, the only visitors left to this place are mourners of a bygone era.",
+  "recommendedElements": [
+    "anemo",
+    "electro",
+    "hydro",
+    "dendro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "finale-of-the-deep-galleries",
+      "long-nights-oath",
+      "scholar",
+      "tiny-miracle"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "5.5",
+  "images": {}
+}

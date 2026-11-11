@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 100,
+  "slug": "the-contaminations-source",
+  "name": "The Contamination's Source",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "The source of contamination that lies deep within the forest. Abnormal Ley Line energy seems to flow out of it",
+  "recommendedElements": [
+    "dendro",
+    "electro",
+    "pyro",
+    "hydro"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

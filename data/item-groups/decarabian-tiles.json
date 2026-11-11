@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 22,
+  "id": 28,
   "slug": "decarabian-tiles",
   "name": "Decarabian Tiles",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "cecilia-garden",
+  "domainLevel": "City of Reflections",
   "images": {}
 }

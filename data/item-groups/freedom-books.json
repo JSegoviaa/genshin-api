@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 22,
+  "slug": "freedom-books",
+  "name": "Freedom Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "forsaken-rift",
+  "domainLevel": "Frosted Altar",
+  "images": {}
+}

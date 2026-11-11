@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 41,
+  "slug": "enter-the-border",
+  "name": "Enter the \"border\"",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Bishui Plain",
+  "description": "After sufficient preparation, you follow Hu Tao into the mysterious \"border.\"\nRemember her warning and don't make a fuss about anything that waits ahead.",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.3",
+  "images": {}
+}

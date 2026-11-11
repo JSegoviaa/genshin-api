@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 112,
+  "slug": "that-day-under-irminsul",
+  "name": "That Day Under Irminsul",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "Story Review:\n\nYou and Nahida successfully prevented the Akademiya's god-creation plan and uncovered Greater Lord Rukkhadevata's final memory. Now the hope of saving Irminsul lies before your very eyes.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.2",
+  "images": {}
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 104,
+  "slug": "altar-of-mirages",
+  "name": "Altar of Mirages",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Hypostyle Desert",
+  "description": "The Jinn once used this place as a free theater and a paradise without sorrow or care. The people of the desert wastes also once used this place as a ritual site to remember the ages long past...\nBut all these joys and sorrows, like a false mirage, would disappear amidst the flow of the Ley Lines.",
+  "recommendedElements": [
+    "dendro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.1",
+  "images": {}
+}

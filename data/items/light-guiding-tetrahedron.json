@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 186,
+  "id": 222,
   "slug": "light-guiding-tetrahedron",
   "name": "Light Guiding Tetrahedron",
   "type": "character-level-up-materials",

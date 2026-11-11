@@ -75,6 +75,9 @@ export const enemyResource = defineResource({
       items: ctx.refs("items", e.drops.items),
       artifactSets: ctx.refs("artifact-sets", e.drops.artifactSets),
     },
+    domains: ctx.related<{ enemies: string[] }>("domains", (d) =>
+      d.enemies.includes(e.slug),
+    ),
     description: e.description,
     images: ctx.images(e.images),
   }),

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 168,
+  "slug": "smokeless-war",
+  "name": "Smokeless War",
+  "type": "quest-domains",
+  "region": "natlan",
+  "area": "Atocpan",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.5",
+  "images": {}
+}

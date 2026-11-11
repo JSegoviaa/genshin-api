@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 315,
+  "slug": "guide-to-kindling",
+  "name": "Guide to Kindling",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "kindling-books",
+  "rarity": 3,
+  "description": "Offering up kindling is the established rule of the Nation of Pyro.\nTo acquire a certain amount of something, one must first pay the corresponding price. Sometimes, you may end up paying too much to obtain something; while other times, you may pay too little, and lose it as a result. Understanding how to strike this balance between giving and receiving is one of the meanings of offering kindling.",
+  "releaseVersion": "5.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

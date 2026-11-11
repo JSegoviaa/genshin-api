@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 77,
+  "slug": "chamber-of-twisted-cranes",
+  "name": "Chamber of Twisted Cranes",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "The Chasm: Underground Mines",
+  "description": "A Domain you discovered for the first time while trapped within The Chasm. It seems to have been sealed for a very long time indeed.",
+  "recommendedElements": [
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.7",
+  "images": {}
+}

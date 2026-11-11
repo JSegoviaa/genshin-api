@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 94,
+  "id": 115,
   "slug": "wildwood-leshy-materials",
   "name": "Wildwood Leshy Materials",
   "type": "character-and-weapon-enhancement-materials",
   "source": "elite-enemy-drops",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

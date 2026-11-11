@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 71,
+  "slug": "justice-books",
+  "name": "Justice Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "pale-forgotten-glory",
+  "domainLevel": "Admonishing Engraving",
+  "images": {}
+}

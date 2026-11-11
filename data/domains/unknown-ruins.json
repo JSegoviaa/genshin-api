@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 181,
+  "slug": "unknown-ruins",
+  "name": "Unknown Ruins",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Hypostyle Desert",
+  "description": "Some unknown ruins that Layla once stumbled into by mistake. It seems that many unanswered mysteries remain in the Great Red Sand.",
+  "recommendedElements": [
+    "electro",
+    "dendro"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "Luna II",
+  "images": {}
+}

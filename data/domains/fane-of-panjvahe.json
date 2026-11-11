@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 119,
+  "slug": "fane-of-panjvahe",
+  "name": "Fane of Panjvahe",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Desert of Hadramaveth",
+  "description": "The significance of oases lies in the embrace of the desert. The oasis dwellers have never been oblivious to this. Thus did the ancestors in Gurabad build the hermitage for the Lord of Desert. Through the sandstorm-shrouded past and present, this hermitage has become an asylum for countless desert dwellers, among whom are some bandits as well...",
+  "recommendedElements": [
+    "dendro",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.4",
+  "images": {}
+}

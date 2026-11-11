@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 85,
+  "slug": "immernachtreich-apokalypse-part-i",
+  "name": "Immernachtreich Apokalypse: Part I",
+  "type": "quest-domains",
+  "region": null,
+  "area": "Twinning Isle",
+  "description": "A mysterious realm that only Fischl's text, the \"Hymn of the Holy Land,\" is able to unlock the path to. An austere and sacred aura surrounds this place, and the borders of common sense begin to blur here.",
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.8",
+  "images": {}
+}

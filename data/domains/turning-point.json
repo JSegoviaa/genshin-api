@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 192,
+  "slug": "turning-point",
+  "name": "Turning Point",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Sea of Clouds",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": null,
+  "images": {}
+}

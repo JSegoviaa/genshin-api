@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 153,
+  "slug": "ancient-watchtower",
+  "name": "Ancient Watchtower",
+  "type": "domains-of-forgery",
+  "region": "natlan",
+  "area": "Coatepec Mountain",
+  "description": "Legend has it that in ancient times, the colossal beasts that roamed the land had a civilization of their own. After exploring the entirety of the land and surrounding sea, they built these structures in an attempt to cast their gaze upon the even wider world beyond. But these wise beasts have long since vanished, and in the present, no one now knows the true purpose of this place.",
+  "recommendedElements": [
+    "hydro",
+    "electro",
+    "pyro",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 15
+    },
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 36
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    }
+  ],
+  "rewards": {
+    "items": [
+      "blazing-sacrificial-hearts-terror",
+      "blazing-sacrificial-hearts-hesitance",
+      "blazing-sacrificial-hearts-resolve",
+      "blazing-sacrificial-hearts-splendor",
+      "delirious-decadence-of-the-sacred-lord",
+      "delirious-desolation-of-the-sacred-lord",
+      "delirious-demeanor-of-the-sacred-lord",
+      "delirious-divinity-of-the-sacred-lord",
+      "night-winds-mystic-consideration",
+      "night-winds-mystic-premonition",
+      "night-winds-mystic-augury",
+      "night-winds-mystic-revelation"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.0",
+  "images": {}
+}

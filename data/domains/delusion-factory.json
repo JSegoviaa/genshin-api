@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 60,
+  "slug": "delusion-factory",
+  "name": "Delusion Factory",
+  "type": "quest-domains",
+  "region": "inazuma",
+  "area": "Yashiori Island",
+  "description": "Delusions cannot be allowed to spread throughout Inazuma.\nYou will not stand by idly and watch as they cause ever more suffering.",
+  "recommendedElements": [
+    "pyro",
+    "hydro",
+    "electro",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.1",
+  "images": {}
+}

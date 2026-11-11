@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 1,
+  "slug": "clear-pool-and-mountain-cavern",
+  "name": "Clear Pool and Mountain Cavern",
+  "type": "domains-of-blessing",
+  "region": "liyue",
+  "area": "Minlin",
+  "description": "Mt. Aocang is a place of secret wonders. What at first merely seems like beautiful scenery in fact conceals a stone cave that connects to the heavens and breathes out clouds. Nonetheless, this is not how the saying \"where the clouds emerge\" was derived.",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "bloodstained-chivalry",
+      "gambler",
+      "noblesse-oblige",
+      "scholar"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

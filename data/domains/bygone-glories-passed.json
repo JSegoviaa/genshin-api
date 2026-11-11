@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 121,
+  "slug": "bygone-glories-passed",
+  "name": "Bygone Glories Passed",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Desert of Hadramaveth",
+  "description": "Led by Kusayla's old comrades, you arrive at the final hideout of Deshret's Relics. Fierce resistance is to be expected within, but it is time to call it curtains for vengeance, whether old or new.",
+  "recommendedElements": [
+    "dendro",
+    "electro",
+    "pyro"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.5",
+  "images": {}
+}

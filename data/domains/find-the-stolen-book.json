@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 24,
+  "slug": "find-the-stolen-book",
+  "name": "Find the Stolen Book",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "The thief seems to be hiding inside the ruin...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 30
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

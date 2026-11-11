@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 32,
+  "slug": "the-great-adventurer-stanley",
+  "name": "The Great Adventurer Stanley",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "Ellin asked you to search for the greenhorn adventurer Jack within the Temple of the Lion.\nIt seems he is traveling together with the legendary adventurer, Stanley.",
+  "recommendedElements": [
+    "pyro",
+    "electro",
+    "cryo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 36,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

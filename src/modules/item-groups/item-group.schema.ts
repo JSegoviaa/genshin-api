@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { base, iconOnly, ref } from "../../core/schema";
+import { base, iconOnly, label, ref } from "../../core/schema";
 import { ITEM_SOURCES } from "../items/item-source";
 
 export const itemGroupSchema = z
@@ -7,6 +7,8 @@ export const itemGroupSchema = z
     ...base,
     type: ref,
     source: z.enum(ITEM_SOURCES),
+    domain: ref.nullable(),
+    domainLevel: label.nullable(),
     images: iconOnly,
   })
   .strict();

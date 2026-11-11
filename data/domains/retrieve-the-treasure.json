@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 29,
+  "slug": "retrieve-the-treasure",
+  "name": "Retrieve the Treasure",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "The Abyss Mage has fled into the Domain.\nBrave the Domain and retrieve Klee's treasure!",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 32,
+      "recommendedLevel": 30
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

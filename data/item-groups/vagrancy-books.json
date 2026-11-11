@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 103,
+  "slug": "vagrancy-books",
+  "name": "Vagrancy Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "lightless-capital",
+  "domainLevel": "Overturned Roost",
+  "images": {}
+}

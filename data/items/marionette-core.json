@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 108,
+  "id": 126,
   "slug": "marionette-core",
   "name": "Marionette Core",
   "type": "character-level-up-materials",

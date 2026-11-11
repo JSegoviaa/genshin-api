@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 189,
+  "slug": "scars-of-cursed-obsession",
+  "name": "Scars of Cursed Obsession",
+  "type": "domains-of-forgery",
+  "region": "snezhnaya",
+  "area": "Everfrozen Earth",
+  "description": "It was an era of peace, when the conquests of the Belyi Tsar had faded into legend, and the turmoil of succession was reduced to mere tales in history books. Yet, the fae who had never lived through those bygone days still yearned to resurrect that ancient glory. A leaden dream was stained by the blood of countless souls, yet the dreamer remained unshaken, believing this was the only path to pave their honor. But at that road's end, there was no glory to be found, nor the old world of her dreams. There was only the blood that drowned her, blood grown cold, foul, and faded.",
+  "recommendedElements": [
+    "anemo",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 15
+    },
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 36
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    }
+  ],
+  "rewards": {
+    "items": [
+      "rise-of-the-pale-star-army",
+      "muster-of-the-pale-star-army",
+      "clarion-of-the-pale-star-army",
+      "triumph-of-the-pale-star-army",
+      "measured-pour-of-the-cellared-spiritual-nectar",
+      "intoxication-of-the-cellared-spiritual-nectar",
+      "exhilaration-of-the-cellared-spiritual-nectar",
+      "revelry-of-the-cellared-spiritual-nectar",
+      "the-frost-emperors-revival",
+      "the-frost-emperors-ceremony",
+      "the-frost-emperors-lament",
+      "the-frost-emperors-farewell"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "7.0",
+  "images": {}
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 17,
+  "slug": "temple-of-the-wolf",
+  "name": "Temple of the Wolf",
+  "type": "one-time-domains",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "This ruin used to be a temple devoted to the Wolf of the North. Now, the priests are gone, and the temple has been seized by monsters. However, they say that the spirit of the Wolf still watches over the endless fields of Mondstadt from someplace else.",
+  "recommendedElements": [
+    "pyro",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 25
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

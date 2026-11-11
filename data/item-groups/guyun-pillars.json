@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 25,
+  "id": 31,
   "slug": "guyun-pillars",
   "name": "Guyun Pillars",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "hidden-palace-of-lianshan-formula",
+  "domainLevel": "Thundercloud",
   "images": {}
 }

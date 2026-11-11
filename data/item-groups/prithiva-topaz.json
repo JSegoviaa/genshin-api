@@ -5,5 +5,7 @@
   "name": "Prithiva Topaz",
   "type": "character-ascension-materials",
   "source": "ascension-gems",
+  "domain": null,
+  "domainLevel": null,
   "images": {}
 }

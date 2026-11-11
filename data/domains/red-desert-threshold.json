@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 106,
+  "slug": "red-desert-threshold",
+  "name": "Red Desert Threshold",
+  "type": "one-time-domains",
+  "region": "sumeru",
+  "area": "Land of Lower Setekh",
+  "description": "Legend has it that were once a prince who was exiled by his father and imprisoned in this jail. The bronze revelation first emerged here in this lonely, forgotten place where there is neither day nor night.",
+  "recommendedElements": [
+    "dendro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 32,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.1",
+  "images": {}
+}

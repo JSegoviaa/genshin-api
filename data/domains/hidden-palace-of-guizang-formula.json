@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 14,
+  "slug": "hidden-palace-of-guizang-formula",
+  "name": "Hidden Palace of Guizang Formula",
+  "type": "one-time-domains",
+  "region": "liyue",
+  "area": "Qiongji Estuary",
+  "description": "Though it may seem like a clear pond, the amount of treasures hidden below is enough to drive a person mad. Unfortunately, few who can decipher its secrets remain.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 70
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

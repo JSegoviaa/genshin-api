@@ -1,0 +1,68 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 47,
+  "slug": "beneath-the-dragon-queller",
+  "name": "Beneath the Dragon-Queller",
+  "type": "trounce-domains",
+  "region": "liyue",
+  "area": "Minlin",
+  "description": "Across the long years, this bed of rock, carved into the very heart of the world, has imprisoned Azhdaha like a coffin.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "agnidus-agate-sliver",
+      "agnidus-agate-fragment",
+      "agnidus-agate-chunk",
+      "agnidus-agate-gemstone",
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "prithiva-topaz-sliver",
+      "prithiva-topaz-fragment",
+      "prithiva-topaz-chunk",
+      "prithiva-topaz-gemstone",
+      "dragon-lords-crown",
+      "bloodjade-branch",
+      "gilded-scale"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "azhdaha"
+  ],
+  "releaseVersion": "1.5",
+  "images": {}
+}

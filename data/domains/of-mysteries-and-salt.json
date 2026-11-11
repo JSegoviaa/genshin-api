@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 37,
+  "slug": "of-mysteries-and-salt",
+  "name": "Of Mysteries and Salt",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Bishui Plain",
+  "description": "The seal has been broken, and both the treasures and the tale of the God of Salt await within.\nThe party pushes on, each armed with disparate aims...",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 35
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.1",
+  "images": {}
+}

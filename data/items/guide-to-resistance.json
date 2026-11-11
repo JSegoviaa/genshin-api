@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 80,
+  "slug": "guide-to-resistance",
+  "name": "Guide to Resistance",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "resistance-books",
+  "rarity": 3,
+  "description": "Resistance is the backbone of the city of Wind.\nThe history of Mondstadt is one of resistances. People rose up to grant the citizens of Mondstadt the freedom they now enjoy, like the Anemo Archon blowing away the snow, or like Vennessa rising up to fight.",
+  "releaseVersion": "1.0",
+  "days": [
+    "tuesday",
+    "friday",
+    "sunday"
+  ],
+  "images": {}
+}

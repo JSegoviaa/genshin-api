@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 8,
+  "slug": "forsaken-rift",
+  "name": "Forsaken Rift",
+  "type": "domains-of-mastery",
+  "region": "mondstadt",
+  "area": "Windwail Highland",
+  "description": "It is said in ancient times, people would venture into the valley to seek out the ancient tree on the altar. They would whisper their secrets into the tree hole, relieving themselves of the burden of keeping the secrets to themselves. The Forsaken Rift is filled with long-forgotten secrets.",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 38
+    },
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": 54
+    },
+    {
+      "requiredAdventureRank": 36,
+      "recommendedLevel": 71
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 88
+    }
+  ],
+  "rewards": {
+    "items": [
+      "teachings-of-freedom",
+      "guide-to-freedom",
+      "philosophies-of-freedom",
+      "teachings-of-resistance",
+      "guide-to-resistance",
+      "philosophies-of-resistance",
+      "teachings-of-ballad",
+      "guide-to-ballad",
+      "philosophies-of-ballad"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

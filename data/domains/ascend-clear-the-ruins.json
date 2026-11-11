@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 18,
+  "slug": "ascend-clear-the-ruins",
+  "name": "Ascend: Clear the Ruins",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "A huge number of monsters established their camp in the ruins, threatening the safety of the area.\nDefeat them all to prove your courage to the Adventurers' Guild.",
+  "recommendedElements": [
+    "pyro",
+    "cryo",
+    "anemo",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 35
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

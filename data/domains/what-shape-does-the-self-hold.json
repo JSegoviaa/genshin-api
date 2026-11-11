@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 129,
+  "slug": "what-shape-does-the-self-hold",
+  "name": "What Shape Does the Self Hold",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Desert of Hadramaveth",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.6",
+  "images": {}
+}

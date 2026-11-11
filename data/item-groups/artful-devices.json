@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 83,
+  "id": 104,
   "slug": "artful-devices",
   "name": "Artful Devices",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "lost-mooncourt",
+  "domainLevel": "Radiant Splendor",
   "images": {}
 }

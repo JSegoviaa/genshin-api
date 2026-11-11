@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 122,
+  "slug": "unknown-sanctuary",
+  "name": "Unknown Sanctuary",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Cinnabar Cliff",
+  "description": "Hilichurls were seen heading towards this place, their steps faithful and unwavering. However, Eide tells you that he's never seen anything like this before...",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.5",
+  "images": {}
+}

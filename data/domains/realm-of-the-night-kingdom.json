@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 155,
+  "slug": "realm-of-the-night-kingdom",
+  "name": "\"Realm of the Night Kingdom\"",
+  "type": "quest-domains",
+  "region": "natlan",
+  "area": "Basin of Unnumbered Flames",
+  "description": "This is the realm of the dead, where the \"River of Concepts\" flows. Kachina, who is trapped here, is putting up a desperate struggle. Rescue her before its too late!",
+  "recommendedElements": [
+    "hydro",
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.0",
+  "images": {}
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 108,
+  "slug": "mysterious-ruins",
+  "name": "Mysterious Ruins",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Hypostyle Desert",
+  "description": "Mysterious ruins that have been hidden deep under layers of sand. An incomprehensible power seems to flow within...",
+  "recommendedElements": [
+    "pyro",
+    "electro",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.1",
+  "images": {}
+}

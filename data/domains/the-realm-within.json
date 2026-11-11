@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 33,
+  "slug": "the-realm-within",
+  "name": "The Realm Within",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Sea of Clouds",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 29,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

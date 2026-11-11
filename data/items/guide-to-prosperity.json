@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 86,
+  "slug": "guide-to-prosperity",
+  "name": "Guide to Prosperity",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "prosperity-books",
+  "rarity": 3,
+  "description": "Prosperity is the people's pursuit in the land of Geo. Prosperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
+  "releaseVersion": "1.0",
+  "days": [
+    "monday",
+    "thursday",
+    "sunday"
+  ],
+  "images": {}
+}

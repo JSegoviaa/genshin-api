@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 78,
+  "slug": "city-of-hidden-runes",
+  "name": "City of Hidden Runes",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "The Chasm: Underground Mines",
+  "description": "A Domain you found by accident while searching for the way out. Many mystical mechanisms lie within.",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 28,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.7",
+  "images": {}
+}

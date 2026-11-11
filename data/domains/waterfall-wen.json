@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 140,
+  "slug": "waterfall-wen",
+  "name": "Waterfall Wen",
+  "type": "domains-of-blessing",
+  "region": "fontaine",
+  "area": "Morte Region",
+  "description": "An ancient ruined city that was once used by a now-bygone secret order as an ad-hoc site of assembly. Now, all that remains to rule the roost are beasts bereft of language or intellect.",
+  "recommendedElements": [
+    "geo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "martial-artist",
+      "nighttime-whispers-in-the-echoing-woods",
+      "song-of-days-past",
+      "tiny-miracle"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "4.3",
+  "images": {}
+}

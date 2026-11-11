@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 176,
+  "slug": "frostladen-machinery",
+  "name": "Frostladen Machinery",
+  "type": "domains-of-blessing",
+  "region": "nod-krai",
+  "area": "Paha Isle",
+  "description": "Many sacrifices were made, many obstacles overcome, and many such colossal machines were constructed and then abandoned, all for the sake of ever grander visions. Today, now that this greater goal seems so close at hand, this once-rumbling experimental outpost has come to the end of its service. Its colossal devices have fallen into slumber, leaving behind naught but cold silence.",
+  "recommendedElements": [
+    "dendro",
+    "electro",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "gambler",
+      "night-of-the-skys-unveiling",
+      "resolution-of-sojourner",
+      "silken-moons-serenade"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "Luna I",
+  "images": {}
+}

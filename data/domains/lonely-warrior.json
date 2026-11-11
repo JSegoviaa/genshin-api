@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 185,
+  "slug": "lonely-warrior",
+  "name": "Lonely Warrior",
+  "type": "quest-domains",
+  "region": "nod-krai",
+  "area": "Voidsea Outlook",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "Luna V",
+  "images": {}
+}

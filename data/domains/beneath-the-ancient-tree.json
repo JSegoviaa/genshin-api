@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 49,
+  "slug": "beneath-the-ancient-tree",
+  "name": "Beneath the Ancient Tree",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Minlin",
+  "description": "Underneath the ancient tree of Nantianmen is a mysterious path that none know of. The mysteries of yore lie buried at the end of that road...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.5",
+  "images": {}
+}

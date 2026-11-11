@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 127,
+  "slug": "entanglement-of-past-dreams",
+  "name": "Entanglement of Past Dreams",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Bishui Plain",
+  "description": "The restless force within Jialiang has beckoned him ceaselessly, drawing everyone to this place. Here, the stench of evil is growing, and the curtains of fate are soon to fall.",
+  "recommendedElements": [
+    "dendro",
+    "geo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.6",
+  "images": {}
+}

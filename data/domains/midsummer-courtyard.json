@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 4,
+  "slug": "midsummer-courtyard",
+  "name": "Midsummer Courtyard",
+  "type": "domains-of-blessing",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "With the fall of the ancient lost civilization, the once prosperous and magnificent Sommernachtgarten was also buried underground, leaving only its ancient trees and stones to remember its past glory.",
+  "recommendedElements": [
+    "pyro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 20,
+      "recommendedLevel": 34
+    },
+    {
+      "requiredAdventureRank": 25,
+      "recommendedLevel": 47
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "adventurer",
+      "resolution-of-sojourner",
+      "thundering-fury",
+      "thundersoother"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

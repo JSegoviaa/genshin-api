@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 7,
+  "slug": "hidden-palace-of-lianshan-formula",
+  "name": "Hidden Palace of Lianshan Formula",
+  "type": "domains-of-forgery",
+  "region": "liyue",
+  "area": "Qiongji Estuary",
+  "description": "The operation of the Lianshan Formula created endless thunderstorms within the bowels of the mountain. It is said that the rumbling sounds of thunder that one hears outside the domain's gates call out to the curious souls.",
+  "recommendedElements": [
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 15,
+      "recommendedLevel": 15
+    },
+    {
+      "requiredAdventureRank": 21,
+      "recommendedLevel": 36
+    },
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    }
+  ],
+  "rewards": {
+    "items": [
+      "luminous-sands-from-guyun",
+      "lustrous-stone-from-guyun",
+      "relic-from-guyun",
+      "divine-body-from-guyun",
+      "mist-veiled-lead-elixir",
+      "mist-veiled-mercury-elixir",
+      "mist-veiled-gold-elixir",
+      "mist-veiled-primo-elixir",
+      "grain-of-aerosiderite",
+      "piece-of-aerosiderite",
+      "bit-of-aerosiderite",
+      "chunk-of-aerosiderite"
+    ],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

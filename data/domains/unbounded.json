@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 174,
+  "slug": "unbounded",
+  "name": "Unbounded",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "The Chasm (Area)",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "5.7",
+  "images": {}
+}

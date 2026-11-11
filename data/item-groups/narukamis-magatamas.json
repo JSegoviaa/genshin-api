@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 34,
+  "id": 43,
   "slug": "narukamis-magatamas",
   "name": "Narukami's Magatamas",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "court-of-flowing-sand",
+  "domainLevel": "Altar of Sands",
   "images": {}
 }

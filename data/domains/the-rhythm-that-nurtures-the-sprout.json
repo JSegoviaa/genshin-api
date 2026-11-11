@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 102,
+  "slug": "the-rhythm-that-nurtures-the-sprout",
+  "name": "The Rhythm that Nurtures the Sprout",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Ashavan Realm",
+  "description": null,
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.0",
+  "images": {}
+}

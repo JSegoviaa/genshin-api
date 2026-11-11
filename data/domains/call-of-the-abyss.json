@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 43,
+  "slug": "call-of-the-abyss",
+  "name": "Call of the Abyss",
+  "type": "quest-domains",
+  "region": "liyue",
+  "area": "Bishui Plain",
+  "description": "The ominous temptations of the Abyss lure the brave and the foolish alike.\nNo matter the fate that has brought you hither, know that a new thread of fate is already being woven.",
+  "recommendedElements": [
+    "cryo",
+    "hydro"
+  ],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.4",
+  "images": {}
+}

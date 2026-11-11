@@ -1,9 +1,11 @@
 {
   "$schema": "../../schemas/item-groups.json",
-  "id": 84,
+  "id": 105,
   "slug": "long-night-flints",
   "name": "Long Night Flints",
   "type": "weapon-ascension-materials",
   "source": "domains-of-forgery",
+  "domain": "lost-mooncourt",
+  "domainLevel": "Prayers Sung",
   "images": {}
 }

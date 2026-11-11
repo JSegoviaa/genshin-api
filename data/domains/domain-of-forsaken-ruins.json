@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 11,
+  "slug": "domain-of-forsaken-ruins",
+  "name": "Domain of Forsaken Ruins",
+  "type": "one-time-domains",
+  "region": "liyue",
+  "area": "Qiongji Estuary",
+  "description": "Many of those who come here now do so solely to search for nearby treasure. Just as crowds naturally leave a theater after the curtain falls, this once thriving colony has now been reduced to all but empty remains.",
+  "recommendedElements": [
+    "geo",
+    "cryo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 24,
+      "recommendedLevel": 45
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

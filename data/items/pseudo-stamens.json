@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 194,
+  "id": 230,
   "slug": "pseudo-stamens",
   "name": "Pseudo-Stamens",
   "type": "character-level-up-materials",

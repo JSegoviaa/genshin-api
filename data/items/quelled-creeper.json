@@ -1,6 +1,6 @@
 {
   "$schema": "../../schemas/items.json",
-  "id": 187,
+  "id": 223,
   "slug": "quelled-creeper",
   "name": "Quelled Creeper",
   "type": "character-level-up-materials",

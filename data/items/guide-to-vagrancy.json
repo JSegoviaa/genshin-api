@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 373,
+  "slug": "guide-to-vagrancy",
+  "name": "Guide to Vagrancy",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "vagrancy-books",
+  "rarity": 3,
+  "description": "\"Vagrancy\" is the living of the land beneath the moon.\nTo live is to wander, for none of us can settle in this world. What is remembered is not the moment of arrival, but the footprints that we leave along the way.",
+  "releaseVersion": "Luna I",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}

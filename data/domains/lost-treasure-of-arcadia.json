@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 27,
+  "slug": "lost-treasure-of-arcadia",
+  "name": "Lost Treasure of Arcadia",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Galesong Hill",
+  "description": "Lost treasures reveal themselves only to those with true wisdom. Having solved the mystery of Arcadia, you finally arrive at the site of the treasure...",
+  "recommendedElements": [
+    "cryo",
+    "electro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 10
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

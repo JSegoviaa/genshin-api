@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 35,
+  "slug": "enter-the-golden-house",
+  "name": "Enter the Golden House",
+  "type": "trounce-domains",
+  "region": "liyue",
+  "area": "Sea of Clouds",
+  "description": "The storm clouds gathering over Liyue have finally parted, and the schemes that once gripped this land have been shattered by the combined efforts of the Qixing, the Adepti, and yourself. Still the memories of your duel with Childe of the Fatui in the depths of the Golden House remain fresh in your mind. Relive this duel and you may yet learn something new...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 60
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 70
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 50,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [
+      "varunada-lazurite-sliver",
+      "varunada-lazurite-fragment",
+      "varunada-lazurite-chunk",
+      "varunada-lazurite-gemstone",
+      "vajrada-amethyst-sliver",
+      "vajrada-amethyst-fragment",
+      "vajrada-amethyst-chunk",
+      "vajrada-amethyst-gemstone",
+      "shivada-jade-sliver",
+      "shivada-jade-fragment",
+      "shivada-jade-chunk",
+      "shivada-jade-gemstone",
+      "tusk-of-monoceros-caeli",
+      "shard-of-a-foul-legacy",
+      "shadow-of-the-warrior"
+    ],
+    "artifactSets": [
+      "berserker",
+      "gladiators-finale",
+      "instructor",
+      "the-exile",
+      "wanderers-troupe"
+    ]
+  },
+  "enemies": [
+    "childe"
+  ],
+  "releaseVersion": "1.1",
+  "images": {}
+}

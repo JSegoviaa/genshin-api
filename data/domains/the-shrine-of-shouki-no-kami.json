@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 114,
+  "slug": "the-shrine-of-shouki-no-kami",
+  "name": "The Shrine of Shouki no Kami",
+  "type": "quest-domains",
+  "region": "sumeru",
+  "area": "Avidya Forest",
+  "description": "Story Review:\n\nYou and Nahida rush over to prevent the Akademiya's god-creation plan. After getting through the passageway, you see The Balladeer, who is about to become a god...",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "3.2",
+  "images": {}
+}

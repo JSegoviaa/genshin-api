@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/item-groups.json",
+  "id": 70,
+  "slug": "equity-books",
+  "name": "Equity Books",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "domain": "pale-forgotten-glory",
+  "domainLevel": "Rhyming Rhythm",
+  "images": {}
+}

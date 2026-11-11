@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 53,
+  "slug": "empty-boat-of-a-thousand-gates",
+  "name": "Empty Boat of a Thousand Gates",
+  "type": "one-time-domains",
+  "region": "inazuma",
+  "area": "Narukami Island",
+  "description": "This tengu annex dwelling that floats upon the sea like a lonesome boat once played host to the somewhat famous \"Yougou Three,\" and this would later become the cage in which they, having despaired, spent the rest of their days.The English translation \"and this would later become the cage in which they (Yougou Three), having despaired, spent the rest of their days.\" has somewhat deviated from the original Chinese . The phrase is an archaic expression which is almost always used as a singular. Therefore, a more plausible interpretation would be \"Thereafter, [this boat] became the house of seclusion (lit. bird cage) in which this person (Reizenbou), having despaired, spent the rest of of her days in vain and [the boat] finally sunk into the sea.\"",
+  "recommendedElements": [
+    "pyro",
+    "electro",
+    "cryo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.0",
+  "images": {}
+}

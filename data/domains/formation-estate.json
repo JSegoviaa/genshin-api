@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 54,
+  "slug": "formation-estate",
+  "name": "Formation Estate",
+  "type": "one-time-domains",
+  "region": "inazuma",
+  "area": "Yashiori Island",
+  "description": "This estate once belonged to a lieutenant of Orobashi no Mikoto, until he, the body of his god, and the sky alike were rent open by a flash of lightning.",
+  "recommendedElements": [
+    "pyro",
+    "electro",
+    "cryo",
+    "anemo"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": null
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "2.0",
+  "images": {}
+}

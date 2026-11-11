@@ -56,6 +56,9 @@ export const artifactSetResource = defineResource({
       type: ctx.ref("artifact-types", a.type),
     })),
     images: ctx.images(s.images),
+    obtainedFrom: ctx.related<{
+      rewards: { items: string[]; artifactSets: string[] };
+    }>("domains", (d) => d.rewards.artifactSets.includes(s.slug)),
     droppedBy: ctx.related<{ drops: { artifactSets: string[] } }>(
       "enemies",
       (e) => e.drops.artifactSets.includes(s.slug),

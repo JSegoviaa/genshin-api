@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 68,
+  "slug": "slumbering-court",
+  "name": "Slumbering Court",
+  "type": "domains-of-blessing",
+  "region": "inazuma",
+  "area": "Seirai Island",
+  "description": "This great hall stood when Seirai Island neither had the name it has now, nor had it yet been stained with the color of thunder. The scenery within will probably never change, either.",
+  "recommendedElements": [
+    "electro",
+    "hydro"
+  ],
+  "tiers": [
+    {
+      "requiredAdventureRank": 30,
+      "recommendedLevel": 59
+    },
+    {
+      "requiredAdventureRank": 35,
+      "recommendedLevel": 69
+    },
+    {
+      "requiredAdventureRank": 40,
+      "recommendedLevel": 80
+    },
+    {
+      "requiredAdventureRank": 45,
+      "recommendedLevel": 90
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": [
+      "brave-heart",
+      "defenders-will",
+      "husk-of-opulent-dreams",
+      "ocean-hued-clam"
+    ]
+  },
+  "enemies": [],
+  "releaseVersion": "2.3",
+  "images": {}
+}

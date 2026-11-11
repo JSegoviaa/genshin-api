@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 137,
+  "slug": "assaulting-the-water-imp-kingdom",
+  "name": "Assaulting the Water Imp Kingdom",
+  "type": "quest-domains",
+  "region": "fontaine",
+  "area": "Court of Fontaine Region",
+  "description": "The beautiful Kingdom of Water Imps is at hand. Warriors, together with Prince Thelxie, reclaim it from the monsters occupying it!",
+  "recommendedElements": [],
+  "tiers": [],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "4.2",
+  "images": {}
+}

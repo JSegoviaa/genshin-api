@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/domains.json",
+  "id": 21,
+  "slug": "deep-within-the-temple-of-the-falcon",
+  "name": "Deep Within the Temple of the Falcon",
+  "type": "quest-domains",
+  "region": "mondstadt",
+  "area": "Starfell Valley",
+  "description": "The Knights of Favonius have been mobilized to contain Stormterror's destructive rampage. Venture forth with Amber the Outrider to the Temple of the Falcon and stop Stormterror from gaining the power within.",
+  "recommendedElements": [],
+  "tiers": [
+    {
+      "requiredAdventureRank": null,
+      "recommendedLevel": 4
+    }
+  ],
+  "rewards": {
+    "items": [],
+    "artifactSets": []
+  },
+  "enemies": [],
+  "releaseVersion": "1.0",
+  "images": {}
+}

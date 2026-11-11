@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/items.json",
+  "id": 260,
+  "slug": "guide-to-order",
+  "name": "Guide to Order",
+  "type": "character-talent-materials",
+  "source": "domains-of-mastery",
+  "group": "order-books",
+  "rarity": 3,
+  "description": "The shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Without the guarantee provided by order, justice will be reduced to unlimited violence, a weapon used by all against all.",
+  "releaseVersion": "4.0",
+  "days": [
+    "wednesday",
+    "saturday",
+    "sunday"
+  ],
+  "images": {}
+}
