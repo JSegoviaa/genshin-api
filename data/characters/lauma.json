@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Lightbearing Scale-Feather",
     "weeklyBoss": "Eroded Scale-Feather",
+    "talent": [
+      "Teachings of Moonlight",
+      "Guide to Moonlight",
+      "Philosophies of Moonlight"
+    ],
     "common": [
       "Tattered Warrant",
       "Immaculate Warrant",

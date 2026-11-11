@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Smoldering Pearl",
     "weeklyBoss": "Hellfire Butterfly",
+    "talent": [
+      "Teachings of Transience",
+      "Guide to Transience",
+      "Philosophies of Transience"
+    ],
     "common": [
       "Treasure Hoarder Insignia",
       "Silver Raven Insignia",

@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Quelled Creeper",
     "weeklyBoss": "Puppet Strings",
+    "talent": [
+      "Teachings of Ingenuity",
+      "Guide to Ingenuity",
+      "Philosophies of Ingenuity"
+    ],
     "common": [
       "Fungal Spores",
       "Luminescent Pollen",

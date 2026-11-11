@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Sparkless Statue Core",
     "weeklyBoss": "Ascended Sample: Rook",
+    "talent": [
+      "Teachings of Conflict",
+      "Guide to Conflict",
+      "Philosophies of Conflict"
+    ],
     "common": [
       "Juvenile Fang",
       "Seasoned Fang",

@@ -388,6 +388,19 @@ describe("detail", () => {
     expect(hu.body.materials.common.map((m: any) => m.slug)).toContain(
       "whopperflower-nectar",
     );
+    expect(hu.body.materials.talent.map((m: any) => m.slug)).toEqual([
+      "teachings-of-diligence",
+      "guide-to-diligence",
+      "philosophies-of-diligence",
+    ]);
+    const readers = await get(
+      "/api/v1/characters?material=diligence-books&limit=100",
+    );
+    expect(readers.body.results.map((c: any) => c.slug)).toContain("hu-tao");
+    const book = await get("/api/v1/items/guide-to-diligence");
+    expect(book.body.usedBy.characters.map((c: any) => c.slug)).toContain(
+      "hu-tao",
+    );
     const set = await get("/api/v1/artifact-sets/berserker");
     expect(set.body.droppedBy.length).toBeGreaterThan(0);
   });

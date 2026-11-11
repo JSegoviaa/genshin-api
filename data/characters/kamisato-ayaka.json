@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Perpetual Heart",
     "weeklyBoss": "Bloodjade Branch",
+    "talent": [
+      "Teachings of Elegance",
+      "Guide to Elegance",
+      "Philosophies of Elegance"
+    ],
     "common": [
       "Old Handguard",
       "Kageuchi Handguard",

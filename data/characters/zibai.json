@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Remnant of the Dreadwing",
     "weeklyBoss": "Ascended Sample: Queen",
+    "talent": [
+      "Teachings of Gold",
+      "Guide to Gold",
+      "Philosophies of Gold"
+    ],
     "common": [
       "Tattered Warrant",
       "Immaculate Warrant",

@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Artificed Spare Clockwork Component — Coppelius",
     "weeklyBoss": "Worldspan Fern",
+    "talent": [
+      "Teachings of Justice",
+      "Guide to Justice",
+      "Philosophies of Justice"
+    ],
     "common": [
       "Transoceanic Pearl",
       "Transoceanic Chunk",

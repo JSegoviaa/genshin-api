@@ -17,6 +17,11 @@
   "materials": {
     "boss": "\"Tourbillon Device\"",
     "weeklyBoss": "Primordial Greenbloom",
+    "talent": [
+      "Teachings of Order",
+      "Guide to Order",
+      "Philosophies of Order"
+    ],
     "common": [
       "Meshing Gear",
       "Mechanical Spur Gear",

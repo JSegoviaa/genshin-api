@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Cleansing Heart",
     "weeklyBoss": "Ring of Boreas",
+    "talent": [
+      "Teachings of Resistance",
+      "Guide to Resistance",
+      "Philosophies of Resistance"
+    ],
     "common": [
       "Whopperflower Nectar",
       "Shimmering Nectar",

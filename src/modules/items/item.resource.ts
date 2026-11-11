@@ -7,7 +7,12 @@ import { ITEM_SOURCES, WEEKDAYS } from "./item-source";
 import { itemSchema } from "./item.schema";
 
 const characterMaterials = (c: Character) =>
-  [c.materials.boss, c.materials.weeklyBoss, ...c.materials.common]
+  [
+    c.materials.boss,
+    c.materials.weeklyBoss,
+    ...c.materials.talent,
+    ...c.materials.common,
+  ]
     .filter((m): m is string => !!m)
     .map(slugify);
 

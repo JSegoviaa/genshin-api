@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hurricane Seed",
     "weeklyBoss": "Tail of Boreas",
+    "talent": [
+      "Teachings of Ballad",
+      "Guide to Ballad",
+      "Philosophies of Ballad"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

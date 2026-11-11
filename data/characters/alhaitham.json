@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Pseudo-Stamens",
     "weeklyBoss": "Mirror of Mushin",
+    "talent": [
+      "Teachings of Ingenuity",
+      "Guide to Ingenuity",
+      "Philosophies of Ingenuity"
+    ],
     "common": [
       "Faded Red Satin",
       "Trimmed Red Silk",

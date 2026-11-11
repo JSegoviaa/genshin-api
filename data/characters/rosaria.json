@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hoarfrost Core",
     "weeklyBoss": "Shadow of the Warrior",
+    "talent": [
+      "Teachings of Ballad",
+      "Guide to Ballad",
+      "Philosophies of Ballad"
+    ],
     "common": [
       "Recruit's Insignia",
       "Sergeant's Insignia",

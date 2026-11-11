@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Storm Beads",
     "weeklyBoss": "Ashen Heart",
+    "talent": [
+      "Teachings of Elegance",
+      "Guide to Elegance",
+      "Philosophies of Elegance"
+    ],
     "common": [
       "Damaged Mask",
       "Stained Mask",

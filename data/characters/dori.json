@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Thunderclap Fruitcore",
     "weeklyBoss": "Bloodjade Branch",
+    "talent": [
+      "Teachings of Ingenuity",
+      "Guide to Ingenuity",
+      "Philosophies of Ingenuity"
+    ],
     "common": [
       "Faded Red Satin",
       "Trimmed Red Silk",

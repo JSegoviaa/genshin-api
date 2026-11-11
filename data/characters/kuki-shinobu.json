@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Runic Fang",
     "weeklyBoss": "Tears of the Calamitous God",
+    "talent": [
+      "Teachings of Elegance",
+      "Guide to Elegance",
+      "Philosophies of Elegance"
+    ],
     "common": [
       "Spectral Husk",
       "Spectral Heart",

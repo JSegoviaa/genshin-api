@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Artificed Spare Clockwork Component — Coppelius",
     "weeklyBoss": "Lightless Silk String",
+    "talent": [
+      "Teachings of Equity",
+      "Guide to Equity",
+      "Philosophies of Equity"
+    ],
     "common": [
       "Transoceanic Pearl",
       "Transoceanic Chunk",

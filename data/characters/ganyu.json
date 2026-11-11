@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hoarfrost Core",
     "weeklyBoss": "Shadow of the Warrior",
+    "talent": [
+      "Teachings of Diligence",
+      "Guide to Diligence",
+      "Philosophies of Diligence"
+    ],
     "common": [
       "Whopperflower Nectar",
       "Shimmering Nectar",

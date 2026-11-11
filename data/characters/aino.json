@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Precision Kuuvahki Stamping Die",
     "weeklyBoss": "Silken Feather",
+    "talent": [
+      "Teachings of Elysium",
+      "Guide to Elysium",
+      "Philosophies of Elysium"
+    ],
     "common": [
       "Broken Drive Shaft",
       "Reinforced Drive Shaft",

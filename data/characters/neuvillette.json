@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Fontemer Unihorn",
     "weeklyBoss": "Everamber",
+    "talent": [
+      "Teachings of Equity",
+      "Guide to Equity",
+      "Philosophies of Equity"
+    ],
     "common": [
       "Transoceanic Pearl",
       "Transoceanic Chunk",

@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Dew of Repudiation",
     "weeklyBoss": "Mudra of the Malefic General",
+    "talent": [
+      "Teachings of Elegance",
+      "Guide to Elegance",
+      "Philosophies of Elegance"
+    ],
     "common": [
       "Old Handguard",
       "Kageuchi Handguard",

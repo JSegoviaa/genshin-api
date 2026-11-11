@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Plume of the Fallen Watcher",
     "weeklyBoss": "Elixir of the Heretic",
+    "talent": [
+      "Teachings of Vagrancy",
+      "Guide to Vagrancy",
+      "Philosophies of Vagrancy"
+    ],
     "common": [
       "Tattered Warrant",
       "Immaculate Warrant",

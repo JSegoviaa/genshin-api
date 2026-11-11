@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Unscorched Blossom Branch",
     "weeklyBoss": "Madman's Restraint",
+    "talent": [
+      "Teachings of Fortitude",
+      "Guide to Fortitude",
+      "Philosophies of Fortitude"
+    ],
     "common": [
       "Chimeric Core",
       "Symbiotic Chimeric Nucleus",

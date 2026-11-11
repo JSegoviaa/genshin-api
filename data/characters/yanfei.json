@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Juvenile Jade",
     "weeklyBoss": "Bloodjade Branch",
+    "talent": [
+      "Teachings of Gold",
+      "Guide to Gold",
+      "Philosophies of Gold"
+    ],
     "common": [
       "Treasure Hoarder Insignia",
       "Silver Raven Insignia",

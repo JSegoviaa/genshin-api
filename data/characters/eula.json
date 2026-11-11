@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Crystalline Bloom",
     "weeklyBoss": "Dragon Lord's Crown",
+    "talent": [
+      "Teachings of Resistance",
+      "Guide to Resistance",
+      "Philosophies of Resistance"
+    ],
     "common": [
       "Damaged Mask",
       "Stained Mask",

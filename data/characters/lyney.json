@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Emperor's Resolution",
     "weeklyBoss": "Primordial Greenbloom",
+    "talent": [
+      "Teachings of Equity",
+      "Guide to Equity",
+      "Philosophies of Equity"
+    ],
     "common": [
       "Recruit's Insignia",
       "Sergeant's Insignia",

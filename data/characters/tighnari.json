@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Majestic Hooked Beak",
     "weeklyBoss": "The Meaning of Aeons",
+    "talent": [
+      "Teachings of Admonition",
+      "Guide to Admonition",
+      "Philosophies of Admonition"
+    ],
     "common": [
       "Fungal Spores",
       "Luminescent Pollen",

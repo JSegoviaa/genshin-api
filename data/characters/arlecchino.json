@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Fragment of a Golden Melody",
     "weeklyBoss": "Fading Candle",
+    "talent": [
+      "Teachings of Order",
+      "Guide to Order",
+      "Philosophies of Order"
+    ],
     "common": [
       "Recruit's Insignia",
       "Sergeant's Insignia",

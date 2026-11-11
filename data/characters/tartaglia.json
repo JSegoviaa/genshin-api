@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Cleansing Heart",
     "weeklyBoss": "Shard of a Foul Legacy",
+    "talent": [
+      "Teachings of Freedom",
+      "Guide to Freedom",
+      "Philosophies of Freedom"
+    ],
     "common": [
       "Recruit's Insignia",
       "Sergeant's Insignia",

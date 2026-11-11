@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Prismatic Severed Tail",
     "weeklyBoss": "Ascended Sample: Rook",
+    "talent": [
+      "Teachings of Freedom",
+      "Guide to Freedom",
+      "Philosophies of Freedom"
+    ],
     "common": [
       "Broken Drive Shaft",
       "Reinforced Drive Shaft",

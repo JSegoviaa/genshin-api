@@ -36,7 +36,7 @@ List parameters:
 - `sort`: `id`, `name` and resource-specific fields; prefix with `-` for descending (`sort=-releaseDate`)
 - `name`: partial search (`name=hu`)
 - Resource filters, accepting comma-separated values:
-  - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`, `ascensionStat`
+  - `characters`: `rarity`, `element`, `weaponType`, `region`, `gender`, `bodyType`, `releaseVersion`, `localSpecialty`, `ascensionStat`, `material`
   - `local-specialties`: `region`, `releaseVersion`
   - `artifact-sets`: `rarity`, `type` (piece type, e.g. `circlet-of-logos`), `releaseVersion`
   - `weapons`: `rarity`, `weaponType`, `secondaryStat`, `series`, `material` (item or item group slug), `releaseVersion`
@@ -85,7 +85,7 @@ References to exposed resources are stored by slug (`"element": "pyro"`), except
 stored as the number of stars (`"rarity": 5`) and returned as a reference to `rarities`. Some fields
 are stored by name and resolved with `slugify(name)`: `releaseVersion` (in every released resource), `localSpecialty`,
 `ascensionStat` and `secondaryStat` (`"ascensionStat": "CRIT DMG"` → `stats/crit-dmg`). Character
-`materials` are also stored by name and resolved against `items`. Fields
+`materials` (`boss`, `weeklyBoss`, `talent`, `common`) are also stored by name and resolved against `items`. Fields
 pointing to resources not yet exposed by the API (weapon series) are also stored by name
 and will be resolved the same way once those resources exist, without touching the data.
 

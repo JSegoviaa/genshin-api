@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Dragonheir's False Fin",
     "weeklyBoss": "The Meaning of Aeons",
+    "talent": [
+      "Teachings of Light",
+      "Guide to Light",
+      "Philosophies of Light"
+    ],
     "common": [
       "Old Handguard",
       "Kageuchi Handguard",

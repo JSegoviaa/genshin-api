@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hoarfrost Core",
     "weeklyBoss": "Tail of Boreas",
+    "talent": [
+      "Teachings of Prosperity",
+      "Guide to Prosperity",
+      "Philosophies of Prosperity"
+    ],
     "common": [
       "Divining Scroll",
       "Sealed Scroll",

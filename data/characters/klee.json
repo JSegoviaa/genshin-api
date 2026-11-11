@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Everflame Seed",
     "weeklyBoss": "Ring of Boreas",
+    "talent": [
+      "Teachings of Freedom",
+      "Guide to Freedom",
+      "Philosophies of Freedom"
+    ],
     "common": [
       "Divining Scroll",
       "Sealed Scroll",

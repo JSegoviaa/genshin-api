@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Water That Failed To Transcend",
     "weeklyBoss": "Lightless Mass",
+    "talent": [
+      "Teachings of Justice",
+      "Guide to Justice",
+      "Philosophies of Justice"
+    ],
     "common": [
       "Whopperflower Nectar",
       "Shimmering Nectar",

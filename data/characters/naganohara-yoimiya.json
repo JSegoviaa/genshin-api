@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Smoldering Pearl",
     "weeklyBoss": "Dragon Lord's Crown",
+    "talent": [
+      "Teachings of Transience",
+      "Guide to Transience",
+      "Philosophies of Transience"
+    ],
     "common": [
       "Divining Scroll",
       "Sealed Scroll",

@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Light Guiding Tetrahedron",
     "weeklyBoss": "Puppet Strings",
+    "talent": [
+      "Teachings of Admonition",
+      "Guide to Admonition",
+      "Philosophies of Admonition"
+    ],
     "common": [
       "Faded Red Satin",
       "Trimmed Red Silk",

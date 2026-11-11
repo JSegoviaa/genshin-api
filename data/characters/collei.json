@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Majestic Hooked Beak",
     "weeklyBoss": "Tears of the Calamitous God",
+    "talent": [
+      "Teachings of Praxis",
+      "Guide to Praxis",
+      "Philosophies of Praxis"
+    ],
     "common": [
       "Firm Arrowhead",
       "Sharp Arrowhead",

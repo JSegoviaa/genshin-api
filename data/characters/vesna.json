@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Vagabond's Cracked Armor",
     "weeklyBoss": "Profaned Sprout",
+    "talent": [
+      "Teachings of Glory",
+      "Guide to Glory",
+      "Philosophies of Glory"
+    ],
     "common": [
       "Ethereal Glimmershard",
       "Ethereal Crystal",

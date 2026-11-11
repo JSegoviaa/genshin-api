@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Severed Tail of the Sky-Roamer",
     "weeklyBoss": "Elixir of the Heretic",
+    "talent": [
+      "Teachings of Fortitude",
+      "Guide to Fortitude",
+      "Philosophies of Fortitude"
+    ],
     "common": [
       "Chimeric Core",
       "Symbiotic Chimeric Nucleus",

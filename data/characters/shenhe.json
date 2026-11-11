@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Dragonheir's False Fin",
     "weeklyBoss": "Hellfire Butterfly",
+    "talent": [
+      "Teachings of Prosperity",
+      "Guide to Prosperity",
+      "Philosophies of Prosperity"
+    ],
     "common": [
       "Whopperflower Nectar",
       "Shimmering Nectar",

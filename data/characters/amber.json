@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Everflame Seed",
     "weeklyBoss": "Dvalin's Sigh",
+    "talent": [
+      "Teachings of Freedom",
+      "Guide to Freedom",
+      "Philosophies of Freedom"
+    ],
     "common": [
       "Firm Arrowhead",
       "Sharp Arrowhead",

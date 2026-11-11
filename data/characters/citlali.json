@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Talisman of the Enigmatic Land",
     "weeklyBoss": "Denial and Judgment",
+    "talent": [
+      "Teachings of Kindling",
+      "Guide to Kindling",
+      "Philosophies of Kindling"
+    ],
     "common": [
       "Juvenile Fang",
       "Seasoned Fang",

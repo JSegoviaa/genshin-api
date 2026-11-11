@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Emperor's Resolution",
     "weeklyBoss": "Lightless Mass",
+    "talent": [
+      "Teachings of Prosperity",
+      "Guide to Prosperity",
+      "Philosophies of Prosperity"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

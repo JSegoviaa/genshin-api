@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Radiant Antler",
     "weeklyBoss": "Mask of the Virtuous Doctor",
+    "talent": [
+      "Teachings of Resistance",
+      "Guide to Resistance",
+      "Philosophies of Resistance"
+    ],
     "common": [
       "Treasure Hoarder Insignia",
       "Silver Raven Insignia",

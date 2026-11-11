@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Evergloom Ring",
     "weeklyBoss": "Worldspan Fern",
+    "talent": [
+      "Teachings of Gold",
+      "Guide to Gold",
+      "Philosophies of Gold"
+    ],
     "common": [
       "Fungal Spores",
       "Luminescent Pollen",

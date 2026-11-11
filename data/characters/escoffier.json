@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Secret Source Airflow Accumulator",
     "weeklyBoss": "Eroded Horn",
+    "talent": [
+      "Teachings of Justice",
+      "Guide to Justice",
+      "Philosophies of Justice"
+    ],
     "common": [
       "Meshing Gear",
       "Mechanical Spur Gear",

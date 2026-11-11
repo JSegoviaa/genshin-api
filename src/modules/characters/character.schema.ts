@@ -60,6 +60,7 @@ export const characterSchema = z
       .object({
         boss: label.nullable(),
         weeklyBoss: label.nullable(),
+        talent: z.array(label),
         common: z.array(label),
       })
       .strict(),

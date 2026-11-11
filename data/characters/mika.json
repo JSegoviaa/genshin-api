@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Pseudo-Stamens",
     "weeklyBoss": "Mirror of Mushin",
+    "talent": [
+      "Teachings of Ballad",
+      "Guide to Ballad",
+      "Philosophies of Ballad"
+    ],
     "common": [
       "Recruit's Insignia",
       "Sergeant's Insignia",

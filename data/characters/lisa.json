@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Lightning Prism",
     "weeklyBoss": "Dvalin's Claw",
+    "talent": [
+      "Teachings of Ballad",
+      "Guide to Ballad",
+      "Philosophies of Ballad"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

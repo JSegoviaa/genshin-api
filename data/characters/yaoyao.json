@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Quelled Creeper",
     "weeklyBoss": "Daka's Bell",
+    "talent": [
+      "Teachings of Diligence",
+      "Guide to Diligence",
+      "Philosophies of Diligence"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

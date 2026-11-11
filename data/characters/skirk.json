@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Ensnaring Gaze",
     "weeklyBoss": "Ascended Sample: Knight",
+    "talent": [
+      "Teachings of Contention",
+      "Guide to Contention",
+      "Philosophies of Contention"
+    ],
     "common": [
       "Meshing Gear",
       "Mechanical Spur Gear",

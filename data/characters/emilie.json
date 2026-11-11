@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Fragment of a Golden Melody",
     "weeklyBoss": "Silken Feather",
+    "talent": [
+      "Teachings of Order",
+      "Guide to Order",
+      "Philosophies of Order"
+    ],
     "common": [
       "Meshing Gear",
       "Mechanical Spur Gear",

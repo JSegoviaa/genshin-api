@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Light Guiding Tetrahedron",
     "weeklyBoss": "Puppet Strings",
+    "talent": [
+      "Teachings of Praxis",
+      "Guide to Praxis",
+      "Philosophies of Praxis"
+    ],
     "common": [
       "Faded Red Satin",
       "Trimmed Red Silk",

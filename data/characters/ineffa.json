@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Secret Source Airflow Accumulator",
     "weeklyBoss": "Eroded Sunfire",
+    "talent": [
+      "Teachings of Conflict",
+      "Guide to Conflict",
+      "Philosophies of Conflict"
+    ],
     "common": [
       "Sentry's Wooden Whistle",
       "Warrior's Metal Whistle",

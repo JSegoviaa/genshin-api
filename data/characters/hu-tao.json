@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Juvenile Jade",
     "weeklyBoss": "Shard of a Foul Legacy",
+    "talent": [
+      "Teachings of Diligence",
+      "Guide to Diligence",
+      "Philosophies of Diligence"
+    ],
     "common": [
       "Whopperflower Nectar",
       "Shimmering Nectar",

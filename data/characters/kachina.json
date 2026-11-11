@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Overripe Flamegranate",
     "weeklyBoss": "Fading Candle",
+    "talent": [
+      "Teachings of Conflict",
+      "Guide to Conflict",
+      "Philosophies of Conflict"
+    ],
     "common": [
       "Sentry's Wooden Whistle",
       "Warrior's Metal Whistle",

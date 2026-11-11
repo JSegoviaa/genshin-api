@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hoarfrost Core",
     "weeklyBoss": "Shard of a Foul Legacy",
+    "talent": [
+      "Teachings of Freedom",
+      "Guide to Freedom",
+      "Philosophies of Freedom"
+    ],
     "common": [
       "Firm Arrowhead",
       "Sharp Arrowhead",

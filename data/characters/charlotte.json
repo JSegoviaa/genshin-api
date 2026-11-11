@@ -17,6 +17,11 @@
   "materials": {
     "boss": "\"Tourbillon Device\"",
     "weeklyBoss": "Lightless Silk String",
+    "talent": [
+      "Teachings of Justice",
+      "Guide to Justice",
+      "Philosophies of Justice"
+    ],
     "common": [
       "Meshing Gear",
       "Mechanical Spur Gear",

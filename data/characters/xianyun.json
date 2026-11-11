@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Cloudseam Scale",
     "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "talent": [
+      "Teachings of Gold",
+      "Guide to Gold",
+      "Philosophies of Gold"
+    ],
     "common": [
       "Divining Scroll",
       "Sealed Scroll",

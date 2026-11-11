@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Riftborn Regalia",
     "weeklyBoss": "Ashen Heart",
+    "talent": [
+      "Teachings of Diligence",
+      "Guide to Diligence",
+      "Philosophies of Diligence"
+    ],
     "common": [
       "Damaged Mask",
       "Stained Mask",

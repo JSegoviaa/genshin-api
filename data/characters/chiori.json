@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Artificed Spare Clockwork Component — Coppelia",
     "weeklyBoss": "Lightless Silk String",
+    "talent": [
+      "Teachings of Light",
+      "Guide to Light",
+      "Philosophies of Light"
+    ],
     "common": [
       "Spectral Husk",
       "Spectral Heart",

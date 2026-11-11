@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Mark of the Binding Blessing",
     "weeklyBoss": "Lightless Mass",
+    "talent": [
+      "Teachings of Contention",
+      "Guide to Contention",
+      "Philosophies of Contention"
+    ],
     "common": [
       "Sentry's Wooden Whistle",
       "Warrior's Metal Whistle",

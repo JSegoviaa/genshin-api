@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hoarfrost Core",
     "weeklyBoss": "Spirit Locket of Boreas",
+    "talent": [
+      "Teachings of Ballad",
+      "Guide to Ballad",
+      "Philosophies of Ballad"
+    ],
     "common": [
       "Treasure Hoarder Insignia",
       "Silver Raven Insignia",

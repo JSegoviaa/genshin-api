@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Evergloom Ring",
     "weeklyBoss": "Everamber",
+    "talent": [
+      "Teachings of Transience",
+      "Guide to Transience",
+      "Philosophies of Transience"
+    ],
     "common": [
       "Spectral Husk",
       "Spectral Heart",

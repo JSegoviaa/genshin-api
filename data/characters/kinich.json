@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Overripe Flamegranate",
     "weeklyBoss": "Denial and Judgment",
+    "talent": [
+      "Teachings of Kindling",
+      "Guide to Kindling",
+      "Philosophies of Kindling"
+    ],
     "common": [
       "Juvenile Fang",
       "Seasoned Fang",

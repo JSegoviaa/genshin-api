@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Fontemer Unihorn",
     "weeklyBoss": "Everamber",
+    "talent": [
+      "Teachings of Justice",
+      "Guide to Justice",
+      "Philosophies of Justice"
+    ],
     "common": [
       "Transoceanic Pearl",
       "Transoceanic Chunk",

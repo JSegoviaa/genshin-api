@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Radiant Antler",
     "weeklyBoss": "Mask of the Virtuous Doctor",
+    "talent": [
+      "Teachings of Moonlight",
+      "Guide to Moonlight",
+      "Philosophies of Moonlight"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

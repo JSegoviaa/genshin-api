@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hoarfrost Core",
     "weeklyBoss": "Dvalin's Sigh",
+    "talent": [
+      "Teachings of Diligence",
+      "Guide to Diligence",
+      "Philosophies of Diligence"
+    ],
     "common": [
       "Damaged Mask",
       "Stained Mask",

@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Marionette Core",
     "weeklyBoss": "Gilded Scale",
+    "talent": [
+      "Teachings of Diligence",
+      "Guide to Diligence",
+      "Philosophies of Diligence"
+    ],
     "common": [
       "Treasure Hoarder Insignia",
       "Silver Raven Insignia",

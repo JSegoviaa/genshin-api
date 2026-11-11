@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Unscorched Blossom Branch",
     "weeklyBoss": "Twisted Withered Branch",
+    "talent": [
+      "Teachings of Charity",
+      "Guide to Charity",
+      "Philosophies of Charity"
+    ],
     "common": [
       "Ethereal Glimmershard",
       "Ethereal Crystal",

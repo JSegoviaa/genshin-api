@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Thunderclap Fruitcore",
     "weeklyBoss": "Mudra of the Malefic General",
+    "talent": [
+      "Teachings of Admonition",
+      "Guide to Admonition",
+      "Philosophies of Admonition"
+    ],
     "common": [
       "Divining Scroll",
       "Sealed Scroll",

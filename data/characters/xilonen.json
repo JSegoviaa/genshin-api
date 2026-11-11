@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Gold-Inscribed Secret Source Core",
     "weeklyBoss": "Mirror of Mushin",
+    "talent": [
+      "Teachings of Kindling",
+      "Guide to Kindling",
+      "Philosophies of Kindling"
+    ],
     "common": [
       "Sentry's Wooden Whistle",
       "Warrior's Metal Whistle",

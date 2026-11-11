@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Lightning Prism",
     "weeklyBoss": "Ring of Boreas",
+    "talent": [
+      "Teachings of Prosperity",
+      "Guide to Prosperity",
+      "Philosophies of Prosperity"
+    ],
     "common": [
       "Whopperflower Nectar",
       "Shimmering Nectar",

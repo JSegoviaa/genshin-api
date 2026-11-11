@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Artificed Spare Clockwork Component — Coppelia",
     "weeklyBoss": "Everamber",
+    "talent": [
+      "Teachings of Order",
+      "Guide to Order",
+      "Philosophies of Order"
+    ],
     "common": [
       "Meshing Gear",
       "Mechanical Spur Gear",

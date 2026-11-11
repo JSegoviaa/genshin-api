@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Shattered Stability Anchor",
     "weeklyBoss": "Mask of the Virtuous Doctor",
+    "talent": [
+      "Teachings of Charity",
+      "Guide to Charity",
+      "Philosophies of Charity"
+    ],
     "common": [
       "Chimeric Core",
       "Symbiotic Chimeric Nucleus",

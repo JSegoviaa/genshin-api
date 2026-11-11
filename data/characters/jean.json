@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Hurricane Seed",
     "weeklyBoss": "Dvalin's Plume",
+    "talent": [
+      "Teachings of Resistance",
+      "Guide to Resistance",
+      "Philosophies of Resistance"
+    ],
     "common": [
       "Damaged Mask",
       "Stained Mask",

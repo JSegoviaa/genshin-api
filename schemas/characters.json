@@ -130,6 +130,13 @@
             }
           ]
         },
+        "talent": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
         "common": {
           "type": "array",
           "items": {
@@ -141,6 +148,7 @@
       "required": [
         "boss",
         "weeklyBoss",
+        "talent",
         "common"
       ],
       "additionalProperties": false

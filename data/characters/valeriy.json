@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Severed Tail of the Sky-Roamer",
     "weeklyBoss": "Counterfeit Resin",
+    "talent": [
+      "Teachings of Glory",
+      "Guide to Glory",
+      "Philosophies of Glory"
+    ],
     "common": [
       "Ethereal Glimmershard",
       "Ethereal Crystal",

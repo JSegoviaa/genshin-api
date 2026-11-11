@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Everflame Seed",
     "weeklyBoss": "Tusk of Monoceros Caeli",
+    "talent": [
+      "Teachings of Gold",
+      "Guide to Gold",
+      "Philosophies of Gold"
+    ],
     "common": [
       "Treasure Hoarder Insignia",
       "Silver Raven Insignia",

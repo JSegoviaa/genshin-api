@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Radiant Antler",
     "weeklyBoss": "Ascended Sample: Rook",
+    "talent": [
+      "Teachings of Elysium",
+      "Guide to Elysium",
+      "Philosophies of Elysium"
+    ],
     "common": [
       "Tattered Warrant",
       "Immaculate Warrant",

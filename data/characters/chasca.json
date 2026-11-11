@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Ensnaring Gaze",
     "weeklyBoss": "Silken Feather",
+    "talent": [
+      "Teachings of Conflict",
+      "Guide to Conflict",
+      "Philosophies of Conflict"
+    ],
     "common": [
       "Juvenile Fang",
       "Seasoned Fang",

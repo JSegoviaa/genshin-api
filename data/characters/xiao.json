@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Juvenile Jade",
     "weeklyBoss": "Shadow of the Warrior",
+    "talent": [
+      "Teachings of Prosperity",
+      "Guide to Prosperity",
+      "Philosophies of Prosperity"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

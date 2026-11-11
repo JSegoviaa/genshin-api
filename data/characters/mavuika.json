@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Gold-Inscribed Secret Source Core",
     "weeklyBoss": "Eroded Horn",
+    "talent": [
+      "Teachings of Contention",
+      "Guide to Contention",
+      "Philosophies of Contention"
+    ],
     "common": [
       "Sentry's Wooden Whistle",
       "Warrior's Metal Whistle",

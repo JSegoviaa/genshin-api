@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Riftborn Regalia",
     "weeklyBoss": "Ashen Heart",
+    "talent": [
+      "Teachings of Elegance",
+      "Guide to Elegance",
+      "Philosophies of Elegance"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

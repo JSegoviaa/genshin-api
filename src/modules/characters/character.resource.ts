@@ -1,4 +1,6 @@
 import { defineResource, head } from "../../core/resource";
+import { slugify } from "../../core/slug";
+import type { Item } from "../items/item.schema";
 import { characterSchema } from "./character.schema";
 
 export const characterResource = defineResource({
@@ -18,6 +20,7 @@ export const characterResource = defineResource({
     ascensionStat: { resource: "stats", key: "name" },
     "materials.boss": { resource: "items", key: "name" },
     "materials.weeklyBoss": { resource: "items", key: "name" },
+    "materials.talent": { resource: "items", key: "name" },
     "materials.common": { resource: "items", key: "name" },
   },
   filters: {
@@ -41,6 +44,25 @@ export const characterResource = defineResource({
     ascensionStat: {
       description: "Ascension stat slug, e.g. crit-dmg",
       get: (c) => c.ascensionStat,
+    },
+    material: {
+      description:
+        "Item or item group slug used to ascend the character or level up talents, e.g. juvenile-jade or diligence-books",
+      get: (c, lookup) => {
+        const slugs = [
+          c.materials.boss,
+          c.materials.weeklyBoss,
+          ...c.materials.talent,
+          ...c.materials.common,
+        ]
+          .filter((m): m is string => !!m)
+          .map(slugify);
+        const groups = lookup
+          .all<Item>("items")
+          .filter((i) => slugs.includes(i.slug) && i.group)
+          .map((i) => i.group as string);
+        return [...slugs, ...new Set(groups)];
+      },
     },
   },
   sorts: {
@@ -72,6 +94,7 @@ export const characterResource = defineResource({
     materials: {
       boss: ctx.refByName("items", c.materials.boss),
       weeklyBoss: ctx.refByName("items", c.materials.weeklyBoss),
+      talent: c.materials.talent.map((m) => ctx.refByName("items", m)),
       common: c.materials.common.map((m) => ctx.refByName("items", m)),
     },
     constellations: c.constellations.map((k) => ({

@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Lightning Prism",
     "weeklyBoss": "Spirit Locket of Boreas",
+    "talent": [
+      "Teachings of Ballad",
+      "Guide to Ballad",
+      "Philosophies of Ballad"
+    ],
     "common": [
       "Firm Arrowhead",
       "Sharp Arrowhead",

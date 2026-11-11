@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Water That Failed To Transcend",
     "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "talent": [
+      "Teachings of Equity",
+      "Guide to Equity",
+      "Philosophies of Equity"
+    ],
     "common": [
       "Transoceanic Pearl",
       "Transoceanic Chunk",

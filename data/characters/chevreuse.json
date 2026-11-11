@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Fontemer Unihorn",
     "weeklyBoss": "Lightless Eye of the Maelstrom",
+    "talent": [
+      "Teachings of Order",
+      "Guide to Order",
+      "Philosophies of Order"
+    ],
     "common": [
       "Meshing Gear",
       "Mechanical Spur Gear",

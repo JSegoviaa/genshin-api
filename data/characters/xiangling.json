@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Everflame Seed",
     "weeklyBoss": "Dvalin's Claw",
+    "talent": [
+      "Teachings of Diligence",
+      "Guide to Diligence",
+      "Philosophies of Diligence"
+    ],
     "common": [
       "Slime Condensate",
       "Slime Secretions",

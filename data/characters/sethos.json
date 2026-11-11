@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Cloudseam Scale",
     "weeklyBoss": "Daka's Bell",
+    "talent": [
+      "Teachings of Praxis",
+      "Guide to Praxis",
+      "Philosophies of Praxis"
+    ],
     "common": [
       "Faded Red Satin",
       "Trimmed Red Silk",

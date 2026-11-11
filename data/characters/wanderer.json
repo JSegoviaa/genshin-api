@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Perpetual Caliber",
     "weeklyBoss": "Daka's Bell",
+    "talent": [
+      "Teachings of Praxis",
+      "Guide to Praxis",
+      "Philosophies of Praxis"
+    ],
     "common": [
       "Old Handguard",
       "Kageuchi Handguard",

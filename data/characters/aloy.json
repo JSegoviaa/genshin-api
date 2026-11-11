@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Crystalline Bloom",
     "weeklyBoss": "Molten Moment",
+    "talent": [
+      "Teachings of Freedom",
+      "Guide to Freedom",
+      "Philosophies of Freedom"
+    ],
     "common": [
       "Spectral Husk",
       "Spectral Heart",

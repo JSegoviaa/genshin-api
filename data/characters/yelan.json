@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Runic Fang",
     "weeklyBoss": "Gilded Scale",
+    "talent": [
+      "Teachings of Prosperity",
+      "Guide to Prosperity",
+      "Philosophies of Prosperity"
+    ],
     "common": [
       "Recruit's Insignia",
       "Sergeant's Insignia",

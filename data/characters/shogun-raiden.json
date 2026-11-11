@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Storm Beads",
     "weeklyBoss": "Molten Moment",
+    "talent": [
+      "Teachings of Light",
+      "Guide to Light",
+      "Philosophies of Light"
+    ],
     "common": [
       "Old Handguard",
       "Kageuchi Handguard",

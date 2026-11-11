@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Plume of the Fallen Watcher",
     "weeklyBoss": "Madman's Restraint",
+    "talent": [
+      "Teachings of Vagrancy",
+      "Guide to Vagrancy",
+      "Philosophies of Vagrancy"
+    ],
     "common": [
       "Broken Drive Shaft",
       "Reinforced Drive Shaft",

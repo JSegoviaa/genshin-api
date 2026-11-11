@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Lightning Prism",
     "weeklyBoss": "Dvalin's Claw",
+    "talent": [
+      "Teachings of Resistance",
+      "Guide to Resistance",
+      "Philosophies of Resistance"
+    ],
     "common": [
       "Damaged Mask",
       "Stained Mask",

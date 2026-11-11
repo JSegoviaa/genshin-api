@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Cyclic Military Kuuvahki Core",
     "weeklyBoss": "Eroded Sunfire",
+    "talent": [
+      "Teachings of Ballad",
+      "Guide to Ballad",
+      "Philosophies of Ballad"
+    ],
     "common": [
       "Tattered Warrant",
       "Immaculate Warrant",

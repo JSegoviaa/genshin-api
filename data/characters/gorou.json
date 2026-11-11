@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Perpetual Heart",
     "weeklyBoss": "Molten Moment",
+    "talent": [
+      "Teachings of Light",
+      "Guide to Light",
+      "Philosophies of Light"
+    ],
     "common": [
       "Spectral Husk",
       "Spectral Heart",

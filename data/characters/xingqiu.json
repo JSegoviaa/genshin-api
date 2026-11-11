@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Cleansing Heart",
     "weeklyBoss": "Tail of Boreas",
+    "talent": [
+      "Teachings of Gold",
+      "Guide to Gold",
+      "Philosophies of Gold"
+    ],
     "common": [
       "Damaged Mask",
       "Stained Mask",

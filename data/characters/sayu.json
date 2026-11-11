@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Marionette Core",
     "weeklyBoss": "Gilded Scale",
+    "talent": [
+      "Teachings of Light",
+      "Guide to Light",
+      "Philosophies of Light"
+    ],
     "common": [
       "Whopperflower Nectar",
       "Shimmering Nectar",

@@ -17,6 +17,11 @@
   "materials": {
     "boss": "Basalt Pillar",
     "weeklyBoss": "Spirit Locket of Boreas",
+    "talent": [
+      "Teachings of Prosperity",
+      "Guide to Prosperity",
+      "Philosophies of Prosperity"
+    ],
     "common": [
       "Recruit's Insignia",
       "Sergeant's Insignia",
