@@ -22,7 +22,7 @@ if (!PUBLIC_API_URL) {
 
 if (!DEV && PUBLIC_API_URL.includes("REPLACE_ME")) {
   console.warn(
-    `⚠ PUBLIC_API_URL is still a placeholder (${PUBLIC_API_URL}). Update docs/.env.production before deploying.`,
+    `⚠ PUBLIC_API_URL is still a placeholder (${PUBLIC_API_URL}). Update docs/.env.${MODE} before deploying.`,
   );
 }
 
@@ -41,7 +41,7 @@ const IMAGES_BASE_URL = (
 
 if (!DEV && IMAGES_BASE_URL.includes("REPLACE_ME")) {
   console.warn(
-    `⚠ IMAGES_BASE_URL is still a placeholder (${IMAGES_BASE_URL}). Update it in wrangler.toml or docs/.env.production before deploying.`,
+    `⚠ IMAGES_BASE_URL is still a placeholder (${IMAGES_BASE_URL}). Update it in wrangler.toml or docs/.env.${MODE} before deploying.`,
   );
 }
 

@@ -80,7 +80,7 @@ npm run typecheck
 3. `npm run build:data` validates everything: schema, unique ids/slugs and references (`"element": "pyro"` must exist).
 4. `npm run images:check` verifies no images are missing.
 5. `npm run images:sync:local` to preview them locally (see [Local images](#local-images)), then
-   `npm run images:sync` uploads new images to R2 and `npm run deploy` publishes the API.
+   `npm run images:sync` uploads new images to R2 and pushing to `main` publishes the API (see [Deployment](#deployment)).
 
 References to exposed resources are stored by slug (`"element": "pyro"`, `"ascensionStat": "crit-dmg"`,
 `"materials": { "localSpecialty": "silk-flower" }`), except `rarity`, which is stored as the number of stars
@@ -122,15 +122,37 @@ name can be changed with the `LOCAL_S3_*` variables in `.env` (see `.env.example
 `docker compose down -v` removes the container and its data. Production is unaffected: `images:sync` always
 uses the R2 credentials, and the deployed Worker uses `IMAGES_BASE_URL` from `wrangler.toml`.
 
-## Deployment (one time)
+## Deployment
 
-1. Create a free Cloudflare account and run `npx wrangler login`.
+Deployments run in GitHub Actions (`.github/workflows/deploy.yml`) on every push. Each push typechecks,
+tests, builds the docs and deploys both Workers to the environment of its branch:
+
+| Branch | Environment | API Worker | Docs Worker | Docs API URL |
+|---|---|---|---|---|
+| `main` | production | `genshin-api` | `genshin-api-docs` | `docs/.env.production` |
+| `develop` | develop | `genshin-api-develop` | `genshin-api-docs-develop` | `docs/.env.develop` |
+
+The `develop` environment is declared as `[env.develop]` in `wrangler.toml` and `docs/wrangler.toml`
+(its `IMAGES_BASE_URL` lives in `[env.develop.vars]`). The workflow can also be run manually from the
+Actions tab.
+
+### One-time setup
+
+1. Create a free Cloudflare account.
 2. **R2**: enable R2 in the dashboard (it may ask for a payment method even on the free tier)
    and create the `genshin-images` bucket.
-   - Settings → Public access → enable the `r2.dev` subdomain and set its URL as `IMAGES_BASE_URL` in `wrangler.toml`.
+   - Settings → Public access → enable the `r2.dev` subdomain and set its URL as `IMAGES_BASE_URL` in
+     `wrangler.toml` (both in `[vars]` and `[env.develop.vars]`).
    - Manage API tokens → create a token with *Object Read & Write* and fill in `.env` (see `.env.example`).
 3. `npm run images:sync` (first run uploads everything; afterwards only new or changed files).
-4. `npm run deploy` → the API is available at `https://genshin-api.<your-subdomain>.workers.dev`.
+4. Cloudflare → My Profile → API Tokens → create a token from the *Edit Cloudflare Workers* template.
+5. GitHub → Settings → Secrets and variables → Actions → add `CLOUDFLARE_API_TOKEN` (the token) and
+   `CLOUDFLARE_ACCOUNT_ID` (shown in the Workers & Pages overview).
+6. Push to `main` and `develop`. The APIs are available at `https://genshin-api.<your-subdomain>.workers.dev`
+   and `https://genshin-api-develop.<your-subdomain>.workers.dev`; put those URLs in `docs/.env.production`
+   and `docs/.env.develop`.
+
+Images are not deployed by the workflow: run `npm run images:sync` after adding new images.
 
 > The `r2.dev` subdomain is rate limited and Cloudflare recommends it for development only.
 > Once you have a domain, connect it to the bucket (R2 → Settings → Custom domains) and update `IMAGES_BASE_URL`.
@@ -150,7 +172,6 @@ npm run dev            # http://localhost:4321
 npm run build          # rebuilds data and generates docs/dist (production URLs)
 npm run build:local    # same build with the development URLs (local API and images)
 npm run preview:local  # build:local + serve docs/dist
-npm run deploy         # build + wrangler deploy (Worker "genshin-api-docs")
 ```
 
 ### Environments
@@ -160,7 +181,8 @@ The API URL used in examples and "Try it" boxes is `PUBLIC_API_URL`, picked by m
 | Command | Mode | File | API URL | Image URL (`IMAGES_BASE_URL`) |
 |---|---|---|---|---|
 | `npm run dev` | development | `docs/.env.development` | `http://localhost:8787` | `http://localhost:9100/genshin-images` |
-| `npm run build` / `deploy` | production | `docs/.env.production` | public API URL | from `wrangler.toml` unless set |
+| `npm run build` | production | `docs/.env.production` | public API URL | from `wrangler.toml` unless set |
+| `npm run build -- --mode develop` | develop | `docs/.env.develop` | develop API URL | from `wrangler.toml` unless set |
 
 The API follows the same rule: `wrangler dev` reads `IMAGES_BASE_URL` from `.dev.vars` and the deployed
 Worker from `wrangler.toml`. Restart the dev servers after changing these files.
@@ -168,8 +190,8 @@ Worker from `wrangler.toml`. Restart the dev servers after changing these files.
 In development a "Local" badge in the header shows which API the docs are using. To test locally,
 run `npm run dev` in the project root (API) and in `docs/` (docs) at the same time.
 
-Update `docs/.env.production` with the real API URL before deploying; the build warns while it is a
-placeholder. For personal overrides use `docs/.env.development.local` (ignored by git).
+Update `docs/.env.production` and `docs/.env.develop` with the real API URLs before deploying; the build warns while they are
+placeholders. For personal overrides use `docs/.env.development.local` (ignored by git).
 
 ## Data sources
 

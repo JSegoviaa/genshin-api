@@ -3,4 +3,10 @@ main = "src/index.ts"
 compatibility_date = "2026-11-01"
 
 [vars]
-IMAGES_BASE_URL = "https://pub-REPLACE_ME.r2.dev"
+IMAGES_BASE_URL = "https://pub-ee487cafc1aa471a90a3f2ae46c5e85f.r2.dev"
+
+[env.develop]
+name = "genshin-api-develop"
+
+[env.develop.vars]
+IMAGES_BASE_URL = "https://pub-ee487cafc1aa471a90a3f2ae46c5e85f.r2.dev"
