@@ -29,7 +29,7 @@ Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `
 
 | Endpoint | Description |
 |---|---|
-| `POST /api/v1/keys` | Create an API key (no key needed). Optional body: `{ "name": "My app" }` |
+| `POST /api/v1/keys` | Create an API key (no key needed, Turnstile token required). Body: `{ "name": "My app", "turnstileToken": "..." }` |
 | `DELETE /api/v1/keys` | Revoke the API key sent in the header |
 | `GET /api/v1/<resource>` | Paginated list |
 | `GET /api/v1/<resource>/random` | Random item (accepts the same filters) |
@@ -43,8 +43,12 @@ and are returned only once, on creation. D1 stores only their SHA-256 hash, a sh
 them and an optional `name`. Each Worker isolate caches successful checks for 60 seconds, so a revoked
 key may keep working for up to a minute.
 
+Keys are created from the docs Authentication page, which renders a
+[Turnstile](https://developers.cloudflare.com/turnstile/) widget and sends its token as `turnstileToken`.
+The Worker validates it with Cloudflare (`TURNSTILE_SECRET_KEY`) and answers 403 when it is missing or
+invalid, so scripts cannot create keys in bulk.
+
 ```bash
-curl -X POST https://<api>/api/v1/keys -H "Content-Type: application/json" -d '{"name":"My app"}'
 curl -H "X-API-Key: gsk_..." https://<api>/api/v1/characters/hu-tao
 curl -X DELETE -H "X-API-Key: gsk_..." https://<api>/api/v1/keys
 ```
@@ -98,8 +102,9 @@ npm test
 npm run typecheck
 ```
 
-Locally, create a key with `curl -X POST http://localhost:8787/api/v1/keys` (or from the docs
-Authentication page). The local D1 database lives in `.wrangler/`. New migrations go in `migrations/`
+Locally, `.dev.vars` and `docs/.env.development` use Cloudflare's Turnstile test keys, which always pass
+(copy `TURNSTILE_SECRET_KEY` from `.dev.vars.example`). Create a key from the docs Authentication page, or
+with `curl -X POST http://localhost:8787/api/v1/keys -d '{"turnstileToken":"test"}'`. The local D1 database lives in `.wrangler/`. New migrations go in `migrations/`
 (`npx wrangler d1 migrations create DB <name>`) and are applied by `npm run dev` locally, and remotely
 before every deployment (by the deploy workflow and by `npm run deploy`). `npm run db:migrate` applies
 them to the production database without deploying.
@@ -181,10 +186,14 @@ Actions tab.
 4. **D1**: `npx wrangler d1 create genshin-api` and `npx wrangler d1 create genshin-api-develop`, and put
    each returned `database_id` in `wrangler.toml` (`[[d1_databases]]` and `[[env.develop.d1_databases]]`).
    The deploy workflow applies the migrations; the API token needs *D1 Edit* permission.
-5. Cloudflare → My Profile → API Tokens → create a token from the *Edit Cloudflare Workers* template.
-6. GitHub → Settings → Secrets and variables → Actions → add `CLOUDFLARE_API_TOKEN` (the token) and
+5. **Turnstile**: Turnstile → Add widget, with the production and develop docs hostnames (or one widget
+   per environment). Put the site key in `PUBLIC_TURNSTILE_SITE_KEY` in `docs/.env.production` and
+   `docs/.env.develop`, and add the secret key as the `TURNSTILE_SECRET_KEY` secret of the `production` and
+   `develop` GitHub environments. The deploy workflow uploads it to the Worker on every deployment.
+6. Cloudflare → My Profile → API Tokens → create a token from the *Edit Cloudflare Workers* template.
+7. GitHub → Settings → Secrets and variables → Actions → add `CLOUDFLARE_API_TOKEN` (the token) and
    `CLOUDFLARE_ACCOUNT_ID` (shown in the Workers & Pages overview).
-7. Push to `main` and `develop`. The APIs are available at `https://genshin-api.<your-subdomain>.workers.dev`
+8. Push to `main` and `develop`. The APIs are available at `https://genshin-api.<your-subdomain>.workers.dev`
    and `https://genshin-api-develop.<your-subdomain>.workers.dev`; put those URLs in `docs/.env.production`
    and `docs/.env.develop`.
 

@@ -13,7 +13,7 @@ import rawData from "../../../src/generated/data.json";
 const data = withDerived(rawData as unknown as Dataset);
 const app = createApp(data);
 
-const { MODE, DEV, PUBLIC_API_URL } = import.meta.env;
+const { MODE, DEV, PUBLIC_API_URL, PUBLIC_TURNSTILE_SITE_KEY } = import.meta.env;
 
 if (!PUBLIC_API_URL) {
   throw new Error(
@@ -27,6 +27,19 @@ if (!DEV && PUBLIC_API_URL.includes("REPLACE_ME")) {
   );
 }
 
+if (!PUBLIC_TURNSTILE_SITE_KEY) {
+  throw new Error(
+    `PUBLIC_TURNSTILE_SITE_KEY is not set for mode "${MODE}". Add it to docs/.env.${MODE}`,
+  );
+}
+
+if (!DEV && PUBLIC_TURNSTILE_SITE_KEY.includes("REPLACE_ME")) {
+  console.warn(
+    `⚠ PUBLIC_TURNSTILE_SITE_KEY is still a placeholder. Update docs/.env.${MODE} before deploying.`,
+  );
+}
+
+export const TURNSTILE_SITE_KEY = PUBLIC_TURNSTILE_SITE_KEY;
 export const IS_LOCAL = DEV;
 export const API_URL = PUBLIC_API_URL.replace(/\/+$/, "");
 

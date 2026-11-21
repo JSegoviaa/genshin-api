@@ -9,6 +9,7 @@ import {
   isWellFormedApiKey,
   type ApiKeyStore,
 } from "./core/api-keys";
+import type { HumanVerifier } from "./core/turnstile";
 import type { BaseItem, Ctx, Lookup, Ref, ResourceDef } from "./core/resource";
 import { RESOURCE_NAMES, type ResourceName } from "./core/resource-names";
 import { slugify } from "./core/slug";
@@ -18,12 +19,14 @@ import { resources, withDerived } from "./modules";
 export interface Env {
   IMAGES_BASE_URL: string;
   DB?: D1Database;
+  TURNSTILE_SECRET_KEY?: string;
 }
 
 type AppEnv = { Bindings: Env; Variables: { apiKeyHash: string } };
 
 export interface AppOptions {
   apiKeys?: (env: Env) => ApiKeyStore;
+  humanVerifier?: (env: Env) => HumanVerifier;
 }
 
 export const API_PREFIX = "/api/v1";
@@ -35,12 +38,14 @@ const VERIFIED_KEY_MAX = 1000;
 
 const newKeyBody = z.object({
   name: z.string().trim().min(1).max(100).optional(),
+  turnstileToken: z.string().min(1).max(2048).optional(),
 });
 
 const badRequest = (message: string) => new HTTPException(400, { message });
 const notFound = (message: string) => new HTTPException(404, { message });
 const unauthorized = (message: string) =>
   new HTTPException(401, { message });
+const forbidden = (message: string) => new HTTPException(403, { message });
 
 
 export function createApp(data: Partial<Dataset>, options: AppOptions = {}) {
@@ -162,7 +167,7 @@ export function createApp(data: Partial<Dataset>, options: AppOptions = {}) {
     }),
   );
 
-  const { apiKeys } = options;
+  const { apiKeys, humanVerifier } = options;
   if (apiKeys) {
     const keysPath = `${API_PREFIX}/keys`;
     const verified = new Map<string, number>();
@@ -215,8 +220,18 @@ export function createApp(data: Partial<Dataset>, options: AppOptions = {}) {
       const parsed = newKeyBody.safeParse(json);
       if (!parsed.success)
         throw badRequest(
-          '"name" must be a string between 1 and 100 characters',
+          '"name" must be a string between 1 and 100 characters and "turnstileToken" a non-empty string',
         );
+      if (humanVerifier) {
+        const token = parsed.data.turnstileToken;
+        if (!token)
+          throw forbidden(
+            'Human verification required. Generate keys from the documentation site',
+          );
+        const ip = c.req.header("CF-Connecting-IP") ?? null;
+        if (!(await humanVerifier(c.env).verify(token, ip)))
+          throw forbidden("Human verification failed. Please try again");
+      }
       const { key, prefix } = generateApiKey();
       const createdAt = new Date().toISOString();
       const name = parsed.data.name ?? null;

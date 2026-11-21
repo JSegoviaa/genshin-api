@@ -3,21 +3,14 @@ import Docs from "../../layouts/Docs.astro";
 import CodeBlock from "../../components/CodeBlock.astro";
 import Callout from "../../components/Callout.astro";
 import Endpoint from "../../components/Endpoint.astro";
-import { API_BASE, API_KEY_HEADER, API_PREFIX, API_URL } from "../../lib/api";
+import {
+  API_BASE,
+  API_KEY_HEADER,
+  API_PREFIX,
+  API_URL,
+  TURNSTILE_SITE_KEY,
+} from "../../lib/api";
 
-const createExample = `curl -X POST ${API_BASE}/keys \\
-  -H "Content-Type: application/json" \\
-  -d '{"name": "My app"}'`;
-const createResponse = JSON.stringify(
-  {
-    key: "gsk_2QSgew_974-epiNyu5-S95ed9s5H1et71ygdx6_SrV4",
-    prefix: "gsk_2QSgew_9",
-    name: "My app",
-    createdAt: "2026-11-18T14:28:59.982Z",
-  },
-  null,
-  2,
-);
 const useExample = `curl -H "${API_KEY_HEADER}: YOUR_API_KEY" ${API_BASE}/characters/hu-tao`;
 const revokeExample = `curl -X DELETE -H "${API_KEY_HEADER}: YOUR_API_KEY" ${API_BASE}/keys`;
 const revokeResponse = JSON.stringify(
@@ -39,13 +32,22 @@ const revokeResponse = JSON.stringify(
   <CodeBlock lang="bash" title="cURL" code={useExample} />
 
   <h2 id="get-a-key">Get a key</h2>
-  <p>Generate one right here. It is saved in this browser so the "Try it" boxes use it.</p>
+  <p>
+    Keys are generated only here, after a quick check that you are human. The
+    key is saved in this browser so the "Try it" boxes use it.
+  </p>
 
-  <div class="keys frame" data-api={API_URL} data-prefix={API_PREFIX}>
+  <div
+    class="keys frame"
+    data-api={API_URL}
+    data-prefix={API_PREFIX}
+    data-sitekey={TURNSTILE_SITE_KEY}
+  >
     <div class="row">
       <input name="name" maxlength="100" placeholder="Name (optional), e.g. My app" aria-label="Key name" />
-      <button type="button" class="btn btn-primary" data-action="create">Generate key</button>
+      <button type="button" class="btn btn-primary" data-action="create" disabled>Generate key</button>
     </div>
+    <div class="turnstile"></div>
     <div class="current" hidden>
       <span class="label">Your key</span>
       <code class="value"></code>
@@ -56,15 +58,6 @@ const revokeResponse = JSON.stringify(
     </div>
     <p class="message muted" hidden></p>
   </div>
-
-  <p>Or from your own code:</p>
-  <Endpoint method="POST" path={`${API_PREFIX}/keys`} description="Create an API key" />
-  <p>
-    The body is optional; <code>name</code> (up to 100 characters) helps you
-    tell your keys apart.
-  </p>
-  <CodeBlock lang="bash" title="cURL" code={createExample} />
-  <CodeBlock title={`POST ${API_PREFIX}/keys · 201`} code={createResponse} />
 
   <Callout title="Store it safely" tone="tip">
     <p>
@@ -84,7 +77,34 @@ const revokeResponse = JSON.stringify(
 </Docs>
 
 <script>
+  interface Turnstile {
+    render(
+      container: HTMLElement,
+      options: {
+        sitekey: string;
+        theme?: "light" | "dark" | "auto";
+        callback?: (token: string) => void;
+        "expired-callback"?: () => void;
+        "error-callback"?: () => void;
+      },
+    ): string;
+    reset(widgetId: string): void;
+  }
+
   const STORAGE_KEY = "genshin-api-key";
+  const TURNSTILE_SCRIPT =
+    "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+
+  const loadTurnstile = () =>
+    new Promise<Turnstile>((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = TURNSTILE_SCRIPT;
+      script.async = true;
+      script.onload = () =>
+        resolve((window as unknown as { turnstile: Turnstile }).turnstile);
+      script.onerror = reject;
+      document.head.append(script);
+    });
 
   document.querySelectorAll<HTMLElement>(".keys").forEach((box) => {
     const endpoint = `${box.dataset.api}${box.dataset.prefix}/keys`;
@@ -94,6 +114,14 @@ const revokeResponse = JSON.stringify(
     const message = box.querySelector<HTMLElement>(".message")!;
     const button = (action: string) =>
       box.querySelector<HTMLButtonElement>(`[data-action=${action}]`)!;
+    const createButton = button("create");
+    let token: string | null = null;
+    let resetChallenge = () => {};
+
+    const setToken = (value: string | null) => {
+      token = value;
+      createButton.disabled = !token;
+    };
 
     const show = (text: string) => {
       message.hidden = !text;
@@ -113,14 +141,18 @@ const revokeResponse = JSON.stringify(
       return body;
     };
 
-    button("create").addEventListener("click", async () => {
+    createButton.addEventListener("click", async () => {
+      if (!token) return;
       show("");
+      const turnstileToken = token;
+      setToken(null);
+      resetChallenge();
       try {
         const name = nameInput.value.trim();
         const body = await call({
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(name ? { name } : {}),
+          body: JSON.stringify(name ? { name, turnstileToken } : { turnstileToken }),
         });
         localStorage.setItem(STORAGE_KEY, body.key);
         nameInput.value = "";
@@ -152,6 +184,19 @@ const revokeResponse = JSON.stringify(
     });
 
     render();
+
+    loadTurnstile()
+      .then((turnstile) => {
+        const widgetId = turnstile.render(box.querySelector<HTMLElement>(".turnstile")!, {
+          sitekey: box.dataset.sitekey!,
+          theme: "dark",
+          callback: (value) => setToken(value),
+          "expired-callback": () => setToken(null),
+          "error-callback": () => setToken(null),
+        });
+        resetChallenge = () => turnstile.reset(widgetId);
+      })
+      .catch(() => show("Could not load the human verification. Disable blockers and reload the page."));
   });
 </script>
 

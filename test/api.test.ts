@@ -158,6 +158,37 @@ describe("api keys", () => {
     expect(res.headers.get("access-control-allow-headers")).toContain("X-API-Key");
   });
 
+  it("requires a valid human verification token when configured", async () => {
+    const verified: { token: string; ip: string | null }[] = [];
+    const guarded = createApp(data, {
+      apiKeys: () => keys,
+      humanVerifier: () => ({
+        verify: async (token, ip) => {
+          verified.push({ token, ip });
+          return token === "good";
+        },
+      }),
+    });
+    const create = (body: unknown) =>
+      guarded.request(
+        "http://api.test/api/v1/keys",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "CF-Connecting-IP": "1.2.3.4" },
+          body: JSON.stringify(body),
+        },
+        env,
+      );
+    const missing = await create({ name: "bot" });
+    expect(missing.status).toBe(403);
+    expect(verified).toHaveLength(0);
+    expect((await create({ turnstileToken: "bad" })).status).toBe(403);
+    const ok = await create({ name: "human", turnstileToken: "good" });
+    expect(ok.status).toBe(201);
+    expect(((await ok.json()) as any).name).toBe("human");
+    expect(verified.at(-1)).toEqual({ token: "good", ip: "1.2.3.4" });
+  });
+
   it("serves the API without keys when no key store is configured", async () => {
     const open = createApp(data);
     const res = await open.request("http://api.test/api/v1/characters", {}, env);

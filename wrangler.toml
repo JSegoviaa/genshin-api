@@ -3,7 +3,7 @@ main = "src/index.ts"
 compatibility_date = "2026-11-01"
 
 [vars]
-IMAGES_BASE_URL = "https://pub-ee487cafc1aa471a90a3f2ae46c5e85f.r2.dev"
+IMAGES_BASE_URL = "https://cdn.genshin-api.com"
 
 [[d1_databases]]
 binding = "DB"
@@ -15,7 +15,7 @@ migrations_dir = "migrations"
 name = "genshin-api-develop"
 
 [env.develop.vars]
-IMAGES_BASE_URL = "https://pub-ee487cafc1aa471a90a3f2ae46c5e85f.r2.dev"
+IMAGES_BASE_URL = "https://cdn.genshin-api.com"
 
 [[env.develop.d1_databases]]
 binding = "DB"
