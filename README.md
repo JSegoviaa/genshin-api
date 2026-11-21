@@ -1,9 +1,10 @@
 # Genshin API
 
-Read-only (GET) Genshin Impact API. No database: data lives as JSON files in `data/`, validated at build
-time and bundled into a Cloudflare Worker. Images are served from Cloudflare R2.
+Read-only Genshin Impact API. Data lives as JSON files in `data/`, validated at build time and
+bundled into a Cloudflare Worker. Images are served from Cloudflare R2. Requests require an API key,
+stored hashed in Cloudflare D1.
 
-Cost: $0 within the free tiers (Workers: 100k requests/day; R2: 10 GB, no egress fees).
+Cost: $0 within the free tiers (Workers: 100k requests/day; R2: 10 GB, no egress fees; D1: 5M reads/day).
 
 ## Structure
 
@@ -16,7 +17,9 @@ src/modules/<resource>/
   <name>.schema.ts            ← Zod schema: shape of the JSON files
   <name>.resource.ts          ← filters, sorting and response shape
 src/modules/index.ts          ← module registry
-src/app.ts                    ← generic routes (Hono)
+src/core/api-keys.ts          ← API key generation, hashing and D1 store
+src/app.ts                    ← generic routes (Hono) and API key auth
+migrations/                   ← D1 migrations
 scripts/                      ← data build, JSON schemas and images
 ```
 
@@ -26,9 +29,33 @@ Base: `/api/v1`. Resources: `elements`, `regions`, `weapon-types`, `rarities`, `
 
 | Endpoint | Description |
 |---|---|
+| `POST /api/v1/keys` | Create an API key (no key needed). Optional body: `{ "name": "My app" }` |
+| `DELETE /api/v1/keys` | Revoke the API key sent in the header |
 | `GET /api/v1/<resource>` | Paginated list |
 | `GET /api/v1/<resource>/random` | Random item (accepts the same filters) |
 | `GET /api/v1/<resource>/<id or name>` | Detail by id (`31`) or name (`hu-tao`, `Hu Tao`) |
+
+### API keys
+
+Every endpoint except `POST /api/v1/keys` requires an API key in the `X-API-Key` header; missing,
+invalid or revoked keys return 401. Keys have the form `gsk_<43 base64url chars>` (32 random bytes)
+and are returned only once, on creation. D1 stores only their SHA-256 hash, a short `prefix` to identify
+them and an optional `name`. Each Worker isolate caches successful checks for 60 seconds, so a revoked
+key may keep working for up to a minute.
+
+```bash
+curl -X POST https://<api>/api/v1/keys -H "Content-Type: application/json" -d '{"name":"My app"}'
+curl -H "X-API-Key: gsk_..." https://<api>/api/v1/characters/hu-tao
+curl -X DELETE -H "X-API-Key: gsk_..." https://<api>/api/v1/keys
+```
+
+To revoke a key you do not own (e.g. abuse), find it by the prefix it was returned with:
+
+```bash
+npx wrangler d1 execute DB --remote --command   "UPDATE api_keys SET revoked_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now') WHERE prefix = 'gsk_xxxxxxxx'"
+```
+
+Add `--env develop` for the develop database.
 
 List parameters:
 
@@ -66,10 +93,16 @@ Unknown query parameters return 400.
 
 ```bash
 npm install
-npm run dev            # validates data/ and runs the Worker locally (http://localhost:8787)
+npm run dev            # validates data/, applies D1 migrations locally and runs the Worker (http://localhost:8787)
 npm test
 npm run typecheck
 ```
+
+Locally, create a key with `curl -X POST http://localhost:8787/api/v1/keys` (or from the docs
+Authentication page). The local D1 database lives in `.wrangler/`. New migrations go in `migrations/`
+(`npx wrangler d1 migrations create DB <name>`) and are applied by `npm run dev` locally, and remotely
+before every deployment (by the deploy workflow and by `npm run deploy`). `npm run db:migrate` applies
+them to the production database without deploying.
 
 ## Adding or editing data
 
@@ -125,7 +158,7 @@ uses the R2 credentials, and the deployed Worker uses `IMAGES_BASE_URL` from `wr
 ## Deployment
 
 Deployments run in GitHub Actions (`.github/workflows/deploy.yml`) on every push. Each push typechecks,
-tests, builds the docs and deploys both Workers to the environment of its branch:
+tests, builds the docs, applies the D1 migrations and deploys both Workers to the environment of its branch:
 
 | Branch | Environment | API Worker | Docs Worker | Docs API URL |
 |---|---|---|---|---|
@@ -145,10 +178,13 @@ Actions tab.
      `wrangler.toml` (both in `[vars]` and `[env.develop.vars]`).
    - Manage API tokens → create a token with *Object Read & Write* and fill in `.env` (see `.env.example`).
 3. `npm run images:sync` (first run uploads everything; afterwards only new or changed files).
-4. Cloudflare → My Profile → API Tokens → create a token from the *Edit Cloudflare Workers* template.
-5. GitHub → Settings → Secrets and variables → Actions → add `CLOUDFLARE_API_TOKEN` (the token) and
+4. **D1**: `npx wrangler d1 create genshin-api` and `npx wrangler d1 create genshin-api-develop`, and put
+   each returned `database_id` in `wrangler.toml` (`[[d1_databases]]` and `[[env.develop.d1_databases]]`).
+   The deploy workflow applies the migrations; the API token needs *D1 Edit* permission.
+5. Cloudflare → My Profile → API Tokens → create a token from the *Edit Cloudflare Workers* template.
+6. GitHub → Settings → Secrets and variables → Actions → add `CLOUDFLARE_API_TOKEN` (the token) and
    `CLOUDFLARE_ACCOUNT_ID` (shown in the Workers & Pages overview).
-6. Push to `main` and `develop`. The APIs are available at `https://genshin-api.<your-subdomain>.workers.dev`
+7. Push to `main` and `develop`. The APIs are available at `https://genshin-api.<your-subdomain>.workers.dev`
    and `https://genshin-api-develop.<your-subdomain>.workers.dev`; put those URLs in `docs/.env.production`
    and `docs/.env.develop`.
 

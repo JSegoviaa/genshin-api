@@ -20,6 +20,18 @@ const { path } = Astro.props;
     />
     <button type="submit" class="btn btn-primary">Send</button>
   </div>
+  <div class="bar key">
+    <span class="method">KEY</span>
+    <input
+      name="key"
+      type="password"
+      placeholder="Your API key"
+      spellcheck="false"
+      autocomplete="off"
+      aria-label="API key"
+    />
+    <a href="/docs/authentication/#get-a-key">Get a key</a>
+  </div>
   <div class="result" hidden>
     <div class="meta"><span class="status"></span><span class="time"></span></div>
     <pre><code></code></pre>
@@ -40,8 +52,17 @@ const { path } = Astro.props;
       },
     );
 
+  const STORAGE_KEY = "genshin-api-key";
+
   document.querySelectorAll<HTMLFormElement>("form.try").forEach((form) => {
-    const input = form.querySelector("input")!;
+    const input = form.querySelector<HTMLInputElement>("input[name=path]")!;
+    const keyInput = form.querySelector<HTMLInputElement>("input[name=key]")!;
+    keyInput.value = localStorage.getItem(STORAGE_KEY) ?? "";
+    keyInput.addEventListener("change", () => {
+      const key = keyInput.value.trim();
+      if (key) localStorage.setItem(STORAGE_KEY, key);
+      else localStorage.removeItem(STORAGE_KEY);
+    });
     const result = form.querySelector<HTMLElement>(".result")!;
     const status = form.querySelector<HTMLElement>(".status")!;
     const time = form.querySelector<HTMLElement>(".time")!;
@@ -57,7 +78,11 @@ const { path } = Astro.props;
       code.textContent = "";
       const started = performance.now();
       try {
-        const res = await fetch(`${form.dataset.api}${path}`, { cache: "no-store" });
+        const key = keyInput.value.trim();
+        const res = await fetch(`${form.dataset.api}${path}`, {
+          cache: "no-store",
+          headers: key ? { "X-API-Key": key } : {},
+        });
         const body = await res.json();
         status.textContent = `${res.status} ${res.ok ? "OK" : res.statusText || "Error"}`;
         status.classList.add(res.ok ? "ok" : "err");
@@ -123,6 +148,13 @@ const { path } = Astro.props;
   }
   .btn {
     padding: 0.5em 1.3em;
+  }
+  .key {
+    margin-top: 0.6rem;
+  }
+  .key a {
+    font-size: 0.85rem;
+    white-space: nowrap;
   }
   .result {
     margin-top: 0.9rem;

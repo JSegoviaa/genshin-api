@@ -4,14 +4,16 @@
   "description": "Read-only Genshin Impact API on Cloudflare Workers",
   "scripts": {
     "test": "npm run build:data && vitest run",
-    "dev": "npm run build:data && wrangler dev",
+    "dev": "npm run build:data && npm run db:migrate:local && wrangler dev",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate": "wrangler d1 migrations apply DB --remote",
     "build:data": "tsx scripts/build-data.ts",
     "schemas": "tsx scripts/gen-schemas.ts",
     "images:check": "tsx scripts/images.ts check",
     "images:sync": "tsx scripts/images.ts sync",
     "images:sync:local": "tsx scripts/images.ts sync --local",
     "typecheck": "tsc --noEmit",
-    "deploy": "npm run build:data && npm run typecheck && wrangler deploy"
+    "deploy": "npm run build:data && npm run typecheck && npm run db:migrate && wrangler deploy"
   },
   "type": "module",
   "dependencies": {

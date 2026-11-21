@@ -1,6 +1,14 @@
-import { Hono, type Context } from "hono";
+import { Hono, type Context, type MiddlewareHandler } from "hono";
 import { cors } from "hono/cors";
 import { HTTPException } from "hono/http-exception";
+import { z } from "zod";
+import {
+  API_KEY_HEADER,
+  generateApiKey,
+  hashApiKey,
+  isWellFormedApiKey,
+  type ApiKeyStore,
+} from "./core/api-keys";
 import type { BaseItem, Ctx, Lookup, Ref, ResourceDef } from "./core/resource";
 import { RESOURCE_NAMES, type ResourceName } from "./core/resource-names";
 import { slugify } from "./core/slug";
@@ -9,22 +17,38 @@ import { resources, withDerived } from "./modules";
 
 export interface Env {
   IMAGES_BASE_URL: string;
+  DB?: D1Database;
+}
+
+type AppEnv = { Bindings: Env; Variables: { apiKeyHash: string } };
+
+export interface AppOptions {
+  apiKeys?: (env: Env) => ApiKeyStore;
 }
 
 export const API_PREFIX = "/api/v1";
 const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 100;
-const CACHE = "public, max-age=3600";
+const CACHE = "private, max-age=3600";
+const VERIFIED_KEY_TTL_MS = 60_000;
+const VERIFIED_KEY_MAX = 1000;
+
+const newKeyBody = z.object({
+  name: z.string().trim().min(1).max(100).optional(),
+});
 
 const badRequest = (message: string) => new HTTPException(400, { message });
 const notFound = (message: string) => new HTTPException(404, { message });
+const unauthorized = (message: string) =>
+  new HTTPException(401, { message });
 
-export function createApp(data: Partial<Dataset>) {
+
+export function createApp(data: Partial<Dataset>, options: AppOptions = {}) {
   const store = new Store(withDerived(data));
-  const app = new Hono<{ Bindings: Env }>();
+  const app = new Hono<AppEnv>();
   const lookup: Lookup = { all: (resource) => store.all(resource) as never };
 
-  function makeCtx(c: Context<{ Bindings: Env }>): Ctx {
+  function makeCtx(c: Context<AppEnv>): Ctx {
     const origin = new URL(c.req.url).origin;
     const imagesBase = (c.env?.IMAGES_BASE_URL ?? "").replace(/\/+$/, "");
     const url = (resource: ResourceName, slug: string) =>
@@ -129,7 +153,93 @@ export function createApp(data: Partial<Dataset>) {
     return n;
   }
 
-  app.use("*", cors({ origin: "*", allowMethods: ["GET", "HEAD", "OPTIONS"] }));
+  app.use(
+    "*",
+    cors({
+      origin: "*",
+      allowMethods: ["GET", "HEAD", "POST", "DELETE", "OPTIONS"],
+      allowHeaders: ["Content-Type", API_KEY_HEADER],
+    }),
+  );
+
+  const { apiKeys } = options;
+  if (apiKeys) {
+    const keysPath = `${API_PREFIX}/keys`;
+    const verified = new Map<string, number>();
+
+    const isVerified = (hash: string) => {
+      const expires = verified.get(hash);
+      if (expires === undefined) return false;
+      if (expires > Date.now()) return true;
+      verified.delete(hash);
+      return false;
+    };
+
+    const remember = (hash: string) => {
+      if (verified.size >= VERIFIED_KEY_MAX) verified.clear();
+      verified.set(hash, Date.now() + VERIFIED_KEY_TTL_MS);
+    };
+
+    const requireApiKey: MiddlewareHandler<AppEnv> = async (c, next) => {
+      if (c.req.method === "POST" && c.req.path === keysPath) return next();
+      const key = c.req.header(API_KEY_HEADER)?.trim();
+      if (!key)
+        throw unauthorized(
+          `Missing API key. Send it in the ${API_KEY_HEADER} header`,
+        );
+      if (!isWellFormedApiKey(key))
+        throw unauthorized("Invalid or revoked API key");
+      const hash = await hashApiKey(key);
+      if (!isVerified(hash)) {
+        if (!(await apiKeys(c.env).isActive(hash)))
+          throw unauthorized("Invalid or revoked API key");
+        remember(hash);
+      }
+      c.set("apiKeyHash", hash);
+      await next();
+    };
+
+    app.use(API_PREFIX, requireApiKey);
+    app.use(`${API_PREFIX}/*`, requireApiKey);
+
+    app.post(keysPath, async (c) => {
+      const text = await c.req.text();
+      let json: unknown = {};
+      if (text.trim()) {
+        try {
+          json = JSON.parse(text);
+        } catch {
+          throw badRequest("Body must be valid JSON");
+        }
+      }
+      const parsed = newKeyBody.safeParse(json);
+      if (!parsed.success)
+        throw badRequest(
+          '"name" must be a string between 1 and 100 characters',
+        );
+      const { key, prefix } = generateApiKey();
+      const createdAt = new Date().toISOString();
+      const name = parsed.data.name ?? null;
+      await apiKeys(c.env).create({
+        hash: await hashApiKey(key),
+        prefix,
+        name,
+        createdAt,
+      });
+      c.header("Cache-Control", "no-store");
+      return c.json({ key, prefix, name, createdAt }, 201);
+    });
+
+    app.delete(keysPath, async (c) => {
+      const hash = c.get("apiKeyHash");
+      const revokedAt = new Date().toISOString();
+      verified.delete(hash);
+      if (!(await apiKeys(c.env).revoke(hash, revokedAt)))
+        throw unauthorized("Invalid or revoked API key");
+      c.header("Cache-Control", "no-store");
+      return c.json({ revoked: true, revokedAt });
+    });
+  }
 
   app.get("/", (c) => c.redirect(API_PREFIX));
 

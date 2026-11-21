@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { createApp, API_PREFIX } from "../../../src/app";
+import { API_KEY_HEADER } from "../../../src/core/api-keys";
 import {
   RESOURCE_NAMES,
   type ResourceName,
@@ -45,7 +46,7 @@ if (!DEV && IMAGES_BASE_URL.includes("REPLACE_ME")) {
   );
 }
 
-export { API_PREFIX, RESOURCE_NAMES, type ResourceName };
+export { API_KEY_HEADER, API_PREFIX, RESOURCE_NAMES, type ResourceName };
 
 export interface ResourceInfo {
   name: ResourceName;

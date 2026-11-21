@@ -1,0 +1,211 @@
+---
+import Docs from "../../layouts/Docs.astro";
+import CodeBlock from "../../components/CodeBlock.astro";
+import Callout from "../../components/Callout.astro";
+import Endpoint from "../../components/Endpoint.astro";
+import { API_BASE, API_KEY_HEADER, API_PREFIX, API_URL } from "../../lib/api";
+
+const createExample = `curl -X POST ${API_BASE}/keys \\
+  -H "Content-Type: application/json" \\
+  -d '{"name": "My app"}'`;
+const createResponse = JSON.stringify(
+  {
+    key: "gsk_2QSgew_974-epiNyu5-S95ed9s5H1et71ygdx6_SrV4",
+    prefix: "gsk_2QSgew_9",
+    name: "My app",
+    createdAt: "2026-11-18T14:28:59.982Z",
+  },
+  null,
+  2,
+);
+const useExample = `curl -H "${API_KEY_HEADER}: YOUR_API_KEY" ${API_BASE}/characters/hu-tao`;
+const revokeExample = `curl -X DELETE -H "${API_KEY_HEADER}: YOUR_API_KEY" ${API_BASE}/keys`;
+const revokeResponse = JSON.stringify(
+  { revoked: true, revokedAt: "2026-11-20T09:12:41.513Z" },
+  null,
+  2,
+);
+---
+
+<Docs
+  title="Authentication"
+  description="Every request needs an API key. Keys are free and do not require an account."
+>
+  <p>
+    Send your API key in the <code>{API_KEY_HEADER}</code> header of every
+    request. Requests without a key, or with an invalid or revoked one, return
+    <code>401</code>.
+  </p>
+  <CodeBlock lang="bash" title="cURL" code={useExample} />
+
+  <h2 id="get-a-key">Get a key</h2>
+  <p>Generate one right here. It is saved in this browser so the "Try it" boxes use it.</p>
+
+  <div class="keys frame" data-api={API_URL} data-prefix={API_PREFIX}>
+    <div class="row">
+      <input name="name" maxlength="100" placeholder="Name (optional), e.g. My app" aria-label="Key name" />
+      <button type="button" class="btn btn-primary" data-action="create">Generate key</button>
+    </div>
+    <div class="current" hidden>
+      <span class="label">Your key</span>
+      <code class="value"></code>
+      <div class="row">
+        <button type="button" class="btn btn-ghost" data-action="copy">Copy</button>
+        <button type="button" class="btn btn-ghost" data-action="revoke">Revoke</button>
+      </div>
+    </div>
+    <p class="message muted" hidden></p>
+  </div>
+
+  <p>Or from your own code:</p>
+  <Endpoint method="POST" path={`${API_PREFIX}/keys`} description="Create an API key" />
+  <p>
+    The body is optional; <code>name</code> (up to 100 characters) helps you
+    tell your keys apart.
+  </p>
+  <CodeBlock lang="bash" title="cURL" code={createExample} />
+  <CodeBlock title={`POST ${API_PREFIX}/keys · 201`} code={createResponse} />
+
+  <Callout title="Store it safely" tone="tip">
+    <p>
+      The key is shown only once. It is stored hashed, so it cannot be
+      recovered: if you lose it, generate a new one.
+    </p>
+  </Callout>
+
+  <h2 id="revoke">Revoke a key</h2>
+  <p>
+    Send a <code>DELETE</code> request authenticated with the key you want to
+    revoke. It stops working immediately (within a minute at most).
+  </p>
+  <Endpoint method="DELETE" path={`${API_PREFIX}/keys`} description="Revoke the key sent in the header" />
+  <CodeBlock lang="bash" title="cURL" code={revokeExample} />
+  <CodeBlock title={`DELETE ${API_PREFIX}/keys · 200`} code={revokeResponse} />
+</Docs>
+
+<script>
+  const STORAGE_KEY = "genshin-api-key";
+
+  document.querySelectorAll<HTMLElement>(".keys").forEach((box) => {
+    const endpoint = `${box.dataset.api}${box.dataset.prefix}/keys`;
+    const nameInput = box.querySelector<HTMLInputElement>("input[name=name]")!;
+    const current = box.querySelector<HTMLElement>(".current")!;
+    const value = box.querySelector<HTMLElement>(".value")!;
+    const message = box.querySelector<HTMLElement>(".message")!;
+    const button = (action: string) =>
+      box.querySelector<HTMLButtonElement>(`[data-action=${action}]`)!;
+
+    const show = (text: string) => {
+      message.hidden = !text;
+      message.textContent = text;
+    };
+
+    const render = () => {
+      const key = localStorage.getItem(STORAGE_KEY);
+      current.hidden = !key;
+      value.textContent = key ?? "";
+    };
+
+    const call = async (init: RequestInit) => {
+      const res = await fetch(endpoint, { ...init, cache: "no-store" });
+      const body = await res.json();
+      if (!res.ok) throw new Error(body?.error?.message ?? `Error ${res.status}`);
+      return body;
+    };
+
+    button("create").addEventListener("click", async () => {
+      show("");
+      try {
+        const name = nameInput.value.trim();
+        const body = await call({
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(name ? { name } : {}),
+        });
+        localStorage.setItem(STORAGE_KEY, body.key);
+        nameInput.value = "";
+        render();
+        show("Copy it now and keep it safe: it will not be shown again by the API.");
+      } catch (error) {
+        show(error instanceof Error ? error.message : "Could not reach the API.");
+      }
+    });
+
+    button("copy").addEventListener("click", async () => {
+      await navigator.clipboard.writeText(value.textContent ?? "");
+      show("Copied to the clipboard.");
+    });
+
+    button("revoke").addEventListener("click", async () => {
+      const key = localStorage.getItem(STORAGE_KEY);
+      if (!key) return;
+      show("");
+      try {
+        await call({ method: "DELETE", headers: { "X-API-Key": key } });
+        show("The key has been revoked.");
+      } catch (error) {
+        show(error instanceof Error ? error.message : "Could not reach the API.");
+        return;
+      }
+      localStorage.removeItem(STORAGE_KEY);
+      render();
+    });
+
+    render();
+  });
+</script>
+
+<style>
+  .keys {
+    margin: 1.4rem 0;
+    padding: 0.9rem;
+    display: grid;
+    gap: 0.8rem;
+  }
+  .row {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+  }
+  input {
+    flex: 1;
+    min-width: 12rem;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--text);
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.55em 1.1em;
+    outline: none;
+  }
+  input:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(211, 188, 142, 0.15);
+  }
+  .btn {
+    padding: 0.5em 1.3em;
+  }
+  .current {
+    display: grid;
+    gap: 0.5rem;
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+  }
+  .label {
+    font-size: 0.8rem;
+    color: var(--faint);
+  }
+  .value {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    word-break: break-all;
+  }
+  .message {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+</style>

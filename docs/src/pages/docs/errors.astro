@@ -1,19 +1,37 @@
 ---
 import Docs from "../../layouts/Docs.astro";
 import CodeBlock from "../../components/CodeBlock.astro";
-import { API_PREFIX, request } from "../../lib/api";
+import { API_KEY_HEADER, API_PREFIX, request } from "../../lib/api";
 
 const cases = [
   { path: `${API_PREFIX}/characters?elemnt=pyro`, label: "Unknown parameter" },
   { path: `${API_PREFIX}/characters?limit=500`, label: "Invalid value" },
   { path: `${API_PREFIX}/characters/paimon`, label: "Item not found" },
 ];
-const examples = await Promise.all(
-  cases.map(async (c) => {
-    const { status, body } = await request(c.path);
-    return { ...c, status, json: JSON.stringify(body, null, 2) };
-  }),
-);
+const missingKey = {
+  path: `${API_PREFIX}/characters`,
+  label: "Missing API key",
+  status: 401,
+  json: JSON.stringify(
+    {
+      error: {
+        status: 401,
+        message: `Missing API key. Send it in the ${API_KEY_HEADER} header`,
+      },
+    },
+    null,
+    2,
+  ),
+};
+const examples = [
+  missingKey,
+  ...(await Promise.all(
+    cases.map(async (c) => {
+      const { status, body } = await request(c.path);
+      return { ...c, status, json: JSON.stringify(body, null, 2) };
+    }),
+  )),
+];
 ---
 
 <Docs
@@ -33,9 +51,14 @@ const examples = await Promise.all(
     </thead>
     <tbody>
       <tr><td><code>200</code></td><td class="muted">Success.</td></tr>
+      <tr><td><code>201</code></td><td class="muted">API key created.</td></tr>
       <tr>
         <td><code>400</code></td>
         <td class="muted">Invalid request: unknown parameter, or a value out of range.</td>
+      </tr>
+      <tr>
+        <td><code>401</code></td>
+        <td class="muted">The <code>X-API-Key</code> header is missing, or the key is invalid or revoked.</td>
       </tr>
       <tr>
         <td><code>404</code></td>

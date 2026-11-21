@@ -1,7 +1,8 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { describe, expect, it } from "vitest";
+import { beforeAll, describe, expect, it } from "vitest";
 import { createApp } from "../src/app";
+import type { ApiKeyStore, NewApiKey } from "../src/core/api-keys";
 import type { Dataset } from "../src/core/store";
 
 const data = JSON.parse(
@@ -10,17 +11,161 @@ const data = JSON.parse(
     "utf8",
   ),
 ) as Dataset;
-const app = createApp(data);
-const env = { IMAGES_BASE_URL: "https://img.test" };
 
-async function get(path: string) {
-  const res = await app.request(`http://api.test${path}`, {}, env);
+class MemoryApiKeyStore implements ApiKeyStore {
+  rows = new Map<string, NewApiKey & { revokedAt: string | null }>();
+  lookups = 0;
+
+  async create(key: NewApiKey) {
+    this.rows.set(key.hash, { ...key, revokedAt: null });
+  }
+
+  async isActive(hash: string) {
+    this.lookups++;
+    const row = this.rows.get(hash);
+    return !!row && row.revokedAt === null;
+  }
+
+  async revoke(hash: string, revokedAt: string) {
+    const row = this.rows.get(hash);
+    if (!row || row.revokedAt !== null) return false;
+    row.revokedAt = revokedAt;
+    return true;
+  }
+}
+
+const keys = new MemoryApiKeyStore();
+const app = createApp(data, { apiKeys: () => keys });
+const env = { IMAGES_BASE_URL: "https://img.test" };
+let apiKey = "";
+
+async function send(
+  path: string,
+  init: RequestInit = {},
+  key: string | null = apiKey,
+) {
+  const headers = new Headers(init.headers);
+  if (key !== null) headers.set("X-API-Key", key);
+  const res = await app.request(
+    `http://api.test${path}`,
+    { ...init, headers },
+    env,
+  );
   return {
     status: res.status,
     headers: res.headers,
-    body: (await res.json()) as any,
+    body: res.status === 204 ? null : ((await res.json()) as any),
   };
 }
+
+const get = (path: string) => send(path);
+
+const createKey = (body?: unknown) =>
+  send(
+    "/api/v1/keys",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: body === undefined ? undefined : JSON.stringify(body),
+    },
+    null,
+  );
+
+beforeAll(async () => {
+  apiKey = (await createKey({ name: "tests" })).body.key;
+});
+
+describe("api keys", () => {
+  it("creates a key and stores only its hash", async () => {
+    const { status, body, headers } = await createKey({ name: "My app" });
+    expect(status).toBe(201);
+    expect(body.key).toMatch(/^gsk_[A-Za-z0-9_-]{43}$/);
+    expect(body.key.startsWith(body.prefix)).toBe(true);
+    expect(body.name).toBe("My app");
+    expect(headers.get("cache-control")).toBe("no-store");
+    const stored = [...keys.rows.values()].find((r) => r.prefix === body.prefix)!;
+    expect(stored.hash).toMatch(/^[0-9a-f]{64}$/);
+    expect(JSON.stringify(stored)).not.toContain(body.key);
+  });
+
+  it("creates a key without a body", async () => {
+    const { status, body } = await createKey();
+    expect(status).toBe(201);
+    expect(body.name).toBeNull();
+  });
+
+  it("rejects an invalid body", async () => {
+    expect((await createKey({ name: "" })).status).toBe(400);
+    expect((await createKey({ name: "x".repeat(101) })).status).toBe(400);
+    const res = await send(
+      "/api/v1/keys",
+      { method: "POST", body: "not json" },
+      null,
+    );
+    expect(res.status).toBe(400);
+  });
+
+  it("requires a key on every endpoint", async () => {
+    for (const path of ["/api/v1", "/api/v1/characters", "/api/v1/characters/hu-tao"]) {
+      const { status, body } = await send(path, {}, null);
+      expect(status).toBe(401);
+      expect(body.error.message).toContain("X-API-Key");
+    }
+  });
+
+  it("rejects unknown and malformed keys", async () => {
+    const unknown = `gsk_${"a".repeat(43)}`;
+    expect((await send("/api/v1/characters", {}, unknown)).status).toBe(401);
+    expect((await send("/api/v1/characters", {}, "nope")).status).toBe(401);
+  });
+
+  it("accepts a valid key and caches the verification", async () => {
+    const { body } = await createKey();
+    const before = keys.lookups;
+    expect((await send("/api/v1/characters", {}, body.key)).status).toBe(200);
+    expect((await send("/api/v1/elements", {}, body.key)).status).toBe(200);
+    expect(keys.lookups).toBe(before + 1);
+  });
+
+  it("revokes a key with the key itself", async () => {
+    const { body } = await createKey();
+    expect((await send("/api/v1/characters", {}, body.key)).status).toBe(200);
+    const revoked = await send("/api/v1/keys", { method: "DELETE" }, body.key);
+    expect(revoked.status).toBe(200);
+    expect(revoked.body.revoked).toBe(true);
+    expect((await send("/api/v1/characters", {}, body.key)).status).toBe(401);
+    expect((await send("/api/v1/keys", { method: "DELETE" }, body.key)).status).toBe(401);
+  });
+
+  it("requires a key to revoke", async () => {
+    expect((await send("/api/v1/keys", { method: "DELETE" }, null)).status).toBe(401);
+  });
+
+  it("allows the key header in CORS preflight requests", async () => {
+    const res = await app.request(
+      "http://api.test/api/v1/characters",
+      {
+        method: "OPTIONS",
+        headers: {
+          Origin: "https://example.com",
+          "Access-Control-Request-Method": "GET",
+          "Access-Control-Request-Headers": "x-api-key",
+        },
+      },
+      env,
+    );
+    expect(res.status).toBe(204);
+    expect(res.headers.get("access-control-allow-headers")).toContain("X-API-Key");
+  });
+
+  it("serves the API without keys when no key store is configured", async () => {
+    const open = createApp(data);
+    const res = await open.request("http://api.test/api/v1/characters", {}, env);
+    expect(res.status).toBe(200);
+    const create = await open.request("http://api.test/api/v1/keys", { method: "POST" }, env);
+    expect(create.status).toBe(404);
+  });
+});
 
 describe("index", () => {
   it("lists resources", async () => {

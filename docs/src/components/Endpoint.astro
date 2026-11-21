@@ -2,12 +2,13 @@
 interface Props {
   path: string;
   description?: string;
+  method?: "GET" | "POST" | "DELETE";
 }
-const { path, description } = Astro.props;
+const { path, description, method = "GET" } = Astro.props;
 ---
 
 <div class="endpoint">
-  <span class="method">GET</span>
+  <span class="method">{method}</span>
   <code class="path">{path}</code>
   {description && <span class="desc">{description}</span>}
 </div>

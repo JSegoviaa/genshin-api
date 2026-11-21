@@ -8,7 +8,9 @@ import { API_BASE, API_PREFIX, allResources, example } from "../../lib/api";
 
 const resources = allResources();
 const indexExample = await example(API_PREFIX, 10);
-const fetchExample = `const res = await fetch("${API_BASE}/characters/hu-tao");
+const fetchExample = `const res = await fetch("${API_BASE}/characters/hu-tao", {
+  headers: { "X-API-Key": "YOUR_API_KEY" },
+});
 const character = await res.json();
 
 console.log(character.name, character.element.name);`;
@@ -20,9 +22,10 @@ console.log(character.name, character.element.name);`;
 >
   <p>
     The Genshin API is a free, read-only REST API that serves Genshin Impact data
-    as JSON. There are no API keys and no authentication: every endpoint is a
-    plain <code>GET</code> request you can call from a browser, a server or a
-    terminal.
+    as JSON. Every endpoint is a plain <code>GET</code> request you can call
+    from a browser, a server or a terminal, sending your API key in the
+    <code>X-API-Key</code> header. Keys are free and require no sign-up: see
+    <a href="/docs/authentication/">Authentication</a> to get one.
   </p>
 
   <h2 id="base-url">Base URL</h2>
@@ -50,7 +53,7 @@ console.log(character.name, character.element.name);`;
 
   <p>Or from your own code:</p>
   <CodeBlock lang="js" title="JavaScript" code={fetchExample} />
-  <CodeBlock lang="bash" title="cURL" code={`curl ${API_BASE}/characters/hu-tao`} />
+  <CodeBlock lang="bash" title="cURL" code={`curl -H "X-API-Key: YOUR_API_KEY" ${API_BASE}/characters/hu-tao`} />
 
   <h2 id="resources">Available resources</h2>
   <table class="frame">
@@ -81,7 +84,7 @@ console.log(character.name, character.element.name);`;
 
   <Callout title="Caching" tone="tip">
     <p>
-      Responses are cacheable for one hour (<code>Cache-Control: public, max-age=3600</code>),
+      Responses are cacheable for one hour (<code>Cache-Control: private, max-age=3600</code>),
       except <code>/random</code>, which is never cached. CORS is enabled for every origin.
     </p>
   </Callout>

@@ -15,6 +15,7 @@ export const navigation: NavGroup[] = [
     title: "Getting Started",
     items: [
       { label: "Introduction", href: "/docs/" },
+      { label: "Authentication", href: "/docs/authentication/" },
       { label: "Pagination", href: "/docs/pagination/" },
       { label: "Filtering & Sorting", href: "/docs/filtering/" },
       { label: "Errors", href: "/docs/errors/" },
