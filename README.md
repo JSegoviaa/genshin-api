@@ -165,10 +165,22 @@ uses the R2 credentials, and the deployed Worker uses `IMAGES_BASE_URL` from `wr
 Deployments run in GitHub Actions (`.github/workflows/deploy.yml`) on every push. Each push typechecks,
 tests, builds the docs, applies the D1 migrations and deploys both Workers to the environment of its branch:
 
-| Branch | Environment | API Worker | Docs Worker | Docs API URL |
-|---|---|---|---|---|
-| `main` | production | `genshin-api` | `genshin-api-docs` | `docs/.env.production` |
-| `develop` | develop | `genshin-api-develop` | `genshin-api-docs-develop` | `docs/.env.develop` |
+| Branch | GitHub environment | API Worker | Docs Worker |
+|---|---|---|---|
+| `main` | `production` | `genshin-api` | `genshin-api-docs` |
+| `develop` | `develop` | `genshin-api-develop` | `genshin-api-docs-develop` |
+
+Each GitHub environment holds these secrets (secrets rather than variables, so they are masked in the
+public workflow logs):
+
+| Secret | Used for |
+|---|---|
+| `PUBLIC_API_URL` | API URL shown in the docs and called by "Try it" and the key generator |
+| `PUBLIC_TURNSTILE_SITE_KEY` | Turnstile widget site key (public once the docs are built) |
+| `TURNSTILE_SECRET_KEY` | Uploaded to the API Worker to validate Turnstile tokens |
+
+`CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` can be repository or environment secrets. The workflow
+fails if any of them is missing.
 
 The `develop` environment is declared as `[env.develop]` in `wrangler.toml` and `docs/wrangler.toml`
 (its `IMAGES_BASE_URL` lives in `[env.develop.vars]`). The workflow can also be run manually from the
@@ -187,15 +199,15 @@ Actions tab.
    each returned `database_id` in `wrangler.toml` (`[[d1_databases]]` and `[[env.develop.d1_databases]]`).
    The deploy workflow applies the migrations; the API token needs *D1 Edit* permission.
 5. **Turnstile**: Turnstile → Add widget, with the production and develop docs hostnames (or one widget
-   per environment). Put the site key in `PUBLIC_TURNSTILE_SITE_KEY` in `docs/.env.production` and
-   `docs/.env.develop`, and add the secret key as the `TURNSTILE_SECRET_KEY` secret of the `production` and
-   `develop` GitHub environments. The deploy workflow uploads it to the Worker on every deployment.
+   per environment). Add the site key as `PUBLIC_TURNSTILE_SITE_KEY` and the secret key as
+   `TURNSTILE_SECRET_KEY` to the `production` and `develop` GitHub environments. The deploy workflow uploads
+   the secret key to the Worker on every deployment.
 6. Cloudflare → My Profile → API Tokens → create a token from the *Edit Cloudflare Workers* template.
 7. GitHub → Settings → Secrets and variables → Actions → add `CLOUDFLARE_API_TOKEN` (the token) and
    `CLOUDFLARE_ACCOUNT_ID` (shown in the Workers & Pages overview).
 8. Push to `main` and `develop`. The APIs are available at `https://genshin-api.<your-subdomain>.workers.dev`
-   and `https://genshin-api-develop.<your-subdomain>.workers.dev`; put those URLs in `docs/.env.production`
-   and `docs/.env.develop`.
+   and `https://genshin-api-develop.<your-subdomain>.workers.dev` (or your custom domains); add each one as
+   the `PUBLIC_API_URL` secret of its GitHub environment.
 
 Images are not deployed by the workflow: run `npm run images:sync` after adding new images.
 
@@ -221,13 +233,17 @@ npm run preview:local  # build:local + serve docs/dist
 
 ### Environments
 
-The API URL used in examples and "Try it" boxes is `PUBLIC_API_URL`, picked by mode:
+The docs read `PUBLIC_API_URL` (API used in examples, "Try it" and the key generator) and
+`PUBLIC_TURNSTILE_SITE_KEY` from environment variables or from the `.env` file of the mode:
 
-| Command | Mode | File | API URL | Image URL (`IMAGES_BASE_URL`) |
-|---|---|---|---|---|
-| `npm run dev` | development | `docs/.env.development` | `http://localhost:8787` | `http://localhost:9100/genshin-images` |
-| `npm run build` | production | `docs/.env.production` | public API URL | from `wrangler.toml` unless set |
-| `npm run build -- --mode develop` | develop | `docs/.env.develop` | develop API URL | from `wrangler.toml` unless set |
+| Command | Mode | Values |
+|---|---|---|
+| `npm run dev` / `npm run build:local` | development | `docs/.env.development` (in git): local API, local images and Turnstile test key |
+| `npm run build` | production | environment variables (set by the deploy workflow) or a git-ignored `docs/.env.production` |
+
+`IMAGES_BASE_URL` comes from `wrangler.toml` unless set. `docs/.env.production` and `docs/.env.develop`
+are git-ignored so the deployment URLs stay out of the public repository; when the values are missing the
+build warns and uses placeholders.
 
 The API follows the same rule: `wrangler dev` reads `IMAGES_BASE_URL` from `.dev.vars` and the deployed
 Worker from `wrangler.toml`. Restart the dev servers after changing these files.
@@ -235,8 +251,7 @@ Worker from `wrangler.toml`. Restart the dev servers after changing these files.
 In development a "Local" badge in the header shows which API the docs are using. To test locally,
 run `npm run dev` in the project root (API) and in `docs/` (docs) at the same time.
 
-Update `docs/.env.production` and `docs/.env.develop` with the real API URLs before deploying; the build warns while they are
-placeholders. For personal overrides use `docs/.env.development.local` (ignored by git).
+For personal overrides use `docs/.env.development.local` (ignored by git).
 
 ## Data sources
 

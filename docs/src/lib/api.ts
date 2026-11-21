@@ -15,33 +15,20 @@ const app = createApp(data);
 
 const { MODE, DEV, PUBLIC_API_URL, PUBLIC_TURNSTILE_SITE_KEY } = import.meta.env;
 
-if (!PUBLIC_API_URL) {
-  throw new Error(
-    `PUBLIC_API_URL is not set for mode "${MODE}". Add it to docs/.env.${MODE}`,
-  );
-}
-
-if (!DEV && PUBLIC_API_URL.includes("REPLACE_ME")) {
+const missing = (name: string) =>
   console.warn(
-    `⚠ PUBLIC_API_URL is still a placeholder (${PUBLIC_API_URL}). Update docs/.env.${MODE} before deploying.`,
+    `⚠ ${name} is not set. Set it as an environment variable or in docs/.env.${MODE} (git-ignored).`,
   );
-}
 
-if (!PUBLIC_TURNSTILE_SITE_KEY) {
-  throw new Error(
-    `PUBLIC_TURNSTILE_SITE_KEY is not set for mode "${MODE}". Add it to docs/.env.${MODE}`,
-  );
-}
+if (!PUBLIC_API_URL) missing("PUBLIC_API_URL");
+if (!PUBLIC_TURNSTILE_SITE_KEY) missing("PUBLIC_TURNSTILE_SITE_KEY");
 
-if (!DEV && PUBLIC_TURNSTILE_SITE_KEY.includes("REPLACE_ME")) {
-  console.warn(
-    `⚠ PUBLIC_TURNSTILE_SITE_KEY is still a placeholder. Update docs/.env.${MODE} before deploying.`,
-  );
-}
-
-export const TURNSTILE_SITE_KEY = PUBLIC_TURNSTILE_SITE_KEY;
+export const TURNSTILE_SITE_KEY = PUBLIC_TURNSTILE_SITE_KEY ?? "";
 export const IS_LOCAL = DEV;
-export const API_URL = PUBLIC_API_URL.replace(/\/+$/, "");
+export const API_URL = (PUBLIC_API_URL || "https://api.example.com").replace(
+  /\/+$/,
+  "",
+);
 
 export const API_BASE = `${API_URL}${API_PREFIX}`;
 

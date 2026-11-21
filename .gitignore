@@ -9,3 +9,5 @@ dist/
 *.local
 local/
 .claude/
+docs/.env.production
+docs/.env.develop
